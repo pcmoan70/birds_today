@@ -43,12 +43,14 @@ TEST_CODES = ["gretit1", "blutit", "eurrob1", "eurbla", "comcha", "eurmag1",
 
 # Short style tag for the CLIP encoder (77-token limit); the full prompt goes
 # to T5 (prompt_2) so nothing is truncated.
-STYLE_TAG = ("Audubon-style hand-coloured naturalist bird plate, watercolour and "
-             "ink, cream paper, no text")
-STYLE = ("a hand-coloured naturalist plate in the style of John James Audubon, "
-         "watercolour and ink, fine feather detail, scientifically accurate, "
-         "single bird, full body, on aged cream paper background, "
-         "no text, no border")
+# IMPORTANT: ask for the BIRD ONLY on a plain background — NOT a "plate on paper"
+# (that renders a paper sheet with caption/border that the matting then keeps).
+STYLE_TAG = ("Audubon-style watercolour painting of a single bird, plain white "
+             "background, no text, no border")
+STYLE = ("a detailed hand-coloured watercolour and ink painting of a single bird "
+         "in the style of John James Audubon, fine feather detail, scientifically "
+         "accurate, full body, the bird only, isolated on a plain solid white "
+         "background, no paper texture, no border, no frame, no caption, no text")
 # Reinforce correct avian anatomy — keeps wings natural rather than warped.
 ANATOMY = ("anatomically correct, exactly two wings in a natural realistic "
            "position with properly layered flight feathers, correct wing "
@@ -146,7 +148,7 @@ def main():
 
     print(f"Loading {args.model} (fp8={not args.no_fp8})...")
     pipe = load_pipeline(args.model, args.lora, fp8=not args.no_fp8)
-    rembg_session = new_session("u2net")
+    rembg_session = new_session("birefnet-general")  # high-quality matting
 
     for code in codes:
         sp = by_code.get(code, {})

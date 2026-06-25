@@ -274,6 +274,50 @@
     var t; return function () { clearTimeout(t); t = setTimeout(fn, ms); };
   }
 
+  // ---- Location + map -------------------------------------------------------
+  async function setLocation(lat, lon, name) {
+    S.lat = lat; S.lon = lon;
+    document.getElementById("place").textContent =
+      "📍 " + (name || (lat.toFixed(2) + ", " + lon.toFixed(2)));
+    var inputs = new Float32Array(48 * 3);
+    for (var w = 0; w < 48; w++) {
+      inputs[w * 3] = lat; inputs[w * 3 + 1] = lon; inputs[w * 3 + 2] = w + 1;
+    }
+    setStatus("…");
+    S.allProbs = await runInference(inputs, 48);
+    render();
+  }
+
+  var _map = null, _marker = null;
+  function openMap() {
+    var modal = document.getElementById("map-modal");
+    modal.hidden = false;
+    if (!_map) {
+      _map = L.map("map").setView([S.lat, S.lon], 4);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        { maxZoom: 12, attribution: "© OpenStreetMap" }).addTo(_map);
+      _marker = L.marker([S.lat, S.lon]).addTo(_map);
+      _map.on("click", function (e) {
+        _marker.setLatLng(e.latlng);
+        modal.hidden = true;
+        setLocation(e.latlng.lat, e.latlng.lng, null);
+      });
+    } else {
+      _marker.setLatLng([S.lat, S.lon]); _map.setView([S.lat, S.lon]);
+    }
+    setTimeout(function () { _map.invalidateSize(); }, 60);  // size known after unhide
+  }
+
+  function setupMap() {
+    document.getElementById("place").addEventListener("click", openMap);
+    document.getElementById("map-close").addEventListener("click", function () {
+      document.getElementById("map-modal").hidden = true;
+    });
+    document.getElementById("map-modal").addEventListener("click", function (e) {
+      if (e.target.id === "map-modal") e.currentTarget.hidden = true;
+    });
+  }
+
   // ---- Boot -----------------------------------------------------------------
   function getLocation() {
     return new Promise(function (resolve) {
@@ -301,19 +345,11 @@
         loadTaxonomy(taxText, S.manifest);
       }
       setupControls();
+      setupMap();
 
-      var loc = await getLocation();
-      S.lat = loc.lat; S.lon = loc.lon;
-      document.getElementById("place").textContent =
-        (loc.name || (loc.lat.toFixed(2) + ", " + loc.lon.toFixed(2)));
       S.week = birdNetWeek(new Date());
-
-      var inputs = new Float32Array(48 * 3);
-      for (var w = 0; w < 48; w++) {
-        inputs[w * 3] = S.lat; inputs[w * 3 + 1] = S.lon; inputs[w * 3 + 2] = w + 1;
-      }
-      S.allProbs = await runInference(inputs, 48);
-      render();
+      var loc = await getLocation();
+      await setLocation(loc.lat, loc.lon, loc.name);
     } catch (err) {
       console.error(err);
       document.getElementById("hint").textContent = "Failed to load: " + err.message;

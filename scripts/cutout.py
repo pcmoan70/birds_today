@@ -89,7 +89,7 @@ def process_image(path, session, max_edge):
     return cut_pil(Image.open(path), session, max_edge)
 
 
-def run(model="u2net", max_edge=640, raw=RAW_DIR, out=OUT_DIR, codes=None):
+def run(model="birefnet-general", max_edge=640, raw=RAW_DIR, out=OUT_DIR, codes=None):
     """Cut out raw images -> transparent PNGs. `codes` limits to those species."""
     session = new_session(model)
     if not os.path.isdir(raw):
@@ -135,7 +135,7 @@ def run(model="u2net", max_edge=640, raw=RAW_DIR, out=OUT_DIR, codes=None):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="u2net", help="rembg model name")
+    ap.add_argument("--model", default="birefnet-general", help="rembg model name")
     ap.add_argument("--max-edge", type=int, default=640)
     ap.add_argument("--raw", default=RAW_DIR)
     ap.add_argument("--out", default=OUT_DIR)

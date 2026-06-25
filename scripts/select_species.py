@@ -25,7 +25,7 @@ MODEL = os.path.join(os.path.dirname(HERE), "docs", "geomodel_fp16.onnx")
 LABELS = os.path.join(os.path.dirname(HERE), "docs", "labels.txt")
 OUT = os.path.join(HERE, "selected_species.txt")
 
-# Representative points spanning the region (Sweden + nearby), south to north.
+# Representative points spanning Sweden + nearby (default), south to north.
 POINTS = {
     "Malmo": (55.60, 13.00), "Goteborg": (57.71, 11.97),
     "Stockholm": (59.33, 18.07), "Sundsvall": (62.39, 17.31),
@@ -33,19 +33,32 @@ POINTS = {
 }
 
 
-def peak_by_code():
+def europe_grid(step=4.0):
+    """A lat/lon grid covering Europe (Iberia/Ireland to W Russia, Med to N Cape)."""
+    pts = {}
+    lat = 36.0
+    while lat <= 71.0:
+        lon = -10.0
+        while lon <= 40.0:
+            pts[f"{lat:.0f},{lon:.0f}"] = (lat, lon)
+            lon += step
+        lat += step
+    return pts
+
+
+def peak_by_code(points):
     sess = ort.InferenceSession(MODEL, providers=["CPUExecutionProvider"])
     codes = [l.split("\t")[0] for l in
              open(LABELS, encoding="utf-8").read().strip().split("\n")]
     n = len(codes)
     peak = np.zeros(n, dtype=np.float32)
-    for name, (lat, lon) in POINTS.items():
+    for name, (lat, lon) in points.items():
         inp = np.zeros((48, 3), dtype=np.float32)
         for w in range(48):
             inp[w] = [lat, lon, w + 1]
         out = sess.run(None, {"input": inp})[0]  # 48 x n
         peak = np.maximum(peak, out.max(axis=0))
-        print(f"  ran {name}")
+    print(f"  ran {len(points)} points")
     return codes, peak
 
 
@@ -54,10 +67,13 @@ def main():
     ap.add_argument("--threshold", type=float, default=0.15,
                     help="min peak weekly probability at any point")
     ap.add_argument("--top", type=int, default=0, help="cap to top-N (0 = no cap)")
+    ap.add_argument("--europe", action="store_true",
+                    help="select across a Europe-wide grid instead of Sweden")
     args = ap.parse_args()
 
+    points = europe_grid() if args.europe else POINTS
     birds = {s["code"]: s for s in load_species()}  # aves only
-    codes, peak = peak_by_code()
+    codes, peak = peak_by_code(points)
     scored = []
     for i, code in enumerate(codes):
         if code in birds and peak[i] >= args.threshold:
