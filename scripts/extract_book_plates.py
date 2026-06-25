@@ -66,7 +66,7 @@ def book_csv(book):
 
 CSV_FIELDS = ["book", "title", "author", "year", "source", "identifier",
               "volume", "leaf", "species_common", "species_sci", "caption_text",
-              "page_url", "image_url", "colorfulness", "file", "caption_file",
+              "page_url", "image_url", "colorfulness", "file", "label_file",
               "saved_at"]
 
 # Confirmed Internet Archive identifiers (resolved via the IA search API).
@@ -194,6 +194,21 @@ def _rounded_mask(size, box, radius):
     return np.asarray(m) > 0
 
 
+def rounded_label(rect_rgb, pad=12, radius_frac=0.18):
+    """The caption as a standalone label graphic: white rounded panel with the
+    caption text, transparent outside the rounded corners (RGBA PNG)."""
+    w, h = rect_rgb.size
+    bw, bh = w + 2 * pad, h + 2 * pad
+    base = Image.new("RGB", (bw, bh), (255, 255, 255))
+    base.paste(rect_rgb, (pad, pad))
+    out = base.convert("RGBA")
+    mask = Image.new("L", (bw, bh), 0)
+    rad = max(8, int(min(bw, bh) * radius_frac))
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, bw - 1, bh - 1), radius=rad, fill=255)
+    out.putalpha(mask)
+    return out
+
+
 def detect_caption_box(rgb, caption_zone=0.22):
     """Bounding box of the black, low-saturation caption text in the bottom
     band, or None. Coloured illustration (which has saturation) is ignored."""
@@ -271,6 +286,10 @@ def ocr_text(img):
     eng = _ocr_engine()
     if not eng:
         return ""
+    if img.mode == "RGBA":  # flatten the rounded label onto white for OCR
+        bg = Image.new("RGB", img.size, (255, 255, 255))
+        bg.paste(img, mask=img.split()[3])
+        img = bg
     if img.width < 900:
         img = img.resize((900, round(img.height * 900 / img.width)))
     kind, obj = eng
@@ -341,10 +360,10 @@ def process_leaf(cfg, leaf):
     base = _leaf_png(cfg["out"], leaf)[:-4]
     box = detect_caption_box(plate)
     to_transparent(plate, box).save(base + ".png", optimize=True)
-    caption_file = ""
+    label_file = ""
     if box:
-        plate.crop(box).save(base + "_caption.png")
-        caption_file = os.path.relpath(base + "_caption.png", OUT_DIR)
+        rounded_label(plate.crop(box)).save(base + "_label.png")
+        label_file = os.path.relpath(base + "_label.png", OUT_DIR)
     return {
         "book": cfg["book"], "title": cfg["title"], "author": cfg["author"],
         "year": cfg["year"], "source": "Internet Archive", "identifier": ident,
@@ -354,14 +373,14 @@ def process_leaf(cfg, leaf):
         "image_url": page_image_url(ident, leaf, cfg["width"]),
         "colorfulness": round(score, 1),
         "file": os.path.relpath(base + ".png", OUT_DIR),
-        "caption_file": caption_file,
+        "label_file": label_file,
         "saved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
 
 
 def fill_species(prov):
     """OCR the saved caption crop -> species_common / species_sci / caption_text."""
-    cap = prov.get("caption_file")
+    cap = prov.get("label_file")
     if cap and os.path.exists(os.path.join(OUT_DIR, cap)):
         txt = ocr_text(Image.open(os.path.join(OUT_DIR, cap)))
         if txt.strip():
