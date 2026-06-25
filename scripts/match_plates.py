@@ -154,18 +154,49 @@ PLATE_WIDTH = 1000   # source width used during extraction (cache key)
 
 
 def _facing(rgba):
-    """Which way the bird faces ('left'/'right'), from the transparent plate.
-    Same head-band heuristic as scripts/build_manifest.py."""
+    """Which way the bird faces ('left'/'right'). Head = top band of the bird;
+    if it sits left of the body centroid the bird faces left. Pale background
+    washes are excluded (dark/saturated ink only) so scenic plates aren't fooled."""
     import numpy as np
-    a = np.asarray(rgba)[:, :, 3] > 16
-    ys, xs = np.where(a)
+    arr = np.asarray(rgba).astype(np.float32)
+    a = arr[:, :, 3]
+    rgb = arr[:, :, :3]
+    lum = rgb.mean(2)
+    mx, mn = rgb.max(2), rgb.min(2)
+    sat = (mx - mn) / np.clip(mx, 1, None)
+    bird = (a > 60) & ((lum < 170) | (sat > 0.28))   # the bird's ink, not paper/sky
+    if bird.sum() < 40:
+        bird = a > 40
+    ys, xs = np.where(bird)
     if len(xs) < 10:
         return "right"
     y0, y1 = ys.min(), ys.max()
-    band = ys <= y0 + 0.20 * (y1 - y0 + 1)
-    if band.sum() < 5:
+    band = ys <= y0 + 0.22 * (y1 - y0 + 1)
+    if band.sum() < 8:
         band = ys <= y0 + 0.40 * (y1 - y0 + 1)
     return "left" if xs[band].mean() < xs.mean() else "right"
+
+
+def _autocrop(rgba, thr=55, keep=0.995, pad=0.04):
+    """Crop the page down to the illustration so the species name sits right
+    under the bird (not at the bottom of a full transparent page). Uses content
+    percentiles so a stray speck in the margin can't defeat the crop."""
+    import numpy as np
+    a = np.asarray(rgba)[:, :, 3]
+    ys, xs = np.where(a > thr)
+    if len(xs) < 20:
+        ys, xs = np.where(a > 16)
+    if len(xs) < 20:
+        return rgba
+    lo, hi = (1 - keep) / 2 * 100, (1 + keep) / 2 * 100
+    x0, x1 = np.percentile(xs, [lo, hi])
+    y0, y1 = np.percentile(ys, [lo, hi])
+    w, h = rgba.size
+    px = int((x1 - x0) * pad) + 2
+    py = int((y1 - y0) * pad) + 2
+    box = (max(0, int(x0) - px), max(0, int(y0) - py),
+           min(w, int(x1) + px + 1), min(h, int(y1) + py + 1))
+    return rgba.crop(box)
 
 
 def _regen_plate(task):
@@ -185,6 +216,7 @@ def _regen_plate(task):
                                   round(plate.height * PLATE_WIDTH / plate.width)))
         plate, _b, _c, _s, _t = EX.orient_and_label(plate)
         rgba = EX.to_transparent(plate)          # no place_label => no white panel
+        rgba = _autocrop(rgba)                    # tighten page to the illustration
         rgba.thumbnail((max_edge, max_edge))
         face = _facing(rgba)
         from vignette_plates import apply_vignette

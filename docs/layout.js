@@ -12,8 +12,8 @@
  */
 window.BirdLayout = (function () {
   var TOP = 70;            // header reserve
-  var MIN_FRAC = 0.06, MAX_FRAC = 0.15; // bird size range (frac of min side)
-  var GAP = 16;            // extra px between birds (room for the name caption)
+  var MIN_FRAC = 0.045, MAX_FRAC = 0.12; // bird size range (frac of min side)
+  var GAP = 6;             // extra px between birds (denser packing)
   var SHRINK = [1, 0.85, 0.72];         // try full size, then a bit smaller
   var ATTEMPTS = 200;
 
@@ -21,8 +21,8 @@ window.BirdLayout = (function () {
     var minSide = Math.min(W, H);
     var cx = W / 2, cy = (H + TOP) / 2;
     var maxV = items.reduce(function (m, it) { return Math.max(m, it.value); }, 1e-6);
-    var minPx = Math.max(46, minSide * MIN_FRAC);
-    var maxPx = Math.max(90, minSide * MAX_FRAC);
+    var minPx = Math.max(36, minSide * MIN_FRAC);
+    var maxPx = Math.max(72, minSide * MAX_FRAC);
     var XS = 1.15, YS = 0.82;             // stretch to fill widescreen
 
     // Highest-value species first, placed from the centre outward: the biggest
@@ -67,8 +67,8 @@ window.BirdLayout = (function () {
     var minSide = Math.min(W, H);
     var cx = W / 2, cy = (H + TOP) / 2;
     var maxV = items.reduce(function (m, it) { return Math.max(m, it.value); }, 1e-6);
-    var minPx = Math.max(46, minSide * MIN_FRAC);
-    var maxPx = Math.max(90, minSide * 0.16);
+    var minPx = Math.max(36, minSide * MIN_FRAC);
+    var maxPx = Math.max(72, minSide * 0.13);
     var golden = Math.PI * (3 - Math.sqrt(5));   // ~2.39996 rad
     var C = (minPx + maxPx) * 0.32;              // spiral tightness
     var XS = 1.15, YS = 0.82;                    // stretch to fill widescreen
