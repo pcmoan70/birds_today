@@ -57,6 +57,9 @@ sys.stdout.reconfigure(encoding="utf-8")
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 OUT_DIR = os.path.join(ROOT, "book_plates")          # local; gitignored
+# Raw downloaded page images, cached so re-runs don't re-hit Internet Archive.
+# Kept outside OUT_DIR so clearing book_plates/ doesn't wipe the cache.
+CACHE_DIR = os.path.join(ROOT, ".ia_cache")
 
 
 def book_csv(book):
@@ -147,13 +150,27 @@ def page_url(identifier, leaf):
 
 
 def fetch_image(identifier, leaf, width):
+    """Download a page image, caching the raw bytes locally so re-runs (and the
+    scan + full-size fetches of the same leaf) never re-hit Internet Archive."""
+    cpath = os.path.join(CACHE_DIR, identifier, f"n{leaf}_w{width}.jpg")
+    if os.path.exists(cpath):
+        try:
+            return Image.open(cpath).convert("RGB")
+        except OSError:
+            pass  # corrupt cache entry -> re-download
     r = _get(page_image_url(identifier, leaf, width))
     if not r or not r.content:
         return None
     try:
-        return Image.open(io.BytesIO(r.content)).convert("RGB")
+        img = Image.open(io.BytesIO(r.content)).convert("RGB")
     except OSError:
         return None
+    os.makedirs(os.path.dirname(cpath), exist_ok=True)
+    tmp = cpath + ".part"
+    with open(tmp, "wb") as f:  # write-then-rename so a kill can't leave a partial
+        f.write(r.content)
+    os.replace(tmp, cpath)
+    return img
 
 
 def colorfulness(im):

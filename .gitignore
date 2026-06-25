@@ -30,3 +30,6 @@ scripts/*.err
 
 # Extracted public-domain book plates (local; large — keep off Pages/repo)
 book_plates/
+
+# Cached raw page-image downloads from Internet Archive (local; large)
+.ia_cache/
