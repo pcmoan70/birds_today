@@ -24,6 +24,7 @@ Usage:
 import argparse
 import json
 import os
+import re
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -128,14 +129,36 @@ def load_pipeline(model_id, lora=None, fp8=True):
     return pipe
 
 
+# Distribution/migration maps occasionally slip into the scraped references
+# (e.g. "Circus_cyaneus_breeding_area.png"). Fed to img2img they can survive as a
+# map instead of a bird, so skip any reference whose source URL looks like a map.
+MAP_URL = re.compile(
+    r"(distribution|verbreitung|migration|range_map|_range\b|bird_range|"
+    r"breeding_area|_area_frei|areale|aire[_-]?de[_-]?r|mapa[_-]|_map\.|"
+    r"map\.png|map\.svg|map_|wintering_range|distrib)", re.I)
+
+
+def _is_map_ref(path):
+    """True if the reference's sidecar URL matches a distribution-map pattern."""
+    try:
+        with open(path + ".json", encoding="utf-8") as f:
+            return bool(MAP_URL.search(json.load(f).get("url", "")))
+    except Exception:
+        return False
+
+
 def ref_images(code, pose, want):
-    """Pick up to `want` reference photos for a species+pose from raw/."""
+    """Pick up to `want` reference photos for a species+pose from raw/.
+
+    Map-like references are dropped; they're used only as a last resort if a
+    species+pose has nothing else, so we never silently skip a bird."""
     d = os.path.join(RAW_DIR, code)
     if not os.path.isdir(d):
         return []
-    files = sorted(f for f in os.listdir(d)
+    files = sorted(os.path.join(d, f) for f in os.listdir(d)
                    if f.startswith(pose + "_") and not f.endswith(".json"))
-    return [os.path.join(d, f) for f in files[:want]]
+    birds = [f for f in files if not _is_map_ref(f)]
+    return (birds or files)[:want]
 
 
 def render_one(pipe, rembg_session, common, sci, marks, pose, ref_path, idx,
