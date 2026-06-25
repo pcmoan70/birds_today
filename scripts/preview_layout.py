@@ -20,6 +20,8 @@ import numpy as np  # noqa: E402
 import onnxruntime as ort  # noqa: E402
 from PIL import Image, ImageFilter  # noqa: E402
 
+from build_manifest import detect_facing  # noqa: E402
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(os.path.dirname(HERE), "docs")
 BIRDS = os.path.join(DOCS, "birds")
@@ -70,32 +72,30 @@ def place(items, W, H, top=70):
     # exaggeration), gentle range.
     minpx, maxpx = max(46, minside * 0.06), max(90, minside * 0.15)
 
+    gap = 8  # extra px between birds
     placed = []
     for it in sorted(items, key=lambda d: -d["value"]):
-        t = it["value"] / vmax                          # 0..1 vs the strongest
-        size = minpx + (maxpx - minpx) * t
-        best, best_pen = None, 1e18
-        for _ in range(120):
-            x = random.uniform(size / 2, W - size / 2)
-            y = random.uniform(top + size / 2, H - size / 2)
-            # reject the empty centre (scaled by size so big birds stay further out)
-            ex = (x - cx) / (inner_x + size * 0.5)
-            ey = (y - cy) / (inner_y + size * 0.5)
-            if ex * ex + ey * ey < 1.0:
-                continue
-            pen = 0.0
-            for q in placed:
-                d = math.hypot(x - q[0], y - q[1])
-                mind = (size + q[2]) * 0.55   # medium spacing (less overlap)
-                if d < mind:
-                    pen += mind - d
-            if pen < best_pen:
-                best_pen, best = pen, (x, y, size)
-            if pen == 0:
+        base = minpx + (maxpx - minpx) * (it["value"] / vmax)
+        spot = None
+        # Try full size, then shrink a little; never allow any overlap.
+        for sf in (1.0, 0.85, 0.72):
+            size = base * sf
+            for _ in range(200):
+                x = random.uniform(size / 2, W - size / 2)
+                y = random.uniform(top + size / 2, H - size / 2)
+                ex = (x - cx) / (inner_x + size * 0.5)
+                ey = (y - cy) / (inner_y + size * 0.5)
+                if ex * ex + ey * ey < 1.0:           # keep the empty centre clear
+                    continue
+                if all(math.hypot(x - q[0], y - q[1]) >= (size + q[2]) * 0.5 + gap
+                       for q in placed):
+                    spot = (x, y, size)
+                    break
+            if spot:
                 break
-        if best:
-            placed.append(best)
-            it["_pos"] = best
+        if spot:                                       # else: doesn't fit -> skip
+            placed.append(spot)
+            it["_pos"] = spot
     return [it for it in items if "_pos" in it]
 
 
@@ -151,9 +151,15 @@ def main():
     print(f"Mode {args.mode}: {len(items)} species with {stance} plates, week {args.week}")
 
     canvas = background(args.width, args.height)
+    cx = args.width / 2
     for it in place(items, args.width, args.height):
         cut = Image.open(it["img"]).convert("RGBA")
         x, y, size = it["_pos"]
+        # Flip so the bird faces the centre: right-side birds should face left
+        # and vice-versa.
+        faces = detect_facing(it["img"])
+        if (x > cx and faces == "right") or (x < cx and faces == "left"):
+            cut = cut.transpose(Image.FLIP_LEFT_RIGHT)
         paste_with_shadow(canvas, cut, x, y, size)
     canvas.convert("RGB").save(args.out, quality=92)
     print("saved", args.out)

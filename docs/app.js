@@ -109,6 +109,23 @@
     }
   }
 
+  // Preferred path: names embedded in the manifest (lets us skip the 10 MB
+  // taxonomy.csv download — important for free GitHub Pages bandwidth).
+  function useManifestNames() {
+    var has = false;
+    for (var c in S.manifest) { if (S.manifest[c].names) { has = true; break; } }
+    if (!has) return false;
+    var langset = {};
+    for (var code in S.manifest) {
+      var e = S.manifest[code];
+      S.tax[code] = { sci: e.sci || "", names: e.names || {} };
+      for (var lg in (e.names || {})) langset[lg] = 1;
+    }
+    S.langs = Object.keys(langset);
+    if (S.langs.indexOf("en") < 0) S.langs.unshift("en");
+    return true;
+  }
+
   function nameFor(code) {
     var rec = S.tax[code];
     var common = (rec && (rec.names[S.lang] || rec.names.en)) ||
@@ -175,6 +192,12 @@
       el.style.width = it.size + "px";
       var im = document.createElement("img");
       im.src = "birds/" + it.img; im.alt = nameFor(it.code).common;
+      // Flip the bird to face the centre of the page.
+      var faces = (S.manifest[it.code].faces || {})[it.img];
+      var halfW = window.innerWidth / 2;
+      if ((it.x > halfW && faces === "right") || (it.x < halfW && faces === "left")) {
+        im.style.transform = "scaleX(-1)";
+      }
       el.appendChild(im);
 
       var fb = document.createElement("div");
@@ -259,12 +282,16 @@
       var texts = await Promise.all([
         fetch(LABELS_URL).then(function (r) { return r.text(); }),
         fetch(MANIFEST_URL).then(function (r) { return r.json(); }),
-        fetch(TAX_URL).then(function (r) { return r.text(); }),
         initWorker(),
       ]);
       loadLabels(texts[0]);
       S.manifest = texts[1];
-      loadTaxonomy(texts[2], S.manifest);
+      // Names come from the manifest when present; otherwise fall back to the
+      // (large) taxonomy.csv for backward compatibility.
+      if (!useManifestNames()) {
+        var taxText = await fetch(TAX_URL).then(function (r) { return r.text(); });
+        loadTaxonomy(taxText, S.manifest);
+      }
       setupControls();
 
       var loc = await getLocation();
