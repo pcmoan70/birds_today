@@ -111,6 +111,11 @@ applies (downvote → regenerate with new seed/reference). See discussion for mo
       `scripts/species_prompts.json` (field marks, 12 test species), `cutout.cut_pil()` shared.
 - [~] First validation render in progress (FLUX.1-dev downloading ~24 GB, then gretit1+eurgol1).
 - [ ] Judge plates; tune --strength/--guidance/--steps; consider training an Audubon style LoRA.
+- [x] `scripts/select_species.py` — model-driven regional selection (peak prob across Swedish
+      points). Sweden has ~250 regular species; `selected_species.txt` = top 100 most-likely.
+- [~] Scale-up running: fetch refs + FLUX generate (num 1) + manifest for top 100 (~3h, resumable).
+      `--codes-file` added to fetch_images/generate; generate prompt now works without field marks.
+- [ ] Continue to full regional set (~250, threshold 0.2) after top-100 lands; deepen variants (num 2).
 - [ ] `scripts/describe.py` (Claude → field marks at scale, for all species).
 - [ ] Repoint feedback_refresh to regenerate (FLUX) instead of refetch.
 - [ ] More reference sources (for grounding, esp. Nordic species + landing/takeoff poses):

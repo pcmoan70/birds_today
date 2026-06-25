@@ -129,6 +129,8 @@ def main():
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--test", action="store_true", help="dozen Nordic species")
     g.add_argument("--sci", help="comma-separated scientific names")
+    g.add_argument("--codes-file", help="file with a species code in the first "
+                                        "tab-separated column per line")
     g.add_argument("--all", action="store_true", help="all model birds")
     ap.add_argument("--limit", type=int, default=0, help="cap species count")
     ap.add_argument("--per-pose", type=int, default=6)
@@ -138,6 +140,13 @@ def main():
         species = resolve_sci(TEST_SCI)
     elif args.sci:
         species = resolve_sci([s for s in args.sci.split(",") if s.strip()])
+    elif args.codes_file:
+        by_code = {s["code"]: s for s in load_species()}
+        species = []
+        for line in open(args.codes_file, encoding="utf-8"):
+            code = line.split("\t")[0].strip()
+            if code in by_code:
+                species.append(by_code[code])
     else:
         species = load_species()
     if args.limit:

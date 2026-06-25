@@ -16,3 +16,6 @@ scripts/votes.csv
 
 # Inspiration-only asset for the AI model — kept local, not published
 layout.png
+
+# layout preview renders (temporary)
+scripts/layout_preview*.png

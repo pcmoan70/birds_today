@@ -75,9 +75,11 @@ STANCES = {
 
 
 def build_prompt(common, sci, marks, stance):
-    """Full prompt for the T5 encoder (prompt_2)."""
-    return (f"{STYLE}. A {common} ({sci}), {STANCES[stance]['desc']}. "
-            f"Distinctive features: {marks}. {ANATOMY}.")
+    """Full prompt for the T5 encoder (prompt_2). Field marks are optional —
+    when absent, the reference photo + species name carry the appearance."""
+    feat = f" Distinctive features: {marks}." if marks else ""
+    return (f"{STYLE}. A {common} ({sci}), {STANCES[stance]['desc']}.{feat} "
+            f"{ANATOMY}.")
 
 
 def load_pipeline(model_id, lora=None, fp8=True):
@@ -111,6 +113,8 @@ def main():
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--test", action="store_true")
     g.add_argument("--codes", help="comma-separated species codes")
+    g.add_argument("--codes-file", help="file with a species code in the first "
+                                        "tab-separated column per line")
     ap.add_argument("--model", default="black-forest-labs/FLUX.1-dev")
     ap.add_argument("--lora", help="optional style LoRA .safetensors")
     ap.add_argument("--num", type=int, default=2, help="plates per stance")
@@ -126,7 +130,13 @@ def main():
     ap.add_argument("--no-fp8", action="store_true")
     args = ap.parse_args()
 
-    codes = TEST_CODES if args.test else [c.strip() for c in args.codes.split(",")]
+    if args.test:
+        codes = TEST_CODES
+    elif args.codes_file:
+        codes = [ln.split("\t")[0].strip() for ln in
+                 open(args.codes_file, encoding="utf-8") if ln.strip()]
+    else:
+        codes = [c.strip() for c in args.codes.split(",")]
     poses = [p for p in args.poses.split(",") if p]
     bad = [p for p in poses if p not in STANCES]
     if bad:
