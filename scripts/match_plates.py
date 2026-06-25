@@ -134,6 +134,52 @@ def match(plate, sci2code, com2code, strip2code, compact2code, sci_keys,
     return None, None
 
 
+PLATE_WIDTH = 1000   # source width used during extraction (cache key)
+
+
+def _facing(rgba):
+    """Which way the bird faces ('left'/'right'), from the transparent plate.
+    Same head-band heuristic as scripts/build_manifest.py."""
+    import numpy as np
+    a = np.asarray(rgba)[:, :, 3] > 16
+    ys, xs = np.where(a)
+    if len(xs) < 10:
+        return "right"
+    y0, y1 = ys.min(), ys.max()
+    band = ys <= y0 + 0.20 * (y1 - y0 + 1)
+    if band.sum() < 5:
+        band = ys <= y0 + 0.40 * (y1 - y0 + 1)
+    return "left" if xs[band].mean() < xs.mean() else "right"
+
+
+def _regen_plate(task):
+    """Worker: rebuild one web plate from the local IA cache WITHOUT the white
+    label panel (re-clean, re-orient, paper->transparent only), detect facing,
+    downscale and palette-quantize. Returns (code, book, facing) or ('ERR',...)."""
+    code, book, identifier, leaf, max_edge = task
+    try:
+        import extract_book_plates as EX
+        from PIL import Image
+        full = EX.fetch_image(identifier, int(leaf), PLATE_WIDTH)
+        if full is None:
+            return None
+        plate = EX.clean_plate(full)
+        if plate.width > PLATE_WIDTH:
+            plate = plate.resize((PLATE_WIDTH,
+                                  round(plate.height * PLATE_WIDTH / plate.width)))
+        plate, _b, _c, _s, _t = EX.orient_and_label(plate)
+        rgba = EX.to_transparent(plate)          # no place_label => no white panel
+        rgba.thumbnail((max_edge, max_edge))
+        face = _facing(rgba)
+        q = rgba.quantize(colors=256, method=Image.Quantize.FASTOCTREE)
+        dst_dir = os.path.join(OUT_DIR, book)
+        os.makedirs(dst_dir, exist_ok=True)
+        q.save(os.path.join(dst_dir, f"{code}.png"), optimize=True)
+        return (code, book, face)
+    except Exception as e:  # noqa: BLE001
+        return ("ERR", f"{code}/{book}", repr(e))
+
+
 def read_plates(book):
     path = os.path.join(PLATES, book, "index.csv")
     if not os.path.exists(path):
@@ -188,27 +234,20 @@ def main():
     if not args.emit:
         return
 
-    from PIL import Image
+    from concurrent.futures import ProcessPoolExecutor, as_completed
     os.makedirs(OUT_DIR, exist_ok=True)
-    manifest = {}
+    # Pick the best plate per code per book and build the regeneration task list.
+    manifest, tasks = {}, []
     for code, books in by_code.items():
         entry = {}
         for book in ("gould", "dresser"):
             rows = books.get(book)
             if not rows:
                 continue
-            # pick the plate with the highest colourfulness (most vivid/complete)
+            # the plate with the highest colourfulness (most vivid/complete)
             best = max(rows, key=lambda r: float(r.get("colorfulness") or 0))
-            src = os.path.join(PLATES, best["file"])
-            if not os.path.exists(src):
+            if not (best.get("identifier") and str(best.get("leaf"))):
                 continue
-            dst_dir = os.path.join(OUT_DIR, book)
-            os.makedirs(dst_dir, exist_ok=True)
-            im = Image.open(src).convert("RGBA")
-            im.thumbnail((args.max_edge, args.max_edge))
-            # palette-quantize (keeps alpha) to keep web images near AI-image size
-            im = im.quantize(colors=256, method=Image.Quantize.FASTOCTREE)
-            im.save(os.path.join(dst_dir, f"{code}.png"), optimize=True)
             entry[book] = {
                 "img": f"plates/{book}/{code}.png",
                 "leaf": best["leaf"], "volume": best["volume"],
@@ -216,11 +255,42 @@ def main():
                 "sci": best.get("species_sci", ""),
                 "common": best.get("species_common", ""),
             }
+            tasks.append((code, book, best["identifier"], best["leaf"], args.max_edge))
         if entry:
             manifest[code] = entry
+
+    # Regenerate label-free images in parallel (from the local cache).
+    workers = min(12, (os.cpu_count() or 4))
+    faces, errs = {}, []
+    with ProcessPoolExecutor(max_workers=workers) as pool:
+        for r in as_completed([pool.submit(_regen_plate, t) for t in tasks]):
+            res = r.result()
+            if not res:
+                continue
+            if res[0] == "ERR":
+                errs.append(res[1:])
+            else:
+                faces[(res[0], res[1])] = res[2]
+
+    # Attach facing; drop any book entry whose image failed to regenerate.
+    for code in list(manifest):
+        for book in ("gould", "dresser"):
+            if book not in manifest[code]:
+                continue
+            f = faces.get((code, book))
+            if f is None:
+                del manifest[code][book]
+            else:
+                manifest[code][book]["face"] = f
+        if not manifest[code]:
+            del manifest[code]
+
     with open(os.path.join(OUT_DIR, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"\nEmitted {len(manifest)} species images under {OUT_DIR}")
+    print(f"\nEmitted {len(manifest)} species images under {OUT_DIR}"
+          f" ({len(faces)} plate images, {len(errs)} errors)")
+    for e in errs[:10]:
+        print("  ERR", e)
 
 
 if __name__ == "__main__":

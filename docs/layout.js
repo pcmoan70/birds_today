@@ -12,7 +12,6 @@
  */
 window.BirdLayout = (function () {
   var TOP = 70;            // header reserve
-  var INNER_X = 0.10, INNER_Y = 0.09;   // small empty-centre ellipse (frac of W,H)
   var MIN_FRAC = 0.06, MAX_FRAC = 0.15; // bird size range (frac of min side)
   var GAP = 8;             // extra px between birds
   var SHRINK = [1, 0.85, 0.72];         // try full size, then a bit smaller
@@ -21,24 +20,32 @@ window.BirdLayout = (function () {
   function place(items, W, H) {
     var minSide = Math.min(W, H);
     var cx = W / 2, cy = (H + TOP) / 2;
-    var ix = W * INNER_X, iy = H * INNER_Y;
     var maxV = items.reduce(function (m, it) { return Math.max(m, it.value); }, 1e-6);
     var minPx = Math.max(46, minSide * MIN_FRAC);
     var maxPx = Math.max(90, minSide * MAX_FRAC);
+    var XS = 1.15, YS = 0.82;             // stretch to fill widescreen
 
+    // Highest-value species first, placed from the centre outward: the biggest
+    // bird sits in the middle, smaller ones scatter around it (radius grows with
+    // rank, sqrt for an even area fill, with angular + radial jitter).
     var sorted = items.slice().sort(function (a, b) { return b.value - a.value; });
+    var n = sorted.length;
     var placed = [];
-    sorted.forEach(function (it) {
+    sorted.forEach(function (it, i) {
       var base = minPx + (maxPx - minPx) * (it.value / maxV);  // subtle, data-true
+      if (i === 0) { placed.push({ x: cx, y: cy, size: base, item: it }); return; }
       var spot = null;
       for (var s = 0; s < SHRINK.length && !spot; s++) {
         var size = base * SHRINK[s];
+        var ring = Math.sqrt((i + 1) / n) * minSide * 0.62;
         for (var k = 0; k < ATTEMPTS; k++) {
-          var x = size / 2 + Math.random() * (W - size);
-          var y = TOP + size / 2 + Math.random() * (H - TOP - size);
-          var ex = (x - cx) / (ix + size * 0.5);
-          var ey = (y - cy) / (iy + size * 0.5);
-          if (ex * ex + ey * ey < 1) continue;   // keep the empty centre clear
+          var rad = ring + (Math.random() - 0.5) * size * 1.4
+            + (k / ATTEMPTS) * minSide * 0.30;   // creep outward if blocked
+          var ang = Math.random() * Math.PI * 2;
+          var x = cx + rad * Math.cos(ang) * XS;
+          var y = cy + rad * Math.sin(ang) * YS;
+          if (x - size / 2 < 0 || x + size / 2 > W ||
+              y - size / 2 < TOP || y + size / 2 > H) continue;
           var ok = true;
           for (var p = 0; p < placed.length; p++) {
             var q = placed[p];

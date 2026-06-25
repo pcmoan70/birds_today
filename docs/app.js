@@ -186,7 +186,9 @@
   function chooseImage(code, stance) {
     function ai() {
       var img = pickImage(S.manifest[code] || {}, stance);
-      return img ? { src: "birds/" + img, id: img, flip: true } : null;
+      if (!img) return null;
+      var face = ((S.manifest[code] || {}).faces || {})[img];
+      return { src: "birds/" + img, id: img, flip: true, face: face };
     }
     if (S.src === "ai") return ai();
     var p = S.plates[code];
@@ -194,7 +196,7 @@
       var order = S.src === "dresser" ? ["dresser", "gould"] : ["gould", "dresser"];
       for (var i = 0; i < order.length; i++) {
         var e = p[order[i]];
-        if (e) return { src: e.img, id: e.img, flip: false };
+        if (e) return { src: e.img, id: e.img, flip: true, face: e.face };
       }
     }
     return ai();
@@ -217,7 +219,7 @@
       if (S.mode === "B" && mt && mt.arrival <= 0) return; // only arriving species
       if (value <= 0) return;
       items.push({ code: code, img: pick.id, src: pick.src, flip: pick.flip,
-        stance: stance, value: value });
+        face: pick.face, stance: stance, value: value });
     });
     document.getElementById("hint").style.display = items.length ? "none" : "flex";
     if (!items.length) {
@@ -235,12 +237,10 @@
       el.style.width = it.size + "px";
       var im = document.createElement("img");
       im.src = it.src; im.alt = nameFor(it.code).common;
-      // Flip the bird to face the centre of the page (AI cutouts only; plates
-      // carry text labels and must not be mirrored).
-      if (it.flip) {
-        var faces = ((S.manifest[it.code] || {}).faces || {})[it.img];
+      // Flip the bird so it faces the centre of the page (beak toward middle).
+      if (it.flip && it.face) {
         var halfW = window.innerWidth / 2;
-        if ((it.x > halfW && faces === "right") || (it.x < halfW && faces === "left")) {
+        if ((it.x > halfW && it.face === "right") || (it.x < halfW && it.face === "left")) {
           im.style.transform = "scaleX(-1)";
         }
       }
