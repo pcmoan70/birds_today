@@ -8,19 +8,28 @@ docs/european_birding_books_out_of_copyright.md:
 
 For each leaf of each volume the script downloads the page scan, detects
 hand-coloured plates by colourfulness (Hasler-Süsstrunk: aged paper is a
-uniform tan and scores low; a coloured plate's varied hues score high),
-cleans the keepers (auto-crops the paper margin and neutralises the yellow
-cast), and writes the plate plus full provenance — book, volume, Internet
-Archive identifier, leaf index and the canonical IA page URL — to a sidecar
-JSON and a shared CSV index.
+uniform tan and scores low; a coloured plate's varied hues score high), then
+for each plate:
+  - cleans it (auto-crops the paper margin, neutralises the yellow cast),
+  - makes the paper TRANSPARENT (saved as PNG), keeping the caption text on a
+    rounded white panel so it stays legible on any background,
+  - saves the caption crop and OCRs it for the SPECIES (common + scientific),
+  - records full provenance — book, volume, Internet Archive identifier, leaf
+    index, canonical IA page URL, species and raw caption — in a sidecar JSON
+    and a per-book CSV (book_plates/<book>/index.csv).
 
-Runs entirely locally. Needs:  pip install requests pillow numpy
+Work is spread across CPU cores (ProcessPoolExecutor). Runs entirely locally.
+  pip install requests pillow numpy
+  # species OCR (optional but recommended): install Tesseract + `pip install
+  # pytesseract`, OR `pip install easyocr`. Without it, plates + caption crops
+  # are still saved; run --ocr-only later to backfill species (no re-download).
 
 Usage:
   python extract_book_plates.py --book gould --limit 5      # quick sample
-  python extract_book_plates.py --book dresser --volume 1
+  python extract_book_plates.py --book dresser --volume v1
   python extract_book_plates.py --book naumann --scan       # only score leaves
-  python extract_book_plates.py --book all                  # everything
+  python extract_book_plates.py --book all --workers 6      # everything
+  python extract_book_plates.py --book all --ocr-only       # backfill species
 
 Tuning: plate detection is governed by --min-colorfulness (default 16). Use
 --scan first on a new book to see the score distribution and pick a threshold;
@@ -30,21 +39,35 @@ Keulemans/Naumann plates score much higher.
 import argparse
 import csv
 import io
+import json
 import os
+import re
 import sys
 import time
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime, timezone
+from functools import partial
 
 import numpy as np
 import requests
-from PIL import Image
+from PIL import Image, ImageDraw
 
 sys.stdout.reconfigure(encoding="utf-8")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 OUT_DIR = os.path.join(ROOT, "book_plates")          # local; gitignored
-INDEX_CSV = os.path.join(OUT_DIR, "index.csv")
+
+
+def book_csv(book):
+    """One references CSV per book (book_plates/<book>/index.csv)."""
+    return os.path.join(OUT_DIR, book, "index.csv")
+
+
+CSV_FIELDS = ["book", "title", "author", "year", "source", "identifier",
+              "volume", "leaf", "species_common", "species_sci", "caption_text",
+              "page_url", "image_url", "colorfulness", "file", "caption_file",
+              "saved_at"]
 
 # Confirmed Internet Archive identifiers (resolved via the IA search API).
 BOOKS = {
@@ -165,69 +188,240 @@ def clean_plate(im, margin=0.012):
     return Image.fromarray(carr)
 
 
-def _append_index(row):
-    new = not os.path.exists(INDEX_CSV)
-    with open(INDEX_CSV, "a", newline="", encoding="utf-8") as f:
-        wr = csv.DictWriter(f, fieldnames=list(row))
-        if new:
+def _rounded_mask(size, box, radius):
+    m = Image.new("L", size, 0)
+    ImageDraw.Draw(m).rounded_rectangle(box, radius=radius, fill=255)
+    return np.asarray(m) > 0
+
+
+def detect_caption_box(rgb, caption_zone=0.22):
+    """Bounding box of the black, low-saturation caption text in the bottom
+    band, or None. Coloured illustration (which has saturation) is ignored."""
+    arr = np.asarray(rgb).astype(np.float32)
+    h, w, _ = arr.shape
+    lum = arr.mean(2)
+    mx, mn = arr.max(2), arr.min(2)
+    sat = (mx - mn) / np.clip(mx, 1, None)
+    text = (lum < 135) & (sat < 0.14)
+    text[:int(h * (1 - caption_zone)), :] = False
+    ys, xs = np.where(text)
+    if len(xs) < 150:
+        return None
+    pad = max(6, int(h * 0.015))
+    return (max(0, int(xs.min()) - pad), max(0, int(ys.min()) - pad),
+            min(w - 1, int(xs.max()) + pad), min(h - 1, int(ys.max()) + pad))
+
+
+def to_transparent(rgb, box):
+    """Paper -> transparent; the illustration stays opaque; the caption text
+    sits on a rounded white panel (box from detect_caption_box) so it stays
+    legible on any background."""
+    arr = np.asarray(rgb).astype(np.float32)
+    h, w, _ = arr.shape
+    lum = arr.mean(2)
+    mx, mn = arr.max(2), arr.min(2)
+    sat = (mx - mn) / np.clip(mx, 1, None)
+    # near-white paper -> transparent, ink/dark -> opaque ...
+    alpha = np.clip((236.0 - lum) / 30.0, 0, 1)
+    # ... but keep coloured washes opaque even when fairly light
+    alpha = np.maximum(alpha, np.clip((sat - 0.12) / 0.18, 0, 1))
+    a8 = (alpha * 255).astype(np.uint8)
+    if box:
+        rad = max(8, int((box[3] - box[1]) * 0.25))
+        panel = _rounded_mask((w, h), box, rad)
+        a8[panel] = 255                       # opaque rounded label panel
+        arr[panel & (lum > 195)] = 255        # clean white behind the text
+    return Image.fromarray(np.dstack([arr.astype(np.uint8), a8]), "RGBA")
+
+
+# ---- OCR: read the species off the caption panel --------------------------
+_OCR = None  # cached engine: ("tess", module) | ("easy", reader) | False
+
+
+def _ocr_engine():
+    """Pick an available OCR engine once: pytesseract (+ Tesseract binary) if
+    present, else easyocr (CPU), else False (caption crops are still saved so
+    species can be backfilled later with --ocr-only)."""
+    global _OCR
+    if _OCR is not None:
+        return _OCR
+    try:
+        import pytesseract
+        from shutil import which
+        if not which("tesseract"):
+            for p in (r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+                      r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
+                      os.path.expandvars(r"%LOCALAPPDATA%\Programs\Tesseract-OCR"
+                                         r"\tesseract.exe")):
+                if os.path.exists(p):
+                    pytesseract.pytesseract.tesseract_cmd = p
+                    break
+        pytesseract.get_tesseract_version()
+        _OCR = ("tess", pytesseract)
+    except Exception:  # noqa: BLE001
+        try:
+            import easyocr
+            _OCR = ("easy", easyocr.Reader(["en"], gpu=False, verbose=False))
+        except Exception:  # noqa: BLE001
+            _OCR = False
+    return _OCR
+
+
+def ocr_text(img):
+    eng = _ocr_engine()
+    if not eng:
+        return ""
+    if img.width < 900:
+        img = img.resize((900, round(img.height * 900 / img.width)))
+    kind, obj = eng
+    try:
+        if kind == "tess":
+            return obj.image_to_string(img)
+        return "\n".join(obj.readtext(np.asarray(img.convert("RGB")),
+                                      detail=0, paragraph=True))
+    except Exception:  # noqa: BLE001
+        return ""
+
+
+_BINOMIAL = re.compile(r"\b([A-Z][a-zëïäöüæ]{2,})\s+([a-zëïäöüæ]{3,})\b")
+
+
+def parse_species(text):
+    """Best-effort (common, scientific) from caption OCR. Raw text is always
+    kept too, so a wrong parse is never lossy."""
+    common = sci = ""
+    m = _BINOMIAL.search(text)
+    if m:
+        sci = f"{m.group(1)} {m.group(2)}"
+    for ln in (l.strip() for l in text.splitlines()):
+        letters = [c for c in ln if c.isalpha()]
+        if len(letters) >= 4 and sum(c.isupper() for c in letters) / len(letters) > 0.7:
+            common = ln.title()
+            break
+    return common, sci
+
+
+def _leaf_png(out, leaf):
+    return os.path.join(out, f"leaf_{leaf:04d}.png")
+
+
+def process_leaf(cfg, leaf):
+    """Worker (runs in a separate process): download, score, and — for a
+    plate — clean, make transparent, save the PNG + a caption-panel crop.
+    Returns the provenance dict (species filled later in the main process),
+    a scan dict, or None."""
+    ident = cfg["identifier"]
+    thumb = fetch_image(ident, leaf, cfg["scan_width"])
+    if thumb is None:
+        return None
+    score = colorfulness(thumb)
+    if cfg["scan"]:
+        return {"scan": True, "identifier": ident, "leaf": leaf,
+                "colorfulness": round(score, 1),
+                "plate": score >= cfg["min_colorfulness"]}
+    if score < cfg["min_colorfulness"]:
+        return None
+    full = fetch_image(ident, leaf, cfg["width"]) or thumb
+    plate = clean_plate(full)
+    if plate.width > cfg["width"]:
+        plate = plate.resize((cfg["width"],
+                              round(plate.height * cfg["width"] / plate.width)))
+    base = _leaf_png(cfg["out"], leaf)[:-4]
+    box = detect_caption_box(plate)
+    to_transparent(plate, box).save(base + ".png", optimize=True)
+    caption_file = ""
+    if box:
+        plate.crop(box).save(base + "_caption.png")
+        caption_file = os.path.relpath(base + "_caption.png", OUT_DIR)
+    return {
+        "book": cfg["book"], "title": cfg["title"], "author": cfg["author"],
+        "year": cfg["year"], "source": "Internet Archive", "identifier": ident,
+        "volume": cfg["volume"], "leaf": leaf,
+        "species_common": "", "species_sci": "", "caption_text": "",
+        "page_url": page_url(ident, leaf),
+        "image_url": page_image_url(ident, leaf, cfg["width"]),
+        "colorfulness": round(score, 1),
+        "file": os.path.relpath(base + ".png", OUT_DIR),
+        "caption_file": caption_file,
+        "saved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+
+
+def fill_species(prov):
+    """OCR the saved caption crop -> species_common / species_sci / caption_text."""
+    cap = prov.get("caption_file")
+    if cap and os.path.exists(os.path.join(OUT_DIR, cap)):
+        txt = ocr_text(Image.open(os.path.join(OUT_DIR, cap)))
+        if txt.strip():
+            prov["species_common"], prov["species_sci"] = parse_species(txt)
+            prov["caption_text"] = " ".join(txt.split())
+    return prov
+
+
+def write_book_csv(book, rows, mode="a"):
+    path = book_csv(book)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    header = mode == "w" or not os.path.exists(path)
+    with open(path, mode, newline="", encoding="utf-8") as f:
+        wr = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+        if header:
             wr.writeheader()
-        wr.writerow(row)
+        for r in sorted(rows, key=lambda r: (r.get("identifier", ""), r.get("leaf", 0))):
+            wr.writerow({k: r.get(k, "") for k in CSV_FIELDS})
+    return path
 
 
-def process_volume(book, vol_label, identifier, args):
+def process_volume(book, vol_label, identifier, args, pool):
     info = ia_metadata(identifier)
     leaves = info["leaves"]
     if not leaves:
         print(f"  {identifier}: no leaf count from IA, skipping")
-        return 0, 0
-    title = info["title"] or BOOKS[book]["title"]
-    year = info["year"]
-    volume = info["volume"] or vol_label
+        return []
     out = os.path.join(OUT_DIR, book, identifier)
     os.makedirs(out, exist_ok=True)
+    cfg = {"identifier": identifier, "book": book,
+           "title": info["title"] or BOOKS[book]["title"],
+           "author": BOOKS[book]["author"], "year": info["year"],
+           "volume": info["volume"] or vol_label, "out": out,
+           "scan_width": args.scan_width, "width": args.width,
+           "min_colorfulness": args.min_colorfulness, "scan": args.scan}
     start = args.start or 0
     end = min(args.end, leaves) if args.end else leaves
-    print(f"  {identifier} ({volume}) {title} — leaves {start}..{end - 1} "
-          f"of {leaves}")
+    todo = [n for n in range(start, end)
+            if args.scan or not os.path.exists(_leaf_png(out, n))]
+    if args.limit:
+        todo = todo[:args.limit]
+    print(f"  {identifier} ({cfg['volume']}) — {len(todo)} leaf(s) to do of {leaves}")
+    results = []
+    futs = [pool.submit(process_leaf, cfg, n) for n in todo]
+    for fu in as_completed(futs):
+        r = fu.result()
+        if r:
+            results.append(r)
+    return results
 
-    saved = skipped = 0
-    for leaf in range(start, end):
-        if args.limit and saved >= args.limit:
-            break
-        dst = os.path.join(out, f"leaf_{leaf:04d}.jpg")
-        if not args.scan and os.path.exists(dst):
-            saved += 1  # resume: already extracted
-            continue
-        thumb = fetch_image(identifier, leaf, args.scan_width)
-        if thumb is None:
-            continue
-        score = colorfulness(thumb)
-        if args.scan:
-            print(f"    n{leaf:>4}  colourfulness={score:5.1f}"
-                  f"  {'PLATE' if score >= args.min_colorfulness else ''}")
-            continue
-        if score < args.min_colorfulness:
-            skipped += 1
-            continue
-        full = fetch_image(identifier, leaf, args.width) or thumb
-        clean_plate(full).save(dst, quality=90)
-        prov = {
-            "book": book, "title": title, "author": BOOKS[book]["author"],
-            "year": year, "source": "Internet Archive", "identifier": identifier,
-            "volume": volume, "leaf": leaf, "page_url": page_url(identifier, leaf),
-            "image_url": page_image_url(identifier, leaf, args.width),
-            "colorfulness": round(score, 1),
-            "saved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        }
-        import json
-        with open(dst + ".json", "w", encoding="utf-8") as jf:
-            json.dump(prov, jf, ensure_ascii=False, indent=2)
-        _append_index({**prov, "file": os.path.relpath(dst, OUT_DIR)})
-        saved += 1
-        print(f"    n{leaf:>4}  plate ({score:.1f}) -> {os.path.basename(dst)}")
-    if not args.scan:
-        print(f"    {identifier}: {saved} plate(s), {skipped} non-plate leaves skipped")
-    return saved, skipped
+
+def ocr_backfill(book):
+    """OCR caption crops of already-extracted plates and (re)write the CSV.
+    Lets the heavy download/clean run without an OCR engine, then fill species
+    once one is installed — no re-downloading."""
+    base = os.path.join(OUT_DIR, book)
+    rows = []
+    for root, _, files in os.walk(base):
+        for fn in files:
+            if not fn.endswith(".png.json"):
+                continue
+            p = os.path.join(root, fn)
+            with open(p, encoding="utf-8") as jf:
+                prov = json.load(jf)
+            fill_species(prov)
+            with open(p, "w", encoding="utf-8") as jf:
+                json.dump(prov, jf, ensure_ascii=False, indent=2)
+            rows.append(prov)
+    path = write_book_csv(book, rows, mode="w")
+    got = sum(1 for r in rows if r.get("species_sci") or r.get("species_common"))
+    print(f"  {book}: OCR-backfilled {len(rows)} plate(s), species on {got} "
+          f"-> {path}")
 
 
 def main():
@@ -237,30 +431,62 @@ def main():
     ap.add_argument("--volume", help="only this volume label (e.g. v1, T03)")
     ap.add_argument("--start", type=int, default=0, help="first leaf index")
     ap.add_argument("--end", type=int, default=0, help="last leaf index (exclusive)")
-    ap.add_argument("--limit", type=int, default=0, help="max plates per volume")
+    ap.add_argument("--limit", type=int, default=0, help="max leaves per volume (testing)")
     ap.add_argument("--min-colorfulness", type=float, default=16.0,
                     help="plate threshold (use --scan to calibrate)")
-    ap.add_argument("--width", type=int, default=1800, help="saved plate width px")
+    ap.add_argument("--width", type=int, default=1000, help="saved plate width px")
     ap.add_argument("--scan-width", type=int, default=480,
                     help="low-res width used only for scoring")
+    ap.add_argument("--workers", type=int, default=min(6, (os.cpu_count() or 4)),
+                    help="parallel worker processes")
     ap.add_argument("--scan", action="store_true",
                     help="only print colourfulness per leaf; save nothing")
+    ap.add_argument("--ocr-only", action="store_true",
+                    help="skip downloads; OCR existing caption crops -> CSV")
     args = ap.parse_args()
 
     os.makedirs(OUT_DIR, exist_ok=True)
     books = list(BOOKS) if args.book == "all" else [args.book]
-    total_saved = total_skip = 0
-    for book in books:
-        print(f"\n=== {book}: {BOOKS[book]['title']} ===")
-        for vol_label, identifier in BOOKS[book]["volumes"]:
-            if args.volume and args.volume != vol_label:
+
+    if args.ocr_only:
+        if not _ocr_engine():
+            print("No OCR engine found (install Tesseract+pytesseract, or "
+                  "`pip install easyocr`).")
+        for book in books:
+            ocr_backfill(book)
+        return
+
+    if not args.scan and not _ocr_engine():
+        print("NOTE: no OCR engine found — plates + caption crops will be saved, "
+              "but species columns stay blank. Install Tesseract+pytesseract or "
+              "`pip install easyocr`, then run with --ocr-only to backfill species.\n")
+
+    total = 0
+    with ProcessPoolExecutor(max_workers=args.workers) as pool:
+        for book in books:
+            print(f"\n=== {book}: {BOOKS[book]['title']} (workers={args.workers}) ===")
+            results = []
+            for vol_label, identifier in BOOKS[book]["volumes"]:
+                if args.volume and args.volume != vol_label:
+                    continue
+                results += process_volume(book, vol_label, identifier, args, pool)
+            if args.scan:
+                for r in sorted(results, key=lambda r: (r["identifier"], r["leaf"])):
+                    print(f"    {r['identifier']} n{r['leaf']:>4}  "
+                          f"{r['colorfulness']:5.1f}  {'PLATE' if r['plate'] else ''}")
                 continue
-            s, k = process_volume(book, vol_label, identifier, args)
-            total_saved += s
-            total_skip += k
+            plates = [fill_species(r) for r in results]
+            for prov in plates:  # write each plate's provenance sidecar
+                with open(os.path.join(OUT_DIR, prov["file"]) + ".json", "w",
+                          encoding="utf-8") as jf:
+                    json.dump(prov, jf, ensure_ascii=False, indent=2)
+            path = write_book_csv(book, plates)
+            named = sum(1 for r in plates if r.get("species_sci") or r.get("species_common"))
+            print(f"  {book}: {len(plates)} new plate(s), species on {named} "
+                  f"-> {path}")
+            total += len(plates)
     if not args.scan:
-        print(f"\nDone. {total_saved} plate(s) saved under {OUT_DIR}; "
-              f"{total_skip} non-plate leaves skipped. Index: {INDEX_CSV}")
+        print(f"\nDone. {total} new plate(s) under {OUT_DIR}.")
 
 
 if __name__ == "__main__":
