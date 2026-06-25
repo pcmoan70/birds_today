@@ -50,6 +50,7 @@
     tax: {}, langs: [], lang: "en",
     manifest: {}, plates: {}, allProbs: null,
     lat: DEFAULT.lat, lon: DEFAULT.lon, week: 1, mode: "A", src: "gould",
+    aiFallback: true,
   };
 
   // Images the user downvoted this session — grayed out until the tab closes.
@@ -256,7 +257,8 @@
           origin: origin, page: pick.page_url || null };
       }
     }
-    return ai();
+    // No plate for this species: fall back to an AI image, unless disabled.
+    return S.aiFallback ? ai() : null;
   }
 
   function render() {
@@ -419,6 +421,9 @@
     var def = "en";   // default to English
     S.lang = def; sel.value = def; setTitle();
     sel.onchange = function () { S.lang = sel.value; setTitle(); render(); };
+    var aifb = document.getElementById("ai-fallback");
+    aifb.checked = S.aiFallback;
+    aifb.onchange = function () { S.aiFallback = aifb.checked; render(); };
     window.addEventListener("resize", debounce(render, 200));
     window.addEventListener("scroll", onScroll, { passive: true });
   }
