@@ -13,6 +13,7 @@
   var LABELS_URL = "labels.txt";
   var TAX_URL = "taxonomy.csv";
   var MANIFEST_URL = "birds/manifest.json";
+  var PLATES_URL = "plates/manifest.json";
   var DEFAULT = { lat: 59.33, lon: 18.07, name: "Stockholm (default)" }; // fallback
 
   var LANG_NAMES = {
@@ -25,8 +26,8 @@
   var S = {
     labels: [], codeToIdx: {}, nSpecies: 0,
     tax: {}, langs: [], lang: "en",
-    manifest: {}, allProbs: null,
-    lat: DEFAULT.lat, lon: DEFAULT.lon, week: 1, mode: "A",
+    manifest: {}, plates: {}, allProbs: null,
+    lat: DEFAULT.lat, lon: DEFAULT.lon, week: 1, mode: "A", src: "gould",
   };
 
   // Images the user downvoted this session — grayed out until the tab closes.
@@ -175,19 +176,48 @@
     return list.length ? list[Math.floor(Math.random() * list.length)] : null;
   }
 
+  // Pick the image to show for a species given the chosen source.
+  //  - "ai": the generated stance cutout (flippable to face centre).
+  //  - "gould"/"dresser": the public-domain book plate; the chosen book is
+  //    preferred, the other is the fallback, and species with no plate fall
+  //    back to the AI cutout so the page stays full. Plates carry their own
+  //    labels, so they are never flipped.
+  // Returns {src, id, flip} or null. `id` keys downvotes and the faces map.
+  function chooseImage(code, stance) {
+    function ai() {
+      var img = pickImage(S.manifest[code] || {}, stance);
+      return img ? { src: "birds/" + img, id: img, flip: true } : null;
+    }
+    if (S.src === "ai") return ai();
+    var p = S.plates[code];
+    if (p) {
+      var order = S.src === "dresser" ? ["dresser", "gould"] : ["gould", "dresser"];
+      for (var i = 0; i < order.length; i++) {
+        var e = p[order[i]];
+        if (e) return { src: e.img, id: e.img, flip: false };
+      }
+    }
+    return ai();
+  }
+
   function render() {
     stage.innerHTML = "";
     var stance = S.mode === "A" ? "sitting" : "flying";
     var items = [];
-    Object.keys(S.manifest).forEach(function (code) {
-      var entry = S.manifest[code];
-      var img = pickImage(entry, stance);
-      if (!img) return;
+    // Union of AI-manifest and plate codes: a plate-covered species may not
+    // have an AI image yet, and vice versa.
+    var codes = {};
+    Object.keys(S.manifest).forEach(function (c) { codes[c] = 1; });
+    if (S.src !== "ai") Object.keys(S.plates).forEach(function (c) { codes[c] = 1; });
+    Object.keys(codes).forEach(function (code) {
+      var pick = chooseImage(code, stance);
+      if (!pick) return;
       var mt = metrics(code);
       var value = !mt ? 0.5 : (S.mode === "A" ? mt.cur : Math.max(0, mt.arrival));
       if (S.mode === "B" && mt && mt.arrival <= 0) return; // only arriving species
       if (value <= 0) return;
-      items.push({ code: code, img: img, stance: stance, value: value });
+      items.push({ code: code, img: pick.id, src: pick.src, flip: pick.flip,
+        stance: stance, value: value });
     });
     document.getElementById("hint").style.display = items.length ? "none" : "flex";
     if (!items.length) {
@@ -204,12 +234,15 @@
       el.style.left = it.x + "px"; el.style.top = it.y + "px";
       el.style.width = it.size + "px";
       var im = document.createElement("img");
-      im.src = "birds/" + it.img; im.alt = nameFor(it.code).common;
-      // Flip the bird to face the centre of the page.
-      var faces = (S.manifest[it.code].faces || {})[it.img];
-      var halfW = window.innerWidth / 2;
-      if ((it.x > halfW && faces === "right") || (it.x < halfW && faces === "left")) {
-        im.style.transform = "scaleX(-1)";
+      im.src = it.src; im.alt = nameFor(it.code).common;
+      // Flip the bird to face the centre of the page (AI cutouts only; plates
+      // carry text labels and must not be mirrored).
+      if (it.flip) {
+        var faces = ((S.manifest[it.code] || {}).faces || {})[it.img];
+        var halfW = window.innerWidth / 2;
+        if ((it.x > halfW && faces === "right") || (it.x < halfW && faces === "left")) {
+          im.style.transform = "scaleX(-1)";
+        }
       }
       el.appendChild(im);
 
@@ -240,7 +273,7 @@
       var nm = nameFor(it.code);
       window.BirdFeedback.vote(it.img, dir, {
         species: it.code, common: nm.common, sci: nm.sci,
-        pose: it.stance, lang: S.lang, url: "birds/" + it.img,
+        pose: it.stance, lang: S.lang, src: S.src, url: it.src,
       });
     }
     // Not sticky: flash the clicked button, then clear it.
@@ -274,6 +307,12 @@
       b.onclick = function () {
         document.querySelectorAll("#mode button").forEach(function (x) { x.classList.remove("on"); });
         b.classList.add("on"); S.mode = b.getAttribute("data-mode"); render();
+      };
+    });
+    document.querySelectorAll("#src button").forEach(function (b) {
+      b.onclick = function () {
+        document.querySelectorAll("#src button").forEach(function (x) { x.classList.remove("on"); });
+        b.classList.add("on"); S.src = b.getAttribute("data-src"); render();
       };
     });
     var sel = document.getElementById("lang");
@@ -353,10 +392,13 @@
       var texts = await Promise.all([
         fetch(LABELS_URL).then(function (r) { return r.text(); }),
         fetch(MANIFEST_URL).then(function (r) { return r.json(); }),
+        fetch(PLATES_URL).then(function (r) { return r.ok ? r.json() : {}; })
+          .catch(function () { return {}; }),
         initWorker(),
       ]);
       loadLabels(texts[0]);
       S.manifest = texts[1];
+      S.plates = texts[2] || {};
       // Names come from the manifest when present; otherwise fall back to the
       // (large) taxonomy.csv for backward compatibility.
       if (!useManifestNames()) {

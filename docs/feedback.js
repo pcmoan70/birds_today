@@ -64,9 +64,10 @@ window.BirdFeedback = (function () {
   }
 
   // image: "species_code/pose_i.png"; dir: "up" | "down".
-  // meta may include { url, species, sci, common, pose, lang } — url is the
-  // image URL to hash (defaults to "birds/<image>"). Voting is NOT sticky:
-  // every click sends a fresh email, including repeated clicks of the same dir.
+  // meta may include { url, species, sci, common, pose, lang, src } — url is the
+  // image URL to hash (defaults to "birds/<image>"); src is the image source
+  // ("gould"/"dresser"/"ai"). Voting is NOT sticky: every click sends a fresh
+  // email, including repeated clicks of the same dir.
   function vote(image, dir, meta) {
     meta = meta || {};
     var label = dir === "up" ? "upvote" : "downvote";
@@ -77,13 +78,14 @@ window.BirdFeedback = (function () {
       var blob = "BIRDVOTE " + JSON.stringify({
         image: image, vote: label, hash: hash,
         species: meta.species || "", sci: meta.sci || "", common: meta.common || "",
-        pose: meta.pose || "", lang: meta.lang || "", client: clientId(), ts: time,
+        pose: meta.pose || "", lang: meta.lang || "", src: meta.src || "",
+        client: clientId(), ts: time,
       });
       send({
         image_id: image, vote: label, image_hash: hash, time: time,
         species: meta.species || "", sci_name: meta.sci || "",
         common_name: meta.common || "", pose: meta.pose || "",
-        lang: meta.lang || "", client: clientId(), blob: blob,
+        lang: meta.lang || "", src: meta.src || "", client: clientId(), blob: blob,
       });
     });
   }
