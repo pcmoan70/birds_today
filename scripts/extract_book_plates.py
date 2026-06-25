@@ -283,20 +283,32 @@ def ocr_text(img):
         return ""
 
 
-_BINOMIAL = re.compile(r"\b([A-Z][a-zëïäöüæ]{2,})\s+([a-zëïäöüæ]{3,})\b")
+# Engraver/printer credit lines to ignore when looking for the species name.
+_CREDIT = re.compile(r"drawn|nature|on stone|printed|hullmandel|lith|pinx|"
+                     r"\bimp\b|\bdel\b|\bsc\b|sculp", re.I)
+# Genus + epithet; the epithet may be capitalised in 19th-c. patronyms
+# (e.g. "Aquila Bonelli"), so allow either case for the second word.
+_BINOMIAL = re.compile(r"\b([A-Z][a-zëïäöüæ]{2,})\s+([A-Za-zëïäöüæ]{3,})\b")
 
 
 def parse_species(text):
-    """Best-effort (common, scientific) from caption OCR. Raw text is always
-    kept too, so a wrong parse is never lossy."""
+    """Best-effort (common, scientific) from caption OCR, using line order:
+    an ALL-CAPS common name, then the binomial on a following line. Credit
+    lines are skipped. Raw caption text is always kept too, so a mis-parse is
+    never lossy."""
+    lines = [l.strip(" .,•·") for l in text.splitlines() if l.strip()]
+    lines = [l for l in lines if not _CREDIT.search(l)]
     common = sci = ""
-    m = _BINOMIAL.search(text)
-    if m:
-        sci = f"{m.group(1)} {m.group(2)}"
-    for ln in (l.strip() for l in text.splitlines()):
+    ci = -1
+    for i, ln in enumerate(lines):
         letters = [c for c in ln if c.isalpha()]
         if len(letters) >= 4 and sum(c.isupper() for c in letters) / len(letters) > 0.7:
-            common = ln.title()
+            common, ci = ln.title(), i
+            break
+    for ln in (lines[ci + 1:ci + 4] if ci >= 0 else lines):
+        m = _BINOMIAL.search(ln)
+        if m:
+            sci = f"{m.group(1)} {m.group(2)}"
             break
     return common, sci
 
