@@ -273,6 +273,7 @@
       var pick = chooseImage(code, stance);
       if (!pick) return;
       var mt = metrics(code);
+      if (mt && mt.cur <= 0.01) return;   // only species with >1% occurrence here
       var value = !mt ? 0.5 : (S.mode === "A" ? mt.cur : Math.max(0, mt.arrival));
       if (S.mode === "B" && mt && mt.arrival <= 0) return; // only arriving species
       if (value <= 0) return;
