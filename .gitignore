@@ -8,6 +8,10 @@ scripts/.venv/
 # transparent cutouts under docs/birds/ are kept.
 scripts/raw/
 
+# Archived art styles (style_switch.py) — local cache for swapping the live
+# style back and forth; kept off Pages/repo to avoid doubling image storage.
+scripts/styles/
+
 # Local feedback test files
 scripts/votes.csv
 

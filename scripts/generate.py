@@ -1,8 +1,10 @@
-"""Generate Audubon-style bird plates with FLUX.1-dev, grounded on a reference.
+"""Generate field-guide-style bird plates with FLUX.1-dev, grounded on a reference.
 
 Reference-grounded image-to-image: a fetched reference photo (scripts/raw/) sets
 the bird's true shape and field marks; the prompt + img2img restyle it into a
-consistent hand-coloured naturalist plate. FLUX.1-dev runs in fp8 (optimum-quanto)
+consistent modern field-guide illustration (the watercolour/gouache style of
+Lars Jonsson, Killian Mullarney, Dan Zetterström, Hampus Lejon and Axel
+Thorenfeldt, as in the Collins Bird Guide). FLUX.1-dev runs in fp8 (optimum-quanto)
 so it fits an RTX 3090 (24 GB). Output is background-removed and written to
 docs/birds/ exactly like the photo cutouts, so the manifest step is unchanged.
 
@@ -16,7 +18,7 @@ Prereqs (one-time):
 Usage:
   python generate.py --test                      # the 12 test species
   python generate.py --codes gretit1,eurgol1 --num 2
-  python generate.py --test --lora path/to/audubon_flux_lora.safetensors
+  python generate.py --test --lora path/to/fieldguide_flux_lora.safetensors
   python generate.py --test --model black-forest-labs/FLUX.1-schnell  # ungated
 """
 import argparse
@@ -41,16 +43,38 @@ PROMPTS = os.path.join(HERE, "species_prompts.json")
 TEST_CODES = ["gretit1", "blutit", "eurrob1", "eurbla", "comcha", "eurmag1",
               "eursta", "houspa", "eurgol1", "barswa", "comcra", "whoswa"]
 
-# Short style tag for the CLIP encoder (77-token limit); the full prompt goes
-# to T5 (prompt_2) so nothing is truncated.
+# Switchable art styles. Each has a short `tag` for the CLIP encoder (77-token
+# limit) and a full `prompt` for T5 (prompt_2) so nothing is truncated. The
+# active style is recorded in every plate's sidecar, and the whole live set can
+# be swapped between styles with style_switch.py — so adding a style here is all
+# it takes to make it available.
 # IMPORTANT: ask for the BIRD ONLY on a plain background — NOT a "plate on paper"
 # (that renders a paper sheet with caption/border that the matting then keeps).
-STYLE_TAG = ("Audubon-style watercolour painting of a single bird, plain white "
-             "background, no text, no border")
-STYLE = ("a detailed hand-coloured watercolour and ink painting of a single bird "
-         "in the style of John James Audubon, fine feather detail, scientifically "
-         "accurate, full body, the bird only, isolated on a plain solid white "
-         "background, no paper texture, no border, no frame, no caption, no text")
+STYLES = {
+    "fieldguide": {
+        "tag": ("modern field-guide illustration of a single bird, watercolour "
+                "and gouache, Lars Jonsson style, plain white background, no "
+                "text, no border"),
+        "prompt": ("a modern ornithological field-guide illustration of a single "
+                   "bird in the naturalistic watercolour-and-gouache style of Lars "
+                   "Jonsson, Killian Mullarney, Dan Zetterström, Hampus Lejon and "
+                   "Axel Thorenfeldt (as in the Collins Bird Guide), soft natural "
+                   "light, subtle tonal shading, scientifically accurate field "
+                   "marks, fine feather detail, full body, the bird only, isolated "
+                   "on a plain solid white background, no paper texture, no border, "
+                   "no frame, no caption, no text"),
+    },
+    "audubon": {
+        "tag": ("Audubon-style watercolour painting of a single bird, plain white "
+                "background, no text, no border"),
+        "prompt": ("a detailed hand-coloured watercolour and ink painting of a "
+                   "single bird in the style of John James Audubon, fine feather "
+                   "detail, scientifically accurate, full body, the bird only, "
+                   "isolated on a plain solid white background, no paper texture, "
+                   "no border, no frame, no caption, no text"),
+    },
+}
+DEFAULT_STYLE = "fieldguide"
 # Reinforce correct avian anatomy — keeps wings natural rather than warped.
 ANATOMY = ("anatomically correct, exactly two wings in a natural realistic "
            "position with properly layered flight feathers, correct wing "
@@ -76,12 +100,12 @@ STANCES = {
 }
 
 
-def build_prompt(common, sci, marks, stance):
+def build_prompt(common, sci, marks, stance, style=DEFAULT_STYLE):
     """Full prompt for the T5 encoder (prompt_2). Field marks are optional —
     when absent, the reference photo + species name carry the appearance."""
     feat = f" Distinctive features: {marks}." if marks else ""
-    return (f"{STYLE}. A {common} ({sci}), {STANCES[stance]['desc']}.{feat} "
-            f"{ANATOMY}.")
+    return (f"{STYLES[style]['prompt']}. A {common} ({sci}), "
+            f"{STANCES[stance]['desc']}.{feat} {ANATOMY}.")
 
 
 def load_pipeline(model_id, lora=None, fp8=True):
@@ -110,6 +134,39 @@ def ref_images(code, pose, want):
     return [os.path.join(d, f) for f in files[:want]]
 
 
+def render_one(pipe, rembg_session, common, sci, marks, pose, ref_path, idx,
+               out_dir, model="black-forest-labs/FLUX.1-dev", steps=28,
+               guidance=3.5, size=1024, strength=None, max_edge=640,
+               style=DEFAULT_STYLE):
+    """Generate and matte ONE plate (pose_<idx>.png) from a single reference.
+
+    Returns the output path on success, or None if the cutout failed. Shared by
+    the batch CLI and the downvote-driven regeneration (refetch_downvoted.py).
+    The exact style name + prompt are recorded in the sidecar so a plate is
+    self-describing and styles stay switchable.
+    """
+    if strength is None:
+        strength = STANCES[pose]["strength"]
+    prompt = build_prompt(common, sci, marks, pose, style)
+    init = Image.open(ref_path).convert("RGB").resize((size, size))
+    gen = torch.Generator("cpu").manual_seed(1000 + idx)
+    out = pipe(prompt=STYLES[style]["tag"], prompt_2=prompt, image=init,
+               strength=strength, num_inference_steps=steps,
+               guidance_scale=guidance, generator=gen).images[0]
+    cutimg = cut.cut_pil(out, rembg_session, max_edge)
+    if cutimg is None:
+        return None
+    os.makedirs(out_dir, exist_ok=True)
+    png = os.path.join(out_dir, f"{pose}_{idx}.png")
+    cutimg.save(png)
+    with open(png + ".json", "w", encoding="utf-8") as jf:
+        json.dump({"source": "generated", "model": model, "style": style,
+                   "prompt": prompt, "pose": pose,
+                   "reference": os.path.basename(ref_path)},
+                  jf, ensure_ascii=False, indent=2)
+    return png
+
+
 def main():
     ap = argparse.ArgumentParser()
     g = ap.add_mutually_exclusive_group(required=True)
@@ -118,6 +175,9 @@ def main():
     g.add_argument("--codes-file", help="file with a species code in the first "
                                         "tab-separated column per line")
     ap.add_argument("--model", default="black-forest-labs/FLUX.1-dev")
+    ap.add_argument("--style", default=DEFAULT_STYLE, choices=list(STYLES),
+                    help="art style (recorded per plate; swap sets with "
+                         "style_switch.py)")
     ap.add_argument("--lora", help="optional style LoRA .safetensors")
     ap.add_argument("--num", type=int, default=2, help="plates per stance")
     ap.add_argument("--poses", default="sitting,flying",
@@ -163,26 +223,14 @@ def main():
             if not refs:
                 print(f"  {pose}: no '{STANCES[pose]['ref']}' reference photo, skip")
                 continue
-            strength = args.strength if args.strength is not None else STANCES[pose]["strength"]
-            prompt = build_prompt(common, sci, fm, pose)
             for i, ref in enumerate(refs):
-                init = Image.open(ref).convert("RGB").resize((args.size, args.size))
-                gen = torch.Generator("cpu").manual_seed(1000 + i)
-                out = pipe(prompt=STYLE_TAG, prompt_2=prompt, image=init,
-                           strength=strength, num_inference_steps=args.steps,
-                           guidance_scale=args.guidance, generator=gen).images[0]
-                cutimg = cut.cut_pil(out, rembg_session, args.max_edge)
-                if cutimg is None:
-                    print(f"  {pose}_{i}: cutout failed")
-                    continue
-                png = os.path.join(dst, f"{pose}_{i}.png")
-                cutimg.save(png)
-                with open(png + ".json", "w", encoding="utf-8") as jf:
-                    json.dump({"source": "generated", "model": args.model,
-                               "style": "audubon", "pose": pose,
-                               "reference": os.path.basename(ref)},
-                              jf, ensure_ascii=False, indent=2)
-                print(f"  saved {pose}_{i}.png")
+                png = render_one(pipe, rembg_session, common, sci, fm, pose, ref,
+                                 i, dst, model=args.model, steps=args.steps,
+                                 guidance=args.guidance, size=args.size,
+                                 strength=args.strength, max_edge=args.max_edge,
+                                 style=args.style)
+                print(f"  saved {pose}_{i}.png" if png
+                      else f"  {pose}_{i}: cutout failed")
     print("\nDone. Now run: python build_manifest.py")
 
 
