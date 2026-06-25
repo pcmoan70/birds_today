@@ -53,5 +53,46 @@ window.BirdLayout = (function () {
       return Object.assign({}, p.item, { x: p.x, y: p.y, size: p.size });
     });
   }
-  return { place: place };
+
+  // Residents (Mode A): most probable in the centre, spiralling outward
+  // (phyllotaxis) as the value drops. Size ∝ value; strict no overlap.
+  function placeSpiral(items, W, H) {
+    var minSide = Math.min(W, H);
+    var cx = W / 2, cy = (H + TOP) / 2;
+    var maxV = items.reduce(function (m, it) { return Math.max(m, it.value); }, 1e-6);
+    var minPx = Math.max(46, minSide * MIN_FRAC);
+    var maxPx = Math.max(90, minSide * 0.16);
+    var golden = Math.PI * (3 - Math.sqrt(5));   // ~2.39996 rad
+    var C = (minPx + maxPx) * 0.32;              // spiral tightness
+    var XS = 1.15, YS = 0.82;                    // stretch to fill widescreen
+
+    var sorted = items.slice().sort(function (a, b) { return b.value - a.value; });
+    var placed = [];
+    sorted.forEach(function (it, i) {
+      var size = minPx + (maxPx - minPx) * (it.value / maxV);
+      if (i === 0) { placed.push({ x: cx, y: cy, size: size, item: it }); return; }
+      var spot = null, k = i;
+      while (k < i + 6000) {
+        var ang = k * golden, rad = C * Math.sqrt(k);
+        var x = cx + rad * Math.cos(ang) * XS;
+        var y = cy + rad * Math.sin(ang) * YS;
+        if (x - size / 2 >= 0 && x + size / 2 <= W &&
+            y - size / 2 >= TOP && y + size / 2 <= H) {
+          var ok = true;
+          for (var p = 0; p < placed.length; p++) {
+            var q = placed[p];
+            if (Math.hypot(x - q.x, y - q.y) < (size + q.size) * 0.5 + GAP) { ok = false; break; }
+          }
+          if (ok) { spot = { x: x, y: y, size: size }; break; }
+        }
+        k++;
+      }
+      if (spot) placed.push({ x: spot.x, y: spot.y, size: spot.size, item: it });
+    });
+    return placed.map(function (p) {
+      return Object.assign({}, p.item, { x: p.x, y: p.y, size: p.size });
+    });
+  }
+
+  return { place: place, placeSpiral: placeSpiral };
 })();

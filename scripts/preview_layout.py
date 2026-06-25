@@ -99,6 +99,42 @@ def place(items, W, H, top=70):
     return [it for it in items if "_pos" in it]
 
 
+def place_spiral(items, W, H, top=70):
+    """Residents: most probable in the centre, spiralling outward (phyllotaxis)
+    as probability drops. Size ∝ value; strict no overlap (off-screen birds are
+    skipped)."""
+    minside = min(W, H)
+    cx, cy = W / 2, (H + top) / 2
+    vmax = max(it["value"] for it in items) or 1.0
+    minpx, maxpx = max(46, minside * 0.06), max(90, minside * 0.16)
+    gap = 8
+    golden = math.pi * (3 - math.sqrt(5))          # ~2.39996 rad
+    C = (minpx + maxpx) * 0.32                      # spiral tightness
+    xs, ys = 1.15, 0.82                             # stretch to fill widescreen
+
+    placed = []
+    ordered = sorted(items, key=lambda d: -d["value"])
+    for i, it in enumerate(ordered):
+        size = minpx + (maxpx - minpx) * (it["value"] / vmax)
+        if i == 0:
+            placed.append((cx, cy, size)); it["_pos"] = (cx, cy, size); continue
+        spot, k = None, i
+        while k < i + 6000:
+            ang = k * golden
+            rad = C * math.sqrt(k)
+            x = cx + rad * math.cos(ang) * xs
+            y = cy + rad * math.sin(ang) * ys
+            if (size / 2 <= x <= W - size / 2 and
+                    top + size / 2 <= y <= H - size / 2 and
+                    all(math.hypot(x - q[0], y - q[1]) >= (size + q[2]) * 0.5 + gap
+                        for q in placed)):
+                spot = (x, y, size); break
+            k += 1
+        if spot:
+            placed.append(spot); it["_pos"] = spot
+    return [it for it in items if "_pos" in it]
+
+
 def paste_with_shadow(canvas, cut, x, y, size):
     w = size
     h = int(cut.height * (size / cut.width))
@@ -152,7 +188,9 @@ def main():
 
     canvas = background(args.width, args.height)
     cx = args.width / 2
-    for it in place(items, args.width, args.height):
+    # Mode A (residents): probability spiral. Mode B (migration): scatter.
+    layout = place_spiral if args.mode == "A" else place
+    for it in layout(items, args.width, args.height):
         cut = Image.open(it["img"]).convert("RGBA")
         x, y, size = it["_pos"]
         # Flip so the bird faces the centre: right-side birds should face left

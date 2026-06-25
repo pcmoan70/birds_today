@@ -184,7 +184,9 @@
         S.mode === "A" ? "No resident birds to show here." : "No arriving migrants this week.";
     }
 
-    var placed = window.BirdLayout.place(items, window.innerWidth, window.innerHeight);
+    // Residents spiral by probability from the centre; migration uses scatter.
+    var layoutFn = S.mode === "A" ? window.BirdLayout.placeSpiral : window.BirdLayout.place;
+    var placed = layoutFn(items, window.innerWidth, window.innerHeight);
     placed.forEach(function (it) {
       var el = document.createElement("div");
       el.className = "bird";
@@ -212,6 +214,12 @@
 
       el.addEventListener("mousemove", function (ev) { showTip(ev, it.code); });
       el.addEventListener("mouseleave", function () { tip.classList.remove("show"); });
+      // Click a bird → its Macaulay Library species page (code == taxon code).
+      el.title = "View " + nameFor(it.code).common + " on Macaulay Library";
+      el.addEventListener("click", function () {
+        window.open("https://search.macaulaylibrary.org/catalog?taxonCode=" +
+          encodeURIComponent(it.code) + "&mediaType=photo", "_blank", "noopener");
+      });
       stage.appendChild(el);
     });
     setStatus(items.length);
