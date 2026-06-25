@@ -1,0 +1,5 @@
+requests
+Pillow
+numpy
+rembg
+onnxruntime

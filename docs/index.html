@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Bird Calendar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="bar">
+    <h1>Bird&nbsp;Calendar</h1>
+    <div class="seg" id="mode">
+      <button data-mode="A" class="on">Residents</button>
+      <button data-mode="B">Migration</button>
+    </div>
+    <span class="spacer"></span>
+    <span class="meta" id="place">—</span>
+    <select id="lang" title="Species name language"></select>
+  </div>
+
+  <div id="stage"></div>
+  <div class="hint" id="hint">Loading birds…</div>
+  <div class="tip" id="tip"></div>
+  <div id="status"></div>
+
+  <!-- EmailJS SDK (feedback). Configure keys in feedback.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="feedback.js"></script>
+  <script src="layout.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

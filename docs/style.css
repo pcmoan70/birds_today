@@ -1,0 +1,76 @@
+/* Bird Calendar — simple, stylistic, full-bleed artistic canvas. */
+:root {
+  --paper: #f3efe6;
+  --ink: #2b2a26;
+  --muted: #6f6c63;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  background: radial-gradient(circle at 50% 45%, #f7f4ec 0%, #efe9dc 70%, #e7e0cf 100%);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  overflow: hidden;
+}
+
+/* Header / controls */
+#bar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 20;
+  display: flex; align-items: center; gap: 14px;
+  padding: 12px 18px;
+  background: linear-gradient(to bottom, rgba(247,244,236,0.92), rgba(247,244,236,0));
+}
+#bar h1 {
+  font-size: 18px; font-weight: 600; margin: 0; letter-spacing: 0.5px;
+}
+#bar .spacer { flex: 1; }
+.seg { display: inline-flex; border: 1px solid #cfc8b6; border-radius: 999px; overflow: hidden; }
+.seg button {
+  border: 0; background: transparent; color: var(--muted);
+  font: inherit; font-size: 13px; padding: 6px 14px; cursor: pointer;
+}
+.seg button.on { background: var(--ink); color: var(--paper); }
+select, #bar .meta {
+  font: inherit; font-size: 13px; color: var(--muted);
+  background: transparent; border: 0;
+}
+select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color: var(--ink); }
+
+/* Canvas */
+#stage { position: fixed; inset: 0; z-index: 1; }
+.bird {
+  position: absolute; transform: translate(-50%, -50%);
+  cursor: pointer; transition: filter .15s ease, transform .15s ease;
+  filter: drop-shadow(0 6px 10px rgba(0,0,0,0.18));
+}
+.bird img { display: block; width: 100%; height: auto; pointer-events: none; }
+.bird:hover { filter: drop-shadow(0 10px 16px rgba(0,0,0,0.30)); z-index: 10; }
+
+/* Hover label + feedback */
+.tip {
+  position: fixed; z-index: 30; pointer-events: none;
+  background: rgba(43,42,38,0.92); color: #f3efe6;
+  padding: 6px 10px; border-radius: 8px; font-size: 13px;
+  white-space: nowrap; opacity: 0; transition: opacity .12s; transform: translateX(-50%);
+}
+.tip .sci { font-style: italic; opacity: .7; font-size: 11px; }
+.tip.show { opacity: 1; }
+.fb {
+  position: absolute; display: none; gap: 4px; z-index: 12;
+  left: 50%; bottom: -14px; transform: translateX(-50%);
+}
+.bird:hover .fb { display: flex; }
+.fb button {
+  border: 0; border-radius: 999px; width: 24px; height: 24px; cursor: pointer;
+  background: rgba(255,255,255,0.85); box-shadow: 0 1px 3px rgba(0,0,0,.3);
+  font-size: 13px; line-height: 1; padding: 0;
+}
+.fb button.up.act { background: #bfe3b0; }
+.fb button.down.act { background: #e8b4ad; }
+
+#status {
+  position: fixed; bottom: 10px; left: 0; right: 0; z-index: 20;
+  text-align: center; font-size: 12px; color: var(--muted);
+}
+.hint { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+  color: var(--muted); font-size: 15px; z-index: 0; }

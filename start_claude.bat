@@ -1,0 +1,1 @@
+claude  --dangerously-skip-permissions --remote-control birds_today

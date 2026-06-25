@@ -1,0 +1,44 @@
+name: Refresh downvoted bird images
+
+# Reads thumbs up/down feedback (published Google Sheet CSV) and replaces
+# images that accumulate net downvotes, then commits the refreshed cutouts.
+on:
+  schedule:
+    - cron: "0 4 * * 1"   # weekly, Mondays 04:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache rembg model
+        uses: actions/cache@v4
+        with:
+          path: ~/.u2net
+          key: u2net-model
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Process feedback and replace downvoted images
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python scripts/feedback_refresh.py
+
+      - name: Commit refreshed images
+        run: |
+          git config user.name "bird-calendar-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/birds scripts/rejects.json
+          git diff --cached --quiet || git commit -m "Auto-refresh downvoted bird images"
+          git push

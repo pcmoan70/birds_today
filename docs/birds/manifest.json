@@ -1,0 +1,445 @@
+{
+  "barswa": {
+    "sci": "Hirundo rustica",
+    "common": "Barn Swallow",
+    "stances": {
+      "flying": [
+        "barswa/flying_0.png",
+        "barswa/flying_1.png"
+      ],
+      "sitting": [
+        "barswa/sitting_0.png",
+        "barswa/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "barswa/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "barswa/flying_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "barswa/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "barswa/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "blutit": {
+    "sci": "Cyanistes caeruleus",
+    "common": "Eurasian Blue Tit",
+    "stances": {
+      "flying": [
+        "blutit/flying_0.png"
+      ],
+      "sitting": [
+        "blutit/sitting_0.png",
+        "blutit/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "blutit/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "blutit/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "blutit/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "comcha": {
+    "sci": "Fringilla coelebs",
+    "common": "Common Chaffinch",
+    "stances": {
+      "flying": [
+        "comcha/flying_0.png",
+        "comcha/flying_1.png"
+      ],
+      "sitting": [
+        "comcha/sitting_0.png",
+        "comcha/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "comcha/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "comcha/flying_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "comcha/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "comcha/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "comcra": {
+    "sci": "Grus grus",
+    "common": "Common Crane",
+    "stances": {
+      "flying": [
+        "comcra/flying_0.png",
+        "comcra/flying_1.png"
+      ],
+      "sitting": [
+        "comcra/sitting_0.png",
+        "comcra/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "comcra/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "comcra/flying_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "comcra/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "comcra/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "eurbla": {
+    "sci": "Turdus merula",
+    "common": "Eurasian Blackbird",
+    "stances": {
+      "flying": [
+        "eurbla/flying_0.png",
+        "eurbla/flying_1.png"
+      ],
+      "sitting": [
+        "eurbla/sitting_0.png",
+        "eurbla/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "eurbla/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurbla/flying_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurbla/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurbla/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "eurgol1": {
+    "sci": "Carduelis carduelis",
+    "common": "European Goldfinch",
+    "stances": {
+      "flying": [
+        "eurgol1/flying_0.png",
+        "eurgol1/flying_1.png"
+      ],
+      "sitting": [
+        "eurgol1/sitting_0.png",
+        "eurgol1/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "eurgol1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurgol1/flying_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurgol1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurgol1/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "eurmag1": {
+    "sci": "Pica pica",
+    "common": "Eurasian Magpie",
+    "stances": {
+      "flying": [
+        "eurmag1/flying_0.png",
+        "eurmag1/flying_1.png"
+      ],
+      "sitting": [
+        "eurmag1/sitting_0.png",
+        "eurmag1/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "eurmag1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurmag1/flying_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurmag1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurmag1/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "eurrob1": {
+    "sci": "Erithacus rubecula",
+    "common": "European Robin",
+    "stances": {
+      "flying": [
+        "eurrob1/flying_0.png"
+      ],
+      "sitting": [
+        "eurrob1/sitting_0.png",
+        "eurrob1/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "eurrob1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurrob1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurrob1/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "eursta": {
+    "sci": "Sturnus vulgaris",
+    "common": "European Starling",
+    "stances": {
+      "flying": [
+        "eursta/flying_0.png",
+        "eursta/flying_1.png"
+      ],
+      "sitting": [
+        "eursta/sitting_0.png",
+        "eursta/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "eursta/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eursta/flying_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eursta/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eursta/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "gretit1": {
+    "sci": "Parus major",
+    "common": "Great Tit",
+    "stances": {
+      "flying": [
+        "gretit1/flying_0.png",
+        "gretit1/flying_1.png"
+      ],
+      "sitting": [
+        "gretit1/sitting_0.png",
+        "gretit1/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "gretit1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "gretit1/flying_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "gretit1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "gretit1/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "houspa": {
+    "sci": "Passer domesticus",
+    "common": "House Sparrow",
+    "stances": {
+      "flying": [
+        "houspa/flying_0.png"
+      ],
+      "sitting": [
+        "houspa/sitting_0.png",
+        "houspa/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "houspa/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "houspa/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "houspa/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "whoswa": {
+    "sci": "Cygnus cygnus",
+    "common": "Whooper Swan",
+    "stances": {
+      "sitting": [
+        "whoswa/sitting_0.png",
+        "whoswa/sitting_1.png"
+      ]
+    },
+    "credits": {
+      "whoswa/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "whoswa/sitting_1.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  }
+}

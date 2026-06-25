@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+scripts/.venv/
+.venv/
+
+# Raw downloaded images are ephemeral inputs to the cutout step; only the
+# transparent cutouts under docs/birds/ are kept.
+scripts/raw/
+
+# Local feedback test files
+scripts/votes.csv
+
+# rembg model cache (downloaded on first run)
+.u2net/
