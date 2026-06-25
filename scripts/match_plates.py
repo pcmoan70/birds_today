@@ -187,6 +187,8 @@ def _regen_plate(task):
         rgba = EX.to_transparent(plate)          # no place_label => no white panel
         rgba.thumbnail((max_edge, max_edge))
         face = _facing(rgba)
+        from vignette_plates import apply_vignette
+        rgba = apply_vignette(rgba)               # fade residual edge/label artefacts
         q = rgba.quantize(colors=256, method=Image.Quantize.FASTOCTREE)
         dst_dir = os.path.join(OUT_DIR, book)
         os.makedirs(dst_dir, exist_ok=True)
