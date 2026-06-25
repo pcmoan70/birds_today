@@ -1,0 +1,8 @@
+{
+  "source": "generated",
+  "model": "black-forest-labs/FLUX.1-dev",
+  "style": "fieldguide",
+  "prompt": "a highly detailed, lifelike modern ornithological field-guide illustration of a single bird in the naturalistic watercolour-and-gouache style of Lars Jonsson, Killian Mullarney, Dan Zetterström, Hampus Lejon and Axel Thorenfeldt (as in the Collins Bird Guide), rendered with near-photographic realism: true-to-life proportions and colours, realistic feather textures and barring, subtle three-dimensional form and depth, soft natural light with gentle shadow, crisp sharp focus, scientifically accurate field marks, fine feather detail, full body, the bird only, isolated on a plain solid white background, no paper texture, no border, no frame, no caption, no text. A White Stork (Ciconia ciconia), in level flight, wings symmetrically spread in a natural gliding position. anatomically correct, exactly two wings in a natural realistic position with properly layered flight feathers, correct wing orientation, natural posture.",
+  "pose": "flying",
+  "reference": "flying_0.jpg"
+}
