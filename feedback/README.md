@@ -29,6 +29,8 @@ You can read the raw votes any time in your Gmail inbox.
    Image:    {{image_id}}
    Vote:     {{vote}}
    Species:  {{species}}    Pose: {{pose}}
+   Common:   {{common_name}}
+   Latin:    {{sci_name}}
    Hash:     {{image_hash}}
    Time:     {{time}}
    Language: {{lang}}

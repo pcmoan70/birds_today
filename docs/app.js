@@ -204,10 +204,9 @@
 
       var fb = document.createElement("div");
       fb.className = "fb";
-      var cur = window.BirdFeedback ? window.BirdFeedback.myVote(it.img) : null;
       fb.innerHTML =
-        '<button class="up' + (cur === "up" ? " act" : "") + '" title="Good">👍</button>' +
-        '<button class="down' + (cur === "down" ? " act" : "") + '" title="Poor">👎</button>';
+        '<button class="up" title="Good">👍</button>' +
+        '<button class="down" title="Poor">👎</button>';
       fb.querySelector(".up").onclick = function (e) { e.stopPropagation(); doVote(it, "up", fb); };
       fb.querySelector(".down").onclick = function (e) { e.stopPropagation(); doVote(it, "down", fb); };
       el.appendChild(fb);
@@ -227,12 +226,16 @@
 
   function doVote(it, dir, fb) {
     if (window.BirdFeedback) {
-      window.BirdFeedback.vote(it.img, dir,
-        { species: it.code, pose: it.stance, lang: S.lang, url: "birds/" + it.img });
+      var nm = nameFor(it.code);
+      window.BirdFeedback.vote(it.img, dir, {
+        species: it.code, common: nm.common, sci: nm.sci,
+        pose: it.stance, lang: S.lang, url: "birds/" + it.img,
+      });
     }
-    var v = window.BirdFeedback ? window.BirdFeedback.myVote(it.img) : null;
-    fb.querySelector(".up").classList.toggle("act", v === "up");
-    fb.querySelector(".down").classList.toggle("act", v === "down");
+    // Not sticky: flash the clicked button, then clear it.
+    var btn = fb.querySelector(dir === "up" ? ".up" : ".down");
+    btn.classList.add("act");
+    setTimeout(function () { btn.classList.remove("act"); }, 400);
   }
 
   function showTip(ev, code) {

@@ -2,7 +2,10 @@
  * Bird Calendar — client-side feedback (thumbs up/down) via EmailJS.
  *
  * Each vote is emailed to the maintainer's Gmail using EmailJS (no backend).
- * Template params sent: image_id, vote ("upvote"/"downvote"/"cleared"),
+ * Voting is not sticky: every click (including repeated clicks of the same
+ * direction) sends a fresh email.
+ * Template params sent: image_id, vote ("upvote"/"downvote"), species (eBird
+ * code), common_name, sci_name (Latin), pose, lang,
  * image_hash (SHA-256 of the image bytes), time, plus a machine-readable
  * "blob" line ("BIRDVOTE {json}") that the scheduled pipeline
  * (scripts/feedback_refresh.py) parses over IMAP to replace downvoted images.
@@ -38,11 +41,6 @@ window.BirdFeedback = (function () {
     return v;
   }
 
-  function myVotes() {
-    try { return JSON.parse(localStorage.getItem("bc_votes") || "{}"); }
-    catch (e) { return {}; }
-  }
-
   // SHA-256 of the image bytes (hex). Lets the pipeline confirm the rated image
   // is still the current one. Resolves to "" if the image can't be fetched.
   function imageHash(url) {
@@ -66,34 +64,29 @@ window.BirdFeedback = (function () {
   }
 
   // image: "species_code/pose_i.png"; dir: "up" | "down".
-  // meta may include { url, species, pose, lang } — url is the image URL to hash
-  // (defaults to "birds/<image>").
+  // meta may include { url, species, sci, common, pose, lang } — url is the
+  // image URL to hash (defaults to "birds/<image>"). Voting is NOT sticky:
+  // every click sends a fresh email, including repeated clicks of the same dir.
   function vote(image, dir, meta) {
     meta = meta || {};
-    var s = myVotes();
-    if (s[image] === dir) { delete s[image]; dir = "clear"; } // toggle off
-    else s[image] = dir;
-    localStorage.setItem("bc_votes", JSON.stringify(s));
-
-    var label = dir === "up" ? "upvote" : dir === "down" ? "downvote" : "cleared";
+    var label = dir === "up" ? "upvote" : "downvote";
     var time = new Date().toISOString();
     var url = meta.url || ("birds/" + image);
 
     imageHash(url).then(function (hash) {
       var blob = "BIRDVOTE " + JSON.stringify({
         image: image, vote: label, hash: hash,
-        species: meta.species || "", pose: meta.pose || "",
-        client: clientId(), ts: time,
+        species: meta.species || "", sci: meta.sci || "", common: meta.common || "",
+        pose: meta.pose || "", client: clientId(), ts: time,
       });
       send({
         image_id: image, vote: label, image_hash: hash, time: time,
-        species: meta.species || "", pose: meta.pose || "",
+        species: meta.species || "", sci_name: meta.sci || "",
+        common_name: meta.common || "", pose: meta.pose || "",
         lang: meta.lang || "", client: clientId(), blob: blob,
       });
     });
   }
 
-  function myVote(image) { return myVotes()[image] || null; }
-
-  return { vote: vote, myVote: myVote };
+  return { vote: vote };
 })();
