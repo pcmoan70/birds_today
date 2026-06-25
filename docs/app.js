@@ -29,6 +29,17 @@
     lat: DEFAULT.lat, lon: DEFAULT.lon, week: 1, mode: "A",
   };
 
+  // Images the user downvoted this session — grayed out until the tab closes.
+  var DOWNVOTED = (function () {
+    try { return new Set(JSON.parse(sessionStorage.getItem("bc_down") || "[]")); }
+    catch (e) { return new Set(); }
+  })();
+  function markDownvoted(img) {
+    DOWNVOTED.add(img);
+    try { sessionStorage.setItem("bc_down", JSON.stringify([...DOWNVOTED])); }
+    catch (e) {}
+  }
+
   // ---- Worker / inference ---------------------------------------------------
   var worker = new Worker("inference-worker.js");
   var pending = {}, nextId = 1, workerReady = null;
@@ -189,7 +200,7 @@
     var placed = layoutFn(items, window.innerWidth, window.innerHeight);
     placed.forEach(function (it) {
       var el = document.createElement("div");
-      el.className = "bird";
+      el.className = "bird" + (DOWNVOTED.has(it.img) ? " downvoted" : "");
       el.style.left = it.x + "px"; el.style.top = it.y + "px";
       el.style.width = it.size + "px";
       var im = document.createElement("img");
@@ -236,6 +247,11 @@
     var btn = fb.querySelector(dir === "up" ? ".up" : ".down");
     btn.classList.add("act");
     setTimeout(function () { btn.classList.remove("act"); }, 400);
+    // Downvote grays the bird out for the rest of the session.
+    if (dir === "down") {
+      markDownvoted(it.img);
+      if (fb.parentElement) fb.parentElement.classList.add("downvoted");
+    }
   }
 
   function showTip(ev, code) {

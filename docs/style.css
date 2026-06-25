@@ -64,6 +64,7 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
 }
 .bird img { display: block; width: 100%; height: auto; pointer-events: none; }
 .bird:hover { filter: drop-shadow(0 10px 16px rgba(0,0,0,0.30)); z-index: 10; }
+.bird.downvoted img { filter: grayscale(1); opacity: .4; transition: filter .2s ease, opacity .2s ease; }
 
 /* Hover label + feedback */
 .tip {
