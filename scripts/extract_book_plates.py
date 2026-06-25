@@ -164,6 +164,17 @@ def colorfulness(im):
     return float(np.hypot(rg.std(), yb.std()) + 0.3 * np.hypot(rg.mean(), yb.mean()))
 
 
+def plate_score(im, inset=0.15):
+    """Colourfulness of the CENTRAL region only. A real plate's bird fills the
+    centre (high score); false positives — marbled binding edges, library
+    stamps, blank endpapers — have colour only at the margins, so their centre
+    scores low. This is what separates plates from non-plates."""
+    w, h = im.size
+    c = im.crop((int(w * inset), int(h * inset),
+                 int(w * (1 - inset)), int(h * (1 - inset))))
+    return colorfulness(c)
+
+
 def clean_plate(im, margin=0.012):
     """Auto-crop the paper margin and neutralise the yellow cast.
 
@@ -209,20 +220,22 @@ def rounded_label(rect_rgb, pad=12, radius_frac=0.18):
     return out
 
 
-def detect_caption_box(rgb, caption_zone=0.22):
-    """Bounding box of the black, low-saturation caption text in the bottom
-    band, or None. Coloured illustration (which has saturation) is ignored."""
+def detect_caption_box(rgb, zone=0.20, lum_thr=210, sat_thr=0.20, min_px=120):
+    """Bounding box of the caption — neutral (low-saturation) text DARKER than
+    the paper, in the bottom `zone` band — or None. lum_thr is generous so even
+    faint grey captions (common in Gould) are caught; sat_thr keeps the coloured
+    illustration out."""
     arr = np.asarray(rgb).astype(np.float32)
     h, w, _ = arr.shape
     lum = arr.mean(2)
     mx, mn = arr.max(2), arr.min(2)
     sat = (mx - mn) / np.clip(mx, 1, None)
-    text = (lum < 135) & (sat < 0.14)
-    text[:int(h * (1 - caption_zone)), :] = False
+    text = (lum < lum_thr) & (lum > 60) & (sat < sat_thr)
+    text[:int(h * (1 - zone)), :] = False
     ys, xs = np.where(text)
-    if len(xs) < 150:
+    if len(xs) < min_px:
         return None
-    pad = max(6, int(h * 0.015))
+    pad = max(6, int(h * 0.012))
     return (max(0, int(xs.min()) - pad), max(0, int(ys.min()) - pad),
             min(w - 1, int(xs.max()) + pad), min(h - 1, int(ys.max()) + pad))
 
@@ -332,20 +345,51 @@ def parse_species(text):
     return common, sci
 
 
+def orient_and_label(rgb):
+    """Find the label and the right way up. Labels are always under the bird,
+    so the orientation whose BOTTOM holds a readable caption is upright. Fast
+    path: if the caption parses to a binomial at 0°, keep it; otherwise try
+    90/180/270 (some plates are printed sideways) and pick the most caption-like
+    (a parsed binomial wins, then the most letters). Returns
+    (upright_rgb, box, common, sci, caption_text)."""
+    def at(im):
+        b = detect_caption_box(im)
+        if not b:
+            return None, "", -1
+        txt = ocr_text(im.crop(b))
+        sci = parse_species(txt)[1]
+        return b, txt, (1000 if sci else 0) + sum(c.isalpha() for c in txt)
+
+    box, txt, score = at(rgb)
+    if box and parse_species(txt)[1]:                      # readable at 0° -> upright
+        c, s = parse_species(txt)
+        return rgb, box, c, s, " ".join(txt.split())
+    best = (score, rgb, box, txt)
+    for rot in (90, 180, 270):
+        im = rgb.rotate(rot, expand=True)
+        b, t, sc = at(im)
+        if sc > best[0]:
+            best = (sc, im, b, t)
+    _, im, box, txt = best
+    c, s = parse_species(txt)
+    return im, box, c, s, " ".join(txt.split())
+
+
 def _leaf_png(out, leaf):
     return os.path.join(out, f"leaf_{leaf:04d}.png")
 
 
 def process_leaf(cfg, leaf):
-    """Worker (runs in a separate process): download, score, and — for a
-    plate — clean, make transparent, save the PNG + a caption-panel crop.
-    Returns the provenance dict (species filled later in the main process),
-    a scan dict, or None."""
+    """Worker (separate process): download, score (centre colourfulness), and for
+    a plate clean it, orient it upright, OCR the species, make the paper
+    transparent, and save the plate PNG + standalone label PNG + sidecar JSON.
+    Returns the fully-populated provenance dict, a scan dict, or None."""
     ident = cfg["identifier"]
     thumb = fetch_image(ident, leaf, cfg["scan_width"])
     if thumb is None:
         return None
-    score = colorfulness(thumb)
+    score = plate_score(clean_plate(thumb))  # clean first so binding/tint at the
+    #                                          edges can't inflate a blank page
     if cfg["scan"]:
         return {"scan": True, "identifier": ident, "leaf": leaf,
                 "colorfulness": round(score, 1),
@@ -357,18 +401,18 @@ def process_leaf(cfg, leaf):
     if plate.width > cfg["width"]:
         plate = plate.resize((cfg["width"],
                               round(plate.height * cfg["width"] / plate.width)))
+    plate, box, common, sci, caption = orient_and_label(plate)
     base = _leaf_png(cfg["out"], leaf)[:-4]
-    box = detect_caption_box(plate)
     to_transparent(plate, box).save(base + ".png", optimize=True)
     label_file = ""
     if box:
         rounded_label(plate.crop(box)).save(base + "_label.png")
         label_file = os.path.relpath(base + "_label.png", OUT_DIR)
-    return {
+    prov = {
         "book": cfg["book"], "title": cfg["title"], "author": cfg["author"],
         "year": cfg["year"], "source": "Internet Archive", "identifier": ident,
         "volume": cfg["volume"], "leaf": leaf,
-        "species_common": "", "species_sci": "", "caption_text": "",
+        "species_common": common, "species_sci": sci, "caption_text": caption,
         "page_url": page_url(ident, leaf),
         "image_url": page_image_url(ident, leaf, cfg["width"]),
         "colorfulness": round(score, 1),
@@ -376,10 +420,13 @@ def process_leaf(cfg, leaf):
         "label_file": label_file,
         "saved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
+    with open(base + ".png.json", "w", encoding="utf-8") as jf:
+        json.dump(prov, jf, ensure_ascii=False, indent=2)
+    return prov
 
 
 def fill_species(prov):
-    """OCR the saved caption crop -> species_common / species_sci / caption_text."""
+    """Re-OCR a plate's label crop -> species (used by --ocr-only reindex)."""
     cap = prov.get("label_file")
     if cap and os.path.exists(os.path.join(OUT_DIR, cap)):
         txt = ocr_text(Image.open(os.path.join(OUT_DIR, cap)))
@@ -427,8 +474,11 @@ def process_volume(book, vol_label, identifier, args, pool):
     futs = [pool.submit(process_leaf, cfg, n) for n in todo]
     for fu in as_completed(futs):
         r = fu.result()
-        if r:
-            results.append(r)
+        if not r:
+            continue
+        results.append(r)
+        if not args.scan:
+            write_book_csv(book, [r], mode="a")  # live: log each bird as it lands
     return results
 
 
@@ -463,8 +513,10 @@ def main():
     ap.add_argument("--start", type=int, default=0, help="first leaf index")
     ap.add_argument("--end", type=int, default=0, help="last leaf index (exclusive)")
     ap.add_argument("--limit", type=int, default=0, help="max leaves per volume (testing)")
-    ap.add_argument("--min-colorfulness", type=float, default=16.0,
-                    help="plate threshold (use --scan to calibrate)")
+    ap.add_argument("--min-colorfulness", type=float, default=9.0,
+                    help="centre-colourfulness plate threshold on the cleaned page "
+                         "(use --scan to calibrate; real plates ~11-20, "
+                         "blank/binding pages <7)")
     ap.add_argument("--width", type=int, default=1000, help="saved plate width px")
     ap.add_argument("--scan-width", type=int, default=480,
                     help="low-res width used only for scoring")
@@ -506,16 +558,11 @@ def main():
                     print(f"    {r['identifier']} n{r['leaf']:>4}  "
                           f"{r['colorfulness']:5.1f}  {'PLATE' if r['plate'] else ''}")
                 continue
-            plates = [fill_species(r) for r in results]
-            for prov in plates:  # write each plate's provenance sidecar
-                with open(os.path.join(OUT_DIR, prov["file"]) + ".json", "w",
-                          encoding="utf-8") as jf:
-                    json.dump(prov, jf, ensure_ascii=False, indent=2)
-            path = write_book_csv(book, plates)
-            named = sum(1 for r in plates if r.get("species_sci") or r.get("species_common"))
-            print(f"  {book}: {len(plates)} new plate(s), species on {named} "
-                  f"-> {path}")
-            total += len(plates)
+            # plates were saved + logged to the per-book CSV live, in the workers
+            named = sum(1 for r in results if r.get("species_sci") or r.get("species_common"))
+            print(f"  {book}: {len(results)} new plate(s), species on {named} "
+                  f"-> {book_csv(book)}")
+            total += len(results)
     if not args.scan:
         print(f"\nDone. {total} new plate(s) under {OUT_DIR}.")
 
