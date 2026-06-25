@@ -138,6 +138,23 @@
     return true;
   }
 
+  // Plate-only species aren't in the AI manifest's names; pull their localized
+  // names (embedded in plates/manifest.json) into S.tax so the caption is in
+  // the chosen locale for every bird.
+  function mergePlateNames() {
+    var langset = {};
+    for (var code in S.plates) {
+      var e = S.plates[code];
+      if (!S.tax[code] && (e.names || e.sci)) {
+        S.tax[code] = { sci: e.sci || "", names: e.names || {} };
+      }
+      for (var lg in (e.names || {})) langset[lg] = 1;
+    }
+    for (var l2 in langset) {
+      if (S.langs.indexOf(l2) < 0) S.langs.push(l2);
+    }
+  }
+
   function nameFor(code) {
     var rec = S.tax[code];
     var common = (rec && (rec.names[S.lang] || rec.names.en)) ||
@@ -253,6 +270,13 @@
         }
       }
       el.appendChild(im);
+
+      // Always-on localized common name under the bird (period book font).
+      var nm = document.createElement("div");
+      nm.className = "name";
+      nm.textContent = nameFor(it.code).common;
+      nm.style.fontSize = Math.max(11, Math.min(18, it.size * 0.13)) + "px";
+      el.appendChild(nm);
 
       var fb = document.createElement("div");
       fb.className = "fb";
@@ -413,6 +437,7 @@
         var taxText = await fetch(TAX_URL).then(function (r) { return r.text(); });
         loadTaxonomy(taxText, S.manifest);
       }
+      mergePlateNames();   // localized names for plate-only species
       setupControls();
       setupMap();
 

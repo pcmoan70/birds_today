@@ -63,6 +63,14 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
   filter: drop-shadow(0 6px 10px rgba(0,0,0,0.18));
 }
 .bird img { display: block; width: 100%; height: auto; pointer-events: none; }
+/* Always-on species name under the bird, in a period (1860-1900) book face. */
+.bird .name {
+  position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+  margin-top: 3px; text-align: center; white-space: nowrap; pointer-events: none;
+  font-family: "Playfair Display", "Iowan Old Style", Georgia, serif;
+  font-weight: 500; color: var(--ink); line-height: 1.05; letter-spacing: .2px;
+  text-shadow: 0 1px 0 rgba(243,239,230,0.9), 0 0 5px rgba(243,239,230,0.85);
+}
 .bird:hover { filter: drop-shadow(0 10px 16px rgba(0,0,0,0.30)); z-index: 10; }
 .bird.downvoted img { filter: grayscale(1); opacity: .4; transition: filter .2s ease, opacity .2s ease; }
 

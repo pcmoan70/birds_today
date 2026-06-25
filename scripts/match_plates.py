@@ -196,6 +196,30 @@ def _regen_plate(task):
         return ("ERR", f"{code}/{book}", repr(e))
 
 
+def load_species_info(codes):
+    """{code: {"sci": str, "names": {lang: common}}} from taxonomy.csv, so the
+    plate manifest can carry localized names for plate-only species (which the
+    AI manifest doesn't cover) — the app shows the name under each bird."""
+    needed = set(codes)
+    out = {}
+    with open(TAX, encoding="utf-8") as f:
+        r = csv.DictReader(f)
+        langcol = {}
+        for fld in r.fieldnames:
+            if fld == "com_name":
+                langcol["en"] = fld
+            elif fld.startswith("common_name_"):
+                langcol[fld[len("common_name_"):]] = fld
+        for row in r:
+            code = row.get("species_code")
+            if code in needed:
+                out[code] = {
+                    "sci": row.get("sci_name", ""),
+                    "names": {lg: row[c] for lg, c in langcol.items() if row.get(c)},
+                }
+    return out
+
+
 def read_plates(book):
     path = os.path.join(PLATES, book, "index.csv")
     if not os.path.exists(path):
@@ -317,6 +341,13 @@ def main():
                 manifest[code][book]["face"] = f
         if not manifest[code]:
             del manifest[code]
+
+    # Embed localized names + modern scientific name per species (for the
+    # always-on caption under each bird, in the correct locale).
+    info = load_species_info(manifest.keys())
+    for code in manifest:
+        manifest[code]["sci"] = info.get(code, {}).get("sci", "")
+        manifest[code]["names"] = info.get(code, {}).get("names", {})
 
     with open(os.path.join(OUT_DIR, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, separators=(",", ":"))

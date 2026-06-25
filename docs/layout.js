@@ -13,7 +13,7 @@
 window.BirdLayout = (function () {
   var TOP = 70;            // header reserve
   var MIN_FRAC = 0.06, MAX_FRAC = 0.15; // bird size range (frac of min side)
-  var GAP = 8;             // extra px between birds
+  var GAP = 16;            // extra px between birds (room for the name caption)
   var SHRINK = [1, 0.85, 0.72];         // try full size, then a bit smaller
   var ATTEMPTS = 200;
 
