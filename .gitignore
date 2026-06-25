@@ -23,3 +23,7 @@ layout.png
 
 # layout preview renders (temporary)
 scripts/layout_preview*.png
+
+# Long-running job logs (generation / checkpoint watcher)
+scripts/*.log
+scripts/*.err
