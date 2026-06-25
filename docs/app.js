@@ -285,19 +285,21 @@
         S.mode === "A" ? "No resident birds to show here." : "No arriving migrants this week.";
     }
 
-    // Residents spiral by probability from the centre; migration uses scatter.
-    var layoutFn = S.mode === "A" ? window.BirdLayout.placeSpiral : window.BirdLayout.place;
-    var placed = layoutFn(items, window.innerWidth, window.innerHeight);
-    placed.forEach(function (it) {
+    // Dense top-to-bottom packing by probability; the page scrolls.
+    var W = stage.clientWidth || window.innerWidth;
+    var res = window.BirdLayout.placeScroll(items, W);
+    stage.style.height = res.height + "px";
+    res.placed.forEach(function (it) {
       var el = document.createElement("div");
       el.className = "bird" + (DOWNVOTED.has(it.img) ? " downvoted" : "");
       el.style.left = it.x + "px"; el.style.top = it.y + "px";
       el.style.width = it.size + "px";
       var im = document.createElement("img");
+      im.loading = "lazy"; im.decoding = "async";   // long page: defer off-screen
       im.src = it.src; im.alt = nameFor(it.code).common;
       // Flip the bird so it faces the centre of the page (beak toward middle).
       if (it.flip && it.face) {
-        var halfW = window.innerWidth / 2;
+        var halfW = W / 2;
         if ((it.x > halfW && it.face === "right") || (it.x < halfW && it.face === "left")) {
           im.style.transform = "scaleX(-1)";
         }

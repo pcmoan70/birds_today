@@ -1,105 +1,64 @@
 /**
- * Bird Calendar — artistic radial layout.
+ * Bird Calendar — scrollable dense packing.
  *
- * Scatters birds from the centre outward (see layout.png). Design: dense, subtle
- * data-true sizing, biggest in the middle. Tiles may overlap a little (TOUCH<0.5)
- * for tight packing; a bird shrinks if it barely fits and is dropped only if it
- * still can't. Highest-value species place first.
+ * The page is a tall, scrollable canvas filled top-to-bottom by probability:
+ * the most probable species sit near the top (and a touch larger), tapering down
+ * to the least probable. Birds are packed densely and organically — never in a
+ * grid or rows — using a skyline packer with randomised candidate positions, so
+ * each bird rests as high as it can on the current frontier with a little
+ * overlap allowed (transparent edges keep them from visually colliding).
  *
- * window.BirdLayout.place(items, W, H) -> [{...item, x, y, size}] (subset that fits)
- * Each item must have { value } (>0 weight). Size scales with value.
+ * window.BirdLayout.placeScroll(items, W)
+ *   -> { placed: [{...item, x, y, size}], height }   (x,y = centre; height = px)
  */
 window.BirdLayout = (function () {
-  var TOP = 70;            // header reserve
-  var MIN_FRAC = 0.045, MAX_FRAC = 0.12; // bird size range (frac of min side)
-  var GAP = 2;             // extra px between birds (denser packing)
-  var TOUCH = 0.44;        // center-distance factor; <0.5 lets tiles overlap a little
-  var SHRINK = [1, 0.85, 0.72];         // try full size, then a bit smaller
-  var ATTEMPTS = 200;
+  var TOP = 72;            // clear the fixed header
+  var GAP = 3;             // vertical breathing room between stacked birds
+  var OVERLAP = 0.90;      // skyline advance < size => slight overlap (denser)
+  var TRIES = 22;          // random candidate positions per bird
 
-  function place(items, W, H) {
-    var minSide = Math.min(W, H);
-    var cx = W / 2, cy = (H + TOP) / 2;
-    var maxV = items.reduce(function (m, it) { return Math.max(m, it.value); }, 1e-6);
-    var minPx = Math.max(36, minSide * MIN_FRAC);
-    var maxPx = Math.max(72, minSide * MAX_FRAC);
-    var XS = 1.15, YS = 0.82;             // stretch to fill widescreen
-
-    // Highest-value species first, placed from the centre outward: the biggest
-    // bird sits in the middle, smaller ones scatter around it (radius grows with
-    // rank, sqrt for an even area fill, with angular + radial jitter).
+  function placeScroll(items, W) {
     var sorted = items.slice().sort(function (a, b) { return b.value - a.value; });
-    var n = sorted.length;
+    var maxV = sorted.length ? Math.max(sorted[0].value, 1e-6) : 1e-6;
+    var minPx = Math.max(60, W * 0.07);
+    var maxPx = Math.min(190, Math.max(104, W * 0.15));
+
+    var bin = 6;                                  // skyline resolution (px)
+    var nb = Math.max(1, Math.ceil(W / bin));
+    var sky = new Array(nb).fill(TOP);            // current filled height per column
+
+    function rangeMax(b0, b1) {
+      var m = 0;
+      for (var i = b0; i <= b1 && i < nb; i++) if (sky[i] > m) m = sky[i];
+      return m;
+    }
+
     var placed = [];
-    sorted.forEach(function (it, i) {
-      var base = minPx + (maxPx - minPx) * (it.value / maxV);  // subtle, data-true
-      if (i === 0) { placed.push({ x: cx, y: cy, size: base, item: it }); return; }
-      var spot = null;
-      for (var s = 0; s < SHRINK.length && !spot; s++) {
-        var size = base * SHRINK[s];
-        var ring = Math.sqrt((i + 1) / n) * minSide * 0.62;
-        for (var k = 0; k < ATTEMPTS; k++) {
-          var rad = ring + (Math.random() - 0.5) * size * 1.4
-            + (k / ATTEMPTS) * minSide * 0.30;   // creep outward if blocked
-          var ang = Math.random() * Math.PI * 2;
-          var x = cx + rad * Math.cos(ang) * XS;
-          var y = cy + rad * Math.sin(ang) * YS;
-          if (x - size / 2 < 0 || x + size / 2 > W ||
-              y - size / 2 < TOP || y + size / 2 > H) continue;
-          var ok = true;
-          for (var p = 0; p < placed.length; p++) {
-            var q = placed[p];
-            if (Math.hypot(x - q.x, y - q.y) < (size + q.size) * TOUCH + GAP) { ok = false; break; }
-          }
-          if (ok) { spot = { x: x, y: y, size: size }; break; }
-        }
+    sorted.forEach(function (it) {
+      // size tapers with probability (sqrt = gentler), capped to the width
+      var s = minPx + (maxPx - minPx) * Math.sqrt(it.value / maxV);
+      s = Math.min(s, W * 0.92);
+      var bw = Math.max(1, Math.round(s / bin));
+      var maxB0 = Math.max(0, nb - bw);
+
+      // try several random windows, keep the one that rests highest (densest)
+      var best = null;
+      for (var t = 0; t < TRIES; t++) {
+        var b0 = maxB0 ? Math.floor(Math.random() * (maxB0 + 1)) : 0;
+        var top = rangeMax(b0, b0 + bw - 1);
+        if (best === null || top < best.top) best = { b0: b0, top: top };
       }
-      if (spot) placed.push({ x: spot.x, y: spot.y, size: spot.size, item: it });
+
+      var x = Math.max(s / 2, Math.min(W - s / 2, best.b0 * bin + s / 2));
+      var y = best.top + s / 2;
+      var adv = best.top + s * OVERLAP + GAP;
+      for (var i = best.b0; i < best.b0 + bw && i < nb; i++) sky[i] = adv;
+      placed.push(Object.assign({}, it, { x: x, y: y, size: s }));
     });
-    return placed.map(function (p) {
-      return Object.assign({}, p.item, { x: p.x, y: p.y, size: p.size });
-    });
+
+    var height = sky.reduce(function (m, v) { return Math.max(m, v); }, TOP) + GAP;
+    return { placed: placed, height: height };
   }
 
-  // Residents (Mode A): most probable in the centre, spiralling outward
-  // (phyllotaxis) as the value drops. Size ∝ value; strict no overlap.
-  function placeSpiral(items, W, H) {
-    var minSide = Math.min(W, H);
-    var cx = W / 2, cy = (H + TOP) / 2;
-    var maxV = items.reduce(function (m, it) { return Math.max(m, it.value); }, 1e-6);
-    var minPx = Math.max(36, minSide * MIN_FRAC);
-    var maxPx = Math.max(72, minSide * 0.13);
-    var golden = Math.PI * (3 - Math.sqrt(5));   // ~2.39996 rad
-    var C = (minPx + maxPx) * 0.27;              // spiral tightness
-    var XS = 1.15, YS = 0.82;                    // stretch to fill widescreen
-
-    var sorted = items.slice().sort(function (a, b) { return b.value - a.value; });
-    var placed = [];
-    sorted.forEach(function (it, i) {
-      var size = minPx + (maxPx - minPx) * (it.value / maxV);
-      if (i === 0) { placed.push({ x: cx, y: cy, size: size, item: it }); return; }
-      var spot = null, k = i;
-      while (k < i + 6000) {
-        var ang = k * golden, rad = C * Math.sqrt(k);
-        var x = cx + rad * Math.cos(ang) * XS;
-        var y = cy + rad * Math.sin(ang) * YS;
-        if (x - size / 2 >= 0 && x + size / 2 <= W &&
-            y - size / 2 >= TOP && y + size / 2 <= H) {
-          var ok = true;
-          for (var p = 0; p < placed.length; p++) {
-            var q = placed[p];
-            if (Math.hypot(x - q.x, y - q.y) < (size + q.size) * TOUCH + GAP) { ok = false; break; }
-          }
-          if (ok) { spot = { x: x, y: y, size: size }; break; }
-        }
-        k++;
-      }
-      if (spot) placed.push({ x: spot.x, y: spot.y, size: spot.size, item: it });
-    });
-    return placed.map(function (p) {
-      return Object.assign({}, p.item, { x: p.x, y: p.y, size: p.size });
-    });
-  }
-
-  return { place: place, placeSpiral: placeSpiral };
+  return { placeScroll: placeScroll };
 })();

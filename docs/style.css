@@ -5,12 +5,15 @@
   --muted: #6f6c63;
 }
 * { box-sizing: border-box; }
-html, body { height: 100%; margin: 0; }
+html, body { margin: 0; }
 body {
-  background: radial-gradient(circle at 50% 45%, #f7f4ec 0%, #efe9dc 70%, #e7e0cf 100%);
+  min-height: 100%;
+  background: #efe9dc;
+  background-attachment: fixed;
+  background-image: radial-gradient(circle at 50% 35vh, #f7f4ec 0%, #efe9dc 60%, #e7e0cf 100%);
   color: var(--ink);
   font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  overflow: hidden;
+  overflow-x: hidden; overflow-y: auto;
 }
 
 /* Header / controls */
@@ -107,7 +110,7 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
 .help-body p { margin: 0 0 8px; }
 
 /* Canvas */
-#stage { position: fixed; inset: 0; z-index: 1; }
+#stage { position: relative; width: 100%; z-index: 1; }
 .bird {
   position: absolute; transform: translate(-50%, -50%);
   cursor: pointer; transition: filter .15s ease, transform .15s ease;
