@@ -25,9 +25,9 @@
  * Exposed as window.BirdFeedback.
  */
 window.BirdFeedback = (function () {
-  var PUBLIC_KEY = "";   // EmailJS → Account → General
-  var SERVICE_ID = "";   // EmailJS → Email Services
-  var TEMPLATE_ID = "";  // EmailJS → Email Templates
+  var PUBLIC_KEY = "-5S2PctOrxEViV5Pf";   // EmailJS → Account → General → API Keys
+  var SERVICE_ID = "service_n19hwlq";     // EmailJS → Email Services
+  var TEMPLATE_ID = "template_diffgq7";   // EmailJS → Email Templates
 
   function clientId() {
     var k = "bc_client", v = localStorage.getItem(k);
