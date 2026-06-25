@@ -431,7 +431,13 @@
         stage.classList.toggle("aibw", S.aiBW);
       };
     });
-    window.addEventListener("resize", debounce(render, 200));
+    // Only reflow when the WIDTH changes — height-only resizes (mobile address
+    // bar showing/hiding while scrolling) must not reshuffle the layout.
+    var lastW = window.innerWidth;
+    window.addEventListener("resize", debounce(function () {
+      if (window.innerWidth === lastW) return;
+      lastW = window.innerWidth; render();
+    }, 200));
     window.addEventListener("scroll", onScroll, { passive: true });
   }
 
@@ -450,29 +456,68 @@
     });
   }
 
-  // Full-screen detail view for a clicked bird: larger image, name, and the
-  // image source (clicking a book source jumps straight to the scanned page).
-  function openBird(it) {
-    var nm = nameFor(it.code);
+  // Full-screen detail view for a clicked bird. The image cycles through the
+  // available sources (Gould, Dresser, AI) when clicked; a book source links
+  // straight to the scanned page.
+  var BIRD = { code: null, variants: [], idx: 0 };
+
+  function birdVariants(code) {
+    var out = [];
+    var p = S.plates[code] || {};
+    ["gould", "dresser"].forEach(function (b) {
+      var e = p[b];
+      if (!e) return;
+      out.push({
+        label: b === "gould" ? "Gould" : "Dresser",
+        src: e.img, page: e.page_url || null, ai: false,
+        origin: (BOOK_INFO[b] || b) + (e.volume ? ", " + e.volume : "") +
+          (e.multi ? " — plate shows several species" : ""),
+      });
+    });
+    var m = S.manifest[code];
+    if (m && m.stances) {
+      var img = null;
+      ["sitting", "flying"].forEach(function (s) {
+        if (!img && m.stances[s] && m.stances[s].length) img = m.stances[s][0];
+      });
+      for (var k in m.stances) {
+        if (!img && m.stances[k] && m.stances[k].length) img = m.stances[k][0];
+      }
+      if (img) out.push({ label: "AI", src: "birds/" + img, page: null, ai: true,
+        origin: "AI-generated field-guide illustration" });
+    }
+    return out;
+  }
+
+  function showBirdVariant() {
+    var nm = nameFor(BIRD.code);
+    var v = BIRD.variants[BIRD.idx];
     var img = document.getElementById("bird-img");
-    img.src = it.src; img.alt = nm.common;
+    img.src = v.src; img.alt = nm.common;
+    img.style.filter = (v.ai && S.aiBW) ? "grayscale(1)" : "";
+    img.style.cursor = BIRD.variants.length > 1 ? "pointer" : "default";
     document.getElementById("bird-name").textContent = nm.common;
     document.getElementById("bird-sci").textContent = nm.sci || "";
 
     var srcEl = document.getElementById("bird-src");
     srcEl.textContent = "Source: ";
-    if (it.page) {
+    if (v.page) {
       var a = document.createElement("a");
-      a.href = it.page; a.target = "_blank"; a.rel = "noopener";
-      a.textContent = it.origin || "view source page";
+      a.href = v.page; a.target = "_blank"; a.rel = "noopener";
+      a.textContent = v.origin;
       srcEl.appendChild(a);
     } else {
-      srcEl.appendChild(document.createTextNode(it.origin || "—"));
+      srcEl.appendChild(document.createTextNode(v.origin));
     }
 
     var extra = document.getElementById("bird-extra");
     extra.textContent = "";
-    var mt = metrics(it.code);
+    if (BIRD.variants.length > 1) {
+      var sources = BIRD.variants.map(function (x) { return x.label; }).join(" · ");
+      extra.appendChild(document.createTextNode("Tap the image to switch source (" + sources + ")"));
+      extra.appendChild(document.createElement("br"));
+    }
+    var mt = metrics(BIRD.code);
     if (mt) {
       var pct = Math.round(Math.max(0, Math.min(1, mt.cur)) * 100);
       extra.appendChild(document.createTextNode("Seen here this week: " + pct + "%"));
@@ -480,17 +525,37 @@
     }
     var ml = document.createElement("a");
     ml.href = "https://search.macaulaylibrary.org/catalog?taxonCode=" +
-      encodeURIComponent(it.code) + "&mediaType=photo";
+      encodeURIComponent(BIRD.code) + "&mediaType=photo";
     ml.target = "_blank"; ml.rel = "noopener";
     ml.textContent = "Photos & sounds on Macaulay Library →";
     extra.appendChild(ml);
+  }
 
+  function openBird(it) {
+    BIRD.code = it.code;
+    BIRD.variants = birdVariants(it.code);
+    if (!BIRD.variants.length) {
+      BIRD.variants = [{ label: "", src: it.src, page: it.page,
+        origin: it.origin || "—", ai: !!it.ai }];
+    }
+    var at = -1;
+    for (var i = 0; i < BIRD.variants.length; i++) {
+      if (BIRD.variants[i].src === it.src) { at = i; break; }
+    }
+    BIRD.idx = at >= 0 ? at : 0;
+    showBirdVariant();
     document.getElementById("bird-modal").hidden = false;
   }
 
   function setupBirdModal() {
     var modal = document.getElementById("bird-modal");
     document.getElementById("bird-close").onclick = function () { modal.hidden = true; };
+    document.getElementById("bird-img").addEventListener("click", function () {
+      if (BIRD.variants.length > 1) {
+        BIRD.idx = (BIRD.idx + 1) % BIRD.variants.length;
+        showBirdVariant();
+      }
+    });
     modal.addEventListener("click", function (e) {
       if (e.target === modal) modal.hidden = true;   // click backdrop to close
     });
