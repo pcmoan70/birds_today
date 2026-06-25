@@ -77,7 +77,7 @@ window.BirdFeedback = (function () {
       var blob = "BIRDVOTE " + JSON.stringify({
         image: image, vote: label, hash: hash,
         species: meta.species || "", sci: meta.sci || "", common: meta.common || "",
-        pose: meta.pose || "", client: clientId(), ts: time,
+        pose: meta.pose || "", lang: meta.lang || "", client: clientId(), ts: time,
       });
       send({
         image_id: image, vote: label, image_hash: hash, time: time,
