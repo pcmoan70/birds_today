@@ -75,6 +75,31 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
 }
 .modal-head button { border: 0; background: transparent; font-size: 16px; cursor: pointer; color: var(--muted); }
 #map { height: min(60vh, 520px); width: 100%; }
+
+/* Full-screen bird detail view */
+.bird-card {
+  position: relative; width: min(880px, 94vw); max-height: 92vh; overflow: auto;
+  background: var(--paper); border-radius: 14px; padding: 20px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.5);
+  display: flex; flex-direction: column; align-items: center;
+}
+#bird-img { max-width: 100%; max-height: 68vh; height: auto; display: block; }
+.bird-info { text-align: center; margin-top: 14px; }
+.bird-name {
+  font-family: "Playfair Display", "Iowan Old Style", Georgia, serif;
+  font-size: 26px; font-weight: 600;
+}
+.bird-sci { font-style: italic; color: var(--muted); margin-top: 2px; }
+.bird-src { margin-top: 12px; font-size: 14px; }
+.bird-extra { margin-top: 8px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+.bird-src a, .bird-extra a { color: var(--ink); }
+.bird-close {
+  position: absolute; top: 8px; right: 10px; z-index: 2;
+  border: 0; background: rgba(0,0,0,0.06); border-radius: 999px;
+  width: 32px; height: 32px; font-size: 16px; line-height: 1; cursor: pointer;
+  color: var(--ink);
+}
+.bird-close:hover { background: rgba(0,0,0,0.12); }
 .help-body { padding: 14px 18px; max-height: min(70vh, 560px); overflow: auto; font-size: 14px; line-height: 1.5; }
 .help-body h4 { margin: 14px 0 4px; font-size: 14px; }
 .help-body ul { margin: 0; padding-left: 18px; }
@@ -89,14 +114,6 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
   filter: drop-shadow(0 6px 10px rgba(0,0,0,0.18));
 }
 .bird img { display: block; width: 100%; height: auto; pointer-events: none; }
-/* Always-on species name under the bird, in a period (1860-1900) book face. */
-.bird .name {
-  position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
-  margin-top: -2px; text-align: center; white-space: nowrap; pointer-events: none;
-  font-family: "Playfair Display", "Iowan Old Style", Georgia, serif;
-  font-weight: 500; color: var(--ink); line-height: 1.05; letter-spacing: .2px;
-  text-shadow: 0 1px 0 rgba(243,239,230,0.9), 0 0 5px rgba(243,239,230,0.85);
-}
 .bird:hover { filter: drop-shadow(0 10px 16px rgba(0,0,0,0.30)); z-index: 10; }
 .bird.downvoted img { filter: grayscale(1); opacity: .4; transition: filter .2s ease, opacity .2s ease; }
 
