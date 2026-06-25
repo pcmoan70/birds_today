@@ -1,4 +1,151 @@
 {
+  "arcter": {
+    "sci": "Sterna paradisaea",
+    "common": "Arctic Tern",
+    "names": {
+      "en": "Arctic Tern",
+      "de": "Küstenseeschwalbe",
+      "es": "Charrán Ártico",
+      "pl": "rybitwa popielata",
+      "fr": "Sterne arctique",
+      "nl": "Noordse stern",
+      "ru": "Полярная крачка",
+      "ja": "キョクアジサシ",
+      "cs": "rybák dlouhoocasý",
+      "ca": "xatrac àrtic",
+      "pt": "trinta-réis-ártico",
+      "no": "rødnebbterne",
+      "bg": "Полярна рибарка",
+      "sv": "silvertärna",
+      "da": "Havterne",
+      "tr": "Kutup Sumrusu",
+      "sk": "rybár dlhochvostý",
+      "sr": "Arktička čigra",
+      "uk": "Крячок полярний",
+      "zh-CN": "北极燕鸥",
+      "fi": "lapintiira",
+      "es_ES": "Charrán ártico",
+      "es_MX": "Charrán Ártico",
+      "es_EC": "Gaviotín del Ártico",
+      "pt_PT": "Gaivina-do-árctico",
+      "hr": "arktička čigra",
+      "lt": "Arktinė žuvėdra",
+      "fa": "پرستوی دریایی شمالگان",
+      "cy": "Môr-wennol y Gogledd",
+      "et": "randtiir",
+      "it": "Sterna codalunga",
+      "zh-TW": "北極燕鷗",
+      "eo": "arkta ŝterno",
+      "hu": "sarki csér",
+      "ro": "Chiră polară",
+      "sl": "polarna čigra",
+      "lv": "jūras zīriņš",
+      "is": "Kría",
+      "el": "Χιονογλάρονο",
+      "be": "Палярная крычка",
+      "af": "Arktiese Seeswael (Arktiese Sterretjie)",
+      "se": "Čearret",
+      "he": "שחפית קוטב",
+      "ar": "خرشنة قطبية"
+    },
+    "stances": {
+      "flying": [
+        "arcter/flying_0.png"
+      ],
+      "sitting": [
+        "arcter/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "arcter/flying_0.png": "left",
+      "arcter/sitting_0.png": "left"
+    },
+    "credits": {
+      "arcter/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "arcter/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "atlpuf": {
+    "sci": "Fratercula arctica",
+    "common": "Atlantic Puffin",
+    "names": {
+      "en": "Atlantic Puffin",
+      "de": "Papageitaucher",
+      "es": "Frailecillo Atlántico",
+      "pl": "maskonur",
+      "fr": "Macareux moine",
+      "nl": "Papegaaiduiker",
+      "ru": "Тупик",
+      "ja": "ニシツノメドリ",
+      "cs": "papuchalk severní",
+      "ca": "fraret atlàntic",
+      "pt": "papagaio-do-mar",
+      "no": "lunde",
+      "bg": "Тъпоклюна кайра",
+      "sv": "lunnefågel",
+      "da": "Lunde",
+      "tr": "Denizpapağanı",
+      "sk": "mníšik bielobradý",
+      "sr": "Morski papagaj",
+      "uk": "Іпатка атлантична",
+      "zh-CN": "北极海鹦",
+      "fi": "lunni",
+      "es_ES": "Frailecillo atlántico",
+      "es_MX": "Frailecillo Atlántico",
+      "es_EC": "Frailecillo Atlántico",
+      "pt_PT": "Papagaio-do-mar",
+      "hr": "tupik",
+      "lt": "Mormonas",
+      "fa": "طوطی دریایی اطلس",
+      "cy": "Pâl",
+      "et": "lunn (põhjalunn)",
+      "it": "Pulcinella di mare",
+      "zh-TW": "北極海鸚",
+      "eo": "atlantika fraterkulo",
+      "hu": "lunda",
+      "sl": "mormon",
+      "lv": "Atlantijas tuklītis",
+      "is": "Lundi",
+      "se": "Bovttáš",
+      "he": "תוכי-ים אטלנטי"
+    },
+    "stances": {
+      "flying": [
+        "atlpuf/flying_0.png"
+      ],
+      "sitting": [
+        "atlpuf/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "atlpuf/flying_0.png": "right",
+      "atlpuf/sitting_0.png": "right"
+    },
+    "credits": {
+      "atlpuf/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "atlpuf/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "balshe1": {
     "sci": "Puffinus mauretanicus",
     "common": "Balearic Shearwater",
@@ -146,6 +293,77 @@
       }
     }
   },
+  "barswa": {
+    "sci": "Hirundo rustica",
+    "common": "Barn Swallow",
+    "names": {
+      "en": "Barn Swallow",
+      "de": "Rauchschwalbe",
+      "es": "Golondrina Común",
+      "pl": "dymówka",
+      "fr": "Hirondelle rustique",
+      "nl": "Boerenzwaluw",
+      "ru": "Деревенская ласточка",
+      "ja": "ツバメ",
+      "cs": "vlaštovka obecná",
+      "ca": "oreneta comuna",
+      "pt": "andorinha-de-bando",
+      "no": "låvesvale",
+      "bg": "Селска лястовица",
+      "sv": "ladusvala",
+      "da": "Landsvale",
+      "tr": "Kır Kırlangıcı",
+      "sk": "lastovička obyčajná",
+      "sr": "Seoska lasta",
+      "uk": "Ластівка сільська",
+      "zh-CN": "家燕",
+      "fi": "haarapääsky",
+      "es_ES": "Golondrina común",
+      "es_MX": "Golondrina Tijereta",
+      "es_EC": "Golondrina Tijereta",
+      "pt_PT": "Andorinha-das-chaminés",
+      "hr": "lastavica",
+      "lt": "Šelmeninė kregždė",
+      "fa": "پرستوی خانگی",
+      "cy": "Gwennol",
+      "et": "suitsupääsuke",
+      "it": "Rondine",
+      "zh-TW": "家燕",
+      "eo": "kampa hirundo",
+      "hu": "füsti fecske",
+      "ro": "Rândunică",
+      "sl": "kmečka lastovka",
+      "lv": "bezdelīga",
+      "is": "Landsvala",
+      "id": "Layang-layang api",
+      "el": "σταβλοχελίδονο",
+      "mk": "селска ластовичка",
+      "be": "Вясковая ластаўка",
+      "af": "Europese Swael",
+      "se": "Spálfu",
+      "ko": "제비",
+      "he": "סנונית רפתות",
+      "ar": "سنونو شائع",
+      "th": "นกนางแอ่นบ้าน",
+      "ml": "വയൽക്കോതിക്കത്രിക"
+    },
+    "stances": {
+      "sitting": [
+        "barswa/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "barswa/sitting_0.png": "left"
+    },
+    "credits": {
+      "barswa/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "bklkit": {
     "sci": "Rissa tridactyla",
     "common": "Black-legged Kittiwake",
@@ -219,6 +437,144 @@
         "page_url": ""
       },
       "bklkit/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "blackc1": {
+    "sci": "Sylvia atricapilla",
+    "common": "Eurasian Blackcap",
+    "names": {
+      "en": "Eurasian Blackcap",
+      "de": "Mönchsgrasmücke",
+      "es": "Curruca Capirotada",
+      "pl": "kapturka",
+      "fr": "Fauvette à tête noire",
+      "nl": "Zwartkop",
+      "ru": "Черноголовая славка",
+      "ja": "ズグロムシクイ",
+      "cs": "pěnice černohlavá",
+      "ca": "tallarol de casquet",
+      "pt": "toutinegra-de-barrete",
+      "no": "munk",
+      "bg": "Голямо черноглаво коприварче",
+      "sv": "svarthätta",
+      "da": "Munk",
+      "tr": "Kara Başlı Ötleğen",
+      "sk": "penica čiernohlavá",
+      "sr": "Crnoglava grmuša",
+      "uk": "Кропив'янка чорноголова",
+      "zh-CN": "黑顶林莺",
+      "fi": "mustapääkerttu",
+      "es_ES": "Curruca capirotada",
+      "es_MX": "Curruca Capirotada",
+      "es_EC": "Curruca Capirotada",
+      "pt_PT": "Toutinegra-de-barrete",
+      "hr": "crnokapa grmuša",
+      "lt": "Juodagalvė devynbalsė",
+      "fa": "سسک سرسیاه",
+      "cy": "Telor Penddu",
+      "et": "mustpea-põõsalind",
+      "it": "Capinera",
+      "zh-TW": "黑頂林鶯",
+      "eo": "nigraĉapa silvio",
+      "hu": "barátposzáta",
+      "ro": "Silvie cu cap negru",
+      "sl": "črnoglavka",
+      "lv": "melngalvas ķauķis",
+      "is": "Hettusöngvari",
+      "el": "Μαυροσκούφης",
+      "mk": "црноглаво грмушарче",
+      "be": "Леска-чорнагалоўка",
+      "af": "Swartkroonsanger",
+      "se": "Gahpervizar",
+      "he": "סבכי שחור-כיפה",
+      "ar": "هازجة مقلنسة اوراسية"
+    },
+    "stances": {
+      "sitting": [
+        "blackc1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "blackc1/sitting_0.png": "right"
+    },
+    "credits": {
+      "blackc1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "blkgui": {
+    "sci": "Cepphus grylle",
+    "common": "Black Guillemot",
+    "names": {
+      "en": "Black Guillemot",
+      "de": "Gryllteiste",
+      "es": "Arao Aliblanco",
+      "pl": "nurnik",
+      "fr": "Guillemot à miroir",
+      "nl": "Zwarte zeekoet",
+      "ru": "Чистик",
+      "ja": "ハジロウミバト",
+      "cs": "alkoun obecný",
+      "ca": "somorgollaire alablanc",
+      "pt": "airo-d'asa-branca",
+      "no": "teist",
+      "bg": "Чистик",
+      "sv": "tobisgrissla",
+      "da": "Tejst",
+      "tr": "Kara Alk",
+      "sk": "svišťúň zrkadlový",
+      "sr": "Crna njorka",
+      "uk": "Чистун арктичний",
+      "zh-CN": "白翅斑海鸽",
+      "fi": "riskilä",
+      "es_ES": "Arao aliblanco",
+      "es_MX": "Arao Aliblanco",
+      "es_EC": "Arao Aliblanco",
+      "pt_PT": "Airo-d'asa-branca",
+      "hr": "crna njorka",
+      "lt": "Taistė",
+      "fa": "گیلهمات سیاه",
+      "cy": "Gwylog ddu",
+      "et": "krüüsel",
+      "it": "Uria nera",
+      "zh-TW": "黑海鴿",
+      "eo": "nigra urio",
+      "hu": "fekete lumma",
+      "sl": "črna njorka",
+      "lv": "melnais alks",
+      "is": "Teista",
+      "se": "Čielkkis",
+      "he": "אוריה שחורה"
+    },
+    "stances": {
+      "flying": [
+        "blkgui/flying_0.png"
+      ],
+      "sitting": [
+        "blkgui/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "blkgui/flying_0.png": "right",
+      "blkgui/sitting_0.png": "left"
+    },
+    "credits": {
+      "blkgui/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "blkgui/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -378,6 +734,71 @@
       }
     }
   },
+  "cangoo": {
+    "sci": "Branta canadensis",
+    "common": "Canada Goose",
+    "names": {
+      "en": "Canada Goose",
+      "de": "Kanadagans",
+      "es": "Barnacla Canadiense Grande",
+      "pl": "bernikla kanadyjska",
+      "fr": "Bernache du Canada",
+      "nl": "Grote Canadese gans",
+      "ru": "Канадская казарка",
+      "ja": "カナダガン",
+      "cs": "berneška velká",
+      "ca": "oca del Canadà",
+      "pt": "ganso-do-canadá",
+      "no": "kanadagås",
+      "bg": "Канадска гъска",
+      "sv": "kanadagås",
+      "da": "Canadagås",
+      "tr": "Kanada Kazı",
+      "sk": "bernikla veľká",
+      "sr": "Kanadska guska",
+      "uk": "Казарка канадська",
+      "zh-CN": "加拿大雁",
+      "fi": "kanadanhanhi",
+      "es_ES": "Barnacla canadiense grande",
+      "es_MX": "Ganso Canadiense Mayor",
+      "es_EC": "Ganso Canadiense",
+      "pt_PT": "Ganso-do-canadá",
+      "hr": "kanadska guska",
+      "lt": "Kanadinė berniklė",
+      "fa": "غاز کانادایی",
+      "cy": "Gŵydd Canada",
+      "et": "kanada lagle",
+      "it": "Oca canadese",
+      "zh-TW": "加拿大雁",
+      "eo": "kanada ansero",
+      "hu": "kanadai lúd",
+      "ro": "Gâscă canadiană",
+      "sl": "kanadska gos",
+      "lv": "Kanādas zoss",
+      "is": "Kanadagæs",
+      "el": "Καναδέζικη Χήνα",
+      "be": "Канадская казарка",
+      "se": "Kanádačuonjá",
+      "ko": "큰캐나다기러기",
+      "he": "ברנטה קנדית"
+    },
+    "stances": {
+      "sitting": [
+        "cangoo/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "cangoo/sitting_0.png": "right"
+    },
+    "credits": {
+      "cangoo/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "combuz1": {
     "sci": "Buteo buteo",
     "common": "Common Buzzard",
@@ -510,6 +931,84 @@
     },
     "credits": {
       "comcha/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "comchi1": {
+    "sci": "Phylloscopus collybita",
+    "common": "Common Chiffchaff",
+    "names": {
+      "en": "Common Chiffchaff",
+      "de": "Zilpzalp",
+      "es": "Mosquitero Común",
+      "pl": "pierwiosnek",
+      "fr": "Pouillot véloce",
+      "nl": "Tjiftjaf",
+      "ru": "Пеночка-теньковка",
+      "ja": "チフチャフ",
+      "cs": "budníček menší",
+      "ca": "mosquiter comú",
+      "pt": "felosinha-comum",
+      "no": "gransanger",
+      "bg": "Елов певец",
+      "sv": "gransångare",
+      "da": "Gransanger",
+      "tr": "Çıvgın",
+      "sk": "kolibiarik čipčavý",
+      "sr": "Obični zviždak",
+      "uk": "Вівчарик-ковалик",
+      "zh-CN": "叽喳柳莺",
+      "fi": "tiltaltti",
+      "es_ES": "Mosquitero común",
+      "es_MX": "Mosquitero Común",
+      "es_EC": "Mosquitero Común",
+      "pt_PT": "Felosinha-comum",
+      "hr": "zviždak",
+      "lt": "Pilkoji pečialinda",
+      "fa": "سسک چیف‌چاف معمولی",
+      "cy": "Siff-saff",
+      "et": "väike-lehelind",
+      "it": "Luì piccolo",
+      "zh-TW": "嘰喳柳鶯",
+      "eo": "ordinara filoskopo",
+      "hu": "csilpcsalpfüzike",
+      "ro": "Pitulice mică",
+      "sl": "vrbji kovaček",
+      "lv": "čuņčiņš",
+      "is": "Gransöngvari",
+      "el": "Δεντροφυλλοσκόπος",
+      "mk": "обичен свиркач",
+      "be": "Пячураўка-ценькаўка",
+      "se": "Skilkeskálka",
+      "ko": "검은다리솔새",
+      "he": "עלווית חורף",
+      "ar": "نقشارة شائعة",
+      "ml": "ചിഫ്ചാഫ്"
+    },
+    "stances": {
+      "flying": [
+        "comchi1/flying_0.png"
+      ],
+      "sitting": [
+        "comchi1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "comchi1/flying_0.png": "right",
+      "comchi1/sitting_0.png": "right"
+    },
+    "credits": {
+      "comchi1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "comchi1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -744,6 +1243,72 @@
         "page_url": ""
       },
       "commur/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "corbun1": {
+    "sci": "Emberiza calandra",
+    "common": "Corn Bunting",
+    "names": {
+      "en": "Corn Bunting",
+      "de": "Grauammer",
+      "es": "Escribano Triguero",
+      "pl": "potrzeszcz",
+      "fr": "Bruant proyer",
+      "nl": "Grauwe gors",
+      "ru": "Просянка",
+      "ja": "ハタホオジロ",
+      "cs": "strnad luční",
+      "ca": "cruixidell",
+      "pt": "trigueirão",
+      "no": "kornspurv",
+      "bg": "Сива овесарка",
+      "sv": "kornsparv",
+      "da": "Bomlærke",
+      "tr": "Tarla Çintesi",
+      "sk": "strnádka lúčna",
+      "sr": "Velika strnadica",
+      "uk": "Просянка",
+      "zh-CN": "黍鹀",
+      "fi": "harmaasirkku",
+      "es_ES": "Escribano triguero",
+      "es_MX": "Escribano Triguero",
+      "es_EC": "Escribano Triguero",
+      "pt_PT": "Trigueirão",
+      "hr": "velika strnadica",
+      "lt": "Pilkoji starta",
+      "fa": "زردپره مزرعه",
+      "cy": "Bras yr ŷd",
+      "et": "halltsiitsitaja",
+      "it": "Strillozzo",
+      "zh-TW": "黍鵐",
+      "eo": "grena emberizo",
+      "hu": "sordély",
+      "ro": "Presură sură",
+      "sl": "veliki strnad",
+      "lv": "lielā stērste",
+      "is": "Korntittlingur",
+      "el": "Τσιφτάς",
+      "mk": "голема стрнарка",
+      "be": "Гуменная стрынатка",
+      "se": "Gordnecihci",
+      "he": "גיבתון עפרוני",
+      "ar": "درسة قمحية"
+    },
+    "stances": {
+      "sitting": [
+        "corbun1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "corbun1/sitting_0.png": "left"
+    },
+    "credits": {
+      "corbun1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -1412,6 +1977,162 @@
       }
     }
   },
+  "eurmag1": {
+    "sci": "Pica pica",
+    "common": "Eurasian Magpie",
+    "names": {
+      "en": "Eurasian Magpie",
+      "de": "Elster",
+      "es": "Urraca Común",
+      "pl": "sroka",
+      "fr": "Pie bavarde",
+      "nl": "Ekster",
+      "ru": "Сорока",
+      "ja": "ユーラシアカササギ",
+      "cs": "straka obecná",
+      "ca": "garsa eurasiàtica",
+      "pt": "pega",
+      "no": "skjære",
+      "bg": "Сврака",
+      "sv": "skata",
+      "da": "Husskade",
+      "tr": "Saksağan",
+      "sk": "straka obyčajná",
+      "sr": "Svraka",
+      "uk": "Сорока звичайна",
+      "zh-CN": "欧亚喜鹊",
+      "fi": "harakka",
+      "es_ES": "Urraca común",
+      "es_MX": "Urraca Común",
+      "es_EC": "Urraca Común",
+      "pt_PT": "Pega",
+      "hr": "svraka",
+      "lt": "Šarka",
+      "fa": "زاغی اوراسیایی",
+      "cy": "Pioden",
+      "et": "harakas",
+      "it": "Gazza",
+      "zh-TW": "喜鵲",
+      "eo": "ordinara pigo",
+      "hu": "szarka",
+      "ro": "Coţofană",
+      "sl": "sraka",
+      "lv": "žagata",
+      "is": "Skjór",
+      "el": "Καρακάξα",
+      "mk": "страчка",
+      "be": "Сарока",
+      "se": "Skire",
+      "he": "עקעק זנבתן",
+      "ar": "العقعق الأوراسي",
+      "th": "นกสาลิกาปากดำ"
+    },
+    "stances": {
+      "flying": [
+        "eurmag1/flying_0.png"
+      ],
+      "sitting": [
+        "eurmag1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "eurmag1/flying_0.png": "left",
+      "eurmag1/sitting_0.png": "right"
+    },
+    "credits": {
+      "eurmag1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eurmag1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "euroys1": {
+    "sci": "Haematopus ostralegus",
+    "common": "Eurasian Oystercatcher",
+    "names": {
+      "en": "Eurasian Oystercatcher",
+      "de": "Austernfischer",
+      "es": "Ostrero Euroasiático",
+      "pl": "ostrygojad",
+      "fr": "Huîtrier pie",
+      "nl": "Scholekster",
+      "ru": "Кулик-сорока",
+      "ja": "ミヤコドリ",
+      "cs": "ústřičník velký",
+      "ca": "garsa de mar eurasiàtica",
+      "pt": "ostraceiro",
+      "no": "tjeld",
+      "bg": "Стридояд",
+      "sv": "strandskata",
+      "da": "Strandskade",
+      "tr": "Poyrazkuşu",
+      "sk": "lastúrničiar strakatý",
+      "sr": "Ostrigar",
+      "uk": "Кулик-сорока євразійський",
+      "zh-CN": "蛎鹬",
+      "fi": "meriharakka",
+      "es_ES": "Ostrero euroasiático",
+      "es_MX": "Ostrero Euroasiático",
+      "es_EC": "Ostrero Euroasiático",
+      "pt_PT": "Ostraceiro",
+      "hr": "oštrigar",
+      "lt": "Jūršarkė",
+      "fa": "صدف‌خوار اوراسیایی",
+      "cy": "Pioden y Môr",
+      "et": "merisk (harilik merisk)",
+      "it": "Beccaccia di mare",
+      "zh-TW": "蠣鴴〔歐亞蠣鴴〕",
+      "eo": "eŭrazia hematopodo",
+      "hu": "csigaforgató",
+      "ro": "Scoicar",
+      "sl": "školjkarica",
+      "lv": "jūras žagata",
+      "is": "Tjaldur",
+      "el": "Στρειδοφάγος",
+      "mk": "остригар",
+      "be": "Крывок",
+      "af": "Bonttobie (Bontoestervanger)",
+      "se": "Cagan",
+      "ko": "검은머리물떼새",
+      "he": "שלצדף החוף",
+      "ar": "محاري اوراسي",
+      "ml": "കടൽമണ്ണാത്തി"
+    },
+    "stances": {
+      "flying": [
+        "euroys1/flying_0.png"
+      ],
+      "sitting": [
+        "euroys1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "euroys1/flying_0.png": "right",
+      "euroys1/sitting_0.png": "right"
+    },
+    "credits": {
+      "euroys1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "euroys1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "eurrob1": {
     "sci": "Erithacus rubecula",
     "common": "European Robin",
@@ -1482,6 +2203,86 @@
         "page_url": ""
       },
       "eurrob1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "eursta": {
+    "sci": "Sturnus vulgaris",
+    "common": "European Starling",
+    "names": {
+      "en": "European Starling",
+      "de": "Star",
+      "es": "Estornino Pinto",
+      "pl": "szpak",
+      "fr": "Étourneau sansonnet",
+      "nl": "Spreeuw",
+      "ru": "Обыкновенный скворец",
+      "ja": "ホシムクドリ",
+      "cs": "špaček obecný",
+      "ca": "estornell comú",
+      "pt": "estorninho",
+      "no": "stær",
+      "bg": "Обикновен скорец",
+      "sv": "stare",
+      "da": "Stær",
+      "tr": "Sığırcık",
+      "sk": "škorec obyčajný",
+      "sr": "Čvorak",
+      "uk": "Шпак звичайний",
+      "zh-CN": "紫翅椋鸟",
+      "fi": "kottarainen",
+      "es_ES": "Estornino pinto",
+      "es_MX": "Estornino Pinto",
+      "es_EC": "Estornino pinto",
+      "pt_PT": "Estorninho-malhado",
+      "hr": "čvorak",
+      "lt": "Varnėnas",
+      "fa": "سار سیاه",
+      "cy": "Drudwen (gyffredin)",
+      "et": "kuldnokk",
+      "it": "Storno",
+      "zh-TW": "歐洲椋鳥〔紫翅椋鳥〕",
+      "eo": "ordinara sturno",
+      "hu": "seregély",
+      "ro": "Graur",
+      "sl": "škorec",
+      "lv": "mājas strazds",
+      "is": "Stari",
+      "el": "(Ευρωπαϊκό) Ψαρόνι",
+      "mk": "обичен сколовранец",
+      "be": "Звычайны шпак",
+      "af": "Europese Spreeu",
+      "se": "Stárra",
+      "ko": "흰점찌르레기",
+      "he": "זרזיר מצוי",
+      "ar": "زرزور شائع",
+      "th": "นกกิ้งโครงพันธุ์ยุโรป",
+      "ml": "കാളിക്കിളി"
+    },
+    "stances": {
+      "flying": [
+        "eursta/flying_0.png"
+      ],
+      "sitting": [
+        "eursta/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "eursta/flying_0.png": "right",
+      "eursta/sitting_0.png": "right"
+    },
+    "credits": {
+      "eursta/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "eursta/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -1635,6 +2436,83 @@
         "page_url": ""
       },
       "gbbgul/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "goldcr1": {
+    "sci": "Regulus regulus",
+    "common": "Goldcrest",
+    "names": {
+      "en": "Goldcrest",
+      "de": "Wintergoldhähnchen",
+      "es": "Reyezuelo Sencillo",
+      "pl": "mysikrólik",
+      "fr": "Roitelet huppé",
+      "nl": "Goudhaan",
+      "ru": "Желтоголовый королёк",
+      "ja": "キクイタダキ",
+      "cs": "králíček obecný",
+      "ca": "reietó eurasiàtic",
+      "pt": "estrelinha-de-poupa",
+      "no": "fuglekonge",
+      "bg": "Жълтоглаво кралче",
+      "sv": "kungsfågel",
+      "da": "Fuglekonge",
+      "tr": "Çalıkuşu",
+      "sk": "králik zlatohlavý",
+      "sr": "Kraljić",
+      "uk": "Золотомушка жовточуба",
+      "zh-CN": "戴菊",
+      "fi": "hippiäinen",
+      "es_ES": "Reyezuelo sencillo",
+      "es_MX": "Reyezuelo Sencillo",
+      "es_EC": "Reyezuelo Sencillo",
+      "pt_PT": "Estrelinha-de-poupa",
+      "hr": "zlatoglavi kraljić",
+      "lt": "Paprastasis nykštukas",
+      "fa": "سسک تاج‌طلایی",
+      "cy": "Dryw Eurben",
+      "et": "pöialpoiss",
+      "it": "Regolo",
+      "zh-TW": "戴菊",
+      "eo": "orverta regolo",
+      "hu": "sárgafejű királyka",
+      "ro": "Auşel cu cap galben",
+      "sl": "rumenoglavi kraljiček",
+      "lv": "zeltgalvītis",
+      "is": "Glókollur",
+      "el": "Χρυσοβασιλίσκος",
+      "mk": "жолтоглаво кралче",
+      "be": "Жоўтагаловы каралёк",
+      "se": "Gollegahpir",
+      "ko": "상모솔새",
+      "he": "מלכילון האורנים",
+      "ar": "صعو أصفر العرف"
+    },
+    "stances": {
+      "flying": [
+        "goldcr1/flying_0.png"
+      ],
+      "sitting": [
+        "goldcr1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "goldcr1/flying_0.png": "right",
+      "goldcr1/sitting_0.png": "left"
+    },
+    "credits": {
+      "goldcr1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "goldcr1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -1868,6 +2746,82 @@
       }
     }
   },
+  "grswoo": {
+    "sci": "Dendrocopos major",
+    "common": "Great Spotted Woodpecker",
+    "names": {
+      "en": "Great Spotted Woodpecker",
+      "de": "Buntspecht",
+      "es": "Pico Picapinos",
+      "pl": "dzięcioł duży",
+      "fr": "Pic épeiche",
+      "nl": "Grote bonte specht",
+      "ru": "Большой пёстрый дятел",
+      "ja": "アカゲラ",
+      "cs": "strakapoud velký",
+      "ca": "picot garser gros",
+      "pt": "pica-pau-malhado",
+      "no": "flaggspett",
+      "bg": "Голям пъстър кълвач",
+      "sv": "större hackspett",
+      "da": "Stor Flagspætte",
+      "tr": "Orman Alaca Ağaçkakanı",
+      "sk": "ďateľ veľký",
+      "sr": "Veliki detlić",
+      "uk": "Дятел звичайний",
+      "zh-CN": "大斑啄木鸟",
+      "fi": "käpytikka",
+      "es_ES": "Pico picapinos",
+      "es_MX": "Pico Picapinos",
+      "es_EC": "Pico Picapinos",
+      "pt_PT": "Pica-pau-malhado",
+      "hr": "veliki djetlić",
+      "lt": "Didysis margasis genys",
+      "fa": "دارکوب خالدار بزرگ",
+      "cy": "Cnocell fraith fwyaf",
+      "et": "suur-kirjurähn",
+      "it": "Picchio rosso maggiore",
+      "zh-TW": "大斑啄木",
+      "eo": "granda pego",
+      "hu": "nagy fakopáncs",
+      "ro": "Ciocănitoare pestriţă mare",
+      "sl": "veliki detel",
+      "lv": "dižraibais dzenis",
+      "is": "Barrspæta",
+      "el": "Πευκοδρυοκολάπτης",
+      "mk": "голем клукајдрвец",
+      "be": "Вялiкi дзяцел",
+      "se": "Bihcebásčáihni",
+      "ko": "오색딱다구리",
+      "he": "נקר עקוד"
+    },
+    "stances": {
+      "flying": [
+        "grswoo/flying_0.png"
+      ],
+      "sitting": [
+        "grswoo/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "grswoo/flying_0.png": "left",
+      "grswoo/sitting_0.png": "left"
+    },
+    "credits": {
+      "grswoo/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "grswoo/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "hoocro1": {
     "sci": "Corvus cornix",
     "common": "Hooded Crow",
@@ -2024,6 +2978,68 @@
       }
     }
   },
+  "ivogul": {
+    "sci": "Pagophila eburnea",
+    "common": "Ivory Gull",
+    "names": {
+      "en": "Ivory Gull",
+      "de": "Elfenbeinmöwe",
+      "es": "Gaviota Marfileña",
+      "pl": "mewa modrodzioba",
+      "fr": "Mouette blanche",
+      "nl": "Ivoormeeuw",
+      "ru": "Белая чайка",
+      "ja": "ゾウゲカモメ",
+      "cs": "racek sněžní",
+      "ca": "gavina d'ivori",
+      "pt": "gaivota-marfim",
+      "no": "ismåke",
+      "bg": "Бяла чайка",
+      "sv": "ismås",
+      "da": "Ismåge",
+      "tr": "Ak Martı",
+      "sk": "čajka biela",
+      "sr": "Beli galeb",
+      "uk": "Мартин білий",
+      "zh-CN": "白鸥",
+      "fi": "jäälokki",
+      "es_ES": "Gaviota marfileña",
+      "es_MX": "Gaviota Marfileña",
+      "es_EC": "Gaviota Marfileña",
+      "pt_PT": "Gaivota-marfim",
+      "hr": "bijeli galeb",
+      "lt": "Snieginis kiras",
+      "fa": "کاکایی عاجی",
+      "cy": "Gwylan ifori",
+      "et": "vandelkajakas",
+      "it": "Gabbiano eburneo",
+      "zh-TW": "象牙鷗",
+      "eo": "ebura mevo",
+      "hu": "hósirály",
+      "sl": "beli galeb",
+      "lv": "sniega kaija",
+      "is": "Ísmáfur",
+      "se": "Ábirievssat",
+      "ko": "북극흰갈매기",
+      "he": "שחף שנהב"
+    },
+    "stances": {
+      "flying": [
+        "ivogul/flying_0.png"
+      ]
+    },
+    "faces": {
+      "ivogul/flying_0.png": "left"
+    },
+    "credits": {
+      "ivogul/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "jacsni": {
     "sci": "Lymnocryptes minimus",
     "common": "Jack Snipe",
@@ -2173,6 +3189,87 @@
       }
     }
   },
+  "litgre1": {
+    "sci": "Tachybaptus ruficollis",
+    "common": "Little Grebe",
+    "names": {
+      "en": "Little Grebe",
+      "de": "Zwergtaucher",
+      "es": "Zampullín Común",
+      "pl": "perkozek",
+      "fr": "Grèbe castagneux",
+      "nl": "Dodaars",
+      "ru": "Малая поганка",
+      "ja": "カイツブリ",
+      "cs": "potápka malá",
+      "ca": "cabusset comú",
+      "pt": "mergulhão-pequeno-europeu",
+      "no": "dvergdykker",
+      "bg": "Малък гмурец",
+      "sv": "smådopping",
+      "da": "Lille Lappedykker",
+      "tr": "Küçük Batağan",
+      "sk": "potápka malá",
+      "sr": "Mali gnjurac",
+      "uk": "Пірникоза мала",
+      "zh-CN": "小䴙䴘",
+      "fi": "pikku-uikku",
+      "es_ES": "Zampullín común",
+      "es_MX": "Zampullín Común",
+      "es_EC": "Zampullín Común",
+      "pt_PT": "Mergulhão-pequeno",
+      "hr": "mali gnjurac",
+      "lt": "Mažasis kragas",
+      "fa": "کشیم کوچک",
+      "cy": "Gwyach fach",
+      "et": "väikepütt",
+      "it": "Tuffetto",
+      "zh-TW": "小鸊鷈",
+      "eo": "eta grebo",
+      "hu": "kis vöcsök",
+      "ro": "Corcodel mic",
+      "sl": "mali ponirek",
+      "lv": "mazais dūkuris",
+      "is": "Dverggoði",
+      "id": "Titihan telaga",
+      "el": "Νανοβουτηχτάρι",
+      "mk": "мал нуркач",
+      "be": "Малая коўра",
+      "af": "Kleindobbertjie (Kleinduikertjie)",
+      "se": "Deaggabuokča",
+      "ko": "논병아리",
+      "he": "טבלן גמדי",
+      "ar": "غطاس صغير",
+      "th": "นกเป็ดผีเล็ก",
+      "ml": "മുങ്ങാങ്കോഴി"
+    },
+    "stances": {
+      "flying": [
+        "litgre1/flying_0.png"
+      ],
+      "sitting": [
+        "litgre1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "litgre1/flying_0.png": "left",
+      "litgre1/sitting_0.png": "left"
+    },
+    "credits": {
+      "litgre1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "litgre1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "litshe1": {
     "sci": "Puffinus baroli",
     "common": "Barolo Shearwater",
@@ -2224,6 +3321,86 @@
     },
     "credits": {
       "litshe1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "lotjae": {
+    "sci": "Stercorarius longicaudus",
+    "common": "Long-tailed Jaeger",
+    "names": {
+      "en": "Long-tailed Jaeger",
+      "de": "Falkenraubmöwe",
+      "es": "Págalo Rabero",
+      "pl": "wydrzyk długosterny",
+      "fr": "Labbe à longue queue",
+      "nl": "Kleinste jager",
+      "ru": "Длиннохвостый поморник",
+      "ja": "シロハラトウゾクカモメ",
+      "cs": "chaluha malá",
+      "ca": "paràsit cuallarg",
+      "pt": "mandrião-de-cauda-comprida",
+      "no": "fjelljo",
+      "bg": "Дългоопашат морелетник",
+      "sv": "fjällabb",
+      "da": "Lille Kjove",
+      "tr": "Uzun Kuyruklu Korsanmartı",
+      "sk": "pomorník malý",
+      "sr": "Dugorepi pomornik",
+      "uk": "Поморник довгохвостий",
+      "zh-CN": "长尾贼鸥",
+      "fi": "tunturikihu",
+      "es_ES": "Págalo rabero",
+      "es_MX": "Salteador Cola Larga",
+      "es_EC": "Págalo Colilargo",
+      "pt_PT": "Moleiro-rabilongo",
+      "hr": "dugorepi pomornik",
+      "lt": "Ilgauodegis plėšikas",
+      "fa": "کاکایی‌اقیانوسی (اسکوآی) دم‌دراز",
+      "cy": "Sgiwen lostfain",
+      "et": "pikksaba-änn",
+      "it": "Labbo codalunga",
+      "zh-TW": "長尾賊鷗",
+      "eo": "longvosta rabmevo",
+      "hu": "nyílfarkú halfarkas",
+      "ro": "Lup de mare codat",
+      "sl": "dolgorepa govnačka",
+      "lv": "garastes klijkaija",
+      "is": "Fjallkjói",
+      "id": "Camar-kejar kecil",
+      "el": "Βελονοληστόγλαρος",
+      "be": "Даўгахвосты паморнiк",
+      "af": "Langstertroofmeeu",
+      "se": "Skáiti",
+      "ko": "좀도둑갈매기",
+      "he": "חמסן זנבתן",
+      "ar": "كركر طويل الذيل",
+      "th": "นกสกัวหางยาว",
+      "ml": "കോഴിവാലൻ സ്കുവ"
+    },
+    "stances": {
+      "flying": [
+        "lotjae/flying_0.png"
+      ],
+      "sitting": [
+        "lotjae/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "lotjae/flying_0.png": "left",
+      "lotjae/sitting_0.png": "right"
+    },
+    "credits": {
+      "lotjae/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "lotjae/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -2537,6 +3714,84 @@
       }
     }
   },
+  "mutswa": {
+    "sci": "Cygnus olor",
+    "common": "Mute Swan",
+    "names": {
+      "en": "Mute Swan",
+      "de": "Höckerschwan",
+      "es": "Cisne Vulgar",
+      "pl": "łabędź niemy",
+      "fr": "Cygne tuberculé",
+      "nl": "Knobbelzwaan",
+      "ru": "Лебедь-шипун",
+      "ja": "コブハクチョウ",
+      "cs": "labuť velká",
+      "ca": "cigne mut",
+      "pt": "cisne-mudo",
+      "no": "knoppsvane",
+      "bg": "Ням лебед",
+      "sv": "knölsvan",
+      "da": "Knopsvane",
+      "tr": "Kuğu",
+      "sk": "labuť veľká",
+      "sr": "Labud grbac",
+      "uk": "Лебідь-шипун",
+      "zh-CN": "疣鼻天鹅",
+      "fi": "kyhmyjoutsen",
+      "es_ES": "Cisne vulgar",
+      "es_MX": "Cisne Mudo",
+      "es_EC": "Cisne vulgar",
+      "pt_PT": "Cisne-mudo",
+      "hr": "crvenokljuni labud",
+      "lt": "Gulbė nebylė",
+      "fa": "قوی گنگ",
+      "cy": "Alarch dof",
+      "et": "kühmnokk-luik",
+      "it": "Cigno reale",
+      "zh-TW": "疣鼻天鵝〔赤嘴天鵝〕",
+      "eo": "muta cigno",
+      "hu": "bütykös hattyú",
+      "ro": "Lebădă de vară",
+      "sl": "labod grbec",
+      "lv": "paugurknābja gulbis",
+      "is": "Hnúðsvanur",
+      "el": "Κοινός Κύκνος",
+      "mk": "црвеноклун лебед",
+      "be": "Лебедзь-шыпун",
+      "af": "Witswaan",
+      "se": "Boallonjukča",
+      "ko": "혹고니",
+      "he": "ברבור מצוי",
+      "ar": "تم صامت"
+    },
+    "stances": {
+      "flying": [
+        "mutswa/flying_0.png"
+      ],
+      "sitting": [
+        "mutswa/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "mutswa/flying_0.png": "right",
+      "mutswa/sitting_0.png": "right"
+    },
+    "credits": {
+      "mutswa/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "mutswa/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "norful": {
     "sci": "Fulmarus glacialis",
     "common": "Northern Fulmar",
@@ -2682,6 +3937,85 @@
       }
     }
   },
+  "norwhe": {
+    "sci": "Oenanthe oenanthe",
+    "common": "Northern Wheatear",
+    "names": {
+      "en": "Northern Wheatear",
+      "de": "Steinschmätzer",
+      "es": "Collalba Gris",
+      "pl": "białorzytka",
+      "fr": "Traquet motteux",
+      "nl": "Tapuit",
+      "ru": "Обыкновенная каменка",
+      "ja": "ハシグロヒタキ",
+      "cs": "bělořit šedý",
+      "ca": "còlit gris",
+      "pt": "chasco-cinzento",
+      "no": "steinskvett",
+      "bg": "Сиво каменарче",
+      "sv": "stenskvätta",
+      "da": "Stenpikker",
+      "tr": "Kuyrukkakan",
+      "sk": "skaliarik sivý",
+      "sr": "Obična beloguza",
+      "uk": "Кам'янка звичайна",
+      "zh-CN": "穗䳭",
+      "fi": "kivitasku",
+      "es_ES": "Collalba gris",
+      "es_MX": "Collalba Norteña",
+      "es_EC": "Collalba Gris",
+      "pt_PT": "Chasco-cinzento",
+      "hr": "sivkasta bjeloguza",
+      "lt": "Paprastasis kūltupys",
+      "fa": "چکچک کوهی",
+      "cy": "Tinwen y Garn",
+      "et": "kivitäks (harilik kivitäks)",
+      "it": "Culbianco",
+      "zh-TW": "穗鵖",
+      "eo": "roka enanto",
+      "hu": "hantmadár",
+      "ro": "Pietrar sur",
+      "sl": "kupčar",
+      "lv": "akmeņčakstīte",
+      "is": "Steindepill",
+      "el": "Σταχτοπετρόκλης",
+      "mk": "обично камењарче",
+      "be": "Палявая падкаменка",
+      "af": "Europese Skaapwagter",
+      "se": "Geaðgerásttis",
+      "ko": "북방사막딱새",
+      "he": "סלעית אירופית",
+      "ar": "أبلق شمالي",
+      "ml": "വടക്കൻ നെന്മണിക്കുരുവി"
+    },
+    "stances": {
+      "flying": [
+        "norwhe/flying_0.png"
+      ],
+      "sitting": [
+        "norwhe/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "norwhe/flying_0.png": "left",
+      "norwhe/sitting_0.png": "right"
+    },
+    "credits": {
+      "norwhe/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "norwhe/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "parjae": {
     "sci": "Stercorarius parasiticus",
     "common": "Parasitic Jaeger",
@@ -2746,6 +4080,87 @@
     },
     "credits": {
       "parjae/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "pomjae": {
+    "sci": "Stercorarius pomarinus",
+    "common": "Pomarine Jaeger",
+    "names": {
+      "en": "Pomarine Jaeger",
+      "de": "Spatelraubmöwe",
+      "es": "Págalo Pomarino",
+      "pl": "wydrzyk tęposterny",
+      "fr": "Labbe pomarin",
+      "nl": "Middelste jager",
+      "ru": "Средний поморник",
+      "ja": "トウゾクカモメ",
+      "cs": "chaluha pomořská",
+      "ca": "paràsit cuaample",
+      "pt": "mandrião-pomarino",
+      "no": "polarjo",
+      "bg": "Тъпоопашат морелетник",
+      "sv": "bredstjärtad labb",
+      "da": "Mellemkjove",
+      "tr": "Küt Kuyruklu Korsanmartı",
+      "sk": "pomorník stredný",
+      "sr": "Vitorepi pomornik",
+      "uk": "Поморник середній",
+      "zh-CN": "中贼鸥",
+      "fi": "leveäpyrstökihu",
+      "es_ES": "Págalo pomarino",
+      "es_MX": "Salteador Robusto",
+      "es_EC": "Págalo Pomarino",
+      "pt_PT": "Moleiro-do-árctico",
+      "hr": "širokorepi pomornik",
+      "lt": "Bukauodegis plėšikias",
+      "fa": "کاکایی‌اقیانوسی (اسکوآی) دم‌پیچ",
+      "cy": "Sgiwen fach",
+      "et": "laisaba-änn",
+      "it": "Stercorario mezzano",
+      "zh-TW": "中賊鷗",
+      "eo": "larĝvosta rabmevo",
+      "hu": "szélesfarkú halfarkas",
+      "ro": "Lup de mare",
+      "sl": "lopatasta govnačka",
+      "lv": "vidējā klijkaija",
+      "is": "Ískjói",
+      "id": "Camar-kejar pomarin",
+      "el": "Σπαθοληστόγλαρος",
+      "mk": "поморник",
+      "be": "Сярэднi паморнiк",
+      "af": "Knopstertroofmeeu",
+      "se": "Áhpeháskil",
+      "ko": "넓적꼬리도둑갈매기",
+      "he": "חמסן רחב-אברה",
+      "ar": "كركر بوماريني",
+      "th": "นกสกัวหางช้อน",
+      "ml": "കരണ്ടിവാലൻ സ്കുവ"
+    },
+    "stances": {
+      "flying": [
+        "pomjae/flying_0.png"
+      ],
+      "sitting": [
+        "pomjae/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "pomjae/flying_0.png": "right",
+      "pomjae/sitting_0.png": "left"
+    },
+    "credits": {
+      "pomjae/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "pomjae/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -2818,6 +4233,83 @@
         "page_url": ""
       },
       "razorb/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "rebmer": {
+    "sci": "Mergus serrator",
+    "common": "Red-breasted Merganser",
+    "names": {
+      "en": "Red-breasted Merganser",
+      "de": "Mittelsäger",
+      "es": "Serreta Mediana",
+      "pl": "szlachar",
+      "fr": "Harle huppé",
+      "nl": "Middelste zaagbek",
+      "ru": "Длинноносый крохаль",
+      "ja": "ウミアイサ",
+      "cs": "morčák prostřední",
+      "ca": "bec de serra mitjà",
+      "pt": "merganso-de-poupa",
+      "no": "siland",
+      "bg": "Среден нирец",
+      "sv": "småskrake",
+      "da": "Toppet Skallesluger",
+      "tr": "Tarakdiş",
+      "sk": "potápač prostredný",
+      "sr": "Srednji ronac",
+      "uk": "Крех середній",
+      "zh-CN": "红胸秋沙鸭",
+      "fi": "tukkakoskelo",
+      "es_ES": "Serreta mediana",
+      "es_MX": "Mergo Copetón",
+      "es_EC": "Serreta Mediana",
+      "pt_PT": "Merganso-de-poupa",
+      "hr": "mali ronac",
+      "lt": "Vidutinis dančiasnapis",
+      "fa": "اردک ماهی‌خوار (مرگوس) کاکلی",
+      "cy": "Hwyaden Frongoch",
+      "et": "rohukoskel",
+      "it": "Smergo minore",
+      "zh-TW": "紅胸秋沙",
+      "eo": "mezgranda merĝo",
+      "hu": "örvös bukó",
+      "ro": "Ferestraş moţat",
+      "sl": "srednji žagar",
+      "lv": "garknābja gaura",
+      "is": "Toppönd",
+      "el": "Θαλασσοπρίστης",
+      "mk": "среден северен нуркач",
+      "be": "Даўганосы савук",
+      "se": "Vuoktagoalsi,",
+      "ko": "바다비오리",
+      "he": "מרגון בינוני",
+      "ar": "بلقشة حمراء الصدر"
+    },
+    "stances": {
+      "flying": [
+        "rebmer/flying_0.png"
+      ],
+      "sitting": [
+        "rebmer/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "rebmer/flying_0.png": "right",
+      "rebmer/sitting_0.png": "right"
+    },
+    "credits": {
+      "rebmer/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "rebmer/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -2902,6 +4394,73 @@
       }
     }
   },
+  "reebun": {
+    "sci": "Emberiza schoeniclus",
+    "common": "Reed Bunting",
+    "names": {
+      "en": "Reed Bunting",
+      "de": "Rohrammer",
+      "es": "Escribano Palustre",
+      "pl": "potrzos",
+      "fr": "Bruant des roseaux",
+      "nl": "Rietgors",
+      "ru": "Тростниковая овсянка",
+      "ja": "オオジュリン",
+      "cs": "strnad rákosní",
+      "ca": "repicatalons eurasiàtic",
+      "pt": "escrevedeira-dos-caniços",
+      "no": "sivspurv",
+      "bg": "Тръстикова овесарка",
+      "sv": "sävsparv",
+      "da": "Rørspurv",
+      "tr": "Bataklık Çintesi",
+      "sk": "strnádka trstinová",
+      "sr": "Barska strnadica",
+      "uk": "Вівсянка очеретяна",
+      "zh-CN": "芦鹀",
+      "fi": "pajusirkku",
+      "es_ES": "Escribano palustre",
+      "es_MX": "Escribano Palustre",
+      "es_EC": "Escribano Palustre",
+      "pt_PT": "Escrevedeira-dos-caniços",
+      "hr": "močvarna strnadica",
+      "lt": "Nendrinė starta",
+      "fa": "زردپره نیزار (تالابی)",
+      "cy": "Bras y cyrs",
+      "et": "rootsiitsitaja",
+      "it": "Migliarino di palude",
+      "zh-TW": "蘆鵐",
+      "eo": "kana emberizo",
+      "hu": "nádi sármány",
+      "ro": "Presură de stuf",
+      "sl": "trstni strnad",
+      "lv": "niedru stērste",
+      "is": "Seftittlingur",
+      "el": "(Μεγάλο) Καλαμοτσίχλονο",
+      "mk": "блатна стрнарка",
+      "be": "Стрынатка-чаротаўка",
+      "se": "Suovkacihci",
+      "ko": "검은머리쑥새",
+      "he": "גיבתון סוף",
+      "ar": "درسة القصب"
+    },
+    "stances": {
+      "sitting": [
+        "reebun/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "reebun/sitting_0.png": "right"
+    },
+    "credits": {
+      "reebun/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "rinphe1": {
     "sci": "Phasianus colchicus",
     "common": "Ring-necked Pheasant",
@@ -2971,6 +4530,83 @@
         "page_url": ""
       },
       "rinphe1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "rook1": {
+    "sci": "Corvus frugilegus",
+    "common": "Rook",
+    "names": {
+      "en": "Rook",
+      "de": "Saatkrähe",
+      "es": "Graja",
+      "pl": "gawron",
+      "fr": "Corbeau freux",
+      "nl": "Roek",
+      "ru": "Грач",
+      "ja": "ミヤマガラス",
+      "cs": "havran polní",
+      "ca": "graula",
+      "pt": "gralha-calva",
+      "no": "kornkråke",
+      "bg": "Посевна врана",
+      "sv": "råka",
+      "da": "Råge",
+      "tr": "Ekin Kargası",
+      "sk": "havran čierny",
+      "sr": "Gačac",
+      "uk": "Грак",
+      "zh-CN": "秃鼻乌鸦",
+      "fi": "mustavaris",
+      "es_ES": "Graja",
+      "es_MX": "Graja",
+      "es_EC": "Graja",
+      "pt_PT": "Gralha-calva",
+      "hr": "gačac",
+      "lt": "Kovas",
+      "fa": "کلاغ سیاه",
+      "cy": "Ydfran",
+      "et": "künnivares",
+      "it": "Corvo comune",
+      "zh-TW": "禿鼻鴉〔禿鼻烏鴉〕",
+      "eo": "kampa korvo",
+      "hu": "vetési varjú",
+      "ro": "Cioară de semănătură",
+      "sl": "poljska vrana",
+      "lv": "krauķis",
+      "is": "Bláhrafn",
+      "el": "Χαβαρόνι",
+      "mk": "полска врана",
+      "be": "Грак",
+      "se": "Bealdovuoraš",
+      "ko": "떼까마귀",
+      "he": "עורב מזרע",
+      "ar": "غراب القيظ"
+    },
+    "stances": {
+      "flying": [
+        "rook1/flying_0.png"
+      ],
+      "sitting": [
+        "rook1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "rook1/flying_0.png": "right",
+      "rook1/sitting_0.png": "right"
+    },
+    "credits": {
+      "rook1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "rook1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -3055,6 +4691,84 @@
       }
     }
   },
+  "santer1": {
+    "sci": "Thalasseus sandvicensis",
+    "common": "Sandwich Tern",
+    "names": {
+      "en": "Sandwich Tern",
+      "de": "Brandseeschwalbe",
+      "es": "Charrán Patinegro",
+      "pl": "rybitwa czubata",
+      "fr": "Sterne caugek",
+      "nl": "Grote stern",
+      "ru": "Пестроносая крачка",
+      "ja": "サンドイッチアジサシ",
+      "cs": "rybák severní",
+      "ca": "xatrac becllarg",
+      "pt": "trinta-réis-de-bando",
+      "no": "splitterne",
+      "bg": "Гривеста рибарка",
+      "sv": "kentsk tärna",
+      "da": "Splitterne",
+      "tr": "Kara Gagalı Sumru",
+      "sk": "rybár sivý",
+      "sr": "Dugokljuna čigra",
+      "uk": "Крячок рябодзьобий",
+      "zh-CN": "白嘴端凤头燕鸥",
+      "fi": "riuttatiira",
+      "es_ES": "Charrán patinegro",
+      "es_MX": "Charrán de Sandwich",
+      "es_EC": "Gaviotín de Sandwich",
+      "pt_PT": "Garajau-de-bico-preto",
+      "hr": "dugokljuna čigra",
+      "lt": "Margasnapė žuvėdra",
+      "fa": "پرستودریایی کاکلی تک‌زرد",
+      "cy": "Môr-wennol bigddu",
+      "et": "tutt-tiir",
+      "it": "Beccapesci",
+      "zh-TW": "白嘴端鳳頭燕鷗",
+      "eo": "sandviĉa ŝterno",
+      "hu": "kenti csér",
+      "ro": "Chiră de mare",
+      "sl": "kričava čigra",
+      "lv": "cekulzīriņš",
+      "is": "Þaraþerna",
+      "el": "Χειμωνογλάρονο",
+      "mk": "тенкоклуна чигра",
+      "be": "Пярэстаносая крычка",
+      "af": "Grootseeswael (Grootsterretjie)",
+      "se": "Riddočearret",
+      "he": "שחפית שחורת-מקור",
+      "ar": "خرشنة سندويتشية",
+      "ml": "കടലുണ്ടി ആള"
+    },
+    "stances": {
+      "flying": [
+        "santer1/flying_0.png"
+      ],
+      "sitting": [
+        "santer1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "santer1/flying_0.png": "right",
+      "santer1/sitting_0.png": "left"
+    },
+    "credits": {
+      "santer1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "santer1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "scoshe1": {
     "sci": "Calonectris diomedea",
     "common": "Scopoli's Shearwater",
@@ -3124,6 +4838,70 @@
         "page_url": ""
       },
       "scoshe1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "shttre1": {
+    "sci": "Certhia brachydactyla",
+    "common": "Short-toed Treecreeper",
+    "names": {
+      "en": "Short-toed Treecreeper",
+      "de": "Gartenbaumläufer",
+      "es": "Agateador Europeo",
+      "pl": "pełzacz ogrodowy",
+      "fr": "Grimpereau des jardins",
+      "nl": "Boomkruiper",
+      "ru": "Короткопалая пищуха",
+      "ja": "タンシキバシリ",
+      "cs": "šoupálek krátkoprstý",
+      "ca": "raspinell comú",
+      "pt": "trepadeira-do-sul",
+      "no": "kortklotrekryper",
+      "bg": "Градинска дърволазка",
+      "sv": "trädgårdsträdkrypare",
+      "da": "Korttået Træløber",
+      "tr": "Bahçe Tırmaşıkkuşu",
+      "sk": "kôrovník krátkoprstý",
+      "sr": "Dugokljuni puzić",
+      "uk": "Підкоришник короткопалий",
+      "zh-CN": "短趾旋木雀",
+      "fi": "etelänpuukiipijä",
+      "es_ES": "Agateador europeo",
+      "es_MX": "Agateador Europeo",
+      "es_EC": "Agateador Europeo",
+      "pt_PT": "Trepadeira-do-sul",
+      "hr": "dugokljuni puzavac",
+      "lt": "Sodinis liputis",
+      "fa": "دارخزک انگشتکوتاه",
+      "cy": "Dringwr troedfyr",
+      "et": "aedporr",
+      "it": "Rampichino comune",
+      "zh-TW": "短趾旋木雀",
+      "eo": "kurtfingra certio",
+      "hu": "rövidkarmú fakusz",
+      "ro": "Cojoaică cu degete scurte",
+      "sl": "kratkoprsti plezalček",
+      "lv": "īspirkstu mizložņa",
+      "is": "Garðfeti",
+      "el": "Καμποδεντροβάτης",
+      "mk": "краткопрст ползач",
+      "be": "Караткапальцы паўзунок",
+      "se": "Gárdemuorragakcu"
+    },
+    "stances": {
+      "sitting": [
+        "shttre1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "shttre1/sitting_0.png": "right"
+    },
+    "credits": {
+      "shttre1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -3655,6 +5433,159 @@
         "page_url": ""
       },
       "wispet/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "wlwwar": {
+    "sci": "Phylloscopus trochilus",
+    "common": "Willow Warbler",
+    "names": {
+      "en": "Willow Warbler",
+      "de": "Fitis",
+      "es": "Mosquitero Musical",
+      "pl": "piecuszek",
+      "fr": "Pouillot fitis",
+      "nl": "Fitis",
+      "ru": "Пеночка-весничка",
+      "ja": "キタヤナギムシクイ",
+      "cs": "budníček větší",
+      "ca": "mosquiter de passa",
+      "pt": "felosa-musical",
+      "no": "løvsanger",
+      "bg": "Брезов певец",
+      "sv": "lövsångare",
+      "da": "Løvsanger",
+      "tr": "Söğütbülbülü",
+      "sk": "kolibiarik spevavý",
+      "sr": "Brezov zviždak",
+      "uk": "Вівчарик весняний",
+      "zh-CN": "欧柳莺",
+      "fi": "pajulintu",
+      "es_ES": "Mosquitero musical",
+      "es_MX": "Mosquitero Musical",
+      "es_EC": "Mosquitero Musical",
+      "pt_PT": "Felosa-musical",
+      "hr": "brezov zviždak",
+      "lt": "Ankstyvoji pečialinda",
+      "fa": "سسک بیدی",
+      "cy": "Telor yr Helyg",
+      "et": "salu-lehelind",
+      "it": "Luì grosso",
+      "zh-TW": "歐亞柳鶯",
+      "eo": "salika filoskopo",
+      "hu": "fitiszfüzike",
+      "ro": "Pitulice fluierătoare",
+      "sl": "severni kovaček",
+      "lv": "vītītis",
+      "is": "Laufsöngvari",
+      "el": "Θαμνοφυλλοσκόπος",
+      "mk": "брезов свиркач",
+      "be": "Пячураўка-будаўнiчок",
+      "af": "Hofsanger",
+      "se": "Rievssatcizáš",
+      "ko": "연노랑솔새",
+      "he": "עלווית אפורה",
+      "ar": "نقشارة الصفصاف",
+      "ml": "വില്ലോ കുരുവി"
+    },
+    "stances": {
+      "flying": [
+        "wlwwar/flying_0.png"
+      ],
+      "sitting": [
+        "wlwwar/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "wlwwar/flying_0.png": "right",
+      "wlwwar/sitting_0.png": "right"
+    },
+    "credits": {
+      "wlwwar/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "wlwwar/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "y00478": {
+    "sci": "Larus glaucoides",
+    "common": "Iceland Gull",
+    "names": {
+      "en": "Iceland Gull",
+      "de": "Polarmöwe",
+      "es": "Gaviota Groenlandesa",
+      "pl": "mewa polarna",
+      "fr": "Goéland arctique",
+      "nl": "Kleine burgemeester",
+      "ru": "Полярная чайка",
+      "ja": "アイスランドカモメ",
+      "cs": "racek polární",
+      "ca": "gavinot polar",
+      "pt": "gaivota-branca",
+      "no": "grønlandsmåke",
+      "bg": "Малка белокрила чайка",
+      "sv": "vitvingad trut",
+      "da": "Hvidvinget Måge",
+      "tr": "Grönland Martısı",
+      "sk": "čajka bielokrídla",
+      "sr": "Islandski galeb",
+      "uk": "Мартин гренландський",
+      "zh-CN": "冰岛鸥",
+      "fi": "grönlanninlokki",
+      "es_ES": "Gaviota groenlandesa",
+      "es_MX": "Gaviota de Groenlandia",
+      "es_EC": "Gaviota Groenlandesa",
+      "pt_PT": "Gaivota-branca",
+      "hr": "arktički galeb",
+      "lt": "Mažasis poliarinis kiras",
+      "fa": "کاکایی ایسلندی",
+      "cy": "Gwylan yr Arctig",
+      "et": "polaarkajakas",
+      "it": "Gabbiano d'Islanda",
+      "zh-TW": "冰洲鷗",
+      "eo": "blankflugila mevo",
+      "hu": "sarki sirály",
+      "ro": "Pescăruş cu aripi albe",
+      "sl": "polarni galeb",
+      "lv": "mazā polārkaija",
+      "is": "Bjartmáfur",
+      "el": "Γλάρος της Ισλανδίας",
+      "se": "Vilgessoadjaskávli",
+      "ko": "작은흰갈매기",
+      "he": "שחף איסלנדי"
+    },
+    "stances": {
+      "flying": [
+        "y00478/flying_0.png"
+      ],
+      "sitting": [
+        "y00478/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "y00478/flying_0.png": "right",
+      "y00478/sitting_0.png": "left"
+    },
+    "credits": {
+      "y00478/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "y00478/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
