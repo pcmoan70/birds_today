@@ -13,3 +13,6 @@ scripts/votes.csv
 
 # rembg model cache (downloaded on first run)
 .u2net/
+
+# Inspiration-only asset for the AI model — kept local, not published
+layout.png

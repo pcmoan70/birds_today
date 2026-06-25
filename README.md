@@ -4,8 +4,6 @@ A location-aware, **artistic** bird calendar. Point it at where you are and it p
 around you — either the species most likely to be present, or the migrants currently moving
 through. The neural network runs **entirely in your browser**; there is no backend.
 
-![Layout sketch](layout.png)
-
 ## Two modes
 
 | Mode | Shows | Bird size encodes | Pose |
