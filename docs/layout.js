@@ -1,11 +1,10 @@
 /**
  * Bird Calendar — artistic radial layout.
  *
- * Scatters birds around a small empty centre (see layout.png). Design: medium /
- * balanced density, subtle data-true sizing, small centre, and STRICT no overlap
- * — a bird shrinks a little if it can't fit, and is dropped if it still can't,
- * so birds never sit on top of each other. Highest-value species place first.
- * Mirrors scripts/preview_layout.py.
+ * Scatters birds from the centre outward (see layout.png). Design: dense, subtle
+ * data-true sizing, biggest in the middle. Tiles may overlap a little (TOUCH<0.5)
+ * for tight packing; a bird shrinks if it barely fits and is dropped only if it
+ * still can't. Highest-value species place first.
  *
  * window.BirdLayout.place(items, W, H) -> [{...item, x, y, size}] (subset that fits)
  * Each item must have { value } (>0 weight). Size scales with value.
@@ -13,7 +12,8 @@
 window.BirdLayout = (function () {
   var TOP = 70;            // header reserve
   var MIN_FRAC = 0.045, MAX_FRAC = 0.12; // bird size range (frac of min side)
-  var GAP = 6;             // extra px between birds (denser packing)
+  var GAP = 2;             // extra px between birds (denser packing)
+  var TOUCH = 0.44;        // center-distance factor; <0.5 lets tiles overlap a little
   var SHRINK = [1, 0.85, 0.72];         // try full size, then a bit smaller
   var ATTEMPTS = 200;
 
@@ -49,7 +49,7 @@ window.BirdLayout = (function () {
           var ok = true;
           for (var p = 0; p < placed.length; p++) {
             var q = placed[p];
-            if (Math.hypot(x - q.x, y - q.y) < (size + q.size) * 0.5 + GAP) { ok = false; break; }
+            if (Math.hypot(x - q.x, y - q.y) < (size + q.size) * TOUCH + GAP) { ok = false; break; }
           }
           if (ok) { spot = { x: x, y: y, size: size }; break; }
         }
@@ -70,7 +70,7 @@ window.BirdLayout = (function () {
     var minPx = Math.max(36, minSide * MIN_FRAC);
     var maxPx = Math.max(72, minSide * 0.13);
     var golden = Math.PI * (3 - Math.sqrt(5));   // ~2.39996 rad
-    var C = (minPx + maxPx) * 0.32;              // spiral tightness
+    var C = (minPx + maxPx) * 0.27;              // spiral tightness
     var XS = 1.15, YS = 0.82;                    // stretch to fill widescreen
 
     var sorted = items.slice().sort(function (a, b) { return b.value - a.value; });
@@ -88,7 +88,7 @@ window.BirdLayout = (function () {
           var ok = true;
           for (var p = 0; p < placed.length; p++) {
             var q = placed[p];
-            if (Math.hypot(x - q.x, y - q.y) < (size + q.size) * 0.5 + GAP) { ok = false; break; }
+            if (Math.hypot(x - q.x, y - q.y) < (size + q.size) * TOUCH + GAP) { ok = false; break; }
           }
           if (ok) { spot = { x: x, y: y, size: size }; break; }
         }
