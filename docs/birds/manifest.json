@@ -1,4 +1,83 @@
 {
+  "alpswi1": {
+    "sci": "Tachymarptis melba",
+    "common": "Alpine Swift",
+    "names": {
+      "en": "Alpine Swift",
+      "de": "Alpensegler",
+      "es": "Vencejo Real",
+      "pl": "jerzyk alpejski",
+      "fr": "Martinet à ventre blanc",
+      "nl": "Alpengierzwaluw",
+      "ru": "Белобрюхий стриж",
+      "ja": "シロハラアマツバメ",
+      "cs": "rorýs velký",
+      "ca": "ballester comú",
+      "pt": "andorinhão-real",
+      "no": "alpeseiler",
+      "bg": "Алпийски бързолет",
+      "sv": "alpseglare",
+      "da": "Alpesejler",
+      "tr": "Ak Karınlı Ebabil",
+      "sk": "dážďovník skalný",
+      "sr": "Bela čiopa",
+      "uk": "Серпокрилець білочеревий",
+      "zh-CN": "高山雨燕",
+      "fi": "alppikiitäjä",
+      "es_ES": "Vencejo real",
+      "es_MX": "Vencejo Real",
+      "es_EC": "Vencejo Real",
+      "pt_PT": "Andorinhão-real",
+      "hr": "bijela čiopa",
+      "lt": "Baltapilvis alpinis čiurlys",
+      "fa": "بادخورک کوهی (شکم‌سفید)",
+      "cy": "Gwennol ddu'r Alpau",
+      "et": "suurpiiritaja (suur-piirpääsuke)",
+      "it": "Rondone maggiore",
+      "zh-TW": "高山雨燕",
+      "eo": "alpa apodo",
+      "hu": "havasi sarlósfecske",
+      "ro": "Drepnea mare",
+      "sl": "planinski hudournik",
+      "lv": "Alpu svīre",
+      "is": "Alpasvölungur",
+      "el": "Βουνοσταχτάρα",
+      "mk": "голема пиштарка",
+      "be": "Белабрухі свіргуль",
+      "af": "Witpenswindswael",
+      "se": "Álpaleahttospálfu",
+      "ko": "흰배칼새",
+      "he": "סיס הרים",
+      "ar": "سمامة البية",
+      "ml": "വെള്ളവയറൻ ശരപ്പക്ഷി"
+    },
+    "stances": {
+      "flying": [
+        "alpswi1/flying_0.png"
+      ],
+      "sitting": [
+        "alpswi1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "alpswi1/flying_0.png": "left",
+      "alpswi1/sitting_0.png": "left"
+    },
+    "credits": {
+      "alpswi1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "alpswi1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "arcloo": {
     "sci": "Gavia arctica",
     "common": "Arctic Loon",
@@ -135,6 +214,72 @@
         "page_url": ""
       },
       "arcter/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "arcwar1": {
+    "sci": "Phylloscopus borealis",
+    "common": "Arctic Warbler",
+    "names": {
+      "en": "Arctic Warbler",
+      "de": "Wanderlaubsänger",
+      "es": "Mosquitero Boreal",
+      "pl": "świstunka północna",
+      "fr": "Pouillot boréal",
+      "nl": "Noordse boszanger",
+      "ru": "Пеночка-таловка",
+      "ja": "コムシクイ",
+      "cs": "budníček severní",
+      "ca": "mosquiter boreal",
+      "pt": "felosa-boreal",
+      "no": "lappsanger",
+      "bg": "Северен певец",
+      "sv": "nordsångare",
+      "da": "Nordsanger",
+      "tr": "Kuzey Çıvgını",
+      "sk": "kolibiarik severský",
+      "sr": "Arktički zviždak",
+      "uk": "Вівчарик шелюговий",
+      "zh-CN": "极北柳莺",
+      "fi": "lapinuunilintu",
+      "es_ES": "Mosquitero boreal",
+      "es_MX": "Mosquitero Ártico",
+      "es_EC": "Mosquitero Boreal",
+      "pt_PT": "Felosa-boreal",
+      "hr": "sjeverni zviždak",
+      "lt": "Arktinė pečialinda",
+      "fa": "سسک قطبی",
+      "cy": "Telor yr Arctig",
+      "et": "põhja-lehelind",
+      "it": "Luì boreale",
+      "zh-TW": "極北柳鶯",
+      "eo": "norda filoskopo",
+      "hu": "északi füzike",
+      "sl": "severna listnica",
+      "lv": "ziemeļu ķauķītis",
+      "is": "Norðsöngvari",
+      "id": "Cikrak kutub",
+      "el": "Χιονοφυλλοσκόπος",
+      "se": "Davvelastavizar",
+      "ko": "쇠솔새",
+      "he": "עלווית צפונית",
+      "ar": "نقشارة قطبية",
+      "th": "นกกระจิ๊ดขั้วโลกเหนือ"
+    },
+    "stances": {
+      "sitting": [
+        "arcwar1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "arcwar1/sitting_0.png": "left"
+    },
+    "credits": {
+      "arcwar1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -981,6 +1126,87 @@
     },
     "credits": {
       "bbspet1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "bcnher": {
+    "sci": "Nycticorax nycticorax",
+    "common": "Black-crowned Night Heron",
+    "names": {
+      "en": "Black-crowned Night Heron",
+      "de": "Nachtreiher",
+      "es": "Martinete Común",
+      "pl": "ślepowron",
+      "fr": "Bihoreau gris",
+      "nl": "Kwak",
+      "ru": "Кваква",
+      "ja": "ゴイサギ",
+      "cs": "kvakoš noční",
+      "ca": "martinet de nit comú",
+      "pt": "socó-dorminhoco",
+      "no": "natthegre",
+      "bg": "Обикновена нощна чапла",
+      "sv": "natthäger",
+      "da": "Nathejre",
+      "tr": "Gece Balıkçılı",
+      "sk": "chavkoš nočný",
+      "sr": "Gak",
+      "uk": "Квак звичайний",
+      "zh-CN": "夜鹭",
+      "fi": "yöhaikara",
+      "es_ES": "Martinete común",
+      "es_MX": "Garza Nocturna Corona Negra",
+      "es_EC": "Garza Nocturna (Huaque) Coroninegra",
+      "pt_PT": "Goraz",
+      "hr": "gak",
+      "lt": "Paprastasis naktikovis",
+      "fa": "حواصیل شب",
+      "cy": "Crëyr nos",
+      "et": "ööhaigur",
+      "it": "Nitticora",
+      "zh-TW": "夜鷺",
+      "eo": "ordinara noktardeo",
+      "hu": "bakcsó",
+      "ro": "Stârc de noapte",
+      "sl": "kvakač",
+      "lv": "nakts gārnis",
+      "is": "Nátthegri",
+      "id": "Kowak-malam abu",
+      "el": "Νυχτοκόρακας",
+      "mk": "ноќна чапја",
+      "be": "Чапля-кваква",
+      "af": "Gewone Nagreier",
+      "se": "Idjaháigir",
+      "ko": "해오라기",
+      "he": "אנפת לילה",
+      "ar": "بلشون الليل أسود التاج",
+      "th": "นกแขวก",
+      "ml": "പാതിരാക്കൊക്ക്"
+    },
+    "stances": {
+      "flying": [
+        "bcnher/flying_0.png"
+      ],
+      "sitting": [
+        "bcnher/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "bcnher/flying_0.png": "left",
+      "bcnher/sitting_0.png": "right"
+    },
+    "credits": {
+      "bcnher/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "bcnher/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -2024,6 +2250,78 @@
         "page_url": ""
       },
       "blasto1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "blawhe1": {
+    "sci": "Oenanthe leucura",
+    "common": "Black Wheatear",
+    "names": {
+      "en": "Black Wheatear",
+      "de": "Trauersteinschmätzer",
+      "es": "Collalba Negra",
+      "pl": "białorzytka żałobna",
+      "fr": "Traquet rieur",
+      "nl": "Zwarte tapuit",
+      "ru": "Белохвостая каменка",
+      "ja": "クロサバクヒタキ",
+      "cs": "bělořit černý",
+      "ca": "còlit negre",
+      "pt": "chasco-preto",
+      "no": "svartsteinskvett",
+      "bg": "Черно каменарче",
+      "sv": "svart stenskvätta",
+      "da": "Sørgestenpikker",
+      "tr": "Kara Kuyrukkakan",
+      "sk": "skaliarik bielochvostý",
+      "sr": "Španska crna beloguza",
+      "uk": "Кам'янка білогуза",
+      "zh-CN": "白尾黑鵖",
+      "fi": "mustatasku",
+      "es_ES": "Collalba negra",
+      "es_MX": "Collalba Negra",
+      "es_EC": "Collalba Negra",
+      "pt_PT": "Chasco-preto",
+      "hr": "crna bjeloguza",
+      "lt": "Baltauodegis kūltupys",
+      "fa": "چکچک سیاه",
+      "cy": "Tinwen ddu",
+      "et": "must-kivitäks",
+      "it": "Monachella nera",
+      "zh-TW": "白尾黑鵖",
+      "eo": "nigra enanto",
+      "hu": "kormos hantmadár",
+      "sl": "črni kupčar",
+      "lv": "melnā čakstīte",
+      "is": "Urðardepill",
+      "el": "Μαυροπετρόκλης",
+      "se": "Čáhppesgeaðgerásttis",
+      "he": "סלעית שחורה"
+    },
+    "stances": {
+      "flying": [
+        "blawhe1/flying_0.png"
+      ],
+      "sitting": [
+        "blawhe1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "blawhe1/flying_0.png": "left",
+      "blawhe1/sitting_0.png": "right"
+    },
+    "credits": {
+      "blawhe1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "blawhe1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -11962,6 +12260,86 @@
         "page_url": ""
       },
       "glagul/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "gloibi": {
+    "sci": "Plegadis falcinellus",
+    "common": "Glossy Ibis",
+    "names": {
+      "en": "Glossy Ibis",
+      "de": "Sichler",
+      "es": "Morito Común",
+      "pl": "ibis kasztanowaty",
+      "fr": "Ibis falcinelle",
+      "nl": "Zwarte ibis",
+      "ru": "Каравайка",
+      "ja": "ブロンズトキ",
+      "cs": "ibis hnědý",
+      "ca": "capó reial",
+      "pt": "íbis-preta",
+      "no": "bronseibis",
+      "bg": "Блестящ ибис",
+      "sv": "bronsibis",
+      "da": "Sort Ibis",
+      "tr": "Çeltikçi",
+      "sk": "ibisovec hnedý",
+      "sr": "Ražanj",
+      "uk": "Коровайка бура",
+      "zh-CN": "彩鹮",
+      "fi": "pronssi-iibis",
+      "es_ES": "Morito común",
+      "es_MX": "Ibis Cara Oscura",
+      "es_EC": "Ibis Bronceado",
+      "pt_PT": "Íbis-preta",
+      "hr": "blistavi ibis",
+      "lt": "Rudasis ibis",
+      "fa": "اکراس سیاه",
+      "cy": "Ibis du",
+      "et": "tõmmuiibis",
+      "it": "Mignattaio",
+      "zh-TW": "彩鹮",
+      "eo": "bruna ibiso",
+      "hu": "batla",
+      "ro": "Ţigănuş",
+      "sl": "plevica",
+      "lv": "brūnais ibiss",
+      "is": "Bognefur",
+      "id": "Ibis rokoroko",
+      "el": "Χαλκόκοτα",
+      "mk": "ибис",
+      "be": "Каравайка",
+      "af": "Glansibis",
+      "se": "Čáhppesibis",
+      "he": "מגלן חום",
+      "ar": "أبو منجل اللماع",
+      "th": "นกช้อนหอยดำเหลือบ",
+      "ml": "ചെമ്പൻ അരിവാൾക്കൊക്കൻ"
+    },
+    "stances": {
+      "flying": [
+        "gloibi/flying_0.png"
+      ],
+      "sitting": [
+        "gloibi/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "gloibi/flying_0.png": "left",
+      "gloibi/sitting_0.png": "left"
+    },
+    "credits": {
+      "gloibi/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "gloibi/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -25724,6 +26102,87 @@
         "page_url": ""
       },
       "whisto1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "whiter2": {
+    "sci": "Chlidonias hybrida",
+    "common": "Whiskered Tern",
+    "names": {
+      "en": "Whiskered Tern",
+      "de": "Weißbart-Seeschwalbe",
+      "es": "Fumarel Cariblanco",
+      "pl": "rybitwa białowąsa",
+      "fr": "Guifette moustac",
+      "nl": "Witwangstern",
+      "ru": "Белощёкая крачка",
+      "ja": "クロハラアジサシ",
+      "cs": "rybák bahenní",
+      "ca": "fumarell carablanc",
+      "pt": "gaivina-dos-pauis",
+      "no": "hvitkinnsvartterne",
+      "bg": "Белобуза рибарка",
+      "sv": "skäggtärna",
+      "da": "Hvidskægget Terne",
+      "tr": "Bıyıklı Sumru",
+      "sk": "čorík bahenný",
+      "sr": "Belobrka čigra",
+      "uk": "Крячок білощокий",
+      "zh-CN": "灰翅浮鸥",
+      "fi": "valkoposkitiira",
+      "es_ES": "Fumarel cariblanco",
+      "es_MX": "Fumarel Cariblanco",
+      "es_EC": "Fumarel Cariblanco",
+      "pt_PT": "Gaivina-dos-pauis",
+      "hr": "bjelobrada čigra",
+      "lt": "Baltaskruostė žuvėdra",
+      "fa": "پرستودریایی (پرستوتالابی) تیره",
+      "cy": "Corswennol farfog",
+      "et": "habeviires",
+      "it": "Mignattino piombato",
+      "zh-TW": "黑腹燕鷗〔鬚浮鷗〕",
+      "eo": "blankliphara ŝterno",
+      "hu": "fattyúszerkő",
+      "ro": "Chirighiţă cu obraz alb",
+      "sl": "belolična čigra",
+      "lv": "baltvaigu zīriņš",
+      "is": "Skeggþerna",
+      "id": "Dara-laut kumis",
+      "el": "Μουστακογλάρονο",
+      "mk": "белобрада рибарка",
+      "be": "Белашчокая рыбачка",
+      "af": "Witbaardmeerswael (Witbaardsterretjie)",
+      "se": "Skávžádirru",
+      "ko": "구레나룻제비갈매기",
+      "he": "מירומית לבנת-לחי",
+      "ar": "خرشنة هجينة",
+      "th": "นกนางนวลแกลบเคราขาว",
+      "ml": "കരി ആള"
+    },
+    "stances": {
+      "flying": [
+        "whiter2/flying_0.png"
+      ],
+      "sitting": [
+        "whiter2/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "whiter2/flying_0.png": "right",
+      "whiter2/sitting_0.png": "right"
+    },
+    "credits": {
+      "whiter2/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "whiter2/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
