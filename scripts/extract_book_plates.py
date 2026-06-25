@@ -50,7 +50,7 @@ from functools import partial
 
 import numpy as np
 import requests
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -216,25 +216,64 @@ def clean_plate(im, margin=0.012):
     return Image.fromarray(carr)
 
 
-def _rounded_mask(size, box, radius):
-    m = Image.new("L", size, 0)
-    ImageDraw.Draw(m).rounded_rectangle(box, radius=radius, fill=255)
-    return np.asarray(m) > 0
+def _font(name, size):
+    for p in (rf"C:\Windows\Fonts\{name}", name):
+        try:
+            return ImageFont.truetype(p, size)
+        except OSError:
+            pass
+    return ImageFont.load_default()
 
 
-def rounded_label(rect_rgb, pad=12, radius_frac=0.18):
-    """The caption as a standalone label graphic: white rounded panel with the
-    caption text, transparent outside the rounded corners (RGBA PNG)."""
-    w, h = rect_rgb.size
-    bw, bh = w + 2 * pad, h + 2 * pad
-    base = Image.new("RGB", (bw, bh), (255, 255, 255))
-    base.paste(rect_rgb, (pad, pad))
-    out = base.convert("RGBA")
+def render_label(common, sci, base_w):
+    """A clean, tight label: the species name only — common (EN, bold caps) over
+    scientific (Latin, italic) — on a rounded white panel, transparent outside.
+    Engraver/printer credits are not included by construction. None if no name."""
+    common = (common or "").strip()
+    sci = (sci or "").strip()
+    if not (common or sci):
+        return None
+    probe = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    max_w = base_w * 0.82  # keep the label within the plate width
+    s = max(18, int(base_w * 0.032))
+    while True:  # shrink the font until the longest line fits (long/garbled names)
+        lines = []
+        if common:
+            lines.append((common.upper(), _font("georgiab.ttf", int(s * 1.1))))
+        if sci:
+            lines.append((sci, _font("georgiai.ttf", s)))
+        pad, gap = int(s * 0.7), int(s * 0.35)
+        dims = [probe.textbbox((0, 0), t, font=f) for t, f in lines]
+        tw = max(d[2] - d[0] for d in dims)
+        if tw + 2 * pad <= max_w or s <= 12:
+            break
+        s = int(s * 0.85)
+    th = sum(d[3] - d[1] for d in dims) + gap * (len(lines) - 1)
+    bw, bh = tw + 2 * pad, th + 2 * pad
+    panel = Image.new("RGBA", (bw, bh), (0, 0, 0, 0))
     mask = Image.new("L", (bw, bh), 0)
-    rad = max(8, int(min(bw, bh) * radius_frac))
-    ImageDraw.Draw(mask).rounded_rectangle((0, 0, bw - 1, bh - 1), radius=rad, fill=255)
-    out.putalpha(mask)
-    return out
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, bw - 1, bh - 1),
+                                           radius=int(min(bw, bh) * 0.30), fill=255)
+    panel = Image.composite(Image.new("RGBA", (bw, bh), (255, 255, 255, 255)),
+                            panel, mask)
+    dr = ImageDraw.Draw(panel)
+    y = pad
+    for (t, f), d in zip(lines, dims):
+        dr.text(((bw - (d[2] - d[0])) // 2 - d[0], y - d[1]), t, font=f,
+                fill=(25, 25, 25, 255))
+        y += (d[3] - d[1]) + gap
+    return panel
+
+
+def place_label(plate_rgba, label):
+    """Composite the rendered label centred near the bottom of the plate."""
+    if label is None:
+        return plate_rgba
+    pw, ph = plate_rgba.size
+    lw, lh = label.size
+    plate_rgba.alpha_composite(label, (max(0, (pw - lw) // 2),
+                                       max(0, ph - lh - int(ph * 0.02))))
+    return plate_rgba
 
 
 def detect_caption_box(rgb, zone=0.20, lum_thr=210, sat_thr=0.20, min_px=120):
@@ -257,12 +296,11 @@ def detect_caption_box(rgb, zone=0.20, lum_thr=210, sat_thr=0.20, min_px=120):
             min(w - 1, int(xs.max()) + pad), min(h - 1, int(ys.max()) + pad))
 
 
-def to_transparent(rgb, box):
-    """Paper -> transparent; the illustration stays opaque; the caption text
-    sits on a rounded white panel (box from detect_caption_box) so it stays
-    legible on any background."""
+def to_transparent(rgb):
+    """Paper -> transparent, the illustration stays opaque. The (cleaned-up)
+    species label is composited separately by place_label, so the original
+    engraved caption/credits simply fade out with the paper."""
     arr = np.asarray(rgb).astype(np.float32)
-    h, w, _ = arr.shape
     lum = arr.mean(2)
     mx, mn = arr.max(2), arr.min(2)
     sat = (mx - mn) / np.clip(mx, 1, None)
@@ -271,11 +309,6 @@ def to_transparent(rgb, box):
     # ... but keep coloured washes opaque even when fairly light
     alpha = np.maximum(alpha, np.clip((sat - 0.12) / 0.18, 0, 1))
     a8 = (alpha * 255).astype(np.uint8)
-    if box:
-        rad = max(8, int((box[3] - box[1]) * 0.25))
-        panel = _rounded_mask((w, h), box, rad)
-        a8[panel] = 255                       # opaque rounded label panel
-        arr[panel & (lum > 195)] = 255        # clean white behind the text
     return Image.fromarray(np.dstack([arr.astype(np.uint8), a8]), "RGBA")
 
 
@@ -418,13 +451,16 @@ def process_leaf(cfg, leaf):
     if plate.width > cfg["width"]:
         plate = plate.resize((cfg["width"],
                               round(plate.height * cfg["width"] / plate.width)))
-    plate, box, common, sci, caption = orient_and_label(plate)
+    plate, _box, common, sci, caption = orient_and_label(plate)
     base = _leaf_png(cfg["out"], leaf)[:-4]
-    to_transparent(plate, box).save(base + ".png", optimize=True)
+    rgba = to_transparent(plate)
+    label = render_label(common, sci, rgba.width)
     label_file = ""
-    if box:
-        rounded_label(plate.crop(box)).save(base + "_label.png")
+    if label is not None:
+        label.save(base + "_label.png")          # tight, species-name-only label
         label_file = os.path.relpath(base + "_label.png", OUT_DIR)
+        place_label(rgba, label)                 # and on the plate itself
+    rgba.save(base + ".png", optimize=True)
     prov = {
         "book": cfg["book"], "title": cfg["title"], "author": cfg["author"],
         "year": cfg["year"], "source": "Internet Archive", "identifier": ident,
