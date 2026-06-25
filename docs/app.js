@@ -33,6 +33,12 @@
     cs: "Ptáci dnes", uk: "Птахи сьогодні", tr: "Bugün kuşlar",
   };
 
+  // Per-language name casing: eBird already follows each language's convention
+  // (Swedish/Finnish/Polish/Czech lowercase; German/French/Danish capitalised),
+  // except Norwegian, which it stores lowercase though the Norwegian birding
+  // convention capitalises species names ("svarttrost" -> "Svarttrost").
+  var CAP_FIRST = { no: 1 };
+
   // Human-readable source for the image-origin line in the hover tooltip.
   var BOOK_INFO = {
     gould: "John Gould, The Birds of Europe",
@@ -175,6 +181,9 @@
     var rec = S.tax[code];
     var common = (rec && (rec.names[S.lang] || rec.names.en)) ||
       (S.manifest[code] && S.manifest[code].common) || code;
+    if (CAP_FIRST[S.lang] && common) {
+      common = common.charAt(0).toUpperCase() + common.slice(1);
+    }
     var sci = (rec && rec.sci) || (S.manifest[code] && S.manifest[code].sci) || "";
     return { common: common, sci: sci };
   }
@@ -387,7 +396,7 @@
     sel.innerHTML = offer.map(function (l) {
       return '<option value="' + l + '">' + (LANG_NAMES[l] || l) + "</option>";
     }).join("");
-    var def = offer.indexOf("sv") >= 0 ? "sv" : "en";
+    var def = "en";   // default to English
     S.lang = def; sel.value = def; setTitle();
     sel.onchange = function () { S.lang = sel.value; setTitle(); render(); };
     window.addEventListener("resize", debounce(render, 200));
