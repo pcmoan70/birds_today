@@ -18,18 +18,27 @@ You can read the raw votes any time in your Gmail inbox.
 ### EmailJS (sending)
 1. Create an account at https://www.emailjs.com/ and add an **Email Service**
    connected to your Gmail.
-2. Create an **Email Template**. Make sure the body includes the raw token line
-   so the pipeline can parse it, e.g.:
+2. Create an **Email Template**. In the template **Settings**:
+   - **To Email:** your Gmail address
+   - **Subject:** `Birds Today feedback: {{vote}}`
+   In the template **Content** (plain text is safest so the parser sees the raw
+   token), use these variables — they must match exactly what `feedback.js` sends:
    ```
-   New bird image vote:
-     image:   {{image}}
-     vote:    {{vote}}
-     species: {{species}}  pose: {{pose}}  lang: {{lang}}
-     client:  {{client}}   time: {{ts}}
+   New image vote from Birds Today
+
+   Image:    {{image_id}}
+   Vote:     {{vote}}
+   Species:  {{species}}    Pose: {{pose}}
+   Hash:     {{image_hash}}
+   Time:     {{time}}
+   Language: {{lang}}
+   Client:   {{client}}
 
    {{blob}}
    ```
-   (`{{blob}}` expands to `BIRDVOTE {…json…}` — the machine-readable line.)
+   `{{vote}}` is `upvote` / `downvote` / `cleared`. `{{blob}}` expands to
+   `BIRDVOTE {…json…}` — the machine-readable line the IMAP job parses, so it
+   MUST appear in the body.
 3. In `docs/index.html`, load the SDK before `feedback.js`:
    ```html
    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
