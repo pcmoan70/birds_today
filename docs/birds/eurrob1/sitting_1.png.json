@@ -1,7 +1,0 @@
-{
-  "source": "generated",
-  "model": "black-forest-labs/FLUX.1-dev",
-  "style": "audubon",
-  "pose": "sitting",
-  "reference": "sitting_1.jpg"
-}
