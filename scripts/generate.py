@@ -52,17 +52,21 @@ TEST_CODES = ["gretit1", "blutit", "eurrob1", "eurbla", "comcha", "eurmag1",
 # (that renders a paper sheet with caption/border that the matting then keeps).
 STYLES = {
     "fieldguide": {
-        "tag": ("modern field-guide illustration of a single bird, watercolour "
-                "and gouache, Lars Jonsson style, plain white background, no "
-                "text, no border"),
-        "prompt": ("a modern ornithological field-guide illustration of a single "
-                   "bird in the naturalistic watercolour-and-gouache style of Lars "
-                   "Jonsson, Killian Mullarney, Dan Zetterström, Hampus Lejon and "
-                   "Axel Thorenfeldt (as in the Collins Bird Guide), soft natural "
-                   "light, subtle tonal shading, scientifically accurate field "
-                   "marks, fine feather detail, full body, the bird only, isolated "
-                   "on a plain solid white background, no paper texture, no border, "
-                   "no frame, no caption, no text"),
+        "tag": ("highly detailed lifelike field-guide bird illustration, realistic "
+                "watercolour and gouache, Lars Jonsson style, photorealistic "
+                "feather detail, plain white background, no text, no border"),
+        "prompt": ("a highly detailed, lifelike modern ornithological field-guide "
+                   "illustration of a single bird in the naturalistic watercolour-"
+                   "and-gouache style of Lars Jonsson, Killian Mullarney, Dan "
+                   "Zetterström, Hampus Lejon and Axel Thorenfeldt (as in the "
+                   "Collins Bird Guide), rendered with near-photographic realism: "
+                   "true-to-life proportions and colours, realistic feather "
+                   "textures and barring, subtle three-dimensional form and depth, "
+                   "soft natural light with gentle shadow, crisp sharp focus, "
+                   "scientifically accurate field marks, fine feather detail, full "
+                   "body, the bird only, isolated on a plain solid white "
+                   "background, no paper texture, no border, no frame, no caption, "
+                   "no text"),
     },
     "audubon": {
         "tag": ("Audubon-style watercolour painting of a single bird, plain white "
