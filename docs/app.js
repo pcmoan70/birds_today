@@ -50,7 +50,7 @@
     tax: {}, langs: [], lang: "en",
     manifest: {}, plates: {}, allProbs: null,
     lat: DEFAULT.lat, lon: DEFAULT.lon, week: 1, mode: "A", src: "gould",
-    aiFallback: true,
+    aiBW: false,
   };
 
   // Images the user downvoted this session — grayed out until the tab closes.
@@ -231,7 +231,7 @@
       var img = pickImage(S.manifest[code] || {}, stance);
       if (!img) return null;
       var face = ((S.manifest[code] || {}).faces || {})[img];
-      return { src: "birds/" + img, id: img, flip: true, face: face,
+      return { src: "birds/" + img, id: img, flip: true, face: face, ai: true,
         origin: "AI-generated field-guide illustration", page: null };
     }
     if (S.src === "ai") return ai();
@@ -257,8 +257,7 @@
           origin: origin, page: pick.page_url || null };
       }
     }
-    // No plate for this species: fall back to an AI image, unless disabled.
-    return S.aiFallback ? ai() : null;
+    return ai();   // no plate for this species: fall back to an AI image
   }
 
   function render() {
@@ -278,7 +277,7 @@
       if (S.mode === "B" && mt && mt.arrival <= 0) return; // only arriving species
       if (value <= 0) return;
       items.push({ code: code, img: pick.id, src: pick.src, flip: pick.flip,
-        face: pick.face, origin: pick.origin, page: pick.page,
+        face: pick.face, origin: pick.origin, page: pick.page, ai: pick.ai,
         stance: stance, value: value });
     });
     document.getElementById("hint").style.display = items.length ? "none" : "flex";
@@ -295,6 +294,7 @@
     stage.style.height = res.height + "px";
     SCROLL.items = res.placed.slice().sort(function (a, b) { return a.y - b.y; });
     SCROLL.idx = 0; SCROLL.halfW = W / 2;
+    stage.classList.toggle("aibw", S.aiBW);   // grayscale AI images when chosen
     window.scrollTo(0, 0);
     buildUpTo(2 * window.innerHeight);   // first screenful (+ one ahead)
     setStatus(items.length);
@@ -305,7 +305,8 @@
 
   function buildBird(it) {
     var el = document.createElement("div");
-    el.className = "bird" + (DOWNVOTED.has(it.img) ? " downvoted" : "");
+    el.className = "bird" + (DOWNVOTED.has(it.img) ? " downvoted" : "") +
+      (it.ai ? " ai" : "");
     el.style.left = it.x + "px"; el.style.top = it.y + "px";
     el.style.width = it.size + "px";
     var im = document.createElement("img");
@@ -421,9 +422,15 @@
     var def = "en";   // default to English
     S.lang = def; sel.value = def; setTitle();
     sel.onchange = function () { S.lang = sel.value; setTitle(); render(); };
-    var aifb = document.getElementById("ai-fallback");
-    aifb.checked = S.aiFallback;
-    aifb.onchange = function () { S.aiFallback = aifb.checked; render(); };
+    // AI images colour vs black & white — toggled live without a rebuild.
+    document.querySelectorAll("#aimode button").forEach(function (b) {
+      b.onclick = function () {
+        document.querySelectorAll("#aimode button").forEach(function (x) { x.classList.remove("on"); });
+        b.classList.add("on");
+        S.aiBW = b.getAttribute("data-aimode") === "bw";
+        stage.classList.toggle("aibw", S.aiBW);
+      };
+    });
     window.addEventListener("resize", debounce(render, 200));
     window.addEventListener("scroll", onScroll, { passive: true });
   }

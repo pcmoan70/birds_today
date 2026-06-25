@@ -35,11 +35,13 @@
             <button data-src="ai">AI</button>
           </div>
         </div>
-        <label class="menu-row" for="ai-fallback"
-               title="When a species has no historical plate, show an AI image instead">
-          <span class="menu-label">AI fallback</span>
-          <input type="checkbox" id="ai-fallback" checked />
-        </label>
+        <div class="menu-row" title="How AI fallback images are shown">
+          <span class="menu-label">AI images</span>
+          <div class="seg" id="aimode">
+            <button data-aimode="color" class="on">Color</button>
+            <button data-aimode="bw">B&amp;W</button>
+          </div>
+        </div>
         <div class="menu-row">
           <span class="menu-label">Language</span>
           <select id="lang" title="Species name language"></select>
