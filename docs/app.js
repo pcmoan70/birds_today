@@ -285,46 +285,71 @@
         S.mode === "A" ? "No resident birds to show here." : "No arriving migrants this week.";
     }
 
-    // Dense top-to-bottom packing by probability; the page scrolls.
+    // Dense top-to-bottom packing by probability; the page scrolls. The layout
+    // (just maths) is computed for all birds, but DOM elements are created
+    // incrementally as the page is scrolled (see buildUpTo).
     var W = stage.clientWidth || window.innerWidth;
     var res = window.BirdLayout.placeScroll(items, W);
     stage.style.height = res.height + "px";
-    res.placed.forEach(function (it) {
-      var el = document.createElement("div");
-      el.className = "bird" + (DOWNVOTED.has(it.img) ? " downvoted" : "");
-      el.style.left = it.x + "px"; el.style.top = it.y + "px";
-      el.style.width = it.size + "px";
-      var im = document.createElement("img");
-      im.loading = "lazy"; im.decoding = "async";   // long page: defer off-screen
-      im.src = it.src; im.alt = nameFor(it.code).common;
-      // Flip the bird so it faces the centre of the page (beak toward middle).
-      if (it.flip && it.face) {
-        var halfW = W / 2;
-        if ((it.x > halfW && it.face === "right") || (it.x < halfW && it.face === "left")) {
-          im.style.transform = "scaleX(-1)";
-        }
-      }
-      el.appendChild(im);
-
-      var fb = document.createElement("div");
-      fb.className = "fb";
-      fb.innerHTML =
-        '<button class="up" title="Good">👍</button>' +
-        '<button class="down" title="Poor">👎</button>';
-      fb.querySelector(".up").onclick = function (e) { e.stopPropagation(); doVote(it, "up", fb); };
-      fb.querySelector(".down").onclick = function (e) { e.stopPropagation(); doVote(it, "down", fb); };
-      el.appendChild(fb);
-
-      el.addEventListener("mousemove", function (ev) { showTip(ev, it); });
-      el.addEventListener("mouseleave", function () { tip.classList.remove("show"); });
-      // Click a bird → full-screen detail view (larger image + name + source).
-      el.title = nameFor(it.code).common;
-      el.addEventListener("click", function () {
-        tip.classList.remove("show"); openBird(it);
-      });
-      stage.appendChild(el);
-    });
+    SCROLL.items = res.placed.slice().sort(function (a, b) { return a.y - b.y; });
+    SCROLL.idx = 0; SCROLL.halfW = W / 2;
+    window.scrollTo(0, 0);
+    buildUpTo(2 * window.innerHeight);   // first screenful (+ one ahead)
     setStatus(items.length);
+  }
+
+  // Incremental builder: birds are mounted only once the scroll reaches them.
+  var SCROLL = { items: [], idx: 0, halfW: 0 };
+
+  function buildBird(it) {
+    var el = document.createElement("div");
+    el.className = "bird" + (DOWNVOTED.has(it.img) ? " downvoted" : "");
+    el.style.left = it.x + "px"; el.style.top = it.y + "px";
+    el.style.width = it.size + "px";
+    var im = document.createElement("img");
+    im.loading = "lazy"; im.decoding = "async";
+    im.src = it.src; im.alt = nameFor(it.code).common;
+    // Flip the bird so it faces the centre of the page (beak toward middle).
+    if (it.flip && it.face) {
+      if ((it.x > SCROLL.halfW && it.face === "right") ||
+          (it.x < SCROLL.halfW && it.face === "left")) {
+        im.style.transform = "scaleX(-1)";
+      }
+    }
+    el.appendChild(im);
+
+    var fb = document.createElement("div");
+    fb.className = "fb";
+    fb.innerHTML =
+      '<button class="up" title="Good">👍</button>' +
+      '<button class="down" title="Poor">👎</button>';
+    fb.querySelector(".up").onclick = function (e) { e.stopPropagation(); doVote(it, "up", fb); };
+    fb.querySelector(".down").onclick = function (e) { e.stopPropagation(); doVote(it, "down", fb); };
+    el.appendChild(fb);
+
+    el.addEventListener("mousemove", function (ev) { showTip(ev, it); });
+    el.addEventListener("mouseleave", function () { tip.classList.remove("show"); });
+    el.title = nameFor(it.code).common;
+    el.addEventListener("click", function () { tip.classList.remove("show"); openBird(it); });
+    stage.appendChild(el);
+  }
+
+  // Mount every not-yet-built bird whose top edge is above yLimit.
+  function buildUpTo(yLimit) {
+    var a = SCROLL.items;
+    while (SCROLL.idx < a.length && a[SCROLL.idx].y - a[SCROLL.idx].size / 2 <= yLimit) {
+      buildBird(a[SCROLL.idx]); SCROLL.idx++;
+    }
+  }
+
+  var _scrollPending = false;
+  function onScroll() {
+    if (_scrollPending) return;
+    _scrollPending = true;
+    requestAnimationFrame(function () {
+      _scrollPending = false;
+      buildUpTo(window.scrollY + 2 * window.innerHeight);  // one screen ahead
+    });
   }
 
   function doVote(it, dir, fb) {
@@ -395,6 +420,7 @@
     S.lang = def; sel.value = def; setTitle();
     sel.onchange = function () { S.lang = sel.value; setTitle(); render(); };
     window.addEventListener("resize", debounce(render, 200));
+    window.addEventListener("scroll", onScroll, { passive: true });
   }
 
   function setTitle() {
