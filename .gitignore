@@ -27,3 +27,6 @@ scripts/layout_preview*.png
 # Long-running job logs (generation / checkpoint watcher)
 scripts/*.log
 scripts/*.err
+
+# Extracted public-domain book plates (local; large — keep off Pages/repo)
+book_plates/
