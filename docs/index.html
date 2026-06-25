@@ -15,7 +15,7 @@
 </head>
 <body>
   <div id="bar">
-    <h1>Birds&nbsp;Today</h1>
+    <h1 id="title">Birds&nbsp;Today</h1>
     <div class="seg" id="mode">
       <button data-mode="A" class="on">Residents</button>
       <button data-mode="B">Migration</button>
@@ -28,6 +28,7 @@
     <span class="spacer"></span>
     <button class="meta loc" id="place" title="Choose a location on the map">📍 —</button>
     <select id="lang" title="Species name language"></select>
+    <button class="meta" id="help-btn" title="About this app" aria-label="About">?</button>
   </div>
 
   <div id="stage"></div>
@@ -48,6 +49,42 @@
         <button id="map-close" title="Close">✕</button>
       </div>
       <div id="map"></div>
+    </div>
+  </div>
+
+  <div id="help-modal" class="modal" hidden>
+    <div class="modal-box">
+      <div class="modal-head">
+        <span>About Birds Today</span>
+        <button id="help-close" title="Close">✕</button>
+      </div>
+      <div class="help-body">
+        <p><strong>Birds Today</strong> shows the birds you're most likely to
+          meet at your location right now.</p>
+        <h4>How it works</h4>
+        <ul>
+          <li>It detects your location (or pick one on the map 📍) and uses the
+            BirdNET geographic model to estimate, for each week of the year, how
+            likely every species is to occur there.</li>
+          <li><strong>Residents</strong> sizes each bird by how likely it is this
+            week. <strong>Migration</strong> shows only species arriving now,
+            sized by how sharply their occurrence is rising.</li>
+          <li>Hover a bird for its name, the source of its picture, and how
+            likely it is this week. Click a bird to open its photos and sounds on
+            the Macaulay Library.</li>
+          <li>Use 👍 / 👎 to tell us how good an illustration is.</li>
+        </ul>
+        <h4>Where the images come from</h4>
+        <ul>
+          <li>Most are hand-coloured plates from two public-domain works, via the
+            Internet Archive: <em>John Gould — The Birds of Europe</em> (1837)
+            and <em>H. E. Dresser — A History of the Birds of Europe</em>
+            (1871–1881).</li>
+          <li>The <strong>Gould / Dresser / AI</strong> switch chooses the
+            source. Species without a historical plate fall back to an
+            AI-generated field-guide illustration.</li>
+        </ul>
+      </div>
     </div>
   </div>
 

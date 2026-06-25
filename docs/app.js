@@ -23,6 +23,22 @@
     cs: "Čeština", uk: "Українська", tr: "Türkçe",
   };
 
+  // Localised page title (falls back to English for any other locale).
+  var TITLES = {
+    en: "Birds Today", sv: "Fåglar idag", de: "Vögel heute",
+    fr: "Oiseaux aujourd'hui", es: "Aves hoy", nl: "Vogels vandaag",
+    fi: "Linnut tänään", no: "Fugler i dag", da: "Fugle i dag",
+    it: "Uccelli oggi", pt: "Aves hoje", pl: "Ptaki dzisiaj",
+    ru: "Птицы сегодня", ja: "今日の鳥", "zh-CN": "今日鸟类",
+    cs: "Ptáci dnes", uk: "Птахи сьогодні", tr: "Bugün kuşlar",
+  };
+
+  // Human-readable source for the image-origin line in the hover tooltip.
+  var BOOK_INFO = {
+    gould: "John Gould, The Birds of Europe",
+    dresser: "H. E. Dresser, A History of the Birds of Europe",
+  };
+
   var S = {
     labels: [], codeToIdx: {}, nSpecies: 0,
     tax: {}, langs: [], lang: "en",
@@ -205,7 +221,8 @@
       var img = pickImage(S.manifest[code] || {}, stance);
       if (!img) return null;
       var face = ((S.manifest[code] || {}).faces || {})[img];
-      return { src: "birds/" + img, id: img, flip: true, face: face };
+      return { src: "birds/" + img, id: img, flip: true, face: face,
+        origin: "AI-generated field-guide illustration" };
     }
     if (S.src === "ai") return ai();
     var p = S.plates[code];
@@ -214,15 +231,21 @@
       // Prefer a single-species plate (from either book, in source order); only
       // fall back to a multi-species plate — which shows the whole plate, other
       // species included — when no clean single one exists for this species.
-      var single = null, whole = null;
+      var single = null, sBook = null, whole = null, wBook = null;
       for (var i = 0; i < order.length; i++) {
-        var e = p[order[i]];
+        var b = order[i], e = p[b];
         if (!e) continue;
-        if (e.multi) { whole = whole || e; }
-        else { single = e; break; }
+        if (e.multi) { if (!whole) { whole = e; wBook = b; } }
+        else { single = e; sBook = b; break; }
       }
-      var pick = single || whole;
-      if (pick) return { src: pick.img, id: pick.img, flip: true, face: pick.face };
+      var pick = single || whole, book = single ? sBook : wBook;
+      if (pick) {
+        var origin = (BOOK_INFO[book] || book) +
+          (pick.volume ? ", " + pick.volume : "") +
+          (pick.multi ? " — plate shows several species" : "");
+        return { src: pick.img, id: pick.img, flip: true, face: pick.face,
+          origin: origin };
+      }
     }
     return ai();
   }
@@ -244,7 +267,7 @@
       if (S.mode === "B" && mt && mt.arrival <= 0) return; // only arriving species
       if (value <= 0) return;
       items.push({ code: code, img: pick.id, src: pick.src, flip: pick.flip,
-        face: pick.face, stance: stance, value: value });
+        face: pick.face, origin: pick.origin, stance: stance, value: value });
     });
     document.getElementById("hint").style.display = items.length ? "none" : "flex";
     if (!items.length) {
@@ -287,7 +310,7 @@
       fb.querySelector(".down").onclick = function (e) { e.stopPropagation(); doVote(it, "down", fb); };
       el.appendChild(fb);
 
-      el.addEventListener("mousemove", function (ev) { showTip(ev, it.code); });
+      el.addEventListener("mousemove", function (ev) { showTip(ev, it); });
       el.addEventListener("mouseleave", function () { tip.classList.remove("show"); });
       // Click a bird → its Macaulay Library species page (code == taxon code).
       el.title = "View " + nameFor(it.code).common + " on Macaulay Library";
@@ -319,9 +342,19 @@
     }
   }
 
-  function showTip(ev, code) {
-    var nm = nameFor(code);
-    tip.innerHTML = nm.common + (nm.sci ? '<br><span class="sci">' + nm.sci + "</span>" : "");
+  function showTip(ev, it) {
+    var nm = nameFor(it.code);
+    var html = nm.common + (nm.sci ? '<br><span class="sci">' + nm.sci + "</span>" : "");
+    var meta = [];
+    if (it.origin) meta.push("<b>Image:</b> " + it.origin);
+    var mt = metrics(it.code);
+    if (mt) {
+      var pct = Math.round(Math.max(0, Math.min(1, mt.cur)) * 100);
+      meta.push("<b>Seen here this week:</b> " + pct + "%");
+    }
+    if (meta.length) html += '<div class="meta">' + meta.join("<br>") + "</div>";
+    html += '<div class="hint2">Click for photos &amp; sounds (Macaulay Library)</div>';
+    tip.innerHTML = html;
     tip.style.left = ev.clientX + "px";
     tip.style.top = (ev.clientY + 18) + "px";
     tip.classList.add("show");
@@ -355,9 +388,24 @@
       return '<option value="' + l + '">' + (LANG_NAMES[l] || l) + "</option>";
     }).join("");
     var def = offer.indexOf("sv") >= 0 ? "sv" : "en";
-    S.lang = def; sel.value = def;
-    sel.onchange = function () { S.lang = sel.value; render(); };
+    S.lang = def; sel.value = def; setTitle();
+    sel.onchange = function () { S.lang = sel.value; setTitle(); render(); };
     window.addEventListener("resize", debounce(render, 200));
+  }
+
+  function setTitle() {
+    var t = TITLES[S.lang] || TITLES.en;
+    document.getElementById("title").textContent = t;
+    document.title = t;
+  }
+
+  function setupHelp() {
+    var modal = document.getElementById("help-modal");
+    document.getElementById("help-btn").onclick = function () { modal.hidden = false; };
+    document.getElementById("help-close").onclick = function () { modal.hidden = true; };
+    modal.addEventListener("click", function (e) {
+      if (e.target.id === "help-modal") modal.hidden = true;
+    });
   }
 
   function debounce(fn, ms) {
@@ -440,6 +488,7 @@
       mergePlateNames();   // localized names for plate-only species
       setupControls();
       setupMap();
+      setupHelp();
 
       S.week = birdNetWeek(new Date());
       var loc = await getLocation();

@@ -37,6 +37,11 @@ select, #bar .meta {
 select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color: var(--ink); }
 .loc { cursor: pointer; border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 10px; }
 .loc:hover { background: rgba(0,0,0,0.04); }
+#help-btn {
+  cursor: pointer; border: 1px solid #cfc8b6; border-radius: 999px;
+  width: 26px; height: 26px; padding: 0; font-weight: 700; line-height: 1;
+}
+#help-btn:hover { background: rgba(0,0,0,0.04); }
 
 /* Map modal */
 .modal {
@@ -54,6 +59,11 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
 }
 .modal-head button { border: 0; background: transparent; font-size: 16px; cursor: pointer; color: var(--muted); }
 #map { height: min(60vh, 520px); width: 100%; }
+.help-body { padding: 14px 18px; max-height: min(70vh, 560px); overflow: auto; font-size: 14px; line-height: 1.5; }
+.help-body h4 { margin: 14px 0 4px; font-size: 14px; }
+.help-body ul { margin: 0; padding-left: 18px; }
+.help-body li { margin: 4px 0; }
+.help-body p { margin: 0 0 8px; }
 
 /* Canvas */
 #stage { position: fixed; inset: 0; z-index: 1; }
@@ -77,11 +87,14 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
 /* Hover label + feedback */
 .tip {
   position: fixed; z-index: 30; pointer-events: none;
-  background: rgba(43,42,38,0.92); color: #f3efe6;
-  padding: 6px 10px; border-radius: 8px; font-size: 13px;
-  white-space: nowrap; opacity: 0; transition: opacity .12s; transform: translateX(-50%);
+  background: rgba(43,42,38,0.94); color: #f3efe6;
+  padding: 7px 11px; border-radius: 8px; font-size: 13px; max-width: 260px;
+  white-space: normal; opacity: 0; transition: opacity .12s; transform: translateX(-50%);
 }
 .tip .sci { font-style: italic; opacity: .7; font-size: 11px; }
+.tip .meta { font-size: 11px; opacity: .85; margin-top: 4px; }
+.tip .meta b { font-weight: 600; opacity: 1; }
+.tip .hint2 { font-size: 10.5px; opacity: .6; margin-top: 5px; }
 .tip.show { opacity: 1; }
 .fb {
   position: absolute; display: none; gap: 4px; z-index: 12;
