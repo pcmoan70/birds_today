@@ -417,6 +417,25 @@
     });
   }
 
+  // All controls live in one dropdown menu to keep the bar compact.
+  function setupMenu() {
+    var wrap = document.getElementById("menu-wrap");
+    var btn = document.getElementById("menu-btn");
+    var menu = document.getElementById("menu");
+    function close() { menu.hidden = true; btn.setAttribute("aria-expanded", "false"); }
+    btn.onclick = function (e) {
+      e.stopPropagation();
+      menu.hidden = !menu.hidden;
+      btn.setAttribute("aria-expanded", menu.hidden ? "false" : "true");
+    };
+    document.addEventListener("click", function (e) {
+      if (!wrap.contains(e.target)) close();
+    });
+    // Close after picking a view/image/location/about (language stays open).
+    menu.querySelectorAll("#mode button, #src button, #place, #help-btn")
+      .forEach(function (b) { b.addEventListener("click", close); });
+  }
+
   function debounce(fn, ms) {
     var t; return function () { clearTimeout(t); t = setTimeout(fn, ms); };
   }
@@ -498,6 +517,7 @@
       setupControls();
       setupMap();
       setupHelp();
+      setupMenu();
 
       S.week = birdNetWeek(new Date());
       var loc = await getLocation();

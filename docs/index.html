@@ -16,19 +16,36 @@
 <body>
   <div id="bar">
     <h1 id="title">Birds&nbsp;Today</h1>
-    <div class="seg" id="mode">
-      <button data-mode="A" class="on">Residents</button>
-      <button data-mode="B">Migration</button>
-    </div>
-    <div class="seg" id="src" title="Image source">
-      <button data-src="gould" class="on">Gould</button>
-      <button data-src="dresser">Dresser</button>
-      <button data-src="ai">AI</button>
-    </div>
     <span class="spacer"></span>
-    <button class="meta loc" id="place" title="Choose a location on the map">📍 —</button>
-    <select id="lang" title="Species name language"></select>
-    <button class="meta" id="help-btn" title="About this app" aria-label="About">?</button>
+    <div id="menu-wrap">
+      <button class="meta" id="menu-btn" aria-label="Menu" aria-expanded="false">☰ Menu</button>
+      <div id="menu" hidden>
+        <div class="menu-row">
+          <span class="menu-label">View</span>
+          <div class="seg" id="mode">
+            <button data-mode="A" class="on">Residents</button>
+            <button data-mode="B">Migration</button>
+          </div>
+        </div>
+        <div class="menu-row">
+          <span class="menu-label">Images</span>
+          <div class="seg" id="src">
+            <button data-src="gould" class="on">Gould</button>
+            <button data-src="dresser">Dresser</button>
+            <button data-src="ai">AI</button>
+          </div>
+        </div>
+        <div class="menu-row">
+          <span class="menu-label">Language</span>
+          <select id="lang" title="Species name language"></select>
+        </div>
+        <div class="menu-row">
+          <span class="menu-label">Location</span>
+          <button class="meta loc" id="place" title="Choose a location on the map">📍 —</button>
+        </div>
+        <button class="meta menu-item" id="help-btn">About this app</button>
+      </div>
+    </div>
   </div>
 
   <div id="stage"></div>
