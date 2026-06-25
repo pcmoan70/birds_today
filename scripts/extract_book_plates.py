@@ -436,8 +436,7 @@ def fill_species(prov):
     return prov
 
 
-def write_book_csv(book, rows, mode="a"):
-    path = book_csv(book)
+def _append_csv(path, rows, mode="a"):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     header = mode == "w" or not os.path.exists(path)
     with open(path, mode, newline="", encoding="utf-8") as f:
@@ -446,6 +445,20 @@ def write_book_csv(book, rows, mode="a"):
             wr.writeheader()
         for r in sorted(rows, key=lambda r: (r.get("identifier", ""), r.get("leaf", 0))):
             wr.writerow({k: r.get(k, "") for k in CSV_FIELDS})
+    return path
+
+
+def identified(r):
+    return bool(r.get("species_common") or r.get("species_sci"))
+
+
+def write_book_csv(book, rows, mode="a"):
+    """Append rows to the per-book index, and mirror any plate whose species
+    OCR came up empty into a per-book unidentified.csv to revisit later."""
+    path = _append_csv(book_csv(book), rows, mode)
+    misses = [r for r in rows if not identified(r)]
+    if misses or mode == "w":
+        _append_csv(os.path.join(OUT_DIR, book, "unidentified.csv"), misses, mode)
     return path
 
 
@@ -500,9 +513,9 @@ def ocr_backfill(book):
                 json.dump(prov, jf, ensure_ascii=False, indent=2)
             rows.append(prov)
     path = write_book_csv(book, rows, mode="w")
-    got = sum(1 for r in rows if r.get("species_sci") or r.get("species_common"))
-    print(f"  {book}: OCR-backfilled {len(rows)} plate(s), species on {got} "
-          f"-> {path}")
+    got = sum(1 for r in rows if identified(r))
+    print(f"  {book}: OCR-backfilled {len(rows)} plate(s), species on {got}, "
+          f"{len(rows) - got} unidentified -> {path} (+ unidentified.csv)")
 
 
 def main():
@@ -559,9 +572,10 @@ def main():
                           f"{r['colorfulness']:5.1f}  {'PLATE' if r['plate'] else ''}")
                 continue
             # plates were saved + logged to the per-book CSV live, in the workers
-            named = sum(1 for r in results if r.get("species_sci") or r.get("species_common"))
-            print(f"  {book}: {len(results)} new plate(s), species on {named} "
-                  f"-> {book_csv(book)}")
+            named = sum(1 for r in results if identified(r))
+            print(f"  {book}: {len(results)} new plate(s), species on {named}, "
+                  f"{len(results) - named} unidentified -> {book_csv(book)} "
+                  f"(misses in unidentified.csv)")
             total += len(results)
     if not args.scan:
         print(f"\nDone. {total} new plate(s) under {OUT_DIR}.")
