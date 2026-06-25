@@ -26,6 +26,7 @@ TAX = os.path.join(ROOT, "docs", "taxonomy.csv")
 SELECTED = os.path.join(HERE, "selected_species.txt")
 OUT_DIR = os.path.join(ROOT, "docs", "plates")
 ALIASES = os.path.join(HERE, "plate_aliases.json")
+MULTI = os.path.join(HERE, "plate_multi.json")
 
 
 # eBird common-name qualifiers; stripping them lets a plate's old short name
@@ -95,6 +96,21 @@ def load_aliases(allowed=None):
         if allowed is not None and r["code"] not in allowed:
             continue
         out[(r.get("sci", ""), r.get("common", ""))] = r["code"]
+    return out
+
+
+def load_multi(allowed=None):
+    """Plates that depict several species (e.g. "1. House Sparrow 2. Tree
+    Sparrow"): the whole plate is attributed to EACH species it shows, so
+    whichever one the model flags, the plate appears. Keyed by (normalised
+    caption_sci, cleaned caption_common) -> list of eBird codes."""
+    if not os.path.exists(MULTI):
+        return {}
+    out = {}
+    for r in json.load(open(MULTI, encoding="utf-8")):
+        codes = [c for c in r["codes"] if allowed is None or c in allowed]
+        if codes:
+            out[(r.get("sci", ""), r.get("common", ""))] = codes
     return out
 
 
@@ -201,19 +217,32 @@ def main():
                 if ln.strip()}
     sci2code, com2code, strip2code, compact2code = load_taxonomy(allowed=selected)
     aliases = load_aliases(allowed=selected)
+    multi = load_multi(allowed=selected)
     com_keys = list(com2code)
     sci_keys = [k for k in sci2code if " " in k]
 
-    # code -> {gould: [rows], dresser: [rows]}
+    # code -> {gould: [rows], dresser: [rows]}.  A multi-species plate is added
+    # to every species it depicts; each row is tagged "_nspecies" so emit can
+    # prefer a clean single-species plate when one exists.
     by_code = {}
     stats = {}
     for book in ("gould", "dresser"):
         rows = read_plates(book)
         hit = 0
         for r in rows:
+            mkey = (norm(r.get("species_sci")),
+                    _clean_common(norm(r.get("species_common"))))
+            codes = multi.get(mkey)
+            if codes:
+                r["_nspecies"] = len(codes)
+                for code in codes:
+                    by_code.setdefault(code, {}).setdefault(book, []).append(r)
+                hit += 1
+                continue
             code, how = match(r, sci2code, com2code, strip2code, compact2code,
                               sci_keys, com_keys, aliases)
             if code:
+                r["_nspecies"] = 1
                 hit += 1
                 by_code.setdefault(code, {}).setdefault(book, []).append(r)
         stats[book] = (len(rows), hit)
@@ -244,10 +273,12 @@ def main():
             rows = books.get(book)
             if not rows:
                 continue
-            # the plate with the highest colourfulness (most vivid/complete)
-            best = max(rows, key=lambda r: float(r.get("colorfulness") or 0))
+            # prefer a single-species plate; then the most vivid/complete one
+            best = min(rows, key=lambda r: (int(r.get("_nspecies", 1)),
+                                            -float(r.get("colorfulness") or 0)))
             if not (best.get("identifier") and str(best.get("leaf"))):
                 continue
+            nsp = int(best.get("_nspecies", 1))
             entry[book] = {
                 "img": f"plates/{book}/{code}.png",
                 "leaf": best["leaf"], "volume": best["volume"],
@@ -255,6 +286,8 @@ def main():
                 "sci": best.get("species_sci", ""),
                 "common": best.get("species_common", ""),
             }
+            if nsp > 1:
+                entry[book]["multi"] = True   # plate also shows other species
             tasks.append((code, book, best["identifier"], best["leaf"], args.max_edge))
         if entry:
             manifest[code] = entry

@@ -194,10 +194,18 @@
     var p = S.plates[code];
     if (p) {
       var order = S.src === "dresser" ? ["dresser", "gould"] : ["gould", "dresser"];
+      // Prefer a single-species plate (from either book, in source order); only
+      // fall back to a multi-species plate — which shows the whole plate, other
+      // species included — when no clean single one exists for this species.
+      var single = null, whole = null;
       for (var i = 0; i < order.length; i++) {
         var e = p[order[i]];
-        if (e) return { src: e.img, id: e.img, flip: true, face: e.face };
+        if (!e) continue;
+        if (e.multi) { whole = whole || e; }
+        else { single = e; break; }
       }
+      var pick = single || whole;
+      if (pick) return { src: pick.img, id: pick.img, flip: true, face: pick.face };
     }
     return ai();
   }

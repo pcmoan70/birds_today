@@ -1,0 +1,64 @@
+[
+{
+"sci": "salicaria melanopogon",
+"common": "lmoustached warbler aquatic warbler",
+"codes": [
+"mouwar1"
+]
+},
+{
+"sci": "regulus ignicapillus",
+"common": "fire crested wren golden crested wren",
+"codes": [
+"firecr1",
+"goldcr1"
+]
+},
+{
+"sci": "pyegita domestica",
+"common": "house sparrow tree sparrow",
+"codes": [
+"houspa",
+"eutspa"
+]
+},
+{
+"sci": "pyrgita hispaniolensis",
+"common": "spanish sparrow alpine sparrow",
+"codes": [
+"spaspa1",
+"whwsno1"
+]
+},
+{
+"sci": "",
+"common": "gray phalarope and red necked phalarope",
+"codes": [
+"redpha1",
+"renpha"
+]
+},
+{
+"sci": "",
+"common": "little stint american stint",
+"codes": [
+"litsti"
+]
+},
+{
+"sci": "",
+"common": "spotted redshank comnon redshank",
+"codes": [
+"spored",
+"comred1"
+]
+},
+{
+"sci": "",
+"common": "buffons skua richardsons skua",
+"codes": [
+"lotjae",
+"parjae"
+]
+}
+]
