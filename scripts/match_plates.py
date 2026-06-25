@@ -25,6 +25,7 @@ PLATES = os.path.join(ROOT, "book_plates")
 TAX = os.path.join(ROOT, "docs", "taxonomy.csv")
 SELECTED = os.path.join(HERE, "selected_species.txt")
 OUT_DIR = os.path.join(ROOT, "docs", "plates")
+ALIASES = os.path.join(HERE, "plate_aliases.json")
 
 
 # eBird common-name qualifiers; stripping them lets a plate's old short name
@@ -37,7 +38,13 @@ def norm(s):
     s = (s or "").lower().replace("œ", "oe").replace("æ", "ae")
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     s = re.sub(r"[^a-z ]", " ", s)
-    return re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\s+", " ", s).strip()
+    return re.sub(r"\bgrey\b", "gray", s)   # eBird spelling
+
+
+def _compact(s):
+    """Collapse word boundaries so 'Sparrow Hawk' == 'Sparrowhawk'."""
+    return s.replace(" ", "")
 
 
 def load_taxonomy(allowed=None):
@@ -46,6 +53,7 @@ def load_taxonomy(allowed=None):
     removes false positives from unrelated taxa (e.g. Red Wolf, Red Warbler)."""
     sci2code, com2code = {}, {}
     stripped = {}            # qualifier-stripped common -> set(codes)
+    compact = {}             # space-collapsed common -> set(codes)
     with open(TAX, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             code = r["species_code"]
@@ -58,13 +66,16 @@ def load_taxonomy(allowed=None):
                 sci2code.setdefault(g2, code)
             if com:
                 com2code.setdefault(com, code)
+                compact.setdefault(_compact(com), set()).add(code)
                 toks = com.split()
                 if len(toks) > 1 and toks[0] in _QUALIFIERS:
                     stripped.setdefault(" ".join(toks[1:]), set()).add(code)
-    # only keep qualifier-stripped keys that map to exactly one species
+                    compact.setdefault(_compact(" ".join(toks[1:])), set()).add(code)
+    # only keep stripped/compact keys that map to exactly one species
     strip2code = {k: next(iter(v)) for k, v in stripped.items()
                   if len(v) == 1 and k not in com2code}
-    return sci2code, com2code, strip2code
+    compact2code = {k: next(iter(v)) for k, v in compact.items() if len(v) == 1}
+    return sci2code, com2code, strip2code, compact2code
 
 
 def _clean_common(com):
@@ -72,10 +83,31 @@ def _clean_common(com):
     return " ".join(t for t in com.split() if len(t) >= 2)
 
 
-def match(plate, sci2code, com2code, strip2code, sci_keys, com_keys):
+def load_aliases(allowed=None):
+    """Hand/web-verified map of OCR'd plate captions -> eBird code, for old
+    scientific synonyms and archaic English names that fuzzy matching can't
+    resolve (built by scripts/match_plates research, see plate_aliases.json).
+    Keyed by (normalised caption_sci, cleaned caption_common)."""
+    if not os.path.exists(ALIASES):
+        return {}
+    out = {}
+    for r in json.load(open(ALIASES, encoding="utf-8")):
+        if allowed is not None and r["code"] not in allowed:
+            continue
+        out[(r.get("sci", ""), r.get("common", ""))] = r["code"]
+    return out
+
+
+def match(plate, sci2code, com2code, strip2code, compact2code, sci_keys,
+          com_keys, aliases=None):
     sci, com = norm(plate.get("species_sci")), norm(plate.get("species_common"))
     com = _clean_common(com)
     g2 = " ".join(sci.split()[:2]) if sci else ""
+    # Verified synonym/archaic-name overrides win outright.
+    if aliases:
+        a = aliases.get((sci, com))
+        if a:
+            return a, "alias"
     # Exact matches first (most reliable), then fuzzy. A confident exact common
     # name must beat a fuzzy Latin guess: "Phalaropus hyperboreus" shares an
     # epithet with "Larus hyperboreus" (Glaucous Gull), but the caption clearly
@@ -88,6 +120,8 @@ def match(plate, sci2code, com2code, strip2code, sci_keys, com_keys):
         return com2code[com], "common"
     if com and com in strip2code:
         return strip2code[com], "common-strip"
+    if com and _compact(com) in compact2code:   # 'Sparrow Hawk' -> 'sparrowhawk'
+        return compact2code[_compact(com)], "common-compact"
     # absorb OCR noise on the binomial (Faleo->Falco, Gypadtus->Gypaetus)
     if len(g2) >= 8:
         near = difflib.get_close_matches(g2, sci_keys, n=1, cutoff=0.86)
@@ -119,7 +153,8 @@ def main():
 
     selected = {ln.split("\t")[0].strip() for ln in open(SELECTED, encoding="utf-8")
                 if ln.strip()}
-    sci2code, com2code, strip2code = load_taxonomy(allowed=selected)
+    sci2code, com2code, strip2code, compact2code = load_taxonomy(allowed=selected)
+    aliases = load_aliases(allowed=selected)
     com_keys = list(com2code)
     sci_keys = [k for k in sci2code if " " in k]
 
@@ -130,7 +165,8 @@ def main():
         rows = read_plates(book)
         hit = 0
         for r in rows:
-            code, how = match(r, sci2code, com2code, strip2code, sci_keys, com_keys)
+            code, how = match(r, sci2code, com2code, strip2code, compact2code,
+                              sci_keys, com_keys, aliases)
             if code:
                 hit += 1
                 by_code.setdefault(code, {}).setdefault(book, []).append(r)
