@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Image Review — Birds Today</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" />
+  <link rel="stylesheet" href="review.css" />
+</head>
+<body>
+  <header id="bar">
+    <h1>AI Image Review</h1>
+    <span class="spacer"></span>
+    <span id="count" class="muted"></span>
+    <button id="export" title="Download your selections as choices.json">Export choices</button>
+    <a class="muted back" href="index.html">← Back to app</a>
+  </header>
+
+  <p id="intro" class="intro">
+    Each row is a flagged species. <strong>Current</strong> is the live image;
+    <strong>Photo</strong> is the reference it was generated from. The remaining
+    tiles are AI alternatives (v0 is the auto-pick). Click a tile to choose the
+    one you prefer, then <em>Export choices</em> and send me the file — I'll make
+    them live.
+  </p>
+
+  <div id="grid"></div>
+  <div id="empty" class="muted" hidden>No review data yet — regeneration is still running.</div>
+
+  <script src="review.js"></script>
+</body>
+</html>

@@ -37,3 +37,10 @@ book_plates/
 
 # Cached raw page-image downloads from Internet Archive (local; large)
 .ia_cache/
+
+# AI-regeneration QC working dirs (local only)
+scripts/qc_out/
+scripts/raw_badrefs/
+scripts/calib/
+scratch_montage/
+scripts/*.log

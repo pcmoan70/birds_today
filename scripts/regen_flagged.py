@@ -1,0 +1,316 @@
+"""Re-fetch better references and regenerate the QC-flagged species.
+
+For each flagged species (from qc_out/qc_refs.csv):
+  1. Pull several iNaturalist candidates, QC-score each (CLIP real-bird score,
+     sharpness, subject size) and keep the best — replacing the bad reference
+     (the old one is quarantined to raw_badrefs/).
+  2. Regenerate the affected pose(s) with the improved recipe:
+       - strength 0.65 (down from 0.85; keeps the real bird's shape/colour)
+       - family-anchored, muted-colour prompt (families.json) to stop the
+         English-name drift, e.g. "... a member of the family Phylloscopidae
+         (Leaf Warblers) ... natural muted plumage colours, true to the photo".
+
+Writes before/after copies to qc_out/ba/<code>_{before,after}.png for montaging.
+
+Usage:
+  python regen_flagged.py --limit 20            # first 20 flagged (object first)
+  python regen_flagged.py --codes wlwwar,comchi1,wiltit1
+  python regen_flagged.py --object-only
+"""
+import argparse
+import csv
+import json
+import os
+import shutil
+import subprocess
+import sys
+
+sys.stdout.reconfigure(encoding="utf-8")
+
+import numpy as np  # noqa: E402
+import torch  # noqa: E402
+from PIL import Image  # noqa: E402
+from scipy.ndimage import laplace  # noqa: E402
+
+import generate as G  # noqa: E402
+import cutout as cut  # noqa: E402
+import qc_references as QC  # noqa: E402 (reuse CLIP scorer)
+from rembg import new_session  # noqa: E402
+from species import load_species  # noqa: E402
+from sources import inat  # noqa: E402
+from sources.base import SESSION  # noqa: E402
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+RAW = os.path.join(HERE, "raw")
+BADREFS = os.path.join(HERE, "raw_badrefs")
+OUT = os.path.join(ROOT, "docs", "birds")
+QCDIR = os.path.join(HERE, "qc_out")
+BA = os.path.join(QCDIR, "ba")
+FAMILIES = os.path.join(HERE, "families.json")
+REVIEW_IMGS = os.path.join(ROOT, "docs", "review_imgs")   # variant images (on Pages)
+REVIEW_MAN = os.path.join(ROOT, "docs", "review", "manifest.json")
+PUSH_EVERY = 6
+
+
+def load_families():
+    return json.load(open(FAMILIES, encoding="utf-8")) if os.path.exists(FAMILIES) else {}
+
+
+def improved_prompt(common, sci, code, stance, fams):
+    fam = fams.get(code) or [None, None]
+    fam_clause = ""
+    if fam[0]:
+        en = f" ({fam[1]})" if fam[1] else ""
+        fam_clause = f", a member of the family {fam[0]}{en}"
+    return (G.STYLES["fieldguide"]["prompt"] + ". "
+            f"A {common} ({sci}){fam_clause}, {G.STANCES[stance]['desc']}. "
+            "Depict a typical wild adult in natural, accurate, muted plumage "
+            "colours, true to the reference photograph; avoid over-saturated or "
+            f"exaggerated colours. {G.ANATOMY}.")
+
+
+def sharp(im):
+    g = np.asarray(im.convert("L").resize((256, 256)), np.float32)
+    return float(laplace(g).var())
+
+
+POSE_GOOD = "a single whole bird perched, clear side profile view"
+POSE_BAD = [
+    "a bird flying with wings spread wide",
+    "a bird seen from behind, rear/back view",
+    "a close-up of just a bird's head",
+    "a blurry or distant tiny bird",
+    "two or more birds together",
+]
+
+
+def best_inat_ref(sci, common, code, sess):
+    """Pick the iNat candidate that is most clearly a real bird AND a clean
+    perched side-profile (so the generated bird inherits a good pose)."""
+    cands = inat.search(sci, common, "sitting", 16)
+    tmp, imgs = [], []
+    for c in cands:
+        try:
+            r = SESSION.get(c.url, timeout=30)
+            if r.status_code != 200 or not r.content:
+                continue
+            p = os.path.join(BADREFS, f"_cand_{code}_{len(tmp)}.jpg")
+            os.makedirs(BADREFS, exist_ok=True)
+            open(p, "wb").write(r.content)
+            tmp.append(p); imgs.append(Image.open(p).convert("RGB"))
+        except Exception:
+            continue
+    if not imgs:
+        return None
+    obj = QC.clip_probs(imgs, [QC.POS] + QC.NEG)[:, 0].tolist()
+    pose = QC.clip_probs(imgs, [POSE_GOOD] + POSE_BAD)[:, 0].tolist()
+    scored = []
+    for p, im, ob, po in zip(tmp, imgs, obj, pose):
+        try:
+            ci = cut.cut_pil(im, sess, 256)
+            sf = float((np.asarray(ci.convert("RGBA"))[..., 3] > 40).mean()) if ci else 0.0
+        except Exception:
+            sf = 0.0
+        # real-bird and good-pose dominate; sharpness/size are tie-breakers.
+        score = ob * 1.0 + po * 1.0 + min(sharp(im) / 1500, 0.4) + min(sf * 2, 0.4)
+        scored.append((score, ob, po, p))
+    scored.sort(reverse=True)
+    s = scored[0]
+    print(f"    ref: bird={s[1]:.2f} pose={s[2]:.2f}")
+    if s[1] < 0.5:
+        print(f"    {code}: best candidate weak (bird={s[1]:.2f})")
+    return s[3]
+
+
+def prep_init(ref_path, sess, size=1024):
+    """Isolate the bird and centre it on white so it fills the frame.
+
+    Feeding a tight, background-free bird to img2img makes the generated bird
+    large and central (so the final matte never culls it as too small) and
+    removes distracting backgrounds that pull colour/shape off. Falls back to a
+    centre square crop if the subject can't be isolated."""
+    im = Image.open(ref_path).convert("RGB")
+    try:
+        ci = cut.cut_pil(im, sess, 900)  # RGBA, cropped tight to the bird
+        if ci is not None:
+            side = int(max(ci.size) * 1.18)
+            sq = Image.new("RGBA", (side, side), (255, 255, 255, 255))
+            sq.paste(ci, ((side - ci.width) // 2, (side - ci.height) // 2), ci)
+            return sq.convert("RGB").resize((size, size), Image.LANCZOS)
+    except Exception:
+        pass
+    w, h = im.size
+    s = min(w, h)
+    im = im.crop(((w - s) // 2, (h - s) // 2, (w - s) // 2 + s, (h - s) // 2 + s))
+    return im.resize((size, size), Image.LANCZOS)
+
+
+VARIANTS = [(1000, 0.60), (1001, 0.68), (1002, 0.74)]
+
+
+def gen_best(pipe, sess, code, sp, pose, ref_path, fams):
+    """Generate several seed/strength variants and keep the best one (most
+    consistent with the reference, clearest perched bird)."""
+    prompt = improved_prompt(sp["common"], sp["sci"], code, pose, fams)
+    init = prep_init(ref_path, sess)
+    variants = []
+    for seed, strength in VARIANTS:
+        gen = torch.Generator("cpu").manual_seed(seed)
+        out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt, image=init,
+                   strength=strength, num_inference_steps=28, guidance_scale=3.5,
+                   generator=gen).images[0]
+        ci = cut.cut_pil(out, sess, 640)
+        if ci is not None:
+            variants.append((ci, seed, strength))
+    if not variants:
+        print(f"    {code} {pose}: all variants culled"); return None
+    outs = [v[0].convert("RGB") for v in variants]
+    feats = QC.clip_image_features([init] + outs)
+    ref = feats[0]
+    sims = [float((ref * feats[i + 1]).sum()) for i in range(len(outs))]
+    pose_p = QC.clip_probs(outs, [POSE_GOOD] + POSE_BAD)[:, 0].tolist()
+    bird_p = QC.clip_probs(outs, [QC.POS] + QC.NEG)[:, 0].tolist()
+    # Rank all variants best-first and save them for the review page so the user
+    # can pick a different one; v0 is the auto-chosen best.
+    order = sorted(range(len(outs)),
+                   key=lambda i: sims[i] + 0.5 * pose_p[i] + 0.5 * bird_p[i],
+                   reverse=True)
+    vdir = os.path.join(REVIEW_IMGS, code)
+    os.makedirs(vdir, exist_ok=True)
+    for f in os.listdir(vdir):
+        if f.startswith("v") and f.endswith(".png"):
+            os.remove(os.path.join(vdir, f))
+    vmeta = []
+    for rank, i in enumerate(order):
+        vid = f"v{rank}"
+        variants[i][0].save(os.path.join(vdir, f"{vid}.png"))
+        vmeta.append({"id": vid, "img": f"review_imgs/{code}/{vid}.png",
+                      "seed": variants[i][1], "strength": variants[i][2],
+                      "sim": round(sims[i], 3), "pose": round(pose_p[i], 3),
+                      "bird": round(bird_p[i], 3)})
+    best = variants[order[0]]
+    print(f"    chose v0 seed={best[1]} s={best[2]} (sim={sims[order[0]]:.2f} "
+          f"pose={pose_p[order[0]]:.2f} bird={bird_p[order[0]]:.2f}) of {len(variants)}")
+    dst = os.path.join(OUT, code)
+    os.makedirs(dst, exist_ok=True)
+    png = os.path.join(dst, f"{pose}_0.png")
+    best[0].save(png)
+    with open(png + ".json", "w", encoding="utf-8") as jf:
+        json.dump({"source": "generated", "model": "black-forest-labs/FLUX.1-dev",
+                   "style": "fieldguide", "prompt": prompt, "pose": pose,
+                   "reference": os.path.basename(ref_path), "strength": best[2],
+                   "seed": best[1], "recipe": "v3-pose-bestof"}, jf,
+                  ensure_ascii=False, indent=2)
+    return {"png": png, "chosen": "v0", "variants": vmeta}
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--codes")
+    ap.add_argument("--object-only", action="store_true")
+    args = ap.parse_args()
+
+    by_code = {s["code"]: s for s in load_species()}
+    fams = load_families()
+
+    if args.codes:
+        flagged = [{"code": c.strip(), "reason": "manual"} for c in args.codes.split(",")]
+    else:
+        rows = list(csv.DictReader(open(os.path.join(QCDIR, "qc_refs.csv"), encoding="utf-8")))
+        flagged = [r for r in rows if r["reason"] != "ok"]
+        if args.object_only:
+            flagged = [r for r in flagged if "object" in r["reason"]]
+        # object-fails first (broken refs), then quality
+        flagged.sort(key=lambda r: (0 if "object" in r["reason"] else 1))
+    if args.limit:
+        flagged = flagged[:args.limit]
+    print(f"{len(flagged)} species to regenerate")
+
+    os.makedirs(BA, exist_ok=True)
+    os.makedirs(os.path.dirname(REVIEW_MAN), exist_ok=True)
+    review = {"species": {}}
+    if os.path.exists(REVIEW_MAN):
+        review = json.load(open(REVIEW_MAN, encoding="utf-8"))
+        review.setdefault("species", {})
+
+    print("Loading FLUX pipeline...")
+    pipe = G.load_pipeline("black-forest-labs/FLUX.1-dev", None, fp8=True)
+    sess = new_session("birefnet-general")
+
+    done = 0
+    for i, r in enumerate(flagged, 1):
+        code = r["code"]
+        sp = by_code.get(code)
+        if not sp:
+            print(f"  {code}: unknown code, skip"); continue
+        print(f"\n[{i}/{len(flagged)}] {code}  {sp['common']}  ({r['reason']})")
+        vdir = os.path.join(REVIEW_IMGS, code); os.makedirs(vdir, exist_ok=True)
+        # snapshot the current live image as 'before' (for review + montage)
+        cur = os.path.join(OUT, code, "sitting_0.png")
+        before_rel = None
+        if os.path.exists(cur):
+            shutil.copy(cur, os.path.join(BA, f"{code}_before.png"))
+            shutil.copy(cur, os.path.join(vdir, "before.png"))
+            before_rel = f"review_imgs/{code}/before.png"
+        # re-fetch a better reference
+        newref = best_inat_ref(sp["sci"], sp["common"], code, sess)
+        if not newref:
+            print(f"  {code}: no usable iNat reference found, skip"); continue
+        # quarantine the old reference, install the new one as sitting_0
+        d = os.path.join(RAW, code); os.makedirs(d, exist_ok=True)
+        for f in sorted(os.listdir(d)):
+            if f.startswith("sitting_0.") and not f.endswith(".json"):
+                os.makedirs(os.path.join(BADREFS, code), exist_ok=True)
+                shutil.move(os.path.join(d, f), os.path.join(BADREFS, code, f))
+                j = os.path.join(d, f + ".json")
+                if os.path.exists(j):
+                    shutil.move(j, os.path.join(BADREFS, code, f + ".json"))
+        shutil.copy(newref, os.path.join(d, "sitting_0.jpg"))
+        # also keep the chosen reference visible in the review folder
+        shutil.copy(newref, os.path.join(vdir, "ref.jpg"))
+        res = gen_best(pipe, sess, code, sp, "sitting",
+                       os.path.join(d, "sitting_0.jpg"), fams)
+        if not res:
+            continue
+        shutil.copy(res["png"], os.path.join(BA, f"{code}_after.png"))
+        fam = fams.get(code) or [None, None]
+        review["species"][code] = {
+            "name": sp["common"], "sci": sp["sci"], "family": fam[1],
+            "reason": r.get("reason", ""), "before": before_rel,
+            "ref": f"review_imgs/{code}/ref.jpg", "chosen": res["chosen"],
+            "variants": res["variants"]}
+        json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=1)
+        done += 1
+        if done % PUSH_EVERY == 0:
+            push_batch(done)
+    push_batch(done, final=True)
+    print(f"\nDone. {done} species regenerated; review at docs/review/")
+
+
+def git(*a):
+    return subprocess.run(["git", "-C", ROOT, *a], capture_output=True, text=True)
+
+
+def push_batch(n, final=False):
+    """Rebuild the birds manifest and push the new images + review data."""
+    print(f"  -- pushing batch ({n} done){' [final]' if final else ''} --")
+    subprocess.run([sys.executable, os.path.join(HERE, "build_manifest.py")],
+                   capture_output=True)
+    git("add", "docs")
+    if git("diff", "--cached", "--quiet").returncode == 0:
+        print("  nothing to push"); return
+    msg = (f"Regenerate flagged AI birds (v3 recipe), {n} done\n\n"
+           "Pose-aware iNat references + family-anchored muted prompts + "
+           "best-of-N selection. Variants saved for review at docs/review/.\n\n"
+           "Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n"
+           "Claude-Session: https://claude.ai/code/session_01QE9YmeK2n7PbSUUJKRUAzz")
+    git("commit", "-m", msg)
+    p = git("push", "origin", "main")
+    print("  push:", "ok" if p.returncode == 0 else p.stderr[-200:])
+
+
+if __name__ == "__main__":
+    main()
