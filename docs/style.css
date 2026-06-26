@@ -119,9 +119,15 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
 .bird img { display: block; width: 100%; height: auto; pointer-events: none; }
 .bird:hover { filter: drop-shadow(0 10px 16px rgba(0,0,0,0.30)); z-index: 10; }
 .bird.downvoted img { filter: grayscale(1); opacity: .4; transition: filter .2s ease, opacity .2s ease; }
-/* AI-image colour toggle: render AI fallback images in black & white. */
-#stage.aibw .bird.ai img { filter: grayscale(1); }
-#stage.aibw .bird.ai.downvoted img { filter: grayscale(1); opacity: .4; }
+/* AI-image colour toggle: render AI fallback images in black & white — and
+   heavily muted (low contrast, soft, faintly warm) so they read as quiet
+   antique engravings against the paper rather than stark photos. */
+#stage.aibw .bird.ai img {
+  filter: grayscale(1) sepia(.22) contrast(.62) brightness(1.12) opacity(.7);
+}
+#stage.aibw .bird.ai.downvoted img {
+  filter: grayscale(1) sepia(.22) contrast(.62) brightness(1.12) opacity(.34);
+}
 
 /* Hover label + feedback */
 .tip {

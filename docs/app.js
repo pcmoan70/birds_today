@@ -495,7 +495,8 @@
     var v = BIRD.variants[BIRD.idx];
     var img = document.getElementById("bird-img");
     img.src = v.src; img.alt = nm.common;
-    img.style.filter = (v.ai && S.aiBW) ? "grayscale(1)" : "";
+    img.style.filter = (v.ai && S.aiBW)
+      ? "grayscale(1) sepia(.22) contrast(.62) brightness(1.12)" : "";
     img.style.cursor = BIRD.variants.length > 1 ? "pointer" : "default";
     document.getElementById("bird-name").textContent = nm.common;
     document.getElementById("bird-sci").textContent = nm.sci || "";
