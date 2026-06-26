@@ -6485,7 +6485,7 @@
     },
     "faces": {
       "comchi1/flying_0.png": "right",
-      "comchi1/sitting_0.png": "right"
+      "comchi1/sitting_0.png": "left"
     },
     "credits": {
       "comchi1/flying_0.png": {
@@ -7765,7 +7765,7 @@
     },
     "faces": {
       "comrav/flying_0.png": "right",
-      "comrav/sitting_0.png": "right"
+      "comrav/sitting_0.png": "left"
     },
     "credits": {
       "comrav/flying_0.png": {
@@ -17180,13 +17180,23 @@
     "stances": {
       "flying": [
         "grscuc1/flying_0.png"
+      ],
+      "sitting": [
+        "grscuc1/sitting_0.png"
       ]
     },
     "faces": {
-      "grscuc1/flying_0.png": "right"
+      "grscuc1/flying_0.png": "right",
+      "grscuc1/sitting_0.png": "left"
     },
     "credits": {
       "grscuc1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "grscuc1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -35866,7 +35876,7 @@
     },
     "faces": {
       "wiltit1/flying_0.png": "right",
-      "wiltit1/sitting_0.png": "right"
+      "wiltit1/sitting_0.png": "left"
     },
     "credits": {
       "wiltit1/flying_0.png": {
