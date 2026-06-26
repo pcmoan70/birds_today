@@ -8,6 +8,10 @@ scripts/.venv/
 # transparent cutouts under docs/birds/ are kept.
 scripts/raw/
 
+# Distribution-map reference images quarantined out of scripts/raw so img2img
+# never grounds a bird on a map (see generate.py ref_images); local only.
+scripts/raw_maps/
+
 # Archived art styles (style_switch.py) — local cache for swapping the live
 # style back and forth; kept off Pages/repo to avoid doubling image storage.
 scripts/styles/
