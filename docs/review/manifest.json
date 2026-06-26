@@ -4762,6 +4762,196 @@
      "bird": 0.236
     }
    ]
+  },
+  "comcra": {
+   "name": "Common Crane",
+   "sci": "Grus grus",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/comcra/before.png",
+   "ref": "review_imgs/comcra/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comcra/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.876,
+     "pose": 0.456,
+     "bird": 0.281
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comcra/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.847,
+     "pose": 0.27,
+     "bird": 0.303
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comcra/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.853,
+     "pose": 0.358,
+     "bird": 0.131
+    }
+   ]
+  },
+  "comcuc": {
+   "name": "Common Cuckoo",
+   "sci": "Cuculus canorus",
+   "family": "Cuckoos",
+   "reason": "all",
+   "before": "review_imgs/comcuc/before.png",
+   "ref": "review_imgs/comcuc/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comcuc/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.818,
+     "pose": 0.285,
+     "bird": 0.536
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comcuc/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.829,
+     "pose": 0.233,
+     "bird": 0.545
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comcuc/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.833,
+     "pose": 0.189,
+     "bird": 0.282
+    }
+   ]
+  },
+  "comeid": {
+   "name": "Common Eider",
+   "sci": "Somateria mollissima",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/comeid/before.png",
+   "ref": "review_imgs/comeid/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comeid/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.779,
+     "pose": 0.1,
+     "bird": 0.494
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comeid/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.816,
+     "pose": 0.095,
+     "bird": 0.207
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comeid/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.776,
+     "pose": 0.024,
+     "bird": 0.082
+    }
+   ]
+  },
+  "comgol": {
+   "name": "Common Goldeneye",
+   "sci": "Bucephala clangula",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/comgol/before.png",
+   "ref": "review_imgs/comgol/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comgol/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.691,
+     "pose": 0.054,
+     "bird": 0.982
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comgol/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.665,
+     "pose": 0.127,
+     "bird": 0.867
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comgol/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.604,
+     "pose": 0.081,
+     "bird": 0.886
+    }
+   ]
+  },
+  "comgre": {
+   "name": "Common Greenshank",
+   "sci": "Tringa nebularia",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/comgre/before.png",
+   "ref": "review_imgs/comgre/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comgre/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.801,
+     "pose": 0.051,
+     "bird": 0.668
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comgre/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.813,
+     "pose": 0.029,
+     "bird": 0.607
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comgre/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.818,
+     "pose": 0.086,
+     "bird": 0.443
+    }
+   ]
   }
  }
 }
