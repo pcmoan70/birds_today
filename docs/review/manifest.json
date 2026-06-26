@@ -4391,6 +4391,187 @@
      "bird": 0.287
     }
    ]
+  },
+  "cirbun1": {
+   "name": "Cirl Bunting",
+   "sci": "Emberiza cirlus",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/cirbun1/before.png",
+   "ref": "review_imgs/cirbun1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cirbun1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.794,
+     "pose": 0.478,
+     "bird": 0.746
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cirbun1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.756,
+     "pose": 0.098,
+     "bird": 0.787
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cirbun1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.833,
+     "pose": 0.236,
+     "bird": 0.425
+    }
+   ]
+  },
+  "citfin1": {
+   "name": "Citril Finch",
+   "sci": "Carduelis citrinella",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/citfin1/before.png",
+   "ref": "review_imgs/citfin1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/citfin1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.703,
+     "pose": 0.178,
+     "bird": 0.232
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/citfin1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.677,
+     "pose": 0.072,
+     "bird": 0.003
+    }
+   ]
+  },
+  "citwag": {
+   "name": "Citrine Wagtail",
+   "sci": "Motacilla citreola",
+   "family": "Wagtails and Pipits",
+   "reason": "all",
+   "before": "review_imgs/citwag/before.png",
+   "ref": "review_imgs/citwag/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/citwag/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.901,
+     "pose": 0.087,
+     "bird": 0.807
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/citwag/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.895,
+     "pose": 0.049,
+     "bird": 0.844
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/citwag/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.908,
+     "pose": 0.028,
+     "bird": 0.709
+    }
+   ]
+  },
+  "coatit2": {
+   "name": "Coal Tit",
+   "sci": "Periparus ater",
+   "family": "Tits, Chickadees, and Titmice",
+   "reason": "all",
+   "before": null,
+   "ref": "review_imgs/coatit2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/coatit2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.893,
+     "pose": 0.06,
+     "bird": 0.898
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/coatit2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.868,
+     "pose": 0.08,
+     "bird": 0.86
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/coatit2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.887,
+     "pose": 0.074,
+     "bird": 0.679
+    }
+   ]
+  },
+  "cogwar1": {
+   "name": "Common Grasshopper Warbler",
+   "sci": "Locustella naevia",
+   "family": "Grassbirds and Allies",
+   "reason": "all",
+   "before": "review_imgs/cogwar1/before.png",
+   "ref": "review_imgs/cogwar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cogwar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.82,
+     "pose": 0.105,
+     "bird": 0.802
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cogwar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.781,
+     "pose": 0.146,
+     "bird": 0.802
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cogwar1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.793,
+     "pose": 0.22,
+     "bird": 0.659
+    }
+   ]
   }
  }
 }
