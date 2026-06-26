@@ -8842,7 +8842,7 @@
     },
     "faces": {
       "corshe1/flying_0.png": "left",
-      "corshe1/sitting_0.png": "right"
+      "corshe1/sitting_0.png": "left"
     },
     "credits": {
       "corshe1/flying_0.png": {
@@ -8918,7 +8918,7 @@
     },
     "faces": {
       "cowpig1/flying_0.png": "right",
-      "cowpig1/sitting_0.png": "right"
+      "cowpig1/sitting_0.png": "left"
     },
     "credits": {
       "cowpig1/flying_0.png": {
