@@ -437,6 +437,234 @@
      "bird": 0.941
     }
    ]
+  },
+  "whbwoo1": {
+   "name": "White-backed Woodpecker",
+   "sci": "Dendrocopos leucotos",
+   "family": "Woodpeckers",
+   "reason": "object",
+   "before": "review_imgs/whbwoo1/before.png",
+   "ref": "review_imgs/whbwoo1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whbwoo1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.853,
+     "pose": 0.215,
+     "bird": 0.456
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whbwoo1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.843,
+     "pose": 0.132,
+     "bird": 0.5
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whbwoo1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.858,
+     "pose": 0.178,
+     "bird": 0.362
+    }
+   ]
+  },
+  "winwre4": {
+   "name": "Eurasian Wren",
+   "sci": "Troglodytes troglodytes",
+   "family": "Wrens",
+   "reason": "object",
+   "before": "review_imgs/winwre4/before.png",
+   "ref": "review_imgs/winwre4/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/winwre4/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.856,
+     "pose": 0.132,
+     "bird": 0.146
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/winwre4/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.85,
+     "pose": 0.125,
+     "bird": 0.05
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/winwre4/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.843,
+     "pose": 0.079,
+     "bird": 0.086
+    }
+   ]
+  },
+  "grapri1": {
+   "name": "Graceful Prinia",
+   "sci": "Prinia gracilis",
+   "family": "Cisticolas and Allies",
+   "reason": "object",
+   "before": "review_imgs/grapri1/before.png",
+   "ref": "review_imgs/grapri1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grapri1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.892,
+     "pose": 0.116,
+     "bird": 0.756
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grapri1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.877,
+     "pose": 0.124,
+     "bird": 0.481
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grapri1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.89,
+     "pose": 0.081,
+     "bird": 0.454
+    }
+   ]
+  },
+  "subwar8": {
+   "name": "Moltoni's Warbler",
+   "sci": "Curruca subalpina",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "object",
+   "before": "review_imgs/subwar8/before.png",
+   "ref": "review_imgs/subwar8/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/subwar8/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.745,
+     "pose": 0.763,
+     "bird": 0.927
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/subwar8/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.786,
+     "pose": 0.623,
+     "bird": 0.973
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/subwar8/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.699,
+     "pose": 0.464,
+     "bird": 0.976
+    }
+   ]
+  },
+  "norpin": {
+   "name": "Northern Pintail",
+   "sci": "Anas acuta",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "object",
+   "before": "review_imgs/norpin/before.png",
+   "ref": "review_imgs/norpin/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/norpin/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.884,
+     "pose": 0.154,
+     "bird": 0.785
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/norpin/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.82,
+     "pose": 0.081,
+     "bird": 0.504
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norpin/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.789,
+     "pose": 0.089,
+     "bird": 0.19
+    }
+   ]
+  },
+  "crwfin2": {
+   "name": "Crimson-winged Finch",
+   "sci": "Rhodopechys sanguineus",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "object",
+   "before": "review_imgs/crwfin2/before.png",
+   "ref": "review_imgs/crwfin2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/crwfin2/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.872,
+     "pose": 0.453,
+     "bird": 0.643
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/crwfin2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.894,
+     "pose": 0.221,
+     "bird": 0.705
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/crwfin2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.831,
+     "pose": 0.159,
+     "bird": 0.664
+    }
+   ]
   }
  }
 }
