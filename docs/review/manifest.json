@@ -4011,6 +4011,196 @@
      "bird": 0.139
     }
    ]
+  },
+  "cacgoo1": {
+   "name": "Cackling Goose",
+   "sci": "Branta hutchinsii",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/cacgoo1/before.png",
+   "ref": "review_imgs/cacgoo1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cacgoo1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.819,
+     "pose": 0.081,
+     "bird": 0.871
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cacgoo1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.809,
+     "pose": 0.123,
+     "bird": 0.506
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cacgoo1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.819,
+     "pose": 0.099,
+     "bird": 0.45
+    }
+   ]
+  },
+  "callar1": {
+   "name": "Calandra Lark",
+   "sci": "Melanocorypha calandra",
+   "family": "Larks",
+   "reason": "all",
+   "before": "review_imgs/callar1/before.png",
+   "ref": "review_imgs/callar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/callar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.87,
+     "pose": 0.177,
+     "bird": 0.34
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/callar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.84,
+     "pose": 0.174,
+     "bird": 0.216
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/callar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.831,
+     "pose": 0.134,
+     "bird": 0.167
+    }
+   ]
+  },
+  "cangoo": {
+   "name": "Canada Goose",
+   "sci": "Branta canadensis",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/cangoo/before.png",
+   "ref": "review_imgs/cangoo/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cangoo/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.905,
+     "pose": 0.18,
+     "bird": 0.894
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cangoo/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.87,
+     "pose": 0.147,
+     "bird": 0.859
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cangoo/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.877,
+     "pose": 0.215,
+     "bird": 0.756
+    }
+   ]
+  },
+  "casgul2": {
+   "name": "Caspian Gull",
+   "sci": "Larus cachinnans",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/casgul2/before.png",
+   "ref": "review_imgs/casgul2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/casgul2/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.89,
+     "pose": 0.52,
+     "bird": 0.903
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/casgul2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.901,
+     "pose": 0.516,
+     "bird": 0.838
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/casgul2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.889,
+     "pose": 0.334,
+     "bird": 0.66
+    }
+   ]
+  },
+  "caster1": {
+   "name": "Caspian Tern",
+   "sci": "Hydroprogne caspia",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/caster1/before.png",
+   "ref": "review_imgs/caster1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/caster1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.87,
+     "pose": 0.304,
+     "bird": 0.803
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/caster1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.878,
+     "pose": 0.213,
+     "bird": 0.873
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/caster1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.876,
+     "pose": 0.344,
+     "bird": 0.604
+    }
+   ]
   }
  }
 }
