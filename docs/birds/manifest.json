@@ -6271,13 +6271,23 @@
     "stances": {
       "flying": [
         "combuz1/flying_0.png"
+      ],
+      "sitting": [
+        "combuz1/sitting_0.png"
       ]
     },
     "faces": {
-      "combuz1/flying_0.png": "right"
+      "combuz1/flying_0.png": "right",
+      "combuz1/sitting_0.png": "left"
     },
     "credits": {
       "combuz1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "combuz1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -26342,7 +26352,7 @@
       ]
     },
     "faces": {
-      "rebfly/sitting_0.png": "right"
+      "rebfly/sitting_0.png": "left"
     },
     "credits": {
       "rebfly/sitting_0.png": {
@@ -27447,7 +27457,7 @@
     },
     "faces": {
       "rekcoo1/flying_0.png": "right",
-      "rekcoo1/sitting_0.png": "right"
+      "rekcoo1/sitting_0.png": "left"
     },
     "credits": {
       "rekcoo1/flying_0.png": {

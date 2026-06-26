@@ -1130,6 +1130,225 @@
      "bird": 0.795
     }
    ]
+  },
+  "combuz1": {
+   "name": "Common Buzzard",
+   "sci": "Buteo buteo",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "object",
+   "before": null,
+   "ref": "review_imgs/combuz1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/combuz1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.777,
+     "pose": 0.672,
+     "bird": 0.827
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/combuz1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.71,
+     "pose": 0.389,
+     "bird": 0.899
+    }
+   ]
+  },
+  "marsan": {
+   "name": "Marsh Sandpiper",
+   "sci": "Tringa stagnatilis",
+   "family": "Sandpipers and Allies",
+   "reason": "object",
+   "before": "review_imgs/marsan/before.png",
+   "ref": "review_imgs/marsan/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/marsan/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.887,
+     "pose": 0.403,
+     "bird": 0.86
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/marsan/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.899,
+     "pose": 0.303,
+     "bird": 0.748
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/marsan/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.879,
+     "pose": 0.204,
+     "bird": 0.44
+    }
+   ]
+  },
+  "rebfly": {
+   "name": "Red-breasted Flycatcher",
+   "sci": "Ficedula parva",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "object",
+   "before": "review_imgs/rebfly/before.png",
+   "ref": "review_imgs/rebfly/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rebfly/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.897,
+     "pose": 0.267,
+     "bird": 0.669
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rebfly/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.888,
+     "pose": 0.186,
+     "bird": 0.536
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rebfly/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.908,
+     "pose": 0.117,
+     "bird": 0.516
+    }
+   ]
+  },
+  "rekcoo1": {
+   "name": "Red-knobbed Coot",
+   "sci": "Fulica cristata",
+   "family": "Rails, Gallinules, and Coots",
+   "reason": "object",
+   "before": "review_imgs/rekcoo1/before.png",
+   "ref": "review_imgs/rekcoo1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rekcoo1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.62,
+     "pose": 0.026,
+     "bird": 0.87
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rekcoo1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.615,
+     "pose": 0.057,
+     "bird": 0.631
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rekcoo1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.646,
+     "pose": 0.058,
+     "bird": 0.497
+    }
+   ]
+  },
+  "spwlap1": {
+   "name": "Spur-winged Lapwing",
+   "sci": "Vanellus spinosus",
+   "family": "Plovers and Lapwings",
+   "reason": "object",
+   "before": "review_imgs/spwlap1/before.png",
+   "ref": "review_imgs/spwlap1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/spwlap1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.936,
+     "pose": 0.301,
+     "bird": 0.85
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/spwlap1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.889,
+     "pose": 0.211,
+     "bird": 0.752
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/spwlap1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.901,
+     "pose": 0.19,
+     "bird": 0.545
+    }
+   ]
+  },
+  "gresku1": {
+   "name": "Great Skua",
+   "sci": "Stercorarius skua",
+   "family": "Skuas and Jaegers",
+   "reason": "object",
+   "before": "review_imgs/gresku1/before.png",
+   "ref": "review_imgs/gresku1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gresku1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.841,
+     "pose": 0.292,
+     "bird": 0.433
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gresku1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.857,
+     "pose": 0.215,
+     "bird": 0.181
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gresku1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.845,
+     "pose": 0.135,
+     "bird": 0.256
+    }
+   ]
   }
  }
 }
