@@ -59,7 +59,10 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
 #menu .loc, #menu .menu-item {
   cursor: pointer; border: 1px solid #cfc8b6; border-radius: 8px; padding: 6px 10px;
 }
-#menu .menu-item { width: 100%; text-align: left; }
+#menu .menu-item {
+  width: 100%; text-align: left; display: block; box-sizing: border-box;
+  text-decoration: none; color: var(--ink); font: inherit; font-size: 13px;
+}
 #menu .loc:hover, #menu .menu-item:hover { background: rgba(0,0,0,0.04); }
 
 /* Map modal */
