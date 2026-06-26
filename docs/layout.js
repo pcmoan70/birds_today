@@ -13,7 +13,15 @@
  */
 window.BirdLayout = (function () {
   var TOP = 72;            // clear the fixed header
-  var GAP = 8;             // min horizontal/vertical gap between birds
+  var GAP = 8;             // min horizontal gap between birds
+
+  // How aggressively size tracks probability. Size = maxPx * (value/maxV)^POW;
+  // POW > 1 makes probable birds clearly bigger and improbable ones much
+  // smaller (POW = 1 is linear, POW = 0.5 was the old square-root that flattened
+  // the range). Birds whose size falls below MIN_SHOW are too improbable to be
+  // worth showing and are dropped entirely.
+  var POW = 1.45;
+  var MIN_SHOW = 36;       // px; smaller than this -> hidden
 
   // Deterministic PRNG so the same items + width always pack identically —
   // re-renders (e.g. a mobile address-bar resize) must not shuffle the birds.
@@ -31,30 +39,38 @@ window.BirdLayout = (function () {
     var sorted = items.slice().sort(function (a, b) { return b.value - a.value; });
     var rand = rng(0x9E3779B1 ^ items.length);
     var maxV = sorted.length ? Math.max(sorted[0].value, 1e-6) : 1e-6;
-    var minPx = Math.max(58, W * 0.07);
-    var maxPx = Math.min(190, Math.max(100, W * 0.15));
+    var maxPx = Math.min(230, Math.max(120, W * 0.18));
+
+    // Probability -> size, strongly. sorted is descending, so once a bird is
+    // below MIN_SHOW every following one is too: stop there (hides the tail).
+    var sized = [];
+    for (var t = 0; t < sorted.length; t++) {
+      var s = maxPx * Math.pow(sorted[t].value / maxV, POW);
+      if (s < MIN_SHOW) break;
+      sized.push({ it: sorted[t], s: Math.min(s, W * 0.92) });
+    }
 
     var placed = [];
     var y = TOP;
     var i = 0;
-    while (i < sorted.length) {
+    while (i < sized.length) {
       // Greedily fill a row (in probability order) until it would overflow W.
       var row = [], wsum = 0;
-      while (i < sorted.length) {
-        var s = minPx + (maxPx - minPx) * Math.sqrt(sorted[i].value / maxV);
-        s = Math.min(s, W * 0.92);
-        if (row.length && wsum + GAP + s > W) break;
-        wsum += (row.length ? GAP : 0) + s;
-        row.push({ it: sorted[i], s: s });
+      while (i < sized.length) {
+        var sz = sized[i].s;
+        if (row.length && wsum + GAP + sz > W) break;
+        wsum += (row.length ? GAP : 0) + sz;
+        row.push(sized[i]);
         i++;
       }
       var rowH = row.reduce(function (m, r) { return Math.max(m, r.s); }, 0);
 
-      // Spread the leftover width as random gaps before/between/after the birds,
-      // and shuffle their left-to-right order so the row isn't a value ramp.
+      // Scatter the birds: spread the leftover width as widely-varying random
+      // gaps, shuffle their left-to-right order, and jitter each vertically so
+      // the rows read as a random drift rather than a grid.
       var slots = row.length + 1;
       var weights = [], wtot = 0;
-      for (var g = 0; g < slots; g++) { var r0 = 0.3 + rand(); weights.push(r0); wtot += r0; }
+      for (var g = 0; g < slots; g++) { var r0 = 0.1 + 1.9 * rand(); weights.push(r0); wtot += r0; }
       var extra = Math.max(0, W - wsum);
       var order = row.slice();
       for (var k = order.length - 1; k > 0; k--) {
@@ -64,7 +80,7 @@ window.BirdLayout = (function () {
       var x = extra * weights[0] / wtot;
       order.forEach(function (r, idx) {
         var cx = x + r.s / 2;
-        var jit = (rand() - 0.5) * Math.min(0.5 * (rowH - r.s) + 12, 22);
+        var jit = (rand() - 0.5) * Math.min(0.7 * (rowH - r.s) + 22, 32);
         var cy = y + rowH / 2 + jit;
         placed.push(Object.assign({}, r.it, { x: cx, y: cy, size: r.s }));
         x += r.s + extra * weights[idx + 1] / wtot;
