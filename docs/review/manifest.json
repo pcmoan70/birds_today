@@ -1349,6 +1349,216 @@
      "bird": 0.256
     }
    ]
+  },
+  "bripet": {
+   "name": "European Storm-Petrel",
+   "sci": "Hydrobates pelagicus",
+   "family": "Northern Storm-Petrels",
+   "reason": "object",
+   "before": "review_imgs/bripet/before.png",
+   "ref": "review_imgs/bripet/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bripet/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.913,
+     "pose": 0.023,
+     "bird": 0.48
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bripet/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.912,
+     "pose": 0.03,
+     "bird": 0.442
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bripet/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.915,
+     "pose": 0.038,
+     "bird": 0.181
+    }
+   ]
+  },
+  "norgos1": {
+   "name": "Eurasian Goshawk",
+   "sci": "Astur gentilis",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "quality",
+   "before": null,
+   "ref": "review_imgs/norgos1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/norgos1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.902,
+     "pose": 0.022,
+     "bird": 0.609
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/norgos1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.911,
+     "pose": 0.033,
+     "bird": 0.567
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norgos1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.906,
+     "pose": 0.059,
+     "bird": 0.425
+    }
+   ]
+  },
+  "eurnig1": {
+   "name": "Eurasian Nightjar",
+   "sci": "Caprimulgus europaeus",
+   "family": "Nightjars and Allies",
+   "reason": "quality",
+   "before": "review_imgs/eurnig1/before.png",
+   "ref": "review_imgs/eurnig1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurnig1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.834,
+     "pose": 0.238,
+     "bird": 0.627
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurnig1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.83,
+     "pose": 0.06,
+     "bird": 0.137
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurnig1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.799,
+     "pose": 0.02,
+     "bird": 0.047
+    }
+   ]
+  },
+  "levspa1": {
+   "name": "Levant Sparrowhawk",
+   "sci": "Tachyspiza brevipes",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "quality",
+   "before": null,
+   "ref": "review_imgs/levspa1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/levspa1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.788,
+     "pose": 0.861,
+     "bird": 0.795
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/levspa1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.759,
+     "pose": 0.743,
+     "bird": 0.618
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/levspa1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.74,
+     "pose": 0.584,
+     "bird": 0.469
+    }
+   ]
+  },
+  "commyn": {
+   "name": "Common Myna",
+   "sci": "Acridotheres tristis",
+   "family": "Starlings",
+   "reason": "quality",
+   "before": "review_imgs/commyn/before.png",
+   "ref": "review_imgs/commyn/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/commyn/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.687,
+     "pose": 0.01,
+     "bird": 0.58
+    }
+   ]
+  },
+  "ivogul": {
+   "name": "Ivory Gull",
+   "sci": "Pagophila eburnea",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "quality",
+   "before": null,
+   "ref": "review_imgs/ivogul/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ivogul/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.893,
+     "pose": 0.259,
+     "bird": 0.646
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ivogul/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.889,
+     "pose": 0.217,
+     "bird": 0.506
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ivogul/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.883,
+     "pose": 0.07,
+     "bird": 0.294
+    }
+   ]
   }
  }
 }

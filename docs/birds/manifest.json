@@ -4524,7 +4524,7 @@
     },
     "faces": {
       "bripet/flying_0.png": "left",
-      "bripet/sitting_0.png": "left"
+      "bripet/sitting_0.png": "right"
     },
     "credits": {
       "bripet/flying_0.png": {
@@ -19209,13 +19209,23 @@
     "stances": {
       "flying": [
         "ivogul/flying_0.png"
+      ],
+      "sitting": [
+        "ivogul/sitting_0.png"
       ]
     },
     "faces": {
-      "ivogul/flying_0.png": "left"
+      "ivogul/flying_0.png": "left",
+      "ivogul/sitting_0.png": "right"
     },
     "credits": {
       "ivogul/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "ivogul/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -20353,6 +20363,71 @@
     },
     "credits": {
       "lesyel/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "levspa1": {
+    "sci": "Tachyspiza brevipes",
+    "common": "Levant Sparrowhawk",
+    "names": {
+      "en": "Levant Sparrowhawk",
+      "de": "Kurzfangsperber",
+      "es": "Gavilán Griego",
+      "pl": "krogulec krótkonogi",
+      "fr": "Épervier à pieds courts",
+      "nl": "Balkansperwer",
+      "ru": "Европейский тювик",
+      "ja": "レバントハイタカ",
+      "cs": "krahujec krátkoprstý",
+      "ca": "esparver grec",
+      "pt": "gavião-do-levante",
+      "no": "balkanhauk",
+      "bg": "Късопръст ястреб",
+      "sv": "balkanhök",
+      "da": "Balkanhøg",
+      "tr": "Yaz Atmacası",
+      "sk": "jastrab krátkoprstý",
+      "sr": "Kratkoprsti kobac",
+      "uk": "Яструб коротконогий",
+      "zh-CN": "东方雀鹰",
+      "fi": "sirovarpushaukka",
+      "es_ES": "Gavilán griego",
+      "es_MX": "Gavilán Griego",
+      "es_EC": "Gavilán Griego",
+      "pt_PT": "Gavião-do-levante",
+      "hr": "kratkoprsti kobac",
+      "lt": "Trumpapirštis vanagas",
+      "fa": "پیغوی بزرگ",
+      "cy": "Levant Sparrowhawk",
+      "et": "stepi-raudkull",
+      "it": "Sparviere levantino",
+      "zh-TW": "東方雀鷹",
+      "eo": "kurtkrura akcipitro",
+      "hu": "kis héja",
+      "ro": "Uliu cu picioare scurte",
+      "sl": "kratkonogi skobec",
+      "lv": "īskāju vanags",
+      "is": "Stúfhaukur",
+      "el": "(Κοινό) Σαΐνι",
+      "mk": "краткопрст јастреб",
+      "se": "Balkándihtti",
+      "he": "נץ קצר-אצבעות",
+      "ar": "باشق مشرقي"
+    },
+    "stances": {
+      "sitting": [
+        "levspa1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "levspa1/sitting_0.png": "right"
+    },
+    "credits": {
+      "levspa1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -23898,6 +23973,74 @@
         "page_url": ""
       },
       "norgan/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "norgos1": {
+    "sci": "Astur gentilis",
+    "common": "Eurasian Goshawk",
+    "names": {
+      "en": "Eurasian Goshawk",
+      "de": "Habicht",
+      "es": "Azor Euroasiático",
+      "pl": "jastrząb",
+      "fr": "Autour des palombes",
+      "nl": "Havik",
+      "ru": "Тетеревятник",
+      "ja": "オオタカ",
+      "cs": "jestřáb lesní",
+      "ca": "astor comú",
+      "pt": "açor",
+      "no": "hønsehauk",
+      "bg": "Голям ястреб",
+      "sv": "duvhök",
+      "da": "Duehøg",
+      "tr": "Çakır",
+      "sk": "jastrab veľký",
+      "sr": "Jastreb",
+      "uk": "Яструб великий",
+      "zh-CN": "苍鹰",
+      "fi": "kanahaukka",
+      "es_ES": "Azor euroasiático",
+      "es_MX": "Gavilán Azor Euroasiático",
+      "es_EC": "Azor Euroasiático",
+      "pt_PT": "Açor",
+      "hr": "jastreb",
+      "lt": "Vištvanagis",
+      "fa": "طرلان (شهباز)‌ اوراسیایی",
+      "cy": "Eurasian Goshawk",
+      "et": "kanakull",
+      "it": "Astore",
+      "zh-TW": "蒼鷹",
+      "eo": "ordinara akcipitro",
+      "hu": "héja",
+      "ro": "Uliu porumbar",
+      "sl": "kragulj",
+      "lv": "vistu vanags",
+      "is": "Gáshaukur",
+      "el": "Διπλοσάινο",
+      "mk": "јастреб кокошкар",
+      "be": "Шуляк-галубятнiк",
+      "se": "Vuoncáfálli",
+      "ko": "참매",
+      "he": "נץ גדול",
+      "ar": "باز",
+      "th": "เหยี่ยวนกเขาท้องขาว"
+    },
+    "stances": {
+      "sitting": [
+        "norgos1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "norgos1/sitting_0.png": "right"
+    },
+    "credits": {
+      "norgos1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
