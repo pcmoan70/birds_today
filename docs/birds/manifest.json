@@ -4322,7 +4322,7 @@
     },
     "faces": {
       "brambl/flying_0.png": "right",
-      "brambl/sitting_0.png": "right"
+      "brambl/sitting_0.png": "left"
     },
     "credits": {
       "brambl/flying_0.png": {
@@ -4397,7 +4397,7 @@
     },
     "faces": {
       "brant/flying_0.png": "left",
-      "brant/sitting_0.png": "right"
+      "brant/sitting_0.png": "left"
     },
     "credits": {
       "brant/flying_0.png": {
