@@ -5335,7 +5335,7 @@
     },
     "faces": {
       "categr1/flying_0.png": "right",
-      "categr1/sitting_0.png": "right"
+      "categr1/sitting_0.png": "left"
     },
     "credits": {
       "categr1/flying_0.png": {
@@ -5406,7 +5406,7 @@
       ]
     },
     "faces": {
-      "cetwar1/sitting_0.png": "right"
+      "cetwar1/sitting_0.png": "left"
     },
     "credits": {
       "cetwar1/sitting_0.png": {
@@ -5471,7 +5471,7 @@
     },
     "faces": {
       "chifla1/flying_0.png": "right",
-      "chifla1/sitting_0.png": "right"
+      "chifla1/sitting_0.png": "left"
     },
     "credits": {
       "chifla1/flying_0.png": {
@@ -5539,7 +5539,7 @@
     },
     "faces": {
       "chiwig1/flying_0.png": "right",
-      "chiwig1/sitting_0.png": "right"
+      "chiwig1/sitting_0.png": "left"
     },
     "credits": {
       "chiwig1/flying_0.png": {

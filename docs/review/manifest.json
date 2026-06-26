@@ -4201,6 +4201,196 @@
      "bird": 0.604
     }
    ]
+  },
+  "categr1": {
+   "name": "Western Cattle-Egret",
+   "sci": "Ardea ibis",
+   "family": "Herons, Egrets, and Bitterns",
+   "reason": "all",
+   "before": "review_imgs/categr1/before.png",
+   "ref": "review_imgs/categr1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/categr1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.845,
+     "pose": 0.236,
+     "bird": 0.777
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/categr1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.848,
+     "pose": 0.212,
+     "bird": 0.652
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/categr1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.838,
+     "pose": 0.128,
+     "bird": 0.748
+    }
+   ]
+  },
+  "cetwar1": {
+   "name": "Cetti's Warbler",
+   "sci": "Cettia cetti",
+   "family": "Bush Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/cetwar1/before.png",
+   "ref": "review_imgs/cetwar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cetwar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.888,
+     "pose": 0.283,
+     "bird": 0.783
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cetwar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.847,
+     "pose": 0.347,
+     "bird": 0.371
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cetwar1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.874,
+     "pose": 0.196,
+     "bird": 0.459
+    }
+   ]
+  },
+  "chifla1": {
+   "name": "Chilean Flamingo",
+   "sci": "Phoenicopterus chilensis",
+   "family": "Flamingos",
+   "reason": "all",
+   "before": "review_imgs/chifla1/before.png",
+   "ref": "review_imgs/chifla1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/chifla1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.91,
+     "pose": 0.038,
+     "bird": 0.956
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/chifla1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.918,
+     "pose": 0.07,
+     "bird": 0.847
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/chifla1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.853,
+     "pose": 0.036,
+     "bird": 0.828
+    }
+   ]
+  },
+  "chiwig1": {
+   "name": "Chiloe Wigeon",
+   "sci": "Mareca sibilatrix",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/chiwig1/before.png",
+   "ref": "review_imgs/chiwig1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/chiwig1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.794,
+     "pose": 0.073,
+     "bird": 0.77
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/chiwig1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.813,
+     "pose": 0.107,
+     "bird": 0.645
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/chiwig1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.781,
+     "pose": 0.149,
+     "bird": 0.575
+    }
+   ]
+  },
+  "cinvul1": {
+   "name": "Cinereous Vulture",
+   "sci": "Aegypius monachus",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/cinvul1/before.png",
+   "ref": "review_imgs/cinvul1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cinvul1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.863,
+     "pose": 0.275,
+     "bird": 0.577
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cinvul1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.891,
+     "pose": 0.306,
+     "bird": 0.289
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cinvul1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.884,
+     "pose": 0.256,
+     "bird": 0.287
+    }
+   ]
   }
  }
 }
