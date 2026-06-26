@@ -2357,6 +2357,196 @@
      "bird": 0.097
     }
    ]
+  },
+  "batgod": {
+   "name": "Bar-tailed Godwit",
+   "sci": "Limosa lapponica",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/batgod/before.png",
+   "ref": "review_imgs/batgod/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/batgod/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.853,
+     "pose": 0.371,
+     "bird": 0.889
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/batgod/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.873,
+     "pose": 0.225,
+     "bird": 0.697
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/batgod/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.816,
+     "pose": 0.134,
+     "bird": 0.814
+    }
+   ]
+  },
+  "bbspet1": {
+   "name": "Black-bellied Storm-Petrel",
+   "sci": "Fregetta tropica",
+   "family": "Southern Storm-Petrels",
+   "reason": "all",
+   "before": "review_imgs/bbspet1/before.png",
+   "ref": "review_imgs/bbspet1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bbspet1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.893,
+     "pose": 0.004,
+     "bird": 0.511
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bbspet1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.928,
+     "pose": 0.006,
+     "bird": 0.293
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bbspet1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.896,
+     "pose": 0.019,
+     "bird": 0.232
+    }
+   ]
+  },
+  "bcbeat1": {
+   "name": "Blue-cheeked Bee-eater",
+   "sci": "Merops persicus",
+   "family": "Bee-eaters",
+   "reason": "all",
+   "before": "review_imgs/bcbeat1/before.png",
+   "ref": "review_imgs/bcbeat1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bcbeat1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.858,
+     "pose": 0.244,
+     "bird": 0.696
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bcbeat1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.85,
+     "pose": 0.169,
+     "bird": 0.647
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bcbeat1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.871,
+     "pose": 0.098,
+     "bird": 0.126
+    }
+   ]
+  },
+  "bcnher": {
+   "name": "Black-crowned Night Heron",
+   "sci": "Nycticorax nycticorax",
+   "family": "Herons, Egrets, and Bitterns",
+   "reason": "all",
+   "before": "review_imgs/bcnher/before.png",
+   "ref": "review_imgs/bcnher/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bcnher/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.903,
+     "pose": 0.535,
+     "bird": 0.639
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bcnher/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.881,
+     "pose": 0.518,
+     "bird": 0.472
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bcnher/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.901,
+     "pose": 0.351,
+     "bird": 0.381
+    }
+   ]
+  },
+  "bearee1": {
+   "name": "Bearded Reedling",
+   "sci": "Panurus biarmicus",
+   "family": "Reedlings",
+   "reason": "all",
+   "before": "review_imgs/bearee1/before.png",
+   "ref": "review_imgs/bearee1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bearee1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.863,
+     "pose": 0.409,
+     "bird": 0.698
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bearee1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.895,
+     "pose": 0.206,
+     "bird": 0.82
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bearee1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.887,
+     "pose": 0.28,
+     "bird": 0.536
+    }
+   ]
   }
  }
 }
