@@ -5495,6 +5495,196 @@
      "bird": 0.257
     }
    ]
+  },
+  "comswi": {
+   "name": "Common Swift",
+   "sci": "Apus apus",
+   "family": "Swifts",
+   "reason": "all",
+   "before": "review_imgs/comswi/before.png",
+   "ref": "review_imgs/comswi/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comswi/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.842,
+     "pose": 0.106,
+     "bird": 0.418
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comswi/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.833,
+     "pose": 0.11,
+     "bird": 0.217
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comswi/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.795,
+     "pose": 0.054,
+     "bird": 0.045
+    }
+   ]
+  },
+  "comter": {
+   "name": "Common Tern",
+   "sci": "Sterna hirundo",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/comter/before.png",
+   "ref": "review_imgs/comter/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comter/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.178,
+     "bird": 0.821
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comter/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.889,
+     "pose": 0.185,
+     "bird": 0.609
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comter/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.872,
+     "pose": 0.141,
+     "bird": 0.612
+    }
+   ]
+  },
+  "comwax": {
+   "name": "Common Waxbill",
+   "sci": "Estrilda astrild",
+   "family": "Waxbills and Allies",
+   "reason": "all",
+   "before": "review_imgs/comwax/before.png",
+   "ref": "review_imgs/comwax/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comwax/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.868,
+     "pose": 0.263,
+     "bird": 0.797
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comwax/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.903,
+     "pose": 0.13,
+     "bird": 0.535
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comwax/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.866,
+     "pose": 0.152,
+     "bird": 0.519
+    }
+   ]
+  },
+  "corbun1": {
+   "name": "Corn Bunting",
+   "sci": "Emberiza calandra",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/corbun1/before.png",
+   "ref": "review_imgs/corbun1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/corbun1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.865,
+     "pose": 0.223,
+     "bird": 0.37
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/corbun1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.904,
+     "pose": 0.131,
+     "bird": 0.342
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/corbun1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.884,
+     "pose": 0.044,
+     "bird": 0.223
+    }
+   ]
+  },
+  "corcra": {
+   "name": "Corn Crake",
+   "sci": "Crex crex",
+   "family": "Rails, Gallinules, and Coots",
+   "reason": "all",
+   "before": "review_imgs/corcra/before.png",
+   "ref": "review_imgs/corcra/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/corcra/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.908,
+     "pose": 0.769,
+     "bird": 0.848
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/corcra/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.895,
+     "pose": 0.597,
+     "bird": 0.963
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/corcra/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.899,
+     "pose": 0.576,
+     "bird": 0.805
+    }
+   ]
   }
  }
 }
