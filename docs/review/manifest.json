@@ -461,27 +461,27 @@
      "img": "review_imgs/whbwoo1/v0.png",
      "seed": 1001,
      "strength": 0.68,
-     "sim": 0.853,
-     "pose": 0.215,
-     "bird": 0.456
+     "sim": 0.878,
+     "pose": 0.192,
+     "bird": 0.422
     },
     {
      "id": "v1",
      "img": "review_imgs/whbwoo1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.843,
-     "pose": 0.132,
-     "bird": 0.5
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.851,
+     "pose": 0.336,
+     "bird": 0.234
     },
     {
      "id": "v2",
      "img": "review_imgs/whbwoo1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.858,
-     "pose": 0.178,
-     "bird": 0.362
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.862,
+     "pose": 0.142,
+     "bird": 0.103
     }
    ]
   },
@@ -497,29 +497,29 @@
     {
      "id": "v0",
      "img": "review_imgs/winwre4/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.856,
-     "pose": 0.132,
-     "bird": 0.146
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.798,
+     "pose": 0.13,
+     "bird": 0.831
     },
     {
      "id": "v1",
      "img": "review_imgs/winwre4/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.85,
-     "pose": 0.125,
-     "bird": 0.05
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.823,
+     "pose": 0.021,
+     "bird": 0.418
     },
     {
      "id": "v2",
      "img": "review_imgs/winwre4/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.843,
-     "pose": 0.079,
-     "bird": 0.086
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.829,
+     "pose": 0.056,
+     "bird": 0.333
     }
    ]
   },
@@ -535,29 +535,29 @@
     {
      "id": "v0",
      "img": "review_imgs/grapri1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.892,
-     "pose": 0.116,
-     "bird": 0.756
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.816,
+     "pose": 0.28,
+     "bird": 0.398
     },
     {
      "id": "v1",
      "img": "review_imgs/grapri1/v1.png",
      "seed": 1002,
      "strength": 0.74,
-     "sim": 0.877,
-     "pose": 0.124,
-     "bird": 0.481
+     "sim": 0.808,
+     "pose": 0.235,
+     "bird": 0.275
     },
     {
      "id": "v2",
      "img": "review_imgs/grapri1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.89,
-     "pose": 0.081,
-     "bird": 0.454
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.793,
+     "pose": 0.112,
+     "bird": 0.101
     }
    ]
   },
@@ -575,27 +575,27 @@
      "img": "review_imgs/subwar8/v0.png",
      "seed": 1002,
      "strength": 0.74,
-     "sim": 0.745,
-     "pose": 0.763,
-     "bird": 0.927
+     "sim": 0.891,
+     "pose": 0.437,
+     "bird": 0.313
     },
     {
      "id": "v1",
      "img": "review_imgs/subwar8/v1.png",
      "seed": 1001,
      "strength": 0.68,
-     "sim": 0.786,
-     "pose": 0.623,
-     "bird": 0.973
+     "sim": 0.9,
+     "pose": 0.389,
+     "bird": 0.205
     },
     {
      "id": "v2",
      "img": "review_imgs/subwar8/v2.png",
      "seed": 1000,
      "strength": 0.6,
-     "sim": 0.699,
-     "pose": 0.464,
-     "bird": 0.976
+     "sim": 0.914,
+     "pose": 0.433,
+     "bird": 0.101
     }
    ]
   },
@@ -611,29 +611,29 @@
     {
      "id": "v0",
      "img": "review_imgs/norpin/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.884,
-     "pose": 0.154,
-     "bird": 0.785
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.895,
+     "pose": 0.236,
+     "bird": 0.917
     },
     {
      "id": "v1",
      "img": "review_imgs/norpin/v1.png",
      "seed": 1001,
      "strength": 0.68,
-     "sim": 0.82,
-     "pose": 0.081,
-     "bird": 0.504
+     "sim": 0.895,
+     "pose": 0.154,
+     "bird": 0.948
     },
     {
      "id": "v2",
      "img": "review_imgs/norpin/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.789,
-     "pose": 0.089,
-     "bird": 0.19
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.906,
+     "pose": 0.252,
+     "bird": 0.82
     }
    ]
   },
