@@ -1231,7 +1231,7 @@
     },
     "faces": {
       "banswa/flying_0.png": "right",
-      "banswa/sitting_0.png": "left"
+      "banswa/sitting_0.png": "right"
     },
     "credits": {
       "banswa/flying_0.png": {
@@ -1373,7 +1373,7 @@
       ]
     },
     "faces": {
-      "barpar2/sitting_0.png": "right"
+      "barpar2/sitting_0.png": "left"
     },
     "credits": {
       "barpar2/sitting_0.png": {
