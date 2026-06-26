@@ -3130,13 +3130,23 @@
     "stances": {
       "flying": [
         "blbsan1/flying_0.png"
+      ],
+      "sitting": [
+        "blbsan1/sitting_0.png"
       ]
     },
     "faces": {
-      "blbsan1/flying_0.png": "left"
+      "blbsan1/flying_0.png": "left",
+      "blbsan1/sitting_0.png": "left"
     },
     "credits": {
       "blbsan1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "blbsan1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
