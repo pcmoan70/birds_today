@@ -1150,7 +1150,7 @@
     },
     "faces": {
       "balshe1/flying_0.png": "left",
-      "balshe1/sitting_0.png": "right"
+      "balshe1/sitting_0.png": "left"
     },
     "credits": {
       "balshe1/flying_0.png": {
@@ -12973,7 +12973,7 @@
     },
     "faces": {
       "eurnut2/flying_0.png": "right",
-      "eurnut2/sitting_0.png": "right"
+      "eurnut2/sitting_0.png": "left"
     },
     "credits": {
       "eurnut2/flying_0.png": {
@@ -17187,7 +17187,7 @@
     },
     "faces": {
       "grscuc1/flying_0.png": "right",
-      "grscuc1/sitting_0.png": "left"
+      "grscuc1/sitting_0.png": "right"
     },
     "credits": {
       "grscuc1/flying_0.png": {
