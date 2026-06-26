@@ -682,5 +682,1389 @@ null
 "commyn": [
 "Sturnidae",
 "Starlings"
+],
+"465888": [
+"Hirundinidae",
+"Swallows and Martins"
+],
+"afrcha1": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"alepar2": [
+"Psittaculidae",
+"Old World Parrots"
+],
+"alpacc1": [
+"Prunellidae",
+"Accentors"
+],
+"alpswi1": [
+"Apodidae",
+"Swifts"
+],
+"arcwar1": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"armgul1": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"atlfly1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"audgul1": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"azwmag3": [
+"Corvidae",
+"Crows, Jays, and Magpies"
+],
+"bahgoo": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"baicra1": [
+"Rallidae",
+"Rails, Gallinules, and Coots"
+],
+"banswa": [
+"Hirundinidae",
+"Swallows and Martins"
+],
+"bargoo": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"barpar2": [
+"Phasianidae",
+"Pheasants, Grouse, and Allies"
+],
+"barwar1": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"batgod": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"bbspet1": [
+"Oceanitidae",
+"Southern Storm-Petrels"
+],
+"bcbeat1": [
+"Meropidae",
+"Bee-eaters"
+],
+"bcnher": [
+"Ardeidae",
+"Herons, Egrets, and Bitterns"
+],
+"bearee1": [
+"Panuridae",
+"Reedlings"
+],
+"bkbplo": [
+"Charadriidae",
+"Plovers and Lapwings"
+],
+"bkewhe1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"bkewhe2": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"bkskit1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"bktgod": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"bkwsti": [
+"Recurvirostridae",
+"Stilts and Avocets"
+],
+"blagro1": [
+"Phasianidae",
+"Pheasants, Grouse, and Allies"
+],
+"blakit1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"blasto1": [
+"Ciconiidae",
+"Storks"
+],
+"blawhe1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"blawoo1": [
+"Picidae",
+"Woodpeckers"
+],
+"blbsan1": [
+"Pteroclidae",
+"Sandgrouse"
+],
+"blhbun1": [
+"Emberizidae",
+"Old World Buntings"
+],
+"blkfra": [
+null,
+null
+],
+"blkswa": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"blrwar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"blueth": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"blwpra1": [
+"Glareolidae",
+"Pratincoles and Coursers"
+],
+"bohwax": [
+"Bombycillidae",
+"Waxwings"
+],
+"boneag2": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"booeag1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"boowar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"borowl": [
+"Strigidae",
+"Typical Owls"
+],
+"brant": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"brbsan": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"brnowl": [
+"Tytonidae",
+"Barn Owls"
+],
+"brnrav1": [
+"Corvidae",
+"Crows, Jays, and Magpies"
+],
+"budger": [
+"Psittaculidae",
+"Old World Parrots"
+],
+"bulpet": [
+"Procellariidae",
+"Shearwaters and Petrels"
+],
+"burthr": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"cacgoo1": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"callar1": [
+"Alaudidae",
+"Larks"
+],
+"casgul2": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"caster1": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"categr1": [
+"Ardeidae",
+"Herons, Egrets, and Bitterns"
+],
+"chifla1": [
+"Phoenicopteridae",
+"Flamingos"
+],
+"chiwig1": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"cinvul1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"cirbun1": [
+"Emberizidae",
+"Old World Buntings"
+],
+"citfin1": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"citwag": [
+"Motacillidae",
+"Wagtails and Pipits"
+],
+"coatit2": [
+"Paridae",
+"Tits, Chickadees, and Titmice"
+],
+"cockat": [
+"Cacatuidae",
+"Cockatoos"
+],
+"cogwar1": [
+"Locustellidae",
+"Grassbirds and Allies"
+],
+"colfly1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"colpra": [
+"Glareolidae",
+"Pratincoles and Coursers"
+],
+"combul2": [
+"Pycnonotidae",
+"Bulbuls"
+],
+"comcan": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"comcuc": [
+"Cuculidae",
+"Cuckoos"
+],
+"comgre": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"comloo": [
+"Gaviidae",
+"Loons"
+],
+"comnig1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"compoc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"comqua1": [
+"Phasianidae",
+"Pheasants, Grouse, and Allies"
+],
+"comred1": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"comred2": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"comros": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"comsan": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"comsni": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"comwax": [
+"Estrildidae",
+"Waxbills and Allies"
+],
+"corcra": [
+"Rallidae",
+"Rails, Gallinules, and Coots"
+],
+"corfin1": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"corplo": [
+"Charadriidae",
+"Plovers and Lapwings"
+],
+"crebun2": [
+"Emberizidae",
+"Old World Buntings"
+],
+"cretit2": [
+"Paridae",
+"Tits, Chickadees, and Titmice"
+],
+"cursan": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"dalpel1": [
+"Pelecanidae",
+"Pelicans"
+],
+"darwar1": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"delpri1": [
+"Cisticolidae",
+"Cisticolas and Allies"
+],
+"desfin2": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"desspa1": [
+"Passeridae",
+"Old World Sparrows"
+],
+"deswhe1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"diadov1": [
+"Columbidae",
+"Pigeons and Doves"
+],
+"dunlin": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"duplar1": [
+"Alaudidae",
+"Larks"
+],
+"duswar": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"eabwar1": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"eaowar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"eargre": [
+"Podicipedidae",
+"Grebes"
+],
+"easwar1": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"eaywag1": [
+"Motacillidae",
+"Wagtails and Pipits"
+],
+"egyvul1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"ettwoo1": [
+"Picidae",
+"Woodpeckers"
+],
+"eubeat1": [
+"Meropidae",
+"Bee-eaters"
+],
+"eueowl1": [
+null,
+null
+],
+"eugori2": [
+"Oriolidae",
+"Old World Orioles"
+],
+"eugwoo2": [
+"Picidae",
+"Woodpeckers"
+],
+"euhbuz1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"eupowl1": [
+"Strigidae",
+"Typical Owls"
+],
+"euptit1": [
+"Remizidae",
+"Penduline-Tits"
+],
+"eurcur": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"eurdot": [
+"Charadriidae",
+"Plovers and Lapwings"
+],
+"eurgri1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"eurhob": [
+"Falconidae",
+"Falcons and Caracaras"
+],
+"eurnut3": [
+"Corvidae",
+"Crows, Jays, and Magpies"
+],
+"eurrol1": [
+"Coraciidae",
+"Rollers"
+],
+"eursco1": [
+"Strigidae",
+"Typical Owls"
+],
+"eursis": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"eurspo1": [
+"Threskiornithidae",
+"Ibises and Spoonbills"
+],
+"eurtre1": [
+"Certhiidae",
+"Treecreepers"
+],
+"eurwar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"eurwar2": [
+"Locustellidae",
+"Grassbirds and Allies"
+],
+"eurwry": [
+"Picidae",
+"Woodpeckers"
+],
+"eutdov": [
+"Columbidae",
+"Pigeons and Doves"
+],
+"eutkne1": [
+"Burhinidae",
+"Stone-curlews and Thick-knees"
+],
+"eutspa": [
+"Passeridae",
+"Old World Sparrows"
+],
+"ferduc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"firecr1": [
+"Regulidae",
+"Kinglets"
+],
+"fuwduc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"gadwal": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"gargan": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"garwar1": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"gbhgul2": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"gloibi": [
+"Threskiornithidae",
+"Ibises and Spoonbills"
+],
+"goleag": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"grebit1": [
+"Ardeidae",
+"Herons, Egrets, and Bitterns"
+],
+"grebus1": [
+"Otididae",
+"Bustards"
+],
+"greegr": [
+"Ardeidae",
+"Herons, Egrets, and Bitterns"
+],
+"grefla3": [
+"Phoenicopteridae",
+"Flamingos"
+],
+"gresca": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"gresni1": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"grewar3": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"grewhi1": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"grgowl": [
+"Strigidae",
+"Typical Owls"
+],
+"grnsan": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"grnwar1": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"grnwoo3": [
+"Picidae",
+"Woodpeckers"
+],
+"grrwar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"grseag1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"grypar": [
+"Phasianidae",
+"Pheasants, Grouse, and Allies"
+],
+"grywag": [
+"Motacillidae",
+"Wagtails and Pipits"
+],
+"gstlar1": [
+"Alaudidae",
+"Larks"
+],
+"gubter2": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"gwfgoo": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"gyfwoo1": [
+"Picidae",
+"Woodpeckers"
+],
+"gyhchi": [
+"Paridae",
+"Tits, Chickadees, and Titmice"
+],
+"gyrfal": [
+"Falconidae",
+"Falcons and Caracaras"
+],
+"harduc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"hawfin": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"hazgro1": [
+"Phasianidae",
+"Pheasants, Grouse, and Allies"
+],
+"hoomer": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"horgre": [
+"Podicipedidae",
+"Grebes"
+],
+"horlar": [
+"Alaudidae",
+"Larks"
+],
+"houbun3": [
+"Emberizidae",
+"Old World Buntings"
+],
+"humwar1": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"ibechi2": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"ibgshr1": [
+"Laniidae",
+"Shrikes"
+],
+"ictwar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"impeag1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"itaspa1": [
+"Passeridae",
+"Old World Sparrows"
+],
+"kenplo1": [
+"Charadriidae",
+"Plovers and Lapwings"
+],
+"kineid": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"krunut1": [
+"Sittidae",
+"Nuthatches"
+],
+"lammer1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"lanwar": [
+"Locustellidae",
+"Grassbirds and Allies"
+],
+"laplon": [
+"Calcariidae",
+"Longspurs and Snow Buntings"
+],
+"laudov1": [
+"Columbidae",
+"Pigeons and Doves"
+],
+"legshr2": [
+"Laniidae",
+"Shrikes"
+],
+"leseag1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"leskes1": [
+"Falconidae",
+"Falcons and Caracaras"
+],
+"leswhi4": [
+null,
+null
+],
+"leswoo1": [
+"Picidae",
+"Woodpeckers"
+],
+"lesyel": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"levwoo1": [
+"Picidae",
+"Woodpeckers"
+],
+"lirplo": [
+"Charadriidae",
+"Plovers and Lapwings"
+],
+"litbit1": [
+"Ardeidae",
+"Herons, Egrets, and Bitterns"
+],
+"litbun": [
+"Emberizidae",
+"Old World Buntings"
+],
+"litcra1": [
+"Rallidae",
+"Rails, Gallinules, and Coots"
+],
+"litegr": [
+"Ardeidae",
+"Herons, Egrets, and Bitterns"
+],
+"litgul": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"litowl1": [
+"Strigidae",
+"Typical Owls"
+],
+"litsti": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"litter1": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"lobdow": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"loeowl": [
+"Strigidae",
+"Typical Owls"
+],
+"lolbuz1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"lotduc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"manduc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"martea1": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"martit2": [
+"Paridae",
+"Tits, Chickadees, and Titmice"
+],
+"marwar1": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"masshr1": [
+"Laniidae",
+"Shrikes"
+],
+"medshe1": [
+"Procellariidae",
+"Shearwaters and Petrels"
+],
+"melwar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"merlin": [
+"Falconidae",
+"Falcons and Caracaras"
+],
+"misthr1": [
+"Turdidae",
+"Thrushes"
+],
+"miswoo1": [
+"Picidae",
+"Woodpeckers"
+],
+"monhar1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"monpar1": [
+"Psittacidae",
+"New World and African Parrots"
+],
+"mouchi2": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"moured1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"mouwhe2": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"mstlar1": [
+"Alaudidae",
+"Larks"
+],
+"musduc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"namdov1": [
+"Columbidae",
+"Pigeons and Doves"
+],
+"nohowl": [
+"Strigidae",
+"Typical Owls"
+],
+"norhar1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"norsho": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"norshr1": [
+"Laniidae",
+"Shrikes"
+],
+"oltwar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"ortbun1": [
+"Emberizidae",
+"Old World Buntings"
+],
+"ortdov": [
+"Columbidae",
+"Pigeons and Doves"
+],
+"osprey": [
+"Pandionidae",
+"Ospreys"
+],
+"padwar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"palhar1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"palroc1": [
+"Passeridae",
+"Old World Sparrows"
+],
+"palsun2": [
+"Nectariniidae",
+"Sunbirds and Spiderhunters"
+],
+"palswi3": [
+"Apodidae",
+"Swifts"
+],
+"palwar5": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"parcro2": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"pecsan": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"perfal": [
+"Falconidae",
+"Falcons and Caracaras"
+],
+"pieavo1": [
+"Recurvirostridae",
+"Stilts and Avocets"
+],
+"piekin1": [
+"Alcedinidae",
+"Kingfishers"
+],
+"pingro": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"pitsan1": [
+"Pteroclidae",
+"Sandgrouse"
+],
+"purher1": [
+"Ardeidae",
+"Herons, Egrets, and Bitterns"
+],
+"pursan": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"purswa": [
+null,
+null
+],
+"pygcor2": [
+"Phalacrocoracidae",
+"Cormorants and Shags"
+],
+"radacc2": [
+"Prunellidae",
+"Accentors"
+],
+"rebcho1": [
+"Corvidae",
+"Crows, Jays, and Magpies"
+],
+"rebgoo1": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"recpoc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"redava": [
+"Estrildidae",
+"Waxbills and Allies"
+],
+"redcro": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"redkit1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"refblu1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"reffal1": [
+"Falconidae",
+"Falcons and Caracaras"
+],
+"rengre": [
+"Podicipedidae",
+"Grebes"
+],
+"rennig1": [
+"Caprimulgidae",
+"Nightjars and Allies"
+],
+"rerswa8": [
+"Hirundinidae",
+"Swallows and Martins"
+],
+"retpip": [
+"Motacillidae",
+"Wagtails and Pipits"
+],
+"ricpip1": [
+"Motacillidae",
+"Wagtails and Pipits"
+],
+"rinduc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"rinouz1": [
+"Turdidae",
+"Thrushes"
+],
+"rintea1": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"rocbun1": [
+"Emberizidae",
+"Old World Buntings"
+],
+"rocnut1": [
+"Sittidae",
+"Nuthatches"
+],
+"rocpet1": [
+"Passeridae",
+"Old World Sparrows"
+],
+"rocpta1": [
+"Phasianidae",
+"Pheasants, Grouse, and Allies"
+],
+"rolhaw": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"rorpar": [
+"Psittaculidae",
+"Old World Parrots"
+],
+"rosgoo": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"rosgul": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"rossta2": [
+"Sturnidae",
+"Starlings"
+],
+"rtrthr1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"rudduc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"rudshe": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"rudtur": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"ruewar1": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"ruff": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"rutscr1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"sacibi2": [
+"Threskiornithidae",
+"Ibises and Spoonbills"
+],
+"sander": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"sarwar1": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"savwar1": [
+"Locustellidae",
+"Grassbirds and Allies"
+],
+"sedwar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"sheowl": [
+"Strigidae",
+"Typical Owls"
+],
+"shteag1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"sibjay1": [
+"Corvidae",
+"Crows, Jays, and Magpies"
+],
+"skylar": [
+"Alaudidae",
+"Larks"
+],
+"slbgul1": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"smew": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"snogoo": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"snoowl1": [
+"Strigidae",
+"Typical Owls"
+],
+"soclap1": [
+"Charadriidae",
+"Plovers and Lapwings"
+],
+"somtit3": [
+"Paridae",
+"Tits, Chickadees, and Titmice"
+],
+"spaeag1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"spaspa1": [
+"Passeridae",
+"Old World Sparrows"
+],
+"spewar2": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"spored": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"squher1": [
+"Ardeidae",
+"Herons, Egrets, and Bitterns"
+],
+"steeag1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"steeid": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"subwar6": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"sursco": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"swagoo1": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"syrwoo1": [
+"Picidae",
+"Woodpeckers"
+],
+"tawowl1": [
+"Strigidae",
+"Typical Owls"
+],
+"temsti": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"tersan": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"thelar1": [
+"Alaudidae",
+"Larks"
+],
+"thrnig1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"trepip": [
+"Motacillidae",
+"Wagtails and Pipits"
+],
+"tstlar1": [
+"Alaudidae",
+"Larks"
+],
+"tunbeg1": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"twite1": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"upcwar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"uraowl1": [
+"Strigidae",
+"Typical Owls"
+],
+"wallcr1": [
+"Tichodromidae",
+"Wallcreepers"
+],
+"watpip1": [
+"Motacillidae",
+"Wagtails and Pipits"
+],
+"watrai1": [
+"Rallidae",
+"Rails, Gallinules, and Coots"
+],
+"webwar1": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"wemhar1": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"weowar1": [
+"Acrocephalidae",
+"Reed Warblers and Allies"
+],
+"weowar2": [
+"Sylviidae",
+"Sylviid Warblers and Allies"
+],
+"wescap1": [
+"Phasianidae",
+"Pheasants, Grouse, and Allies"
+],
+"wfspet": [
+"Oceanitidae",
+"Southern Storm-Petrels"
+],
+"whhduc1": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"whimbr5": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"whinch1": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"whisto1": [
+"Ciconiidae",
+"Storks"
+],
+"whiter2": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"whrswi1": [
+"Apodidae",
+"Swifts"
+],
+"whsbul1": [
+"Pycnonotidae",
+"Bulbuls"
+],
+"whtdip1": [
+"Cinclidae",
+"Dippers"
+],
+"whteag": [
+"Accipitridae",
+"Hawks, Eagles, and Kites"
+],
+"whtkin2": [
+"Alcedinidae",
+"Kingfishers"
+],
+"whtrob3": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"whwcro": [
+"Fringillidae",
+"Finches, Euphonias, and Allies"
+],
+"whwsco3": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"whwsno1": [
+"Passeridae",
+"Old World Sparrows"
+],
+"whwter": [
+"Laridae",
+"Gulls, Terns, and Skimmers"
+],
+"wilpta2": [
+null,
+null
+],
+"wooduc": [
+"Anatidae",
+"Ducks, Geese, and Swans"
+],
+"woolar1": [
+"Alaudidae",
+"Larks"
+],
+"woosan": [
+"Scolopacidae",
+"Sandpipers and Allies"
+],
+"wooshr1": [
+"Laniidae",
+"Shrikes"
+],
+"woowar": [
+"Phylloscopidae",
+"Leaf Warblers"
+],
+"y00427": [
+"Muscicapidae",
+"Old World Flycatchers, Robins, and Chats"
+],
+"yebcho1": [
+"Corvidae",
+"Crows, Jays, and Magpies"
+],
+"yebloo": [
+"Gaviidae",
+"Loons"
+],
+"yecbis": [
+"Ploceidae",
+"Weavers and Allies"
+],
+"zitcis1": [
+"Cisticolidae",
+"Cisticolas and Allies"
 ]
 }

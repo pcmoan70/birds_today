@@ -35,9 +35,9 @@ from scipy.ndimage import laplace  # noqa: E402
 import generate as G  # noqa: E402
 import cutout as cut  # noqa: E402
 import qc_references as QC  # noqa: E402 (reuse CLIP scorer)
-from rembg import new_session  # noqa: E402
+from rembg import new_session, remove as rembg_remove  # noqa: E402
 from species import load_species  # noqa: E402
-from sources import inat  # noqa: E402
+from sources import inat, wikimedia, gbif  # noqa: E402
 from sources.base import SESSION  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -50,7 +50,7 @@ BA = os.path.join(QCDIR, "ba")
 FAMILIES = os.path.join(HERE, "families.json")
 REVIEW_IMGS = os.path.join(ROOT, "docs", "review_imgs")   # variant images (on Pages)
 REVIEW_MAN = os.path.join(ROOT, "docs", "review", "manifest.json")
-PUSH_EVERY = 6
+PUSH_EVERY = 5
 
 
 def load_families():
@@ -85,12 +85,65 @@ POSE_BAD = [
 ]
 
 
-def best_inat_ref(sci, common, code, sess):
-    """Pick the iNat candidate that is most clearly a real bird AND a clean
-    perched side-profile (so the generated bird inherits a good pose)."""
-    cands = inat.search(sci, common, "sitting", 16)
-    tmp, imgs = [], []
+_FAST = [None]
+
+
+def _fast_session():
+    """Light, fast matting model just for the candidate whole-bird checks
+    (birefnet is far too slow to run on every candidate)."""
+    if _FAST[0] is None:
+        _FAST[0] = new_session("u2netp")
+    return _FAST[0]
+
+
+def _mask(im, sess, size=288):
+    """rembg alpha mask of the candidate at small size (for whole-bird checks)."""
+    s = im.convert("RGBA").copy()
+    s.thumbnail((size, size))
+    return np.array(rembg_remove(s, session=sess))[:, :, 3] > 40
+
+
+def _wholeness(a):
+    """(whole, subjfrac). whole≈1 when the bird doesn't touch the top/left/right
+    edges (bottom is allowed for legs/perch); lower when it's cut off."""
+    if a.sum() < 60:
+        return 0.0, 0.0
+    edge = max(a[0, :].mean(), a[:, 0].mean(), a[:, -1].mean())
+    return max(0.0, 1.0 - edge / 0.12), float(a.mean())
+
+
+def _gather(sp, code, want):
+    """Pool reference candidates across sources: iNaturalist (direct), Wikimedia,
+    and GBIF (which federates more iNat + Observation.org + naturgucker + Flickr).
+    Macaulay/eBird is IP-blocked (HTTP 403) from here, so it is omitted."""
+    from itertools import zip_longest
+    lists = []
+    for name, fn in (("inat", lambda: inat.search(sp["sci"], sp["common"], "sitting", want)),
+                     ("wiki", lambda: wikimedia.search(sp["sci"], sp["common"], "sitting", want)),
+                     ("gbif", lambda: gbif.search(sp["sci"], sp["common"], "sitting", want))):
+        try:
+            lists.append(fn() or [])
+        except Exception as e:  # noqa: BLE001
+            print(f"    {name} search failed: {e}")
+            lists.append([])
+    # Round-robin interleave so the first downloaded (capped) candidates span all
+    # sources rather than being exhausted by whichever is listed first.
+    seen, out = set(), []
+    for group in zip_longest(*lists):
+        for c in group:
+            if c and getattr(c, "url", None) and c.url not in seen:
+                seen.add(c.url); out.append(c)
+    return out
+
+
+def best_ref(sp, code, sess):
+    """Pick the best WHOLE-bird reference across sources: a real bird, clean
+    perched side profile, fully in frame at a moderate size."""
+    cands = _gather(sp, code, 9)
+    tmp, imgs, srcs = [], [], []
     for c in cands:
+        if len(tmp) >= 16:
+            break
         try:
             r = SESSION.get(c.url, timeout=30)
             if r.status_code != 200 or not r.content:
@@ -99,28 +152,31 @@ def best_inat_ref(sci, common, code, sess):
             os.makedirs(BADREFS, exist_ok=True)
             open(p, "wb").write(r.content)
             tmp.append(p); imgs.append(Image.open(p).convert("RGB"))
+            srcs.append(getattr(c, "source", "?"))
         except Exception:
             continue
     if not imgs:
         return None
     obj = QC.clip_probs(imgs, [QC.POS] + QC.NEG)[:, 0].tolist()
     pose = QC.clip_probs(imgs, [POSE_GOOD] + POSE_BAD)[:, 0].tolist()
+    # CLIP is cheap; the whole-bird mask is not. Only mask the most promising
+    # candidates (top real-bird + pose) with the fast model.
+    pre = sorted(range(len(imgs)), key=lambda i: obj[i] + 0.6 * pose[i], reverse=True)
+    fast = _fast_session()
     scored = []
-    for p, im, ob, po in zip(tmp, imgs, obj, pose):
-        try:
-            ci = cut.cut_pil(im, sess, 256)
-            sf = float((np.asarray(ci.convert("RGBA"))[..., 3] > 40).mean()) if ci else 0.0
-        except Exception:
-            sf = 0.0
-        # real-bird and good-pose dominate; sharpness/size are tie-breakers.
-        score = ob * 1.0 + po * 1.0 + min(sharp(im) / 1500, 0.4) + min(sf * 2, 0.4)
-        scored.append((score, ob, po, p))
-    scored.sort(reverse=True)
+    for i in pre[:8]:
+        whole, subj = _wholeness(_mask(imgs[i], fast))
+        size_term = max(0.0, 0.4 - abs(subj - 0.35))   # prefer bird ~35% of frame
+        ok = obj[i] > 0.5 and whole > 0.55 and subj > 0.05  # real, whole, not tiny
+        score = obj[i] * 1.0 + pose[i] * 0.7 + whole * 1.3 + size_term + min(sharp(imgs[i]) / 1500, 0.3)
+        scored.append((ok, round(score, 3), obj[i], pose[i], whole, subj, srcs[i], tmp[i]))
+    scored.sort(key=lambda t: (t[0], t[1]), reverse=True)
     s = scored[0]
-    print(f"    ref: bird={s[1]:.2f} pose={s[2]:.2f}")
-    if s[1] < 0.5:
-        print(f"    {code}: best candidate weak (bird={s[1]:.2f})")
-    return s[3]
+    print(f"    ref[{s[6]}]: bird={s[2]:.2f} pose={s[3]:.2f} whole={s[4]:.2f} "
+          f"subj={s[5]:.2f} ok={s[0]} (of {len(imgs)})")
+    if not s[0]:
+        print(f"    {code}: no fully-in-frame candidate; using best available")
+    return s[7]
 
 
 def prep_init(ref_path, sess, size=1024):
@@ -205,11 +261,22 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams):
     return {"png": png, "chosen": "v0", "variants": vmeta}
 
 
+def _is_v3_done(code):
+    """True if this species' sitting image already came from the v3 pipeline."""
+    j = os.path.join(OUT, code, "sitting_0.png.json")
+    try:
+        return str(json.load(open(j, encoding="utf-8")).get("recipe", "")).startswith("v3")
+    except Exception:
+        return False
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--codes")
     ap.add_argument("--object-only", action="store_true")
+    ap.add_argument("--all", action="store_true",
+                    help="every AI species (skips ones already on the v3 recipe)")
     args = ap.parse_args()
 
     by_code = {s["code"]: s for s in load_species()}
@@ -217,6 +284,19 @@ def main():
 
     if args.codes:
         flagged = [{"code": c.strip(), "reason": "manual"} for c in args.codes.split(",")]
+    elif args.all:
+        man = json.load(open(os.path.join(OUT, "manifest.json"), encoding="utf-8"))
+        codes = list(man["species"]) if isinstance(man, dict) and "species" in man else list(man)
+        flagged = [{"code": c, "reason": "all"} for c in codes if not _is_v3_done(c)]
+        # fetch any missing families up front (best-effort)
+        try:
+            miss = [r["code"] for r in flagged if r["code"] not in fams]
+            if miss:
+                subprocess.run([sys.executable, os.path.join(HERE, "fetch_families.py"),
+                                "--codes", ",".join(miss)], capture_output=True)
+                fams = load_families()
+        except Exception as e:  # noqa: BLE001
+            print("family prefetch skipped:", e)
     else:
         rows = list(csv.DictReader(open(os.path.join(QCDIR, "qc_refs.csv"), encoding="utf-8")))
         flagged = [r for r in rows if r["reason"] != "ok"]
@@ -254,8 +334,8 @@ def main():
             shutil.copy(cur, os.path.join(BA, f"{code}_before.png"))
             shutil.copy(cur, os.path.join(vdir, "before.png"))
             before_rel = f"review_imgs/{code}/before.png"
-        # re-fetch a better reference
-        newref = best_inat_ref(sp["sci"], sp["common"], code, sess)
+        # re-fetch a better reference (whole bird, multi-source)
+        newref = best_ref(sp, code, sess)
         if not newref:
             print(f"  {code}: no usable iNat reference found, skip"); continue
         # quarantine the old reference, install the new one as sitting_0
