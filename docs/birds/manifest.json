@@ -7532,7 +7532,7 @@
     },
     "faces": {
       "compea/flying_0.png": "left",
-      "compea/sitting_0.png": "left"
+      "compea/sitting_0.png": "right"
     },
     "credits": {
       "compea/flying_0.png": {
@@ -13661,7 +13661,7 @@
       ]
     },
     "faces": {
-      "eurspa1/sitting_0.png": "right"
+      "eurspa1/sitting_0.png": "left"
     },
     "credits": {
       "eurspa1/sitting_0.png": {
@@ -15107,7 +15107,7 @@
     },
     "faces": {
       "gbbgul/flying_0.png": "left",
-      "gbbgul/sitting_0.png": "right"
+      "gbbgul/sitting_0.png": "left"
     },
     "credits": {
       "gbbgul/flying_0.png": {

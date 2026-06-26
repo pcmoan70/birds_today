@@ -902,6 +902,234 @@
      "bird": 0.803
     }
    ]
+  },
+  "eurspa1": {
+   "name": "Eurasian Sparrowhawk",
+   "sci": "Accipiter nisus",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "object",
+   "before": "review_imgs/eurspa1/before.png",
+   "ref": "review_imgs/eurspa1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurspa1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.863,
+     "pose": 0.19,
+     "bird": 0.872
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurspa1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.837,
+     "pose": 0.062,
+     "bird": 0.821
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurspa1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.793,
+     "pose": 0.011,
+     "bird": 0.521
+    }
+   ]
+  },
+  "compea": {
+   "name": "Indian Peafowl",
+   "sci": "Pavo cristatus",
+   "family": "Pheasants, Grouse, and Allies",
+   "reason": "object",
+   "before": "review_imgs/compea/before.png",
+   "ref": "review_imgs/compea/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/compea/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.882,
+     "pose": 0.38,
+     "bird": 0.63
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/compea/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.866,
+     "pose": 0.2,
+     "bird": 0.708
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/compea/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.856,
+     "pose": 0.262,
+     "bird": 0.557
+    }
+   ]
+  },
+  "eurcrm1": {
+   "name": "Eurasian Crag-Martin",
+   "sci": "Ptyonoprogne rupestris",
+   "family": "Swallows and Martins",
+   "reason": "object",
+   "before": "review_imgs/eurcrm1/before.png",
+   "ref": "review_imgs/eurcrm1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurcrm1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.85,
+     "pose": 0.359,
+     "bird": 0.449
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurcrm1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.866,
+     "pose": 0.146,
+     "bird": 0.562
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurcrm1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.891,
+     "pose": 0.256,
+     "bird": 0.187
+    }
+   ]
+  },
+  "spocra1": {
+   "name": "Spotted Crake",
+   "sci": "Porzana porzana",
+   "family": "Rails, Gallinules, and Coots",
+   "reason": "object",
+   "before": "review_imgs/spocra1/before.png",
+   "ref": "review_imgs/spocra1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/spocra1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.851,
+     "pose": 0.516,
+     "bird": 0.694
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/spocra1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.854,
+     "pose": 0.157,
+     "bird": 0.67
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/spocra1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.837,
+     "pose": 0.173,
+     "bird": 0.572
+    }
+   ]
+  },
+  "finwhe1": {
+   "name": "Finsch's Wheatear",
+   "sci": "Oenanthe finschii",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "object",
+   "before": "review_imgs/finwhe1/before.png",
+   "ref": "review_imgs/finwhe1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/finwhe1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.88,
+     "pose": 0.415,
+     "bird": 0.887
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/finwhe1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.907,
+     "pose": 0.335,
+     "bird": 0.863
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/finwhe1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.902,
+     "pose": 0.31,
+     "bird": 0.696
+    }
+   ]
+  },
+  "gbbgul": {
+   "name": "Great Black-backed Gull",
+   "sci": "Larus marinus",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "object",
+   "before": "review_imgs/gbbgul/before.png",
+   "ref": "review_imgs/gbbgul/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gbbgul/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.852,
+     "pose": 0.156,
+     "bird": 0.938
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gbbgul/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.858,
+     "pose": 0.079,
+     "bird": 0.887
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gbbgul/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.854,
+     "pose": 0.062,
+     "bird": 0.795
+    }
+   ]
   }
  }
 }
