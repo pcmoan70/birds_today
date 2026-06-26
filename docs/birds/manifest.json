@@ -1,4 +1,70 @@
 {
+  "465888": {
+    "sci": "Ptyonoprogne obsoleta",
+    "common": "Pale Crag-Martin",
+    "names": {
+      "en": "Pale Crag-Martin",
+      "de": "Wüstenschwalbe",
+      "es": "Avión Pálido o Isabel Norteño",
+      "pl": "jaskółka płowa",
+      "fr": "Hirondelle du désert",
+      "nl": "Vale Rotszwaluw",
+      "ru": "Пустынная скалистая ласточка",
+      "ja": "ウスチャイロツバメ",
+      "cs": "vlaštovka světlehnědá",
+      "ca": "roquerol pàl·lid",
+      "pt": "Andorinha-das-rochas-pálida",
+      "no": "Ørkensvale",
+      "bg": "пустинна лястовица",
+      "sv": "Blek klippsvala",
+      "da": "Lys Klippesvale",
+      "tr": "Pale Crag-Martin",
+      "sk": "lastovička púštna",
+      "sr": "Источна горска ласта",
+      "uk": "ластівка пустельна",
+      "zh-CN": "灰喉燕",
+      "fi": "aavikkopääsky",
+      "es_ES": "Pale Crag-Martin",
+      "es_MX": "Pale Crag-Martin",
+      "es_EC": "Pale Crag-Martin",
+      "pt_PT": "Pale Crag-Martin",
+      "hr": "sivosmeđa lastavica",
+      "lt": "Dykuminė kregždė",
+      "fa": "چلچله بیابانی",
+      "cy": "Gwennol glogwyn welw",
+      "et": "kõrbe-kivipääsuke",
+      "it": "Rondine montana pallida",
+      "zh-TW": "灰喉燕",
+      "eo": "dezerta hirundo",
+      "lv": "palsā čurkste"
+    },
+    "stances": {
+      "flying": [
+        "465888/flying_0.png"
+      ],
+      "sitting": [
+        "465888/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "465888/flying_0.png": "left",
+      "465888/sitting_0.png": "right"
+    },
+    "credits": {
+      "465888/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "465888/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "afbtit2": {
     "sci": "Cyanistes teneriffae",
     "common": "African Blue Tit",
@@ -1583,14 +1649,24 @@
       "ml": "വരവാലൻ സ്നാപ്പ്"
     },
     "stances": {
+      "flying": [
+        "batgod/flying_0.png"
+      ],
       "sitting": [
         "batgod/sitting_0.png"
       ]
     },
     "faces": {
+      "batgod/flying_0.png": "left",
       "batgod/sitting_0.png": "left"
     },
     "credits": {
+      "batgod/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
       "batgod/sitting_0.png": {
         "source": "generated",
         "author": "",
@@ -4591,14 +4667,24 @@
       "ar": "غراب ادرع"
     },
     "stances": {
+      "flying": [
+        "brnrav1/flying_0.png"
+      ],
       "sitting": [
         "brnrav1/sitting_0.png"
       ]
     },
     "faces": {
+      "brnrav1/flying_0.png": "left",
       "brnrav1/sitting_0.png": "right"
     },
     "credits": {
+      "brnrav1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
       "brnrav1/sitting_0.png": {
         "source": "generated",
         "author": "",
@@ -9658,6 +9744,72 @@
       }
     }
   },
+  "diadov1": {
+    "sci": "Geopelia cuneata",
+    "common": "Diamond Dove",
+    "names": {
+      "en": "Diamond Dove",
+      "de": "Diamanttäubchen",
+      "es": "Tortolita Diamante",
+      "pl": "gołąbek diamentowy",
+      "fr": "Géopélie diamant",
+      "nl": "Diamantduif",
+      "ru": "Бриллиантовая горлица",
+      "ja": "ウスユキバト",
+      "cs": "holoubek diamantový",
+      "ca": "tortoreta diamant",
+      "pt": "rolinha-diamante",
+      "no": "diamantdue",
+      "bg": "Диамантена гургулица",
+      "sv": "diamantduva",
+      "da": "Diamantdue",
+      "tr": "Minyatür Kumru",
+      "sk": "holúbok diamantový",
+      "sr": "Dijamantni golubić",
+      "uk": "Горлиця діамантова",
+      "zh-CN": "宝石姬地鸠",
+      "fi": "timanttikyyhky",
+      "es_ES": "Tortolita diamante",
+      "es_MX": "Tortolita Diamante",
+      "es_EC": "Tortolita Diamante",
+      "pt_PT": "Rolinha-diamante",
+      "hr": "dijamantni golubić",
+      "lt": "Deimantinis dryžasis purplelis",
+      "fa": "کبوتر الماسی",
+      "cy": "Turtur fechan",
+      "et": "teemanttuvi",
+      "it": "Tortora diamantina",
+      "zh-TW": "寶石姬地鳩",
+      "eo": "diamanta kolombo",
+      "hu": "gyémántgalambocska"
+    },
+    "stances": {
+      "flying": [
+        "diadov1/flying_0.png"
+      ],
+      "sitting": [
+        "diadov1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "diadov1/flying_0.png": "left",
+      "diadov1/sitting_0.png": "left"
+    },
+    "credits": {
+      "diadov1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "diadov1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "doveki": {
     "sci": "Alle alle",
     "common": "Dovekie",
@@ -9869,6 +10021,68 @@
     },
     "credits": {
       "dunnoc1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "duplar1": {
+    "sci": "Chersophilus duponti",
+    "common": "Dupont's Lark",
+    "names": {
+      "en": "Dupont's Lark",
+      "de": "Dupontlerche",
+      "es": "Alondra Ricotí",
+      "pl": "skowrończyk sierpodzioby",
+      "fr": "Alouette de Dupont",
+      "nl": "Duponts leeuwerik",
+      "ru": "Средиземноморский жаворонок",
+      "ja": "デュボンヒバリ",
+      "cs": "skřivan Dupontův",
+      "ca": "alosa becuda",
+      "pt": "calhandra-de-dupont",
+      "no": "nattlerke",
+      "bg": "Дюпонтова чучулига",
+      "sv": "skymningslärka",
+      "da": "Duponts Lærke",
+      "tr": "Dupont Toygarı",
+      "sk": "škovránok plachý",
+      "sr": "Dugokljuna ševa",
+      "uk": "Жайворонок-серподзьоб",
+      "zh-CN": "杜氏百灵",
+      "fi": "kaitanokkakiuru",
+      "es_ES": "Alondra ricotí",
+      "es_MX": "Alondra Ricotí",
+      "es_EC": "Alondra Ricotí",
+      "pt_PT": "Calhandra-de-dupont",
+      "hr": "krivokljuna ševa",
+      "lt": "Diupono vieversys",
+      "fa": "چکاوک دوپون",
+      "cy": "Ehedydd Dupont",
+      "et": "pujulõoke",
+      "it": "Allodola di Dupont",
+      "zh-TW": "戈壁百靈",
+      "eo": "krepuska alaŭdo",
+      "hu": "vékonycsőrű pacsirta",
+      "sl": "sredozemski škrjanec",
+      "lv": "Dipona cīrulis",
+      "is": "Huldulævirki",
+      "el": "Χερσόφιλος",
+      "se": "Idjáleivvoš",
+      "he": "עפרוני צפון-אפריקני"
+    },
+    "stances": {
+      "sitting": [
+        "duplar1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "duplar1/sitting_0.png": "left"
+    },
+    "credits": {
+      "duplar1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -23671,6 +23885,75 @@
       }
     }
   },
+  "norhar1": {
+    "sci": "Circus cyaneus",
+    "common": "Hen Harrier",
+    "names": {
+      "en": "Hen Harrier",
+      "de": "Kornweihe",
+      "es": "Aguilucho Pálido",
+      "pl": "błotniak zbożowy",
+      "fr": "Busard Saint-Martin",
+      "nl": "Blauwe kiekendief",
+      "ru": "Полевой лунь",
+      "ja": "ハイイロチュウヒ",
+      "cs": "moták pilich",
+      "ca": "arpella pàl·lida comuna",
+      "pt": "tartaranhão-cinzento",
+      "no": "myrhauk",
+      "bg": "Полски блатар",
+      "sv": "blå kärrhök",
+      "da": "Blå Kærhøg",
+      "tr": "Gökçe Delice",
+      "sk": "kaňa sivá",
+      "sr": "Poljska eja",
+      "uk": "Лунь польовий",
+      "zh-CN": "白尾鹞",
+      "fi": "sinisuohaukka",
+      "es_ES": "Aguilucho pálido",
+      "es_MX": "Gavilán Pecho Gris",
+      "es_EC": "Hen Harrier",
+      "pt_PT": "Tartaranhão-cinzento",
+      "hr": "eja strnjarica",
+      "lt": "Javinė lingė",
+      "fa": "سنقر خاکستری",
+      "cy": "Boda tinwyn",
+      "et": "välja-loorkull",
+      "it": "Albanella reale",
+      "zh-TW": "灰澤鵟〔白尾鷂，北方灰鷂〕",
+      "eo": "blua cirkuo",
+      "hu": "kékes rétihéja",
+      "ro": "Erete vânăt",
+      "sl": "pepelasti lunj",
+      "lv": "lauku lija",
+      "is": "Bláheiðir",
+      "el": "Χειμωνόκιρκος",
+      "mk": "полска еја",
+      "be": "Палявы лунь",
+      "se": "Jeaggehávut",
+      "ko": "잿빛개구리매",
+      "he": "זרון תכול",
+      "ar": "مرزة الدجاج",
+      "th": "เหยี่ยวทุ่งแถบเหนือ",
+      "ml": "വലിയ മേടുതപ്പി"
+    },
+    "stances": {
+      "sitting": [
+        "norhar1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "norhar1/sitting_0.png": "right"
+    },
+    "credits": {
+      "norhar1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "norlap": {
     "sci": "Vanellus vanellus",
     "common": "Northern Lapwing",
@@ -24190,6 +24473,82 @@
       }
     }
   },
+  "ortdov": {
+    "sci": "Streptopelia orientalis",
+    "common": "Oriental Turtle-Dove",
+    "names": {
+      "en": "Oriental Turtle-Dove",
+      "de": "Orientturteltaube",
+      "es": "Tórtola Oriental",
+      "pl": "turkawka wschodnia",
+      "fr": "Tourterelle orientale",
+      "nl": "Oosterse tortel",
+      "ru": "Большая горлица",
+      "ja": "キジバト",
+      "cs": "hrdlička východní",
+      "ca": "tórtora rogenca",
+      "pt": "rola-oriental",
+      "no": "mongolturteldue",
+      "bg": "Голяма гургулица",
+      "sv": "större turturduva",
+      "da": "Østlig Turteldue",
+      "tr": "Büyük Üveyik",
+      "sk": "hrdlička stepná",
+      "sr": "Riđa grlica",
+      "uk": "Горлиця велика",
+      "zh-CN": "山斑鸠",
+      "fi": "idänturturikyyhky",
+      "es_ES": "Tórtola oriental",
+      "es_MX": "Tórtola Oriental",
+      "es_EC": "Tórtola Oriental",
+      "pt_PT": "Rola-oriental",
+      "hr": "azijska grlica",
+      "lt": "Didysis purplelis",
+      "fa": "قمری خاوری",
+      "cy": "Turtur y Dwyrain",
+      "et": "suur-turteltuvi",
+      "it": "Tortora orientale",
+      "zh-TW": "金背鳩〔山斑鳩〕",
+      "eo": "orienta turto",
+      "hu": "keleti gerle",
+      "sl": "orientalska grlica",
+      "lv": "austrumu ūbele",
+      "is": "Branddúfa",
+      "el": "Ελατοτρύγονο",
+      "se": "Stuorra turtelduvvá",
+      "ko": "멧비둘기",
+      "he": "תור מזרחי",
+      "ar": "قمري شرقي",
+      "th": "นกเขาพม่า",
+      "ml": "ചെങ്ങാലിപ്രാവ്"
+    },
+    "stances": {
+      "flying": [
+        "ortdov/flying_0.png"
+      ],
+      "sitting": [
+        "ortdov/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "ortdov/flying_0.png": "right",
+      "ortdov/sitting_0.png": "left"
+    },
+    "credits": {
+      "ortdov/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "ortdov/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
   "osprey": {
     "sci": "Pandion haliaetus",
     "common": "Osprey",
@@ -24401,6 +24760,70 @@
         "page_url": ""
       },
       "palhar1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "palroc1": {
+    "sci": "Carpospiza brachydactyla",
+    "common": "Pale Rockfinch",
+    "names": {
+      "en": "Pale Rockfinch",
+      "de": "Fahlsperling",
+      "es": "Gorrión Pálido",
+      "pl": "wróbel krótkopalcowy",
+      "fr": "Moineau pâle",
+      "nl": "Bleke rotsmus",
+      "ru": "Короткопалый воробей",
+      "ja": "ウスイロイワスズメ",
+      "cs": "vrabec plavý",
+      "ca": "pardal pàl·lid",
+      "pt": "pardal-pálido",
+      "no": "bleksteinspurv",
+      "bg": "Късопръсто врабче",
+      "sv": "blek stensparv",
+      "da": "Lys Stenspurv",
+      "tr": "Boz Serçe",
+      "sk": "hrubozobka krátkoprstá",
+      "sr": "Zujavi vrabac",
+      "uk": "Горобець короткопалий",
+      "zh-CN": "淡色石雀",
+      "fi": "arovarpunen",
+      "es_ES": "Gorrión pálido",
+      "es_MX": "Pinzón Pálido",
+      "es_EC": "Gorrión Pálido",
+      "pt_PT": "Pardal-pálido",
+      "hr": "gorski vrabac",
+      "lt": "Trumpapirštis žvirblis",
+      "fa": "گنجشک خاکی",
+      "cy": "Pale Rockfinch",
+      "et": "kõnnuvarblane",
+      "it": "Passera lagia chiara",
+      "zh-TW": "淡色石雀",
+      "eo": "pala pasero",
+      "hu": "halvány köviveréb",
+      "sl": "kratkoprsti vrabec",
+      "lv": "blāvais akmeņzvirbulis",
+      "is": "Bergspör",
+      "el": "Λοφοσπουργίτης",
+      "se": "Ádjocihci",
+      "he": "דרורית קצרת-אצבעות",
+      "ar": "دوري الصخر الشاحب",
+      "ml": "ഇളം പാറക്കുരുവി"
+    },
+    "stances": {
+      "sitting": [
+        "palroc1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "palroc1/sitting_0.png": "right"
+    },
+    "credits": {
+      "palroc1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -25636,6 +26059,66 @@
         "page_url": ""
       },
       "pygcor2/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "radacc2": {
+    "sci": "Prunella ocularis",
+    "common": "Radde's Accentor",
+    "names": {
+      "en": "Radde's Accentor",
+      "de": "Steinbraunelle",
+      "es": "Acentor de Radde",
+      "pl": "płochacz pstry",
+      "fr": "Accenteur de Radde",
+      "nl": "Steenheggenmus",
+      "ru": "Йеменская завирушка",
+      "ja": "コーカサスイワヒバリ",
+      "cs": "pěvuška skalní",
+      "ca": "cercavores de Radde",
+      "pt": "ferreirinha-do-cáucaso",
+      "no": "einerjernspurv",
+      "bg": "Белогуша завирушка",
+      "sv": "svartkronad järnsparv",
+      "da": "Kaukasisk Jernspurv",
+      "tr": "Sürmeli Dağbülbülü",
+      "sk": "vrchárka skalná",
+      "sr": "Azijski popić",
+      "uk": "Тинівка передньоазійська",
+      "zh-CN": "眼斑岩鹨",
+      "fi": "kaspianrautiainen",
+      "es_ES": "Acentor de Radde",
+      "es_MX": "Acentor de Radde",
+      "es_EC": "Acentor de Radde",
+      "pt_PT": "Ferreirinha-do-cáucaso",
+      "hr": "crnokapi popić",
+      "lt": "Margasis erškėtžvirblis",
+      "fa": "صعوه ابروسفید",
+      "cy": "Llwyd Radde",
+      "et": "kadaka-kiviraat",
+      "it": "Passera scopaiola di Radde",
+      "zh-TW": "眼斑岩鷚",
+      "eo": "roka pronelo",
+      "hu": "örmény szürkebegy",
+      "sl": "turška pevka",
+      "lv": "baltrīkles peļkājīte",
+      "is": "Halltítla",
+      "se": "Káspiaruovdecizáš"
+    },
+    "stances": {
+      "sitting": [
+        "radacc2/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "radacc2/sitting_0.png": "left"
+    },
+    "credits": {
+      "radacc2/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -30536,6 +31019,80 @@
         "page_url": ""
       },
       "snogoo/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
+  },
+  "snoowl1": {
+    "sci": "Bubo scandiacus",
+    "common": "Snowy Owl",
+    "names": {
+      "en": "Snowy Owl",
+      "de": "Schneeeule",
+      "es": "Búho Nival",
+      "pl": "sowa śnieżna",
+      "fr": "Harfang des neiges",
+      "nl": "Sneeuwuil",
+      "ru": "Белая сова",
+      "ja": "シロフクロウ",
+      "cs": "sovice sněžní",
+      "ca": "duc blanc",
+      "pt": "coruja-das-neves",
+      "no": "snøugle",
+      "bg": "Полярна сова",
+      "sv": "fjälluggla",
+      "da": "Sneugle",
+      "tr": "Kar Baykuşu",
+      "sk": "belaňa tundrová",
+      "sr": "Snežna sova",
+      "uk": "Сова біла",
+      "zh-CN": "雪鸮",
+      "fi": "tunturipöllö",
+      "es_ES": "Búho nival",
+      "es_MX": "Búho Nival",
+      "es_EC": "Búho Nival",
+      "pt_PT": "Coruja-das-neves",
+      "hr": "bijela sova",
+      "lt": "Baltoji pelėda",
+      "fa": "بوف برفی",
+      "cy": "Tylluan yr eira",
+      "et": "lumekakk",
+      "it": "Gufo delle nevi",
+      "zh-TW": "雪鴞",
+      "eo": "neĝa gufo",
+      "hu": "hóbagoly",
+      "ro": "Bufniţă de zăpadă",
+      "sl": "snežna sova",
+      "lv": "baltā pūce",
+      "is": "Snæugla",
+      "be": "Белая сава",
+      "se": "Skuolfi",
+      "ko": "흰올빼미",
+      "he": "לילית שלג"
+    },
+    "stances": {
+      "flying": [
+        "snoowl1/flying_0.png"
+      ],
+      "sitting": [
+        "snoowl1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "snoowl1/flying_0.png": "left",
+      "snoowl1/sitting_0.png": "right"
+    },
+    "credits": {
+      "snoowl1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "snoowl1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
