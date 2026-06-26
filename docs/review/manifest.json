@@ -1597,6 +1597,196 @@
      "bird": 0.449
     }
    ]
+  },
+  "465888": {
+   "name": "Pale Crag-Martin",
+   "sci": "Ptyonoprogne obsoleta",
+   "family": "Swallows and Martins",
+   "reason": "all",
+   "before": "review_imgs/465888/before.png",
+   "ref": "review_imgs/465888/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/465888/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.835,
+     "pose": 0.135,
+     "bird": 0.752
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/465888/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.863,
+     "pose": 0.021,
+     "bird": 0.204
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/465888/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.83,
+     "pose": 0.059,
+     "bird": 0.225
+    }
+   ]
+  },
+  "afrcha1": {
+   "name": "African Chaffinch",
+   "sci": "Fringilla spodiogenys",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/afrcha1/before.png",
+   "ref": "review_imgs/afrcha1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/afrcha1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.917,
+     "pose": 0.123,
+     "bird": 0.622
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/afrcha1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.896,
+     "pose": 0.12,
+     "bird": 0.569
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/afrcha1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.859,
+     "pose": 0.054,
+     "bird": 0.543
+    }
+   ]
+  },
+  "alepar2": {
+   "name": "Alexandrine Parakeet",
+   "sci": "Psittacula eupatria",
+   "family": "Old World Parrots",
+   "reason": "all",
+   "before": "review_imgs/alepar2/before.png",
+   "ref": "review_imgs/alepar2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/alepar2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.858,
+     "pose": 0.088,
+     "bird": 0.255
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/alepar2/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.85,
+     "pose": 0.085,
+     "bird": 0.264
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/alepar2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.865,
+     "pose": 0.029,
+     "bird": 0.257
+    }
+   ]
+  },
+  "alpacc1": {
+   "name": "Alpine Accentor",
+   "sci": "Prunella collaris",
+   "family": "Accentors",
+   "reason": "all",
+   "before": "review_imgs/alpacc1/before.png",
+   "ref": "review_imgs/alpacc1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/alpacc1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.924,
+     "pose": 0.231,
+     "bird": 0.499
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/alpacc1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.935,
+     "pose": 0.119,
+     "bird": 0.506
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/alpacc1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.933,
+     "pose": 0.256,
+     "bird": 0.247
+    }
+   ]
+  },
+  "alpswi1": {
+   "name": "Alpine Swift",
+   "sci": "Tachymarptis melba",
+   "family": "Swifts",
+   "reason": "all",
+   "before": "review_imgs/alpswi1/before.png",
+   "ref": "review_imgs/alpswi1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/alpswi1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.845,
+     "pose": 0.003,
+     "bird": 0.956
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/alpswi1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.87,
+     "pose": 0.007,
+     "bird": 0.595
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/alpswi1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.848,
+     "pose": 0.003,
+     "bird": 0.585
+    }
+   ]
   }
  }
 }
