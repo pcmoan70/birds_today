@@ -2547,6 +2547,196 @@
      "bird": 0.536
     }
    ]
+  },
+  "bkbplo": {
+   "name": "Black-bellied Plover",
+   "sci": "Pluvialis squatarola",
+   "family": "Plovers and Lapwings",
+   "reason": "all",
+   "before": "review_imgs/bkbplo/before.png",
+   "ref": "review_imgs/bkbplo/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bkbplo/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.842,
+     "pose": 0.315,
+     "bird": 0.759
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bkbplo/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.816,
+     "pose": 0.333,
+     "bird": 0.697
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bkbplo/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.827,
+     "pose": 0.159,
+     "bird": 0.404
+    }
+   ]
+  },
+  "bkewhe1": {
+   "name": "Western Black-eared Wheatear",
+   "sci": "Oenanthe hispanica",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/bkewhe1/before.png",
+   "ref": "review_imgs/bkewhe1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bkewhe1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.783,
+     "pose": 0.526,
+     "bird": 0.911
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bkewhe1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.797,
+     "pose": 0.431,
+     "bird": 0.806
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bkewhe1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.707,
+     "pose": 0.432,
+     "bird": 0.609
+    }
+   ]
+  },
+  "bkewhe2": {
+   "name": "Eastern Black-eared Wheatear",
+   "sci": "Oenanthe melanoleuca",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/bkewhe2/before.png",
+   "ref": "review_imgs/bkewhe2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bkewhe2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.927,
+     "pose": 0.361,
+     "bird": 0.951
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bkewhe2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.909,
+     "pose": 0.273,
+     "bird": 0.952
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bkewhe2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.904,
+     "pose": 0.227,
+     "bird": 0.859
+    }
+   ]
+  },
+  "bkhgul": {
+   "name": "Black-headed Gull",
+   "sci": "Chroicocephalus ridibundus",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/bkhgul/before.png",
+   "ref": "review_imgs/bkhgul/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bkhgul/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.903,
+     "pose": 0.22,
+     "bird": 0.831
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bkhgul/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.934,
+     "pose": 0.199,
+     "bird": 0.623
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bkhgul/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.914,
+     "pose": 0.142,
+     "bird": 0.682
+    }
+   ]
+  },
+  "bklkit": {
+   "name": "Black-legged Kittiwake",
+   "sci": "Rissa tridactyla",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/bklkit/before.png",
+   "ref": "review_imgs/bklkit/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bklkit/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.914,
+     "pose": 0.38,
+     "bird": 0.898
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bklkit/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.919,
+     "pose": 0.34,
+     "bird": 0.905
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bklkit/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.889,
+     "pose": 0.16,
+     "bird": 0.891
+    }
+   ]
   }
  }
 }

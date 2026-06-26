@@ -2149,7 +2149,7 @@
       ]
     },
     "faces": {
-      "bkewhe2/sitting_0.png": "right"
+      "bkewhe2/sitting_0.png": "left"
     },
     "credits": {
       "bkewhe2/sitting_0.png": {
@@ -2224,7 +2224,7 @@
     },
     "faces": {
       "bkhgul/flying_0.png": "right",
-      "bkhgul/sitting_0.png": "left"
+      "bkhgul/sitting_0.png": "right"
     },
     "credits": {
       "bkhgul/flying_0.png": {
