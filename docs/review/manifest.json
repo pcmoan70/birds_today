@@ -6047,6 +6047,196 @@
      "bird": 0.428
     }
    ]
+  },
+  "delpri1": {
+   "name": "Delicate Prinia",
+   "sci": "Prinia lepida",
+   "family": "Cisticolas and Allies",
+   "reason": "all",
+   "before": "review_imgs/delpri1/before.png",
+   "ref": "review_imgs/delpri1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/delpri1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.858,
+     "pose": 0.299,
+     "bird": 0.851
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/delpri1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.892,
+     "pose": 0.299,
+     "bird": 0.735
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/delpri1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.87,
+     "pose": 0.235,
+     "bird": 0.71
+    }
+   ]
+  },
+  "desfin2": {
+   "name": "Desert Finch",
+   "sci": "Rhodospiza obsoleta",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/desfin2/before.png",
+   "ref": "review_imgs/desfin2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/desfin2/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.866,
+     "pose": 0.201,
+     "bird": 0.798
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/desfin2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.894,
+     "pose": 0.156,
+     "bird": 0.575
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/desfin2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.858,
+     "pose": 0.162,
+     "bird": 0.422
+    }
+   ]
+  },
+  "desspa1": {
+   "name": "Dead Sea Sparrow",
+   "sci": "Passer moabiticus",
+   "family": "Old World Sparrows",
+   "reason": "all",
+   "before": "review_imgs/desspa1/before.png",
+   "ref": "review_imgs/desspa1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/desspa1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.929,
+     "pose": 0.28,
+     "bird": 0.873
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/desspa1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.906,
+     "pose": 0.284,
+     "bird": 0.889
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/desspa1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.902,
+     "pose": 0.333,
+     "bird": 0.772
+    }
+   ]
+  },
+  "deswhe1": {
+   "name": "Desert Wheatear",
+   "sci": "Oenanthe deserti",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/deswhe1/before.png",
+   "ref": "review_imgs/deswhe1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/deswhe1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.92,
+     "pose": 0.381,
+     "bird": 0.911
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/deswhe1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.914,
+     "pose": 0.258,
+     "bird": 0.844
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/deswhe1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.91,
+     "pose": 0.17,
+     "bird": 0.646
+    }
+   ]
+  },
+  "diadov1": {
+   "name": "Diamond Dove",
+   "sci": "Geopelia cuneata",
+   "family": "Pigeons and Doves",
+   "reason": "all",
+   "before": "review_imgs/diadov1/before.png",
+   "ref": "review_imgs/diadov1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/diadov1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.796,
+     "pose": 0.234,
+     "bird": 0.769
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/diadov1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.801,
+     "pose": 0.157,
+     "bird": 0.543
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/diadov1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.804,
+     "pose": 0.247,
+     "bird": 0.307
+    }
+   ]
   }
  }
 }
