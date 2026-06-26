@@ -7748,7 +7748,7 @@
     },
     "faces": {
       "comqua1/flying_0.png": "right",
-      "comqua1/sitting_0.png": "right"
+      "comqua1/sitting_0.png": "left"
     },
     "credits": {
       "comqua1/flying_0.png": {
@@ -7902,7 +7902,7 @@
       ]
     },
     "faces": {
-      "comred1/sitting_0.png": "left"
+      "comred1/sitting_0.png": "right"
     },
     "credits": {
       "comred1/sitting_0.png": {
