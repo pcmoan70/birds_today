@@ -4952,6 +4952,196 @@
      "bird": 0.443
     }
    ]
+  },
+  "comhom1": {
+   "name": "Western House-Martin",
+   "sci": "Delichon urbicum",
+   "family": "Swallows and Martins",
+   "reason": "all",
+   "before": "review_imgs/comhom1/before.png",
+   "ref": "review_imgs/comhom1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comhom1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.887,
+     "pose": 0.01,
+     "bird": 0.405
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comhom1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.911,
+     "pose": 0.026,
+     "bird": 0.037
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comhom1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.892,
+     "pose": 0.008,
+     "bird": 0.054
+    }
+   ]
+  },
+  "comkin1": {
+   "name": "Common Kingfisher",
+   "sci": "Alcedo atthis",
+   "family": "Kingfishers",
+   "reason": "all",
+   "before": "review_imgs/comkin1/before.png",
+   "ref": "review_imgs/comkin1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comkin1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.928,
+     "pose": 0.514,
+     "bird": 0.239
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comkin1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.876,
+     "pose": 0.509,
+     "bird": 0.215
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comkin1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.897,
+     "pose": 0.365,
+     "bird": 0.27
+    }
+   ]
+  },
+  "comloo": {
+   "name": "Common Loon",
+   "sci": "Gavia immer",
+   "family": "Loons",
+   "reason": "all",
+   "before": "review_imgs/comloo/before.png",
+   "ref": "review_imgs/comloo/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comloo/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.874,
+     "pose": 0.662,
+     "bird": 0.493
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comloo/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.846,
+     "pose": 0.576,
+     "bird": 0.45
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comloo/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.858,
+     "pose": 0.306,
+     "bird": 0.284
+    }
+   ]
+  },
+  "commer": {
+   "name": "Common Merganser",
+   "sci": "Mergus merganser",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/commer/before.png",
+   "ref": "review_imgs/commer/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/commer/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.646,
+     "pose": 0.295,
+     "bird": 0.863
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/commer/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.551,
+     "pose": 0.37,
+     "bird": 0.933
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/commer/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.542,
+     "pose": 0.108,
+     "bird": 0.1
+    }
+   ]
+  },
+  "commoo3": {
+   "name": "Eurasian Moorhen",
+   "sci": "Gallinula chloropus",
+   "family": "Rails, Gallinules, and Coots",
+   "reason": "all",
+   "before": "review_imgs/commoo3/before.png",
+   "ref": "review_imgs/commoo3/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/commoo3/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.882,
+     "pose": 0.211,
+     "bird": 0.903
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/commoo3/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.852,
+     "pose": 0.161,
+     "bird": 0.778
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/commoo3/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.831,
+     "pose": 0.303,
+     "bird": 0.479
+    }
+   ]
   }
  }
 }
