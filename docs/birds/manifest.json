@@ -3423,7 +3423,7 @@
     },
     "faces": {
       "blksco1/flying_0.png": "right",
-      "blksco1/sitting_0.png": "right"
+      "blksco1/sitting_0.png": "left"
     },
     "credits": {
       "blksco1/flying_0.png": {
@@ -3568,13 +3568,23 @@
     "stances": {
       "flying": [
         "blkter/flying_0.png"
+      ],
+      "sitting": [
+        "blkter/sitting_0.png"
       ]
     },
     "faces": {
-      "blkter/flying_0.png": "right"
+      "blkter/flying_0.png": "right",
+      "blkter/sitting_0.png": "left"
     },
     "credits": {
       "blkter/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "blkter/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",

@@ -3269,6 +3269,178 @@
      "bird": 0.77
     }
    ]
+  },
+  "blksco1": {
+   "name": "Common Scoter",
+   "sci": "Melanitta nigra",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/blksco1/before.png",
+   "ref": "review_imgs/blksco1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blksco1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.765,
+     "pose": 0.565,
+     "bird": 0.792
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blksco1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.771,
+     "pose": 0.357,
+     "bird": 0.518
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blksco1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.725,
+     "pose": 0.257,
+     "bird": 0.46
+    }
+   ]
+  },
+  "blkswa": {
+   "name": "Black Swan",
+   "sci": "Cygnus atratus",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/blkswa/before.png",
+   "ref": "review_imgs/blkswa/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blkswa/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.932,
+     "pose": 0.384,
+     "bird": 0.89
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blkswa/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.905,
+     "pose": 0.263,
+     "bird": 0.851
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blkswa/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.924,
+     "pose": 0.294,
+     "bird": 0.774
+    }
+   ]
+  },
+  "blkter": {
+   "name": "Black Tern",
+   "sci": "Chlidonias niger",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": null,
+   "ref": "review_imgs/blkter/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blkter/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.716,
+     "pose": 0.195,
+     "bird": 0.836
+    }
+   ]
+  },
+  "blrwar1": {
+   "name": "Blyth's Reed Warbler",
+   "sci": "Acrocephalus dumetorum",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/blrwar1/before.png",
+   "ref": "review_imgs/blrwar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blrwar1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.825,
+     "pose": 0.336,
+     "bird": 0.494
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blrwar1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.853,
+     "pose": 0.297,
+     "bird": 0.333
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blrwar1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.824,
+     "pose": 0.26,
+     "bird": 0.203
+    }
+   ]
+  },
+  "blueth": {
+   "name": "Bluethroat",
+   "sci": "Luscinia svecica",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/blueth/before.png",
+   "ref": "review_imgs/blueth/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blueth/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.899,
+     "pose": 0.175,
+     "bird": 0.948
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blueth/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.895,
+     "pose": 0.201,
+     "bird": 0.709
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blueth/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.895,
+     "pose": 0.047,
+     "bird": 0.718
+    }
+   ]
   }
  }
 }
