@@ -1559,6 +1559,44 @@
      "bird": 0.294
     }
    ]
+  },
+  "cypwhe1": {
+   "name": "Cyprus Wheatear",
+   "sci": "Oenanthe cypriaca",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "object",
+   "before": null,
+   "ref": "review_imgs/cypwhe1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cypwhe1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.682,
+     "pose": 0.086,
+     "bird": 0.976
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cypwhe1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.679,
+     "pose": 0.037,
+     "bird": 0.9
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cypwhe1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.695,
+     "pose": 0.145,
+     "bird": 0.449
+    }
+   ]
   }
  }
 }
