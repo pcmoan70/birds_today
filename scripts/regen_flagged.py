@@ -203,6 +203,18 @@ def prep_init(ref_path, sess, size=1024):
 
 
 VARIANTS = [(1000, 0.60), (1001, 0.68), (1002, 0.74)]
+MAX_EDGE = 512   # display is <=220px (~440px retina); 512 is ample, smaller files
+
+
+def save_small(im, path, colors=200):
+    """Save an RGBA cutout compactly: keep the soft alpha edge, but quantise the
+    RGB to a palette so PNG compresses far better (no visible loss at this size).
+    Matches how the book plates are stored."""
+    im = im.convert("RGBA")
+    q = im.convert("RGB").quantize(colors=colors, method=Image.FASTOCTREE,
+                                   dither=Image.NONE).convert("RGBA")
+    q.putalpha(im.getchannel("A"))
+    q.save(path, optimize=True)
 
 
 def gen_best(pipe, sess, code, sp, pose, ref_path, fams):
@@ -216,7 +228,7 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams):
         out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt, image=init,
                    strength=strength, num_inference_steps=28, guidance_scale=3.5,
                    generator=gen).images[0]
-        ci = cut.cut_pil(out, sess, 640)
+        ci = cut.cut_pil(out, sess, MAX_EDGE)
         if ci is not None:
             variants.append((ci, seed, strength))
     if not variants:
@@ -240,7 +252,7 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams):
     vmeta = []
     for rank, i in enumerate(order):
         vid = f"v{rank}"
-        variants[i][0].save(os.path.join(vdir, f"{vid}.png"))
+        save_small(variants[i][0], os.path.join(vdir, f"{vid}.png"))
         vmeta.append({"id": vid, "img": f"review_imgs/{code}/{vid}.png",
                       "seed": variants[i][1], "strength": variants[i][2],
                       "sim": round(sims[i], 3), "pose": round(pose_p[i], 3),
@@ -251,7 +263,7 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams):
     dst = os.path.join(OUT, code)
     os.makedirs(dst, exist_ok=True)
     png = os.path.join(dst, f"{pose}_0.png")
-    best[0].save(png)
+    save_small(best[0], png)
     with open(png + ".json", "w", encoding="utf-8") as jf:
         json.dump({"source": "generated", "model": "black-forest-labs/FLUX.1-dev",
                    "style": "fieldguide", "prompt": prompt, "pose": pose,

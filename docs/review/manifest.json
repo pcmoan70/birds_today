@@ -2927,6 +2927,158 @@
      "bird": 0.165
     }
    ]
+  },
+  "blakit1": {
+   "name": "Black Kite",
+   "sci": "Milvus migrans",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/blakit1/before.png",
+   "ref": "review_imgs/blakit1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blakit1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.818,
+     "pose": 0.413,
+     "bird": 0.506
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blakit1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.796,
+     "pose": 0.158,
+     "bird": 0.752
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blakit1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.835,
+     "pose": 0.216,
+     "bird": 0.407
+    }
+   ]
+  },
+  "blared1": {
+   "name": "Black Redstart",
+   "sci": "Phoenicurus ochruros",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/blared1/before.png",
+   "ref": "review_imgs/blared1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blared1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.918,
+     "pose": 0.224,
+     "bird": 0.84
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blared1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.883,
+     "pose": 0.215,
+     "bird": 0.297
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blared1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.886,
+     "pose": 0.136,
+     "bird": 0.193
+    }
+   ]
+  },
+  "blasto1": {
+   "name": "Black Stork",
+   "sci": "Ciconia nigra",
+   "family": "Storks",
+   "reason": "all",
+   "before": "review_imgs/blasto1/before.png",
+   "ref": "review_imgs/blasto1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blasto1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.886,
+     "pose": 0.094,
+     "bird": 0.881
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blasto1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.863,
+     "pose": 0.137,
+     "bird": 0.772
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blasto1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.837,
+     "pose": 0.146,
+     "bird": 0.788
+    }
+   ]
+  },
+  "blawhe1": {
+   "name": "Black Wheatear",
+   "sci": "Oenanthe leucura",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/blawhe1/before.png",
+   "ref": "review_imgs/blawhe1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blawhe1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.874,
+     "pose": 0.331,
+     "bird": 0.534
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blawhe1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.892,
+     "pose": 0.27,
+     "bird": 0.459
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blawhe1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.872,
+     "pose": 0.122,
+     "bird": 0.36
+    }
+   ]
   }
  }
 }
