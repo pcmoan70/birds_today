@@ -4572,6 +4572,196 @@
      "bird": 0.659
     }
    ]
+  },
+  "colfly1": {
+   "name": "Collared Flycatcher",
+   "sci": "Ficedula albicollis",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/colfly1/before.png",
+   "ref": "review_imgs/colfly1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/colfly1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.769,
+     "pose": 0.547,
+     "bird": 0.888
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/colfly1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.755,
+     "pose": 0.398,
+     "bird": 0.933
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/colfly1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.782,
+     "pose": 0.35,
+     "bird": 0.852
+    }
+   ]
+  },
+  "colpra": {
+   "name": "Collared Pratincole",
+   "sci": "Glareola pratincola",
+   "family": "Pratincoles and Coursers",
+   "reason": "all",
+   "before": "review_imgs/colpra/before.png",
+   "ref": "review_imgs/colpra/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/colpra/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.884,
+     "pose": 0.458,
+     "bird": 0.597
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/colpra/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.921,
+     "pose": 0.188,
+     "bird": 0.669
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/colpra/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.91,
+     "pose": 0.157,
+     "bird": 0.535
+    }
+   ]
+  },
+  "combul2": {
+   "name": "Common Bulbul",
+   "sci": "Pycnonotus barbatus",
+   "family": "Bulbuls",
+   "reason": "all",
+   "before": "review_imgs/combul2/before.png",
+   "ref": "review_imgs/combul2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/combul2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.85,
+     "pose": 0.18,
+     "bird": 0.671
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/combul2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.846,
+     "pose": 0.153,
+     "bird": 0.544
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/combul2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.838,
+     "pose": 0.07,
+     "bird": 0.6
+    }
+   ]
+  },
+  "comcan": {
+   "name": "Island Canary",
+   "sci": "Serinus canaria",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/comcan/before.png",
+   "ref": "review_imgs/comcan/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comcan/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.937,
+     "pose": 0.204,
+     "bird": 0.271
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comcan/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.918,
+     "pose": 0.234,
+     "bird": 0.278
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comcan/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.886,
+     "pose": 0.159,
+     "bird": 0.081
+    }
+   ]
+  },
+  "comcha": {
+   "name": "Common Chaffinch",
+   "sci": "Fringilla coelebs",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": null,
+   "ref": "review_imgs/comcha/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comcha/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.92,
+     "pose": 0.173,
+     "bird": 0.596
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comcha/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.873,
+     "pose": 0.131,
+     "bird": 0.495
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comcha/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.906,
+     "pose": 0.183,
+     "bird": 0.236
+    }
+   ]
   }
  }
 }
