@@ -9058,7 +9058,7 @@
     },
     "faces": {
       "crelar1/flying_0.png": "right",
-      "crelar1/sitting_0.png": "left"
+      "crelar1/sitting_0.png": "right"
     },
     "credits": {
       "crelar1/flying_0.png": {
@@ -9133,7 +9133,7 @@
     },
     "faces": {
       "cretit2/flying_0.png": "left",
-      "cretit2/sitting_0.png": "left"
+      "cretit2/sitting_0.png": "right"
     },
     "credits": {
       "cretit2/flying_0.png": {
@@ -9479,7 +9479,7 @@
     },
     "faces": {
       "dalpel1/flying_0.png": "left",
-      "dalpel1/sitting_0.png": "left"
+      "dalpel1/sitting_0.png": "right"
     },
     "credits": {
       "dalpel1/flying_0.png": {
@@ -9547,7 +9547,7 @@
       ]
     },
     "faces": {
-      "darwar1/sitting_0.png": "right"
+      "darwar1/sitting_0.png": "left"
     },
     "credits": {
       "darwar1/sitting_0.png": {
