@@ -29643,7 +29643,7 @@
       ]
     },
     "faces": {
-      "rusbun/sitting_0.png": "right"
+      "rusbun/sitting_0.png": "left"
     },
     "credits": {
       "rusbun/sitting_0.png": {
@@ -32726,7 +32726,7 @@
     },
     "faces": {
       "taibeg1/flying_0.png": "left",
-      "taibeg1/sitting_0.png": "right"
+      "taibeg1/sitting_0.png": "left"
     },
     "credits": {
       "taibeg1/flying_0.png": {
@@ -32875,7 +32875,7 @@
       ]
     },
     "faces": {
-      "tawpip1/sitting_0.png": "right"
+      "tawpip1/sitting_0.png": "left"
     },
     "credits": {
       "tawpip1/sitting_0.png": {

@@ -231,29 +231,29 @@
     {
      "id": "v0",
      "img": "review_imgs/lwfgoo/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.76,
-     "pose": 0.242,
-     "bird": 0.964
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.889,
+     "pose": 0.107,
+     "bird": 0.937
     },
     {
      "id": "v1",
      "img": "review_imgs/lwfgoo/v1.png",
      "seed": 1000,
      "strength": 0.6,
-     "sim": 0.794,
-     "pose": 0.635,
-     "bird": 0.463
+     "sim": 0.892,
+     "pose": 0.06,
+     "bird": 0.895
     },
     {
      "id": "v2",
      "img": "review_imgs/lwfgoo/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.791,
-     "pose": 0.13,
-     "bird": 0.799
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.85,
+     "pose": 0.072,
+     "bird": 0.928
     }
    ]
   },
@@ -271,27 +271,27 @@
      "img": "review_imgs/mouwar1/v0.png",
      "seed": 1001,
      "strength": 0.68,
-     "sim": 0.849,
-     "pose": 0.55,
-     "bird": 0.813
+     "sim": 0.841,
+     "pose": 0.327,
+     "bird": 0.795
     },
     {
      "id": "v1",
      "img": "review_imgs/mouwar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.89,
-     "pose": 0.56,
-     "bird": 0.637
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.877,
+     "pose": 0.302,
+     "bird": 0.09
     },
     {
      "id": "v2",
      "img": "review_imgs/mouwar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.876,
-     "pose": 0.278,
-     "bird": 0.267
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.908,
+     "pose": 0.271,
+     "bird": 0.028
     }
    ]
   },
@@ -307,29 +307,29 @@
     {
      "id": "v0",
      "img": "review_imgs/rusbun/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.861,
-     "pose": 0.495,
-     "bird": 0.823
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.889,
+     "pose": 0.325,
+     "bird": 0.545
     },
     {
      "id": "v1",
      "img": "review_imgs/rusbun/v1.png",
      "seed": 1000,
      "strength": 0.6,
-     "sim": 0.897,
-     "pose": 0.21,
-     "bird": 0.862
+     "sim": 0.916,
+     "pose": 0.366,
+     "bird": 0.382
     },
     {
      "id": "v2",
      "img": "review_imgs/rusbun/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.874,
-     "pose": 0.269,
-     "bird": 0.432
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.873,
+     "pose": 0.117,
+     "bird": 0.226
     }
    ]
   },
@@ -347,27 +347,27 @@
      "img": "review_imgs/taibeg1/v0.png",
      "seed": 1000,
      "strength": 0.6,
-     "sim": 0.911,
-     "pose": 0.44,
-     "bird": 0.854
+     "sim": 0.912,
+     "pose": 0.621,
+     "bird": 0.951
     },
     {
      "id": "v1",
      "img": "review_imgs/taibeg1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.859,
-     "pose": 0.368,
-     "bird": 0.906
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.909,
+     "pose": 0.569,
+     "bird": 0.936
     },
     {
      "id": "v2",
      "img": "review_imgs/taibeg1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.891,
-     "pose": 0.33,
-     "bird": 0.609
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.899,
+     "pose": 0.543,
+     "bird": 0.967
     }
    ]
   },
@@ -383,29 +383,29 @@
     {
      "id": "v0",
      "img": "review_imgs/tawpip1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.936,
-     "pose": 0.287,
-     "bird": 0.297
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.783,
+     "pose": 0.307,
+     "bird": 0.955
     },
     {
      "id": "v1",
      "img": "review_imgs/tawpip1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.935,
-     "pose": 0.316,
-     "bird": 0.271
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.783,
+     "pose": 0.186,
+     "bird": 0.843
     },
     {
      "id": "v2",
      "img": "review_imgs/tawpip1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.908,
-     "pose": 0.25,
-     "bird": 0.295
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.773,
+     "pose": 0.219,
+     "bird": 0.777
     }
    ]
   },
@@ -421,29 +421,29 @@
     {
      "id": "v0",
      "img": "review_imgs/tunswa/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.945,
-     "pose": 0.598,
-     "bird": 0.97
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.941,
+     "pose": 0.6,
+     "bird": 0.962
     },
     {
      "id": "v1",
      "img": "review_imgs/tunswa/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.946,
-     "pose": 0.46,
-     "bird": 0.941
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.916,
+     "pose": 0.403,
+     "bird": 0.957
     },
     {
      "id": "v2",
      "img": "review_imgs/tunswa/v2.png",
      "seed": 1001,
      "strength": 0.68,
-     "sim": 0.951,
-     "pose": 0.442,
-     "bird": 0.941
+     "sim": 0.944,
+     "pose": 0.303,
+     "bird": 0.95
     }
    ]
   },
