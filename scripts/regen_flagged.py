@@ -49,6 +49,8 @@ OUT = os.path.join(ROOT, "docs", "birds")
 QCDIR = os.path.join(HERE, "qc_out")
 BA = os.path.join(QCDIR, "ba")
 FAMILIES = os.path.join(HERE, "families.json")
+IDFEATURES = os.path.join(HERE, "id_features.json")
+RECIPE = "v4-macaulay-id"   # primary Macaulay reference + ID-feature prompt
 REVIEW_IMGS = os.path.join(ROOT, "docs", "review_imgs")   # variant images (on Pages)
 REVIEW_MAN = os.path.join(ROOT, "docs", "review", "manifest.json")
 PUSH_EVERY = 5
@@ -93,17 +95,23 @@ def load_families():
     return json.load(open(FAMILIES, encoding="utf-8")) if os.path.exists(FAMILIES) else {}
 
 
-def improved_prompt(common, sci, code, stance, fams):
+def load_id_features():
+    return json.load(open(IDFEATURES, encoding="utf-8")) if os.path.exists(IDFEATURES) else {}
+
+
+def improved_prompt(common, sci, code, stance, fams, ids):
     fam = fams.get(code) or [None, None]
     fam_clause = ""
     if fam[0]:
         en = f" ({fam[1]})" if fam[1] else ""
         fam_clause = f", a member of the family {fam[0]}{en}"
+    id_text = (ids or {}).get(code, "").strip()
+    id_clause = f" Identification — emphasise these field marks: {id_text}" if id_text else ""
     return (G.STYLES["fieldguide"]["prompt"] + ". "
-            f"A {common} ({sci}){fam_clause}, {G.STANCES[stance]['desc']}. "
+            f"A {common} ({sci}){fam_clause}, {G.STANCES[stance]['desc']}.{id_clause} "
             "Depict a typical wild adult in natural, accurate, muted plumage "
-            "colours, true to the reference photograph; avoid over-saturated or "
-            f"exaggerated colours. {G.ANATOMY}.")
+            "colours, true to these field marks and the reference photograph; "
+            f"avoid over-saturated or exaggerated colours. {G.ANATOMY}.")
 
 
 def sharp(im):
@@ -196,10 +204,24 @@ def best_ref(sp, code, sess):
         return None
     obj = QC.clip_probs(imgs, [QC.POS] + QC.NEG)[:, 0].tolist()
     pose = QC.clip_probs(imgs, [POSE_GOOD] + POSE_BAD)[:, 0].tolist()
+    fast = _fast_session()
+
+    # whoBIRD/Macaulay curated photo is the PRIMARY reference. If present and it
+    # clears a basic quality gate (real bird, fully in frame, not tiny), use it
+    # directly; only fall back to other sources if it fails the gate.
+    wb = next((i for i, s in enumerate(srcs) if s == "whobird"), None)
+    if wb is not None:
+        whole, subj = _wholeness(_mask(imgs[wb], fast))
+        if obj[wb] > 0.5 and whole > 0.55 and subj > 0.05:
+            print(f"    ref[whobird PRIMARY]: bird={obj[wb]:.2f} pose={pose[wb]:.2f} "
+                  f"whole={whole:.2f} subj={subj:.2f} (of {len(imgs)})")
+            return tmp[wb], "whobird"
+        print(f"    whobird ref weak (bird={obj[wb]:.2f} whole={whole:.2f} "
+              f"subj={subj:.2f}); falling back to other sources")
+
     # CLIP is cheap; the whole-bird mask is not. Only mask the most promising
     # candidates (top real-bird + pose) with the fast model.
     pre = sorted(range(len(imgs)), key=lambda i: obj[i] + 0.6 * pose[i], reverse=True)
-    fast = _fast_session()
     scored = []
     for i in pre[:8]:
         whole, subj = _wholeness(_mask(imgs[i], fast))
@@ -254,10 +276,10 @@ def save_small(im, path, colors=200):
     q.save(path, optimize=True)
 
 
-def gen_best(pipe, sess, code, sp, pose, ref_path, fams):
+def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids):
     """Generate several seed/strength variants and keep the best one (most
     consistent with the reference, clearest perched bird)."""
-    prompt = improved_prompt(sp["common"], sp["sci"], code, pose, fams)
+    prompt = improved_prompt(sp["common"], sp["sci"], code, pose, fams, ids)
     init = prep_init(ref_path, sess)
     variants = []
     for seed, strength in VARIANTS:
@@ -305,16 +327,16 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams):
         json.dump({"source": "generated", "model": "black-forest-labs/FLUX.1-dev",
                    "style": "fieldguide", "prompt": prompt, "pose": pose,
                    "reference": os.path.basename(ref_path), "strength": best[2],
-                   "seed": best[1], "recipe": "v3-pose-bestof"}, jf,
+                   "seed": best[1], "recipe": RECIPE}, jf,
                   ensure_ascii=False, indent=2)
     return {"png": png, "chosen": "v0", "variants": vmeta}
 
 
-def _is_v3_done(code):
-    """True if this species' sitting image already came from the v3 pipeline."""
+def _is_done(code):
+    """True if this species' sitting image already came from the current recipe."""
     j = os.path.join(OUT, code, "sitting_0.png.json")
     try:
-        return str(json.load(open(j, encoding="utf-8")).get("recipe", "")).startswith("v3")
+        return str(json.load(open(j, encoding="utf-8")).get("recipe", "")) == RECIPE
     except Exception:
         return False
 
@@ -330,13 +352,14 @@ def main():
 
     by_code = {s["code"]: s for s in load_species()}
     fams = load_families()
+    ids = load_id_features()
 
     if args.codes:
         flagged = [{"code": c.strip(), "reason": "manual"} for c in args.codes.split(",")]
     elif args.all:
         man = json.load(open(os.path.join(OUT, "manifest.json"), encoding="utf-8"))
         codes = list(man["species"]) if isinstance(man, dict) and "species" in man else list(man)
-        flagged = [{"code": c, "reason": "all"} for c in codes if not _is_v3_done(c)]
+        flagged = [{"code": c, "reason": "all"} for c in codes if not _is_done(c)]
         # fetch any missing families up front (best-effort)
         try:
             miss = [r["code"] for r in flagged if r["code"] not in fams]
@@ -409,7 +432,7 @@ def main():
             shutil.copy(newref, ref_jpg)
             ref_rel = f"review_imgs/{code}/ref.jpg"
         res = gen_best(pipe, sess, code, sp, "sitting",
-                       os.path.join(d, "sitting_0.jpg"), fams)
+                       os.path.join(d, "sitting_0.jpg"), fams, ids)
         if not res:
             continue
         shutil.copy(res["png"], os.path.join(BA, f"{code}_after.png"))
