@@ -9482,6 +9482,206 @@
      "bird": 0.161
     }
    ]
+  },
+  "grscuc1": {
+   "name": "Great Spotted Cuckoo",
+   "sci": "Clamator glandarius",
+   "family": "Cuckoos",
+   "reason": "all",
+   "before": "review_imgs/grscuc1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/97496771/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grscuc1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.856,
+     "pose": 0.081,
+     "bird": 0.819
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grscuc1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.833,
+     "pose": 0.062,
+     "bird": 0.28
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grscuc1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.74,
+     "pose": 0.09,
+     "bird": 0.288
+    }
+   ]
+  },
+  "grseag1": {
+   "name": "Greater Spotted Eagle",
+   "sci": "Clanga clanga",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/grseag1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43621161/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grseag1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.806,
+     "pose": 0.018,
+     "bird": 0.729
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grseag1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.796,
+     "pose": 0.011,
+     "bird": 0.627
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grseag1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.791,
+     "pose": 0.018,
+     "bird": 0.435
+    }
+   ]
+  },
+  "grswoo": {
+   "name": "Great Spotted Woodpecker",
+   "sci": "Dendrocopos major",
+   "family": "Woodpeckers",
+   "reason": "all",
+   "before": "review_imgs/grswoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/180000101/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grswoo/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.885,
+     "pose": 0.165,
+     "bird": 0.759
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grswoo/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.898,
+     "pose": 0.136,
+     "bird": 0.75
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grswoo/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.89,
+     "pose": 0.109,
+     "bird": 0.733
+    }
+   ]
+  },
+  "grwpel1": {
+   "name": "Great White Pelican",
+   "sci": "Pelecanus onocrotalus",
+   "family": "Pelicans",
+   "reason": "all",
+   "before": "review_imgs/grwpel1/before.png",
+   "ref": "review_imgs/grwpel1/ref.jpg",
+   "ref_source": "inaturalist",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grwpel1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.898,
+     "pose": 0.341,
+     "bird": 0.641
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grwpel1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.903,
+     "pose": 0.225,
+     "bird": 0.741
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grwpel1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.896,
+     "pose": 0.345,
+     "bird": 0.355
+    }
+   ]
+  },
+  "grypar": {
+   "name": "Gray Partridge",
+   "sci": "Perdix perdix",
+   "family": "Pheasants, Grouse, and Allies",
+   "reason": "all",
+   "before": "review_imgs/grypar/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204300471/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grypar/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.885,
+     "pose": 0.307,
+     "bird": 0.576
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grypar/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.889,
+     "pose": 0.194,
+     "bird": 0.625
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grypar/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.893,
+     "pose": 0.317,
+     "bird": 0.465
+    }
+   ]
   }
  }
 }
