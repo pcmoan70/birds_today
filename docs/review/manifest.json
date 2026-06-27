@@ -6943,6 +6943,206 @@
      "bird": 0.584
     }
    ]
+  },
+  "eurjac": {
+   "name": "Eurasian Jackdaw",
+   "sci": "Coloeus monedula",
+   "family": "Crows, Jays, and Magpies",
+   "reason": "all",
+   "before": "review_imgs/eurjac/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35496821/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurjac/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.911,
+     "pose": 0.197,
+     "bird": 0.231
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurjac/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.915,
+     "pose": 0.114,
+     "bird": 0.24
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurjac/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.908,
+     "pose": 0.054,
+     "bird": 0.199
+    }
+   ]
+  },
+  "eurjay1": {
+   "name": "Eurasian Jay",
+   "sci": "Garrulus glandarius",
+   "family": "Crows, Jays, and Magpies",
+   "reason": "all",
+   "before": "review_imgs/eurjay1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241250451/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurjay1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.894,
+     "pose": 0.12,
+     "bird": 0.614
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurjay1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.877,
+     "pose": 0.095,
+     "bird": 0.635
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurjay1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.808,
+     "pose": 0.046,
+     "bird": 0.623
+    }
+   ]
+  },
+  "eurkes": {
+   "name": "Eurasian Kestrel",
+   "sci": "Falco tinnunculus",
+   "family": "Falcons and Caracaras",
+   "reason": "all",
+   "before": "review_imgs/eurkes/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/234114551/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurkes/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.921,
+     "pose": 0.696,
+     "bird": 0.694
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurkes/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.939,
+     "pose": 0.461,
+     "bird": 0.546
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurkes/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.915,
+     "pose": 0.449,
+     "bird": 0.562
+    }
+   ]
+  },
+  "eurlin1": {
+   "name": "Eurasian Linnet",
+   "sci": "Linaria cannabina",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurlin1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/146165661/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurlin1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.891,
+     "pose": 0.117,
+     "bird": 0.916
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurlin1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.865,
+     "pose": 0.176,
+     "bird": 0.907
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurlin1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.854,
+     "pose": 0.08,
+     "bird": 0.89
+    }
+   ]
+  },
+  "eurmag1": {
+   "name": "Eurasian Magpie",
+   "sci": "Pica pica",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/eurmag1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/427971511/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurmag1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.905,
+     "pose": 0.039,
+     "bird": 0.904
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurmag1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.908,
+     "pose": 0.058,
+     "bird": 0.759
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurmag1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.912,
+     "pose": 0.055,
+     "bird": 0.653
+    }
+   ]
   }
  }
 }
