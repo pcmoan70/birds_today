@@ -7187,6 +7187,187 @@
      "bird": 0.696
     }
    ]
+  },
+  "eurbla": {
+   "name": "Eurasian Blackbird",
+   "sci": "Turdus merula",
+   "family": "Thrushes",
+   "reason": "all",
+   "before": "review_imgs/eurbla/before.png",
+   "ref": "review_imgs/eurbla/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurbla/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.849,
+     "pose": 0.523,
+     "bird": 0.629
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurbla/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.836,
+     "pose": 0.495,
+     "bird": 0.651
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurbla/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.833,
+     "pose": 0.385,
+     "bird": 0.416
+    }
+   ]
+  },
+  "eurbul": {
+   "name": "Eurasian Bullfinch",
+   "sci": "Pyrrhula pyrrhula",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurbul/before.png",
+   "ref": "review_imgs/eurbul/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurbul/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.904,
+     "pose": 0.202,
+     "bird": 0.656
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurbul/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.917,
+     "pose": 0.123,
+     "bird": 0.631
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurbul/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.859,
+     "pose": 0.107,
+     "bird": 0.658
+    }
+   ]
+  },
+  "eurcur": {
+   "name": "Eurasian Curlew",
+   "sci": "Numenius arquata",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurcur/before.png",
+   "ref": "review_imgs/eurcur/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurcur/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.676,
+     "pose": 0.55,
+     "bird": 0.479
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurcur/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.648,
+     "pose": 0.125,
+     "bird": 0.865
+    }
+   ]
+  },
+  "eurdot": {
+   "name": "Eurasian Dotterel",
+   "sci": "Eudromias morinellus",
+   "family": "Plovers and Lapwings",
+   "reason": "all",
+   "before": "review_imgs/eurdot/before.png",
+   "ref": "review_imgs/eurdot/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurdot/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.918,
+     "pose": 0.552,
+     "bird": 0.667
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurdot/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.916,
+     "pose": 0.261,
+     "bird": 0.443
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurdot/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.928,
+     "pose": 0.339,
+     "bird": 0.236
+    }
+   ]
+  },
+  "eurgol1": {
+   "name": "European Goldfinch",
+   "sci": "Carduelis carduelis",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurgol1/before.png",
+   "ref": "review_imgs/eurgol1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurgol1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.738,
+     "pose": 0.172,
+     "bird": 0.738
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurgol1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.759,
+     "pose": 0.168,
+     "bird": 0.672
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurgol1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.728,
+     "pose": 0.234,
+     "bird": 0.644
+    }
+   ]
   }
  }
 }
