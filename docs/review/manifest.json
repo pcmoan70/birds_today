@@ -13014,6 +13014,196 @@
      "bird": 0.489
     }
    ]
+  },
+  "norwhe": {
+   "name": "Northern Wheatear",
+   "sci": "Oenanthe oenanthe",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/norwhe/before.png",
+   "ref": "review_imgs/norwhe/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/norwhe/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.906,
+     "pose": 0.41,
+     "bird": 0.741
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/norwhe/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.881,
+     "pose": 0.273,
+     "bird": 0.817
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norwhe/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.24,
+     "bird": 0.715
+    }
+   ]
+  },
+  "oltwar1": {
+   "name": "Olive-tree Warbler",
+   "sci": "Hippolais olivetorum",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/oltwar1/before.png",
+   "ref": "review_imgs/oltwar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/oltwar1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.826,
+     "pose": 0.042,
+     "bird": 0.741
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/oltwar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.852,
+     "pose": 0.041,
+     "bird": 0.62
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/oltwar1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.836,
+     "pose": 0.019,
+     "bird": 0.578
+    }
+   ]
+  },
+  "ortbun1": {
+   "name": "Ortolan Bunting",
+   "sci": "Emberiza hortulana",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/ortbun1/before.png",
+   "ref": "review_imgs/ortbun1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ortbun1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.861,
+     "pose": 0.355,
+     "bird": 0.899
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ortbun1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.893,
+     "pose": 0.25,
+     "bird": 0.854
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ortbun1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.823,
+     "pose": 0.203,
+     "bird": 0.437
+    }
+   ]
+  },
+  "ortdov": {
+   "name": "Oriental Turtle-Dove",
+   "sci": "Streptopelia orientalis",
+   "family": "Pigeons and Doves",
+   "reason": "all",
+   "before": "review_imgs/ortdov/before.png",
+   "ref": "review_imgs/ortdov/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ortdov/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.924,
+     "pose": 0.259,
+     "bird": 0.82
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ortdov/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.895,
+     "pose": 0.299,
+     "bird": 0.794
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ortdov/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.908,
+     "pose": 0.261,
+     "bird": 0.501
+    }
+   ]
+  },
+  "osprey": {
+   "name": "Osprey",
+   "sci": "Pandion haliaetus",
+   "family": "Ospreys",
+   "reason": "all",
+   "before": "review_imgs/osprey/before.png",
+   "ref": "review_imgs/osprey/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/osprey/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.891,
+     "pose": 0.716,
+     "bird": 0.818
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/osprey/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.917,
+     "pose": 0.641,
+     "bird": 0.84
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/osprey/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.902,
+     "pose": 0.7,
+     "bird": 0.656
+    }
+   ]
   }
  }
 }
