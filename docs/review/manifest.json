@@ -9078,6 +9078,187 @@
      "bird": 0.418
     }
    ]
+  },
+  "grecor": {
+   "name": "Great Cormorant",
+   "sci": "Phalacrocorax carbo",
+   "family": "Cormorants and Shags",
+   "reason": "all",
+   "before": "review_imgs/grecor/before.png",
+   "ref": "review_imgs/grecor/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grecor/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.891,
+     "pose": 0.027,
+     "bird": 0.071
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grecor/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.678,
+     "pose": 0.013,
+     "bird": 0.025
+    }
+   ]
+  },
+  "greegr": {
+   "name": "Great Egret",
+   "sci": "Ardea alba",
+   "family": "Herons, Egrets, and Bitterns",
+   "reason": "all",
+   "before": "review_imgs/greegr/before.png",
+   "ref": "review_imgs/greegr/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/greegr/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.866,
+     "pose": 0.493,
+     "bird": 0.467
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/greegr/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.875,
+     "pose": 0.398,
+     "bird": 0.114
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/greegr/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.801,
+     "pose": 0.174,
+     "bird": 0.024
+    }
+   ]
+  },
+  "grefla3": {
+   "name": "Greater Flamingo",
+   "sci": "Phoenicopterus roseus",
+   "family": "Flamingos",
+   "reason": "all",
+   "before": "review_imgs/grefla3/before.png",
+   "ref": "review_imgs/grefla3/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grefla3/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.899,
+     "pose": 0.057,
+     "bird": 0.921
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grefla3/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.904,
+     "pose": 0.022,
+     "bird": 0.912
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grefla3/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.893,
+     "pose": 0.038,
+     "bird": 0.726
+    }
+   ]
+  },
+  "gresca": {
+   "name": "Greater Scaup",
+   "sci": "Aythya marila",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/gresca/before.png",
+   "ref": "review_imgs/gresca/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gresca/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.864,
+     "pose": 0.051,
+     "bird": 0.893
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gresca/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.751,
+     "pose": 0.06,
+     "bird": 0.823
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gresca/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.788,
+     "pose": 0.07,
+     "bird": 0.524
+    }
+   ]
+  },
+  "greshe": {
+   "name": "Great Shearwater",
+   "sci": "Ardenna gravis",
+   "family": "Shearwaters and Petrels",
+   "reason": "all",
+   "before": "review_imgs/greshe/before.png",
+   "ref": "review_imgs/greshe/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/greshe/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.881,
+     "pose": 0.493,
+     "bird": 0.913
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/greshe/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.884,
+     "pose": 0.488,
+     "bird": 0.871
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/greshe/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.895,
+     "pose": 0.454,
+     "bird": 0.703
+    }
+   ]
   }
  }
 }

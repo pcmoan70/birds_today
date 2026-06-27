@@ -16161,7 +16161,7 @@
     },
     "faces": {
       "grecor/flying_0.png": "left",
-      "grecor/sitting_0.png": "left"
+      "grecor/sitting_0.png": "right"
     },
     "credits": {
       "grecor/flying_0.png": {
@@ -16242,7 +16242,7 @@
     },
     "faces": {
       "greegr/flying_0.png": "right",
-      "greegr/sitting_0.png": "right"
+      "greegr/sitting_0.png": "left"
     },
     "credits": {
       "greegr/flying_0.png": {
@@ -16394,7 +16394,7 @@
       ]
     },
     "faces": {
-      "gresca/sitting_0.png": "left"
+      "gresca/sitting_0.png": "right"
     },
     "credits": {
       "gresca/sitting_0.png": {
@@ -16462,7 +16462,7 @@
     },
     "faces": {
       "greshe/flying_0.png": "left",
-      "greshe/sitting_0.png": "right"
+      "greshe/sitting_0.png": "left"
     },
     "credits": {
       "greshe/flying_0.png": {
