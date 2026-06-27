@@ -9259,6 +9259,196 @@
      "bird": 0.703
     }
    ]
+  },
+  "gresni1": {
+   "name": "Great Snipe",
+   "sci": "Gallinago media",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/gresni1/before.png",
+   "ref": "review_imgs/gresni1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gresni1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.78,
+     "pose": 0.339,
+     "bird": 0.65
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gresni1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.725,
+     "pose": 0.148,
+     "bird": 0.799
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gresni1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.732,
+     "pose": 0.233,
+     "bird": 0.262
+    }
+   ]
+  },
+  "gretit1": {
+   "name": "Great Tit",
+   "sci": "Parus major",
+   "family": "Tits, Chickadees, and Titmice",
+   "reason": "all",
+   "before": "review_imgs/gretit1/before.png",
+   "ref": "review_imgs/gretit1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gretit1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.913,
+     "pose": 0.087,
+     "bird": 0.307
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gretit1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.918,
+     "pose": 0.057,
+     "bird": 0.133
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gretit1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.916,
+     "pose": 0.097,
+     "bird": 0.031
+    }
+   ]
+  },
+  "grewar3": {
+   "name": "Greenish Warbler",
+   "sci": "Phylloscopus trochiloides",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/grewar3/before.png",
+   "ref": "review_imgs/grewar3/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grewar3/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.851,
+     "pose": 0.135,
+     "bird": 0.637
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grewar3/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.846,
+     "pose": 0.056,
+     "bird": 0.541
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grewar3/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.87,
+     "pose": 0.166,
+     "bird": 0.346
+    }
+   ]
+  },
+  "grewhi1": {
+   "name": "Greater Whitethroat",
+   "sci": "Curruca communis",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/grewhi1/before.png",
+   "ref": "review_imgs/grewhi1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grewhi1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.76,
+     "pose": 0.063,
+     "bird": 0.567
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grewhi1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.816,
+     "pose": 0.027,
+     "bird": 0.422
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grewhi1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.783,
+     "pose": 0.022,
+     "bird": 0.458
+    }
+   ]
+  },
+  "grgowl": {
+   "name": "Great Gray Owl",
+   "sci": "Strix nebulosa",
+   "family": "Typical Owls",
+   "reason": "all",
+   "before": "review_imgs/grgowl/before.png",
+   "ref": "review_imgs/grgowl/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grgowl/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.905,
+     "pose": 0.418,
+     "bird": 0.746
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grgowl/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.886,
+     "pose": 0.365,
+     "bird": 0.702
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grgowl/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.498,
+     "bird": 0.501
+    }
+   ]
   }
  }
 }
