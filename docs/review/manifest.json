@@ -7909,6 +7909,206 @@
      "bird": 0.229
     }
    ]
+  },
+  "boowar1": {
+   "name": "Booted Warbler",
+   "sci": "Iduna caligata",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/boowar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/87390671/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/boowar1/v0.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.927,
+     "pose": 0.211,
+     "bird": 0.628
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/boowar1/v1.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.909,
+     "pose": 0.228,
+     "bird": 0.333
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/boowar1/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.904,
+     "pose": 0.138,
+     "bird": 0.206
+    }
+   ]
+  },
+  "brambl": {
+   "name": "Brambling",
+   "sci": "Fringilla montifringilla",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/brambl/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/73818361/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/brambl/v0.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.934,
+     "pose": 0.152,
+     "bird": 0.709
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/brambl/v1.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.917,
+     "pose": 0.145,
+     "bird": 0.65
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/brambl/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.9,
+     "pose": 0.136,
+     "bird": 0.53
+    }
+   ]
+  },
+  "bripet": {
+   "name": "European Storm-Petrel",
+   "sci": "Hydrobates pelagicus",
+   "family": "Northern Storm-Petrels",
+   "reason": "all",
+   "before": "review_imgs/bripet/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30210311/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bripet/v0.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.817,
+     "pose": 0.017,
+     "bird": 0.616
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bripet/v1.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.778,
+     "pose": 0.02,
+     "bird": 0.599
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bripet/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.748,
+     "pose": 0.007,
+     "bird": 0.247
+    }
+   ]
+  },
+  "cirbun1": {
+   "name": "Cirl Bunting",
+   "sci": "Emberiza cirlus",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/cirbun1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/151274571/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cirbun1/v0.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.894,
+     "pose": 0.208,
+     "bird": 0.277
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cirbun1/v1.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.884,
+     "pose": 0.232,
+     "bird": 0.196
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cirbun1/v2.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.906,
+     "pose": 0.127,
+     "bird": 0.12
+    }
+   ]
+  },
+  "cogwar1": {
+   "name": "Common Grasshopper Warbler",
+   "sci": "Locustella naevia",
+   "family": "Grassbirds and Allies",
+   "reason": "all",
+   "before": "review_imgs/cogwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/226725471/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cogwar1/v0.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.895,
+     "pose": 0.12,
+     "bird": 0.741
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cogwar1/v1.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.894,
+     "pose": 0.044,
+     "bird": 0.612
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cogwar1/v2.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.903,
+     "pose": 0.049,
+     "bird": 0.466
+    }
+   ]
   }
  }
 }

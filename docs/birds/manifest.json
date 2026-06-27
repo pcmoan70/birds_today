@@ -4171,7 +4171,14 @@
     "faces": {
       "boowar1/sitting_0.png": "left"
     },
-    "credits": {}
+    "credits": {
+      "boowar1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
   },
   "borowl": {
     "sci": "Aegolius funereus",
@@ -4313,6 +4320,12 @@
     },
     "credits": {
       "brambl/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "brambl/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -4539,6 +4552,12 @@
     },
     "credits": {
       "bripet/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "bripet/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -5665,7 +5684,14 @@
     "faces": {
       "cirbun1/sitting_0.png": "left"
     },
-    "credits": {}
+    "credits": {
+      "cirbun1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
   },
   "citfin1": {
     "sci": "Carduelis citrinella",
@@ -6009,7 +6035,14 @@
     "faces": {
       "cogwar1/sitting_0.png": "left"
     },
-    "credits": {}
+    "credits": {
+      "cogwar1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
   },
   "colfly1": {
     "sci": "Ficedula albicollis",
