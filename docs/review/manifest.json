@@ -4,9 +4,10 @@
    "name": "African Blue Tit",
    "sci": "Cyanistes teneriffae",
    "family": "Tits, Chickadees, and Titmice",
-   "reason": "object",
+   "reason": "all",
    "before": "review_imgs/afbtit2/before.png",
-   "ref": "review_imgs/afbtit2/ref.jpg",
+   "ref": null,
+   "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
     {
@@ -14,27 +15,27 @@
      "img": "review_imgs/afbtit2/v0.png",
      "seed": 1000,
      "strength": 0.6,
-     "sim": 0.93,
-     "pose": 0.058,
-     "bird": 0.681
+     "sim": 0.937,
+     "pose": 0.028,
+     "bird": 0.624
     },
     {
      "id": "v1",
      "img": "review_imgs/afbtit2/v1.png",
      "seed": 1002,
      "strength": 0.74,
-     "sim": 0.808,
-     "pose": 0.061,
-     "bird": 0.694
+     "sim": 0.922,
+     "pose": 0.066,
+     "bird": 0.567
     },
     {
      "id": "v2",
      "img": "review_imgs/afbtit2/v2.png",
      "seed": 1001,
      "strength": 0.68,
-     "sim": 0.802,
-     "pose": 0.166,
-     "bird": 0.418
+     "sim": 0.931,
+     "pose": 0.028,
+     "bird": 0.54
     }
    ]
   },
@@ -1605,6 +1606,7 @@
    "reason": "all",
    "before": "review_imgs/465888/before.png",
    "ref": "review_imgs/465888/ref.jpg",
+   "ref_source": "inaturalist",
    "chosen": "v0",
    "variants": [
     {
@@ -1612,27 +1614,27 @@
      "img": "review_imgs/465888/v0.png",
      "seed": 1001,
      "strength": 0.68,
-     "sim": 0.835,
-     "pose": 0.135,
-     "bird": 0.752
+     "sim": 0.823,
+     "pose": 0.111,
+     "bird": 0.689
     },
     {
      "id": "v1",
      "img": "review_imgs/465888/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.863,
-     "pose": 0.021,
-     "bird": 0.204
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.833,
+     "pose": 0.07,
+     "bird": 0.275
     },
     {
      "id": "v2",
      "img": "review_imgs/465888/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.83,
-     "pose": 0.059,
-     "bird": 0.225
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.859,
+     "pose": 0.028,
+     "bird": 0.1
     }
    ]
   },
@@ -1643,34 +1645,26 @@
    "reason": "all",
    "before": "review_imgs/afrcha1/before.png",
    "ref": "review_imgs/afrcha1/ref.jpg",
+   "ref_source": "gbif",
    "chosen": "v0",
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/afrcha1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.917,
-     "pose": 0.123,
-     "bird": 0.622
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.734,
+     "pose": 0.495,
+     "bird": 0.844
     },
     {
      "id": "v1",
      "img": "review_imgs/afrcha1/v1.png",
      "seed": 1001,
      "strength": 0.68,
-     "sim": 0.896,
-     "pose": 0.12,
-     "bird": 0.569
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/afrcha1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.859,
-     "pose": 0.054,
-     "bird": 0.543
+     "sim": 0.673,
+     "pose": 0.118,
+     "bird": 0.67
     }
    ]
   },
@@ -1680,35 +1674,36 @@
    "family": "Old World Parrots",
    "reason": "all",
    "before": "review_imgs/alepar2/before.png",
-   "ref": "review_imgs/alepar2/ref.jpg",
+   "ref": null,
+   "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/alepar2/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.858,
-     "pose": 0.088,
-     "bird": 0.255
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.777,
+     "pose": 0.371,
+     "bird": 0.788
     },
     {
      "id": "v1",
      "img": "review_imgs/alepar2/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.85,
-     "pose": 0.085,
-     "bird": 0.264
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.775,
+     "pose": 0.273,
+     "bird": 0.887
     },
     {
      "id": "v2",
      "img": "review_imgs/alepar2/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.865,
-     "pose": 0.029,
-     "bird": 0.257
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.765,
+     "pose": 0.245,
+     "bird": 0.816
     }
    ]
   },
@@ -1718,7 +1713,8 @@
    "family": "Accentors",
    "reason": "all",
    "before": "review_imgs/alpacc1/before.png",
-   "ref": "review_imgs/alpacc1/ref.jpg",
+   "ref": null,
+   "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
     {
@@ -1726,27 +1722,27 @@
      "img": "review_imgs/alpacc1/v0.png",
      "seed": 1000,
      "strength": 0.6,
-     "sim": 0.924,
-     "pose": 0.231,
-     "bird": 0.499
+     "sim": 0.863,
+     "pose": 0.491,
+     "bird": 0.496
     },
     {
      "id": "v1",
      "img": "review_imgs/alpacc1/v1.png",
      "seed": 1002,
      "strength": 0.74,
-     "sim": 0.935,
-     "pose": 0.119,
-     "bird": 0.506
+     "sim": 0.867,
+     "pose": 0.13,
+     "bird": 0.577
     },
     {
      "id": "v2",
      "img": "review_imgs/alpacc1/v2.png",
      "seed": 1001,
      "strength": 0.68,
-     "sim": 0.933,
-     "pose": 0.256,
-     "bird": 0.247
+     "sim": 0.898,
+     "pose": 0.197,
+     "bird": 0.252
     }
    ]
   },
@@ -1756,35 +1752,36 @@
    "family": "Swifts",
    "reason": "all",
    "before": "review_imgs/alpswi1/before.png",
-   "ref": "review_imgs/alpswi1/ref.jpg",
+   "ref": null,
+   "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/alpswi1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.845,
-     "pose": 0.003,
-     "bird": 0.956
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.787,
+     "pose": 0.009,
+     "bird": 0.902
     },
     {
      "id": "v1",
      "img": "review_imgs/alpswi1/v1.png",
      "seed": 1002,
      "strength": 0.74,
-     "sim": 0.87,
-     "pose": 0.007,
-     "bird": 0.595
+     "sim": 0.787,
+     "pose": 0.01,
+     "bird": 0.839
     },
     {
      "id": "v2",
      "img": "review_imgs/alpswi1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.848,
-     "pose": 0.003,
-     "bird": 0.585
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.816,
+     "pose": 0.025,
+     "bird": 0.611
     }
    ]
   },
@@ -14143,6 +14140,84 @@
      "sim": 0.784,
      "pose": 0.031,
      "bird": 0.404
+    }
+   ]
+  },
+  "rebshr1": {
+   "name": "Red-backed Shrike",
+   "sci": "Lanius collurio",
+   "family": "Shrikes",
+   "reason": "all",
+   "before": "review_imgs/rebshr1/before.png",
+   "ref": "review_imgs/rebshr1/ref.jpg",
+   "ref_source": "wikimedia",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rebshr1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.856,
+     "pose": 0.284,
+     "bird": 0.69
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rebshr1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.797,
+     "pose": 0.58,
+     "bird": 0.481
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rebshr1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.83,
+     "pose": 0.174,
+     "bird": 0.795
+    }
+   ]
+  },
+  "recpoc": {
+   "name": "Red-crested Pochard",
+   "sci": "Netta rufina",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/recpoc/before.png",
+   "ref": null,
+   "ref_source": "whobird",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/recpoc/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.856,
+     "pose": 0.154,
+     "bird": 0.886
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/recpoc/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.803,
+     "pose": 0.077,
+     "bird": 0.644
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/recpoc/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.798,
+     "pose": 0.053,
+     "bird": 0.563
     }
    ]
   }
