@@ -25,7 +25,7 @@ _HERE = os.path.dirname(os.path.abspath(__file__))
 _MAP_PATH = os.path.join(_HERE, "whobird_assets.json")
 # Modest width: ample for a 1024px img2img init, keeps the download small.
 WIDTH = 900
-CDN = "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/{aid}/" + str(WIDTH)
+CDN_TMPL = "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/{aid}/{w}"
 PAGE = "https://macaulaylibrary.org/asset/{aid}"
 _map = None
 
@@ -40,16 +40,28 @@ def _load():
     return _map
 
 
+def _asset_id(sci, common):
+    m = _load()
+    return m["sci"].get((sci or "").lower()) or m["common"].get((common or "").lower())
+
+
+def asset_url(sci, common, width=320):
+    """Direct Macaulay CDN image URL for hotlinking (e.g. a review thumbnail).
+    Returns None if this species has no curated asset. The photo is displayed
+    by reference only — never downloaded/redistributed by us."""
+    aid = _asset_id(sci, common)
+    return CDN_TMPL.format(aid=aid, w=width) if aid else None
+
+
 def search(sci, common, pose, limit):
     # Curated Macaulay stills are perched/standing birds — serve "sitting" only.
     if pose != "sitting":
         return []
-    m = _load()
-    aid = m["sci"].get((sci or "").lower()) or m["common"].get((common or "").lower())
+    aid = _asset_id(sci, common)
     if not aid:
         return []
     return [Candidate(
-        url=CDN.format(aid=aid), pose=pose, source="whobird",
+        url=CDN_TMPL.format(aid=aid, w=WIDTH), pose=pose, source="whobird",
         license="Macaulay © (reference only, not redistributed)",
         author="Macaulay Library / whoBIRD curation", src_id=str(aid),
         page_url=PAGE.format(aid=aid),

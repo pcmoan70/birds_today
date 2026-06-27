@@ -62,8 +62,9 @@
 
       // ---- reference tile with a "flag bad photo" toggle --------------
       if (s.ref) {
+        var refSub = (s.ref_source === "whobird") ? "© Macaulay Library" : "";
         var rt = tile("ref" + (m(code).badRef ? " badref" : ""), s.ref,
-                      "Photo (reference)", "");
+                      "Photo (reference)", refSub);
         var fb = document.createElement("button");
         fb.className = "reff" + (m(code).badRef ? " on" : "");
         fb.textContent = m(code).badRef ? "⚑ bad photo" : "⚐ flag photo";

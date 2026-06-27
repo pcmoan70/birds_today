@@ -6,7 +6,7 @@
    "family": "Tits, Chickadees, and Titmice",
    "reason": "all",
    "before": "review_imgs/afbtit2/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/214988571/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -86,7 +86,7 @@
    "family": "Northern Storm-Petrels",
    "reason": "all",
    "before": "review_imgs/barpet/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54843391/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -197,7 +197,7 @@
    "family": "Old World Parrots",
    "reason": "all",
    "before": "review_imgs/alepar2/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63993291/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -237,7 +237,7 @@
    "family": "Accentors",
    "reason": "all",
    "before": "review_imgs/alpacc1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/84441901/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -277,7 +277,7 @@
    "family": "Swifts",
    "reason": "all",
    "before": "review_imgs/alpswi1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/34748631/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -317,7 +317,7 @@
    "family": "Loons",
    "reason": "all",
    "before": "review_imgs/arcloo/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42407931/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -357,7 +357,7 @@
    "family": "Gulls, Terns, and Skimmers",
    "reason": "all",
    "before": "review_imgs/arcter/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/249987771/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -397,7 +397,7 @@
    "family": "Leaf Warblers",
    "reason": "all",
    "before": "review_imgs/arcwar1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/243647691/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -517,7 +517,7 @@
    "family": "Auks, Murres, and Puffins",
    "reason": "all",
    "before": "review_imgs/atlpuf/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/170149381/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -557,7 +557,7 @@
    "family": "Gulls, Terns, and Skimmers",
    "reason": "all",
    "before": "review_imgs/audgul1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/244094871/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -597,7 +597,7 @@
    "family": "Crows, Jays, and Magpies",
    "reason": "all",
    "before": "review_imgs/azwmag3/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/151274131/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -637,7 +637,7 @@
    "family": "Ducks, Geese, and Swans",
    "reason": "all",
    "before": "review_imgs/bahgoo/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181031211/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -677,7 +677,7 @@
    "family": "Rails, Gallinules, and Coots",
    "reason": "all",
    "before": "review_imgs/baicra1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/223767341/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -717,7 +717,7 @@
    "family": "Swallows and Martins",
    "reason": "all",
    "before": "review_imgs/banswa/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252886281/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -757,7 +757,7 @@
    "family": "Ducks, Geese, and Swans",
    "reason": "all",
    "before": "review_imgs/bargoo/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/65135151/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -797,7 +797,7 @@
    "family": "Pheasants, Grouse, and Allies",
    "reason": "all",
    "before": "review_imgs/barpar2/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/179882371/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -837,7 +837,7 @@
    "family": "Swallows and Martins",
    "reason": "all",
    "before": "review_imgs/barswa/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/227073431/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -877,7 +877,7 @@
    "family": "Sylviid Warblers and Allies",
    "reason": "all",
    "before": "review_imgs/barwar1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/95443881/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -917,7 +917,7 @@
    "family": "Sandpipers and Allies",
    "reason": "all",
    "before": "review_imgs/batgod/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42941121/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -997,7 +997,7 @@
    "family": "Bee-eaters",
    "reason": "all",
    "before": "review_imgs/bcbeat1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66339631/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -1037,7 +1037,7 @@
    "family": "Herons, Egrets, and Bitterns",
    "reason": "all",
    "before": "review_imgs/bcnher/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/34199991/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -1077,7 +1077,7 @@
    "family": "Reedlings",
    "reason": "all",
    "before": "review_imgs/bearee1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/212674881/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -1117,7 +1117,7 @@
    "family": "Plovers and Lapwings",
    "reason": "all",
    "before": "review_imgs/bkbplo/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/189491151/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -1157,7 +1157,7 @@
    "family": "Old World Flycatchers, Robins, and Chats",
    "reason": "all",
    "before": "review_imgs/bkewhe1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/328020161/320",
    "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
@@ -1197,7 +1197,7 @@
    "family": "Old World Flycatchers, Robins, and Chats",
    "reason": "all",
    "before": "review_imgs/bkewhe2/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/145187391/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "chosen": "v0",
@@ -1237,7 +1237,7 @@
    "family": "Gulls, Terns, and Skimmers",
    "reason": "all",
    "before": "review_imgs/bkhgul/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204656501/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "chosen": "v0",
@@ -1277,7 +1277,7 @@
    "family": "Gulls, Terns, and Skimmers",
    "reason": "all",
    "before": "review_imgs/bklkit/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64889231/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "chosen": "v0",
@@ -1317,7 +1317,7 @@
    "family": "Hawks, Eagles, and Kites",
    "reason": "all",
    "before": "review_imgs/bkskit1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/117792521/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "chosen": "v0",
@@ -1357,7 +1357,7 @@
    "family": "Sandpipers and Allies",
    "reason": "all",
    "before": "review_imgs/bktgod/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35830281/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "chosen": "v0",
@@ -1397,7 +1397,7 @@
    "family": "Stilts and Avocets",
    "reason": "all",
    "before": "review_imgs/bkwsti/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23442331/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "chosen": "v0",
@@ -1437,7 +1437,7 @@
    "family": "Sylviid Warblers and Allies",
    "reason": "all",
    "before": "review_imgs/blackc1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/211672961/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "chosen": "v0",
@@ -1477,7 +1477,7 @@
    "family": "Pheasants, Grouse, and Allies",
    "reason": "all",
    "before": "review_imgs/blagro1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54593301/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "chosen": "v0",
@@ -1517,7 +1517,7 @@
    "family": "Hawks, Eagles, and Kites",
    "reason": "all",
    "before": "review_imgs/blakit1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/25504811/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "chosen": "v0",
@@ -1557,7 +1557,7 @@
    "family": "Old World Flycatchers, Robins, and Chats",
    "reason": "all",
    "before": "review_imgs/blared1/before.png",
-   "ref": null,
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23443721/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "chosen": "v0",
@@ -1588,6 +1588,86 @@
      "sim": 0.892,
      "pose": 0.103,
      "bird": 0.525
+    }
+   ]
+  },
+  "blasto1": {
+   "name": "Black Stork",
+   "sci": "Ciconia nigra",
+   "family": "Storks",
+   "reason": "all",
+   "before": "review_imgs/blasto1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/198895331/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blasto1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.933,
+     "pose": 0.399,
+     "bird": 0.923
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blasto1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.933,
+     "pose": 0.208,
+     "bird": 0.838
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blasto1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.917,
+     "pose": 0.196,
+     "bird": 0.844
+    }
+   ]
+  },
+  "blawhe1": {
+   "name": "Black Wheatear",
+   "sci": "Oenanthe leucura",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/blawhe1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/62913391/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blawhe1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.911,
+     "pose": 0.184,
+     "bird": 0.196
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blawhe1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.925,
+     "pose": 0.105,
+     "bird": 0.195
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blawhe1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.884,
+     "pose": 0.155,
+     "bird": 0.205
     }
    ]
   }

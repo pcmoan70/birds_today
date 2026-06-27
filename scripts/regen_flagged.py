@@ -428,14 +428,15 @@ def main():
                 if os.path.exists(j):
                     shutil.move(j, os.path.join(BADREFS, code, f + ".json"))
         shutil.copy(newref, os.path.join(d, "sitting_0.jpg"))  # local img2img input (gitignored)
-        # Keep the chosen reference visible on the review page — EXCEPT Macaulay
-        # (whoBIRD) photos, which are all-rights-reserved and must never be
-        # published; for those we show no reference thumbnail.
-        ref_rel = None
+        # Keep the chosen reference visible on the review page. Macaulay
+        # (whoBIRD) photos are all-rights-reserved, so we never host them — we
+        # HOTLINK a thumbnail straight from Cornell's CDN (display only, no
+        # redistribution). Other sources are CC-licensed, so we save them.
         ref_jpg = os.path.join(vdir, "ref.jpg")
         if refsrc == "whobird":
             if os.path.exists(ref_jpg):
                 os.remove(ref_jpg)   # drop any stale published ref
+            ref_rel = whobird.asset_url(sp["sci"], sp["common"], 320)
         else:
             shutil.copy(newref, ref_jpg)
             ref_rel = f"review_imgs/{code}/ref.jpg"
