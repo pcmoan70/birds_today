@@ -2720,6 +2720,206 @@
      "bird": 0.152
     }
    ]
+  },
+  "burthr": {
+   "name": "Blue Rock-Thrush",
+   "sci": "Monticola solitarius",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/burthr/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/97497371/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/burthr/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.913,
+     "pose": 0.156,
+     "bird": 0.617
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/burthr/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.883,
+     "pose": 0.231,
+     "bird": 0.405
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/burthr/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.899,
+     "pose": 0.134,
+     "bird": 0.131
+    }
+   ]
+  },
+  "cacgoo1": {
+   "name": "Cackling Goose",
+   "sci": "Branta hutchinsii",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/cacgoo1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45974291/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cacgoo1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.911,
+     "pose": 0.336,
+     "bird": 0.924
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cacgoo1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.93,
+     "pose": 0.257,
+     "bird": 0.927
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cacgoo1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.909,
+     "pose": 0.187,
+     "bird": 0.894
+    }
+   ]
+  },
+  "callar1": {
+   "name": "Calandra Lark",
+   "sci": "Melanocorypha calandra",
+   "family": "Larks",
+   "reason": "all",
+   "before": "review_imgs/callar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/21015311/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/callar1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.849,
+     "pose": 0.168,
+     "bird": 0.388
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/callar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.828,
+     "pose": 0.041,
+     "bird": 0.367
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/callar1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.816,
+     "pose": 0.044,
+     "bird": 0.137
+    }
+   ]
+  },
+  "cangoo": {
+   "name": "Canada Goose",
+   "sci": "Branta canadensis",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/cangoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/49344561/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cangoo/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.941,
+     "pose": 0.205,
+     "bird": 0.954
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cangoo/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.938,
+     "pose": 0.204,
+     "bird": 0.932
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cangoo/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.927,
+     "pose": 0.223,
+     "bird": 0.87
+    }
+   ]
+  },
+  "casgul2": {
+   "name": "Caspian Gull",
+   "sci": "Larus cachinnans",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/casgul2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204953931/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/casgul2/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.942,
+     "pose": 0.346,
+     "bird": 0.95
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/casgul2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.952,
+     "pose": 0.29,
+     "bird": 0.968
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/casgul2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.922,
+     "pose": 0.273,
+     "bird": 0.968
+    }
+   ]
   }
  }
 }

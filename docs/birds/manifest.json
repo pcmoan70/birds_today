@@ -4987,7 +4987,7 @@
     },
     "faces": {
       "cacgoo1/flying_0.png": "left",
-      "cacgoo1/sitting_0.png": "right"
+      "cacgoo1/sitting_0.png": "left"
     },
     "credits": {
       "cacgoo1/flying_0.png": {
@@ -5123,7 +5123,7 @@
       ]
     },
     "faces": {
-      "cangoo/sitting_0.png": "left"
+      "cangoo/sitting_0.png": "right"
     },
     "credits": {
       "cangoo/sitting_0.png": {
@@ -5191,7 +5191,7 @@
       ]
     },
     "faces": {
-      "casgul2/sitting_0.png": "right"
+      "casgul2/sitting_0.png": "left"
     },
     "credits": {
       "casgul2/sitting_0.png": {
