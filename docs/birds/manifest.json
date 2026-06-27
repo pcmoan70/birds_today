@@ -8281,7 +8281,7 @@
     },
     "faces": {
       "comsni/flying_0.png": "left",
-      "comsni/sitting_0.png": "left"
+      "comsni/sitting_0.png": "right"
     },
     "credits": {
       "comsni/flying_0.png": {
@@ -8441,7 +8441,7 @@
     },
     "faces": {
       "comter/flying_0.png": "left",
-      "comter/sitting_0.png": "left"
+      "comter/sitting_0.png": "right"
     },
     "credits": {
       "comter/flying_0.png": {

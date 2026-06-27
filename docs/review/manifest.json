@@ -4561,6 +4561,206 @@
      "bird": 0.806
     }
    ]
+  },
+  "comsni": {
+   "name": "Common Snipe",
+   "sci": "Gallinago gallinago",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/comsni/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/26854421/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comsni/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.818,
+     "pose": 0.414,
+     "bird": 0.818
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comsni/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.732,
+     "pose": 0.274,
+     "bird": 0.574
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comsni/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.734,
+     "pose": 0.258,
+     "bird": 0.507
+    }
+   ]
+  },
+  "comswi": {
+   "name": "Common Swift",
+   "sci": "Apus apus",
+   "family": "Swifts",
+   "reason": "all",
+   "before": "review_imgs/comswi/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36129661/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comswi/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.824,
+     "pose": 0.013,
+     "bird": 0.604
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comswi/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.855,
+     "pose": 0.016,
+     "bird": 0.488
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comswi/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.838,
+     "pose": 0.031,
+     "bird": 0.314
+    }
+   ]
+  },
+  "comter": {
+   "name": "Common Tern",
+   "sci": "Sterna hirundo",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/comter/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/170212981/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comter/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.903,
+     "pose": 0.057,
+     "bird": 0.635
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comter/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.881,
+     "pose": 0.016,
+     "bird": 0.679
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comter/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.878,
+     "pose": 0.016,
+     "bird": 0.648
+    }
+   ]
+  },
+  "comwax": {
+   "name": "Common Waxbill",
+   "sci": "Estrilda astrild",
+   "family": "Waxbills and Allies",
+   "reason": "all",
+   "before": "review_imgs/comwax/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/105872561/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comwax/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.873,
+     "pose": 0.025,
+     "bird": 0.745
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comwax/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.903,
+     "pose": 0.044,
+     "bird": 0.457
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comwax/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.908,
+     "pose": 0.065,
+     "bird": 0.42
+    }
+   ]
+  },
+  "corbun1": {
+   "name": "Corn Bunting",
+   "sci": "Emberiza calandra",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/corbun1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/37498431/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/corbun1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.915,
+     "pose": 0.13,
+     "bird": 0.386
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/corbun1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.914,
+     "pose": 0.186,
+     "bird": 0.322
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/corbun1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.895,
+     "pose": 0.213,
+     "bird": 0.316
+    }
+   ]
   }
  }
 }
