@@ -12254,6 +12254,196 @@
      "bird": 0.127
     }
    ]
+  },
+  "merlin": {
+   "name": "Merlin",
+   "sci": "Falco columbarius",
+   "family": "Falcons and Caracaras",
+   "reason": "all",
+   "before": "review_imgs/merlin/before.png",
+   "ref": "review_imgs/merlin/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/merlin/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.863,
+     "pose": 0.323,
+     "bird": 0.551
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/merlin/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.804,
+     "pose": 0.15,
+     "bird": 0.652
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/merlin/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.8,
+     "pose": 0.156,
+     "bird": 0.385
+    }
+   ]
+  },
+  "mewgul": {
+   "name": "Common Gull",
+   "sci": "Larus canus",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/mewgul/before.png",
+   "ref": "review_imgs/mewgul/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/mewgul/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.909,
+     "pose": 0.178,
+     "bird": 0.844
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/mewgul/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.87,
+     "pose": 0.186,
+     "bird": 0.845
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/mewgul/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.867,
+     "pose": 0.263,
+     "bird": 0.538
+    }
+   ]
+  },
+  "misthr1": {
+   "name": "Mistle Thrush",
+   "sci": "Turdus viscivorus",
+   "family": "Thrushes",
+   "reason": "all",
+   "before": "review_imgs/misthr1/before.png",
+   "ref": "review_imgs/misthr1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/misthr1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.884,
+     "pose": 0.568,
+     "bird": 0.535
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/misthr1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.795,
+     "pose": 0.353,
+     "bird": 0.799
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/misthr1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.862,
+     "pose": 0.461,
+     "bird": 0.44
+    }
+   ]
+  },
+  "miswoo1": {
+   "name": "Middle Spotted Woodpecker",
+   "sci": "Dendrocoptes medius",
+   "family": "Woodpeckers",
+   "reason": "all",
+   "before": "review_imgs/miswoo1/before.png",
+   "ref": "review_imgs/miswoo1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/miswoo1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.709,
+     "pose": 0.396,
+     "bird": 0.722
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/miswoo1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.763,
+     "pose": 0.306,
+     "bird": 0.689
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/miswoo1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.77,
+     "pose": 0.257,
+     "bird": 0.694
+    }
+   ]
+  },
+  "monhar1": {
+   "name": "Montagu's Harrier",
+   "sci": "Circus pygargus",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/monhar1/before.png",
+   "ref": "review_imgs/monhar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/monhar1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.891,
+     "pose": 0.332,
+     "bird": 0.843
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/monhar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.851,
+     "pose": 0.119,
+     "bird": 0.828
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/monhar1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.896,
+     "pose": 0.316,
+     "bird": 0.52
+    }
+   ]
   }
  }
 }

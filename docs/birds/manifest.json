@@ -22896,7 +22896,7 @@
     },
     "faces": {
       "merlin/flying_0.png": "left",
-      "merlin/sitting_0.png": "right"
+      "merlin/sitting_0.png": "left"
     },
     "credits": {
       "merlin/flying_0.png": {
@@ -23126,7 +23126,7 @@
     },
     "faces": {
       "miswoo1/flying_0.png": "left",
-      "miswoo1/sitting_0.png": "right"
+      "miswoo1/sitting_0.png": "left"
     },
     "credits": {
       "miswoo1/flying_0.png": {
