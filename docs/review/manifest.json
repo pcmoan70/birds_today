@@ -11702,6 +11702,178 @@
      "bird": 0.472
     }
    ]
+  },
+  "lotduc": {
+   "name": "Long-tailed Duck",
+   "sci": "Clangula hyemalis",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/lotduc/before.png",
+   "ref": "review_imgs/lotduc/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/lotduc/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.816,
+     "pose": 0.266,
+     "bird": 0.348
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/lotduc/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.842,
+     "pose": 0.287,
+     "bird": 0.216
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lotduc/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.8,
+     "pose": 0.075,
+     "bird": 0.086
+    }
+   ]
+  },
+  "lotjae": {
+   "name": "Long-tailed Jaeger",
+   "sci": "Stercorarius longicaudus",
+   "family": "Skuas and Jaegers",
+   "reason": "all",
+   "before": "review_imgs/lotjae/before.png",
+   "ref": "review_imgs/lotjae/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/lotjae/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.548,
+     "pose": 0.571,
+     "bird": 0.662
+    }
+   ]
+  },
+  "lottit1": {
+   "name": "Long-tailed Tit",
+   "sci": "Aegithalos caudatus",
+   "family": "Long-tailed Tits and Bushtits",
+   "reason": "all",
+   "before": "review_imgs/lottit1/before.png",
+   "ref": "review_imgs/lottit1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/lottit1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.848,
+     "pose": 0.229,
+     "bird": 0.86
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/lottit1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.833,
+     "pose": 0.184,
+     "bird": 0.772
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lottit1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.868,
+     "pose": 0.171,
+     "bird": 0.584
+    }
+   ]
+  },
+  "mallar3": {
+   "name": "Mallard",
+   "sci": "Anas platyrhynchos",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/mallar3/before.png",
+   "ref": "review_imgs/mallar3/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/mallar3/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.823,
+     "pose": 0.084,
+     "bird": 0.911
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/mallar3/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.869,
+     "pose": 0.099,
+     "bird": 0.679
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/mallar3/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.862,
+     "pose": 0.048,
+     "bird": 0.357
+    }
+   ]
+  },
+  "manduc": {
+   "name": "Mandarin Duck",
+   "sci": "Aix galericulata",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/manduc/before.png",
+   "ref": "review_imgs/manduc/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/manduc/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.848,
+     "pose": 0.073,
+     "bird": 0.784
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/manduc/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.776,
+     "pose": 0.061,
+     "bird": 0.768
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/manduc/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.768,
+     "pose": 0.034,
+     "bird": 0.751
+    }
+   ]
   }
  }
 }
