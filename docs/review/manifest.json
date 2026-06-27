@@ -123,47 +123,6 @@
    "recipe": "v4-macaulay-id",
    "reviewed": true
   },
-  "465888": {
-   "name": "Pale Crag-Martin",
-   "sci": "Ptyonoprogne obsoleta",
-   "family": "Swallows and Martins",
-   "reason": "all",
-   "before": "review_imgs/465888/before.png",
-   "ref": "review_imgs/465888/ref.jpg",
-   "ref_source": "inaturalist",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/465888/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.823,
-     "pose": 0.111,
-     "bird": 0.689
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/465888/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.833,
-     "pose": 0.07,
-     "bird": 0.275
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/465888/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.859,
-     "pose": 0.028,
-     "bird": 0.1
-    }
-   ],
-   "recipe": "v4-macaulay-id",
-   "reviewed": true
-  },
   "afrcha1": {
    "name": "African Chaffinch",
    "sci": "Fringilla spodiogenys",
@@ -2082,46 +2041,6 @@
    ],
    "reviewed": true
   },
-  "blwpra1": {
-   "name": "Black-winged Pratincole",
-   "sci": "Glareola nordmanni",
-   "family": "Pratincoles and Coursers",
-   "reason": "all",
-   "before": "review_imgs/blwpra1/before.png",
-   "ref": "review_imgs/blwpra1/ref.jpg",
-   "ref_source": "wikimedia",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/blwpra1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.904,
-     "pose": 0.236,
-     "bird": 0.629
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/blwpra1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.893,
-     "pose": 0.264,
-     "bird": 0.529
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/blwpra1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.898,
-     "pose": 0.205,
-     "bird": 0.525
-    }
-   ]
-  },
   "bohwax": {
    "name": "Bohemian Waxwing",
    "sci": "Bombycilla garrulus",
@@ -2245,46 +2164,6 @@
    ],
    "reviewed": true
   },
-  "boowar1": {
-   "name": "Booted Warbler",
-   "sci": "Iduna caligata",
-   "family": "Reed Warblers and Allies",
-   "reason": "all",
-   "before": "review_imgs/boowar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/87390671/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/boowar1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.905,
-     "pose": 0.426,
-     "bird": 0.758
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/boowar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.881,
-     "pose": 0.267,
-     "bird": 0.794
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/boowar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.127,
-     "bird": 0.452
-    }
-   ]
-  },
   "borowl": {
    "name": "Boreal Owl",
    "sci": "Aegolius funereus",
@@ -2325,46 +2204,6 @@
     }
    ],
    "reviewed": true
-  },
-  "brambl": {
-   "name": "Brambling",
-   "sci": "Fringilla montifringilla",
-   "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
-   "before": "review_imgs/brambl/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/73818361/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/brambl/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.1,
-     "bird": 0.682
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/brambl/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.934,
-     "pose": 0.147,
-     "bird": 0.471
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/brambl/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.917,
-     "pose": 0.056,
-     "bird": 0.3
-    }
-   ]
   },
   "brant": {
    "name": "Brant",
@@ -2448,46 +2287,6 @@
    ],
    "reviewed": true
   },
-  "bripet": {
-   "name": "European Storm-Petrel",
-   "sci": "Hydrobates pelagicus",
-   "family": "Northern Storm-Petrels",
-   "reason": "all",
-   "before": "review_imgs/bripet/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30210311/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/bripet/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.824,
-     "pose": 0.047,
-     "bird": 0.603
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/bripet/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.819,
-     "pose": 0.023,
-     "bird": 0.565
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bripet/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.762,
-     "pose": 0.035,
-     "bird": 0.468
-    }
-   ]
-  },
   "brnowl": {
    "name": "American Barn Owl",
    "sci": "Tyto alba",
@@ -2528,86 +2327,6 @@
     }
    ],
    "reviewed": true
-  },
-  "bargoo": {
-   "name": "Barnacle Goose",
-   "sci": "Branta leucopsis",
-   "family": "Ducks, Geese, and Swans",
-   "reason": "all",
-   "before": "review_imgs/bargoo/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/65135151/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/bargoo/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.91,
-     "pose": 0.229,
-     "bird": 0.96
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/bargoo/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.907,
-     "pose": 0.129,
-     "bird": 0.892
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bargoo/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.921,
-     "pose": 0.353,
-     "bird": 0.617
-    }
-   ]
-  },
-  "bktgod": {
-   "name": "Black-tailed Godwit",
-   "sci": "Limosa limosa",
-   "family": "Sandpipers and Allies",
-   "reason": "all",
-   "before": "review_imgs/bktgod/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35830281/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/bktgod/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.911,
-     "pose": 0.269,
-     "bird": 0.807
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/bktgod/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.907,
-     "pose": 0.407,
-     "bird": 0.456
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bktgod/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.918,
-     "pose": 0.173,
-     "bird": 0.574
-    }
-   ]
   },
   "brnrav1": {
    "name": "Brown-necked Raven",
@@ -3049,6 +2768,206 @@
      "sim": 0.899,
      "pose": 0.06,
      "bird": 0.057
+    }
+   ]
+  },
+  "465888": {
+   "name": "Pale Crag-Martin",
+   "sci": "Ptyonoprogne obsoleta",
+   "family": "Swallows and Martins",
+   "reason": "all",
+   "before": "review_imgs/465888/before.png",
+   "ref": "review_imgs/465888/ref.jpg",
+   "ref_source": "inaturalist",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/465888/v0.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.858,
+     "pose": 0.092,
+     "bird": 0.418
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/465888/v1.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.826,
+     "pose": 0.137,
+     "bird": 0.391
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/465888/v2.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.809,
+     "pose": 0.109,
+     "bird": 0.424
+    }
+   ]
+  },
+  "bargoo": {
+   "name": "Barnacle Goose",
+   "sci": "Branta leucopsis",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/bargoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/65135151/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bargoo/v0.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.914,
+     "pose": 0.168,
+     "bird": 0.956
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bargoo/v1.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.913,
+     "pose": 0.211,
+     "bird": 0.866
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bargoo/v2.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.909,
+     "pose": 0.218,
+     "bird": 0.866
+    }
+   ]
+  },
+  "bktgod": {
+   "name": "Black-tailed Godwit",
+   "sci": "Limosa limosa",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/bktgod/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35830281/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bktgod/v0.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.923,
+     "pose": 0.361,
+     "bird": 0.816
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bktgod/v1.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.929,
+     "pose": 0.11,
+     "bird": 0.432
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bktgod/v2.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.903,
+     "pose": 0.228,
+     "bird": 0.148
+    }
+   ]
+  },
+  "blwpra1": {
+   "name": "Black-winged Pratincole",
+   "sci": "Glareola nordmanni",
+   "family": "Pratincoles and Coursers",
+   "reason": "all",
+   "before": "review_imgs/blwpra1/before.png",
+   "ref": "review_imgs/blwpra1/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blwpra1/v0.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.877,
+     "pose": 0.318,
+     "bird": 0.843
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blwpra1/v1.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.922,
+     "pose": 0.236,
+     "bird": 0.676
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blwpra1/v2.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.892,
+     "pose": 0.185,
+     "bird": 0.608
+    }
+   ]
+  },
+  "boowar1": {
+   "name": "Booted Warbler",
+   "sci": "Iduna caligata",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/boowar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/87390671/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/boowar1/v0.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.884,
+     "pose": 0.495,
+     "bird": 0.467
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/boowar1/v1.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.899,
+     "pose": 0.22,
+     "bird": 0.557
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/boowar1/v2.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.923,
+     "pose": 0.295,
+     "bird": 0.335
     }
    ]
   }
