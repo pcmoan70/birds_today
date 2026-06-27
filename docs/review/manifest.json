@@ -11512,6 +11512,196 @@
      "bird": 0.318
     }
    ]
+  },
+  "litsti": {
+   "name": "Little Stint",
+   "sci": "Calidris minuta",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/litsti/before.png",
+   "ref": "review_imgs/litsti/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/litsti/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.878,
+     "pose": 0.484,
+     "bird": 0.712
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litsti/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.877,
+     "pose": 0.192,
+     "bird": 0.6
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litsti/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.829,
+     "pose": 0.234,
+     "bird": 0.298
+    }
+   ]
+  },
+  "litter1": {
+   "name": "Little Tern",
+   "sci": "Sternula albifrons",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": null,
+   "ref": "review_imgs/litter1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/litter1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.892,
+     "pose": 0.166,
+     "bird": 0.91
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litter1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.871,
+     "pose": 0.172,
+     "bird": 0.855
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litter1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.873,
+     "pose": 0.054,
+     "bird": 0.499
+    }
+   ]
+  },
+  "lobdow": {
+   "name": "Long-billed Dowitcher",
+   "sci": "Limnodromus scolopaceus",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/lobdow/before.png",
+   "ref": "review_imgs/lobdow/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/lobdow/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.901,
+     "pose": 0.632,
+     "bird": 0.881
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/lobdow/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.916,
+     "pose": 0.621,
+     "bird": 0.759
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lobdow/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.888,
+     "pose": 0.501,
+     "bird": 0.452
+    }
+   ]
+  },
+  "loeowl": {
+   "name": "Long-eared Owl",
+   "sci": "Asio otus",
+   "family": "Typical Owls",
+   "reason": "all",
+   "before": "review_imgs/loeowl/before.png",
+   "ref": "review_imgs/loeowl/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/loeowl/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.928,
+     "pose": 0.254,
+     "bird": 0.665
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/loeowl/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.911,
+     "pose": 0.453,
+     "bird": 0.485
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/loeowl/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.913,
+     "pose": 0.406,
+     "bird": 0.319
+    }
+   ]
+  },
+  "lolbuz1": {
+   "name": "Long-legged Buzzard",
+   "sci": "Buteo rufinus",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/lolbuz1/before.png",
+   "ref": "review_imgs/lolbuz1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/lolbuz1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.912,
+     "pose": 0.57,
+     "bird": 0.684
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/lolbuz1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.907,
+     "pose": 0.446,
+     "bird": 0.795
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lolbuz1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.925,
+     "pose": 0.478,
+     "bird": 0.472
+    }
+   ]
   }
  }
 }

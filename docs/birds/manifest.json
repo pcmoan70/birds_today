@@ -21342,13 +21342,23 @@
     "stances": {
       "flying": [
         "litter1/flying_0.png"
+      ],
+      "sitting": [
+        "litter1/sitting_0.png"
       ]
     },
     "faces": {
-      "litter1/flying_0.png": "right"
+      "litter1/flying_0.png": "right",
+      "litter1/sitting_0.png": "right"
     },
     "credits": {
       "litter1/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "litter1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -21417,7 +21427,7 @@
     },
     "faces": {
       "lobdow/flying_0.png": "right",
-      "lobdow/sitting_0.png": "right"
+      "lobdow/sitting_0.png": "left"
     },
     "credits": {
       "lobdow/flying_0.png": {
@@ -21494,7 +21504,7 @@
     },
     "faces": {
       "loeowl/flying_0.png": "left",
-      "loeowl/sitting_0.png": "right"
+      "loeowl/sitting_0.png": "left"
     },
     "credits": {
       "loeowl/flying_0.png": {
