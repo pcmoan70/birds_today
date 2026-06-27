@@ -37,7 +37,7 @@ import cutout as cut  # noqa: E402
 import qc_references as QC  # noqa: E402 (reuse CLIP scorer)
 from rembg import new_session, remove as rembg_remove  # noqa: E402
 from species import load_species  # noqa: E402
-from sources import inat, wikimedia, gbif  # noqa: E402
+from sources import inat, wikimedia, gbif, whobird  # noqa: E402
 from sources.base import SESSION  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -113,12 +113,15 @@ def _wholeness(a):
 
 
 def _gather(sp, code, want):
-    """Pool reference candidates across sources: iNaturalist (direct), Wikimedia,
-    and GBIF (which federates more iNat + Observation.org + naturgucker + Flickr).
-    Macaulay/eBird is IP-blocked (HTTP 403) from here, so it is omitted."""
+    """Pool reference candidates across sources: whoBIRD's curated Macaulay pick
+    (one editor-chosen whole-bird photo), iNaturalist (direct), Wikimedia, and
+    GBIF (which federates more iNat + Observation.org + naturgucker + Flickr).
+    whoBIRD is listed first so its single curated candidate is always among the
+    capped downloads; best_ref still scores everything and may prefer another."""
     from itertools import zip_longest
     lists = []
-    for name, fn in (("inat", lambda: inat.search(sp["sci"], sp["common"], "sitting", want)),
+    for name, fn in (("whobird", lambda: whobird.search(sp["sci"], sp["common"], "sitting", want)),
+                     ("inat", lambda: inat.search(sp["sci"], sp["common"], "sitting", want)),
                      ("wiki", lambda: wikimedia.search(sp["sci"], sp["common"], "sitting", want)),
                      ("gbif", lambda: gbif.search(sp["sci"], sp["common"], "sitting", want))):
         try:
@@ -176,7 +179,7 @@ def best_ref(sp, code, sess):
           f"subj={s[5]:.2f} ok={s[0]} (of {len(imgs)})")
     if not s[0]:
         print(f"    {code}: no fully-in-frame candidate; using best available")
-    return s[7]
+    return s[7], s[6]   # (path, source)
 
 
 def prep_init(ref_path, sess, size=1024):
@@ -347,9 +350,9 @@ def main():
             shutil.copy(cur, os.path.join(vdir, "before.png"))
             before_rel = f"review_imgs/{code}/before.png"
         # re-fetch a better reference (whole bird, multi-source)
-        newref = best_ref(sp, code, sess)
+        newref, refsrc = best_ref(sp, code, sess)
         if not newref:
-            print(f"  {code}: no usable iNat reference found, skip"); continue
+            print(f"  {code}: no usable reference found, skip"); continue
         # quarantine the old reference, install the new one as sitting_0
         d = os.path.join(RAW, code); os.makedirs(d, exist_ok=True)
         for f in sorted(os.listdir(d)):
@@ -359,9 +362,18 @@ def main():
                 j = os.path.join(d, f + ".json")
                 if os.path.exists(j):
                     shutil.move(j, os.path.join(BADREFS, code, f + ".json"))
-        shutil.copy(newref, os.path.join(d, "sitting_0.jpg"))
-        # also keep the chosen reference visible in the review folder
-        shutil.copy(newref, os.path.join(vdir, "ref.jpg"))
+        shutil.copy(newref, os.path.join(d, "sitting_0.jpg"))  # local img2img input (gitignored)
+        # Keep the chosen reference visible on the review page — EXCEPT Macaulay
+        # (whoBIRD) photos, which are all-rights-reserved and must never be
+        # published; for those we show no reference thumbnail.
+        ref_rel = None
+        ref_jpg = os.path.join(vdir, "ref.jpg")
+        if refsrc == "whobird":
+            if os.path.exists(ref_jpg):
+                os.remove(ref_jpg)   # drop any stale published ref
+        else:
+            shutil.copy(newref, ref_jpg)
+            ref_rel = f"review_imgs/{code}/ref.jpg"
         res = gen_best(pipe, sess, code, sp, "sitting",
                        os.path.join(d, "sitting_0.jpg"), fams)
         if not res:
@@ -371,7 +383,7 @@ def main():
         review["species"][code] = {
             "name": sp["common"], "sci": sp["sci"], "family": fam[1],
             "reason": r.get("reason", ""), "before": before_rel,
-            "ref": f"review_imgs/{code}/ref.jpg", "chosen": res["chosen"],
+            "ref": ref_rel, "ref_source": refsrc, "chosen": res["chosen"],
             "variants": res["variants"]}
         json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
