@@ -48,7 +48,7 @@
   var S = {
     labels: [], codeToIdx: {}, nSpecies: 0,
     tax: {}, langs: [], lang: "en",
-    manifest: {}, plates: {}, allProbs: null,
+    manifest: {}, plates: {}, probs: {},   // probs: {weekIndex: Float32Array(nSpecies)}
     lat: DEFAULT.lat, lon: DEFAULT.lon, week: 1, mode: "A", src: "gould",
     aiBW: false,
   };
@@ -196,18 +196,25 @@
     return Math.max(1, Math.min(48, Math.floor((day - 1) / 365 * 48) + 1));
   }
 
+  // Weeks the current mode needs: Residents only needs this week's occurrence;
+  // Migration needs the neighbouring weeks too, to measure the rising trend.
+  function neededWeeks() {
+    var wi = S.week - 1;
+    return S.mode === "A" ? [wi] : [(wi + 47) % 48, wi, (wi + 1) % 48];
+  }
+
   function metrics(code) {
     var idx = S.codeToIdx[code];
-    if (idx === undefined || !S.allProbs) return null;
-    var n = S.nSpecies, probs = new Array(48), max = 0;
-    for (var w = 0; w < 48; w++) {
-      var v = S.allProbs[w * n + idx]; probs[w] = v; if (v > max) max = v;
-    }
+    if (idx === undefined) return null;
     var wi = S.week - 1;
-    var cur = probs[wi];
-    var prev = probs[(wi + 47) % 48], next = probs[(wi + 1) % 48];
-    var arrival = max < 1e-6 ? 0 : (next - prev) / max;
-    return { cur: cur, arrival: arrival, peak: max };
+    var cur = S.probs[wi] ? S.probs[wi][idx] : 0;
+    if (S.mode === "A") return { cur: cur, arrival: 0 };
+    // Migration: rising sharpness from prev->next, normalised by the local
+    // window (we no longer run all 48 weeks just to get the annual peak).
+    var pw = S.probs[(wi + 47) % 48], nw = S.probs[(wi + 1) % 48];
+    var prev = pw ? pw[idx] : cur, next = nw ? nw[idx] : cur;
+    var norm = Math.max(cur, prev, next, 1e-6);
+    return { cur: cur, arrival: (next - prev) / norm };
   }
 
   // ---- Rendering ------------------------------------------------------------
@@ -402,9 +409,12 @@
   // ---- Controls -------------------------------------------------------------
   function setupControls() {
     document.querySelectorAll("#mode button").forEach(function (b) {
-      b.onclick = function () {
+      b.onclick = async function () {
         document.querySelectorAll("#mode button").forEach(function (x) { x.classList.remove("on"); });
-        b.classList.add("on"); S.mode = b.getAttribute("data-mode"); render();
+        b.classList.add("on"); S.mode = b.getAttribute("data-mode");
+        setStatus("…");
+        await ensureProbs();   // Migration needs neighbouring weeks; compute if missing
+        render();
       };
     });
     document.querySelectorAll("#src button").forEach(function (b) {
@@ -590,16 +600,26 @@
   }
 
   // ---- Location + map -------------------------------------------------------
+  // Run the geomodel only for the weeks not already computed at this location.
+  async function ensureProbs() {
+    var missing = neededWeeks().filter(function (w) { return !S.probs[w]; });
+    if (!missing.length) return;
+    var inputs = new Float32Array(missing.length * 3);
+    missing.forEach(function (w, i) {
+      inputs[i * 3] = S.lat; inputs[i * 3 + 1] = S.lon; inputs[i * 3 + 2] = w + 1;
+    });
+    var out = await runInference(inputs, missing.length);
+    var n = S.nSpecies;
+    missing.forEach(function (w, i) { S.probs[w] = out.subarray(i * n, (i + 1) * n); });
+  }
+
   async function setLocation(lat, lon, name) {
     S.lat = lat; S.lon = lon;
     document.getElementById("place").textContent =
       "📍 " + (name || (lat.toFixed(2) + ", " + lon.toFixed(2)));
-    var inputs = new Float32Array(48 * 3);
-    for (var w = 0; w < 48; w++) {
-      inputs[w * 3] = lat; inputs[w * 3 + 1] = lon; inputs[w * 3 + 2] = w + 1;
-    }
+    S.probs = {};   // location changed — previous weeks no longer valid
     setStatus("…");
-    S.allProbs = await runInference(inputs, 48);
+    await ensureProbs();
     render();
   }
 

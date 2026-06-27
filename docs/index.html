@@ -85,19 +85,26 @@
       </div>
       <div class="help-body">
         <p><strong>Birds Today</strong> shows the birds you're most likely to
-          meet at your location right now.</p>
+          encounter at your location this week, laid out as a living field guide
+          — the more likely a bird, the bigger it's drawn.</p>
         <h4>How it works</h4>
         <ul>
-          <li>It detects your location (or pick one on the map 📍) and uses the
-            BirdNET geographic model to estimate, for each week of the year, how
-            likely every species is to occur there.</li>
-          <li><strong>Residents</strong> sizes each bird by how likely it is this
-            week. <strong>Migration</strong> shows only species arriving now,
-            sized by how sharply their occurrence is rising.</li>
-          <li>Hover a bird for its name, the source of its picture, and how
-            likely it is this week. Click a bird to open its photos and sounds on
-            the Macaulay Library.</li>
-          <li>Use 👍 / 👎 to tell us how good an illustration is.</li>
+          <li><strong>Your location.</strong> It uses your device's location, or
+            a spot you choose on the map (📍). Nothing about you is stored.</li>
+          <li><strong>The prediction runs in your browser.</strong> It uses the
+            BirdNET <em>geographic</em> model — the same project behind BirdNET
+            sound ID — to estimate, for the current week of the year, how likely
+            each of ~6,000 species is to occur at that spot. The model runs
+            entirely on your device; no location is sent to any server, and it
+            works offline after the first load.</li>
+          <li><strong>Residents</strong> shows the species present now, each
+            sized by how likely you are to see it this week.</li>
+          <li><strong>Migration</strong> shows only species <em>arriving</em>
+            now — whose chance of occurrence is rising sharply this week — sized
+            by how fast they're increasing.</li>
+          <li><strong>Hover</strong> a bird for its name and how often it's seen
+            here this week; <strong>click</strong> it for photos and sounds on
+            the Macaulay Library. Use 👍 / 👎 to rate an illustration.</li>
         </ul>
         <h4>Where the images come from</h4>
         <ul>
@@ -107,7 +114,8 @@
             (1871–1881).</li>
           <li>The <strong>Gould / Dresser / AI</strong> switch chooses the
             source. Species without a historical plate fall back to an
-            AI-generated field-guide illustration.</li>
+            AI-generated field-guide illustration, drawn from a reference
+            photograph and the species' key identifying features.</li>
         </ul>
       </div>
     </div>
