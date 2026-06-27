@@ -7734,6 +7734,206 @@
      "bird": 0.365
     }
    ]
+  },
+  "eurwar2": {
+   "name": "River Warbler",
+   "sci": "Locustella fluviatilis",
+   "family": "Grassbirds and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurwar2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107180951/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurwar2/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.889,
+     "pose": 0.207,
+     "bird": 0.395
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurwar2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.899,
+     "pose": 0.052,
+     "bird": 0.482
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurwar2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.904,
+     "pose": 0.109,
+     "bird": 0.351
+    }
+   ]
+  },
+  "eurwig": {
+   "name": "Eurasian Wigeon",
+   "sci": "Mareca penelope",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/eurwig/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64163431/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurwig/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.75,
+     "pose": 0.113,
+     "bird": 0.746
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurwig/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.619,
+     "pose": 0.097,
+     "bird": 0.927
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurwig/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.618,
+     "pose": 0.093,
+     "bird": 0.785
+    }
+   ]
+  },
+  "eurwoo": {
+   "name": "Eurasian Woodcock",
+   "sci": "Scolopax rusticola",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurwoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42407851/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurwoo/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.897,
+     "pose": 0.344,
+     "bird": 0.599
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurwoo/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.877,
+     "pose": 0.25,
+     "bird": 0.667
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurwoo/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.181,
+     "bird": 0.31
+    }
+   ]
+  },
+  "eurwry": {
+   "name": "Eurasian Wryneck",
+   "sci": "Jynx torquilla",
+   "family": "Woodpeckers",
+   "reason": "all",
+   "before": "review_imgs/eurwry/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/40415931/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurwry/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.844,
+     "pose": 0.538,
+     "bird": 0.641
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurwry/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.87,
+     "pose": 0.519,
+     "bird": 0.472
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurwry/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.897,
+     "pose": 0.406,
+     "bird": 0.355
+    }
+   ]
+  },
+  "eutdov": {
+   "name": "European Turtle-Dove",
+   "sci": "Streptopelia turtur",
+   "family": "Pigeons and Doves",
+   "reason": "all",
+   "before": "review_imgs/eutdov/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/24866531/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eutdov/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.917,
+     "pose": 0.216,
+     "bird": 0.647
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eutdov/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.912,
+     "pose": 0.229,
+     "bird": 0.558
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eutdov/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.934,
+     "pose": 0.265,
+     "bird": 0.416
+    }
+   ]
   }
  }
 }
