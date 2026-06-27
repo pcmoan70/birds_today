@@ -9682,6 +9682,206 @@
      "bird": 0.465
     }
    ]
+  },
+  "grywag": {
+   "name": "Gray Wagtail",
+   "sci": "Motacilla cinerea",
+   "family": "Wagtails and Pipits",
+   "reason": "all",
+   "before": "review_imgs/grywag/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23443031/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grywag/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.897,
+     "pose": 0.085,
+     "bird": 0.733
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grywag/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.886,
+     "pose": 0.102,
+     "bird": 0.698
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grywag/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.87,
+     "pose": 0.096,
+     "bird": 0.559
+    }
+   ]
+  },
+  "gstlar1": {
+   "name": "Greater Short-toed Lark",
+   "sci": "Calandrella brachydactyla",
+   "family": "Larks",
+   "reason": "all",
+   "before": "review_imgs/gstlar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/112309421/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gstlar1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.9,
+     "pose": 0.215,
+     "bird": 0.748
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gstlar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.215,
+     "bird": 0.643
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gstlar1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.918,
+     "pose": 0.178,
+     "bird": 0.376
+    }
+   ]
+  },
+  "gubter2": {
+   "name": "Gull-billed Tern",
+   "sci": "Gelochelidon nilotica",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/gubter2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/57046791/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gubter2/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.898,
+     "pose": 0.014,
+     "bird": 0.59
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gubter2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.916,
+     "pose": 0.034,
+     "bird": 0.424
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gubter2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.911,
+     "pose": 0.018,
+     "bird": 0.275
+    }
+   ]
+  },
+  "gwfgoo": {
+   "name": "Greater White-fronted Goose",
+   "sci": "Anser albifrons",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/gwfgoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36909271/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gwfgoo/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.93,
+     "pose": 0.352,
+     "bird": 0.957
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gwfgoo/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.909,
+     "pose": 0.266,
+     "bird": 0.956
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gwfgoo/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.895,
+     "pose": 0.274,
+     "bird": 0.887
+    }
+   ]
+  },
+  "gyfwoo1": {
+   "name": "Gray-headed Woodpecker",
+   "sci": "Picus canus",
+   "family": "Woodpeckers",
+   "reason": "all",
+   "before": "review_imgs/gyfwoo1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/656957834/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gyfwoo1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.901,
+     "pose": 0.206,
+     "bird": 0.403
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gyfwoo1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.894,
+     "pose": 0.219,
+     "bird": 0.227
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gyfwoo1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.842,
+     "pose": 0.171,
+     "bird": 0.228
+    }
+   ]
   }
  }
 }
