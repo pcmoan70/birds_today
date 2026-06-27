@@ -18218,7 +18218,7 @@
       ]
     },
     "faces": {
-      "hawfin/sitting_0.png": "right"
+      "hawfin/sitting_0.png": "left"
     },
     "credits": {
       "hawfin/sitting_0.png": {
@@ -18425,7 +18425,7 @@
     },
     "faces": {
       "hoomer/flying_0.png": "right",
-      "hoomer/sitting_0.png": "right"
+      "hoomer/sitting_0.png": "left"
     },
     "credits": {
       "hoomer/flying_0.png": {
@@ -18505,7 +18505,7 @@
     },
     "faces": {
       "hoopoe/flying_0.png": "left",
-      "hoopoe/sitting_0.png": "left"
+      "hoopoe/sitting_0.png": "right"
     },
     "credits": {
       "hoopoe/flying_0.png": {
