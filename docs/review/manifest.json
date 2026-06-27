@@ -13955,6 +13955,196 @@
      "bird": 0.038
     }
    ]
+  },
+  "radacc2": {
+   "name": "Radde's Accentor",
+   "sci": "Prunella ocularis",
+   "family": "Accentors",
+   "reason": "all",
+   "before": "review_imgs/radacc2/before.png",
+   "ref": "review_imgs/radacc2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/radacc2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.827,
+     "pose": 0.407,
+     "bird": 0.756
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/radacc2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.83,
+     "pose": 0.171,
+     "bird": 0.851
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/radacc2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.818,
+     "pose": 0.236,
+     "bird": 0.625
+    }
+   ]
+  },
+  "razorb": {
+   "name": "Razorbill",
+   "sci": "Alca torda",
+   "family": "Auks, Murres, and Puffins",
+   "reason": "all",
+   "before": "review_imgs/razorb/before.png",
+   "ref": "review_imgs/razorb/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/razorb/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.923,
+     "pose": 0.382,
+     "bird": 0.92
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/razorb/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.873,
+     "pose": 0.427,
+     "bird": 0.921
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/razorb/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.915,
+     "pose": 0.204,
+     "bird": 0.941
+    }
+   ]
+  },
+  "rebcho1": {
+   "name": "Red-billed Chough",
+   "sci": "Pyrrhocorax pyrrhocorax",
+   "family": "Crows, Jays, and Magpies",
+   "reason": "all",
+   "before": "review_imgs/rebcho1/before.png",
+   "ref": "review_imgs/rebcho1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rebcho1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.866,
+     "pose": 0.038,
+     "bird": 0.779
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rebcho1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.896,
+     "pose": 0.087,
+     "bird": 0.41
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rebcho1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.865,
+     "pose": 0.088,
+     "bird": 0.388
+    }
+   ]
+  },
+  "rebgoo1": {
+   "name": "Red-breasted Goose",
+   "sci": "Branta ruficollis",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/rebgoo1/before.png",
+   "ref": "review_imgs/rebgoo1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rebgoo1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.91,
+     "pose": 0.223,
+     "bird": 0.82
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rebgoo1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.913,
+     "pose": 0.263,
+     "bird": 0.69
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rebgoo1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.883,
+     "pose": 0.161,
+     "bird": 0.422
+    }
+   ]
+  },
+  "rebmer": {
+   "name": "Red-breasted Merganser",
+   "sci": "Mergus serrator",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/rebmer/before.png",
+   "ref": "review_imgs/rebmer/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rebmer/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.819,
+     "pose": 0.135,
+     "bird": 0.534
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rebmer/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.847,
+     "pose": 0.151,
+     "bird": 0.381
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rebmer/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.784,
+     "pose": 0.031,
+     "bird": 0.404
+    }
+   ]
   }
  }
 }
