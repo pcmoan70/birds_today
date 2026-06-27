@@ -15390,7 +15390,7 @@
     },
     "faces": {
       "gloibi/flying_0.png": "left",
-      "gloibi/sitting_0.png": "left"
+      "gloibi/sitting_0.png": "right"
     },
     "credits": {
       "gloibi/flying_0.png": {
@@ -15469,7 +15469,7 @@
     },
     "faces": {
       "gnwtea/flying_0.png": "left",
-      "gnwtea/sitting_0.png": "left"
+      "gnwtea/sitting_0.png": "right"
     },
     "credits": {
       "gnwtea/flying_0.png": {
@@ -15546,7 +15546,7 @@
     },
     "faces": {
       "goldcr1/flying_0.png": "right",
-      "goldcr1/sitting_0.png": "left"
+      "goldcr1/sitting_0.png": "right"
     },
     "credits": {
       "goldcr1/flying_0.png": {
