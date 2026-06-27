@@ -11322,6 +11322,196 @@
      "bird": 0.23
     }
    ]
+  },
+  "litcra1": {
+   "name": "Little Crake",
+   "sci": "Zapornia parva",
+   "family": "Rails, Gallinules, and Coots",
+   "reason": "all",
+   "before": "review_imgs/litcra1/before.png",
+   "ref": "review_imgs/litcra1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/litcra1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.874,
+     "pose": 0.257,
+     "bird": 0.837
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litcra1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.894,
+     "pose": 0.356,
+     "bird": 0.642
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litcra1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.865,
+     "pose": 0.308,
+     "bird": 0.666
+    }
+   ]
+  },
+  "litegr": {
+   "name": "Little Egret",
+   "sci": "Egretta garzetta",
+   "family": "Herons, Egrets, and Bitterns",
+   "reason": "all",
+   "before": "review_imgs/litegr/before.png",
+   "ref": "review_imgs/litegr/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/litegr/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.882,
+     "pose": 0.215,
+     "bird": 0.941
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litegr/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.886,
+     "pose": 0.084,
+     "bird": 0.875
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litegr/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.883,
+     "pose": 0.222,
+     "bird": 0.489
+    }
+   ]
+  },
+  "litgre1": {
+   "name": "Little Grebe",
+   "sci": "Tachybaptus ruficollis",
+   "family": "Grebes",
+   "reason": "all",
+   "before": "review_imgs/litgre1/before.png",
+   "ref": "review_imgs/litgre1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/litgre1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.852,
+     "pose": 0.563,
+     "bird": 0.67
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litgre1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.833,
+     "pose": 0.503,
+     "bird": 0.558
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litgre1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.821,
+     "pose": 0.181,
+     "bird": 0.425
+    }
+   ]
+  },
+  "litgul": {
+   "name": "Little Gull",
+   "sci": "Hydrocoloeus minutus",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/litgul/before.png",
+   "ref": "review_imgs/litgul/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/litgul/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.82,
+     "pose": 0.548,
+     "bird": 0.963
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litgul/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.844,
+     "pose": 0.384,
+     "bird": 0.927
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litgul/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.794,
+     "pose": 0.477,
+     "bird": 0.926
+    }
+   ]
+  },
+  "litowl1": {
+   "name": "Little Owl",
+   "sci": "Athene noctua",
+   "family": "Typical Owls",
+   "reason": "all",
+   "before": "review_imgs/litowl1/before.png",
+   "ref": "review_imgs/litowl1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/litowl1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.787,
+     "pose": 0.211,
+     "bird": 0.468
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litowl1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.797,
+     "pose": 0.2,
+     "bird": 0.414
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litowl1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.825,
+     "pose": 0.103,
+     "bird": 0.318
+    }
+   ]
   }
  }
 }
