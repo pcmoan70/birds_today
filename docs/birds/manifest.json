@@ -25267,7 +25267,7 @@
       ]
     },
     "faces": {
-      "palwar5/sitting_0.png": "left"
+      "palwar5/sitting_0.png": "right"
     },
     "credits": {
       "palwar5/sitting_0.png": {
@@ -25553,7 +25553,7 @@
     },
     "faces": {
       "perfal/flying_0.png": "right",
-      "perfal/sitting_0.png": "right"
+      "perfal/sitting_0.png": "left"
     },
     "credits": {
       "perfal/flying_0.png": {

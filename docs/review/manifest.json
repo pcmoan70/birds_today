@@ -13385,6 +13385,196 @@
      "bird": 0.223
     }
    ]
+  },
+  "palwar5": {
+   "name": "Pallas's Leaf Warbler",
+   "sci": "Phylloscopus proregulus",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/palwar5/before.png",
+   "ref": "review_imgs/palwar5/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/palwar5/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.809,
+     "pose": 0.398,
+     "bird": 0.488
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/palwar5/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.815,
+     "pose": 0.373,
+     "bird": 0.203
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/palwar5/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.812,
+     "pose": 0.345,
+     "bird": 0.122
+    }
+   ]
+  },
+  "parcro2": {
+   "name": "Parrot Crossbill",
+   "sci": "Loxia pytyopsittacus",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/parcro2/before.png",
+   "ref": "review_imgs/parcro2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/parcro2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.684,
+     "pose": 0.126,
+     "bird": 0.298
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/parcro2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.635,
+     "pose": 0.254,
+     "bird": 0.062
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/parcro2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.577,
+     "pose": 0.023,
+     "bird": 0.098
+    }
+   ]
+  },
+  "parjae": {
+   "name": "Parasitic Jaeger",
+   "sci": "Stercorarius parasiticus",
+   "family": "Skuas and Jaegers",
+   "reason": "all",
+   "before": "review_imgs/parjae/before.png",
+   "ref": "review_imgs/parjae/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/parjae/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.81,
+     "pose": 0.047,
+     "bird": 0.433
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/parjae/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.825,
+     "pose": 0.053,
+     "bird": 0.13
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/parjae/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.823,
+     "pose": 0.034,
+     "bird": 0.072
+    }
+   ]
+  },
+  "pecsan": {
+   "name": "Pectoral Sandpiper",
+   "sci": "Calidris melanotos",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/pecsan/before.png",
+   "ref": "review_imgs/pecsan/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pecsan/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.849,
+     "pose": 0.469,
+     "bird": 0.668
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pecsan/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.866,
+     "pose": 0.423,
+     "bird": 0.478
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pecsan/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.874,
+     "pose": 0.395,
+     "bird": 0.371
+    }
+   ]
+  },
+  "perfal": {
+   "name": "Peregrine Falcon",
+   "sci": "Falco peregrinus",
+   "family": "Falcons and Caracaras",
+   "reason": "all",
+   "before": "review_imgs/perfal/before.png",
+   "ref": "review_imgs/perfal/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/perfal/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.89,
+     "pose": 0.647,
+     "bird": 0.757
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/perfal/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.902,
+     "pose": 0.539,
+     "bird": 0.682
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/perfal/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.864,
+     "pose": 0.35,
+     "bird": 0.847
+    }
+   ]
   }
  }
 }
