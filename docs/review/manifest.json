@@ -3570,6 +3570,206 @@
      "bird": 0.252
     }
    ]
+  },
+  "comcan": {
+   "name": "Island Canary",
+   "sci": "Serinus canaria",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/comcan/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107338401/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comcan/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.884,
+     "pose": 0.181,
+     "bird": 0.698
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comcan/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.897,
+     "pose": 0.133,
+     "bird": 0.649
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comcan/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.899,
+     "pose": 0.079,
+     "bird": 0.176
+    }
+   ]
+  },
+  "comcha": {
+   "name": "Common Chaffinch",
+   "sci": "Fringilla coelebs",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/comcha/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/433940431/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comcha/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.914,
+     "pose": 0.05,
+     "bird": 0.23
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comcha/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.923,
+     "pose": 0.048,
+     "bird": 0.176
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comcha/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.933,
+     "pose": 0.054,
+     "bird": 0.134
+    }
+   ]
+  },
+  "comchi1": {
+   "name": "Common Chiffchaff",
+   "sci": "Phylloscopus collybita",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/comchi1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/191052481/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comchi1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.768,
+     "pose": 0.081,
+     "bird": 0.838
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comchi1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.796,
+     "pose": 0.037,
+     "bird": 0.663
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comchi1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.753,
+     "pose": 0.042,
+     "bird": 0.45
+    }
+   ]
+  },
+  "comcra": {
+   "name": "Common Crane",
+   "sci": "Grus grus",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/comcra/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/67533851/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comcra/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.926,
+     "pose": 0.216,
+     "bird": 0.622
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comcra/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.887,
+     "pose": 0.291,
+     "bird": 0.598
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comcra/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.921,
+     "pose": 0.23,
+     "bird": 0.391
+    }
+   ]
+  },
+  "comcuc": {
+   "name": "Common Cuckoo",
+   "sci": "Cuculus canorus",
+   "family": "Cuckoos",
+   "reason": "all",
+   "before": "review_imgs/comcuc/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/38117681/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comcuc/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.721,
+     "pose": 0.308,
+     "bird": 0.712
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comcuc/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.692,
+     "pose": 0.272,
+     "bird": 0.205
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comcuc/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.684,
+     "pose": 0.115,
+     "bird": 0.188
+    }
+   ]
   }
  }
 }
