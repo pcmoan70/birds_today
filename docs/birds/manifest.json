@@ -13717,7 +13717,14 @@
     "faces": {
       "eurspa1/sitting_0.png": "right"
     },
-    "credits": {}
+    "credits": {
+      "eurspa1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
   },
   "eurspo1": {
     "sci": "Platalea leucorodia",
@@ -16964,7 +16971,7 @@
     },
     "faces": {
       "grnsan/flying_0.png": "left",
-      "grnsan/sitting_0.png": "right"
+      "grnsan/sitting_0.png": "left"
     },
     "credits": {
       "grnsan/flying_0.png": {
@@ -17169,7 +17176,7 @@
     },
     "faces": {
       "grrwar1/flying_0.png": "left",
-      "grrwar1/sitting_0.png": "right"
+      "grrwar1/sitting_0.png": "left"
     },
     "credits": {
       "grrwar1/flying_0.png": {
