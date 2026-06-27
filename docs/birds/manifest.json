@@ -10473,7 +10473,7 @@
     },
     "faces": {
       "eargre/flying_0.png": "right",
-      "eargre/sitting_0.png": "left"
+      "eargre/sitting_0.png": "right"
     },
     "credits": {
       "eargre/flying_0.png": {
@@ -10544,7 +10544,7 @@
       ]
     },
     "faces": {
-      "easwar1/sitting_0.png": "right"
+      "easwar1/sitting_0.png": "left"
     },
     "credits": {
       "easwar1/sitting_0.png": {
