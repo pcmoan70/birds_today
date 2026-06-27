@@ -7343,6 +7343,206 @@
      "bird": 0.579
     }
    ]
+  },
+  "eurrol1": {
+   "name": "European Roller",
+   "sci": "Coracias garrulus",
+   "family": "Rollers",
+   "reason": "all",
+   "before": "review_imgs/eurrol1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204441381/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurrol1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.907,
+     "pose": 0.168,
+     "bird": 0.258
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurrol1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.917,
+     "pose": 0.138,
+     "bird": 0.216
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurrol1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.919,
+     "pose": 0.122,
+     "bird": 0.059
+    }
+   ]
+  },
+  "eursco1": {
+   "name": "Eurasian Scops-Owl",
+   "sci": "Otus scops",
+   "family": "Typical Owls",
+   "reason": "all",
+   "before": "review_imgs/eursco1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/27138081/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eursco1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.811,
+     "pose": 0.397,
+     "bird": 0.351
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eursco1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.852,
+     "pose": 0.351,
+     "bird": 0.306
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eursco1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.835,
+     "pose": 0.331,
+     "bird": 0.312
+    }
+   ]
+  },
+  "eurser1": {
+   "name": "European Serin",
+   "sci": "Serinus serinus",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurser1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63380841/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurser1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.826,
+     "pose": 0.03,
+     "bird": 0.807
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurser1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.831,
+     "pose": 0.049,
+     "bird": 0.693
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurser1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.817,
+     "pose": 0.051,
+     "bird": 0.657
+    }
+   ]
+  },
+  "eursha1": {
+   "name": "European Shag",
+   "sci": "Gulosus aristotelis",
+   "family": "Cormorants and Shags",
+   "reason": "all",
+   "before": "review_imgs/eursha1/before.png",
+   "ref": "review_imgs/eursha1/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eursha1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.863,
+     "pose": 0.014,
+     "bird": 0.649
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eursha1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.874,
+     "pose": 0.011,
+     "bird": 0.422
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eursha1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.88,
+     "pose": 0.034,
+     "bird": 0.285
+    }
+   ]
+  },
+  "eursis": {
+   "name": "Eurasian Siskin",
+   "sci": "Spinus spinus",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/eursis/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/200527861/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eursis/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.903,
+     "pose": 0.059,
+     "bird": 0.644
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eursis/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.882,
+     "pose": 0.102,
+     "bird": 0.613
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eursis/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.897,
+     "pose": 0.089,
+     "bird": 0.458
+    }
+   ]
   }
  }
 }

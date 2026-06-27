@@ -13342,7 +13342,7 @@
     },
     "faces": {
       "eurrol1/flying_0.png": "right",
-      "eurrol1/sitting_0.png": "left"
+      "eurrol1/sitting_0.png": "right"
     },
     "credits": {
       "eurrol1/flying_0.png": {
@@ -13418,7 +13418,7 @@
     },
     "faces": {
       "eursco1/flying_0.png": "left",
-      "eursco1/sitting_0.png": "left"
+      "eursco1/sitting_0.png": "right"
     },
     "credits": {
       "eursco1/flying_0.png": {
@@ -13494,7 +13494,7 @@
     },
     "faces": {
       "eurser1/flying_0.png": "left",
-      "eurser1/sitting_0.png": "left"
+      "eurser1/sitting_0.png": "right"
     },
     "credits": {
       "eurser1/flying_0.png": {
@@ -13569,7 +13569,7 @@
     },
     "faces": {
       "eursha1/flying_0.png": "right",
-      "eursha1/sitting_0.png": "right"
+      "eursha1/sitting_0.png": "left"
     },
     "credits": {
       "eursha1/flying_0.png": {
