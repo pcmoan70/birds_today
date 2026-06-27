@@ -1231,7 +1231,7 @@
     },
     "faces": {
       "banswa/flying_0.png": "right",
-      "banswa/sitting_0.png": "right"
+      "banswa/sitting_0.png": "left"
     },
     "credits": {
       "banswa/flying_0.png": {
@@ -1306,7 +1306,7 @@
     },
     "faces": {
       "bargoo/flying_0.png": "right",
-      "bargoo/sitting_0.png": "right"
+      "bargoo/sitting_0.png": "left"
     },
     "credits": {
       "bargoo/flying_0.png": {
@@ -1373,7 +1373,7 @@
       ]
     },
     "faces": {
-      "barpar2/sitting_0.png": "left"
+      "barpar2/sitting_0.png": "right"
     },
     "credits": {
       "barpar2/sitting_0.png": {
@@ -1440,7 +1440,7 @@
     },
     "faces": {
       "barpet/flying_0.png": "left",
-      "barpet/sitting_0.png": "right"
+      "barpet/sitting_0.png": "left"
     },
     "credits": {
       "barpet/flying_0.png": {

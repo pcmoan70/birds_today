@@ -43,37 +43,38 @@
    "name": "Balearic Shearwater",
    "sci": "Puffinus mauretanicus",
    "family": "Shearwaters and Petrels",
-   "reason": "object",
+   "reason": "all",
    "before": "review_imgs/balshe1/before.png",
    "ref": "review_imgs/balshe1/ref.jpg",
+   "ref_source": "wikimedia",
    "chosen": "v0",
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/balshe1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.766,
-     "pose": 0.153,
-     "bird": 0.836
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.762,
+     "pose": 0.175,
+     "bird": 0.753
     },
     {
      "id": "v1",
      "img": "review_imgs/balshe1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.773,
-     "pose": 0.201,
-     "bird": 0.676
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.749,
+     "pose": 0.079,
+     "bird": 0.872
     },
     {
      "id": "v2",
      "img": "review_imgs/balshe1/v2.png",
      "seed": 1002,
      "strength": 0.74,
-     "sim": 0.719,
-     "pose": 0.199,
-     "bird": 0.581
+     "sim": 0.726,
+     "pose": 0.205,
+     "bird": 0.604
     }
    ]
   },
@@ -832,37 +833,38 @@
    "name": "Band-rumped Storm-Petrel",
    "sci": "Hydrobates castro",
    "family": "Northern Storm-Petrels",
-   "reason": "object",
+   "reason": "all",
    "before": "review_imgs/barpet/before.png",
-   "ref": "review_imgs/barpet/ref.jpg",
+   "ref": null,
+   "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/barpet/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.857,
-     "pose": 0.081,
-     "bird": 0.593
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.781,
+     "pose": 0.019,
+     "bird": 0.205
     },
     {
      "id": "v1",
      "img": "review_imgs/barpet/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.798,
-     "pose": 0.136,
-     "bird": 0.524
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.769,
+     "pose": 0.031,
+     "bird": 0.185
     },
     {
      "id": "v2",
      "img": "review_imgs/barpet/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.797,
-     "pose": 0.13,
-     "bird": 0.343
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.75,
+     "pose": 0.025,
+     "bird": 0.155
     }
    ]
   },
@@ -2181,7 +2183,8 @@
    "family": "Swallows and Martins",
    "reason": "all",
    "before": "review_imgs/banswa/before.png",
-   "ref": "review_imgs/banswa/ref.jpg",
+   "ref": null,
+   "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
     {
@@ -2189,27 +2192,27 @@
      "img": "review_imgs/banswa/v0.png",
      "seed": 1000,
      "strength": 0.6,
-     "sim": 0.842,
-     "pose": 0.288,
-     "bird": 0.782
+     "sim": 0.891,
+     "pose": 0.311,
+     "bird": 0.767
     },
     {
      "id": "v1",
      "img": "review_imgs/banswa/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.836,
-     "pose": 0.222,
-     "bird": 0.506
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.865,
+     "pose": 0.293,
+     "bird": 0.734
     },
     {
      "id": "v2",
      "img": "review_imgs/banswa/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.841,
-     "pose": 0.226,
-     "bird": 0.404
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.869,
+     "pose": 0.291,
+     "bird": 0.572
     }
    ]
   },
@@ -2219,7 +2222,8 @@
    "family": "Ducks, Geese, and Swans",
    "reason": "all",
    "before": "review_imgs/bargoo/before.png",
-   "ref": "review_imgs/bargoo/ref.jpg",
+   "ref": null,
+   "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
     {
@@ -2227,27 +2231,27 @@
      "img": "review_imgs/bargoo/v0.png",
      "seed": 1001,
      "strength": 0.68,
-     "sim": 0.903,
-     "pose": 0.317,
-     "bird": 0.915
+     "sim": 0.901,
+     "pose": 0.236,
+     "bird": 0.967
     },
     {
      "id": "v1",
      "img": "review_imgs/bargoo/v1.png",
      "seed": 1000,
      "strength": 0.6,
-     "sim": 0.908,
-     "pose": 0.328,
-     "bird": 0.887
+     "sim": 0.889,
+     "pose": 0.132,
+     "bird": 0.901
     },
     {
      "id": "v2",
      "img": "review_imgs/bargoo/v2.png",
      "seed": 1002,
      "strength": 0.74,
-     "sim": 0.899,
-     "pose": 0.343,
-     "bird": 0.646
+     "sim": 0.925,
+     "pose": 0.267,
+     "bird": 0.452
     }
    ]
   },
@@ -2257,35 +2261,36 @@
    "family": "Pheasants, Grouse, and Allies",
    "reason": "all",
    "before": "review_imgs/barpar2/before.png",
-   "ref": "review_imgs/barpar2/ref.jpg",
+   "ref": null,
+   "ref_source": "whobird",
    "chosen": "v0",
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/barpar2/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.909,
-     "pose": 0.49,
-     "bird": 0.852
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.875,
+     "pose": 0.289,
+     "bird": 0.791
     },
     {
      "id": "v1",
      "img": "review_imgs/barpar2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.908,
-     "pose": 0.352,
-     "bird": 0.897
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.878,
+     "pose": 0.171,
+     "bird": 0.708
     },
     {
      "id": "v2",
      "img": "review_imgs/barpar2/v2.png",
      "seed": 1002,
      "strength": 0.74,
-     "sim": 0.888,
-     "pose": 0.331,
-     "bird": 0.799
+     "sim": 0.81,
+     "pose": 0.188,
+     "bird": 0.59
     }
    ]
   },
