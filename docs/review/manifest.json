@@ -8534,6 +8534,206 @@
      "bird": 0.12
     }
    ]
+  },
+  "goldcr1": {
+   "name": "Goldcrest",
+   "sci": "Regulus regulus",
+   "family": "Kinglets",
+   "reason": "all",
+   "before": "review_imgs/goldcr1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42466111/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/goldcr1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.914,
+     "pose": 0.024,
+     "bird": 0.718
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/goldcr1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.908,
+     "pose": 0.024,
+     "bird": 0.691
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/goldcr1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.053,
+     "bird": 0.666
+    }
+   ]
+  },
+  "goleag": {
+   "name": "Golden Eagle",
+   "sci": "Aquila chrysaetos",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/goleag/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/209005751/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/goleag/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.8,
+     "pose": 0.038,
+     "bird": 0.761
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/goleag/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.806,
+     "pose": 0.046,
+     "bird": 0.67
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/goleag/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.821,
+     "pose": 0.054,
+     "bird": 0.598
+    }
+   ]
+  },
+  "gragoo": {
+   "name": "Graylag Goose",
+   "sci": "Anser anser",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/gragoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63379971/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gragoo/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.941,
+     "pose": 0.484,
+     "bird": 0.948
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gragoo/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.938,
+     "pose": 0.455,
+     "bird": 0.976
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gragoo/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.927,
+     "pose": 0.447,
+     "bird": 0.917
+    }
+   ]
+  },
+  "graher1": {
+   "name": "Gray Heron",
+   "sci": "Ardea cinerea",
+   "family": "Herons, Egrets, and Bitterns",
+   "reason": "all",
+   "before": "review_imgs/graher1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/109008531/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/graher1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.91,
+     "pose": 0.682,
+     "bird": 0.843
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/graher1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.915,
+     "pose": 0.653,
+     "bird": 0.526
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/graher1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.909,
+     "pose": 0.58,
+     "bird": 0.519
+    }
+   ]
+  },
+  "grapri1": {
+   "name": "Graceful Prinia",
+   "sci": "Prinia gracilis",
+   "family": "Cisticolas and Allies",
+   "reason": "all",
+   "before": "review_imgs/grapri1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/146491981/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grapri1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.863,
+     "pose": 0.117,
+     "bird": 0.633
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grapri1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.892,
+     "pose": 0.057,
+     "bird": 0.599
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grapri1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.886,
+     "pose": 0.031,
+     "bird": 0.331
+    }
+   ]
   }
  }
 }

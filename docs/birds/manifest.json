@@ -15623,7 +15623,7 @@
     },
     "faces": {
       "goleag/flying_0.png": "left",
-      "goleag/sitting_0.png": "right"
+      "goleag/sitting_0.png": "left"
     },
     "credits": {
       "goleag/flying_0.png": {
@@ -15701,7 +15701,7 @@
     },
     "faces": {
       "gragoo/flying_0.png": "left",
-      "gragoo/sitting_0.png": "right"
+      "gragoo/sitting_0.png": "left"
     },
     "credits": {
       "gragoo/flying_0.png": {
@@ -15782,7 +15782,7 @@
     },
     "faces": {
       "graher1/flying_0.png": "right",
-      "graher1/sitting_0.png": "right"
+      "graher1/sitting_0.png": "left"
     },
     "credits": {
       "graher1/flying_0.png": {
