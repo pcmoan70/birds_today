@@ -7748,6 +7748,196 @@
      "bird": 0.794
     }
    ]
+  },
+  "eurrob1": {
+   "name": "European Robin",
+   "sci": "Erithacus rubecula",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/eurrob1/before.png",
+   "ref": "review_imgs/eurrob1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurrob1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.897,
+     "pose": 0.286,
+     "bird": 0.936
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurrob1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.169,
+     "bird": 0.944
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurrob1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.866,
+     "pose": 0.151,
+     "bird": 0.898
+    }
+   ]
+  },
+  "eurrol1": {
+   "name": "European Roller",
+   "sci": "Coracias garrulus",
+   "family": "Rollers",
+   "reason": "all",
+   "before": "review_imgs/eurrol1/before.png",
+   "ref": "review_imgs/eurrol1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurrol1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.25,
+     "bird": 0.887
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurrol1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.823,
+     "pose": 0.367,
+     "bird": 0.646
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurrol1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.854,
+     "pose": 0.572,
+     "bird": 0.321
+    }
+   ]
+  },
+  "eursco1": {
+   "name": "Eurasian Scops-Owl",
+   "sci": "Otus scops",
+   "family": "Typical Owls",
+   "reason": "all",
+   "before": "review_imgs/eursco1/before.png",
+   "ref": "review_imgs/eursco1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eursco1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.73,
+     "pose": 0.347,
+     "bird": 0.499
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eursco1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.699,
+     "pose": 0.13,
+     "bird": 0.339
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eursco1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.78,
+     "pose": 0.147,
+     "bird": 0.033
+    }
+   ]
+  },
+  "eurser1": {
+   "name": "European Serin",
+   "sci": "Serinus serinus",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurser1/before.png",
+   "ref": "review_imgs/eurser1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurser1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.881,
+     "pose": 0.267,
+     "bird": 0.364
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurser1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.849,
+     "pose": 0.309,
+     "bird": 0.163
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurser1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.87,
+     "pose": 0.169,
+     "bird": 0.026
+    }
+   ]
+  },
+  "eursha1": {
+   "name": "European Shag",
+   "sci": "Gulosus aristotelis",
+   "family": "Cormorants and Shags",
+   "reason": "all",
+   "before": "review_imgs/eursha1/before.png",
+   "ref": "review_imgs/eursha1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eursha1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.898,
+     "pose": 0.517,
+     "bird": 0.735
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eursha1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.88,
+     "pose": 0.129,
+     "bird": 0.763
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eursha1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.881,
+     "pose": 0.381,
+     "bird": 0.49
+    }
+   ]
   }
  }
 }
