@@ -12344,7 +12344,7 @@
     },
     "faces": {
       "eurgre1/flying_0.png": "left",
-      "eurgre1/sitting_0.png": "right"
+      "eurgre1/sitting_0.png": "left"
     },
     "credits": {
       "eurgre1/flying_0.png": {
@@ -12578,7 +12578,7 @@
     },
     "faces": {
       "eurjac/flying_0.png": "right",
-      "eurjac/sitting_0.png": "left"
+      "eurjac/sitting_0.png": "right"
     },
     "credits": {
       "eurjac/flying_0.png": {
@@ -12656,7 +12656,7 @@
     },
     "faces": {
       "eurjay1/flying_0.png": "left",
-      "eurjay1/sitting_0.png": "left"
+      "eurjay1/sitting_0.png": "right"
     },
     "credits": {
       "eurjay1/flying_0.png": {
