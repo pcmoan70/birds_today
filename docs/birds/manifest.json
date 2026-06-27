@@ -19696,7 +19696,7 @@
       ]
     },
     "faces": {
-      "lanwar/sitting_0.png": "left"
+      "lanwar/sitting_0.png": "right"
     },
     "credits": {
       "lanwar/sitting_0.png": {
@@ -19760,7 +19760,7 @@
       ]
     },
     "faces": {
-      "laplon/sitting_0.png": "left"
+      "laplon/sitting_0.png": "right"
     },
     "credits": {
       "laplon/sitting_0.png": {
@@ -19829,7 +19829,7 @@
     },
     "faces": {
       "laudov1/flying_0.png": "right",
-      "laudov1/sitting_0.png": "right"
+      "laudov1/sitting_0.png": "left"
     },
     "credits": {
       "laudov1/flying_0.png": {
