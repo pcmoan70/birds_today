@@ -2460,7 +2460,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/97497371/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -2489,7 +2489,8 @@
      "pose": 0.134,
      "bird": 0.131
     }
-   ]
+   ],
+   "reviewed": true
   },
   "cacgoo1": {
    "name": "Cackling Goose",
@@ -2529,7 +2530,8 @@
      "pose": 0.187,
      "bird": 0.894
     }
-   ]
+   ],
+   "reviewed": true
   },
   "callar1": {
    "name": "Calandra Lark",
@@ -2569,7 +2571,8 @@
      "pose": 0.044,
      "bird": 0.137
     }
-   ]
+   ],
+   "reviewed": true
   },
   "cangoo": {
    "name": "Canada Goose",
@@ -2580,7 +2583,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/49344561/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -2609,7 +2612,8 @@
      "pose": 0.223,
      "bird": 0.87
     }
-   ]
+   ],
+   "reviewed": true
   },
   "casgul2": {
    "name": "Caspian Gull",
@@ -2620,7 +2624,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204953931/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -2649,7 +2653,8 @@
      "pose": 0.273,
      "bird": 0.968
     }
-   ]
+   ],
+   "reviewed": true
   },
   "caster1": {
    "name": "Caspian Tern",
@@ -2689,7 +2694,8 @@
      "pose": 0.014,
      "bird": 0.958
     }
-   ]
+   ],
+   "reviewed": true
   },
   "categr1": {
    "name": "Western Cattle-Egret",
@@ -2729,7 +2735,8 @@
      "pose": 0.147,
      "bird": 0.776
     }
-   ]
+   ],
+   "reviewed": true
   },
   "cetwar1": {
    "name": "Cetti's Warbler",
@@ -2740,7 +2747,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23966761/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -2769,7 +2776,8 @@
      "pose": 0.06,
      "bird": 0.057
     }
-   ]
+   ],
+   "reviewed": true
   },
   "465888": {
    "name": "Pale Crag-Martin",
@@ -3089,7 +3097,8 @@
      "pose": 0.14,
      "bird": 0.908
     }
-   ]
+   ],
+   "reviewed": true
   },
   "chiwig1": {
    "name": "Chiloe Wigeon",
@@ -3100,7 +3109,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64759771/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -3129,7 +3138,8 @@
      "pose": 0.037,
      "bird": 0.664
     }
-   ]
+   ],
+   "reviewed": true
   },
   "cinvul1": {
    "name": "Cinereous Vulture",
@@ -3169,7 +3179,8 @@
      "pose": 0.001,
      "bird": 0.442
     }
-   ]
+   ],
+   "reviewed": true
   },
   "cirbun1": {
    "name": "Cirl Bunting",
@@ -3249,7 +3260,8 @@
      "pose": 0.092,
      "bird": 0.148
     }
-   ]
+   ],
+   "reviewed": true
   },
   "citwag": {
    "name": "Citrine Wagtail",
@@ -3289,7 +3301,8 @@
      "pose": 0.076,
      "bird": 0.221
     }
-   ]
+   ],
+   "reviewed": true
   },
   "coatit2": {
    "name": "Coal Tit",
@@ -3300,7 +3313,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/70455821/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -3329,7 +3342,8 @@
      "pose": 0.052,
      "bird": 0.531
     }
-   ]
+   ],
+   "reviewed": true
   },
   "cockat": {
    "name": "Cockatiel",
@@ -3340,7 +3354,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63888951/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -3369,7 +3383,8 @@
      "pose": 0.164,
      "bird": 0.579
     }
-   ]
+   ],
+   "reviewed": true
   },
   "cogwar1": {
    "name": "Common Grasshopper Warbler",
@@ -3529,7 +3544,8 @@
      "pose": 0.27,
      "bird": 0.078
     }
-   ]
+   ],
+   "reviewed": true
   },
   "combuz1": {
    "name": "Common Buzzard",
@@ -3540,7 +3556,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35712671/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -3569,7 +3585,8 @@
      "pose": 0.006,
      "bird": 0.252
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comcan": {
    "name": "Island Canary",
@@ -3609,7 +3626,8 @@
      "pose": 0.079,
      "bird": 0.176
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comcha": {
    "name": "Common Chaffinch",
@@ -3620,7 +3638,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/433940431/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -3649,7 +3667,8 @@
      "pose": 0.054,
      "bird": 0.134
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comchi1": {
    "name": "Common Chiffchaff",
@@ -3729,7 +3748,8 @@
      "pose": 0.23,
      "bird": 0.391
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comcuc": {
    "name": "Common Cuckoo",
@@ -3929,7 +3949,8 @@
      "pose": 0.024,
      "bird": 0.509
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comkin1": {
    "name": "Common Kingfisher",
@@ -3969,7 +3990,8 @@
      "pose": 0.432,
      "bird": 0.371
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comloo": {
    "name": "Common Loon",
@@ -3980,7 +4002,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/245172211/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -4009,7 +4031,8 @@
      "pose": 0.299,
      "bird": 0.081
     }
-   ]
+   ],
+   "reviewed": true
   },
   "commer": {
    "name": "Common Merganser",
@@ -4131,7 +4154,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/78390881/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -4160,7 +4183,8 @@
      "pose": 0.282,
      "bird": 0.504
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comnig1": {
    "name": "Common Nightingale",
@@ -4171,7 +4195,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/52391361/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -4200,7 +4224,8 @@
      "pose": 0.106,
      "bird": 0.477
     }
-   ]
+   ],
+   "reviewed": true
   },
   "compea": {
    "name": "Indian Peafowl",
@@ -4211,7 +4236,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42442871/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -4240,7 +4265,8 @@
      "pose": 0.069,
      "bird": 0.362
     }
-   ]
+   ],
+   "reviewed": true
   },
   "compoc": {
    "name": "Common Pochard",
@@ -4251,7 +4277,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204243991/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -4280,7 +4306,8 @@
      "pose": 0.143,
      "bird": 0.908
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comqua1": {
    "name": "Common Quail",
@@ -4331,7 +4358,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/171431281/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -4360,7 +4387,8 @@
      "pose": 0.077,
      "bird": 0.236
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comred1": {
    "name": "Common Redshank",
@@ -4480,7 +4508,8 @@
      "pose": 0.166,
      "bird": 0.128
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comsan": {
    "name": "Common Sandpiper",
@@ -4531,7 +4560,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43400091/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -4560,7 +4589,8 @@
      "pose": 0.062,
      "bird": 0.806
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comsni": {
    "name": "Common Snipe",
@@ -4651,7 +4681,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/170212981/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -4680,7 +4710,8 @@
      "pose": 0.016,
      "bird": 0.648
     }
-   ]
+   ],
+   "reviewed": true
   },
   "comwax": {
    "name": "Common Waxbill",
@@ -4720,7 +4751,8 @@
      "pose": 0.065,
      "bird": 0.42
     }
-   ]
+   ],
+   "reviewed": true
   },
   "corbun1": {
    "name": "Corn Bunting",
@@ -4760,7 +4792,8 @@
      "pose": 0.213,
      "bird": 0.316
     }
-   ]
+   ],
+   "reviewed": true
   },
   "corcra": {
    "name": "Corn Crake",
@@ -4800,7 +4833,8 @@
      "pose": 0.314,
      "bird": 0.523
     }
-   ]
+   ],
+   "reviewed": true
   },
   "corfin1": {
    "name": "Corsican Finch",
@@ -4840,7 +4874,8 @@
      "pose": 0.029,
      "bird": 0.625
     }
-   ]
+   ],
+   "reviewed": true
   },
   "corplo": {
    "name": "Common Ringed Plover",
@@ -4851,7 +4886,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/32837031/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -4880,7 +4915,8 @@
      "pose": 0.117,
      "bird": 0.558
     }
-   ]
+   ],
+   "reviewed": true
   },
   "corshe1": {
    "name": "Cory's Shearwater",
@@ -4920,7 +4956,8 @@
      "pose": 0.026,
      "bird": 0.57
     }
-   ]
+   ],
+   "reviewed": true
   },
   "cowpig1": {
    "name": "Common Wood-Pigeon",
@@ -4960,7 +4997,8 @@
      "pose": 0.061,
      "bird": 0.504
     }
-   ]
+   ],
+   "reviewed": true
   },
   "crebun2": {
    "name": "Cretzschmar's Bunting",
@@ -5040,7 +5078,8 @@
      "pose": 0.143,
      "bird": 0.032
     }
-   ]
+   ],
+   "reviewed": true
   },
   "cretit2": {
    "name": "Crested Tit",
@@ -5051,7 +5090,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/128664761/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -5080,7 +5119,8 @@
      "pose": 0.1,
      "bird": 0.414
     }
-   ]
+   ],
+   "reviewed": true
   },
   "crwfin2": {
    "name": "Crimson-winged Finch",
@@ -5091,7 +5131,7 @@
    "ref": "review_imgs/crwfin2/ref.jpg",
    "ref_source": "gbif",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -5120,7 +5160,8 @@
      "pose": 0.096,
      "bird": 0.876
     }
-   ]
+   ],
+   "reviewed": true
   },
   "cursan": {
    "name": "Curlew Sandpiper",
@@ -5211,7 +5252,7 @@
    "ref": "review_imgs/cypwhe1/ref.jpg",
    "ref_source": "gbif",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -5240,7 +5281,8 @@
      "pose": 0.158,
      "bird": 0.439
     }
-   ]
+   ],
+   "reviewed": true
   },
   "dalpel1": {
    "name": "Dalmatian Pelican",
@@ -5280,7 +5322,8 @@
      "pose": 0.383,
      "bird": 0.693
     }
-   ]
+   ],
+   "reviewed": true
   },
   "darwar1": {
    "name": "Dartford Warbler",
@@ -5291,7 +5334,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/314557661/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -5320,7 +5363,8 @@
      "pose": 0.037,
      "bird": 0.175
     }
-   ]
+   ],
+   "reviewed": true
   },
   "delpri1": {
    "name": "Delicate Prinia",
@@ -5400,7 +5444,8 @@
      "pose": 0.191,
      "bird": 0.598
     }
-   ]
+   ],
+   "reviewed": true
   },
   "desspa1": {
    "name": "Dead Sea Sparrow",
@@ -5440,7 +5485,8 @@
      "pose": 0.278,
      "bird": 0.592
     }
-   ]
+   ],
+   "reviewed": true
   },
   "deswhe1": {
    "name": "Desert Wheatear",
@@ -5451,7 +5497,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/84558621/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -5480,7 +5526,8 @@
      "pose": 0.278,
      "bird": 0.663
     }
-   ]
+   ],
+   "reviewed": true
   },
   "diadov1": {
    "name": "Diamond Dove",
@@ -5520,7 +5567,8 @@
      "pose": 0.105,
      "bird": 0.198
     }
-   ]
+   ],
+   "reviewed": true
   },
   "doveki": {
    "name": "Dovekie",
@@ -5640,7 +5688,8 @@
      "pose": 0.166,
      "bird": 0.466
     }
-   ]
+   ],
+   "reviewed": true
   },
   "duplar1": {
    "name": "Dupont's Lark",
@@ -5651,7 +5700,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/68692361/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -5680,7 +5729,8 @@
      "pose": 0.115,
      "bird": 0.304
     }
-   ]
+   ],
+   "reviewed": true
   },
   "duswar": {
    "name": "Dusky Warbler",
@@ -5800,7 +5850,8 @@
      "pose": 0.234,
      "bird": 0.127
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eaowar2": {
    "name": "Eastern Orphean Warbler",
@@ -5851,7 +5902,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/157218471/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -5880,7 +5931,8 @@
      "pose": 0.164,
      "bird": 0.656
     }
-   ]
+   ],
+   "reviewed": true
   },
   "easwar1": {
    "name": "Eastern Subalpine Warbler",
@@ -5920,7 +5972,8 @@
      "pose": 0.154,
      "bird": 0.141
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eaywag1": {
    "name": "Western Yellow Wagtail",
@@ -5960,7 +6013,8 @@
      "pose": 0.123,
      "bird": 0.383
     }
-   ]
+   ],
+   "reviewed": true
   },
   "egygoo": {
    "name": "Egyptian Goose",
@@ -5971,7 +6025,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/33607341/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -6000,7 +6054,8 @@
      "pose": 0.243,
      "bird": 0.694
     }
-   ]
+   ],
+   "reviewed": true
   },
   "egyvul1": {
    "name": "Egyptian Vulture",
@@ -6011,7 +6066,7 @@
    "ref": "review_imgs/egyvul1/ref.jpg",
    "ref_source": "gbif",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -6040,7 +6095,8 @@
      "pose": 0.62,
      "bird": 0.86
     }
-   ]
+   ],
+   "reviewed": true
   },
   "elefal1": {
    "name": "Eleonora's Falcon",
@@ -6051,7 +6107,7 @@
    "ref": "review_imgs/elefal1/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -6080,7 +6136,8 @@
      "pose": 0.433,
      "bird": 0.503
     }
-   ]
+   ],
+   "reviewed": true
   },
   "ettwoo1": {
    "name": "Eurasian Three-toed Woodpecker",
@@ -6120,7 +6177,8 @@
      "pose": 0.15,
      "bird": 0.438
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eubeat1": {
    "name": "European Bee-eater",
@@ -6160,7 +6218,8 @@
      "pose": 0.167,
      "bird": 0.097
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eucdov": {
    "name": "Eurasian Collared-Dove",
@@ -6171,7 +6230,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/208765181/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -6200,7 +6259,8 @@
      "pose": 0.232,
      "bird": 0.32
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eueowl1": {
    "name": "Eurasian Eagle-Owl",
@@ -6211,7 +6271,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/162236021/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -6240,7 +6300,8 @@
      "pose": 0.507,
      "bird": 0.268
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eugori2": {
    "name": "Eurasian Golden Oriole",
@@ -6280,7 +6341,8 @@
      "pose": 0.102,
      "bird": 0.37
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eugplo": {
    "name": "European Golden-Plover",
@@ -6320,7 +6382,8 @@
      "pose": 0.322,
      "bird": 0.575
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eugwoo2": {
    "name": "Eurasian Green Woodpecker",
@@ -6360,7 +6423,8 @@
      "pose": 0.205,
      "bird": 0.895
     }
-   ]
+   ],
+   "reviewed": true
   },
   "euhbuz1": {
    "name": "European Honey-buzzard",
@@ -6391,7 +6455,8 @@
      "pose": 0.089,
      "bird": 0.485
     }
-   ]
+   ],
+   "reviewed": true
   },
   "euhgul1": {
    "name": "European Herring Gull",
@@ -6431,7 +6496,8 @@
      "pose": 0.245,
      "bird": 0.945
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eupfly1": {
    "name": "European Pied Flycatcher",
@@ -6471,7 +6537,8 @@
      "pose": 0.223,
      "bird": 0.819
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eupowl1": {
    "name": "Eurasian Pygmy-Owl",
@@ -6482,7 +6549,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/212474581/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -6511,7 +6578,8 @@
      "pose": 0.503,
      "bird": 0.437
     }
-   ]
+   ],
+   "reviewed": true
   },
   "euptit1": {
    "name": "Eurasian Penduline-Tit",
@@ -6553,7 +6621,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44422621/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -6582,7 +6650,8 @@
      "pose": 0.077,
      "bird": 0.219
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurbul": {
    "name": "Eurasian Bullfinch",
@@ -6622,7 +6691,8 @@
      "pose": 0.065,
      "bird": 0.145
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurcoo": {
    "name": "Eurasian Coot",
@@ -6633,7 +6703,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/40037781/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -6662,7 +6732,8 @@
      "pose": 0.12,
      "bird": 0.18
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurcrm1": {
    "name": "Eurasian Crag-Martin",
@@ -6673,7 +6744,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42917161/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -6702,7 +6773,8 @@
      "pose": 0.064,
      "bird": 0.412
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurcur": {
    "name": "Eurasian Curlew",
@@ -6742,7 +6814,8 @@
      "pose": 0.17,
      "bird": 0.89
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurdot": {
    "name": "Eurasian Dotterel",
@@ -6782,7 +6855,8 @@
      "pose": 0.335,
      "bird": 0.45
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurgol1": {
    "name": "European Goldfinch",
@@ -6822,7 +6896,8 @@
      "pose": 0.073,
      "bird": 0.315
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurgre1": {
    "name": "European Greenfinch",
@@ -6862,7 +6937,8 @@
      "pose": 0.087,
      "bird": 0.451
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurgri1": {
    "name": "Eurasian Griffon",
@@ -6902,7 +6978,8 @@
      "pose": 0.005,
      "bird": 0.615
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurhob": {
    "name": "Eurasian Hobby",
@@ -6942,7 +7019,8 @@
      "pose": 0.175,
      "bird": 0.584
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurjac": {
    "name": "Eurasian Jackdaw",
@@ -7062,7 +7140,8 @@
      "pose": 0.449,
      "bird": 0.562
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurlin1": {
    "name": "Eurasian Linnet",
@@ -7102,7 +7181,8 @@
      "pose": 0.08,
      "bird": 0.89
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurmag1": {
    "name": "Eurasian Magpie",
@@ -7142,7 +7222,8 @@
      "pose": 0.055,
      "bird": 0.653
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurnig1": {
    "name": "Eurasian Nightjar",
@@ -7193,7 +7274,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/188708831/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -7222,7 +7303,8 @@
      "pose": 0.035,
      "bird": 0.351
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurnut3": {
    "name": "Northern Nutcracker",
@@ -7262,7 +7344,8 @@
      "pose": 0.223,
      "bird": 0.357
     }
-   ]
+   ],
+   "reviewed": true
   },
   "euroys1": {
    "name": "Eurasian Oystercatcher",
@@ -7273,7 +7356,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63311961/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -7302,7 +7385,8 @@
      "pose": 0.132,
      "bird": 0.78
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurrob1": {
    "name": "European Robin",
@@ -7342,7 +7426,8 @@
      "pose": 0.226,
      "bird": 0.579
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurrol1": {
    "name": "European Roller",
@@ -7382,7 +7467,8 @@
      "pose": 0.122,
      "bird": 0.059
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eursco1": {
    "name": "Eurasian Scops-Owl",
@@ -7462,7 +7548,8 @@
      "pose": 0.051,
      "bird": 0.657
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eursha1": {
    "name": "European Shag",
@@ -7502,7 +7589,8 @@
      "pose": 0.034,
      "bird": 0.285
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eursis": {
    "name": "Eurasian Siskin",
@@ -7542,7 +7630,8 @@
      "pose": 0.089,
      "bird": 0.458
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurspa1": {
    "name": "Eurasian Sparrowhawk",
@@ -7622,7 +7711,8 @@
      "pose": 0.344,
      "bird": 0.249
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eursta": {
    "name": "European Starling",
@@ -7662,7 +7752,8 @@
      "pose": 0.215,
      "bird": 0.15
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurtre1": {
    "name": "Eurasian Treecreeper",
@@ -7693,7 +7784,8 @@
      "pose": 0.302,
      "bird": 0.401
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurwar1": {
    "name": "Common Reed Warbler",
@@ -7704,7 +7796,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/154989101/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -7733,7 +7825,8 @@
      "pose": 0.16,
      "bird": 0.365
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurwar2": {
    "name": "River Warbler",
@@ -7773,7 +7866,8 @@
      "pose": 0.109,
      "bird": 0.351
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurwig": {
    "name": "Eurasian Wigeon",
@@ -7813,7 +7907,8 @@
      "pose": 0.093,
      "bird": 0.785
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurwoo": {
    "name": "Eurasian Woodcock",
@@ -7853,7 +7948,8 @@
      "pose": 0.181,
      "bird": 0.31
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eurwry": {
    "name": "Eurasian Wryneck",
@@ -7893,7 +7989,8 @@
      "pose": 0.406,
      "bird": 0.355
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eutdov": {
    "name": "European Turtle-Dove",
@@ -7933,7 +8030,8 @@
      "pose": 0.265,
      "bird": 0.416
     }
-   ]
+   ],
+   "reviewed": true
   },
   "eutkne1": {
    "name": "Eurasian Thick-knee",
@@ -9132,6 +9230,166 @@
      "sim": 0.891,
      "pose": 0.225,
      "bird": 0.17
+    }
+   ]
+  },
+  "gretit1": {
+   "name": "Great Tit",
+   "sci": "Parus major",
+   "family": "Tits, Chickadees, and Titmice",
+   "reason": "all",
+   "before": "review_imgs/gretit1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/146576841/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gretit1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.924,
+     "pose": 0.095,
+     "bird": 0.683
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gretit1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.904,
+     "pose": 0.066,
+     "bird": 0.469
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gretit1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.919,
+     "pose": 0.056,
+     "bird": 0.409
+    }
+   ]
+  },
+  "grewar3": {
+   "name": "Greenish Warbler",
+   "sci": "Phylloscopus trochiloides",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/grewar3/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44704121/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grewar3/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.762,
+     "pose": 0.143,
+     "bird": 0.749
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grewar3/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.823,
+     "pose": 0.108,
+     "bird": 0.571
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grewar3/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.843,
+     "pose": 0.069,
+     "bird": 0.559
+    }
+   ]
+  },
+  "grewhi1": {
+   "name": "Greater Whitethroat",
+   "sci": "Curruca communis",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/grewhi1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/96634411/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grewhi1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.89,
+     "pose": 0.238,
+     "bird": 0.765
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grewhi1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.877,
+     "pose": 0.243,
+     "bird": 0.678
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grewhi1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.892,
+     "pose": 0.161,
+     "bird": 0.469
+    }
+   ]
+  },
+  "grgowl": {
+   "name": "Great Gray Owl",
+   "sci": "Strix nebulosa",
+   "family": "Typical Owls",
+   "reason": "all",
+   "before": "review_imgs/grgowl/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/422308681/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grgowl/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.832,
+     "pose": 0.535,
+     "bird": 0.822
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grgowl/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.803,
+     "pose": 0.582,
+     "bird": 0.61
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grgowl/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.814,
+     "pose": 0.457,
+     "bird": 0.638
     }
    ]
   }

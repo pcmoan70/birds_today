@@ -56,12 +56,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "465888/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -1314,12 +1308,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "bargoo/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -2468,12 +2456,6 @@
     },
     "credits": {
       "bktgod/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "bktgod/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -3873,14 +3855,7 @@
     "faces": {
       "blwpra1/sitting_0.png": "right"
     },
-    "credits": {
-      "blwpra1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "bohwax": {
     "sci": "Bombycilla garrulus",
@@ -4177,14 +4152,7 @@
     "faces": {
       "boowar1/sitting_0.png": "left"
     },
-    "credits": {
-      "boowar1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "borowl": {
     "sci": "Aegolius funereus",
@@ -4326,12 +4294,6 @@
     },
     "credits": {
       "brambl/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "brambl/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -4558,12 +4520,6 @@
     },
     "credits": {
       "bripet/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "bripet/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -5690,14 +5646,7 @@
     "faces": {
       "cirbun1/sitting_0.png": "left"
     },
-    "credits": {
-      "cirbun1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "citfin1": {
     "sci": "Carduelis citrinella",
@@ -6041,14 +5990,7 @@
     "faces": {
       "cogwar1/sitting_0.png": "left"
     },
-    "credits": {
-      "cogwar1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "colfly1": {
     "sci": "Ficedula albicollis",
@@ -6107,14 +6049,7 @@
     "faces": {
       "colfly1/sitting_0.png": "right"
     },
-    "credits": {
-      "colfly1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "colpra": {
     "sci": "Glareola pratincola",
@@ -6180,12 +6115,6 @@
     },
     "credits": {
       "colpra/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "colpra/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -6553,12 +6482,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "comchi1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -6712,12 +6635,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "comcuc/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -6787,12 +6704,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "comeid/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -6854,14 +6765,7 @@
     "faces": {
       "comgol/sitting_0.png": "right"
     },
-    "credits": {
-      "comgol/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "comgre": {
     "sci": "Tringa nebularia",
@@ -6931,12 +6835,6 @@
     },
     "credits": {
       "comgre/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "comgre/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -7236,14 +7134,7 @@
     "faces": {
       "commer/sitting_0.png": "right"
     },
-    "credits": {
-      "commer/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "commoo3": {
     "sci": "Gallinula chloropus",
@@ -7317,12 +7208,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "commoo3/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -7386,12 +7271,6 @@
     },
     "credits": {
       "commur/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "commur/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -7756,12 +7635,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "comqua1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -7904,14 +7777,7 @@
     "faces": {
       "comred1/sitting_0.png": "left"
     },
-    "credits": {
-      "comred1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "comred2": {
     "sci": "Phoenicurus phoenicurus",
@@ -7978,12 +7844,6 @@
     },
     "credits": {
       "comred2/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "comred2/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -8127,12 +7987,6 @@
     },
     "credits": {
       "comsan/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "comsan/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -8289,12 +8143,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "comsni/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -8364,12 +8212,6 @@
     },
     "credits": {
       "comswi/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "comswi/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -8990,14 +8832,7 @@
     "faces": {
       "crebun2/sitting_0.png": "right"
     },
-    "credits": {
-      "crebun2/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "crelar1": {
     "sci": "Galerida cristata",
@@ -9285,12 +9120,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "cursan/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -9348,14 +9177,7 @@
     "faces": {
       "cypwar1/sitting_0.png": "right"
     },
-    "credits": {
-      "cypwar1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "cypwhe1": {
     "sci": "Oenanthe cypriaca",
@@ -9604,14 +9426,7 @@
     "faces": {
       "delpri1/sitting_0.png": "left"
     },
-    "credits": {
-      "delpri1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "desfin2": {
     "sci": "Rhodospiza obsoleta",
@@ -9933,12 +9748,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "doveki/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -10009,12 +9818,6 @@
     },
     "credits": {
       "dunlin/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "dunlin/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -10208,14 +10011,7 @@
     "faces": {
       "duswar/sitting_0.png": "left"
     },
-    "credits": {
-      "duswar/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "eabwar1": {
     "sci": "Phylloscopus orientalis",
@@ -10273,14 +10069,7 @@
     "faces": {
       "eabwar1/sitting_0.png": "right"
     },
-    "credits": {
-      "eabwar1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "eaowar1": {
     "sci": "Iduna pallida",
@@ -10402,14 +10191,7 @@
     "faces": {
       "eaowar2/sitting_0.png": "left"
     },
-    "credits": {
-      "eaowar2/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "eargre": {
     "sci": "Podiceps nigricollis",
@@ -11144,7 +10926,7 @@
     },
     "faces": {
       "eueowl1/flying_0.png": "right",
-      "eueowl1/sitting_0.png": "left"
+      "eueowl1/sitting_0.png": "right"
     },
     "credits": {
       "eueowl1/flying_0.png": {
@@ -11738,12 +11520,6 @@
     },
     "credits": {
       "euptit1/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "euptit1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -12586,12 +12362,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "eurjac/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -12660,12 +12430,6 @@
     },
     "credits": {
       "eurjay1/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "eurjay1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -12961,12 +12725,6 @@
     },
     "credits": {
       "eurnig1/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "eurnig1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -13426,12 +13184,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "eursco1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -13723,14 +13475,7 @@
     "faces": {
       "eurspa1/sitting_0.png": "right"
     },
-    "credits": {
-      "eurspa1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "eurspo1": {
     "sci": "Platalea leucorodia",
@@ -16830,7 +16575,7 @@
       ]
     },
     "faces": {
-      "grewhi1/sitting_0.png": "right"
+      "grewhi1/sitting_0.png": "left"
     },
     "credits": {
       "grewhi1/sitting_0.png": {
@@ -16896,7 +16641,7 @@
     },
     "faces": {
       "grgowl/flying_0.png": "left",
-      "grgowl/sitting_0.png": "left"
+      "grgowl/sitting_0.png": "right"
     },
     "credits": {
       "grgowl/flying_0.png": {
