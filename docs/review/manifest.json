@@ -1390,6 +1390,206 @@
      "bird": 0.505
     }
    ]
+  },
+  "bkwsti": {
+   "name": "Black-winged Stilt",
+   "sci": "Himantopus himantopus",
+   "family": "Stilts and Avocets",
+   "reason": "all",
+   "before": "review_imgs/bkwsti/before.png",
+   "ref": null,
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bkwsti/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.92,
+     "pose": 0.173,
+     "bird": 0.864
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bkwsti/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.913,
+     "pose": 0.285,
+     "bird": 0.761
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bkwsti/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.904,
+     "pose": 0.159,
+     "bird": 0.596
+    }
+   ]
+  },
+  "blackc1": {
+   "name": "Eurasian Blackcap",
+   "sci": "Sylvia atricapilla",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/blackc1/before.png",
+   "ref": null,
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blackc1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.869,
+     "pose": 0.117,
+     "bird": 0.804
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blackc1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.904,
+     "pose": 0.05,
+     "bird": 0.641
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blackc1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.886,
+     "pose": 0.078,
+     "bird": 0.641
+    }
+   ]
+  },
+  "blagro1": {
+   "name": "Black Grouse",
+   "sci": "Lyrurus tetrix",
+   "family": "Pheasants, Grouse, and Allies",
+   "reason": "all",
+   "before": "review_imgs/blagro1/before.png",
+   "ref": null,
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blagro1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.873,
+     "pose": 0.071,
+     "bird": 0.947
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blagro1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.884,
+     "pose": 0.044,
+     "bird": 0.662
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blagro1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.867,
+     "pose": 0.041,
+     "bird": 0.344
+    }
+   ]
+  },
+  "blakit1": {
+   "name": "Black Kite",
+   "sci": "Milvus migrans",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/blakit1/before.png",
+   "ref": null,
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blakit1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.763,
+     "pose": 0.022,
+     "bird": 0.782
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blakit1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.727,
+     "pose": 0.044,
+     "bird": 0.746
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blakit1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.751,
+     "pose": 0.028,
+     "bird": 0.546
+    }
+   ]
+  },
+  "blared1": {
+   "name": "Black Redstart",
+   "sci": "Phoenicurus ochruros",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/blared1/before.png",
+   "ref": null,
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blared1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.932,
+     "pose": 0.178,
+     "bird": 0.707
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blared1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.922,
+     "pose": 0.162,
+     "bird": 0.448
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blared1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.892,
+     "pose": 0.103,
+     "bird": 0.525
+    }
+   ]
   }
  }
 }
