@@ -8128,6 +8128,196 @@
      "bird": 0.601
     }
    ]
+  },
+  "eurwar2": {
+   "name": "River Warbler",
+   "sci": "Locustella fluviatilis",
+   "family": "Grassbirds and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurwar2/before.png",
+   "ref": "review_imgs/eurwar2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurwar2/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.896,
+     "pose": 0.255,
+     "bird": 0.29
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurwar2/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.878,
+     "pose": 0.096,
+     "bird": 0.481
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurwar2/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.91,
+     "pose": 0.078,
+     "bird": 0.119
+    }
+   ]
+  },
+  "eurwig": {
+   "name": "Eurasian Wigeon",
+   "sci": "Mareca penelope",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/eurwig/before.png",
+   "ref": "review_imgs/eurwig/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurwig/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.819,
+     "pose": 0.165,
+     "bird": 0.505
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurwig/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.848,
+     "pose": 0.154,
+     "bird": 0.125
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurwig/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.783,
+     "pose": 0.138,
+     "bird": 0.253
+    }
+   ]
+  },
+  "eurwoo": {
+   "name": "Eurasian Woodcock",
+   "sci": "Scolopax rusticola",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurwoo/before.png",
+   "ref": "review_imgs/eurwoo/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurwoo/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.837,
+     "pose": 0.41,
+     "bird": 0.767
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurwoo/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.835,
+     "pose": 0.378,
+     "bird": 0.569
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurwoo/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.232,
+     "bird": 0.597
+    }
+   ]
+  },
+  "eurwry": {
+   "name": "Eurasian Wryneck",
+   "sci": "Jynx torquilla",
+   "family": "Woodpeckers",
+   "reason": "all",
+   "before": "review_imgs/eurwry/before.png",
+   "ref": "review_imgs/eurwry/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurwry/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.853,
+     "pose": 0.556,
+     "bird": 0.524
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurwry/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.853,
+     "pose": 0.383,
+     "bird": 0.448
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurwry/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.865,
+     "pose": 0.211,
+     "bird": 0.358
+    }
+   ]
+  },
+  "eutdov": {
+   "name": "European Turtle-Dove",
+   "sci": "Streptopelia turtur",
+   "family": "Pigeons and Doves",
+   "reason": "all",
+   "before": "review_imgs/eutdov/before.png",
+   "ref": "review_imgs/eutdov/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eutdov/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.872,
+     "pose": 0.218,
+     "bird": 0.617
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eutdov/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.811,
+     "pose": 0.194,
+     "bird": 0.694
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eutdov/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.829,
+     "pose": 0.119,
+     "bird": 0.38
+    }
+   ]
   }
  }
 }
