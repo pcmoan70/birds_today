@@ -19,6 +19,7 @@ Usage:
 """
 import argparse
 import csv
+import glob
 import json
 import os
 import shutil
@@ -273,6 +274,27 @@ VARIANTS = [(1000, 0.60), (1001, 0.68), (1002, 0.74)]
 MAX_EDGE = 512   # display is <=220px (~440px retina); 512 is ample, smaller files
 
 
+def save_ref_thumb(src, dst, max_edge=384):
+    """Save a small JPEG thumbnail of a reference photo for the review page (the
+    tile shows it ~150px, so a full-size download is wasted bytes)."""
+    im = Image.open(src).convert("RGB")
+    im.thumbnail((max_edge, max_edge), Image.LANCZOS)
+    im.save(dst, "JPEG", quality=80, optimize=True)
+
+
+def prune_review_imgs(review):
+    """Keep review_imgs/ only for species currently shown on the review page
+    (in the manifest and not yet reviewed); delete the rest so the published
+    folder doesn't accumulate hundreds of MB of stale variants/references."""
+    keep = {c for c, e in review.get("species", {}).items() if not e.get("reviewed")}
+    removed = 0
+    for d in glob.glob(os.path.join(REVIEW_IMGS, "*")):
+        if os.path.isdir(d) and os.path.basename(d) not in keep:
+            shutil.rmtree(d, ignore_errors=True); removed += 1
+    if removed:
+        print(f"pruned {removed} stale/reviewed review_imgs dirs")
+
+
 def save_small(im, path, colors=200):
     """Save an RGBA cutout compactly: keep the soft alpha edge, but quantise the
     RGB to a palette so PNG compresses far better (no visible loss at this size).
@@ -405,6 +427,7 @@ def main():
             else:
                 del review["species"][c]
         print(f"review manifest pruned to {len(review['species'])} {RECIPE} entries")
+        prune_review_imgs(review)
 
     print("Loading FLUX pipeline...")
     pipe = G.load_pipeline("black-forest-labs/FLUX.1-dev", None, fp8=True)
@@ -449,7 +472,7 @@ def main():
                 os.remove(ref_jpg)   # drop any stale published ref
             ref_rel = whobird.asset_url(sp["sci"], sp["common"], 320)
         else:
-            shutil.copy(newref, ref_jpg)
+            save_ref_thumb(newref, ref_jpg)
             ref_rel = f"review_imgs/{code}/ref.jpg"
         res = gen_best(pipe, sess, code, sp, "sitting",
                        os.path.join(d, "sitting_0.jpg"), fams, ids,

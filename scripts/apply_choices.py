@@ -15,6 +15,7 @@ references want re-fetching, "none good enough" species want re-generation.
 Usage:
   python apply_choices.py path/to/choices.json
 """
+import glob
 import json
 import os
 import shutil
@@ -90,6 +91,16 @@ def main():
     json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(retry, open(RETRY, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"applied {applied} choices ({changed} changed from auto-pick)")
+
+    # Drop review_imgs for species that are now reviewed or no longer shown, so
+    # the published folder stays small (chosen variants are already in birds/).
+    keep = {c for c, e in review.get("species", {}).items() if not e.get("reviewed")}
+    pruned = 0
+    for d in glob.glob(os.path.join(REVIEW_IMGS, "*")):
+        if os.path.isdir(d) and os.path.basename(d) not in keep:
+            shutil.rmtree(d, ignore_errors=True); pruned += 1
+    if pruned:
+        print(f"pruned {pruned} reviewed/stale review_imgs dirs")
 
     if feedback["badRef"] or feedback["noneGood"] or feedback["notes"]:
         json.dump(feedback, open(FEEDBACK, "w", encoding="utf-8"),
