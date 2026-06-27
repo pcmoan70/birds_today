@@ -800,7 +800,7 @@
     },
     "faces": {
       "atlpuf/flying_0.png": "right",
-      "atlpuf/sitting_0.png": "left"
+      "atlpuf/sitting_0.png": "right"
     },
     "credits": {
       "atlpuf/flying_0.png": {
@@ -935,7 +935,7 @@
       ]
     },
     "faces": {
-      "azwmag3/sitting_0.png": "right"
+      "azwmag3/sitting_0.png": "left"
     },
     "credits": {
       "azwmag3/sitting_0.png": {
@@ -1005,7 +1005,7 @@
     },
     "faces": {
       "bahgoo/flying_0.png": "left",
-      "bahgoo/sitting_0.png": "right"
+      "bahgoo/sitting_0.png": "left"
     },
     "credits": {
       "bahgoo/flying_0.png": {
