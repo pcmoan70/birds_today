@@ -11874,6 +11874,196 @@
      "bird": 0.751
     }
    ]
+  },
+  "manshe": {
+   "name": "Manx Shearwater",
+   "sci": "Puffinus puffinus",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/manshe/before.png",
+   "ref": "review_imgs/manshe/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/manshe/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.784,
+     "pose": 0.023,
+     "bird": 0.441
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/manshe/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.778,
+     "pose": 0.127,
+     "bird": 0.274
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/manshe/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.828,
+     "pose": 0.062,
+     "bird": 0.155
+    }
+   ]
+  },
+  "martea1": {
+   "name": "Marbled Duck",
+   "sci": "Marmaronetta angustirostris",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/martea1/before.png",
+   "ref": "review_imgs/martea1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/martea1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.92,
+     "pose": 0.328,
+     "bird": 0.841
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/martea1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.906,
+     "pose": 0.284,
+     "bird": 0.814
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/martea1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.921,
+     "pose": 0.171,
+     "bird": 0.882
+    }
+   ]
+  },
+  "martit2": {
+   "name": "Marsh Tit",
+   "sci": "Poecile palustris",
+   "family": "Tits, Chickadees, and Titmice",
+   "reason": "all",
+   "before": "review_imgs/martit2/before.png",
+   "ref": "review_imgs/martit2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/martit2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.749,
+     "pose": 0.154,
+     "bird": 0.832
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/martit2/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.72,
+     "pose": 0.23,
+     "bird": 0.756
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/martit2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.713,
+     "pose": 0.164,
+     "bird": 0.548
+    }
+   ]
+  },
+  "marwar1": {
+   "name": "Marmora's Warbler",
+   "sci": "Curruca sarda",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/marwar1/before.png",
+   "ref": "review_imgs/marwar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/marwar1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.803,
+     "pose": 0.32,
+     "bird": 0.707
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/marwar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.842,
+     "pose": 0.264,
+     "bird": 0.496
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/marwar1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.818,
+     "pose": 0.174,
+     "bird": 0.538
+    }
+   ]
+  },
+  "marwar3": {
+   "name": "Marsh Warbler",
+   "sci": "Acrocephalus palustris",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/marwar3/before.png",
+   "ref": "review_imgs/marwar3/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/marwar3/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.843,
+     "pose": 0.382,
+     "bird": 0.707
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/marwar3/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.793,
+     "pose": 0.338,
+     "bird": 0.668
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/marwar3/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.889,
+     "pose": 0.402,
+     "bird": 0.335
+    }
+   ]
   }
  }
 }

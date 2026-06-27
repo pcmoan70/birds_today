@@ -22263,7 +22263,7 @@
       ]
     },
     "faces": {
-      "martea1/sitting_0.png": "right"
+      "martea1/sitting_0.png": "left"
     },
     "credits": {
       "martea1/sitting_0.png": {
@@ -22333,7 +22333,7 @@
     },
     "faces": {
       "martit2/flying_0.png": "left",
-      "martit2/sitting_0.png": "right"
+      "martit2/sitting_0.png": "left"
     },
     "credits": {
       "martit2/flying_0.png": {
@@ -22401,7 +22401,7 @@
       ]
     },
     "faces": {
-      "marwar1/sitting_0.png": "right"
+      "marwar1/sitting_0.png": "left"
     },
     "credits": {
       "marwar1/sitting_0.png": {
@@ -22468,7 +22468,7 @@
       ]
     },
     "faces": {
-      "marwar3/sitting_0.png": "left"
+      "marwar3/sitting_0.png": "right"
     },
     "credits": {
       "marwar3/sitting_0.png": {
