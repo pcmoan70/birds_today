@@ -7543,6 +7543,197 @@
      "bird": 0.458
     }
    ]
+  },
+  "eurspa1": {
+   "name": "Eurasian Sparrowhawk",
+   "sci": "Accipiter nisus",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/eurspa1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/154133151/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurspa1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.733,
+     "pose": 0.104,
+     "bird": 0.906
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurspa1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.831,
+     "pose": 0.018,
+     "bird": 0.477
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurspa1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.847,
+     "pose": 0.037,
+     "bird": 0.22
+    }
+   ]
+  },
+  "eurspo1": {
+   "name": "Eurasian Spoonbill",
+   "sci": "Platalea leucorodia",
+   "family": "Ibises and Spoonbills",
+   "reason": "all",
+   "before": "review_imgs/eurspo1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/78640881/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurspo1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.856,
+     "pose": 0.296,
+     "bird": 0.763
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurspo1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.861,
+     "pose": 0.229,
+     "bird": 0.506
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurspo1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.888,
+     "pose": 0.344,
+     "bird": 0.249
+    }
+   ]
+  },
+  "eursta": {
+   "name": "European Starling",
+   "sci": "Sturnus vulgaris",
+   "family": "Starlings",
+   "reason": "all",
+   "before": "review_imgs/eursta/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/39278421/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eursta/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.906,
+     "pose": 0.307,
+     "bird": 0.247
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eursta/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.904,
+     "pose": 0.293,
+     "bird": 0.159
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eursta/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.888,
+     "pose": 0.215,
+     "bird": 0.15
+    }
+   ]
+  },
+  "eurtre1": {
+   "name": "Eurasian Treecreeper",
+   "sci": "Certhia familiaris",
+   "family": "Treecreepers",
+   "reason": "all",
+   "before": "review_imgs/eurtre1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35462121/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurtre1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.68,
+     "pose": 0.279,
+     "bird": 0.66
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurtre1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.757,
+     "pose": 0.302,
+     "bird": 0.401
+    }
+   ]
+  },
+  "eurwar1": {
+   "name": "Common Reed Warbler",
+   "sci": "Acrocephalus scirpaceus",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/154989101/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurwar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.934,
+     "pose": 0.203,
+     "bird": 0.786
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurwar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.9,
+     "pose": 0.182,
+     "bird": 0.561
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurwar1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.89,
+     "pose": 0.16,
+     "bird": 0.365
+    }
+   ]
   }
  }
 }
