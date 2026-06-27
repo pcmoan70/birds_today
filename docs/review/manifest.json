@@ -9449,6 +9449,196 @@
      "bird": 0.501
     }
    ]
+  },
+  "grnsan": {
+   "name": "Green Sandpiper",
+   "sci": "Tringa ochropus",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/grnsan/before.png",
+   "ref": "review_imgs/grnsan/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grnsan/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.827,
+     "pose": 0.061,
+     "bird": 0.733
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grnsan/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.808,
+     "pose": 0.095,
+     "bird": 0.596
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grnsan/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.803,
+     "pose": 0.078,
+     "bird": 0.218
+    }
+   ]
+  },
+  "grnwar1": {
+   "name": "Green Warbler",
+   "sci": "Phylloscopus nitidus",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/grnwar1/before.png",
+   "ref": "review_imgs/grnwar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grnwar1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.902,
+     "pose": 0.394,
+     "bird": 0.741
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grnwar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.885,
+     "pose": 0.169,
+     "bird": 0.227
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grnwar1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.906,
+     "pose": 0.187,
+     "bird": 0.133
+    }
+   ]
+  },
+  "grnwoo3": {
+   "name": "Iberian Green Woodpecker",
+   "sci": "Picus sharpei",
+   "family": "Woodpeckers",
+   "reason": "all",
+   "before": "review_imgs/grnwoo3/before.png",
+   "ref": "review_imgs/grnwoo3/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grnwoo3/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.814,
+     "pose": 0.226,
+     "bird": 0.828
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grnwoo3/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.836,
+     "pose": 0.262,
+     "bird": 0.732
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grnwoo3/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.815,
+     "pose": 0.248,
+     "bird": 0.722
+    }
+   ]
+  },
+  "grrwar1": {
+   "name": "Great Reed Warbler",
+   "sci": "Acrocephalus arundinaceus",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/grrwar1/before.png",
+   "ref": "review_imgs/grrwar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grrwar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.828,
+     "pose": 0.087,
+     "bird": 0.971
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grrwar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.759,
+     "pose": 0.08,
+     "bird": 0.73
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grrwar1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.8,
+     "pose": 0.156,
+     "bird": 0.266
+    }
+   ]
+  },
+  "grseag1": {
+   "name": "Greater Spotted Eagle",
+   "sci": "Clanga clanga",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/grseag1/before.png",
+   "ref": "review_imgs/grseag1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grseag1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.881,
+     "pose": 0.356,
+     "bird": 0.637
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grseag1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.859,
+     "pose": 0.38,
+     "bird": 0.595
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grseag1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.852,
+     "pose": 0.384,
+     "bird": 0.263
+    }
+   ]
   }
  }
 }
