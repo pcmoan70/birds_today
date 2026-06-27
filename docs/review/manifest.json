@@ -1870,6 +1870,206 @@
      "bird": 0.23
     }
    ]
+  },
+  "blksco1": {
+   "name": "Common Scoter",
+   "sci": "Melanitta nigra",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/blksco1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/135065141/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blksco1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.634,
+     "pose": 0.133,
+     "bird": 0.75
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blksco1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.617,
+     "pose": 0.099,
+     "bird": 0.711
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blksco1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.645,
+     "pose": 0.085,
+     "bird": 0.632
+    }
+   ]
+  },
+  "blkswa": {
+   "name": "Black Swan",
+   "sci": "Cygnus atratus",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/blkswa/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/120705851/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blkswa/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.866,
+     "pose": 0.405,
+     "bird": 0.728
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blkswa/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.858,
+     "pose": 0.158,
+     "bird": 0.835
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blkswa/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.879,
+     "pose": 0.261,
+     "bird": 0.665
+    }
+   ]
+  },
+  "blkter": {
+   "name": "Black Tern",
+   "sci": "Chlidonias niger",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/blkter/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/205596981/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blkter/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.894,
+     "pose": 0.014,
+     "bird": 0.341
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blkter/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.891,
+     "pose": 0.035,
+     "bird": 0.148
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blkter/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.903,
+     "pose": 0.015,
+     "bird": 0.14
+    }
+   ]
+  },
+  "blrwar1": {
+   "name": "Blyth's Reed Warbler",
+   "sci": "Acrocephalus dumetorum",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/blrwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/81345741/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blrwar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.845,
+     "pose": 0.043,
+     "bird": 0.765
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blrwar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.832,
+     "pose": 0.079,
+     "bird": 0.693
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blrwar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.829,
+     "pose": 0.043,
+     "bird": 0.516
+    }
+   ]
+  },
+  "blueth": {
+   "name": "Bluethroat",
+   "sci": "Luscinia svecica",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/blueth/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/182455611/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blueth/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.924,
+     "pose": 0.075,
+     "bird": 0.603
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blueth/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.915,
+     "pose": 0.04,
+     "bird": 0.124
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blueth/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.913,
+     "pose": 0.052,
+     "bird": 0.114
+    }
+   ]
   }
  }
 }
