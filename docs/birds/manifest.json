@@ -9346,7 +9346,7 @@
       ]
     },
     "faces": {
-      "cypwar1/sitting_0.png": "left"
+      "cypwar1/sitting_0.png": "right"
     },
     "credits": {
       "cypwar1/sitting_0.png": {
@@ -9409,7 +9409,7 @@
       ]
     },
     "faces": {
-      "cypwhe1/sitting_0.png": "left"
+      "cypwhe1/sitting_0.png": "right"
     },
     "credits": {
       "cypwhe1/sitting_0.png": {
@@ -9547,7 +9547,7 @@
       ]
     },
     "faces": {
-      "darwar1/sitting_0.png": "left"
+      "darwar1/sitting_0.png": "right"
     },
     "credits": {
       "darwar1/sitting_0.png": {
