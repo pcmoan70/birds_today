@@ -111,7 +111,9 @@ def improved_prompt(common, sci, code, stance, fams, ids):
             f"A {common} ({sci}){fam_clause}, {G.STANCES[stance]['desc']}.{id_clause} "
             "Depict a typical wild adult in natural, accurate, muted plumage "
             "colours, true to these field marks and the reference photograph; "
-            f"avoid over-saturated or exaggerated colours. {G.ANATOMY}.")
+            "avoid over-saturated or exaggerated colours. Show the complete bird "
+            "within the frame, uncropped, with both legs and feet fully visible "
+            f"and not cut off. {G.ANATOMY}.")
 
 
 def sharp(im):
