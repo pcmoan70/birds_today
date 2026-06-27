@@ -18348,7 +18348,7 @@
     },
     "faces": {
       "hoocro1/flying_0.png": "right",
-      "hoocro1/sitting_0.png": "left"
+      "hoocro1/sitting_0.png": "right"
     },
     "credits": {
       "hoocro1/flying_0.png": {
@@ -18419,7 +18419,7 @@
     },
     "faces": {
       "hoomer/flying_0.png": "right",
-      "hoomer/sitting_0.png": "left"
+      "hoomer/sitting_0.png": "right"
     },
     "credits": {
       "hoomer/flying_0.png": {
@@ -18499,7 +18499,7 @@
     },
     "faces": {
       "hoopoe/flying_0.png": "left",
-      "hoopoe/sitting_0.png": "right"
+      "hoopoe/sitting_0.png": "left"
     },
     "credits": {
       "hoopoe/flying_0.png": {

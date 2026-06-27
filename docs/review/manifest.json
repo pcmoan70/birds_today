@@ -10082,6 +10082,206 @@
      "bird": 0.615
     }
    ]
+  },
+  "hoocro1": {
+   "name": "Hooded Crow",
+   "sci": "Corvus cornix",
+   "family": "Crows, Jays, and Magpies",
+   "reason": "all",
+   "before": "review_imgs/hoocro1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35081921/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/hoocro1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.917,
+     "pose": 0.438,
+     "bird": 0.704
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/hoocro1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.933,
+     "pose": 0.389,
+     "bird": 0.541
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/hoocro1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.932,
+     "pose": 0.309,
+     "bird": 0.62
+    }
+   ]
+  },
+  "hoomer": {
+   "name": "Hooded Merganser",
+   "sci": "Lophodytes cucullatus",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/hoomer/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/269638401/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/hoomer/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.823,
+     "pose": 0.403,
+     "bird": 0.95
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/hoomer/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.768,
+     "pose": 0.202,
+     "bird": 0.964
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/hoomer/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.73,
+     "pose": 0.236,
+     "bird": 0.931
+    }
+   ]
+  },
+  "hoopoe": {
+   "name": "Common Hoopoe",
+   "sci": "Upupa epops",
+   "family": "Hoopoes",
+   "reason": "all",
+   "before": "review_imgs/hoopoe/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/40358641/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/hoopoe/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.893,
+     "pose": 0.188,
+     "bird": 0.754
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/hoopoe/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.882,
+     "pose": 0.241,
+     "bird": 0.541
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/hoopoe/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.896,
+     "pose": 0.186,
+     "bird": 0.556
+    }
+   ]
+  },
+  "horgre": {
+   "name": "Horned Grebe",
+   "sci": "Podiceps auritus",
+   "family": "Grebes",
+   "reason": "all",
+   "before": "review_imgs/horgre/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204241621/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/horgre/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.78,
+     "pose": 0.561,
+     "bird": 0.898
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/horgre/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.724,
+     "pose": 0.469,
+     "bird": 0.85
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/horgre/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.765,
+     "pose": 0.337,
+     "bird": 0.855
+    }
+   ]
+  },
+  "horlar": {
+   "name": "Horned Lark",
+   "sci": "Eremophila alpestris",
+   "family": "Larks",
+   "reason": "all",
+   "before": "review_imgs/horlar/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63739361/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/horlar/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.883,
+     "pose": 0.229,
+     "bird": 0.854
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/horlar/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.894,
+     "pose": 0.121,
+     "bird": 0.787
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/horlar/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.867,
+     "pose": 0.123,
+     "bird": 0.553
+    }
+   ]
   }
  }
 }
