@@ -5561,6 +5561,206 @@
      "bird": 0.132
     }
    ]
+  },
+  "dunlin": {
+   "name": "Dunlin",
+   "sci": "Calidris alpina",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/dunlin/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/228228211/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/dunlin/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.809,
+     "pose": 0.143,
+     "bird": 0.858
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/dunlin/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.774,
+     "pose": 0.179,
+     "bird": 0.745
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/dunlin/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.772,
+     "pose": 0.079,
+     "bird": 0.659
+    }
+   ]
+  },
+  "dunnoc1": {
+   "name": "Dunnock",
+   "sci": "Prunella modularis",
+   "family": "Accentors",
+   "reason": "all",
+   "before": "review_imgs/dunnoc1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/28928581/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/dunnoc1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.888,
+     "pose": 0.143,
+     "bird": 0.709
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/dunnoc1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.89,
+     "pose": 0.253,
+     "bird": 0.457
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/dunnoc1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.874,
+     "pose": 0.166,
+     "bird": 0.466
+    }
+   ]
+  },
+  "duplar1": {
+   "name": "Dupont's Lark",
+   "sci": "Chersophilus duponti",
+   "family": "Larks",
+   "reason": "all",
+   "before": "review_imgs/duplar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/68692361/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/duplar1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.761,
+     "pose": 0.354,
+     "bird": 0.654
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/duplar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.825,
+     "pose": 0.104,
+     "bird": 0.449
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/duplar1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.808,
+     "pose": 0.115,
+     "bird": 0.304
+    }
+   ]
+  },
+  "duswar": {
+   "name": "Dusky Warbler",
+   "sci": "Phylloscopus fuscatus",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/duswar/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/496987621/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/duswar/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.902,
+     "pose": 0.27,
+     "bird": 0.521
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/duswar/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.907,
+     "pose": 0.245,
+     "bird": 0.363
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/duswar/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.906,
+     "pose": 0.121,
+     "bird": 0.271
+    }
+   ]
+  },
+  "eabwar1": {
+   "name": "Eastern Bonelli's Warbler",
+   "sci": "Phylloscopus orientalis",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/eabwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/148211591/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eabwar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.771,
+     "pose": 0.096,
+     "bird": 0.725
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eabwar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.762,
+     "pose": 0.104,
+     "bird": 0.656
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eabwar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.79,
+     "pose": 0.094,
+     "bird": 0.585
+    }
+   ]
   }
  }
 }
