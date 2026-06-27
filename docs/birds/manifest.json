@@ -56,6 +56,12 @@
         "author": "",
         "license": "",
         "page_url": ""
+      },
+      "465888/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
       }
     }
   },
@@ -672,12 +678,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "armgul1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -1144,7 +1144,7 @@
     },
     "faces": {
       "balshe1/flying_0.png": "left",
-      "balshe1/sitting_0.png": "left"
+      "balshe1/sitting_0.png": "right"
     },
     "credits": {
       "balshe1/flying_0.png": {
@@ -1304,6 +1304,12 @@
     },
     "credits": {
       "bargoo/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "bargoo/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -2456,6 +2462,12 @@
     },
     "credits": {
       "bktgod/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "bktgod/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -3855,7 +3867,14 @@
     "faces": {
       "blwpra1/sitting_0.png": "right"
     },
-    "credits": {}
+    "credits": {
+      "blwpra1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
   },
   "bohwax": {
     "sci": "Bombycilla garrulus",

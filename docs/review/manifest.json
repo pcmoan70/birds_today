@@ -41,47 +41,6 @@
    "recipe": "v4-macaulay-id",
    "reviewed": true
   },
-  "balshe1": {
-   "name": "Balearic Shearwater",
-   "sci": "Puffinus mauretanicus",
-   "family": "Shearwaters and Petrels",
-   "reason": "all",
-   "before": "review_imgs/balshe1/before.png",
-   "ref": "review_imgs/balshe1/ref.jpg",
-   "ref_source": "wikimedia",
-   "chosen": "v1",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/balshe1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.762,
-     "pose": 0.175,
-     "bird": 0.753
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/balshe1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.749,
-     "pose": 0.079,
-     "bird": 0.872
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/balshe1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.726,
-     "pose": 0.205,
-     "bird": 0.604
-    }
-   ],
-   "recipe": "v4-macaulay-id",
-   "reviewed": true
-  },
   "barpet": {
    "name": "Band-rumped Storm-Petrel",
    "sci": "Hydrobates castro",
@@ -396,88 +355,6 @@
      "sim": 0.879,
      "pose": 0.203,
      "bird": 0.519
-    }
-   ],
-   "recipe": "v4-macaulay-id",
-   "reviewed": true
-  },
-  "armgul1": {
-   "name": "Armenian Gull",
-   "sci": "Larus armenicus",
-   "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
-   "before": "review_imgs/armgul1/before.png",
-   "ref": "review_imgs/armgul1/ref.jpg",
-   "ref_source": "wikimedia",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/armgul1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.883,
-     "pose": 0.314,
-     "bird": 0.8
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/armgul1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.89,
-     "pose": 0.363,
-     "bird": 0.686
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/armgul1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.857,
-     "pose": 0.419,
-     "bird": 0.654
-    }
-   ],
-   "recipe": "v4-macaulay-id",
-   "reviewed": true
-  },
-  "atlfly1": {
-   "name": "Atlas Flycatcher",
-   "sci": "Ficedula speculigera",
-   "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
-   "before": "review_imgs/atlfly1/before.png",
-   "ref": "review_imgs/atlfly1/ref.jpg",
-   "ref_source": "inaturalist",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/atlfly1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.879,
-     "pose": 0.693,
-     "bird": 0.911
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/atlfly1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.873,
-     "pose": 0.615,
-     "bird": 0.868
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/atlfly1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.863,
-     "pose": 0.631,
-     "bird": 0.784
     }
    ],
    "recipe": "v4-macaulay-id",
@@ -2779,286 +2656,6 @@
    ],
    "reviewed": true
   },
-  "465888": {
-   "name": "Pale Crag-Martin",
-   "sci": "Ptyonoprogne obsoleta",
-   "family": "Swallows and Martins",
-   "reason": "all",
-   "before": "review_imgs/465888/before.png",
-   "ref": "review_imgs/465888/ref.jpg",
-   "ref_source": "inaturalist",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/465888/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.858,
-     "pose": 0.092,
-     "bird": 0.418
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/465888/v1.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.826,
-     "pose": 0.137,
-     "bird": 0.391
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/465888/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.809,
-     "pose": 0.109,
-     "bird": 0.424
-    }
-   ]
-  },
-  "bargoo": {
-   "name": "Barnacle Goose",
-   "sci": "Branta leucopsis",
-   "family": "Ducks, Geese, and Swans",
-   "reason": "all",
-   "before": "review_imgs/bargoo/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/65135151/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/bargoo/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.914,
-     "pose": 0.168,
-     "bird": 0.956
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/bargoo/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.913,
-     "pose": 0.211,
-     "bird": 0.866
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bargoo/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.909,
-     "pose": 0.218,
-     "bird": 0.866
-    }
-   ]
-  },
-  "bktgod": {
-   "name": "Black-tailed Godwit",
-   "sci": "Limosa limosa",
-   "family": "Sandpipers and Allies",
-   "reason": "all",
-   "before": "review_imgs/bktgod/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35830281/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/bktgod/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.923,
-     "pose": 0.361,
-     "bird": 0.816
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/bktgod/v1.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.929,
-     "pose": 0.11,
-     "bird": 0.432
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bktgod/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.903,
-     "pose": 0.228,
-     "bird": 0.148
-    }
-   ]
-  },
-  "blwpra1": {
-   "name": "Black-winged Pratincole",
-   "sci": "Glareola nordmanni",
-   "family": "Pratincoles and Coursers",
-   "reason": "all",
-   "before": "review_imgs/blwpra1/before.png",
-   "ref": "review_imgs/blwpra1/ref.jpg",
-   "ref_source": "wikimedia",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/blwpra1/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.877,
-     "pose": 0.318,
-     "bird": 0.843
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/blwpra1/v1.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.922,
-     "pose": 0.236,
-     "bird": 0.676
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/blwpra1/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.892,
-     "pose": 0.185,
-     "bird": 0.608
-    }
-   ]
-  },
-  "boowar1": {
-   "name": "Booted Warbler",
-   "sci": "Iduna caligata",
-   "family": "Reed Warblers and Allies",
-   "reason": "all",
-   "before": "review_imgs/boowar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/87390671/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/boowar1/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.884,
-     "pose": 0.495,
-     "bird": 0.467
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/boowar1/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.899,
-     "pose": 0.22,
-     "bird": 0.557
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/boowar1/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.923,
-     "pose": 0.295,
-     "bird": 0.335
-    }
-   ]
-  },
-  "brambl": {
-   "name": "Brambling",
-   "sci": "Fringilla montifringilla",
-   "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
-   "before": "review_imgs/brambl/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/73818361/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/brambl/v0.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.919,
-     "pose": 0.191,
-     "bird": 0.772
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/brambl/v1.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.915,
-     "pose": 0.096,
-     "bird": 0.708
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/brambl/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.915,
-     "pose": 0.145,
-     "bird": 0.642
-    }
-   ]
-  },
-  "bripet": {
-   "name": "European Storm-Petrel",
-   "sci": "Hydrobates pelagicus",
-   "family": "Northern Storm-Petrels",
-   "reason": "all",
-   "before": "review_imgs/bripet/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30210311/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/bripet/v0.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.795,
-     "pose": 0.021,
-     "bird": 0.776
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/bripet/v1.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.81,
-     "pose": 0.015,
-     "bird": 0.732
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bripet/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.817,
-     "pose": 0.04,
-     "bird": 0.501
-    }
-   ]
-  },
   "chifla1": {
    "name": "Chilean Flamingo",
    "sci": "Phoenicopterus chilensis",
@@ -3181,46 +2778,6 @@
     }
    ],
    "reviewed": true
-  },
-  "cirbun1": {
-   "name": "Cirl Bunting",
-   "sci": "Emberiza cirlus",
-   "family": "Old World Buntings",
-   "reason": "all",
-   "before": "review_imgs/cirbun1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/151274571/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/cirbun1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.883,
-     "pose": 0.243,
-     "bird": 0.544
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/cirbun1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.907,
-     "pose": 0.256,
-     "bird": 0.274
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/cirbun1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.909,
-     "pose": 0.247,
-     "bird": 0.233
-    }
-   ]
   },
   "citfin1": {
    "name": "Citril Finch",
@@ -3386,126 +2943,6 @@
    ],
    "reviewed": true
   },
-  "cogwar1": {
-   "name": "Common Grasshopper Warbler",
-   "sci": "Locustella naevia",
-   "family": "Grassbirds and Allies",
-   "reason": "all",
-   "before": "review_imgs/cogwar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/226725471/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/cogwar1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.9,
-     "pose": 0.083,
-     "bird": 0.661
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/cogwar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.895,
-     "pose": 0.088,
-     "bird": 0.646
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/cogwar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.904,
-     "pose": 0.102,
-     "bird": 0.307
-    }
-   ]
-  },
-  "colfly1": {
-   "name": "Collared Flycatcher",
-   "sci": "Ficedula albicollis",
-   "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
-   "before": "review_imgs/colfly1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63455131/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/colfly1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.836,
-     "pose": 0.288,
-     "bird": 0.789
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/colfly1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.847,
-     "pose": 0.205,
-     "bird": 0.766
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/colfly1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.859,
-     "pose": 0.215,
-     "bird": 0.692
-    }
-   ]
-  },
-  "colpra": {
-   "name": "Collared Pratincole",
-   "sci": "Glareola pratincola",
-   "family": "Pratincoles and Coursers",
-   "reason": "all",
-   "before": "review_imgs/colpra/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/33645371/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/colpra/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.891,
-     "pose": 0.215,
-     "bird": 0.647
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/colpra/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.906,
-     "pose": 0.121,
-     "bird": 0.552
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/colpra/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.869,
-     "pose": 0.183,
-     "bird": 0.46
-    }
-   ]
-  },
   "combul2": {
    "name": "Common Bulbul",
    "sci": "Pycnonotus barbatus",
@@ -3670,46 +3107,6 @@
    ],
    "reviewed": true
   },
-  "comchi1": {
-   "name": "Common Chiffchaff",
-   "sci": "Phylloscopus collybita",
-   "family": "Leaf Warblers",
-   "reason": "all",
-   "before": "review_imgs/comchi1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/191052481/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comchi1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.768,
-     "pose": 0.081,
-     "bird": 0.838
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comchi1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.796,
-     "pose": 0.037,
-     "bird": 0.663
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comchi1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.753,
-     "pose": 0.042,
-     "bird": 0.45
-    }
-   ]
-  },
   "comcra": {
    "name": "Common Crane",
    "sci": "Grus grus",
@@ -3750,166 +3147,6 @@
     }
    ],
    "reviewed": true
-  },
-  "comcuc": {
-   "name": "Common Cuckoo",
-   "sci": "Cuculus canorus",
-   "family": "Cuckoos",
-   "reason": "all",
-   "before": "review_imgs/comcuc/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/38117681/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comcuc/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.721,
-     "pose": 0.308,
-     "bird": 0.712
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comcuc/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.692,
-     "pose": 0.272,
-     "bird": 0.205
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comcuc/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.684,
-     "pose": 0.115,
-     "bird": 0.188
-    }
-   ]
-  },
-  "comeid": {
-   "name": "Common Eider",
-   "sci": "Somateria mollissima",
-   "family": "Ducks, Geese, and Swans",
-   "reason": "all",
-   "before": "review_imgs/comeid/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299883211/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comeid/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.813,
-     "pose": 0.15,
-     "bird": 0.838
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comeid/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.819,
-     "pose": 0.093,
-     "bird": 0.749
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comeid/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.742,
-     "pose": 0.031,
-     "bird": 0.819
-    }
-   ]
-  },
-  "comgol": {
-   "name": "Common Goldeneye",
-   "sci": "Bucephala clangula",
-   "family": "Ducks, Geese, and Swans",
-   "reason": "all",
-   "before": "review_imgs/comgol/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301917401/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comgol/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.806,
-     "pose": 0.136,
-     "bird": 0.875
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comgol/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.792,
-     "pose": 0.102,
-     "bird": 0.918
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comgol/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.736,
-     "pose": 0.082,
-     "bird": 0.552
-    }
-   ]
-  },
-  "comgre": {
-   "name": "Common Greenshank",
-   "sci": "Tringa nebularia",
-   "family": "Sandpipers and Allies",
-   "reason": "all",
-   "before": "review_imgs/comgre/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/206668731/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comgre/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.843,
-     "pose": 0.356,
-     "bird": 0.625
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comgre/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.857,
-     "pose": 0.381,
-     "bird": 0.548
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comgre/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.878,
-     "pose": 0.423,
-     "bird": 0.385
-    }
-   ]
   },
   "comhom1": {
    "name": "Western House-Martin",
@@ -4033,117 +3270,6 @@
     }
    ],
    "reviewed": true
-  },
-  "commer": {
-   "name": "Common Merganser",
-   "sci": "Mergus merganser",
-   "family": "Ducks, Geese, and Swans",
-   "reason": "all",
-   "before": "review_imgs/commer/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/51564761/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/commer/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.679,
-     "pose": 0.065,
-     "bird": 0.918
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/commer/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.741,
-     "pose": 0.095,
-     "bird": 0.709
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/commer/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.712,
-     "pose": 0.105,
-     "bird": 0.732
-    }
-   ]
-  },
-  "commoo3": {
-   "name": "Eurasian Moorhen",
-   "sci": "Gallinula chloropus",
-   "family": "Rails, Gallinules, and Coots",
-   "reason": "all",
-   "before": "review_imgs/commoo3/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42528261/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/commoo3/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.775,
-     "pose": 0.082,
-     "bird": 0.812
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/commoo3/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.743,
-     "pose": 0.108,
-     "bird": 0.825
-    }
-   ]
-  },
-  "commur": {
-   "name": "Common Murre",
-   "sci": "Uria aalge",
-   "family": "Auks, Murres, and Puffins",
-   "reason": "all",
-   "before": "review_imgs/commur/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252858111/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/commur/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.76,
-     "pose": 0.338,
-     "bird": 0.942
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/commur/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.805,
-     "pose": 0.226,
-     "bird": 0.782
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/commur/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.75,
-     "pose": 0.169,
-     "bird": 0.734
-    }
-   ]
   },
   "commyn": {
    "name": "Common Myna",
@@ -4309,46 +3435,6 @@
    ],
    "reviewed": true
   },
-  "comqua1": {
-   "name": "Common Quail",
-   "sci": "Coturnix coturnix",
-   "family": "Pheasants, Grouse, and Allies",
-   "reason": "all",
-   "before": "review_imgs/comqua1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181537191/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comqua1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.872,
-     "pose": 0.358,
-     "bird": 0.756
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comqua1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.869,
-     "pose": 0.434,
-     "bird": 0.583
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comqua1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.862,
-     "pose": 0.395,
-     "bird": 0.393
-    }
-   ]
-  },
   "comrav": {
    "name": "Common Raven",
    "sci": "Corvus corax",
@@ -4389,86 +3475,6 @@
     }
    ],
    "reviewed": true
-  },
-  "comred1": {
-   "name": "Common Redshank",
-   "sci": "Tringa totanus",
-   "family": "Sandpipers and Allies",
-   "reason": "all",
-   "before": "review_imgs/comred1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/62533451/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comred1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.841,
-     "pose": 0.232,
-     "bird": 0.874
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comred1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.846,
-     "pose": 0.093,
-     "bird": 0.809
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comred1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.845,
-     "pose": 0.048,
-     "bird": 0.323
-    }
-   ]
-  },
-  "comred2": {
-   "name": "Common Redstart",
-   "sci": "Phoenicurus phoenicurus",
-   "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
-   "before": "review_imgs/comred2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36928311/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comred2/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.824,
-     "pose": 0.451,
-     "bird": 0.529
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comred2/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.807,
-     "pose": 0.331,
-     "bird": 0.534
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comred2/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.83,
-     "pose": 0.332,
-     "bird": 0.286
-    }
-   ]
   },
   "comros": {
    "name": "Common Rosefinch",
@@ -4511,46 +3517,6 @@
    ],
    "reviewed": true
   },
-  "comsan": {
-   "name": "Common Sandpiper",
-   "sci": "Actitis hypoleucos",
-   "family": "Sandpipers and Allies",
-   "reason": "all",
-   "before": "review_imgs/comsan/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/37585061/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comsan/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.799,
-     "pose": 0.194,
-     "bird": 0.873
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comsan/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.763,
-     "pose": 0.088,
-     "bird": 0.933
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comsan/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.812,
-     "pose": 0.191,
-     "bird": 0.353
-    }
-   ]
-  },
   "comshe": {
    "name": "Common Shelduck",
    "sci": "Tadorna tadorna",
@@ -4591,86 +3557,6 @@
     }
    ],
    "reviewed": true
-  },
-  "comsni": {
-   "name": "Common Snipe",
-   "sci": "Gallinago gallinago",
-   "family": "Sandpipers and Allies",
-   "reason": "all",
-   "before": "review_imgs/comsni/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/26854421/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comsni/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.818,
-     "pose": 0.414,
-     "bird": 0.818
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comsni/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.732,
-     "pose": 0.274,
-     "bird": 0.574
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comsni/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.734,
-     "pose": 0.258,
-     "bird": 0.507
-    }
-   ]
-  },
-  "comswi": {
-   "name": "Common Swift",
-   "sci": "Apus apus",
-   "family": "Swifts",
-   "reason": "all",
-   "before": "review_imgs/comswi/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36129661/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/comswi/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.824,
-     "pose": 0.013,
-     "bird": 0.604
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comswi/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.855,
-     "pose": 0.016,
-     "bird": 0.488
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comswi/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.838,
-     "pose": 0.031,
-     "bird": 0.314
-    }
-   ]
   },
   "comter": {
    "name": "Common Tern",
@@ -5000,46 +3886,6 @@
    ],
    "reviewed": true
   },
-  "crebun2": {
-   "name": "Cretzschmar's Bunting",
-   "sci": "Emberiza caesia",
-   "family": "Old World Buntings",
-   "reason": "all",
-   "before": "review_imgs/crebun2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104406541/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/crebun2/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.862,
-     "pose": 0.188,
-     "bird": 0.473
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/crebun2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.873,
-     "pose": 0.24,
-     "bird": 0.33
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/crebun2/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.864,
-     "pose": 0.174,
-     "bird": 0.211
-    }
-   ]
-  },
   "crelar1": {
    "name": "Crested Lark",
    "sci": "Galerida cristata",
@@ -5163,86 +4009,6 @@
    ],
    "reviewed": true
   },
-  "cursan": {
-   "name": "Curlew Sandpiper",
-   "sci": "Calidris ferruginea",
-   "family": "Sandpipers and Allies",
-   "reason": "all",
-   "before": "review_imgs/cursan/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/78879241/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/cursan/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.861,
-     "pose": 0.327,
-     "bird": 0.666
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/cursan/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.847,
-     "pose": 0.367,
-     "bird": 0.534
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/cursan/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.828,
-     "pose": 0.183,
-     "bird": 0.513
-    }
-   ]
-  },
-  "cypwar1": {
-   "name": "Cyprus Warbler",
-   "sci": "Curruca melanothorax",
-   "family": "Sylviid Warblers and Allies",
-   "reason": "all",
-   "before": "review_imgs/cypwar1/before.png",
-   "ref": "review_imgs/cypwar1/ref.jpg",
-   "ref_source": "gbif",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/cypwar1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.836,
-     "pose": 0.098,
-     "bird": 0.5
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/cypwar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.759,
-     "pose": 0.05,
-     "bird": 0.406
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/cypwar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.724,
-     "pose": 0.112,
-     "bird": 0.195
-    }
-   ]
-  },
   "cypwhe1": {
    "name": "Cyprus Wheatear",
    "sci": "Oenanthe cypriaca",
@@ -5365,46 +4131,6 @@
     }
    ],
    "reviewed": true
-  },
-  "delpri1": {
-   "name": "Delicate Prinia",
-   "sci": "Prinia lepida",
-   "family": "Cisticolas and Allies",
-   "reason": "all",
-   "before": "review_imgs/delpri1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/99215471/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/delpri1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.844,
-     "pose": 0.105,
-     "bird": 0.765
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/delpri1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.851,
-     "pose": 0.078,
-     "bird": 0.59
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/delpri1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.836,
-     "pose": 0.058,
-     "bird": 0.586
-    }
-   ]
   },
   "desfin2": {
    "name": "Desert Finch",
@@ -5570,86 +4296,6 @@
    ],
    "reviewed": true
   },
-  "doveki": {
-   "name": "Dovekie",
-   "sci": "Alle alle",
-   "family": null,
-   "reason": "all",
-   "before": "review_imgs/doveki/before.png",
-   "ref": "review_imgs/doveki/ref.jpg",
-   "ref_source": "wikimedia",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/doveki/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.855,
-     "pose": 0.048,
-     "bird": 0.226
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/doveki/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.861,
-     "pose": 0.092,
-     "bird": 0.118
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/doveki/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.874,
-     "pose": 0.032,
-     "bird": 0.132
-    }
-   ]
-  },
-  "dunlin": {
-   "name": "Dunlin",
-   "sci": "Calidris alpina",
-   "family": "Sandpipers and Allies",
-   "reason": "all",
-   "before": "review_imgs/dunlin/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/228228211/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/dunlin/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.809,
-     "pose": 0.143,
-     "bird": 0.858
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/dunlin/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.774,
-     "pose": 0.179,
-     "bird": 0.745
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/dunlin/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.772,
-     "pose": 0.079,
-     "bird": 0.659
-    }
-   ]
-  },
   "dunnoc1": {
    "name": "Dunnock",
    "sci": "Prunella modularis",
@@ -5732,86 +4378,6 @@
    ],
    "reviewed": true
   },
-  "duswar": {
-   "name": "Dusky Warbler",
-   "sci": "Phylloscopus fuscatus",
-   "family": "Leaf Warblers",
-   "reason": "all",
-   "before": "review_imgs/duswar/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/496987621/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/duswar/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.902,
-     "pose": 0.27,
-     "bird": 0.521
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/duswar/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.907,
-     "pose": 0.245,
-     "bird": 0.363
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/duswar/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.906,
-     "pose": 0.121,
-     "bird": 0.271
-    }
-   ]
-  },
-  "eabwar1": {
-   "name": "Eastern Bonelli's Warbler",
-   "sci": "Phylloscopus orientalis",
-   "family": "Leaf Warblers",
-   "reason": "all",
-   "before": "review_imgs/eabwar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/148211591/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/eabwar1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.771,
-     "pose": 0.096,
-     "bird": 0.725
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/eabwar1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.762,
-     "pose": 0.104,
-     "bird": 0.656
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eabwar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.79,
-     "pose": 0.094,
-     "bird": 0.585
-    }
-   ]
-  },
   "eaowar1": {
    "name": "Eastern Olivaceous Warbler",
    "sci": "Iduna pallida",
@@ -5852,46 +4418,6 @@
     }
    ],
    "reviewed": true
-  },
-  "eaowar2": {
-   "name": "Eastern Orphean Warbler",
-   "sci": "Curruca crassirostris",
-   "family": "Sylviid Warblers and Allies",
-   "reason": "all",
-   "before": "review_imgs/eaowar2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/47054451/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/eaowar2/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.698,
-     "pose": 0.395,
-     "bird": 0.856
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/eaowar2/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.755,
-     "pose": 0.194,
-     "bird": 0.629
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eaowar2/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.737,
-     "pose": 0.225,
-     "bird": 0.589
-    }
-   ]
   },
   "eargre": {
    "name": "Eared Grebe",
@@ -6581,37 +5107,6 @@
    ],
    "reviewed": true
   },
-  "euptit1": {
-   "name": "Eurasian Penduline-Tit",
-   "sci": "Remiz pendulinus",
-   "family": "Penduline-Tits",
-   "reason": "all",
-   "before": "review_imgs/euptit1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/28714421/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/euptit1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.747,
-     "pose": 0.314,
-     "bird": 0.933
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/euptit1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.791,
-     "pose": 0.062,
-     "bird": 0.17
-    }
-   ]
-  },
   "eurbla": {
    "name": "Eurasian Blackbird",
    "sci": "Turdus merula",
@@ -7022,86 +5517,6 @@
    ],
    "reviewed": true
   },
-  "eurjac": {
-   "name": "Eurasian Jackdaw",
-   "sci": "Coloeus monedula",
-   "family": "Crows, Jays, and Magpies",
-   "reason": "all",
-   "before": "review_imgs/eurjac/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35496821/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/eurjac/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.197,
-     "bird": 0.231
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/eurjac/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.915,
-     "pose": 0.114,
-     "bird": 0.24
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eurjac/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.908,
-     "pose": 0.054,
-     "bird": 0.199
-    }
-   ]
-  },
-  "eurjay1": {
-   "name": "Eurasian Jay",
-   "sci": "Garrulus glandarius",
-   "family": "Crows, Jays, and Magpies",
-   "reason": "all",
-   "before": "review_imgs/eurjay1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241250451/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/eurjay1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.894,
-     "pose": 0.12,
-     "bird": 0.614
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/eurjay1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.877,
-     "pose": 0.095,
-     "bird": 0.635
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eurjay1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.808,
-     "pose": 0.046,
-     "bird": 0.623
-    }
-   ]
-  },
   "eurkes": {
    "name": "Eurasian Kestrel",
    "sci": "Falco tinnunculus",
@@ -7224,46 +5639,6 @@
     }
    ],
    "reviewed": true
-  },
-  "eurnig1": {
-   "name": "Eurasian Nightjar",
-   "sci": "Caprimulgus europaeus",
-   "family": "Nightjars and Allies",
-   "reason": "all",
-   "before": "review_imgs/eurnig1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30060391/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/eurnig1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.781,
-     "pose": 0.085,
-     "bird": 0.539
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/eurnig1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.784,
-     "pose": 0.217,
-     "bird": 0.288
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eurnig1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.763,
-     "pose": 0.164,
-     "bird": 0.374
-    }
-   ]
   },
   "eurnut2": {
    "name": "Eurasian Nuthatch",
@@ -7470,46 +5845,6 @@
    ],
    "reviewed": true
   },
-  "eursco1": {
-   "name": "Eurasian Scops-Owl",
-   "sci": "Otus scops",
-   "family": "Typical Owls",
-   "reason": "all",
-   "before": "review_imgs/eursco1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/27138081/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/eursco1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.811,
-     "pose": 0.397,
-     "bird": 0.351
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/eursco1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.852,
-     "pose": 0.351,
-     "bird": 0.306
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eursco1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.835,
-     "pose": 0.331,
-     "bird": 0.312
-    }
-   ]
-  },
   "eurser1": {
    "name": "European Serin",
    "sci": "Serinus serinus",
@@ -7632,46 +5967,6 @@
     }
    ],
    "reviewed": true
-  },
-  "eurspa1": {
-   "name": "Eurasian Sparrowhawk",
-   "sci": "Accipiter nisus",
-   "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
-   "before": "review_imgs/eurspa1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/154133151/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
-   "variants": [
-    {
-     "id": "v0",
-     "img": "review_imgs/eurspa1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.733,
-     "pose": 0.104,
-     "bird": 0.906
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/eurspa1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.831,
-     "pose": 0.018,
-     "bird": 0.477
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eurspa1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.847,
-     "pose": 0.037,
-     "bird": 0.22
-    }
-   ]
   },
   "eurspo1": {
    "name": "Eurasian Spoonbill",
@@ -9390,6 +7685,228 @@
      "sim": 0.814,
      "pose": 0.457,
      "bird": 0.638
+    }
+   ]
+  },
+  "bargoo": {
+   "name": "Barnacle Goose",
+   "sci": "Branta leucopsis",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/bargoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/65135151/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bargoo/v0.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.916,
+     "pose": 0.31,
+     "bird": 0.951
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bargoo/v1.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.891,
+     "pose": 0.328,
+     "bird": 0.904
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bargoo/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.907,
+     "pose": 0.223,
+     "bird": 0.899
+    }
+   ]
+  },
+  "465888": {
+   "name": "Pale Crag-Martin",
+   "sci": "Ptyonoprogne obsoleta",
+   "family": "Swallows and Martins",
+   "reason": "all",
+   "before": "review_imgs/465888/before.png",
+   "ref": "review_imgs/465888/ref.jpg",
+   "ref_source": "pinned",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/465888/v0.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.853,
+     "pose": 0.032,
+     "bird": 0.381
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/465888/v1.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.843,
+     "pose": 0.059,
+     "bird": 0.359
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/465888/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.832,
+     "pose": 0.044,
+     "bird": 0.158
+    }
+   ]
+  },
+  "atlfly1": {
+   "name": "Atlas Flycatcher",
+   "sci": "Ficedula speculigera",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/atlfly1/before.png",
+   "ref": "review_imgs/atlfly1/ref.jpg",
+   "ref_source": "pinned",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/atlfly1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.924,
+     "pose": 0.341,
+     "bird": 0.74
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/atlfly1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.93,
+     "pose": 0.169,
+     "bird": 0.773
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/atlfly1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.93,
+     "pose": 0.231,
+     "bird": 0.671
+    }
+   ]
+  },
+  "balshe1": {
+   "name": "Balearic Shearwater",
+   "sci": "Puffinus mauretanicus",
+   "family": "Shearwaters and Petrels",
+   "reason": "all",
+   "before": "review_imgs/balshe1/before.png",
+   "ref": "review_imgs/balshe1/ref.jpg",
+   "ref_source": "pinned",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/balshe1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.748,
+     "pose": 0.107,
+     "bird": 0.842
+    }
+   ]
+  },
+  "bktgod": {
+   "name": "Black-tailed Godwit",
+   "sci": "Limosa limosa",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/bktgod/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35830281/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bktgod/v0.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.905,
+     "pose": 0.403,
+     "bird": 0.812
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bktgod/v1.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.931,
+     "pose": 0.286,
+     "bird": 0.492
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bktgod/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.921,
+     "pose": 0.212,
+     "bird": 0.419
+    }
+   ]
+  },
+  "blwpra1": {
+   "name": "Black-winged Pratincole",
+   "sci": "Glareola nordmanni",
+   "family": "Pratincoles and Coursers",
+   "reason": "all",
+   "before": "review_imgs/blwpra1/before.png",
+   "ref": "review_imgs/blwpra1/ref.jpg",
+   "ref_source": "pinned",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/blwpra1/v0.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.752,
+     "pose": 0.333,
+     "bird": 0.882
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/blwpra1/v1.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.738,
+     "pose": 0.486,
+     "bird": 0.732
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/blwpra1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.665,
+     "pose": 0.26,
+     "bird": 0.229
     }
    ]
   }
