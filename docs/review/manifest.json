@@ -6361,6 +6361,188 @@
      "bird": 0.895
     }
    ]
+  },
+  "euhbuz1": {
+   "name": "European Honey-buzzard",
+   "sci": "Pernis apivorus",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/euhbuz1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/174857931/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/euhbuz1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.778,
+     "pose": 0.211,
+     "bird": 0.706
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/euhbuz1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.089,
+     "bird": 0.485
+    }
+   ]
+  },
+  "euhgul1": {
+   "name": "European Herring Gull",
+   "sci": "Larus argentatus",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/euhgul1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169295191/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/euhgul1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.959,
+     "pose": 0.361,
+     "bird": 0.969
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/euhgul1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.947,
+     "pose": 0.267,
+     "bird": 0.956
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/euhgul1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.938,
+     "pose": 0.245,
+     "bird": 0.945
+    }
+   ]
+  },
+  "eupfly1": {
+   "name": "European Pied Flycatcher",
+   "sci": "Ficedula hypoleuca",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/eupfly1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30638911/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eupfly1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.867,
+     "pose": 0.397,
+     "bird": 0.936
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eupfly1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.885,
+     "pose": 0.388,
+     "bird": 0.801
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eupfly1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.886,
+     "pose": 0.223,
+     "bird": 0.819
+    }
+   ]
+  },
+  "eupowl1": {
+   "name": "Eurasian Pygmy-Owl",
+   "sci": "Glaucidium passerinum",
+   "family": "Typical Owls",
+   "reason": "all",
+   "before": "review_imgs/eupowl1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/212474581/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eupowl1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.769,
+     "pose": 0.605,
+     "bird": 0.743
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eupowl1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.729,
+     "pose": 0.396,
+     "bird": 0.714
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eupowl1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.675,
+     "pose": 0.503,
+     "bird": 0.437
+    }
+   ]
+  },
+  "euptit1": {
+   "name": "Eurasian Penduline-Tit",
+   "sci": "Remiz pendulinus",
+   "family": "Penduline-Tits",
+   "reason": "all",
+   "before": "review_imgs/euptit1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/28714421/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/euptit1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.747,
+     "pose": 0.314,
+     "bird": 0.933
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/euptit1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.791,
+     "pose": 0.062,
+     "bird": 0.17
+    }
+   ]
   }
  }
 }
