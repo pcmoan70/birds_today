@@ -16537,7 +16537,7 @@
     },
     "faces": {
       "gresku1/flying_0.png": "left",
-      "gresku1/sitting_0.png": "right"
+      "gresku1/sitting_0.png": "left"
     },
     "credits": {
       "gresku1/flying_0.png": {
@@ -16614,7 +16614,7 @@
     },
     "faces": {
       "gresni1/flying_0.png": "left",
-      "gresni1/sitting_0.png": "left"
+      "gresni1/sitting_0.png": "right"
     },
     "credits": {
       "gresni1/flying_0.png": {

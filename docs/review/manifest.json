@@ -8934,6 +8934,206 @@
      "bird": 0.644
     }
    ]
+  },
+  "grefla3": {
+   "name": "Greater Flamingo",
+   "sci": "Phoenicopterus roseus",
+   "family": "Flamingos",
+   "reason": "all",
+   "before": "review_imgs/grefla3/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53250391/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/grefla3/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.861,
+     "pose": 0.161,
+     "bird": 0.958
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/grefla3/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.858,
+     "pose": 0.161,
+     "bird": 0.925
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grefla3/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.845,
+     "pose": 0.245,
+     "bird": 0.865
+    }
+   ]
+  },
+  "gresca": {
+   "name": "Greater Scaup",
+   "sci": "Aythya marila",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/gresca/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/150567911/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gresca/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.873,
+     "pose": 0.202,
+     "bird": 0.882
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gresca/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.856,
+     "pose": 0.097,
+     "bird": 0.826
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gresca/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.866,
+     "pose": 0.117,
+     "bird": 0.46
+    }
+   ]
+  },
+  "greshe": {
+   "name": "Great Shearwater",
+   "sci": "Ardenna gravis",
+   "family": "Shearwaters and Petrels",
+   "reason": "all",
+   "before": "review_imgs/greshe/before.png",
+   "ref": "review_imgs/greshe/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/greshe/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.874,
+     "pose": 0.55,
+     "bird": 0.877
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/greshe/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.892,
+     "pose": 0.371,
+     "bird": 0.903
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/greshe/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.883,
+     "pose": 0.446,
+     "bird": 0.696
+    }
+   ]
+  },
+  "gresku1": {
+   "name": "Great Skua",
+   "sci": "Stercorarius skua",
+   "family": "Skuas and Jaegers",
+   "reason": "all",
+   "before": "review_imgs/gresku1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44827181/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gresku1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.855,
+     "pose": 0.375,
+     "bird": 0.817
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gresku1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.885,
+     "pose": 0.307,
+     "bird": 0.34
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gresku1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.862,
+     "pose": 0.225,
+     "bird": 0.429
+    }
+   ]
+  },
+  "gresni1": {
+   "name": "Great Snipe",
+   "sci": "Gallinago media",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/gresni1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/224197811/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gresni1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.878,
+     "pose": 0.273,
+     "bird": 0.659
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gresni1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.893,
+     "pose": 0.218,
+     "bird": 0.665
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gresni1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.891,
+     "pose": 0.225,
+     "bird": 0.17
+    }
+   ]
   }
  }
 }
