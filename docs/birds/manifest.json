@@ -25989,7 +25989,7 @@
     },
     "faces": {
       "pomjae/flying_0.png": "right",
-      "pomjae/sitting_0.png": "left"
+      "pomjae/sitting_0.png": "right"
     },
     "credits": {
       "pomjae/flying_0.png": {
@@ -26070,7 +26070,7 @@
     },
     "faces": {
       "purher1/flying_0.png": "right",
-      "purher1/sitting_0.png": "right"
+      "purher1/sitting_0.png": "left"
     },
     "credits": {
       "purher1/flying_0.png": {
@@ -26212,7 +26212,7 @@
       ]
     },
     "faces": {
-      "purswa/sitting_0.png": "right"
+      "purswa/sitting_0.png": "left"
     },
     "credits": {
       "purswa/sitting_0.png": {
