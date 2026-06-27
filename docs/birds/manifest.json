@@ -1873,7 +1873,7 @@
     },
     "faces": {
       "bcnher/flying_0.png": "left",
-      "bcnher/sitting_0.png": "right"
+      "bcnher/sitting_0.png": "left"
     },
     "credits": {
       "bcnher/flying_0.png": {
@@ -1946,7 +1946,7 @@
       ]
     },
     "faces": {
-      "bearee1/sitting_0.png": "left"
+      "bearee1/sitting_0.png": "right"
     },
     "credits": {
       "bearee1/sitting_0.png": {
@@ -2021,7 +2021,7 @@
     },
     "faces": {
       "bkbplo/flying_0.png": "left",
-      "bkbplo/sitting_0.png": "right"
+      "bkbplo/sitting_0.png": "left"
     },
     "credits": {
       "bkbplo/flying_0.png": {
@@ -2092,7 +2092,7 @@
       ]
     },
     "faces": {
-      "bkewhe1/sitting_0.png": "left"
+      "bkewhe1/sitting_0.png": "right"
     },
     "credits": {
       "bkewhe1/sitting_0.png": {
@@ -2304,7 +2304,7 @@
     },
     "faces": {
       "bklkit/flying_0.png": "right",
-      "bklkit/sitting_0.png": "right"
+      "bklkit/sitting_0.png": "left"
     },
     "credits": {
       "bklkit/flying_0.png": {
@@ -2464,7 +2464,7 @@
     },
     "faces": {
       "bktgod/flying_0.png": "right",
-      "bktgod/sitting_0.png": "left"
+      "bktgod/sitting_0.png": "right"
     },
     "credits": {
       "bktgod/flying_0.png": {
