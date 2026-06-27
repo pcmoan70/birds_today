@@ -12444,6 +12444,196 @@
      "bird": 0.52
     }
    ]
+  },
+  "monpar1": {
+   "name": "Monk Parakeet",
+   "sci": "Myiopsitta monachus",
+   "family": "New World and African Parrots",
+   "reason": "all",
+   "before": "review_imgs/monpar1/before.png",
+   "ref": "review_imgs/monpar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/monpar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.837,
+     "pose": 0.135,
+     "bird": 0.412
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/monpar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.826,
+     "pose": 0.07,
+     "bird": 0.408
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/monpar1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.864,
+     "pose": 0.089,
+     "bird": 0.296
+    }
+   ]
+  },
+  "mouchi2": {
+   "name": "Mountain Chiffchaff",
+   "sci": "Phylloscopus sindianus",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/mouchi2/before.png",
+   "ref": "review_imgs/mouchi2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/mouchi2/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.837,
+     "pose": 0.304,
+     "bird": 0.707
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/mouchi2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.863,
+     "pose": 0.077,
+     "bird": 0.164
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/mouchi2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.851,
+     "pose": 0.068,
+     "bird": 0.127
+    }
+   ]
+  },
+  "moured1": {
+   "name": "Moussier's Redstart",
+   "sci": "Phoenicurus moussieri",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/moured1/before.png",
+   "ref": "review_imgs/moured1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/moured1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.884,
+     "pose": 0.359,
+     "bird": 0.854
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/moured1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.891,
+     "pose": 0.416,
+     "bird": 0.622
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/moured1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.891,
+     "pose": 0.45,
+     "bird": 0.566
+    }
+   ]
+  },
+  "mouwhe2": {
+   "name": "Mourning Wheatear",
+   "sci": "Oenanthe lugens",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/mouwhe2/before.png",
+   "ref": "review_imgs/mouwhe2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/mouwhe2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.944,
+     "pose": 0.232,
+     "bird": 0.76
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/mouwhe2/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.928,
+     "pose": 0.18,
+     "bird": 0.842
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/mouwhe2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.923,
+     "pose": 0.248,
+     "bird": 0.583
+    }
+   ]
+  },
+  "mstlar1": {
+   "name": "Mediterranean Short-toed Lark",
+   "sci": "Alaudala rufescens",
+   "family": "Larks",
+   "reason": "all",
+   "before": "review_imgs/mstlar1/before.png",
+   "ref": "review_imgs/mstlar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/mstlar1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.901,
+     "pose": 0.418,
+     "bird": 0.393
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/mstlar1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.922,
+     "pose": 0.192,
+     "bird": 0.181
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/mstlar1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.893,
+     "pose": 0.143,
+     "bird": 0.1
+    }
+   ]
   }
  }
 }
