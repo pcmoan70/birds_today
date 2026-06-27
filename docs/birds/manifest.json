@@ -15310,7 +15310,7 @@
     },
     "faces": {
       "glagul/flying_0.png": "right",
-      "glagul/sitting_0.png": "right"
+      "glagul/sitting_0.png": "left"
     },
     "credits": {
       "glagul/flying_0.png": {
