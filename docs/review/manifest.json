@@ -12064,6 +12064,196 @@
      "bird": 0.335
     }
    ]
+  },
+  "masshr1": {
+   "name": "Masked Shrike",
+   "sci": "Lanius nubicus",
+   "family": "Shrikes",
+   "reason": "all",
+   "before": "review_imgs/masshr1/before.png",
+   "ref": "review_imgs/masshr1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/masshr1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.925,
+     "pose": 0.167,
+     "bird": 0.742
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/masshr1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.916,
+     "pose": 0.095,
+     "bird": 0.701
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/masshr1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.905,
+     "pose": 0.133,
+     "bird": 0.349
+    }
+   ]
+  },
+  "meapip1": {
+   "name": "Meadow Pipit",
+   "sci": "Anthus pratensis",
+   "family": "Wagtails and Pipits",
+   "reason": "all",
+   "before": "review_imgs/meapip1/before.png",
+   "ref": "review_imgs/meapip1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/meapip1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.887,
+     "pose": 0.172,
+     "bird": 0.736
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/meapip1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.865,
+     "pose": 0.049,
+     "bird": 0.71
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/meapip1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.814,
+     "pose": 0.338,
+     "bird": 0.191
+    }
+   ]
+  },
+  "medgul1": {
+   "name": "Mediterranean Gull",
+   "sci": "Ichthyaetus melanocephalus",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/medgul1/before.png",
+   "ref": "review_imgs/medgul1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/medgul1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.94,
+     "pose": 0.362,
+     "bird": 0.93
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/medgul1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.933,
+     "pose": 0.325,
+     "bird": 0.964
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/medgul1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.935,
+     "pose": 0.313,
+     "bird": 0.851
+    }
+   ]
+  },
+  "medshe1": {
+   "name": "Yelkouan Shearwater",
+   "sci": "Puffinus yelkouan",
+   "family": "Shearwaters and Petrels",
+   "reason": "all",
+   "before": "review_imgs/medshe1/before.png",
+   "ref": "review_imgs/medshe1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/medshe1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.823,
+     "pose": 0.116,
+     "bird": 0.677
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/medshe1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.795,
+     "pose": 0.081,
+     "bird": 0.52
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/medshe1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.82,
+     "pose": 0.089,
+     "bird": 0.14
+    }
+   ]
+  },
+  "melwar1": {
+   "name": "Melodious Warbler",
+   "sci": "Hippolais polyglotta",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/melwar1/before.png",
+   "ref": "review_imgs/melwar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/melwar1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.898,
+     "pose": 0.148,
+     "bird": 0.211
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/melwar1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.911,
+     "pose": 0.037,
+     "bird": 0.217
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/melwar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.878,
+     "pose": 0.1,
+     "bird": 0.127
+    }
+   ]
   }
  }
 }
