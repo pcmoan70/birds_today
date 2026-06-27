@@ -6101,7 +6101,14 @@
     "faces": {
       "colfly1/sitting_0.png": "right"
     },
-    "credits": {}
+    "credits": {
+      "colfly1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
   },
   "colpra": {
     "sci": "Glareola pratincola",
@@ -6167,6 +6174,12 @@
     },
     "credits": {
       "colpra/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "colpra/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -6534,6 +6547,12 @@
         "author": "",
         "license": "",
         "page_url": ""
+      },
+      "comchi1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
       }
     }
   },
@@ -6687,6 +6706,12 @@
         "author": "",
         "license": "",
         "page_url": ""
+      },
+      "comcuc/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
       }
     }
   },
@@ -6752,6 +6777,12 @@
     },
     "credits": {
       "comeid/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "comeid/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
