@@ -8318,6 +8318,196 @@
      "bird": 0.38
     }
    ]
+  },
+  "eutkne1": {
+   "name": "Eurasian Thick-knee",
+   "sci": "Burhinus oedicnemus",
+   "family": "Stone-curlews and Thick-knees",
+   "reason": "all",
+   "before": "review_imgs/eutkne1/before.png",
+   "ref": "review_imgs/eutkne1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eutkne1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.887,
+     "pose": 0.566,
+     "bird": 0.609
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eutkne1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.872,
+     "pose": 0.359,
+     "bird": 0.316
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eutkne1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.867,
+     "pose": 0.287,
+     "bird": 0.397
+    }
+   ]
+  },
+  "eutspa": {
+   "name": "Eurasian Tree Sparrow",
+   "sci": "Passer montanus",
+   "family": "Old World Sparrows",
+   "reason": "all",
+   "before": "review_imgs/eutspa/before.png",
+   "ref": "review_imgs/eutspa/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eutspa/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.826,
+     "pose": 0.036,
+     "bird": 0.688
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eutspa/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.815,
+     "pose": 0.063,
+     "bird": 0.548
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eutspa/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.877,
+     "pose": 0.14,
+     "bird": 0.332
+    }
+   ]
+  },
+  "ferduc": {
+   "name": "Ferruginous Duck",
+   "sci": "Aythya nyroca",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/ferduc/before.png",
+   "ref": "review_imgs/ferduc/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ferduc/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.898,
+     "pose": 0.153,
+     "bird": 0.872
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ferduc/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.886,
+     "pose": 0.071,
+     "bird": 0.91
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ferduc/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.93,
+     "pose": 0.25,
+     "bird": 0.565
+    }
+   ]
+  },
+  "fieldf": {
+   "name": "Fieldfare",
+   "sci": "Turdus pilaris",
+   "family": "Thrushes",
+   "reason": "all",
+   "before": "review_imgs/fieldf/before.png",
+   "ref": "review_imgs/fieldf/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/fieldf/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.842,
+     "pose": 0.27,
+     "bird": 0.865
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/fieldf/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.835,
+     "pose": 0.342,
+     "bird": 0.794
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/fieldf/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.832,
+     "pose": 0.28,
+     "bird": 0.416
+    }
+   ]
+  },
+  "firecr1": {
+   "name": "Common Firecrest",
+   "sci": "Regulus ignicapilla",
+   "family": "Kinglets",
+   "reason": "all",
+   "before": "review_imgs/firecr1/before.png",
+   "ref": "review_imgs/firecr1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/firecr1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.907,
+     "pose": 0.6,
+     "bird": 0.823
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/firecr1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.912,
+     "pose": 0.541,
+     "bird": 0.67
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/firecr1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.893,
+     "pose": 0.408,
+     "bird": 0.263
+    }
+   ]
   }
  }
 }
