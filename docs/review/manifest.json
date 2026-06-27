@@ -3370,6 +3370,206 @@
      "bird": 0.579
     }
    ]
+  },
+  "cogwar1": {
+   "name": "Common Grasshopper Warbler",
+   "sci": "Locustella naevia",
+   "family": "Grassbirds and Allies",
+   "reason": "all",
+   "before": "review_imgs/cogwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/226725471/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cogwar1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.9,
+     "pose": 0.083,
+     "bird": 0.661
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cogwar1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.895,
+     "pose": 0.088,
+     "bird": 0.646
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cogwar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.904,
+     "pose": 0.102,
+     "bird": 0.307
+    }
+   ]
+  },
+  "colfly1": {
+   "name": "Collared Flycatcher",
+   "sci": "Ficedula albicollis",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/colfly1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63455131/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/colfly1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.836,
+     "pose": 0.288,
+     "bird": 0.789
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/colfly1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.847,
+     "pose": 0.205,
+     "bird": 0.766
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/colfly1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.859,
+     "pose": 0.215,
+     "bird": 0.692
+    }
+   ]
+  },
+  "colpra": {
+   "name": "Collared Pratincole",
+   "sci": "Glareola pratincola",
+   "family": "Pratincoles and Coursers",
+   "reason": "all",
+   "before": "review_imgs/colpra/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/33645371/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/colpra/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.891,
+     "pose": 0.215,
+     "bird": 0.647
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/colpra/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.906,
+     "pose": 0.121,
+     "bird": 0.552
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/colpra/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.869,
+     "pose": 0.183,
+     "bird": 0.46
+    }
+   ]
+  },
+  "combul2": {
+   "name": "Common Bulbul",
+   "sci": "Pycnonotus barbatus",
+   "family": "Bulbuls",
+   "reason": "all",
+   "before": "review_imgs/combul2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/225497951/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/combul2/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.903,
+     "pose": 0.249,
+     "bird": 0.396
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/combul2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.911,
+     "pose": 0.385,
+     "bird": 0.232
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/combul2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.913,
+     "pose": 0.27,
+     "bird": 0.078
+    }
+   ]
+  },
+  "combuz1": {
+   "name": "Common Buzzard",
+   "sci": "Buteo buteo",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/combuz1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35712671/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/combuz1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.009,
+     "bird": 0.414
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/combuz1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.9,
+     "pose": 0.014,
+     "bird": 0.279
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/combuz1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.872,
+     "pose": 0.006,
+     "bird": 0.252
+    }
+   ]
   }
  }
 }
