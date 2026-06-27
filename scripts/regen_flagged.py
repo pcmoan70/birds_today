@@ -206,18 +206,18 @@ def best_ref(sp, code, sess):
     pose = QC.clip_probs(imgs, [POSE_GOOD] + POSE_BAD)[:, 0].tolist()
     fast = _fast_session()
 
-    # whoBIRD/Macaulay curated photo is the PRIMARY reference. If present and it
-    # clears a basic quality gate (real bird, fully in frame, not tiny), use it
-    # directly; only fall back to other sources if it fails the gate.
+    # whoBIRD/Macaulay curated photo is the PRIMARY reference. These are
+    # editor-picked whole-bird ID shots — often tight crops where the bird fills
+    # the frame — so we trust the curation and require only that CLIP sees a real
+    # bird. prep_init isolates and re-centres it, so framing/edge-touch is fine.
+    # We fall back to scored multi-source selection only if it isn't bird-like.
     wb = next((i for i, s in enumerate(srcs) if s == "whobird"), None)
     if wb is not None:
-        whole, subj = _wholeness(_mask(imgs[wb], fast))
-        if obj[wb] > 0.5 and whole > 0.55 and subj > 0.05:
+        if obj[wb] > 0.5:
             print(f"    ref[whobird PRIMARY]: bird={obj[wb]:.2f} pose={pose[wb]:.2f} "
-                  f"whole={whole:.2f} subj={subj:.2f} (of {len(imgs)})")
+                  f"(curated, of {len(imgs)})")
             return tmp[wb], "whobird"
-        print(f"    whobird ref weak (bird={obj[wb]:.2f} whole={whole:.2f} "
-              f"subj={subj:.2f}); falling back to other sources")
+        print(f"    whobird ref not bird-like (bird={obj[wb]:.2f}); falling back")
 
     # CLIP is cheap; the whole-bird mask is not. Only mask the most promising
     # candidates (top real-bird + pose) with the fast model.
