@@ -9133,7 +9133,7 @@
     },
     "faces": {
       "cretit2/flying_0.png": "left",
-      "cretit2/sitting_0.png": "right"
+      "cretit2/sitting_0.png": "left"
     },
     "credits": {
       "cretit2/flying_0.png": {
@@ -9202,7 +9202,7 @@
       ]
     },
     "faces": {
-      "crwfin2/sitting_0.png": "right"
+      "crwfin2/sitting_0.png": "left"
     },
     "credits": {
       "crwfin2/sitting_0.png": {
