@@ -4761,6 +4761,206 @@
      "bird": 0.316
     }
    ]
+  },
+  "corcra": {
+   "name": "Corn Crake",
+   "sci": "Crex crex",
+   "family": "Rails, Gallinules, and Coots",
+   "reason": "all",
+   "before": "review_imgs/corcra/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/96093341/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/corcra/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.904,
+     "pose": 0.435,
+     "bird": 0.539
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/corcra/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.43,
+     "bird": 0.496
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/corcra/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.902,
+     "pose": 0.314,
+     "bird": 0.523
+    }
+   ]
+  },
+  "corfin1": {
+   "name": "Corsican Finch",
+   "sci": "Carduelis corsicana",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/corfin1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23442651/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/corfin1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.867,
+     "pose": 0.086,
+     "bird": 0.822
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/corfin1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.89,
+     "pose": 0.159,
+     "bird": 0.694
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/corfin1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.911,
+     "pose": 0.029,
+     "bird": 0.625
+    }
+   ]
+  },
+  "corplo": {
+   "name": "Common Ringed Plover",
+   "sci": "Charadrius hiaticula",
+   "family": "Plovers and Lapwings",
+   "reason": "all",
+   "before": "review_imgs/corplo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/32837031/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/corplo/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.923,
+     "pose": 0.187,
+     "bird": 0.77
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/corplo/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.917,
+     "pose": 0.177,
+     "bird": 0.676
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/corplo/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.907,
+     "pose": 0.117,
+     "bird": 0.558
+    }
+   ]
+  },
+  "corshe1": {
+   "name": "Cory's Shearwater",
+   "sci": "Calonectris borealis",
+   "family": "Shearwaters and Petrels",
+   "reason": "all",
+   "before": "review_imgs/corshe1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104100491/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/corshe1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.869,
+     "pose": 0.037,
+     "bird": 0.822
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/corshe1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.907,
+     "pose": 0.024,
+     "bird": 0.608
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/corshe1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.894,
+     "pose": 0.026,
+     "bird": 0.57
+    }
+   ]
+  },
+  "cowpig1": {
+   "name": "Common Wood-Pigeon",
+   "sci": "Columba palumbus",
+   "family": "Pigeons and Doves",
+   "reason": "all",
+   "before": "review_imgs/cowpig1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/165123501/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cowpig1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.914,
+     "pose": 0.09,
+     "bird": 0.639
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cowpig1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.873,
+     "pose": 0.107,
+     "bird": 0.608
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cowpig1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.868,
+     "pose": 0.061,
+     "bird": 0.504
+    }
+   ]
   }
  }
 }
