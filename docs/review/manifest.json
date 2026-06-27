@@ -3170,6 +3170,206 @@
      "bird": 0.442
     }
    ]
+  },
+  "cirbun1": {
+   "name": "Cirl Bunting",
+   "sci": "Emberiza cirlus",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/cirbun1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/151274571/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cirbun1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.883,
+     "pose": 0.243,
+     "bird": 0.544
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cirbun1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.907,
+     "pose": 0.256,
+     "bird": 0.274
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cirbun1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.909,
+     "pose": 0.247,
+     "bird": 0.233
+    }
+   ]
+  },
+  "citfin1": {
+   "name": "Citril Finch",
+   "sci": "Carduelis citrinella",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/citfin1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/21246391/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/citfin1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.894,
+     "pose": 0.051,
+     "bird": 0.212
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/citfin1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.882,
+     "pose": 0.05,
+     "bird": 0.201
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/citfin1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.87,
+     "pose": 0.092,
+     "bird": 0.148
+    }
+   ]
+  },
+  "citwag": {
+   "name": "Citrine Wagtail",
+   "sci": "Motacilla citreola",
+   "family": "Wagtails and Pipits",
+   "reason": "all",
+   "before": "review_imgs/citwag/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/191338911/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/citwag/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.895,
+     "pose": 0.09,
+     "bird": 0.431
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/citwag/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.894,
+     "pose": 0.13,
+     "bird": 0.388
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/citwag/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.9,
+     "pose": 0.076,
+     "bird": 0.221
+    }
+   ]
+  },
+  "coatit2": {
+   "name": "Coal Tit",
+   "sci": "Periparus ater",
+   "family": "Tits, Chickadees, and Titmice",
+   "reason": "all",
+   "before": "review_imgs/coatit2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/70455821/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/coatit2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.896,
+     "pose": 0.059,
+     "bird": 0.702
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/coatit2/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.859,
+     "pose": 0.107,
+     "bird": 0.7
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/coatit2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.903,
+     "pose": 0.052,
+     "bird": 0.531
+    }
+   ]
+  },
+  "cockat": {
+   "name": "Cockatiel",
+   "sci": "Nymphicus hollandicus",
+   "family": "Cockatoos",
+   "reason": "all",
+   "before": "review_imgs/cockat/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63888951/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cockat/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.895,
+     "pose": 0.181,
+     "bird": 0.825
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cockat/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.894,
+     "pose": 0.121,
+     "bird": 0.625
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cockat/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.884,
+     "pose": 0.164,
+     "bird": 0.579
+    }
+   ]
   }
  }
 }
