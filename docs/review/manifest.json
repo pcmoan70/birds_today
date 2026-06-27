@@ -4161,6 +4161,206 @@
      "bird": 0.504
     }
    ]
+  },
+  "comnig1": {
+   "name": "Common Nightingale",
+   "sci": "Luscinia megarhynchos",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/comnig1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/52391361/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comnig1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.885,
+     "pose": 0.049,
+     "bird": 0.712
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comnig1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.884,
+     "pose": 0.055,
+     "bird": 0.581
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comnig1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.89,
+     "pose": 0.106,
+     "bird": 0.477
+    }
+   ]
+  },
+  "compea": {
+   "name": "Indian Peafowl",
+   "sci": "Pavo cristatus",
+   "family": "Pheasants, Grouse, and Allies",
+   "reason": "all",
+   "before": "review_imgs/compea/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42442871/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/compea/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.938,
+     "pose": 0.169,
+     "bird": 0.339
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/compea/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.939,
+     "pose": 0.073,
+     "bird": 0.368
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/compea/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.943,
+     "pose": 0.069,
+     "bird": 0.362
+    }
+   ]
+  },
+  "compoc": {
+   "name": "Common Pochard",
+   "sci": "Aythya ferina",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/compoc/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204243991/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/compoc/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.731,
+     "pose": 0.235,
+     "bird": 0.956
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/compoc/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.707,
+     "pose": 0.125,
+     "bird": 0.842
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/compoc/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.663,
+     "pose": 0.143,
+     "bird": 0.908
+    }
+   ]
+  },
+  "comqua1": {
+   "name": "Common Quail",
+   "sci": "Coturnix coturnix",
+   "family": "Pheasants, Grouse, and Allies",
+   "reason": "all",
+   "before": "review_imgs/comqua1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181537191/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comqua1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.872,
+     "pose": 0.358,
+     "bird": 0.756
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comqua1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.869,
+     "pose": 0.434,
+     "bird": 0.583
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comqua1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.862,
+     "pose": 0.395,
+     "bird": 0.393
+    }
+   ]
+  },
+  "comrav": {
+   "name": "Common Raven",
+   "sci": "Corvus corax",
+   "family": "Crows, Jays, and Magpies",
+   "reason": "all",
+   "before": "review_imgs/comrav/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/171431281/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comrav/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.911,
+     "pose": 0.306,
+     "bird": 0.354
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comrav/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.916,
+     "pose": 0.119,
+     "bird": 0.395
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comrav/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.909,
+     "pose": 0.077,
+     "bird": 0.236
+    }
+   ]
   }
  }
 }
