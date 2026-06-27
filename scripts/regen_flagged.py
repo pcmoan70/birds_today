@@ -24,6 +24,7 @@ import os
 import shutil
 import subprocess
 import sys
+import time
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -51,6 +52,41 @@ FAMILIES = os.path.join(HERE, "families.json")
 REVIEW_IMGS = os.path.join(ROOT, "docs", "review_imgs")   # variant images (on Pages)
 REVIEW_MAN = os.path.join(ROOT, "docs", "review", "manifest.json")
 PUSH_EVERY = 5
+
+# Macaulay Library (whoBIRD) is a courtesy resource, not a bulk API. Be gentle:
+# cache every fetched asset on disk so we hit Cornell at most once per asset
+# ever, and never request faster than ML_MIN_GAP seconds apart.
+MLCACHE = os.path.join(HERE, "ml_cache")
+ML_MIN_GAP = 3.0
+_ml_last = [0.0]
+
+
+def _fetch_candidate(c, dest):
+    """Download a reference candidate to `dest`. whoBIRD/Macaulay assets are
+    cached by id and rate-limited so we never hammer Cornell's CDN; other
+    sources download normally. Returns True on success."""
+    src = getattr(c, "source", "")
+    if src == "whobird":
+        os.makedirs(MLCACHE, exist_ok=True)
+        cached = os.path.join(MLCACHE, f"{c.src_id}.jpg")
+        if os.path.exists(cached) and os.path.getsize(cached) > 0:
+            shutil.copy(cached, dest); return True       # served from cache, no network
+        wait = ML_MIN_GAP - (time.time() - _ml_last[0])
+        if wait > 0:
+            time.sleep(wait)
+        r = SESSION.get(c.url, timeout=30)
+        _ml_last[0] = time.time()
+        if r.status_code != 200 or not r.content:
+            print(f"    whobird fetch {c.src_id}: HTTP {r.status_code}")
+            return False
+        open(cached, "wb").write(r.content)
+        shutil.copy(cached, dest)
+        return True
+    r = SESSION.get(c.url, timeout=30)
+    if r.status_code != 200 or not r.content:
+        return False
+    open(dest, "wb").write(r.content)
+    return True
 
 
 def load_families():
@@ -148,12 +184,10 @@ def best_ref(sp, code, sess):
         if len(tmp) >= 16:
             break
         try:
-            r = SESSION.get(c.url, timeout=30)
-            if r.status_code != 200 or not r.content:
-                continue
             p = os.path.join(BADREFS, f"_cand_{code}_{len(tmp)}.jpg")
             os.makedirs(BADREFS, exist_ok=True)
-            open(p, "wb").write(r.content)
+            if not _fetch_candidate(c, p):
+                continue
             tmp.append(p); imgs.append(Image.open(p).convert("RGB"))
             srcs.append(getattr(c, "source", "?"))
         except Exception:
