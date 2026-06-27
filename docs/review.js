@@ -27,9 +27,12 @@
 
   function render(data) {
     var grid = document.getElementById("grid");
-    // Only show current-recipe (v4) images; ignore any stale earlier entries.
+    // Show current-recipe (v4) images that haven't been reviewed yet. A species
+    // drops off once feedback is applied, and returns only when a new image is
+    // generated for it (regeneration writes a fresh, unreviewed entry).
     var codes = Object.keys(data.species || {}).filter(function (c) {
-      return (data.species[c].recipe || "").indexOf("v4") === 0;
+      var s = data.species[c];
+      return (s.recipe || "").indexOf("v4") === 0 && !s.reviewed;
     });
     document.getElementById("count").textContent = codes.length + " species";
     if (!codes.length) { document.getElementById("empty").hidden = false; return; }

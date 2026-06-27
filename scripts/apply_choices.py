@@ -44,6 +44,11 @@ def main():
     changed = applied = 0
     feedback = {"badRef": [], "noneGood": [], "notes": {}}
     for code, val in choices.items():
+        # Mark every species we got feedback on as reviewed, so it drops off the
+        # review page until a new image is generated for it (regeneration writes
+        # a fresh entry without this flag, making it reviewable again).
+        if code in review.get("species", {}):
+            review["species"][code]["reviewed"] = True
         if isinstance(val, dict):
             vid = val.get("choice", "v0")
             if val.get("badRef"):

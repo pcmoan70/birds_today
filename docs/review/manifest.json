@@ -38,7 +38,8 @@
      "bird": 0.54
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "balshe1": {
    "name": "Balearic Shearwater",
@@ -78,7 +79,8 @@
      "bird": 0.604
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "barpet": {
    "name": "Band-rumped Storm-Petrel",
@@ -118,7 +120,8 @@
      "bird": 0.155
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "465888": {
    "name": "Pale Crag-Martin",
@@ -158,7 +161,8 @@
      "bird": 0.1
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "afrcha1": {
    "name": "African Chaffinch",
@@ -189,7 +193,8 @@
      "bird": 0.67
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "alepar2": {
    "name": "Alexandrine Parakeet",
@@ -229,7 +234,8 @@
      "bird": 0.816
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "alpacc1": {
    "name": "Alpine Accentor",
@@ -269,7 +275,8 @@
      "bird": 0.252
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "alpswi1": {
    "name": "Alpine Swift",
@@ -309,7 +316,8 @@
      "bird": 0.611
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "arcloo": {
    "name": "Arctic Loon",
@@ -349,7 +357,8 @@
      "bird": 0.398
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "arcter": {
    "name": "Arctic Tern",
@@ -389,7 +398,8 @@
      "bird": 0.288
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "arcwar1": {
    "name": "Arctic Warbler",
@@ -429,7 +439,8 @@
      "bird": 0.519
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "armgul1": {
    "name": "Armenian Gull",
@@ -469,7 +480,8 @@
      "bird": 0.654
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "atlfly1": {
    "name": "Atlas Flycatcher",
@@ -509,7 +521,8 @@
      "bird": 0.784
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "atlpuf": {
    "name": "Atlantic Puffin",
@@ -549,7 +562,8 @@
      "bird": 0.952
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "audgul1": {
    "name": "Audouin's Gull",
@@ -589,7 +603,8 @@
      "bird": 0.752
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "azwmag3": {
    "name": "Iberian Magpie",
@@ -629,7 +644,8 @@
      "bird": 0.806
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "bahgoo": {
    "name": "Bar-headed Goose",
@@ -669,7 +685,8 @@
      "bird": 0.921
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "baicra1": {
    "name": "Baillon's Crake",
@@ -709,7 +726,8 @@
      "bird": 0.531
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "banswa": {
    "name": "Bank Swallow",
@@ -749,7 +767,8 @@
      "bird": 0.572
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "bargoo": {
    "name": "Barnacle Goose",
@@ -789,7 +808,8 @@
      "bird": 0.452
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "barpar2": {
    "name": "Barbary Partridge",
@@ -829,7 +849,8 @@
      "bird": 0.59
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "barswa": {
    "name": "Barn Swallow",
@@ -869,7 +890,8 @@
      "bird": 0.164
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "barwar1": {
    "name": "Barred Warbler",
@@ -909,7 +931,8 @@
      "bird": 0.21
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "batgod": {
    "name": "Bar-tailed Godwit",
@@ -949,7 +972,8 @@
      "bird": 0.756
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "bbspet1": {
    "name": "Black-bellied Storm-Petrel",
@@ -989,7 +1013,8 @@
      "bird": 0.191
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "bcbeat1": {
    "name": "Blue-cheeked Bee-eater",
@@ -1029,7 +1054,8 @@
      "bird": 0.117
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "bcnher": {
    "name": "Black-crowned Night Heron",
@@ -1069,7 +1095,8 @@
      "bird": 0.284
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "bearee1": {
    "name": "Bearded Reedling",
@@ -1109,7 +1136,8 @@
      "bird": 0.706
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "bkbplo": {
    "name": "Black-bellied Plover",
@@ -1149,7 +1177,8 @@
      "bird": 0.524
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "bkewhe1": {
    "name": "Western Black-eared Wheatear",
@@ -1189,7 +1218,8 @@
      "bird": 0.703
     }
    ],
-   "recipe": "v4-macaulay-id"
+   "recipe": "v4-macaulay-id",
+   "reviewed": true
   },
   "bkewhe2": {
    "name": "Eastern Black-eared Wheatear",
@@ -1229,7 +1259,8 @@
      "pose": 0.225,
      "bird": 0.585
     }
-   ]
+   ],
+   "reviewed": true
   },
   "bkhgul": {
    "name": "Black-headed Gull",
@@ -1269,7 +1300,8 @@
      "pose": 0.153,
      "bird": 0.719
     }
-   ]
+   ],
+   "reviewed": true
   },
   "bklkit": {
    "name": "Black-legged Kittiwake",
@@ -1309,7 +1341,8 @@
      "pose": 0.36,
      "bird": 0.869
     }
-   ]
+   ],
+   "reviewed": true
   },
   "bkskit1": {
    "name": "Black-winged Kite",
@@ -1349,7 +1382,8 @@
      "pose": 0.318,
      "bird": 0.625
     }
-   ]
+   ],
+   "reviewed": true
   },
   "bktgod": {
    "name": "Black-tailed Godwit",
@@ -1389,7 +1423,8 @@
      "pose": 0.181,
      "bird": 0.505
     }
-   ]
+   ],
+   "reviewed": true
   },
   "bkwsti": {
    "name": "Black-winged Stilt",
@@ -1429,7 +1464,8 @@
      "pose": 0.159,
      "bird": 0.596
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blackc1": {
    "name": "Eurasian Blackcap",
@@ -1469,7 +1505,8 @@
      "pose": 0.078,
      "bird": 0.641
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blagro1": {
    "name": "Black Grouse",
@@ -1509,7 +1546,8 @@
      "pose": 0.041,
      "bird": 0.344
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blakit1": {
    "name": "Black Kite",
@@ -1549,7 +1587,8 @@
      "pose": 0.028,
      "bird": 0.546
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blared1": {
    "name": "Black Redstart",
@@ -1589,7 +1628,8 @@
      "pose": 0.103,
      "bird": 0.525
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blasto1": {
    "name": "Black Stork",
@@ -1629,7 +1669,8 @@
      "pose": 0.196,
      "bird": 0.844
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blawhe1": {
    "name": "Black Wheatear",
@@ -1669,7 +1710,8 @@
      "pose": 0.155,
      "bird": 0.205
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blawoo1": {
    "name": "Black Woodpecker",
@@ -1709,7 +1751,8 @@
      "pose": 0.22,
      "bird": 0.4
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blbsan1": {
    "name": "Black-bellied Sandgrouse",
@@ -1749,7 +1792,8 @@
      "pose": 0.388,
      "bird": 0.596
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blhbun1": {
    "name": "Black-headed Bunting",
@@ -1789,7 +1833,8 @@
      "pose": 0.167,
      "bird": 0.525
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blkfra": {
    "name": "Black Francolin",
@@ -1829,7 +1874,8 @@
      "pose": 0.133,
      "bird": 0.358
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blkgui": {
    "name": "Black Guillemot",
@@ -1869,7 +1915,8 @@
      "pose": 0.065,
      "bird": 0.23
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blksco1": {
    "name": "Common Scoter",
@@ -1909,7 +1956,8 @@
      "pose": 0.085,
      "bird": 0.632
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blkswa": {
    "name": "Black Swan",
@@ -1949,7 +1997,8 @@
      "pose": 0.261,
      "bird": 0.665
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blkter": {
    "name": "Black Tern",
@@ -1989,7 +2038,8 @@
      "pose": 0.015,
      "bird": 0.14
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blrwar1": {
    "name": "Blyth's Reed Warbler",
@@ -2029,7 +2079,8 @@
      "pose": 0.043,
      "bird": 0.516
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blueth": {
    "name": "Bluethroat",
@@ -2069,7 +2120,8 @@
      "pose": 0.052,
      "bird": 0.114
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blutit": {
    "name": "Eurasian Blue Tit",
