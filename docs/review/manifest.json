@@ -5361,6 +5361,206 @@
      "bird": 0.586
     }
    ]
+  },
+  "desfin2": {
+   "name": "Desert Finch",
+   "sci": "Rhodospiza obsoleta",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/desfin2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/194423881/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/desfin2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.91,
+     "pose": 0.222,
+     "bird": 0.861
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/desfin2/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.879,
+     "pose": 0.295,
+     "bird": 0.578
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/desfin2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.899,
+     "pose": 0.191,
+     "bird": 0.598
+    }
+   ]
+  },
+  "desspa1": {
+   "name": "Dead Sea Sparrow",
+   "sci": "Passer moabiticus",
+   "family": "Old World Sparrows",
+   "reason": "all",
+   "before": "review_imgs/desspa1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/90142681/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/desspa1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.926,
+     "pose": 0.281,
+     "bird": 0.819
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/desspa1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.915,
+     "pose": 0.359,
+     "bird": 0.52
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/desspa1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.909,
+     "pose": 0.278,
+     "bird": 0.592
+    }
+   ]
+  },
+  "deswhe1": {
+   "name": "Desert Wheatear",
+   "sci": "Oenanthe deserti",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/deswhe1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/84558621/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/deswhe1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.873,
+     "pose": 0.372,
+     "bird": 0.788
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/deswhe1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.876,
+     "pose": 0.259,
+     "bird": 0.855
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/deswhe1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.872,
+     "pose": 0.278,
+     "bird": 0.663
+    }
+   ]
+  },
+  "diadov1": {
+   "name": "Diamond Dove",
+   "sci": "Geopelia cuneata",
+   "family": "Pigeons and Doves",
+   "reason": "all",
+   "before": "review_imgs/diadov1/before.png",
+   "ref": "review_imgs/diadov1/ref.jpg",
+   "ref_source": "gbif",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/diadov1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.776,
+     "pose": 0.162,
+     "bird": 0.707
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/diadov1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.806,
+     "pose": 0.105,
+     "bird": 0.377
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/diadov1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.788,
+     "pose": 0.105,
+     "bird": 0.198
+    }
+   ]
+  },
+  "doveki": {
+   "name": "Dovekie",
+   "sci": "Alle alle",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/doveki/before.png",
+   "ref": "review_imgs/doveki/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/doveki/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.855,
+     "pose": 0.048,
+     "bird": 0.226
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/doveki/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.861,
+     "pose": 0.092,
+     "bird": 0.118
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/doveki/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.874,
+     "pose": 0.032,
+     "bird": 0.132
+    }
+   ]
   }
  }
 }
