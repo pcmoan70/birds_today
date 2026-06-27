@@ -6237,6 +6237,196 @@
      "bird": 0.307
     }
    ]
+  },
+  "doveki": {
+   "name": "Dovekie",
+   "sci": "Alle alle",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/doveki/before.png",
+   "ref": "review_imgs/doveki/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/doveki/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.864,
+     "pose": 0.04,
+     "bird": 0.445
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/doveki/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.88,
+     "pose": 0.112,
+     "bird": 0.228
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/doveki/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.866,
+     "pose": 0.099,
+     "bird": 0.122
+    }
+   ]
+  },
+  "dunlin": {
+   "name": "Dunlin",
+   "sci": "Calidris alpina",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/dunlin/before.png",
+   "ref": "review_imgs/dunlin/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/dunlin/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.941,
+     "pose": 0.542,
+     "bird": 0.825
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/dunlin/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.945,
+     "pose": 0.539,
+     "bird": 0.512
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/dunlin/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.907,
+     "pose": 0.301,
+     "bird": 0.54
+    }
+   ]
+  },
+  "dunnoc1": {
+   "name": "Dunnock",
+   "sci": "Prunella modularis",
+   "family": "Accentors",
+   "reason": "all",
+   "before": "review_imgs/dunnoc1/before.png",
+   "ref": "review_imgs/dunnoc1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/dunnoc1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.859,
+     "pose": 0.084,
+     "bird": 0.819
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/dunnoc1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.881,
+     "pose": 0.089,
+     "bird": 0.736
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/dunnoc1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.844,
+     "pose": 0.043,
+     "bird": 0.836
+    }
+   ]
+  },
+  "duplar1": {
+   "name": "Dupont's Lark",
+   "sci": "Chersophilus duponti",
+   "family": "Larks",
+   "reason": "all",
+   "before": "review_imgs/duplar1/before.png",
+   "ref": "review_imgs/duplar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/duplar1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.848,
+     "pose": 0.405,
+     "bird": 0.766
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/duplar1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.875,
+     "pose": 0.323,
+     "bird": 0.689
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/duplar1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.89,
+     "pose": 0.467,
+     "bird": 0.505
+    }
+   ]
+  },
+  "duswar": {
+   "name": "Dusky Warbler",
+   "sci": "Phylloscopus fuscatus",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/duswar/before.png",
+   "ref": "review_imgs/duswar/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/duswar/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.787,
+     "pose": 0.749,
+     "bird": 0.845
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/duswar/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.753,
+     "pose": 0.564,
+     "bird": 0.553
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/duswar/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.748,
+     "pose": 0.23,
+     "bird": 0.884
+    }
+   ]
   }
  }
 }
