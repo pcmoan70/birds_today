@@ -4361,6 +4361,206 @@
      "bird": 0.236
     }
    ]
+  },
+  "comred1": {
+   "name": "Common Redshank",
+   "sci": "Tringa totanus",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/comred1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/62533451/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comred1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.841,
+     "pose": 0.232,
+     "bird": 0.874
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comred1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.846,
+     "pose": 0.093,
+     "bird": 0.809
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comred1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.845,
+     "pose": 0.048,
+     "bird": 0.323
+    }
+   ]
+  },
+  "comred2": {
+   "name": "Common Redstart",
+   "sci": "Phoenicurus phoenicurus",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/comred2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36928311/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comred2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.824,
+     "pose": 0.451,
+     "bird": 0.529
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comred2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.807,
+     "pose": 0.331,
+     "bird": 0.534
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comred2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.83,
+     "pose": 0.332,
+     "bird": 0.286
+    }
+   ]
+  },
+  "comros": {
+   "name": "Common Rosefinch",
+   "sci": "Carpodacus erythrinus",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/comros/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/165879411/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comros/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.103,
+     "bird": 0.829
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comros/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.871,
+     "pose": 0.113,
+     "bird": 0.543
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comros/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.847,
+     "pose": 0.166,
+     "bird": 0.128
+    }
+   ]
+  },
+  "comsan": {
+   "name": "Common Sandpiper",
+   "sci": "Actitis hypoleucos",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/comsan/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/37585061/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comsan/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.799,
+     "pose": 0.194,
+     "bird": 0.873
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comsan/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.763,
+     "pose": 0.088,
+     "bird": 0.933
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comsan/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.812,
+     "pose": 0.191,
+     "bird": 0.353
+    }
+   ]
+  },
+  "comshe": {
+   "name": "Common Shelduck",
+   "sci": "Tadorna tadorna",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/comshe/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43400091/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comshe/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.876,
+     "pose": 0.075,
+     "bird": 0.856
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comshe/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.869,
+     "pose": 0.023,
+     "bird": 0.88
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comshe/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.849,
+     "pose": 0.062,
+     "bird": 0.806
+    }
+   ]
   }
  }
 }

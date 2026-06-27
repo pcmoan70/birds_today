@@ -7902,7 +7902,7 @@
       ]
     },
     "faces": {
-      "comred1/sitting_0.png": "right"
+      "comred1/sitting_0.png": "left"
     },
     "credits": {
       "comred1/sitting_0.png": {
@@ -8048,7 +8048,7 @@
       ]
     },
     "faces": {
-      "comros/sitting_0.png": "right"
+      "comros/sitting_0.png": "left"
     },
     "credits": {
       "comros/sitting_0.png": {
@@ -8123,7 +8123,7 @@
     },
     "faces": {
       "comsan/flying_0.png": "left",
-      "comsan/sitting_0.png": "right"
+      "comsan/sitting_0.png": "left"
     },
     "credits": {
       "comsan/flying_0.png": {
