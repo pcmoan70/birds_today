@@ -7558,6 +7558,196 @@
      "bird": 0.115
     }
    ]
+  },
+  "eurkes": {
+   "name": "Eurasian Kestrel",
+   "sci": "Falco tinnunculus",
+   "family": "Falcons and Caracaras",
+   "reason": "all",
+   "before": "review_imgs/eurkes/before.png",
+   "ref": "review_imgs/eurkes/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurkes/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.786,
+     "pose": 0.601,
+     "bird": 0.774
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurkes/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.758,
+     "pose": 0.573,
+     "bird": 0.631
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurkes/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.73,
+     "pose": 0.385,
+     "bird": 0.41
+    }
+   ]
+  },
+  "eurlin1": {
+   "name": "Eurasian Linnet",
+   "sci": "Linaria cannabina",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/eurlin1/before.png",
+   "ref": "review_imgs/eurlin1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurlin1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.801,
+     "pose": 0.242,
+     "bird": 0.705
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurlin1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.828,
+     "pose": 0.149,
+     "bird": 0.639
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurlin1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.812,
+     "pose": 0.191,
+     "bird": 0.552
+    }
+   ]
+  },
+  "eurmag1": {
+   "name": "Eurasian Magpie",
+   "sci": "Pica pica",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/eurmag1/before.png",
+   "ref": "review_imgs/eurmag1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurmag1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.915,
+     "pose": 0.25,
+     "bird": 0.781
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurmag1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.929,
+     "pose": 0.284,
+     "bird": 0.641
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurmag1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.899,
+     "pose": 0.282,
+     "bird": 0.6
+    }
+   ]
+  },
+  "eurnut3": {
+   "name": "Northern Nutcracker",
+   "sci": "Nucifraga caryocatactes",
+   "family": "Crows, Jays, and Magpies",
+   "reason": "all",
+   "before": "review_imgs/eurnut3/before.png",
+   "ref": "review_imgs/eurnut3/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eurnut3/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.888,
+     "pose": 0.046,
+     "bird": 0.345
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eurnut3/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.858,
+     "pose": 0.168,
+     "bird": 0.11
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurnut3/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.887,
+     "pose": 0.064,
+     "bird": 0.096
+    }
+   ]
+  },
+  "euroys1": {
+   "name": "Eurasian Oystercatcher",
+   "sci": "Haematopus ostralegus",
+   "family": "Oystercatchers",
+   "reason": "all",
+   "before": "review_imgs/euroys1/before.png",
+   "ref": "review_imgs/euroys1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/euroys1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.898,
+     "pose": 0.188,
+     "bird": 0.922
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/euroys1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.879,
+     "pose": 0.135,
+     "bird": 0.939
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/euroys1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.893,
+     "pose": 0.103,
+     "bird": 0.794
+    }
+   ]
   }
  }
 }
