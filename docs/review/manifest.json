@@ -8134,6 +8134,206 @@
      "bird": 0.181
     }
    ]
+  },
+  "firecr1": {
+   "name": "Common Firecrest",
+   "sci": "Regulus ignicapilla",
+   "family": "Kinglets",
+   "reason": "all",
+   "before": "review_imgs/firecr1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/21134081/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/firecr1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.87,
+     "pose": 0.091,
+     "bird": 0.944
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/firecr1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.823,
+     "pose": 0.075,
+     "bird": 0.931
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/firecr1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.861,
+     "pose": 0.062,
+     "bird": 0.762
+    }
+   ]
+  },
+  "fuwduc": {
+   "name": "Fulvous Whistling-Duck",
+   "sci": "Dendrocygna bicolor",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/fuwduc/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/93765731/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/fuwduc/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.949,
+     "pose": 0.387,
+     "bird": 0.925
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/fuwduc/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.928,
+     "pose": 0.367,
+     "bird": 0.933
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/fuwduc/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.933,
+     "pose": 0.249,
+     "bird": 0.922
+    }
+   ]
+  },
+  "gadwal": {
+   "name": "Gadwall",
+   "sci": "Mareca strepera",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/gadwal/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/283493481/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gadwal/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.811,
+     "pose": 0.598,
+     "bird": 0.87
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gadwal/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.831,
+     "pose": 0.332,
+     "bird": 0.908
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gadwal/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.797,
+     "pose": 0.459,
+     "bird": 0.809
+    }
+   ]
+  },
+  "gargan": {
+   "name": "Garganey",
+   "sci": "Spatula querquedula",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/gargan/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/150021041/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gargan/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.792,
+     "pose": 0.27,
+     "bird": 0.772
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gargan/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.776,
+     "pose": 0.018,
+     "bird": 0.63
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gargan/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.801,
+     "pose": 0.066,
+     "bird": 0.272
+    }
+   ]
+  },
+  "garwar1": {
+   "name": "Garden Warbler",
+   "sci": "Sylvia borin",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/garwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66341291/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/garwar1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.849,
+     "pose": 0.235,
+     "bird": 0.722
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/garwar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.867,
+     "pose": 0.152,
+     "bird": 0.712
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/garwar1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.868,
+     "pose": 0.155,
+     "bird": 0.49
+    }
+   ]
   }
  }
 }
