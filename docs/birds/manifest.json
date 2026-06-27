@@ -4175,7 +4175,7 @@
       ]
     },
     "faces": {
-      "boowar1/sitting_0.png": "right"
+      "boowar1/sitting_0.png": "left"
     },
     "credits": {
       "boowar1/sitting_0.png": {
@@ -4478,7 +4478,7 @@
     },
     "faces": {
       "brbsan/flying_0.png": "left",
-      "brbsan/sitting_0.png": "left"
+      "brbsan/sitting_0.png": "right"
     },
     "credits": {
       "brbsan/flying_0.png": {

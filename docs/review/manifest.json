@@ -8,7 +8,7 @@
    "before": "review_imgs/afbtit2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/214988571/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -48,7 +48,7 @@
    "before": "review_imgs/balshe1/before.png",
    "ref": "review_imgs/balshe1/ref.jpg",
    "ref_source": "wikimedia",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -88,7 +88,7 @@
    "before": "review_imgs/barpet/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54843391/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -199,7 +199,7 @@
    "before": "review_imgs/alepar2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63993291/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -319,7 +319,7 @@
    "before": "review_imgs/arcloo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42407931/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -359,7 +359,7 @@
    "before": "review_imgs/arcter/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/249987771/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -599,7 +599,7 @@
    "before": "review_imgs/azwmag3/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/151274131/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -639,7 +639,7 @@
    "before": "review_imgs/bahgoo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181031211/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -759,7 +759,7 @@
    "before": "review_imgs/bargoo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/65135151/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -799,7 +799,7 @@
    "before": "review_imgs/barpar2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/179882371/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -879,7 +879,7 @@
    "before": "review_imgs/barwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/95443881/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -919,7 +919,7 @@
    "before": "review_imgs/batgod/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42941121/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -999,7 +999,7 @@
    "before": "review_imgs/bcbeat1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66339631/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -1079,7 +1079,7 @@
    "before": "review_imgs/bearee1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/212674881/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -1119,7 +1119,7 @@
    "before": "review_imgs/bkbplo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/189491151/320",
    "ref_source": "whobird",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -1280,7 +1280,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64889231/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -1320,7 +1320,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/117792521/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -1400,7 +1400,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23442331/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -1440,7 +1440,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/211672961/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -1480,7 +1480,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54593301/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -1520,7 +1520,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/25504811/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -1640,7 +1640,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/62913391/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -1680,7 +1680,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/614479088/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -1880,7 +1880,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/135065141/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -2268,6 +2268,286 @@
      "sim": 0.882,
      "pose": 0.008,
      "bird": 0.392
+    }
+   ]
+  },
+  "boowar1": {
+   "name": "Booted Warbler",
+   "sci": "Iduna caligata",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/boowar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/87390671/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/boowar1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.905,
+     "pose": 0.426,
+     "bird": 0.758
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/boowar1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.881,
+     "pose": 0.267,
+     "bird": 0.794
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/boowar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.911,
+     "pose": 0.127,
+     "bird": 0.452
+    }
+   ]
+  },
+  "borowl": {
+   "name": "Boreal Owl",
+   "sci": "Aegolius funereus",
+   "family": "Typical Owls",
+   "reason": "all",
+   "before": "review_imgs/borowl/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63333271/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/borowl/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.88,
+     "pose": 0.505,
+     "bird": 0.553
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/borowl/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.845,
+     "pose": 0.528,
+     "bird": 0.531
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/borowl/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.785,
+     "pose": 0.381,
+     "bird": 0.785
+    }
+   ]
+  },
+  "brambl": {
+   "name": "Brambling",
+   "sci": "Fringilla montifringilla",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/brambl/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/73818361/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/brambl/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.911,
+     "pose": 0.1,
+     "bird": 0.682
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/brambl/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.934,
+     "pose": 0.147,
+     "bird": 0.471
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/brambl/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.917,
+     "pose": 0.056,
+     "bird": 0.3
+    }
+   ]
+  },
+  "brant": {
+   "name": "Brant",
+   "sci": "Branta bernicla",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/brant/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53811211/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/brant/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.926,
+     "pose": 0.26,
+     "bird": 0.75
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/brant/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.901,
+     "pose": 0.235,
+     "bird": 0.739
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/brant/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.935,
+     "pose": 0.167,
+     "bird": 0.668
+    }
+   ]
+  },
+  "brbsan": {
+   "name": "Broad-billed Sandpiper",
+   "sci": "Calidris falcinellus",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/brbsan/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/149980501/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/brbsan/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.779,
+     "pose": 0.073,
+     "bird": 0.795
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/brbsan/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.727,
+     "pose": 0.171,
+     "bird": 0.758
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/brbsan/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.747,
+     "pose": 0.064,
+     "bird": 0.755
+    }
+   ]
+  },
+  "bripet": {
+   "name": "European Storm-Petrel",
+   "sci": "Hydrobates pelagicus",
+   "family": "Northern Storm-Petrels",
+   "reason": "all",
+   "before": "review_imgs/bripet/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30210311/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/bripet/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.824,
+     "pose": 0.047,
+     "bird": 0.603
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/bripet/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.819,
+     "pose": 0.023,
+     "bird": 0.565
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bripet/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.762,
+     "pose": 0.035,
+     "bird": 0.468
+    }
+   ]
+  },
+  "brnowl": {
+   "name": "American Barn Owl",
+   "sci": "Tyto alba",
+   "family": "Barn Owls",
+   "reason": "all",
+   "before": "review_imgs/brnowl/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/155550701/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/brnowl/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.91,
+     "pose": 0.474,
+     "bird": 0.781
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/brnowl/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.906,
+     "pose": 0.437,
+     "bird": 0.489
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/brnowl/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.901,
+     "pose": 0.419,
+     "bird": 0.427
     }
    ]
   }
