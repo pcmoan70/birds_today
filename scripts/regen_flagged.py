@@ -50,6 +50,8 @@ QCDIR = os.path.join(HERE, "qc_out")
 BA = os.path.join(QCDIR, "ba")
 FAMILIES = os.path.join(HERE, "families.json")
 IDFEATURES = os.path.join(HERE, "id_features.json")
+RETRY = os.path.join(HERE, "retry_rounds.json")  # {code: round} — bumped when a
+#   species is marked "none good enough" so its re-gen uses fresh seeds.
 RECIPE = "v4-macaulay-id"   # primary Macaulay reference + ID-feature prompt
 REVIEW_IMGS = os.path.join(ROOT, "docs", "review_imgs")   # variant images (on Pages)
 REVIEW_MAN = os.path.join(ROOT, "docs", "review", "manifest.json")
@@ -97,6 +99,10 @@ def load_families():
 
 def load_id_features():
     return json.load(open(IDFEATURES, encoding="utf-8")) if os.path.exists(IDFEATURES) else {}
+
+
+def load_retry():
+    return json.load(open(RETRY, encoding="utf-8")) if os.path.exists(RETRY) else {}
 
 
 def improved_prompt(common, sci, code, stance, fams, ids):
@@ -278,13 +284,15 @@ def save_small(im, path, colors=200):
     q.save(path, optimize=True)
 
 
-def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids):
+def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0):
     """Generate several seed/strength variants and keep the best one (most
-    consistent with the reference, clearest perched bird)."""
+    consistent with the reference, clearest perched bird). seed_off shifts the
+    seeds so a "none good enough" retry yields genuinely different variants."""
     prompt = improved_prompt(sp["common"], sp["sci"], code, pose, fams, ids)
     init = prep_init(ref_path, sess)
     variants = []
-    for seed, strength in VARIANTS:
+    for base_seed, strength in VARIANTS:
+        seed = base_seed + seed_off
         gen = torch.Generator("cpu").manual_seed(seed)
         out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt, image=init,
                    strength=strength, num_inference_steps=28, guidance_scale=3.5,
@@ -355,6 +363,7 @@ def main():
     by_code = {s["code"]: s for s in load_species()}
     fams = load_families()
     ids = load_id_features()
+    retry = load_retry()
 
     if args.codes:
         flagged = [{"code": c.strip(), "reason": "manual"} for c in args.codes.split(",")]
@@ -443,7 +452,8 @@ def main():
             shutil.copy(newref, ref_jpg)
             ref_rel = f"review_imgs/{code}/ref.jpg"
         res = gen_best(pipe, sess, code, sp, "sitting",
-                       os.path.join(d, "sitting_0.jpg"), fams, ids)
+                       os.path.join(d, "sitting_0.jpg"), fams, ids,
+                       seed_off=retry.get(code, 0) * 5)
         if not res:
             continue
         shutil.copy(res["png"], os.path.join(BA, f"{code}_after.png"))

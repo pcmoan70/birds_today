@@ -29,6 +29,7 @@ REVIEW_IMGS = os.path.join(ROOT, "docs", "review_imgs")
 BIRDS = os.path.join(ROOT, "docs", "birds")
 REVIEW_MAN = os.path.join(ROOT, "docs", "review", "manifest.json")
 FEEDBACK = os.path.join(HERE, "review_feedback.json")
+RETRY = os.path.join(HERE, "retry_rounds.json")
 
 
 def git(*a):
@@ -41,14 +42,11 @@ def main():
     choices = json.load(open(sys.argv[1], encoding="utf-8"))
     review = json.load(open(REVIEW_MAN, encoding="utf-8")) if os.path.exists(REVIEW_MAN) else {"species": {}}
 
+    retry = json.load(open(RETRY, encoding="utf-8")) if os.path.exists(RETRY) else {}
     changed = applied = 0
     feedback = {"badRef": [], "noneGood": [], "notes": {}}
     for code, val in choices.items():
-        # Mark every species we got feedback on as reviewed, so it drops off the
-        # review page until a new image is generated for it (regeneration writes
-        # a fresh entry without this flag, making it reviewable again).
-        if code in review.get("species", {}):
-            review["species"][code]["reviewed"] = True
+        none_good = isinstance(val, dict) and val.get("noneGood")
         if isinstance(val, dict):
             vid = val.get("choice", "v0")
             if val.get("badRef"):
@@ -57,11 +55,24 @@ def main():
                 feedback["noneGood"].append(code)
             if val.get("note"):
                 feedback["notes"][code] = val["note"]
-            if val.get("noneGood"):       # keep the current live image as-is
-                print(f"  {code}: none good enough — left unchanged")
-                continue
         else:
             vid = val
+
+        if none_good:
+            # No variant was acceptable: queue a fresh-seed regeneration (bump
+            # the retry round and clear the sidecar so it is no longer "done").
+            # The current live image stays until the new one is generated, and
+            # the species returns to the review page once it is.
+            retry[code] = retry.get(code, 0) + 1
+            sc = os.path.join(BIRDS, code, "sitting_0.png.json")
+            if os.path.exists(sc):
+                os.remove(sc)
+            print(f"  {code}: none good enough -> regenerate (retry round {retry[code]})")
+            continue
+
+        # Reviewed: drop off the review page until a new image is generated.
+        if code in review.get("species", {}):
+            review["species"][code]["reviewed"] = True
 
         src = os.path.join(REVIEW_IMGS, code, f"{vid}.png")
         if not os.path.exists(src):
@@ -77,6 +88,7 @@ def main():
             changed += 1
             print(f"  {code}: {cur_chosen} -> {vid}")
     json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(retry, open(RETRY, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"applied {applied} choices ({changed} changed from auto-pick)")
 
     if feedback["badRef"] or feedback["noneGood"] or feedback["notes"]:

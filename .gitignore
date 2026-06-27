@@ -12,6 +12,9 @@ scripts/raw/
 # asset to be gentle on Cornell's CDN. Local only; copyrighted, never published.
 scripts/ml_cache/
 
+# Per-species "none good enough" retry counter (shifts seeds on re-gen). Local.
+scripts/retry_rounds.json
+
 # Distribution-map reference images quarantined out of scripts/raw so img2img
 # never grounds a bird on a map (see generate.py ref_images); local only.
 scripts/raw_maps/
