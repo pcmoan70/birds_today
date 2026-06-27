@@ -56,12 +56,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "465888/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -1314,12 +1308,6 @@
         "author": "",
         "license": "",
         "page_url": ""
-      },
-      "bargoo/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
       }
     }
   },
@@ -2468,12 +2456,6 @@
     },
     "credits": {
       "bktgod/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "bktgod/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -3873,14 +3855,7 @@
     "faces": {
       "blwpra1/sitting_0.png": "right"
     },
-    "credits": {
-      "blwpra1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "bohwax": {
     "sci": "Bombycilla garrulus",
@@ -4177,14 +4152,7 @@
     "faces": {
       "boowar1/sitting_0.png": "left"
     },
-    "credits": {
-      "boowar1/sitting_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      }
-    }
+    "credits": {}
   },
   "borowl": {
     "sci": "Aegolius funereus",
@@ -4326,12 +4294,6 @@
     },
     "credits": {
       "brambl/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "brambl/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -4558,12 +4520,6 @@
     },
     "credits": {
       "bripet/flying_0.png": {
-        "source": "generated",
-        "author": "",
-        "license": "",
-        "page_url": ""
-      },
-      "bripet/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -5262,7 +5218,7 @@
       ]
     },
     "faces": {
-      "caster1/sitting_0.png": "right"
+      "caster1/sitting_0.png": "left"
     },
     "credits": {
       "caster1/sitting_0.png": {
@@ -5406,7 +5362,7 @@
       ]
     },
     "faces": {
-      "cetwar1/sitting_0.png": "left"
+      "cetwar1/sitting_0.png": "right"
     },
     "credits": {
       "cetwar1/sitting_0.png": {

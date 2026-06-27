@@ -2050,7 +2050,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42112131/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -2079,7 +2079,8 @@
      "pose": 0.043,
      "bird": 0.29
     }
-   ]
+   ],
+   "reviewed": true
   },
   "blwpra1": {
    "name": "Black-winged Pratincole",
@@ -2130,7 +2131,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/134340871/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -2159,7 +2160,8 @@
      "pose": 0.116,
      "bird": 0.46
     }
-   ]
+   ],
+   "reviewed": true
   },
   "boneag2": {
    "name": "Bonelli's Eagle",
@@ -2170,7 +2172,7 @@
    "ref": "review_imgs/boneag2/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -2199,7 +2201,8 @@
      "pose": 0.337,
      "bird": 0.456
     }
-   ]
+   ],
+   "reviewed": true
   },
   "booeag1": {
    "name": "Booted Eagle",
@@ -2239,7 +2242,8 @@
      "pose": 0.008,
      "bird": 0.392
     }
-   ]
+   ],
+   "reviewed": true
   },
   "boowar1": {
    "name": "Booted Warbler",
@@ -2319,7 +2323,8 @@
      "pose": 0.381,
      "bird": 0.785
     }
-   ]
+   ],
+   "reviewed": true
   },
   "brambl": {
    "name": "Brambling",
@@ -2370,7 +2375,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53811211/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -2399,7 +2404,8 @@
      "pose": 0.167,
      "bird": 0.668
     }
-   ]
+   ],
+   "reviewed": true
   },
   "brbsan": {
    "name": "Broad-billed Sandpiper",
@@ -2410,7 +2416,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/149980501/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v2",
    "variants": [
     {
      "id": "v0",
@@ -2439,7 +2445,8 @@
      "pose": 0.064,
      "bird": 0.755
     }
-   ]
+   ],
+   "reviewed": true
   },
   "bripet": {
    "name": "European Storm-Petrel",
@@ -2490,7 +2497,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/155550701/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -2519,7 +2526,8 @@
      "pose": 0.419,
      "bird": 0.427
     }
-   ]
+   ],
+   "reviewed": true
   },
   "bargoo": {
    "name": "Barnacle Goose",
@@ -2639,7 +2647,8 @@
      "pose": 0.006,
      "bird": 0.215
     }
-   ]
+   ],
+   "reviewed": true
   },
   "budger": {
    "name": "Budgerigar",
@@ -2650,7 +2659,7 @@
    "ref": "review_imgs/budger/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "chosen": "v1",
    "variants": [
     {
      "id": "v0",
@@ -2679,7 +2688,8 @@
      "pose": 0.11,
      "bird": 0.705
     }
-   ]
+   ],
+   "reviewed": true
   },
   "bulpet": {
    "name": "Bulwer's Petrel",
@@ -2719,7 +2729,8 @@
      "pose": 0.03,
      "bird": 0.152
     }
-   ]
+   ],
+   "reviewed": true
   },
   "burthr": {
    "name": "Blue Rock-Thrush",
@@ -2918,6 +2929,126 @@
      "sim": 0.922,
      "pose": 0.273,
      "bird": 0.968
+    }
+   ]
+  },
+  "caster1": {
+   "name": "Caspian Tern",
+   "sci": "Hydroprogne caspia",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/caster1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55539951/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/caster1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.904,
+     "pose": 0.022,
+     "bird": 0.966
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/caster1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.904,
+     "pose": 0.038,
+     "bird": 0.948
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/caster1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.901,
+     "pose": 0.014,
+     "bird": 0.958
+    }
+   ]
+  },
+  "categr1": {
+   "name": "Western Cattle-Egret",
+   "sci": "Ardea ibis",
+   "family": "Herons, Egrets, and Bitterns",
+   "reason": "all",
+   "before": "review_imgs/categr1/before.png",
+   "ref": "review_imgs/categr1/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/categr1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.766,
+     "pose": 0.214,
+     "bird": 0.9
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/categr1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.819,
+     "pose": 0.154,
+     "bird": 0.85
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/categr1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.829,
+     "pose": 0.147,
+     "bird": 0.776
+    }
+   ]
+  },
+  "cetwar1": {
+   "name": "Cetti's Warbler",
+   "sci": "Cettia cetti",
+   "family": "Bush Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/cetwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23966761/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/cetwar1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.912,
+     "pose": 0.069,
+     "bird": 0.517
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/cetwar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.916,
+     "pose": 0.031,
+     "bird": 0.081
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/cetwar1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.899,
+     "pose": 0.06,
+     "bird": 0.057
     }
    ]
   }
