@@ -271,7 +271,7 @@ def prep_init(ref_path, sess, size=1024):
 
 
 VARIANTS = [(1000, 0.60), (1001, 0.68), (1002, 0.74)]
-MAX_EDGE = 512   # display is <=220px (~440px retina); 512 is ample, smaller files
+MAX_EDGE = 448   # display is <=230px (~460px retina); 448 is ample and ~20% smaller
 
 
 def save_ref_thumb(src, dst, max_edge=384):
