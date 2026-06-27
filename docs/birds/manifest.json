@@ -4330,6 +4330,12 @@
         "author": "",
         "license": "",
         "page_url": ""
+      },
+      "brambl/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
       }
     }
   },
@@ -4552,6 +4558,12 @@
     },
     "credits": {
       "bripet/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "bripet/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -5459,7 +5471,7 @@
     },
     "faces": {
       "chifla1/flying_0.png": "right",
-      "chifla1/sitting_0.png": "left"
+      "chifla1/sitting_0.png": "right"
     },
     "credits": {
       "chifla1/flying_0.png": {
@@ -5527,7 +5539,7 @@
     },
     "faces": {
       "chiwig1/flying_0.png": "right",
-      "chiwig1/sitting_0.png": "left"
+      "chiwig1/sitting_0.png": "right"
     },
     "credits": {
       "chiwig1/flying_0.png": {
@@ -5606,7 +5618,7 @@
     },
     "faces": {
       "cinvul1/flying_0.png": "left",
-      "cinvul1/sitting_0.png": "left"
+      "cinvul1/sitting_0.png": "right"
     },
     "credits": {
       "cinvul1/flying_0.png": {
