@@ -55,3 +55,40 @@ body {
 .tile .pick { position: absolute; top: 4px; right: 6px; font-size: 14px; color: var(--accent); opacity: 0; }
 .tile.chosen .pick { opacity: 1; }
 .sep { width: 1px; align-self: stretch; background: #ddd5c2; margin: 0 2px; }
+
+/* "None good enough" toggle in the card header */
+.head .flag.none {
+  margin-left: auto; font: inherit; font-size: 12px; cursor: pointer;
+  color: var(--muted); background: #fff; border: 1px solid #d9d2c0;
+  border-radius: 999px; padding: 4px 12px;
+}
+.head .flag.none:hover { background: #f3efe6; }
+.head .flag.none.on {
+  background: #9a5b4a; border-color: #9a5b4a; color: #fff;
+}
+
+/* Reference-photo "flag bad" toggle, overlaid on the ref tile */
+.tile.ref { padding-bottom: 30px; }
+.tile.ref .reff {
+  position: absolute; left: 6px; right: 6px; bottom: 6px;
+  font: inherit; font-size: 11px; cursor: pointer;
+  color: var(--muted); background: #fff; border: 1px solid #d9d2c0;
+  border-radius: 6px; padding: 3px 6px;
+}
+.tile.ref .reff:hover { background: #f3efe6; }
+.tile.ref .reff.on { background: #9a5b4a; border-color: #9a5b4a; color: #fff; }
+.tile.ref.badref { border-color: #9a5b4a; box-shadow: 0 0 0 2px rgba(154,91,74,0.25); }
+.tile.ref.badref img { filter: grayscale(.7) brightness(.92); }
+
+/* When "none good enough" is set, fade the variant tiles */
+.tiles.disabled .tile.var { opacity: .4; }
+.tiles.disabled .tile.var.chosen { opacity: .55; }
+
+/* Per-species feedback box */
+.card .note {
+  display: block; width: 100%; margin-top: 10px; resize: vertical;
+  min-height: 38px; font: inherit; font-size: 13px; color: var(--ink);
+  background: #fff; border: 1px solid #ddd5c2; border-radius: 8px;
+  padding: 7px 9px;
+}
+.card .note:focus { outline: none; border-color: var(--accent); }
