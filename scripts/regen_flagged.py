@@ -386,6 +386,14 @@ def main():
     if os.path.exists(REVIEW_MAN):
         review = json.load(open(REVIEW_MAN, encoding="utf-8"))
         review.setdefault("species", {})
+        # The review page should only show current-recipe images. Drop stale
+        # entries from earlier recipes; tag the ones whose live image is v4.
+        for c in list(review["species"]):
+            if _is_done(c):
+                review["species"][c]["recipe"] = RECIPE
+            else:
+                del review["species"][c]
+        print(f"review manifest pruned to {len(review['species'])} {RECIPE} entries")
 
     print("Loading FLUX pipeline...")
     pipe = G.load_pipeline("black-forest-labs/FLUX.1-dev", None, fp8=True)
@@ -440,8 +448,8 @@ def main():
         review["species"][code] = {
             "name": sp["common"], "sci": sp["sci"], "family": fam[1],
             "reason": r.get("reason", ""), "before": before_rel,
-            "ref": ref_rel, "ref_source": refsrc, "chosen": res["chosen"],
-            "variants": res["variants"]}
+            "ref": ref_rel, "ref_source": refsrc, "recipe": RECIPE,
+            "chosen": res["chosen"], "variants": res["variants"]}
         json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
         done += 1

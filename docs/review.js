@@ -27,7 +27,10 @@
 
   function render(data) {
     var grid = document.getElementById("grid");
-    var codes = Object.keys(data.species || {});
+    // Only show current-recipe (v4) images; ignore any stale earlier entries.
+    var codes = Object.keys(data.species || {}).filter(function (c) {
+      return (data.species[c].recipe || "").indexOf("v4") === 0;
+    });
     document.getElementById("count").textContent = codes.length + " species";
     if (!codes.length) { document.getElementById("empty").hidden = false; return; }
     grid.innerHTML = "";
