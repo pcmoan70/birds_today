@@ -14943,7 +14943,7 @@
     },
     "faces": {
       "gadwal/flying_0.png": "left",
-      "gadwal/sitting_0.png": "left"
+      "gadwal/sitting_0.png": "right"
     },
     "credits": {
       "gadwal/flying_0.png": {
@@ -15024,7 +15024,7 @@
     },
     "faces": {
       "gargan/flying_0.png": "right",
-      "gargan/sitting_0.png": "left"
+      "gargan/sitting_0.png": "right"
     },
     "credits": {
       "gargan/flying_0.png": {
@@ -15097,7 +15097,7 @@
       ]
     },
     "faces": {
-      "garwar1/sitting_0.png": "right"
+      "garwar1/sitting_0.png": "left"
     },
     "credits": {
       "garwar1/sitting_0.png": {
@@ -15242,7 +15242,7 @@
       ]
     },
     "faces": {
-      "gbhgul2/sitting_0.png": "right"
+      "gbhgul2/sitting_0.png": "left"
     },
     "credits": {
       "gbhgul2/sitting_0.png": {
