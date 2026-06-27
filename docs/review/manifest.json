@@ -8882,6 +8882,206 @@
      "bird": 0.586
     }
    ]
+  },
+  "doveki": {
+   "name": "Dovekie",
+   "sci": "Alle alle",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/doveki/before.png",
+   "ref": "review_imgs/doveki/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/doveki/v0.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.86,
+     "pose": 0.18,
+     "bird": 0.758
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/doveki/v1.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.832,
+     "pose": 0.035,
+     "bird": 0.203
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/doveki/v2.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.862,
+     "pose": 0.046,
+     "bird": 0.131
+    }
+   ]
+  },
+  "dunlin": {
+   "name": "Dunlin",
+   "sci": "Calidris alpina",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/dunlin/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/228228211/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/dunlin/v0.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.81,
+     "pose": 0.459,
+     "bird": 0.896
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/dunlin/v1.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.765,
+     "pose": 0.313,
+     "bird": 0.883
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/dunlin/v2.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.775,
+     "pose": 0.072,
+     "bird": 0.777
+    }
+   ]
+  },
+  "duswar": {
+   "name": "Dusky Warbler",
+   "sci": "Phylloscopus fuscatus",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/duswar/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/496987621/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/duswar/v0.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.878,
+     "pose": 0.159,
+     "bird": 0.713
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/duswar/v1.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.897,
+     "pose": 0.069,
+     "bird": 0.656
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/duswar/v2.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.915,
+     "pose": 0.131,
+     "bird": 0.305
+    }
+   ]
+  },
+  "eabwar1": {
+   "name": "Eastern Bonelli's Warbler",
+   "sci": "Phylloscopus orientalis",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/eabwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/148211591/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eabwar1/v0.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.78,
+     "pose": 0.048,
+     "bird": 0.915
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eabwar1/v1.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.782,
+     "pose": 0.164,
+     "bird": 0.478
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eabwar1/v2.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.789,
+     "pose": 0.065,
+     "bird": 0.209
+    }
+   ]
+  },
+  "eaowar2": {
+   "name": "Eastern Orphean Warbler",
+   "sci": "Curruca crassirostris",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/eaowar2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/47054451/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eaowar2/v0.png",
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.731,
+     "pose": 0.21,
+     "bird": 0.919
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eaowar2/v1.png",
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.734,
+     "pose": 0.469,
+     "bird": 0.618
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eaowar2/v2.png",
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.805,
+     "pose": 0.265,
+     "bird": 0.642
+    }
+   ]
   }
  }
 }

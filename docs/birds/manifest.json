@@ -9927,6 +9927,12 @@
         "author": "",
         "license": "",
         "page_url": ""
+      },
+      "doveki/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
       }
     }
   },
@@ -9997,6 +10003,12 @@
     },
     "credits": {
       "dunlin/flying_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      },
+      "dunlin/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
@@ -10190,7 +10202,14 @@
     "faces": {
       "duswar/sitting_0.png": "left"
     },
-    "credits": {}
+    "credits": {
+      "duswar/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
   },
   "eabwar1": {
     "sci": "Phylloscopus orientalis",
@@ -10248,7 +10267,14 @@
     "faces": {
       "eabwar1/sitting_0.png": "right"
     },
-    "credits": {}
+    "credits": {
+      "eabwar1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
   },
   "eaowar1": {
     "sci": "Iduna pallida",
@@ -10370,7 +10396,14 @@
     "faces": {
       "eaowar2/sitting_0.png": "left"
     },
-    "credits": {}
+    "credits": {
+      "eaowar2/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": ""
+      }
+    }
   },
   "eargre": {
     "sci": "Podiceps nigricollis",
