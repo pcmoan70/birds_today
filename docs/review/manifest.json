@@ -9882,6 +9882,206 @@
      "bird": 0.228
     }
    ]
+  },
+  "gyhchi": {
+   "name": "Gray-headed Chickadee",
+   "sci": "Poecile cinctus",
+   "family": "Tits, Chickadees, and Titmice",
+   "reason": "all",
+   "before": "review_imgs/gyhchi/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31497641/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gyhchi/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.89,
+     "pose": 0.06,
+     "bird": 0.629
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gyhchi/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.886,
+     "pose": 0.109,
+     "bird": 0.538
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gyhchi/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.91,
+     "pose": 0.093,
+     "bird": 0.412
+    }
+   ]
+  },
+  "gyrfal": {
+   "name": "Gyrfalcon",
+   "sci": "Falco rusticolus",
+   "family": "Falcons and Caracaras",
+   "reason": "all",
+   "before": "review_imgs/gyrfal/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/49319911/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/gyrfal/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.905,
+     "pose": 0.649,
+     "bird": 0.721
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/gyrfal/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.872,
+     "pose": 0.667,
+     "bird": 0.729
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gyrfal/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.902,
+     "pose": 0.635,
+     "bird": 0.338
+    }
+   ]
+  },
+  "harduc": {
+   "name": "Harlequin Duck",
+   "sci": "Histrionicus histrionicus",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/harduc/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/26860111/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/harduc/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.806,
+     "pose": 0.1,
+     "bird": 0.729
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/harduc/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.781,
+     "pose": 0.059,
+     "bird": 0.329
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/harduc/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.803,
+     "pose": 0.048,
+     "bird": 0.148
+    }
+   ]
+  },
+  "hawfin": {
+   "name": "Hawfinch",
+   "sci": "Coccothraustes coccothraustes",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/hawfin/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/222917101/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/hawfin/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.929,
+     "pose": 0.277,
+     "bird": 0.555
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/hawfin/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.918,
+     "pose": 0.233,
+     "bird": 0.542
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/hawfin/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.929,
+     "pose": 0.224,
+     "bird": 0.517
+    }
+   ]
+  },
+  "hazgro1": {
+   "name": "Hazel Grouse",
+   "sci": "Tetrastes bonasia",
+   "family": "Pheasants, Grouse, and Allies",
+   "reason": "all",
+   "before": "review_imgs/hazgro1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30316531/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/hazgro1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.872,
+     "pose": 0.26,
+     "bird": 0.945
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/hazgro1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.816,
+     "pose": 0.16,
+     "bird": 0.841
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/hazgro1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.853,
+     "pose": 0.259,
+     "bird": 0.615
+    }
+   ]
   }
  }
 }
