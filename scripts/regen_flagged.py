@@ -46,6 +46,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 RAW = os.path.join(HERE, "raw")
 BADREFS = os.path.join(HERE, "raw_badrefs")
+PINNED = os.path.join(HERE, "pinned_refs")  # manually-curated <code>.jpg refs that
+#   override auto-selection (for species with no good scraped/Macaulay photo).
 OUT = os.path.join(ROOT, "docs", "birds")
 QCDIR = os.path.join(HERE, "qc_out")
 BA = os.path.join(QCDIR, "ba")
@@ -448,8 +450,14 @@ def main():
             shutil.copy(cur, os.path.join(BA, f"{code}_before.png"))
             shutil.copy(cur, os.path.join(vdir, "before.png"))
             before_rel = f"review_imgs/{code}/before.png"
-        # re-fetch a better reference (whole bird, multi-source)
-        newref, refsrc = best_ref(sp, code, sess)
+        # Use a manually-pinned reference if one exists, else auto-select the
+        # best whole-bird photo across sources.
+        pinned = os.path.join(PINNED, code + ".jpg")
+        if os.path.exists(pinned):
+            newref, refsrc = pinned, "pinned"
+            print("    ref[pinned]: manually-curated reference")
+        else:
+            newref, refsrc = best_ref(sp, code, sess)
         if not newref:
             print(f"  {code}: no usable reference found, skip"); continue
         # quarantine the old reference, install the new one as sitting_0

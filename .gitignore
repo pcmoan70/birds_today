@@ -51,3 +51,6 @@ scripts/raw_badrefs/
 scripts/calib/
 scratch_montage/
 scripts/*.log
+
+# Manually-curated reference photos (local inputs; only thumbnails are published)
+scripts/pinned_refs/
