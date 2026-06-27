@@ -10399,6 +10399,196 @@
      "bird": 0.261
     }
    ]
+  },
+  "ibechi2": {
+   "name": "Iberian Chiffchaff",
+   "sci": "Phylloscopus ibericus",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/ibechi2/before.png",
+   "ref": "review_imgs/ibechi2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ibechi2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.855,
+     "pose": 0.284,
+     "bird": 0.388
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ibechi2/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.787,
+     "pose": 0.145,
+     "bird": 0.652
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ibechi2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.808,
+     "pose": 0.5,
+     "bird": 0.203
+    }
+   ]
+  },
+  "ibgshr1": {
+   "name": "Iberian Gray Shrike",
+   "sci": "Lanius meridionalis",
+   "family": "Shrikes",
+   "reason": "all",
+   "before": "review_imgs/ibgshr1/before.png",
+   "ref": "review_imgs/ibgshr1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ibgshr1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.808,
+     "pose": 0.127,
+     "bird": 0.656
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ibgshr1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.805,
+     "pose": 0.157,
+     "bird": 0.542
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ibgshr1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.804,
+     "pose": 0.127,
+     "bird": 0.206
+    }
+   ]
+  },
+  "ictwar1": {
+   "name": "Icterine Warbler",
+   "sci": "Hippolais icterina",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/ictwar1/before.png",
+   "ref": "review_imgs/ictwar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ictwar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.775,
+     "pose": 0.311,
+     "bird": 0.735
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ictwar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.797,
+     "pose": 0.192,
+     "bird": 0.523
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ictwar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.786,
+     "pose": 0.443,
+     "bird": 0.211
+    }
+   ]
+  },
+  "impeag1": {
+   "name": "Imperial Eagle",
+   "sci": "Aquila heliaca",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/impeag1/before.png",
+   "ref": "review_imgs/impeag1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/impeag1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.849,
+     "pose": 0.172,
+     "bird": 0.379
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/impeag1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.839,
+     "pose": 0.19,
+     "bird": 0.363
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/impeag1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.831,
+     "pose": 0.157,
+     "bird": 0.37
+    }
+   ]
+  },
+  "itaspa1": {
+   "name": "Italian Sparrow",
+   "sci": "Passer italiae",
+   "family": "Old World Sparrows",
+   "reason": "all",
+   "before": "review_imgs/itaspa1/before.png",
+   "ref": "review_imgs/itaspa1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/itaspa1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.876,
+     "pose": 0.506,
+     "bird": 0.607
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/itaspa1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.861,
+     "pose": 0.269,
+     "bird": 0.628
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/itaspa1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.883,
+     "pose": 0.28,
+     "bird": 0.514
+    }
+   ]
   }
  }
 }

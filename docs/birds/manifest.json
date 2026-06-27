@@ -18932,7 +18932,7 @@
       ]
     },
     "faces": {
-      "ibechi2/sitting_0.png": "right"
+      "ibechi2/sitting_0.png": "left"
     },
     "credits": {
       "ibechi2/sitting_0.png": {
@@ -18998,7 +18998,7 @@
     },
     "faces": {
       "ibgshr1/flying_0.png": "right",
-      "ibgshr1/sitting_0.png": "right"
+      "ibgshr1/sitting_0.png": "left"
     },
     "credits": {
       "ibgshr1/flying_0.png": {
@@ -19144,7 +19144,7 @@
     },
     "faces": {
       "impeag1/flying_0.png": "right",
-      "impeag1/sitting_0.png": "right"
+      "impeag1/sitting_0.png": "left"
     },
     "credits": {
       "impeag1/flying_0.png": {
