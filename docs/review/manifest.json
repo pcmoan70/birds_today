@@ -10209,6 +10209,196 @@
      "bird": 0.427
     }
    ]
+  },
+  "horgre": {
+   "name": "Horned Grebe",
+   "sci": "Podiceps auritus",
+   "family": "Grebes",
+   "reason": "all",
+   "before": "review_imgs/horgre/before.png",
+   "ref": "review_imgs/horgre/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/horgre/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.831,
+     "pose": 0.24,
+     "bird": 0.744
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/horgre/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.852,
+     "pose": 0.135,
+     "bird": 0.752
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/horgre/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.84,
+     "pose": 0.33,
+     "bird": 0.527
+    }
+   ]
+  },
+  "horlar": {
+   "name": "Horned Lark",
+   "sci": "Eremophila alpestris",
+   "family": "Larks",
+   "reason": "all",
+   "before": "review_imgs/horlar/before.png",
+   "ref": "review_imgs/horlar/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/horlar/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.854,
+     "pose": 0.448,
+     "bird": 0.563
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/horlar/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.867,
+     "pose": 0.231,
+     "bird": 0.563
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/horlar/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.844,
+     "pose": 0.323,
+     "bird": 0.077
+    }
+   ]
+  },
+  "houbun3": {
+   "name": "House Bunting",
+   "sci": "Emberiza sahari",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/houbun3/before.png",
+   "ref": "review_imgs/houbun3/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/houbun3/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.893,
+     "pose": 0.635,
+     "bird": 0.828
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/houbun3/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.899,
+     "pose": 0.446,
+     "bird": 0.814
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/houbun3/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.883,
+     "pose": 0.44,
+     "bird": 0.835
+    }
+   ]
+  },
+  "houspa": {
+   "name": "House Sparrow",
+   "sci": "Passer domesticus",
+   "family": "Old World Sparrows",
+   "reason": "all",
+   "before": "review_imgs/houspa/before.png",
+   "ref": "review_imgs/houspa/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/houspa/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.911,
+     "pose": 0.246,
+     "bird": 0.939
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/houspa/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.908,
+     "pose": 0.387,
+     "bird": 0.719
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/houspa/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.88,
+     "pose": 0.147,
+     "bird": 0.697
+    }
+   ]
+  },
+  "humwar1": {
+   "name": "Hume's Warbler",
+   "sci": "Phylloscopus humei",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/humwar1/before.png",
+   "ref": "review_imgs/humwar1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/humwar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.834,
+     "pose": 0.07,
+     "bird": 0.617
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/humwar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.86,
+     "pose": 0.063,
+     "bird": 0.357
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/humwar1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.854,
+     "pose": 0.117,
+     "bird": 0.261
+    }
+   ]
   }
  }
 }
