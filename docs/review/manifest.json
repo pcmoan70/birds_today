@@ -13575,6 +13575,196 @@
      "bird": 0.847
     }
    ]
+  },
+  "pieavo1": {
+   "name": "Pied Avocet",
+   "sci": "Recurvirostra avosetta",
+   "family": "Stilts and Avocets",
+   "reason": "all",
+   "before": "review_imgs/pieavo1/before.png",
+   "ref": "review_imgs/pieavo1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pieavo1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.913,
+     "pose": 0.12,
+     "bird": 0.809
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pieavo1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.887,
+     "pose": 0.072,
+     "bird": 0.879
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pieavo1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.86,
+     "pose": 0.121,
+     "bird": 0.55
+    }
+   ]
+  },
+  "piekin1": {
+   "name": "Pied Kingfisher",
+   "sci": "Ceryle rudis",
+   "family": "Kingfishers",
+   "reason": "all",
+   "before": "review_imgs/piekin1/before.png",
+   "ref": "review_imgs/piekin1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/piekin1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.888,
+     "pose": 0.179,
+     "bird": 0.321
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/piekin1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.881,
+     "pose": 0.156,
+     "bird": 0.323
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/piekin1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.914,
+     "pose": 0.142,
+     "bird": 0.194
+    }
+   ]
+  },
+  "pifgoo": {
+   "name": "Pink-footed Goose",
+   "sci": "Anser brachyrhynchus",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/pifgoo/before.png",
+   "ref": "review_imgs/pifgoo/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pifgoo/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.905,
+     "pose": 0.64,
+     "bird": 0.794
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pifgoo/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.921,
+     "pose": 0.443,
+     "bird": 0.899
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pifgoo/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.924,
+     "pose": 0.556,
+     "bird": 0.759
+    }
+   ]
+  },
+  "pingro": {
+   "name": "Pine Grosbeak",
+   "sci": "Pinicola enucleator",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/pingro/before.png",
+   "ref": "review_imgs/pingro/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pingro/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.916,
+     "pose": 0.431,
+     "bird": 0.287
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pingro/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.905,
+     "pose": 0.426,
+     "bird": 0.271
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pingro/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.9,
+     "pose": 0.273,
+     "bird": 0.118
+    }
+   ]
+  },
+  "pitsan1": {
+   "name": "Pin-tailed Sandgrouse",
+   "sci": "Pterocles alchata",
+   "family": "Sandgrouse",
+   "reason": "all",
+   "before": "review_imgs/pitsan1/before.png",
+   "ref": "review_imgs/pitsan1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pitsan1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.878,
+     "pose": 0.338,
+     "bird": 0.915
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pitsan1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.872,
+     "pose": 0.3,
+     "bird": 0.946
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pitsan1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.857,
+     "pose": 0.395,
+     "bird": 0.823
+    }
+   ]
   }
  }
 }

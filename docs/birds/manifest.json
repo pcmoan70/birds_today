@@ -25633,7 +25633,7 @@
     },
     "faces": {
       "pieavo1/flying_0.png": "right",
-      "pieavo1/sitting_0.png": "right"
+      "pieavo1/sitting_0.png": "left"
     },
     "credits": {
       "pieavo1/flying_0.png": {
@@ -25777,7 +25777,7 @@
       ]
     },
     "faces": {
-      "pifgoo/sitting_0.png": "left"
+      "pifgoo/sitting_0.png": "right"
     },
     "credits": {
       "pifgoo/sitting_0.png": {
@@ -25908,7 +25908,7 @@
     },
     "faces": {
       "pitsan1/flying_0.png": "left",
-      "pitsan1/sitting_0.png": "right"
+      "pitsan1/sitting_0.png": "left"
     },
     "credits": {
       "pitsan1/flying_0.png": {
