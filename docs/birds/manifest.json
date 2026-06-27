@@ -11589,7 +11589,7 @@
       ]
     },
     "faces": {
-      "eupfly1/sitting_0.png": "left"
+      "eupfly1/sitting_0.png": "right"
     },
     "credits": {
       "eupfly1/sitting_0.png": {
@@ -11658,7 +11658,7 @@
     },
     "faces": {
       "eupowl1/flying_0.png": "right",
-      "eupowl1/sitting_0.png": "left"
+      "eupowl1/sitting_0.png": "right"
     },
     "credits": {
       "eupowl1/flying_0.png": {
