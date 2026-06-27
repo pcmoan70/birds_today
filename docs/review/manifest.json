@@ -3770,6 +3770,206 @@
      "bird": 0.188
     }
    ]
+  },
+  "comeid": {
+   "name": "Common Eider",
+   "sci": "Somateria mollissima",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/comeid/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299883211/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comeid/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.813,
+     "pose": 0.15,
+     "bird": 0.838
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comeid/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.819,
+     "pose": 0.093,
+     "bird": 0.749
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comeid/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.742,
+     "pose": 0.031,
+     "bird": 0.819
+    }
+   ]
+  },
+  "comgol": {
+   "name": "Common Goldeneye",
+   "sci": "Bucephala clangula",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/comgol/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301917401/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comgol/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.806,
+     "pose": 0.136,
+     "bird": 0.875
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comgol/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.792,
+     "pose": 0.102,
+     "bird": 0.918
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comgol/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.736,
+     "pose": 0.082,
+     "bird": 0.552
+    }
+   ]
+  },
+  "comgre": {
+   "name": "Common Greenshank",
+   "sci": "Tringa nebularia",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/comgre/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/206668731/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comgre/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.843,
+     "pose": 0.356,
+     "bird": 0.625
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comgre/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.857,
+     "pose": 0.381,
+     "bird": 0.548
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comgre/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.878,
+     "pose": 0.423,
+     "bird": 0.385
+    }
+   ]
+  },
+  "comhom1": {
+   "name": "Western House-Martin",
+   "sci": "Delichon urbicum",
+   "family": "Swallows and Martins",
+   "reason": "all",
+   "before": "review_imgs/comhom1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/59579951/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comhom1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.79,
+     "pose": 0.053,
+     "bird": 0.941
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comhom1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.807,
+     "pose": 0.047,
+     "bird": 0.722
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comhom1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.769,
+     "pose": 0.024,
+     "bird": 0.509
+    }
+   ]
+  },
+  "comkin1": {
+   "name": "Common Kingfisher",
+   "sci": "Alcedo atthis",
+   "family": "Kingfishers",
+   "reason": "all",
+   "before": "review_imgs/comkin1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/26854431/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/comkin1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.95,
+     "pose": 0.636,
+     "bird": 0.643
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comkin1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.928,
+     "pose": 0.393,
+     "bird": 0.493
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comkin1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.935,
+     "pose": 0.432,
+     "bird": 0.371
+    }
+   ]
   }
  }
 }
