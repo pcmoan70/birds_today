@@ -19351,7 +19351,7 @@
       ]
     },
     "faces": {
-      "jacsni/sitting_0.png": "right"
+      "jacsni/sitting_0.png": "left"
     },
     "credits": {
       "jacsni/sitting_0.png": {
@@ -19421,7 +19421,7 @@
       ]
     },
     "faces": {
-      "kenplo1/sitting_0.png": "right"
+      "kenplo1/sitting_0.png": "left"
     },
     "credits": {
       "kenplo1/sitting_0.png": {
@@ -19555,7 +19555,7 @@
       ]
     },
     "faces": {
-      "krunut1/sitting_0.png": "left"
+      "krunut1/sitting_0.png": "right"
     },
     "credits": {
       "krunut1/sitting_0.png": {
@@ -19626,7 +19626,7 @@
     },
     "faces": {
       "lammer1/flying_0.png": "right",
-      "lammer1/sitting_0.png": "left"
+      "lammer1/sitting_0.png": "right"
     },
     "credits": {
       "lammer1/flying_0.png": {
