@@ -11144,7 +11144,7 @@
     },
     "faces": {
       "eueowl1/flying_0.png": "right",
-      "eueowl1/sitting_0.png": "right"
+      "eueowl1/sitting_0.png": "left"
     },
     "credits": {
       "eueowl1/flying_0.png": {
@@ -11221,7 +11221,7 @@
     },
     "faces": {
       "eugori2/flying_0.png": "right",
-      "eugori2/sitting_0.png": "left"
+      "eugori2/sitting_0.png": "right"
     },
     "credits": {
       "eugori2/flying_0.png": {
@@ -11297,7 +11297,7 @@
     },
     "faces": {
       "eugplo/flying_0.png": "right",
-      "eugplo/sitting_0.png": "right"
+      "eugplo/sitting_0.png": "left"
     },
     "credits": {
       "eugplo/flying_0.png": {

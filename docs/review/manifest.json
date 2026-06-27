@@ -6807,6 +6807,196 @@
      "bird": 0.159
     }
    ]
+  },
+  "eucdov": {
+   "name": "Eurasian Collared-Dove",
+   "sci": "Streptopelia decaocto",
+   "family": "Pigeons and Doves",
+   "reason": "all",
+   "before": "review_imgs/eucdov/before.png",
+   "ref": "review_imgs/eucdov/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eucdov/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.888,
+     "pose": 0.409,
+     "bird": 0.939
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eucdov/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.864,
+     "pose": 0.175,
+     "bird": 0.756
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eucdov/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.846,
+     "pose": 0.191,
+     "bird": 0.152
+    }
+   ]
+  },
+  "eueowl1": {
+   "name": "Eurasian Eagle-Owl",
+   "sci": "Bubo bubo",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/eueowl1/before.png",
+   "ref": "review_imgs/eueowl1/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eueowl1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.899,
+     "pose": 0.34,
+     "bird": 0.83
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eueowl1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.883,
+     "pose": 0.335,
+     "bird": 0.759
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eueowl1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.872,
+     "pose": 0.324,
+     "bird": 0.272
+    }
+   ]
+  },
+  "eugori2": {
+   "name": "Eurasian Golden Oriole",
+   "sci": "Oriolus oriolus",
+   "family": "Old World Orioles",
+   "reason": "all",
+   "before": "review_imgs/eugori2/before.png",
+   "ref": "review_imgs/eugori2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eugori2/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.871,
+     "pose": 0.209,
+     "bird": 0.816
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eugori2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.841,
+     "pose": 0.137,
+     "bird": 0.838
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eugori2/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.165,
+     "bird": 0.644
+    }
+   ]
+  },
+  "eugplo": {
+   "name": "European Golden-Plover",
+   "sci": "Pluvialis apricaria",
+   "family": "Plovers and Lapwings",
+   "reason": "all",
+   "before": "review_imgs/eugplo/before.png",
+   "ref": "review_imgs/eugplo/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eugplo/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.911,
+     "pose": 0.53,
+     "bird": 0.73
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eugplo/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.904,
+     "pose": 0.47,
+     "bird": 0.438
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eugplo/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.903,
+     "pose": 0.332,
+     "bird": 0.531
+    }
+   ]
+  },
+  "eugwoo2": {
+   "name": "Eurasian Green Woodpecker",
+   "sci": "Picus viridis",
+   "family": "Woodpeckers",
+   "reason": "all",
+   "before": "review_imgs/eugwoo2/before.png",
+   "ref": "review_imgs/eugwoo2/ref.jpg",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/eugwoo2/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.738,
+     "pose": 0.418,
+     "bird": 0.652
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/eugwoo2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.903,
+     "pose": 0.335,
+     "bird": 0.322
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eugwoo2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.844,
+     "pose": 0.362,
+     "bird": 0.314
+    }
+   ]
   }
  }
 }
