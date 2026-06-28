@@ -12482,42 +12482,34 @@
    "name": "Northern Hawk Owl",
    "sci": "Surnia ulula",
    "family": "Typical Owls",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/nohowl/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/195003601/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium hawk-like owl with a long tail, brown-and-white finely barred underparts, white-spotted brown upperparts, a pale facial disc bordered by bold black sideburns, yellow eyes, and a yellowish bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/nohowl/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.367,
-     "bird": 0.749
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.908,
+     "pose": 0.387,
+     "bird": 0.496
     },
     {
      "id": "v1",
      "img": "review_imgs/nohowl/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.913,
-     "pose": 0.245,
-     "bird": 0.56
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/nohowl/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.868,
-     "pose": 0.122,
-     "bird": 0.46
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.912,
+     "pose": 0.313,
+     "bird": 0.303
     }
    ],
-   "id": "Medium hawk-like owl with a long tail, brown-and-white finely barred underparts, white-spotted brown upperparts, a pale facial disc bordered by bold black sideburns, yellow eyes, and a yellowish bill."
+   "reviewed": false
   },
   "norful": {
    "name": "Northern Fulmar",
@@ -12556,83 +12548,76 @@
    "name": "Northern Gannet",
    "sci": "Morus bassanus",
    "family": "Boobies and Gannets",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/norgan/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/41713381/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large white seabird with long narrow black-tipped wings, a buff-yellow wash on the head and nape, a long pointed pale-grey dagger bill, pale grey legs, and a slender pointed tail; cigar-shaped body.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norgan/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.752,
-     "pose": 0.17,
-     "bird": 0.413
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.669,
+     "pose": 0.229,
+     "bird": 0.113
     },
     {
      "id": "v1",
      "img": "review_imgs/norgan/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.71,
-     "pose": 0.126,
-     "bird": 0.347
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/norgan/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.698,
-     "pose": 0.034,
-     "bird": 0.139
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.717,
+     "pose": 0.046,
+     "bird": 0.141
     }
    ],
-   "id": "Large white seabird with long narrow black-tipped wings, a buff-yellow wash on the head and nape, a long pointed pale-grey dagger bill, pale grey legs, and a slender pointed tail; cigar-shaped body."
+   "reviewed": false
   },
   "norgos1": {
    "name": "Eurasian Goshawk",
    "sci": "Astur gentilis",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/norgos1/before.png",
    "ref": "review_imgs/norgos1/ref.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large powerful hawk; slate-grey above, finely grey-barred white below, with a dark crown and broad white supercilium over a fierce orange-red eye, broad rounded wings, a long barred tail, and yellow legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norgos1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.856,
-     "pose": 0.391,
-     "bird": 0.425
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.887,
+     "pose": 0.202,
+     "bird": 0.781
     },
     {
      "id": "v1",
      "img": "review_imgs/norgos1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.879,
-     "pose": 0.223,
-     "bird": 0.535
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.866,
+     "pose": 0.401,
+     "bird": 0.611
     },
     {
      "id": "v2",
      "img": "review_imgs/norgos1/v2.png",
-     "seed": 1002,
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.834,
-     "pose": 0.154,
-     "bird": 0.139
+     "sim": 0.879,
+     "pose": 0.477,
+     "bird": 0.488
     }
    ],
-   "id": "Large powerful hawk; slate-grey above, finely grey-barred white below, with a dark crown and broad white supercilium over a fierce orange-red eye, broad rounded wings, a long barred tail, and yellow legs."
+   "reviewed": false
   },
   "norhar1": {
    "name": "Hen Harrier",
@@ -12803,42 +12788,34 @@
    "name": "Northern Wheatear",
    "sci": "Oenanthe oenanthe",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/norwhe/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204639371/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim chat; male blue-grey above, buff-white below, with a bold black face mask, white supercilium, black wings, and a white rump with a black inverted-T tail pattern; black bill and legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norwhe/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.787,
-     "pose": 0.569,
-     "bird": 0.804
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.786,
+     "pose": 0.519,
+     "bird": 0.882
     },
     {
      "id": "v1",
      "img": "review_imgs/norwhe/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.776,
-     "pose": 0.355,
-     "bird": 0.811
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/norwhe/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.769,
-     "pose": 0.286,
-     "bird": 0.639
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.766,
+     "pose": 0.46,
+     "bird": 0.781
     }
    ],
-   "id": "Slim chat; male blue-grey above, buff-white below, with a bold black face mask, white supercilium, black wings, and a white rump with a black inverted-T tail pattern; black bill and legs."
+   "reviewed": false
   },
   "oltwar1": {
    "name": "Olive-tree Warbler",
@@ -12926,42 +12903,34 @@
    "name": "Oriental Turtle-Dove",
    "sci": "Streptopelia orientalis",
    "family": "Pigeons and Doves",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/ortdov/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/51836521/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large turtle-dove with a heavily black-and-rufous scaled back and wings, a pinkish-grey breast, black-and-blue-grey barred neck patch, a grey rump, dark tail with grey tip, and pinkish-red legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ortdov/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.895,
-     "pose": 0.125,
-     "bird": 0.768
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.882,
+     "pose": 0.161,
+     "bird": 0.765
     },
     {
      "id": "v1",
      "img": "review_imgs/ortdov/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.896,
-     "pose": 0.138,
-     "bird": 0.476
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/ortdov/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.892,
-     "pose": 0.124,
-     "bird": 0.451
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.891,
+     "pose": 0.146,
+     "bird": 0.572
     }
    ],
-   "id": "Large turtle-dove with a heavily black-and-rufous scaled back and wings, a pinkish-grey breast, black-and-blue-grey barred neck patch, a grey rump, dark tail with grey tip, and pinkish-red legs."
+   "reviewed": false
   },
   "osprey": {
    "name": "Osprey",
