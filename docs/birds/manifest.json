@@ -30366,7 +30366,7 @@
       ]
     },
     "faces": {
-      "savwar1/sitting_0.png": "left"
+      "savwar1/sitting_0.png": "right"
     },
     "credits": {
       "savwar1/sitting_0.png": {
@@ -30436,7 +30436,7 @@
     },
     "faces": {
       "scoshe1/flying_0.png": "left",
-      "scoshe1/sitting_0.png": "right"
+      "scoshe1/sitting_0.png": "left"
     },
     "credits": {
       "scoshe1/flying_0.png": {
@@ -30509,7 +30509,7 @@
       ]
     },
     "faces": {
-      "sedwar1/sitting_0.png": "right"
+      "sedwar1/sitting_0.png": "left"
     },
     "credits": {
       "sedwar1/sitting_0.png": {
@@ -30574,7 +30574,7 @@
       ]
     },
     "faces": {
-      "semfly1/sitting_0.png": "left"
+      "semfly1/sitting_0.png": "right"
     },
     "credits": {
       "semfly1/sitting_0.png": {
