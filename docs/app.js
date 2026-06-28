@@ -462,7 +462,7 @@
   function setTitle() {
     var t = TITLES[S.lang] || TITLES.en;
     document.getElementById("title").textContent = t;
-    document.title = t;
+    document.title = S.place ? (t + " — " + S.place) : t;
   }
 
   function setupHelp() {
@@ -631,8 +631,9 @@
 
   async function setLocation(lat, lon, name) {
     S.lat = lat; S.lon = lon;
-    document.getElementById("place").textContent =
-      "📍 " + (name || (lat.toFixed(2) + ", " + lon.toFixed(2)));
+    S.place = name || (lat.toFixed(2) + ", " + lon.toFixed(2));
+    document.getElementById("place").textContent = "📍 " + S.place;
+    setTitle();     // reflect the selected place in the page/tab title
     S.probs = {};   // location changed — previous weeks no longer valid
     setStatus("…");
     await ensureProbs();
