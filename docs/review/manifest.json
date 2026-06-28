@@ -15349,83 +15349,67 @@
    "name": "Rufous-tailed Scrub-Robin",
    "sci": "Cercotrichas galactotes",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rutscr1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64057411/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim warm rufous-brown chat with long, often-cocked rufous tail tipped black and white. Pale supercilium, dark eyestripe, whitish underparts. Long pale legs, fine dark bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rutscr1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.878,
-     "pose": 0.202,
-     "bird": 0.659
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.909,
+     "pose": 0.1,
+     "bird": 0.283
     },
     {
      "id": "v1",
      "img": "review_imgs/rutscr1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.875,
-     "pose": 0.099,
-     "bird": 0.751
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rutscr1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.911,
-     "pose": 0.038,
-     "bird": 0.198
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.919,
+     "pose": 0.092,
+     "bird": 0.245
     }
    ],
-   "id": "Slim warm rufous-brown chat with long, often-cocked rufous tail tipped black and white. Pale supercilium, dark eyestripe, whitish underparts. Long pale legs, fine dark bill."
+   "reviewed": false
   },
   "sabgul": {
    "name": "Sabine's Gull",
    "sci": "Xema sabini",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/sabgul/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/237435121/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small graceful gull with striking tricoloured upperwing: grey, black and white triangles. Breeding adult has dark slate-grey hood edged black, forked white tail, yellow-tipped black bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sabgul/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.892,
-     "pose": 0.168,
-     "bird": 0.82
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.878,
+     "pose": 0.206,
+     "bird": 0.781
     },
     {
      "id": "v1",
      "img": "review_imgs/sabgul/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.842,
-     "pose": 0.107,
-     "bird": 0.407
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sabgul/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.845,
-     "pose": 0.189,
-     "bird": 0.269
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.875,
+     "pose": 0.257,
+     "bird": 0.612
     }
    ],
-   "id": "Small graceful gull with striking tricoloured upperwing: grey, black and white triangles. Breeding adult has dark slate-grey hood edged black, forked white tail, yellow-tipped black bill."
+   "reviewed": false
   },
   "sacibi2": {
    "name": "African Sacred Ibis",
@@ -15472,124 +15456,100 @@
    "name": "Sanderling",
    "sci": "Calidris alba",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/sander/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/51358281/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small pale plump sandpiper; very pale grey above and clean white below with black shoulder mark. Short straight black bill, black legs (no hind toe). Palest of the small sandpipers.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sander/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.848,
-     "pose": 0.175,
-     "bird": 0.728
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.871,
+     "pose": 0.258,
+     "bird": 0.713
     },
     {
      "id": "v1",
      "img": "review_imgs/sander/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.863,
-     "pose": 0.124,
-     "bird": 0.711
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sander/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.883,
-     "pose": 0.202,
-     "bird": 0.336
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.874,
+     "pose": 0.214,
+     "bird": 0.682
     }
    ],
-   "id": "Small pale plump sandpiper; very pale grey above and clean white below with black shoulder mark. Short straight black bill, black legs (no hind toe). Palest of the small sandpipers."
+   "reviewed": false
   },
   "santer1": {
    "name": "Sandwich Tern",
    "sci": "Thalasseus sandvicensis",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/santer1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64794711/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim pale tern with shaggy black crest; pale grey above, white below. Long slender black bill with distinctive yellow tip; short black legs, slightly forked white tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/santer1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.924,
-     "pose": 0.016,
-     "bird": 0.849
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.936,
+     "pose": 0.033,
+     "bird": 0.9
     },
     {
      "id": "v1",
      "img": "review_imgs/santer1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.931,
-     "pose": 0.035,
-     "bird": 0.754
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/santer1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.933,
-     "pose": 0.026,
-     "bird": 0.702
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.93,
+     "pose": 0.027,
+     "bird": 0.742
     }
    ],
-   "id": "Slim pale tern with shaggy black crest; pale grey above, white below. Long slender black bill with distinctive yellow tip; short black legs, slightly forked white tail."
+   "reviewed": false
   },
   "sarwar1": {
    "name": "Sardinian Warbler",
    "sci": "Curruca melanocephala",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/sarwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/196728121/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Compact Sylvia warbler; male has glossy black cap reaching below eye, grey back, white throat, greyish underparts. Bold red eye-ring and red eye, blackish bill, pale legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sarwar1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.919,
-     "pose": 0.237,
-     "bird": 0.801
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.899,
+     "pose": 0.334,
+     "bird": 0.881
     },
     {
      "id": "v1",
      "img": "review_imgs/sarwar1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.913,
-     "pose": 0.223,
-     "bird": 0.45
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sarwar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
+     "seed": 3005,
+     "strength": 0.62,
      "sim": 0.9,
-     "pose": 0.155,
-     "bird": 0.444
+     "pose": 0.146,
+     "bird": 0.755
     }
    ],
-   "id": "Compact Sylvia warbler; male has glossy black cap reaching below eye, grey back, white throat, greyish underparts. Bold red eye-ring and red eye, blackish bill, pale legs."
+   "reviewed": false
   },
   "savwar1": {
    "name": "Savi's Warbler",
