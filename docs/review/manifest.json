@@ -7627,42 +7627,34 @@
    "name": "Barnacle Goose",
    "sci": "Branta leucopsis",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/bargoo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/65135151/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Boldly patterned goose with creamy-white face, black crown, neck, breast and bill. Silvery-grey back barred black and white, white belly and flanks, black legs. Compact build. A thin black line runs from the base of the bill to the eye.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/bargoo/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.916,
-     "pose": 0.31,
-     "bird": 0.951
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.893,
+     "pose": 0.2,
+     "bird": 0.909
     },
     {
      "id": "v1",
      "img": "review_imgs/bargoo/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.891,
-     "pose": 0.328,
-     "bird": 0.904
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bargoo/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.907,
-     "pose": 0.223,
-     "bird": 0.899
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.914,
+     "pose": 0.257,
+     "bird": 0.778
     }
    ],
-   "id": "Boldly patterned goose with creamy-white face, black crown, neck, breast and bill. Silvery-grey back barred black and white, white belly and flanks, black legs. Compact build. A thin black line runs from the base of the bill to the eye."
+   "reviewed": false
   },
   "465888": {
    "name": "Pale Crag-Martin",
@@ -7710,42 +7702,34 @@
    "name": "Atlas Flycatcher",
    "sci": "Ficedula speculigera",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/atlfly1/before.png",
    "ref": "review_imgs/atlfly1/ref.jpg",
    "ref_source": "pinned",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Striking black-and-white flycatcher; male glossy black above and pure white below, with large white wing patch, white forehead patch, and a white rump band. Small black bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/atlfly1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.924,
-     "pose": 0.341,
-     "bird": 0.74
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.931,
+     "pose": 0.358,
+     "bird": 0.693
     },
     {
      "id": "v1",
      "img": "review_imgs/atlfly1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.93,
-     "pose": 0.169,
-     "bird": 0.773
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/atlfly1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.93,
-     "pose": 0.231,
-     "bird": 0.671
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.916,
+     "pose": 0.198,
+     "bird": 0.618
     }
    ],
-   "id": "Striking black-and-white flycatcher; male glossy black above and pure white below, with large white wing patch, white forehead patch, and a white rump band. Small black bill, dark legs."
+   "reviewed": false
   },
   "balshe1": {
    "name": "Balearic Shearwater",
@@ -7774,124 +7758,109 @@
    "name": "Black-tailed Godwit",
    "sci": "Limosa limosa",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/bktgod/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35830281/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tall elegant wader; breeding adult orange-rufous head, neck and breast, barred lower belly, grey-brown back. Long straight bill pink at base with dark tip; black tail-band over white rump, long dark legs. The head is plain orange-rufous with no black markings on the head. The long straight bill is pinkish at the base with a dark/black tip.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/bktgod/v0.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.905,
-     "pose": 0.403,
-     "bird": 0.812
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.925,
+     "pose": 0.295,
+     "bird": 0.571
     },
     {
      "id": "v1",
      "img": "review_imgs/bktgod/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.931,
-     "pose": 0.286,
-     "bird": 0.492
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bktgod/v2.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.921,
-     "pose": 0.212,
-     "bird": 0.419
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.924,
+     "pose": 0.178,
+     "bird": 0.552
     }
    ],
-   "id": "Tall elegant wader; breeding adult orange-rufous head, neck and breast, barred lower belly, grey-brown back. Long straight bill pink at base with dark tip; black tail-band over white rump, long dark legs. The head is plain orange-rufous with no black markings on the head. The long straight bill is pinkish at the base with a dark/black tip."
+   "reviewed": false
   },
   "blwpra1": {
    "name": "Black-winged Pratincole",
    "sci": "Glareola nordmanni",
    "family": "Pratincoles and Coursers",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/blwpra1/before.png",
    "ref": "review_imgs/blwpra1/ref.jpg",
    "ref_source": "pinned",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim tern-like wader, warm brown above and on the breast with a black-bordered creamy throat patch, white belly, and forked tail. Diagnostic blackish underwing-coverts, short red-based dark bill, long dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/blwpra1/v0.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.752,
-     "pose": 0.333,
-     "bird": 0.882
+     "sim": 0.737,
+     "pose": 0.378,
+     "bird": 0.87
     },
     {
      "id": "v1",
      "img": "review_imgs/blwpra1/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.738,
-     "pose": 0.486,
-     "bird": 0.732
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/blwpra1/v2.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.665,
-     "pose": 0.26,
-     "bird": 0.229
+     "sim": 0.734,
+     "pose": 0.251,
+     "bird": 0.696
     }
    ],
-   "id": "Slim tern-like wader, warm brown above and on the breast with a black-bordered creamy throat patch, white belly, and forked tail. Diagnostic blackish underwing-coverts, short red-based dark bill, long dark legs."
+   "reviewed": false
   },
   "boowar1": {
    "name": "Booted Warbler",
    "sci": "Iduna caligata",
    "family": "Reed Warblers and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/boowar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/87390671/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny pale warbler, sandy grey-brown above and creamy-white below, with a short pale supercilium and dark eye-line, plus a faintly dark-bordered crown. Short fine bill with pale base, pale legs; small rounded body with short tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/boowar1/v0.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.927,
-     "pose": 0.211,
-     "bird": 0.628
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.911,
+     "pose": 0.311,
+     "bird": 0.647
     },
     {
      "id": "v1",
      "img": "review_imgs/boowar1/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.909,
-     "pose": 0.228,
-     "bird": 0.333
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.913,
+     "pose": 0.216,
+     "bird": 0.456
     },
     {
      "id": "v2",
      "img": "review_imgs/boowar1/v2.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.904,
-     "pose": 0.138,
-     "bird": 0.206
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.919,
+     "pose": 0.183,
+     "bird": 0.301
     }
    ],
-   "id": "Tiny pale warbler, sandy grey-brown above and creamy-white below, with a short pale supercilium and dark eye-line, plus a faintly dark-bordered crown. Short fine bill with pale base, pale legs; small rounded body with short tail."
+   "reviewed": false
   },
   "brambl": {
    "name": "Brambling",
