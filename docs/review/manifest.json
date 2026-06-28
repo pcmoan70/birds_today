@@ -13947,206 +13947,166 @@
    "name": "Red-crested Pochard",
    "sci": "Netta rufina",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/recpoc/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23442101/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large diving duck; male has a rounded rusty-orange head, black breast and stern, white flanks, and pale brown back. Bright coral-red bill, red eye, pinkish-red legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/recpoc/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.859,
-     "pose": 0.149,
-     "bird": 0.891
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.855,
+     "pose": 0.085,
+     "bird": 0.799
     },
     {
      "id": "v1",
      "img": "review_imgs/recpoc/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.828,
-     "pose": 0.079,
-     "bird": 0.855
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/recpoc/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.808,
-     "pose": 0.074,
-     "bird": 0.699
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.81,
+     "pose": 0.137,
+     "bird": 0.769
     }
    ],
-   "id": "Large diving duck; male has a rounded rusty-orange head, black breast and stern, white flanks, and pale brown back. Bright coral-red bill, red eye, pinkish-red legs."
+   "reviewed": false
   },
   "redava": {
    "name": "Red Avadavat",
    "sci": "Amandava amandava",
    "family": "Waxbills and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/redava/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66696251/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny finch; breeding male deep crimson-red overall, browner on wings and belly, spangled with many small white spots on flanks and wings. Stubby bright red bill, dark tail, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redava/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.861,
-     "pose": 0.034,
-     "bird": 0.8
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.899,
+     "pose": 0.116,
+     "bird": 0.795
     },
     {
      "id": "v1",
      "img": "review_imgs/redava/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.883,
-     "pose": 0.132,
-     "bird": 0.641
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/redava/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.874,
-     "pose": 0.062,
-     "bird": 0.211
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.858,
+     "pose": 0.071,
+     "bird": 0.909
     }
    ],
-   "id": "Tiny finch; breeding male deep crimson-red overall, browner on wings and belly, spangled with many small white spots on flanks and wings. Stubby bright red bill, dark tail, pinkish legs."
+   "reviewed": false
   },
   "redcro": {
    "name": "Red Crossbill",
    "sci": "Loxia curvirostra",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/redcro/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/290896961/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Chunky finch with a unique crossed-tipped bill; male brick-red to orange-red overall, brightest on rump, with darker brown wings and tail. Female olive-grey-green. Dark legs, large head, short forked tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redcro/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.852,
-     "pose": 0.213,
-     "bird": 0.334
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.907,
+     "pose": 0.288,
+     "bird": 0.626
     },
     {
      "id": "v1",
      "img": "review_imgs/redcro/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.91,
-     "pose": 0.169,
-     "bird": 0.205
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/redcro/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.916,
-     "pose": 0.198,
-     "bird": 0.074
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.899,
+     "pose": 0.141,
+     "bird": 0.153
     }
    ],
-   "id": "Chunky finch with a unique crossed-tipped bill; male brick-red to orange-red overall, brightest on rump, with darker brown wings and tail. Female olive-grey-green. Dark legs, large head, short forked tail."
+   "reviewed": false
   },
   "redkit1": {
    "name": "Red Kite",
    "sci": "Milvus milvus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/redkit1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104479601/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large graceful raptor with rich rufous-chestnut body and underwings, a pale grey streaked head, and a long deeply forked rusty tail. Wings show bold white patches under the black-tipped primaries; yellow legs, yellow-based hooked bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redkit1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.894,
-     "pose": 0.014,
-     "bird": 0.586
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.864,
+     "pose": 0.013,
+     "bird": 0.869
     },
     {
      "id": "v1",
      "img": "review_imgs/redkit1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.886,
-     "pose": 0.009,
-     "bird": 0.547
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/redkit1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.881,
-     "pose": 0.012,
-     "bird": 0.512
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.9,
+     "pose": 0.008,
+     "bird": 0.617
     }
    ],
-   "id": "Large graceful raptor with rich rufous-chestnut body and underwings, a pale grey streaked head, and a long deeply forked rusty tail. Wings show bold white patches under the black-tipped primaries; yellow legs, yellow-based hooked bill."
+   "reviewed": false
   },
   "redkno": {
    "name": "Red Knot",
    "sci": "Calidris canutus",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/redkno/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/27328091/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stocky medium wader; breeding adult has brick-red face, neck and underparts, with grey, black and chestnut scaled upperparts. Straight medium black bill, short greenish-grey legs, dumpy rounded shape.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redkno/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.936,
-     "pose": 0.448,
-     "bird": 0.624
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.932,
+     "pose": 0.376,
+     "bird": 0.471
     },
     {
      "id": "v1",
      "img": "review_imgs/redkno/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.92,
-     "pose": 0.411,
-     "bird": 0.617
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/redkno/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.909,
-     "pose": 0.317,
-     "bird": 0.546
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.913,
+     "pose": 0.379,
+     "bird": 0.312
     }
    ],
-   "id": "Stocky medium wader; breeding adult has brick-red face, neck and underparts, with grey, black and chestnut scaled upperparts. Straight medium black bill, short greenish-grey legs, dumpy rounded shape."
+   "reviewed": false
   },
   "redpha1": {
    "name": "Red Phalarope",
