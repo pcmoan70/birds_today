@@ -14813,206 +14813,166 @@
    "name": "Rock Pigeon",
    "sci": "Columba livia",
    "family": "Pigeons and Doves",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rocpig/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/61674401/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium pigeon; blue-grey overall with a darker head, glossy green-purple neck sheen, two bold black wing bars, and a white rump. Pale grey back, black-tipped tail, dark bill with white cere, pinkish-red legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rocpig/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.946,
-     "pose": 0.14,
-     "bird": 0.804
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.947,
+     "pose": 0.131,
+     "bird": 0.885
     },
     {
      "id": "v1",
      "img": "review_imgs/rocpig/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.951,
-     "pose": 0.136,
-     "bird": 0.795
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rocpig/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.936,
-     "pose": 0.179,
-     "bird": 0.573
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.946,
+     "pose": 0.168,
+     "bird": 0.745
     }
    ],
-   "id": "Medium pigeon; blue-grey overall with a darker head, glossy green-purple neck sheen, two bold black wing bars, and a white rump. Pale grey back, black-tipped tail, dark bill with white cere, pinkish-red legs."
+   "reviewed": false
   },
   "rocpip1": {
    "name": "Rock Pipit",
    "sci": "Anthus petrosus",
    "family": "Wagtails and Pipits",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rocpip1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/88416591/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Robust dark pipit with grey-olive heavily streaked upperparts and dingy grey-buff underparts streaked dark. Faint pale eye-ring, indistinct supercilium, dark bill, and dark greyish legs (not pink).",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rocpip1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.894,
-     "pose": 0.13,
-     "bird": 0.516
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.897,
+     "pose": 0.221,
+     "bird": 0.523
     },
     {
      "id": "v1",
      "img": "review_imgs/rocpip1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.866,
-     "pose": 0.283,
-     "bird": 0.367
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rocpip1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.883,
-     "pose": 0.236,
-     "bird": 0.322
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.898,
+     "pose": 0.137,
+     "bird": 0.237
     }
    ],
-   "id": "Robust dark pipit with grey-olive heavily streaked upperparts and dingy grey-buff underparts streaked dark. Faint pale eye-ring, indistinct supercilium, dark bill, and dark greyish legs (not pink)."
+   "reviewed": false
   },
   "rocpta1": {
    "name": "Rock Ptarmigan",
    "sci": "Lagopus muta",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rocpta1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/113345131/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Plump grouse; breeding adult mottled grey-brown above with white belly and white wings. Male shows a black line from bill through the eye and a small red comb above the eye; feathered white legs, small dark bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rocpta1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.907,
-     "pose": 0.473,
-     "bird": 0.502
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.901,
+     "pose": 0.173,
+     "bird": 0.74
     },
     {
      "id": "v1",
      "img": "review_imgs/rocpta1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.914,
-     "pose": 0.389,
-     "bird": 0.565
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rocpta1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.922,
-     "pose": 0.283,
-     "bird": 0.536
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.89,
+     "pose": 0.148,
+     "bird": 0.442
     }
    ],
-   "id": "Plump grouse; breeding adult mottled grey-brown above with white belly and white wings. Male shows a black line from bill through the eye and a small red comb above the eye; feathered white legs, small dark bill."
+   "reviewed": false
   },
   "rolhaw": {
    "name": "Rough-legged Hawk",
    "sci": "Buteo lagopus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rolhaw/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/47706471/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large pale buteo with whitish underparts, a dark belly patch, and a dark carpal patch on the underwing. White tail with a broad black subterminal band, streaked head, small yellow-based bill, feathered legs to the toes.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rolhaw/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.826,
-     "pose": 0.036,
-     "bird": 0.776
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.81,
+     "pose": 0.027,
+     "bird": 0.791
     },
     {
      "id": "v1",
      "img": "review_imgs/rolhaw/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.789,
-     "pose": 0.028,
-     "bird": 0.38
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rolhaw/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.822,
-     "pose": 0.02,
-     "bird": 0.143
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.809,
+     "pose": 0.03,
+     "bird": 0.288
     }
    ],
-   "id": "Large pale buteo with whitish underparts, a dark belly patch, and a dark carpal patch on the underwing. White tail with a broad black subterminal band, streaked head, small yellow-based bill, feathered legs to the toes."
+   "reviewed": false
   },
   "rook1": {
    "name": "Rook",
    "sci": "Corvus frugilegus",
    "family": "Crows, Jays, and Magpies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rook1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/21016221/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large all-black crow with glossy purplish sheen; diagnostic bare greyish-white skin at base of long, pointed grey bill. Shaggy 'baggy-trousered' thigh feathers, peaked crown, blackish legs. Slimmer-headed than Carrion Crow.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rook1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.913,
-     "pose": 0.141,
-     "bird": 0.664
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.9,
+     "pose": 0.091,
+     "bird": 0.763
     },
     {
      "id": "v1",
      "img": "review_imgs/rook1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.158,
-     "bird": 0.595
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rook1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.927,
-     "pose": 0.155,
-     "bird": 0.528
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.899,
+     "pose": 0.12,
+     "bird": 0.674
     }
    ],
-   "id": "Large all-black crow with glossy purplish sheen; diagnostic bare greyish-white skin at base of long, pointed grey bill. Shaggy 'baggy-trousered' thigh feathers, peaked crown, blackish legs. Slimmer-headed than Carrion Crow."
+   "reviewed": false
   },
   "rorpar": {
    "name": "Rose-ringed Parakeet",
