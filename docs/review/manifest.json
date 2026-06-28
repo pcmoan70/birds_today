@@ -9395,206 +9395,166 @@
    "name": "Great Spotted Cuckoo",
    "sci": "Clamator glandarius",
    "family": "Cuckoos",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grscuc1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/97496771/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large slim cuckoo, grey-brown back and wings boldly spotted white, long white-edged tail; grey crested cap, pale buff face and throat, creamy-white underparts; longish dark bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grscuc1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.856,
-     "pose": 0.081,
-     "bird": 0.819
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.769,
+     "pose": 0.052,
+     "bird": 0.381
     },
     {
      "id": "v1",
      "img": "review_imgs/grscuc1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.833,
-     "pose": 0.062,
-     "bird": 0.28
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grscuc1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.74,
-     "pose": 0.09,
-     "bird": 0.288
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.704,
+     "pose": 0.044,
+     "bird": 0.238
     }
    ],
-   "id": "Large slim cuckoo, grey-brown back and wings boldly spotted white, long white-edged tail; grey crested cap, pale buff face and throat, creamy-white underparts; longish dark bill."
+   "reviewed": false
   },
   "grseag1": {
    "name": "Greater Spotted Eagle",
    "sci": "Clanga clanga",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grseag1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43621161/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large dark brown eagle, uniformly dark chocolate-brown plumage, slightly paler nape, broad rounded wings; pale U-shaped band on uppertail coverts, dark bill with yellow cere, feathered legs, yellow feet.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grseag1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.806,
-     "pose": 0.018,
-     "bird": 0.729
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.825,
+     "pose": 0.009,
+     "bird": 0.717
     },
     {
      "id": "v1",
      "img": "review_imgs/grseag1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.796,
-     "pose": 0.011,
-     "bird": 0.627
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grseag1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.791,
-     "pose": 0.018,
-     "bird": 0.435
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.811,
+     "pose": 0.014,
+     "bird": 0.738
     }
    ],
-   "id": "Large dark brown eagle, uniformly dark chocolate-brown plumage, slightly paler nape, broad rounded wings; pale U-shaped band on uppertail coverts, dark bill with yellow cere, feathered legs, yellow feet."
+   "reviewed": false
   },
   "grswoo": {
    "name": "Great Spotted Woodpecker",
    "sci": "Dendrocopos major",
    "family": "Woodpeckers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grswoo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/180000101/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pied woodpecker, black back with large white shoulder patches, black-and-white barred wings; white underparts, bright red vent; black crown (red nape patch in male), white face with black moustache; grey bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grswoo/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.885,
-     "pose": 0.165,
-     "bird": 0.759
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.91,
+     "pose": 0.251,
+     "bird": 0.689
     },
     {
      "id": "v1",
      "img": "review_imgs/grswoo/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.898,
-     "pose": 0.136,
-     "bird": 0.75
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grswoo/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.89,
-     "pose": 0.109,
-     "bird": 0.733
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.889,
+     "pose": 0.213,
+     "bird": 0.747
     }
    ],
-   "id": "Pied woodpecker, black back with large white shoulder patches, black-and-white barred wings; white underparts, bright red vent; black crown (red nape patch in male), white face with black moustache; grey bill."
+   "reviewed": false
   },
   "grwpel1": {
    "name": "Great White Pelican",
    "sci": "Pelecanus onocrotalus",
    "family": "Pelicans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grwpel1/before.png",
    "ref": "review_imgs/grwpel1/ref.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Huge white pelican with pinkish-white plumage, black underwing flight feathers; large pinkish-yellow throat pouch, long pale bill, yellowish gular skin and forehead; pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grwpel1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.898,
-     "pose": 0.341,
-     "bird": 0.641
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.888,
+     "pose": 0.257,
+     "bird": 0.81
     },
     {
      "id": "v1",
      "img": "review_imgs/grwpel1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.903,
-     "pose": 0.225,
-     "bird": 0.741
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grwpel1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.896,
-     "pose": 0.345,
-     "bird": 0.355
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.887,
+     "pose": 0.514,
+     "bird": 0.496
     }
    ],
-   "id": "Huge white pelican with pinkish-white plumage, black underwing flight feathers; large pinkish-yellow throat pouch, long pale bill, yellowish gular skin and forehead; pinkish legs."
+   "reviewed": false
   },
   "grypar": {
    "name": "Gray Partridge",
    "sci": "Perdix perdix",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grypar/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204300471/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Plump round partridge, grey breast and neck finely barred, brown-streaked back, chestnut-barred flanks; orange-buff face, dark horseshoe belly patch; short grey bill, greyish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grypar/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.885,
-     "pose": 0.307,
-     "bird": 0.576
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.869,
+     "pose": 0.124,
+     "bird": 0.726
     },
     {
      "id": "v1",
      "img": "review_imgs/grypar/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.889,
-     "pose": 0.194,
-     "bird": 0.625
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grypar/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.893,
-     "pose": 0.317,
-     "bird": 0.465
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.872,
+     "pose": 0.346,
+     "bird": 0.425
     }
    ],
-   "id": "Plump round partridge, grey breast and neck finely barred, brown-streaked back, chestnut-barred flanks; orange-buff face, dark horseshoe belly patch; short grey bill, greyish legs."
+   "reviewed": false
   },
   "grywag": {
    "name": "Gray Wagtail",
