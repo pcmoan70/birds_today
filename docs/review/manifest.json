@@ -15967,206 +15967,166 @@
    "name": "Snow Goose",
    "sci": "Anser caerulescens",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/snogoo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/290513131/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium white goose with black wingtips; stout pink bill with black 'grin patch', pink legs. (Dark 'blue' morph has white head and dark grey body.) Rounded head, white tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/snogoo/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.947,
-     "pose": 0.388,
-     "bird": 0.99
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.942,
+     "pose": 0.368,
+     "bird": 0.988
     },
     {
      "id": "v1",
      "img": "review_imgs/snogoo/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.949,
-     "pose": 0.383,
-     "bird": 0.985
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/snogoo/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.948,
-     "pose": 0.36,
-     "bird": 0.978
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.933,
+     "pose": 0.357,
+     "bird": 0.954
     }
    ],
-   "id": "Medium white goose with black wingtips; stout pink bill with black 'grin patch', pink legs. (Dark 'blue' morph has white head and dark grey body.) Rounded head, white tail."
+   "reviewed": false
   },
   "snoowl1": {
    "name": "Snowy Owl",
    "sci": "Bubo scandiacus",
    "family": "Typical Owls",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/snoowl1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/106358811/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large white owl with rounded head and no ear tufts; bright yellow eyes. Female and immature variably barred dark grey-brown; male nearly pure white. Heavily feathered feet, small black bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/snoowl1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.824,
-     "pose": 0.446,
-     "bird": 0.966
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.813,
+     "pose": 0.483,
+     "bird": 0.954
     },
     {
      "id": "v1",
      "img": "review_imgs/snoowl1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.786,
-     "pose": 0.419,
-     "bird": 0.902
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/snoowl1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.781,
-     "pose": 0.343,
-     "bird": 0.956
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.773,
+     "pose": 0.195,
+     "bird": 0.828
     }
    ],
-   "id": "Large white owl with rounded head and no ear tufts; bright yellow eyes. Female and immature variably barred dark grey-brown; male nearly pure white. Heavily feathered feet, small black bill."
+   "reviewed": false
   },
   "soclap1": {
    "name": "Sociable Lapwing",
    "sci": "Vanellus gregarius",
    "family": "Plovers and Lapwings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/soclap1/before.png",
    "ref": "review_imgs/soclap1/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim long-legged plover; grey-brown upperparts, buff breast, white belly. Bold black cap with broad white supercilia meeting on nape, dark eyestripe. Black bill, dark legs, black belly patch in breeding.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/soclap1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.864,
-     "pose": 0.336,
-     "bird": 0.857
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.881,
+     "pose": 0.434,
+     "bird": 0.932
     },
     {
      "id": "v1",
      "img": "review_imgs/soclap1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
+     "seed": 3005,
+     "strength": 0.62,
      "sim": 0.9,
-     "pose": 0.383,
-     "bird": 0.706
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/soclap1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.881,
-     "pose": 0.375,
-     "bird": 0.468
+     "pose": 0.493,
+     "bird": 0.445
     }
    ],
-   "id": "Slim long-legged plover; grey-brown upperparts, buff breast, white belly. Bold black cap with broad white supercilia meeting on nape, dark eyestripe. Black bill, dark legs, black belly patch in breeding."
+   "reviewed": false
   },
   "somtit3": {
    "name": "Sombre Tit",
    "sci": "Poecile lugubris",
    "family": "Tits, Chickadees, and Titmice",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/somtit3/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/79929731/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stout dull tit; dusky brown-black cap and large black bib, pale buff-grey cheeks, brown-grey back, buffy-white underparts. Short stubby dark bill, dark legs. Larger-billed than Marsh Tit.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/somtit3/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.898,
-     "pose": 0.11,
-     "bird": 0.834
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.885,
+     "pose": 0.054,
+     "bird": 0.944
     },
     {
      "id": "v1",
      "img": "review_imgs/somtit3/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.908,
-     "pose": 0.073,
-     "bird": 0.76
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/somtit3/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.894,
-     "pose": 0.056,
-     "bird": 0.329
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.901,
+     "pose": 0.064,
+     "bird": 0.783
     }
    ],
-   "id": "Stout dull tit; dusky brown-black cap and large black bib, pale buff-grey cheeks, brown-grey back, buffy-white underparts. Short stubby dark bill, dark legs. Larger-billed than Marsh Tit."
+   "reviewed": false
   },
   "sonthr1": {
    "name": "Song Thrush",
    "sci": "Turdus philomelos",
    "family": "Thrushes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/sonthr1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/234235711/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Warm brown thrush, plain above; creamy-buff underparts boldly marked with neat dark arrowhead spots. Plain buffish face, dark eye, yellowish lower bill, pinkish legs. Slim and upright.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sonthr1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.885,
-     "pose": 0.179,
-     "bird": 0.616
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.888,
+     "pose": 0.255,
+     "bird": 0.434
     },
     {
      "id": "v1",
      "img": "review_imgs/sonthr1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.89,
-     "pose": 0.233,
-     "bird": 0.54
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sonthr1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.9,
-     "pose": 0.178,
-     "bird": 0.492
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.882,
+     "pose": 0.168,
+     "bird": 0.215
     }
    ],
-   "id": "Warm brown thrush, plain above; creamy-buff underparts boldly marked with neat dark arrowhead spots. Plain buffish face, dark eye, yellowish lower bill, pinkish legs. Slim and upright."
+   "reviewed": false
   },
   "sooshe": {
    "name": "Sooty Shearwater",
