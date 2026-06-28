@@ -10376,165 +10376,133 @@
    "name": "Jack Snipe",
    "sci": "Lymnocryptes minimus",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/jacsni/before.png",
    "ref": "review_imgs/jacsni/ref.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small short-billed snipe with dark glossy purple-and-green back showing bold creamy-buff stripes, dark crown lacking a central pale stripe, and a split supercilium. Streaked buff breast, white belly, wedge-shaped pointed tail. Yellowish legs, fairly short straight bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/jacsni/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.868,
-     "pose": 0.291,
-     "bird": 0.855
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.891,
+     "pose": 0.362,
+     "bird": 0.522
     },
     {
      "id": "v1",
      "img": "review_imgs/jacsni/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.923,
-     "pose": 0.333,
-     "bird": 0.348
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/jacsni/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.889,
-     "pose": 0.23,
-     "bird": 0.512
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.903,
+     "pose": 0.273,
+     "bird": 0.468
     }
    ],
-   "id": "Small short-billed snipe with dark glossy purple-and-green back showing bold creamy-buff stripes, dark crown lacking a central pale stripe, and a split supercilium. Streaked buff breast, white belly, wedge-shaped pointed tail. Yellowish legs, fairly short straight bill."
+   "reviewed": false
   },
   "kenplo1": {
    "name": "Kentish Plover",
    "sci": "Anarhynchus alexandrinus",
    "family": "Plovers and Lapwings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/kenplo1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44590901/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small pale sandy-brown plover with white underparts and forehead, a thin black frontal bar and eye-patch, and incomplete dark side breast-patches (no full band). Rufous tinge to crown. Slender black bill, blackish or grey legs. Slim, large-eyed.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/kenplo1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.916,
-     "pose": 0.16,
-     "bird": 0.733
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.923,
+     "pose": 0.127,
+     "bird": 0.595
     },
     {
      "id": "v1",
      "img": "review_imgs/kenplo1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.924,
-     "pose": 0.2,
-     "bird": 0.537
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/kenplo1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.914,
-     "pose": 0.137,
-     "bird": 0.459
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.899,
+     "pose": 0.052,
+     "bird": 0.488
     }
    ],
-   "id": "Small pale sandy-brown plover with white underparts and forehead, a thin black frontal bar and eye-patch, and incomplete dark side breast-patches (no full band). Rufous tinge to crown. Slender black bill, blackish or grey legs. Slim, large-eyed."
+   "reviewed": false
   },
   "kineid": {
    "name": "King Eider",
    "sci": "Somateria spectabilis",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/kineid/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31723481/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large sea-duck; male has a pale blue-grey crown and nape, green wash on cheeks, an orange frontal shield with red bill, white breast and black body. Black back with white shoulder patch. Heavy wedge-shaped head profile, stocky build.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/kineid/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.817,
-     "pose": 0.331,
-     "bird": 0.946
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.806,
+     "pose": 0.158,
+     "bird": 0.843
     },
     {
      "id": "v1",
      "img": "review_imgs/kineid/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.789,
-     "pose": 0.282,
-     "bird": 0.975
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/kineid/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.781,
-     "pose": 0.205,
-     "bird": 0.9
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.75,
+     "pose": 0.135,
+     "bird": 0.921
     }
    ],
-   "id": "Large sea-duck; male has a pale blue-grey crown and nape, green wash on cheeks, an orange frontal shield with red bill, white breast and black body. Black back with white shoulder patch. Heavy wedge-shaped head profile, stocky build."
+   "reviewed": false
   },
   "krunut1": {
    "name": "Krüper's Nuthatch",
    "sci": "Sitta krueperi",
    "family": "Nuthatches",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/krunut1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42112151/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small compact nuthatch with blue-grey upperparts, a black eyestripe and cap-edge, whitish throat, and buffy underparts marked by a large rufous-chestnut patch on the upper breast. Straight pointed grey bill, short tail, sturdy grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/krunut1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.824,
-     "pose": 0.185,
-     "bird": 0.755
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.768,
+     "pose": 0.308,
+     "bird": 0.885
     },
     {
      "id": "v1",
      "img": "review_imgs/krunut1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.805,
-     "pose": 0.114,
-     "bird": 0.827
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/krunut1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.794,
-     "pose": 0.104,
-     "bird": 0.242
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.821,
+     "pose": 0.167,
+     "bird": 0.582
     }
    ],
-   "id": "Small compact nuthatch with blue-grey upperparts, a black eyestripe and cap-edge, whitish throat, and buffy underparts marked by a large rufous-chestnut patch on the upper breast. Straight pointed grey bill, short tail, sturdy grey legs."
+   "reviewed": false
   },
   "lammer1": {
    "name": "Bearded Vulture",
@@ -10581,42 +10549,34 @@
    "name": "Lanceolated Warbler",
    "sci": "Locustella lanceolata",
    "family": "Grassbirds and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/lanwar/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/319770151/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small skulking warbler with olive-brown upperparts boldly streaked blackish, including streaked rump and breast, and pale buff underparts with dark malar streaks. Faint pale supercilium, rounded tail. Fine dark bill, pinkish legs. Heavily streaked overall.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lanwar/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.778,
-     "pose": 0.061,
-     "bird": 0.392
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.828,
+     "pose": 0.127,
+     "bird": 0.394
     },
     {
      "id": "v1",
      "img": "review_imgs/lanwar/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.795,
-     "pose": 0.113,
-     "bird": 0.085
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/lanwar/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.78,
-     "pose": 0.101,
-     "bird": 0.108
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.8,
+     "pose": 0.085,
+     "bird": 0.119
     }
    ],
-   "id": "Small skulking warbler with olive-brown upperparts boldly streaked blackish, including streaked rump and breast, and pale buff underparts with dark malar streaks. Faint pale supercilium, rounded tail. Fine dark bill, pinkish legs. Heavily streaked overall."
+   "reviewed": false
   },
   "laplon": {
    "name": "Lapland Longspur",
