@@ -493,6 +493,7 @@ def main():
             "name": sp["common"], "sci": sp["sci"], "family": fam[1],
             "reason": r.get("reason", ""), "before": before_rel,
             "ref": ref_rel, "ref_source": refsrc, "recipe": RECIPE,
+            "id": ids.get(code, ""),
             "chosen": res["chosen"], "variants": res["variants"]}
         json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)

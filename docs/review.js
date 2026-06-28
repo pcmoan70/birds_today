@@ -127,6 +127,28 @@
       };
       syncVerdict();
 
+      // ---- editable species-specific prompt (ID field marks) ----------
+      // This is the per-species clause fed to img2img ("emphasise these field
+      // marks: …"). Editing it here and applying updates id_features.json so
+      // the next regeneration uses the improved description.
+      var origId = (s.id || "");
+      var idLab = document.createElement("div");
+      idLab.className = "idlab";
+      idLab.textContent = "Prompt — field marks (editable):";
+      card.appendChild(idLab);
+      var idBox = document.createElement("textarea");
+      idBox.className = "idtext";
+      idBox.placeholder = "Visual field marks emphasised in the drawing…";
+      idBox.value = (typeof m(code).idEdit === "string") ? m(code).idEdit : origId;
+      idBox.oninput = function () {
+        if (idBox.value.trim() !== origId.trim()) m(code).idEdit = idBox.value;
+        else delete m(code).idEdit;
+        idBox.classList.toggle("edited", idBox.value.trim() !== origId.trim());
+        saveMeta();
+      };
+      idBox.classList.toggle("edited", idBox.value.trim() !== origId.trim());
+      card.appendChild(idBox);
+
       // ---- free-text feedback box ------------------------------------
       var note = document.createElement("textarea");
       note.className = "note";
@@ -145,18 +167,21 @@
 
   document.getElementById("export").onclick = function () {
     // Per species: plain variant id when nothing extra is flagged, else an
-    // object {choice, badRef?, noneGood?, satisfied?, note?}. apply_choices.py
-    // reads both.
+    // object {choice, badRef?, noneGood?, satisfied?, id?, note?}.
+    // apply_choices.py reads both.
     var data = window.__review || { species: {} };
     var out = {};
     Object.keys(data.species).forEach(function (code) {
       var choice = choices[code] || data.species[code].chosen || "v0";
       var mm = meta[code] || {};
-      if (mm.badRef || mm.noneGood || mm.satisfied || mm.note) {
+      var origId = (data.species[code].id || "").trim();
+      var idEdited = typeof mm.idEdit === "string" && mm.idEdit.trim() !== origId;
+      if (mm.badRef || mm.noneGood || mm.satisfied || mm.note || idEdited) {
         out[code] = { choice: choice };
         if (mm.badRef) out[code].badRef = true;
         if (mm.noneGood) out[code].noneGood = true;
         if (mm.satisfied) out[code].satisfied = true;
+        if (idEdited) out[code].id = mm.idEdit.trim();
         if (mm.note) out[code].note = mm.note;
       } else {
         out[code] = choice;

@@ -33,6 +33,7 @@ BIRDS = os.path.join(ROOT, "docs", "birds")
 REVIEW_MAN = os.path.join(ROOT, "docs", "review", "manifest.json")
 FEEDBACK = os.path.join(HERE, "review_feedback.json")
 RETRY = os.path.join(HERE, "retry_rounds.json")
+IDFEATURES = os.path.join(HERE, "id_features.json")
 
 
 def git(*a):
@@ -46,11 +47,16 @@ def main():
     review = json.load(open(REVIEW_MAN, encoding="utf-8")) if os.path.exists(REVIEW_MAN) else {"species": {}}
 
     retry = json.load(open(RETRY, encoding="utf-8")) if os.path.exists(RETRY) else {}
+    idfeat = json.load(open(IDFEATURES, encoding="utf-8")) if os.path.exists(IDFEATURES) else {}
     changed = applied = 0
+    id_changed = []
     feedback = {"badRef": [], "noneGood": [], "satisfied": [], "notes": {}}
     for code, val in choices.items():
-        none_good = isinstance(val, dict) and val.get("noneGood")
-        if isinstance(val, dict):
+        is_obj = isinstance(val, dict)
+        none_good = is_obj and val.get("noneGood")
+        satisfied = is_obj and val.get("satisfied")
+        new_id = (val.get("id") or "").strip() if is_obj else ""
+        if is_obj:
             vid = val.get("choice", "v0")
             if val.get("badRef"):
                 feedback["badRef"].append(code)
@@ -63,16 +69,27 @@ def main():
         else:
             vid = val
 
-        if none_good:
-            # No variant was acceptable: queue a fresh-seed regeneration (bump
-            # the retry round and clear the sidecar so it is no longer "done").
-            # The current live image stays until the new one is generated, and
-            # the species returns to the review page once it is.
+        # An edited species-prompt is the new source of truth for img2img:
+        # persist it to id_features.json and the review manifest.
+        if new_id and new_id != (idfeat.get(code) or "").strip():
+            idfeat[code] = new_id
+            id_changed.append(code)
+            if code in review.get("species", {}):
+                review["species"][code]["id"] = new_id
+
+        # Queue a fresh-seed regeneration when no variant was acceptable, or when
+        # the prompt was edited (so the new description actually takes effect) —
+        # unless the user also marked the species satisfied with the current one.
+        # Bump the retry round and clear the sidecar so it is no longer "done";
+        # the live image stays until the new one is generated, and the species
+        # returns to the review page once it is.
+        if none_good or (id_changed and id_changed[-1] == code and not satisfied):
             retry[code] = retry.get(code, 0) + 1
             sc = os.path.join(BIRDS, code, "sitting_0.png.json")
             if os.path.exists(sc):
                 os.remove(sc)
-            print(f"  {code}: none good enough -> regenerate (retry round {retry[code]})")
+            why = "none good enough" if none_good else "prompt edited"
+            print(f"  {code}: {why} -> regenerate (retry round {retry[code]})")
             continue
 
         # Reviewed: drop off the review page until a new image is generated.
@@ -94,6 +111,9 @@ def main():
             print(f"  {code}: {cur_chosen} -> {vid}")
     json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(retry, open(RETRY, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    if id_changed:
+        json.dump(idfeat, open(IDFEATURES, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(f"updated id_features.json for {len(id_changed)}: " + ", ".join(id_changed))
     print(f"applied {applied} choices ({changed} changed from auto-pick)")
 
     # Drop review_imgs for species that are now reviewed or no longer shown, so
@@ -126,6 +146,8 @@ def main():
     subprocess.run([sys.executable, os.path.join(HERE, "build_manifest.py")],
                    capture_output=True)
     git("add", "docs")
+    if id_changed:
+        git("add", "scripts/id_features.json")
     if git("diff", "--cached", "--quiet").returncode == 0:
         print("nothing to push"); return
     git("commit", "-m", "Apply reviewed AI image choices\n\n"
