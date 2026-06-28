@@ -7297,206 +7297,166 @@
    "name": "Great Egret",
    "sci": "Ardea alba",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/greegr/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/32782691/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tall all-white heron, slender long neck, long black-and-yellow dagger bill (yellow in non-breeding); long blackish legs and feet, no plumes on head.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/greegr/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.9,
-     "pose": 0.644,
-     "bird": 0.819
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.916,
+     "pose": 0.655,
+     "bird": 0.845
     },
     {
      "id": "v1",
      "img": "review_imgs/greegr/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.907,
-     "pose": 0.646,
-     "bird": 0.729
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/greegr/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.907,
-     "pose": 0.535,
-     "bird": 0.644
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.898,
+     "pose": 0.434,
+     "bird": 0.816
     }
    ],
-   "id": "Tall all-white heron, slender long neck, long black-and-yellow dagger bill (yellow in non-breeding); long blackish legs and feet, no plumes on head."
+   "reviewed": false
   },
   "grefla3": {
    "name": "Greater Flamingo",
    "sci": "Phoenicopterus roseus",
    "family": "Flamingos",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grefla3/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53250391/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Very tall pink-tinged wading bird, pale pink-white body with bright rose-pink wing coverts, black flight feathers; long S-curved neck, downward-kinked pink bill with black tip, very long pink legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grefla3/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.861,
-     "pose": 0.161,
-     "bird": 0.958
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.87,
+     "pose": 0.209,
+     "bird": 0.908
     },
     {
      "id": "v1",
      "img": "review_imgs/grefla3/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.858,
-     "pose": 0.161,
-     "bird": 0.925
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grefla3/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.845,
-     "pose": 0.245,
-     "bird": 0.865
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.85,
+     "pose": 0.244,
+     "bird": 0.859
     }
    ],
-   "id": "Very tall pink-tinged wading bird, pale pink-white body with bright rose-pink wing coverts, black flight feathers; long S-curved neck, downward-kinked pink bill with black tip, very long pink legs."
+   "reviewed": false
   },
   "gresca": {
    "name": "Greater Scaup",
    "sci": "Aythya marila",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gresca/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/150567911/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Diving duck, glossy green-black head, black breast and rear, white flanks, pale grey vermiculated back; rounded head, broad pale blue-grey bill with black nail, yellow eye.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gresca/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.873,
-     "pose": 0.202,
-     "bird": 0.882
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.807,
+     "pose": 0.231,
+     "bird": 0.694
     },
     {
      "id": "v1",
      "img": "review_imgs/gresca/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.856,
-     "pose": 0.097,
-     "bird": 0.826
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gresca/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.866,
-     "pose": 0.117,
-     "bird": 0.46
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.823,
+     "pose": 0.034,
+     "bird": 0.316
     }
    ],
-   "id": "Diving duck, glossy green-black head, black breast and rear, white flanks, pale grey vermiculated back; rounded head, broad pale blue-grey bill with black nail, yellow eye."
+   "reviewed": false
   },
   "greshe": {
    "name": "Great Shearwater",
    "sci": "Ardenna gravis",
    "family": "Shearwaters and Petrels",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/greshe/before.png",
    "ref": "review_imgs/greshe/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large shearwater, dark brown-grey above with pale-scaled back, white below; blackish-brown cap sharply cut off from white cheeks and white nape collar, dark belly smudge, white uppertail band; long dark bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/greshe/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.874,
-     "pose": 0.55,
-     "bird": 0.877
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.884,
+     "pose": 0.285,
+     "bird": 0.934
     },
     {
      "id": "v1",
      "img": "review_imgs/greshe/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.892,
-     "pose": 0.371,
-     "bird": 0.903
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/greshe/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.883,
-     "pose": 0.446,
-     "bird": 0.696
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.89,
+     "pose": 0.372,
+     "bird": 0.803
     }
    ],
-   "id": "Large shearwater, dark brown-grey above with pale-scaled back, white below; blackish-brown cap sharply cut off from white cheeks and white nape collar, dark belly smudge, white uppertail band; long dark bill."
+   "reviewed": false
   },
   "gresku1": {
    "name": "Great Skua",
    "sci": "Stercorarius skua",
    "family": "Skuas and Jaegers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gresku1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44827181/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Bulky brown skua, dark rufous-brown plumage streaked paler, with bold white wing-flashes at base of primaries; heavy hooked dark bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gresku1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.855,
-     "pose": 0.375,
-     "bird": 0.817
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.876,
+     "pose": 0.354,
+     "bird": 0.472
     },
     {
      "id": "v1",
      "img": "review_imgs/gresku1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.885,
-     "pose": 0.307,
-     "bird": 0.34
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gresku1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.862,
-     "pose": 0.225,
-     "bird": 0.429
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.88,
+     "pose": 0.354,
+     "bird": 0.436
     }
    ],
-   "id": "Bulky brown skua, dark rufous-brown plumage streaked paler, with bold white wing-flashes at base of primaries; heavy hooked dark bill, dark legs."
+   "reviewed": false
   },
   "gresni1": {
    "name": "Great Snipe",
