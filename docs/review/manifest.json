@@ -16553,42 +16553,34 @@
    "name": "Moltoni's Warbler",
    "sci": "Curruca subalpina",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/subwar8/before.png",
    "ref": "review_imgs/subwar8/ref.jpg",
    "ref_source": "gbif",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small slim warbler; male has slate-grey head and upperparts, brick-orange throat and breast fading to whitish belly, narrow white submoustachial stripe, red eye-ring, and pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/subwar8/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.741,
-     "pose": 0.73,
-     "bird": 0.924
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.702,
+     "pose": 0.514,
+     "bird": 0.954
     },
     {
      "id": "v1",
      "img": "review_imgs/subwar8/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.752,
-     "pose": 0.558,
-     "bird": 0.959
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/subwar8/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.685,
-     "pose": 0.393,
-     "bird": 0.987
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.704,
+     "pose": 0.452,
+     "bird": 0.951
     }
    ],
-   "id": "Small slim warbler; male has slate-grey head and upperparts, brick-orange throat and breast fading to whitish belly, narrow white submoustachial stripe, red eye-ring, and pinkish legs."
+   "reviewed": false
   },
   "sursco": {
    "name": "Surf Scoter",
@@ -17169,42 +17161,34 @@
    "name": "Tundra Swan",
    "sci": "Cygnus columbianus",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/tunswa/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31724801/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Compact white swan with a rounded head; black bill with a small rounded yellow patch limited to the base (not reaching the nostril), and black legs. Shorter-necked than Whooper Swan.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/tunswa/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.895,
-     "pose": 0.486,
-     "bird": 0.811
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.884,
+     "pose": 0.347,
+     "bird": 0.395
     },
     {
      "id": "v1",
      "img": "review_imgs/tunswa/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.884,
-     "pose": 0.304,
-     "bird": 0.541
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/tunswa/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.865,
-     "pose": 0.276,
-     "bird": 0.448
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.863,
+     "pose": 0.348,
+     "bird": 0.29
     }
    ],
-   "id": "Compact white swan with a rounded head; black bill with a small rounded yellow patch limited to the base (not reaching the nostril), and black legs. Shorter-necked than Whooper Swan."
+   "reviewed": false
   },
   "twite1": {
    "name": "Twite",
@@ -17702,42 +17686,34 @@
    "name": "White-backed Woodpecker",
    "sci": "Dendrocopos leucotos",
    "family": "Woodpeckers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/whbwoo1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/212416291/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large pied woodpecker; black upperparts with a white lower back, white-barred wings, white underparts streaked dark on flanks, pinkish-red vent; male has a full red crown. Long grey bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/whbwoo1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.696,
-     "pose": 0.198,
-     "bird": 0.786
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.737,
+     "pose": 0.218,
+     "bird": 0.761
     },
     {
      "id": "v1",
      "img": "review_imgs/whbwoo1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.722,
-     "pose": 0.124,
-     "bird": 0.737
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/whbwoo1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.74,
-     "pose": 0.083,
-     "bird": 0.599
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.726,
+     "pose": 0.071,
+     "bird": 0.716
     }
    ],
-   "id": "Large pied woodpecker; black upperparts with a white lower back, white-barred wings, white underparts streaked dark on flanks, pinkish-red vent; male has a full red crown. Long grey bill."
+   "reviewed": false
   },
   "whhduc1": {
    "name": "White-headed Duck",
@@ -18686,83 +18662,76 @@
    "name": "Wood Sandpiper",
    "sci": "Tringa glareola",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "badref",
    "before": "review_imgs/woosan/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/206669001/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim, elegant wader with brown upperparts heavily spangled white, a long pale supercilium, streaked breast fading to white belly, and a barred white tail. Straight dark bill; long yellow-green legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/woosan/v0.png",
-     "seed": 1000,
+     "seed": 1005,
      "strength": 0.6,
-     "sim": 0.816,
-     "pose": 0.318,
-     "bird": 0.857
+     "sim": 0.82,
+     "pose": 0.395,
+     "bird": 0.843
     },
     {
      "id": "v1",
      "img": "review_imgs/woosan/v1.png",
-     "seed": 1002,
+     "seed": 1007,
      "strength": 0.74,
-     "sim": 0.809,
-     "pose": 0.266,
-     "bird": 0.899
+     "sim": 0.797,
+     "pose": 0.287,
+     "bird": 0.889
     },
     {
      "id": "v2",
      "img": "review_imgs/woosan/v2.png",
-     "seed": 1001,
+     "seed": 1006,
      "strength": 0.68,
-     "sim": 0.797,
-     "pose": 0.314,
-     "bird": 0.866
+     "sim": 0.789,
+     "pose": 0.341,
+     "bird": 0.791
     }
    ],
-   "id": "Slim, elegant wader with brown upperparts heavily spangled white, a long pale supercilium, streaked breast fading to white belly, and a barred white tail. Straight dark bill; long yellow-green legs."
+   "reviewed": false
   },
   "wooshr1": {
    "name": "Woodchat Shrike",
    "sci": "Lanius senator",
    "family": "Shrikes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/wooshr1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/51309681/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Boldly patterned shrike with a rich chestnut crown and nape, black mask through the eye, black back and wings with a large white wing patch, and clean white underparts and rump. Stout hooked black bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/wooshr1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.88,
-     "pose": 0.654,
-     "bird": 0.765
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.851,
+     "pose": 0.29,
+     "bird": 0.791
     },
     {
      "id": "v1",
      "img": "review_imgs/wooshr1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.837,
-     "pose": 0.636,
-     "bird": 0.69
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/wooshr1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.843,
-     "pose": 0.242,
-     "bird": 0.5
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.846,
+     "pose": 0.357,
+     "bird": 0.531
     }
    ],
-   "id": "Boldly patterned shrike with a rich chestnut crown and nape, black mask through the eye, black back and wings with a large white wing patch, and clean white underparts and rump. Stout hooked black bill."
+   "reviewed": false
   },
   "woowar": {
    "name": "Wood Warbler",
