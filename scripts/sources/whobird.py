@@ -40,9 +40,19 @@ def _load():
     return _map
 
 
+# Recent taxonomic splits whose new scientific names postdate whoBIRD's curated
+# asset list — map them to the (still curated) parent/sister taxon so the right
+# Macaulay reference is found. Key and value are lowercase scientific names.
+SCI_ALIAS = {
+    "cecropis rufula": "cecropis daurica",  # European Red-rumped Swallow split
+}
+
+
 def _asset_id(sci, common):
     m = _load()
-    return m["sci"].get((sci or "").lower()) or m["common"].get((common or "").lower())
+    s = (sci or "").lower()
+    s = SCI_ALIAS.get(s, s)
+    return m["sci"].get(s) or m["common"].get((common or "").lower())
 
 
 def asset_url(sci, common, width=320):

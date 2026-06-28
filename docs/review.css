@@ -56,13 +56,18 @@ body {
 .tile.chosen .pick { opacity: 1; }
 .sep { width: 1px; align-self: stretch; background: #ddd5c2; margin: 0 2px; }
 
-/* "None good enough" toggle in the card header */
-.head .flag.none {
-  margin-left: auto; font: inherit; font-size: 12px; cursor: pointer;
+/* Verdict toggles ("Satisfied" / "None good enough") in the card header */
+.head .flag {
+  font: inherit; font-size: 12px; cursor: pointer;
   color: var(--muted); background: #fff; border: 1px solid #d9d2c0;
   border-radius: 999px; padding: 4px 12px;
 }
-.head .flag.none:hover { background: #f3efe6; }
+.head .flag.sat { margin-left: auto; }
+.head .flag.none { margin-left: 6px; }
+.head .flag:hover { background: #f3efe6; }
+.head .flag.sat.on {
+  background: var(--accent); border-color: var(--accent); color: #fff;
+}
 .head .flag.none.on {
   background: #9a5b4a; border-color: #9a5b4a; color: #fff;
 }

@@ -2,15 +2,17 @@
 
 choices.json maps each species code to either:
   - a variant id string, e.g. {"comchi1": "v2"}, or
-  - an object {"choice": "v2", "badRef": true, "noneGood": true, "note": "..."}.
+  - an object {"choice": "v2", "badRef": true, "noneGood": true,
+               "satisfied": true, "note": "..."}.
 
 For each entry we copy docs/review_imgs/<code>/<choice>.png over
 docs/birds/<code>/sitting_0.png and update the review manifest's "chosen" —
 EXCEPT when "noneGood" is set, where we keep the current live image untouched.
 
-"badRef", "noneGood" and free-text "note" flags are collected into
-scripts/review_feedback.json (and printed) so they can be acted on: bad
-references want re-fetching, "none good enough" species want re-generation.
+"badRef", "noneGood", "satisfied" and free-text "note" flags are collected
+into scripts/review_feedback.json (and printed) so they can be acted on: bad
+references want re-fetching, "none good enough" species want re-generation,
+"satisfied" marks confirmed-good images.
 
 Usage:
   python apply_choices.py path/to/choices.json
@@ -45,7 +47,7 @@ def main():
 
     retry = json.load(open(RETRY, encoding="utf-8")) if os.path.exists(RETRY) else {}
     changed = applied = 0
-    feedback = {"badRef": [], "noneGood": [], "notes": {}}
+    feedback = {"badRef": [], "noneGood": [], "satisfied": [], "notes": {}}
     for code, val in choices.items():
         none_good = isinstance(val, dict) and val.get("noneGood")
         if isinstance(val, dict):
@@ -54,6 +56,8 @@ def main():
                 feedback["badRef"].append(code)
             if val.get("noneGood"):
                 feedback["noneGood"].append(code)
+            if val.get("satisfied"):
+                feedback["satisfied"].append(code)
             if val.get("note"):
                 feedback["notes"][code] = val["note"]
         else:
@@ -102,7 +106,8 @@ def main():
     if pruned:
         print(f"pruned {pruned} reviewed/stale review_imgs dirs")
 
-    if feedback["badRef"] or feedback["noneGood"] or feedback["notes"]:
+    if (feedback["badRef"] or feedback["noneGood"]
+            or feedback["satisfied"] or feedback["notes"]):
         json.dump(feedback, open(FEEDBACK, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
         print(f"\nfeedback -> {FEEDBACK}")
@@ -112,6 +117,9 @@ def main():
         if feedback["noneGood"]:
             print(f"  none good enough ({len(feedback['noneGood'])}): "
                   + ", ".join(feedback["noneGood"]))
+        if feedback["satisfied"]:
+            print(f"  satisfied ({len(feedback['satisfied'])}): "
+                  + ", ".join(feedback["satisfied"]))
         for code, n in feedback["notes"].items():
             print(f"  note {code}: {n}")
 

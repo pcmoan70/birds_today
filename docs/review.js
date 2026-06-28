@@ -1,5 +1,6 @@
-/* AI Image Review — pick a preferred AI variant per species, flag a bad
- * reference photo or "none good enough", and leave a free-text note.
+/* AI Image Review — pick a preferred AI variant per species, mark it
+ * "satisfied" or "none good enough", flag a bad reference photo, and leave
+ * a free-text note.
  * Reads docs/review/manifest.json (written by scripts/regen_flagged.py).
  * State is stored in localStorage and exported as choices.json, which
  * scripts/apply_choices.py turns into the live images. */
@@ -53,6 +54,10 @@
         '<span class="sci">' + (s.sci || "") + "</span>" +
         (s.family ? '<span class="fam">' + s.family + "</span>" : "") +
         (s.reason ? '<span class="reason">' + s.reason + "</span>" : "");
+      var satBtn = document.createElement("button");
+      satBtn.className = "flag sat" + (m(code).satisfied ? " on" : "");
+      satBtn.title = "Mark this species as good — confirms you're happy with the chosen image";
+      head.appendChild(satBtn);
       var noneBtn = document.createElement("button");
       noneBtn.className = "flag none" + (m(code).noneGood ? " on" : "");
       noneBtn.title = "Mark when no variant is acceptable — keeps the current live image";
@@ -100,17 +105,27 @@
       });
       card.appendChild(tiles);
 
-      // dim the variant row when "none good enough" is set
-      function syncNone() {
-        var on = !!m(code).noneGood;
-        tiles.classList.toggle("disabled", on);
-        noneBtn.classList.toggle("on", on);
-        noneBtn.textContent = on ? "None good enough ✓" : "None good enough";
+      // "Satisfied" and "None good enough" are opposite verdicts — only one
+      // can be set. The variant row dims when nothing is acceptable.
+      function syncVerdict() {
+        var none = !!m(code).noneGood, sat = !!m(code).satisfied;
+        tiles.classList.toggle("disabled", none);
+        noneBtn.classList.toggle("on", none);
+        noneBtn.textContent = none ? "None good enough ✓" : "None good enough";
+        satBtn.classList.toggle("on", sat);
+        satBtn.textContent = sat ? "👍 Satisfied ✓" : "👍 Satisfied";
       }
-      noneBtn.onclick = function () {
-        m(code).noneGood = !m(code).noneGood; saveMeta(); syncNone();
+      satBtn.onclick = function () {
+        m(code).satisfied = !m(code).satisfied;
+        if (m(code).satisfied) m(code).noneGood = false;
+        saveMeta(); syncVerdict();
       };
-      syncNone();
+      noneBtn.onclick = function () {
+        m(code).noneGood = !m(code).noneGood;
+        if (m(code).noneGood) m(code).satisfied = false;
+        saveMeta(); syncVerdict();
+      };
+      syncVerdict();
 
       // ---- free-text feedback box ------------------------------------
       var note = document.createElement("textarea");
@@ -130,16 +145,18 @@
 
   document.getElementById("export").onclick = function () {
     // Per species: plain variant id when nothing extra is flagged, else an
-    // object {choice, badRef?, noneGood?, note?}. apply_choices.py reads both.
+    // object {choice, badRef?, noneGood?, satisfied?, note?}. apply_choices.py
+    // reads both.
     var data = window.__review || { species: {} };
     var out = {};
     Object.keys(data.species).forEach(function (code) {
       var choice = choices[code] || data.species[code].chosen || "v0";
       var mm = meta[code] || {};
-      if (mm.badRef || mm.noneGood || mm.note) {
+      if (mm.badRef || mm.noneGood || mm.satisfied || mm.note) {
         out[code] = { choice: choice };
         if (mm.badRef) out[code].badRef = true;
         if (mm.noneGood) out[code].noneGood = true;
+        if (mm.satisfied) out[code].satisfied = true;
         if (mm.note) out[code].note = mm.note;
       } else {
         out[code] = choice;
