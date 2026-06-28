@@ -13782,206 +13782,166 @@
    "name": "Red-billed Chough",
    "sci": "Pyrrhocorax pyrrhocorax",
    "family": "Crows, Jays, and Magpies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rebcho1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/37105181/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "All-black crow with a glossy purplish sheen, broad rounded wings with splayed fingered primaries, and a square tail. Long curved bright red bill and bright red legs are the key marks.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rebcho1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.882,
-     "pose": 0.186,
-     "bird": 0.553
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.872,
+     "pose": 0.075,
+     "bird": 0.687
     },
     {
      "id": "v1",
      "img": "review_imgs/rebcho1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.877,
-     "pose": 0.082,
-     "bird": 0.533
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rebcho1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.869,
-     "pose": 0.095,
-     "bird": 0.491
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.862,
+     "pose": 0.137,
+     "bird": 0.477
     }
    ],
-   "id": "All-black crow with a glossy purplish sheen, broad rounded wings with splayed fingered primaries, and a square tail. Long curved bright red bill and bright red legs are the key marks."
+   "reviewed": false
   },
   "rebfly": {
    "name": "Red-breasted Flycatcher",
    "sci": "Ficedula parva",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rebfly/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/140603461/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny flycatcher with plain grey-brown upperparts, whitish underparts, and a peachy-orange throat patch bordered greyish. Bold white patches at the base of the blackish tail, white eye-ring, thin dark bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rebfly/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.897,
-     "pose": 0.164,
-     "bird": 0.533
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.909,
+     "pose": 0.129,
+     "bird": 0.337
     },
     {
      "id": "v1",
      "img": "review_imgs/rebfly/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.912,
-     "pose": 0.108,
-     "bird": 0.326
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rebfly/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.891,
-     "pose": 0.113,
-     "bird": 0.196
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.885,
+     "pose": 0.062,
+     "bird": 0.293
     }
    ],
-   "id": "Tiny flycatcher with plain grey-brown upperparts, whitish underparts, and a peachy-orange throat patch bordered greyish. Bold white patches at the base of the blackish tail, white eye-ring, thin dark bill, dark legs."
+   "reviewed": false
   },
   "rebgoo1": {
    "name": "Red-breasted Goose",
    "sci": "Branta ruficollis",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rebgoo1/before.png",
    "ref": "review_imgs/rebgoo1/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small strikingly patterned goose, mostly black with bold white-bordered chestnut-red cheeks, throat and breast. White flank stripe and undertail, short stubby dark bill, black legs; compact rounded body.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rebgoo1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.893,
-     "pose": 0.166,
-     "bird": 0.799
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.921,
+     "pose": 0.213,
+     "bird": 0.783
     },
     {
      "id": "v1",
      "img": "review_imgs/rebgoo1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.914,
-     "pose": 0.152,
-     "bird": 0.659
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rebgoo1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.875,
-     "pose": 0.146,
-     "bird": 0.716
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.93,
+     "pose": 0.203,
+     "bird": 0.705
     }
    ],
-   "id": "Small strikingly patterned goose, mostly black with bold white-bordered chestnut-red cheeks, throat and breast. White flank stripe and undertail, short stubby dark bill, black legs; compact rounded body."
+   "reviewed": false
   },
   "rebmer": {
    "name": "Red-breasted Merganser",
    "sci": "Mergus serrator",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rebmer/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/91376081/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim diving duck; male has a dark glossy-green spiky-crested head, white neck collar, rusty-streaked breast band, grey flanks and black-and-white back. Thin serrated red bill, red eye, reddish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rebmer/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.828,
-     "pose": 0.062,
-     "bird": 0.882
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.786,
+     "pose": 0.054,
+     "bird": 0.85
     },
     {
      "id": "v1",
      "img": "review_imgs/rebmer/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.846,
-     "pose": 0.03,
-     "bird": 0.715
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rebmer/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.832,
-     "pose": 0.03,
-     "bird": 0.716
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.831,
+     "pose": 0.031,
+     "bird": 0.453
     }
    ],
-   "id": "Slim diving duck; male has a dark glossy-green spiky-crested head, white neck collar, rusty-streaked breast band, grey flanks and black-and-white back. Thin serrated red bill, red eye, reddish legs."
+   "reviewed": false
   },
   "rebshr1": {
    "name": "Red-backed Shrike",
    "sci": "Lanius collurio",
    "family": "Shrikes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rebshr1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/47430491/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Compact shrike; male has a blue-grey crown and nape, broad black mask through the eye, rich chestnut back and wings, and pinkish-white underparts. Black tail edged white, hooked black bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rebshr1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.875,
-     "pose": 0.304,
-     "bird": 0.568
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.877,
+     "pose": 0.427,
+     "bird": 0.624
     },
     {
      "id": "v1",
      "img": "review_imgs/rebshr1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.856,
-     "pose": 0.303,
-     "bird": 0.471
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rebshr1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.863,
-     "pose": 0.245,
-     "bird": 0.077
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.886,
+     "pose": 0.162,
+     "bird": 0.433
     }
    ],
-   "id": "Compact shrike; male has a blue-grey crown and nape, broad black mask through the eye, rich chestnut back and wings, and pinkish-white underparts. Black tail edged white, hooked black bill, dark legs."
+   "reviewed": false
   },
   "recpoc": {
    "name": "Red-crested Pochard",
