@@ -6967,206 +6967,166 @@
    "name": "Green-winged Teal",
    "sci": "Anas crecca",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gnwtea/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/49453131/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny dabbling duck, chestnut head with broad green eye-patch bordered cream, vertical white bar on grey flanks; grey vermiculated body, buff-edged black undertail, green-and-black speculum; dark bill, grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gnwtea/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.884,
-     "pose": 0.065,
-     "bird": 0.84
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.889,
+     "pose": 0.057,
+     "bird": 0.714
     },
     {
      "id": "v1",
      "img": "review_imgs/gnwtea/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.807,
-     "pose": 0.059,
-     "bird": 0.362
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gnwtea/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.838,
-     "pose": 0.028,
-     "bird": 0.12
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.799,
+     "pose": 0.067,
+     "bird": 0.374
     }
    ],
-   "id": "Tiny dabbling duck, chestnut head with broad green eye-patch bordered cream, vertical white bar on grey flanks; grey vermiculated body, buff-edged black undertail, green-and-black speculum; dark bill, grey legs."
+   "reviewed": false
   },
   "goldcr1": {
    "name": "Goldcrest",
    "sci": "Regulus regulus",
    "family": "Kinglets",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/goldcr1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42466111/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny rounded warbler, olive-green above, pale buff below; large dark eye on plain face; yellow crown stripe (orange-centred) bordered black, two white wingbars; very thin black bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/goldcr1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.914,
-     "pose": 0.024,
-     "bird": 0.718
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.908,
+     "pose": 0.039,
+     "bird": 0.828
     },
     {
      "id": "v1",
      "img": "review_imgs/goldcr1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.908,
-     "pose": 0.024,
-     "bird": 0.691
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/goldcr1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.875,
-     "pose": 0.053,
-     "bird": 0.666
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.901,
+     "pose": 0.049,
+     "bird": 0.833
     }
    ],
-   "id": "Tiny rounded warbler, olive-green above, pale buff below; large dark eye on plain face; yellow crown stripe (orange-centred) bordered black, two white wingbars; very thin black bill."
+   "reviewed": false
   },
   "goleag": {
    "name": "Golden Eagle",
    "sci": "Aquila chrysaetos",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/goleag/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/209005751/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Huge dark brown eagle with golden-buff crown and nape, long broad wings, longish tail; pale patches at wing base in flight; massive hooked grey-and-yellow bill, fully feathered legs, yellow feet.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/goleag/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.8,
-     "pose": 0.038,
-     "bird": 0.761
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.87,
+     "pose": 0.051,
+     "bird": 0.861
     },
     {
      "id": "v1",
      "img": "review_imgs/goleag/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.806,
-     "pose": 0.046,
-     "bird": 0.67
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/goleag/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.821,
-     "pose": 0.054,
-     "bird": 0.598
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.808,
+     "pose": 0.041,
+     "bird": 0.66
     }
    ],
-   "id": "Huge dark brown eagle with golden-buff crown and nape, long broad wings, longish tail; pale patches at wing base in flight; massive hooked grey-and-yellow bill, fully feathered legs, yellow feet."
+   "reviewed": false
   },
   "gragoo": {
    "name": "Graylag Goose",
    "sci": "Anser anser",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gragoo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63379971/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large bulky grey-brown goose, paler greyish forewing and pale-fringed feathers; pale head and neck, whitish belly; heavy orange bill, pink legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gragoo/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.941,
-     "pose": 0.484,
-     "bird": 0.948
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.939,
+     "pose": 0.478,
+     "bird": 0.947
     },
     {
      "id": "v1",
      "img": "review_imgs/gragoo/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.938,
-     "pose": 0.455,
-     "bird": 0.976
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gragoo/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
+     "seed": 3006,
+     "strength": 0.7,
      "sim": 0.927,
-     "pose": 0.447,
-     "bird": 0.917
+     "pose": 0.409,
+     "bird": 0.808
     }
    ],
-   "id": "Large bulky grey-brown goose, paler greyish forewing and pale-fringed feathers; pale head and neck, whitish belly; heavy orange bill, pink legs."
+   "reviewed": false
   },
   "graher1": {
    "name": "Gray Heron",
    "sci": "Ardea cinerea",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/graher1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/109008531/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tall grey heron, grey back and wings, white head and neck with black eyestripe extending to thin crest; black-streaked white foreneck, dagger-like yellow bill, long legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/graher1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.91,
-     "pose": 0.682,
-     "bird": 0.843
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.89,
+     "pose": 0.696,
+     "bird": 0.478
     },
     {
      "id": "v1",
      "img": "review_imgs/graher1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.915,
-     "pose": 0.653,
-     "bird": 0.526
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/graher1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.909,
-     "pose": 0.58,
-     "bird": 0.519
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.905,
+     "pose": 0.566,
+     "bird": 0.401
     }
    ],
-   "id": "Tall grey heron, grey back and wings, white head and neck with black eyestripe extending to thin crest; black-streaked white foreneck, dagger-like yellow bill, long legs."
+   "reviewed": false
   },
   "grapri1": {
    "name": "Graceful Prinia",
