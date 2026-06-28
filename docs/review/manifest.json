@@ -16401,6 +16401,206 @@
      "bird": 0.198
     }
    ]
+  },
+  "sabgul": {
+   "name": "Sabine's Gull",
+   "sci": "Xema sabini",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/sabgul/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/237435121/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/sabgul/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.892,
+     "pose": 0.168,
+     "bird": 0.82
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/sabgul/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.842,
+     "pose": 0.107,
+     "bird": 0.407
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sabgul/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.845,
+     "pose": 0.189,
+     "bird": 0.269
+    }
+   ]
+  },
+  "sacibi2": {
+   "name": "African Sacred Ibis",
+   "sci": "Threskiornis aethiopicus",
+   "family": "Ibises and Spoonbills",
+   "reason": "all",
+   "before": "review_imgs/sacibi2/before.png",
+   "ref": "review_imgs/sacibi2/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/sacibi2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.943,
+     "pose": 0.387,
+     "bird": 0.934
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/sacibi2/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.937,
+     "pose": 0.395,
+     "bird": 0.894
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sacibi2/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.944,
+     "pose": 0.402,
+     "bird": 0.797
+    }
+   ]
+  },
+  "sander": {
+   "name": "Sanderling",
+   "sci": "Calidris alba",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/sander/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/51358281/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/sander/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.848,
+     "pose": 0.175,
+     "bird": 0.728
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/sander/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.863,
+     "pose": 0.124,
+     "bird": 0.711
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sander/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.883,
+     "pose": 0.202,
+     "bird": 0.336
+    }
+   ]
+  },
+  "santer1": {
+   "name": "Sandwich Tern",
+   "sci": "Thalasseus sandvicensis",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/santer1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64794711/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/santer1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.924,
+     "pose": 0.016,
+     "bird": 0.849
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/santer1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.931,
+     "pose": 0.035,
+     "bird": 0.754
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/santer1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.933,
+     "pose": 0.026,
+     "bird": 0.702
+    }
+   ]
+  },
+  "sarwar1": {
+   "name": "Sardinian Warbler",
+   "sci": "Curruca melanocephala",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/sarwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/196728121/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/sarwar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.919,
+     "pose": 0.237,
+     "bird": 0.801
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/sarwar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.913,
+     "pose": 0.223,
+     "bird": 0.45
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sarwar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.9,
+     "pose": 0.155,
+     "bird": 0.444
+    }
+   ]
   }
  }
 }

@@ -30229,7 +30229,7 @@
     },
     "faces": {
       "santer1/flying_0.png": "right",
-      "santer1/sitting_0.png": "left"
+      "santer1/sitting_0.png": "right"
     },
     "credits": {
       "santer1/flying_0.png": {
@@ -30300,7 +30300,7 @@
       ]
     },
     "faces": {
-      "sarwar1/sitting_0.png": "right"
+      "sarwar1/sitting_0.png": "left"
     },
     "credits": {
       "sarwar1/sitting_0.png": {
