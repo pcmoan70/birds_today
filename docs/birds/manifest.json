@@ -23120,7 +23120,7 @@
     },
     "faces": {
       "miswoo1/flying_0.png": "left",
-      "miswoo1/sitting_0.png": "left"
+      "miswoo1/sitting_0.png": "right"
     },
     "credits": {
       "miswoo1/flying_0.png": {
@@ -23270,7 +23270,7 @@
     },
     "faces": {
       "monpar1/flying_0.png": "left",
-      "monpar1/sitting_0.png": "right"
+      "monpar1/sitting_0.png": "left"
     },
     "credits": {
       "monpar1/flying_0.png": {
@@ -23338,7 +23338,7 @@
       ]
     },
     "faces": {
-      "mouchi2/sitting_0.png": "right"
+      "mouchi2/sitting_0.png": "left"
     },
     "credits": {
       "mouchi2/sitting_0.png": {
