@@ -7866,206 +7866,193 @@
    "name": "Brambling",
    "sci": "Fringilla montifringilla",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/brambl/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/73818361/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Finch with orange breast and shoulders, blackish head and back (mottled in winter), and a white belly. Bold white rump conspicuous in flight, dark wings with orange and white bars, stout pale or dark-tipped bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/brambl/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.934,
-     "pose": 0.152,
-     "bird": 0.709
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.918,
+     "pose": 0.28,
+     "bird": 0.641
     },
     {
      "id": "v1",
      "img": "review_imgs/brambl/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.917,
-     "pose": 0.145,
-     "bird": 0.65
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.938,
+     "pose": 0.206,
+     "bird": 0.609
     },
     {
      "id": "v2",
      "img": "review_imgs/brambl/v2.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.9,
-     "pose": 0.136,
-     "bird": 0.53
+     "sim": 0.929,
+     "pose": 0.201,
+     "bird": 0.459
     }
    ],
-   "id": "Finch with orange breast and shoulders, blackish head and back (mottled in winter), and a white belly. Bold white rump conspicuous in flight, dark wings with orange and white bars, stout pale or dark-tipped bill, pinkish legs."
+   "reviewed": false
   },
   "bripet": {
    "name": "European Storm-Petrel",
    "sci": "Hydrobates pelagicus",
    "family": "Northern Storm-Petrels",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/bripet/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30210311/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny blackish storm-petrel with a square white rump patch and white underwing bar, otherwise sooty all over. Short rounded wings, square tail, small black bill with tubenose, black legs and feet.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/bripet/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.817,
-     "pose": 0.017,
-     "bird": 0.616
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.813,
+     "pose": 0.024,
+     "bird": 0.526
     },
     {
      "id": "v1",
      "img": "review_imgs/bripet/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.778,
-     "pose": 0.02,
-     "bird": 0.599
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bripet/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.748,
-     "pose": 0.007,
-     "bird": 0.247
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.765,
+     "pose": 0.019,
+     "bird": 0.56
     }
    ],
-   "id": "Tiny blackish storm-petrel with a square white rump patch and white underwing bar, otherwise sooty all over. Short rounded wings, square tail, small black bill with tubenose, black legs and feet."
+   "reviewed": false
   },
   "cirbun1": {
    "name": "Cirl Bunting",
    "sci": "Emberiza cirlus",
    "family": "Old World Buntings",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/cirbun1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/151274571/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Bunting with an olive-grey breast band and yellow underparts; male head has a black throat and eye-stripe with yellow supercilium and cheeks. Streaked chestnut back, rufous flanks streaked dark, grey rump, stout greyish bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/cirbun1/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.894,
-     "pose": 0.208,
-     "bird": 0.277
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.866,
+     "pose": 0.23,
+     "bird": 0.442
     },
     {
      "id": "v1",
      "img": "review_imgs/cirbun1/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.884,
-     "pose": 0.232,
-     "bird": 0.196
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.893,
+     "pose": 0.156,
+     "bird": 0.339
     },
     {
      "id": "v2",
      "img": "review_imgs/cirbun1/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.906,
-     "pose": 0.127,
-     "bird": 0.12
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.899,
+     "pose": 0.217,
+     "bird": 0.215
     }
    ],
-   "id": "Bunting with an olive-grey breast band and yellow underparts; male head has a black throat and eye-stripe with yellow supercilium and cheeks. Streaked chestnut back, rufous flanks streaked dark, grey rump, stout greyish bill."
+   "reviewed": false
   },
   "cogwar1": {
    "name": "Common Grasshopper Warbler",
    "sci": "Locustella naevia",
    "family": "Grassbirds and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/cogwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/226725471/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small skulking warbler, olive-brown above heavily streaked dark on crown, back and rump, with paler buff streaked breast. Faint pale supercilium, plain undertail, rounded graduated tail, fine pointed bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/cogwar1/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.895,
-     "pose": 0.12,
-     "bird": 0.741
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.896,
+     "pose": 0.081,
+     "bird": 0.582
     },
     {
      "id": "v1",
      "img": "review_imgs/cogwar1/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.894,
-     "pose": 0.044,
-     "bird": 0.612
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/cogwar1/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.903,
-     "pose": 0.049,
-     "bird": 0.466
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.919,
+     "pose": 0.092,
+     "bird": 0.159
     }
    ],
-   "id": "Small skulking warbler, olive-brown above heavily streaked dark on crown, back and rump, with paler buff streaked breast. Faint pale supercilium, plain undertail, rounded graduated tail, fine pointed bill, pinkish legs."
+   "reviewed": false
   },
   "colfly1": {
    "name": "Collared Flycatcher",
    "sci": "Ficedula albicollis",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/colfly1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63455131/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Black-and-white flycatcher; male glossy black above with a broad white collar around the neck, large white wing patch, white forehead, and pure white underparts. White rump, small flat black bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/colfly1/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.855,
-     "pose": 0.454,
-     "bird": 0.851
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.849,
+     "pose": 0.379,
+     "bird": 0.788
     },
     {
      "id": "v1",
      "img": "review_imgs/colfly1/v1.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.856,
-     "pose": 0.235,
-     "bird": 0.841
+     "sim": 0.861,
+     "pose": 0.318,
+     "bird": 0.797
     },
     {
      "id": "v2",
      "img": "review_imgs/colfly1/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.853,
-     "pose": 0.22,
-     "bird": 0.725
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.846,
+     "pose": 0.272,
+     "bird": 0.655
     }
    ],
-   "id": "Black-and-white flycatcher; male glossy black above with a broad white collar around the neck, large white wing patch, white forehead, and pure white underparts. White rump, small flat black bill, dark legs."
+   "reviewed": false
   },
   "colpra": {
    "name": "Collared Pratincole",
