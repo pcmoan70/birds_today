@@ -18,6 +18,10 @@ scripts/retry_rounds.json
 # Prioritized image-generation job queue (local job state for gen_worker.py).
 scripts/gen_queue.json
 
+# Last-applied review pick per species (so a re-export with the same pick
+# doesn't re-queue a bird; used by apply_choices.py). Local state.
+scripts/applied_choices.json
+
 # Distribution-map reference images quarantined out of scripts/raw so img2img
 # never grounds a bird on a map (see generate.py ref_images); local only.
 scripts/raw_maps/

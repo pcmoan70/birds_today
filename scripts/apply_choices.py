@@ -42,6 +42,8 @@ REVIEW_MAN = os.path.join(ROOT, "docs", "review", "manifest.json")
 FEEDBACK = os.path.join(HERE, "review_feedback.json")
 RETRY = os.path.join(HERE, "retry_rounds.json")
 IDFEATURES = os.path.join(HERE, "id_features.json")
+APPLIED = os.path.join(HERE, "applied_choices.json")  # {code: last applied pick}
+#   so a re-export with the same pick doesn't re-queue a bird you're happy with.
 
 
 def git(*a):
@@ -67,9 +69,10 @@ def main():
     review.setdefault("species", {})
     retry = json.load(open(RETRY, encoding="utf-8")) if os.path.exists(RETRY) else {}
     idfeat = json.load(open(IDFEATURES, encoding="utf-8")) if os.path.exists(IDFEATURES) else {}
+    applied = json.load(open(APPLIED, encoding="utf-8")) if os.path.exists(APPLIED) else {}
     jobs = Q.load()
 
-    finalized = kept = queued = 0
+    finalized = kept = queued = unchanged = 0
     id_changed = []
     feedback = {"badRef": [], "noneGood": [], "satisfied": [], "notes": {}}
 
@@ -111,19 +114,27 @@ def main():
             if code in review["species"]:
                 review["species"][code]["reviewed"] = True
             jobs = [j for j in jobs if j["code"] != code]
+            applied[code] = choice
             finalized += 1
             print(f"  {code}: satisfied -> finalized")
             continue
 
         if none_good:
             enqueue("regen", reason="none-good")
+            applied.pop(code, None)   # no champion; next pick always counts as new
             print(f"  {code}: none good -> queued full re-gen (round {retry[code]})")
             continue
 
         if choice:
-            # Keep this variant as the champion; queue 2 fresh challengers.
+            # Only re-queue when the decision actually changed from last time —
+            # a re-export with the same pick (and no new bad-ref/prompt edit)
+            # leaves the bird alone instead of generating more challengers.
+            if choice == applied.get(code) and not badref and not id_edited:
+                unchanged += 1
+                continue
             if set_live(code, choice):
                 kept += 1
+            applied[code] = choice
             enqueue("challengers", n_new=2, reason="pick-keep-regen2")
             print(f"  {code}: keep {choice} -> queued 2 challengers (round {retry[code]})")
             continue
@@ -136,11 +147,13 @@ def main():
 
     json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(retry, open(RETRY, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(applied, open(APPLIED, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     Q.save(jobs)
     if id_changed:
         json.dump(idfeat, open(IDFEATURES, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(f"updated id_features.json for {len(id_changed)}: " + ", ".join(id_changed))
-    print(f"\nfinalized {finalized} · kept {kept} champions live · queued {queued} gen jobs")
+    print(f"\nfinalized {finalized} · kept {kept} champions live · queued {queued} gen "
+          f"jobs · {unchanged} unchanged (left alone)")
 
     # Drop review_imgs only for finalized (reviewed) species; queued ones keep
     # their folder (champion/before tiles) until the worker refreshes them.
