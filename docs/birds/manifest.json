@@ -33922,7 +33922,7 @@
       ]
     },
     "faces": {
-      "upcwar1/sitting_0.png": "left"
+      "upcwar1/sitting_0.png": "right"
     },
     "credits": {
       "upcwar1/sitting_0.png": {
@@ -33992,7 +33992,7 @@
     },
     "faces": {
       "uraowl1/flying_0.png": "left",
-      "uraowl1/sitting_0.png": "left"
+      "uraowl1/sitting_0.png": "right"
     },
     "credits": {
       "uraowl1/flying_0.png": {
@@ -34141,7 +34141,7 @@
       ]
     },
     "faces": {
-      "watpip1/sitting_0.png": "right"
+      "watpip1/sitting_0.png": "left"
     },
     "credits": {
       "watpip1/sitting_0.png": {
