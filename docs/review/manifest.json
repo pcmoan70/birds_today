@@ -14112,206 +14112,166 @@
    "name": "Red Phalarope",
    "sci": "Phalaropus fulicarius",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/redpha1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107267571/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Plump phalarope; breeding female brick-red below with a black crown, white face patch and dark grey-streaked back. Short stout yellow bill tipped black, lobed dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redpha1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.858,
-     "pose": 0.504,
-     "bird": 0.883
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.837,
+     "pose": 0.598,
+     "bird": 0.952
     },
     {
      "id": "v1",
      "img": "review_imgs/redpha1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.857,
-     "pose": 0.278,
-     "bird": 0.893
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/redpha1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.84,
-     "pose": 0.449,
-     "bird": 0.544
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.847,
+     "pose": 0.528,
+     "bird": 0.964
     }
    ],
-   "id": "Plump phalarope; breeding female brick-red below with a black crown, white face patch and dark grey-streaked back. Short stout yellow bill tipped black, lobed dark legs."
+   "reviewed": false
   },
   "redpol1": {
    "name": "Redpoll",
    "sci": "Acanthis flammea",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/redpol1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301728521/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny streaky brown finch with a crimson-red forehead patch, small black chin bib, and a pinkish wash on the breast of males. Buff-and-brown streaked back, two pale wing bars, tiny yellowish bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redpol1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.944,
-     "pose": 0.091,
-     "bird": 0.641
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.929,
+     "pose": 0.064,
+     "bird": 0.601
     },
     {
      "id": "v1",
      "img": "review_imgs/redpol1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.933,
-     "pose": 0.12,
-     "bird": 0.308
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/redpol1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.92,
-     "pose": 0.098,
-     "bird": 0.321
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.903,
+     "pose": 0.122,
+     "bird": 0.581
     }
    ],
-   "id": "Tiny streaky brown finch with a crimson-red forehead patch, small black chin bib, and a pinkish wash on the breast of males. Buff-and-brown streaked back, two pale wing bars, tiny yellowish bill, dark legs."
+   "reviewed": false
   },
   "redwin": {
    "name": "Redwing",
    "sci": "Turdus iliacus",
    "family": "Thrushes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/redwin/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/57009461/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small dark thrush with olive-brown upperparts, whitish underparts boldly streaked dark on breast and flanks. Striking creamy supercilium and rusty-red flanks and underwing, yellowish-based dark bill, pale legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redwin/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.867,
-     "pose": 0.255,
-     "bird": 0.547
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.856,
+     "pose": 0.276,
+     "bird": 0.585
     },
     {
      "id": "v1",
      "img": "review_imgs/redwin/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.888,
-     "pose": 0.213,
-     "bird": 0.342
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/redwin/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.833,
-     "pose": 0.065,
-     "bird": 0.196
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.88,
+     "pose": 0.186,
+     "bird": 0.41
     }
    ],
-   "id": "Small dark thrush with olive-brown upperparts, whitish underparts boldly streaked dark on breast and flanks. Striking creamy supercilium and rusty-red flanks and underwing, yellowish-based dark bill, pale legs."
+   "reviewed": false
   },
   "reebun": {
    "name": "Reed Bunting",
    "sci": "Emberiza schoeniclus",
    "family": "Old World Buntings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/reebun/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/221501371/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Sparrow-like bunting; breeding male has a black head and throat, a broad white moustache and collar, streaky brown back and whitish underparts. Conical dark bill, pinkish-brown legs, white outer tail feathers.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/reebun/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.81,
-     "pose": 0.431,
-     "bird": 0.919
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.805,
+     "pose": 0.25,
+     "bird": 0.818
     },
     {
      "id": "v1",
      "img": "review_imgs/reebun/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.801,
-     "pose": 0.354,
-     "bird": 0.915
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/reebun/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.798,
-     "pose": 0.155,
-     "bird": 0.867
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.795,
+     "pose": 0.169,
+     "bird": 0.834
     }
    ],
-   "id": "Sparrow-like bunting; breeding male has a black head and throat, a broad white moustache and collar, streaky brown back and whitish underparts. Conical dark bill, pinkish-brown legs, white outer tail feathers."
+   "reviewed": false
   },
   "refblu1": {
    "name": "Red-flanked Bluetail",
    "sci": "Tarsiger cyanurus",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/refblu1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104005221/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small chat-like bird; male slate-blue above on head, back and tail, with bright orange-red flanks, white throat and belly. Thin dark bill, dark legs; the blue tail and orange flanks are diagnostic.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/refblu1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.926,
-     "pose": 0.118,
-     "bird": 0.089
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.936,
+     "pose": 0.13,
+     "bird": 0.07
     },
     {
      "id": "v1",
      "img": "review_imgs/refblu1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.942,
-     "pose": 0.075,
-     "bird": 0.072
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/refblu1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.937,
-     "pose": 0.065,
-     "bird": 0.042
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.917,
+     "pose": 0.072,
+     "bird": 0.033
     }
    ],
-   "id": "Small chat-like bird; male slate-blue above on head, back and tail, with bright orange-red flanks, white throat and belly. Thin dark bill, dark legs; the blue tail and orange flanks are diagnostic."
+   "reviewed": false
   },
   "reffal1": {
    "name": "Red-footed Falcon",
