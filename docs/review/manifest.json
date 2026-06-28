@@ -19392,6 +19392,206 @@
      "bird": 0.544
     }
    ]
+  },
+  "whsbul1": {
+   "name": "White-spectacled Bulbul",
+   "sci": "Pycnonotus xanthopygos",
+   "family": "Bulbuls",
+   "reason": "all",
+   "before": "review_imgs/whsbul1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/93994461/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whsbul1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.91,
+     "pose": 0.309,
+     "bird": 0.356
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whsbul1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.928,
+     "pose": 0.162,
+     "bird": 0.345
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whsbul1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.91,
+     "pose": 0.18,
+     "bird": 0.222
+    }
+   ]
+  },
+  "whtdip1": {
+   "name": "White-throated Dipper",
+   "sci": "Cinclus cinclus",
+   "family": "Dippers",
+   "reason": "all",
+   "before": "review_imgs/whtdip1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/220056451/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whtdip1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.884,
+     "pose": 0.194,
+     "bird": 0.535
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whtdip1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.893,
+     "pose": 0.209,
+     "bird": 0.408
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whtdip1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.887,
+     "pose": 0.268,
+     "bird": 0.268
+    }
+   ]
+  },
+  "whteag": {
+   "name": "White-tailed Eagle",
+   "sci": "Haliaeetus albicilla",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/whteag/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/26861391/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whteag/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.844,
+     "pose": 0.034,
+     "bird": 0.824
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whteag/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.893,
+     "pose": 0.015,
+     "bird": 0.553
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whteag/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.895,
+     "pose": 0.015,
+     "bird": 0.501
+    }
+   ]
+  },
+  "whtkin2": {
+   "name": "White-throated Kingfisher",
+   "sci": "Halcyon smyrnensis",
+   "family": "Kingfishers",
+   "reason": "all",
+   "before": "review_imgs/whtkin2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/21103251/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whtkin2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.886,
+     "pose": 0.665,
+     "bird": 0.535
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whtkin2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.883,
+     "pose": 0.318,
+     "bird": 0.749
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whtkin2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.86,
+     "pose": 0.393,
+     "bird": 0.696
+    }
+   ]
+  },
+  "whtrob3": {
+   "name": "White-throated Robin",
+   "sci": "Irania gutturalis",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/whtrob3/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/95339351/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whtrob3/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.902,
+     "pose": 0.249,
+     "bird": 0.309
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whtrob3/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.895,
+     "pose": 0.113,
+     "bird": 0.338
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whtrob3/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.886,
+     "pose": 0.093,
+     "bird": 0.326
+    }
+   ]
   }
  }
 }

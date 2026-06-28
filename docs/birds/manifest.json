@@ -35371,7 +35371,7 @@
       ]
     },
     "faces": {
-      "whsbul1/sitting_0.png": "left"
+      "whsbul1/sitting_0.png": "right"
     },
     "credits": {
       "whsbul1/sitting_0.png": {
@@ -35441,7 +35441,7 @@
     },
     "faces": {
       "whtdip1/flying_0.png": "right",
-      "whtdip1/sitting_0.png": "right"
+      "whtdip1/sitting_0.png": "left"
     },
     "credits": {
       "whtdip1/flying_0.png": {
@@ -35666,7 +35666,7 @@
       ]
     },
     "faces": {
-      "whtrob3/sitting_0.png": "right"
+      "whtrob3/sitting_0.png": "left"
     },
     "credits": {
       "whtrob3/sitting_0.png": {
