@@ -14648,206 +14648,166 @@
    "name": "Ring-necked Pheasant",
    "sci": "Phasianus colchicus",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rinphe1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/125602631/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large long-tailed gamebird; male has a glossy bottle-green head, red facial wattles, often a white neck ring, and coppery-gold body mottled black. Very long pointed barred tail, pale bill, greyish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rinphe1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.867,
-     "pose": 0.179,
-     "bird": 0.913
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.878,
+     "pose": 0.147,
+     "bird": 0.832
     },
     {
      "id": "v1",
      "img": "review_imgs/rinphe1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.854,
-     "pose": 0.279,
-     "bird": 0.603
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rinphe1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.838,
-     "pose": 0.224,
-     "bird": 0.548
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.861,
+     "pose": 0.156,
+     "bird": 0.658
     }
    ],
-   "id": "Large long-tailed gamebird; male has a glossy bottle-green head, red facial wattles, often a white neck ring, and coppery-gold body mottled black. Very long pointed barred tail, pale bill, greyish legs."
+   "reviewed": false
   },
   "rintea1": {
    "name": "Ringed Teal",
    "sci": "Callonetta leucophrys",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rintea1/before.png",
    "ref": "review_imgs/rintea1/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small ornate duck; pinkish-buff body with bold black-spotted breast and flanks, a chestnut back, blackish crown-stripe down a pale face and neck. Grey-blue bill, pink legs, green-and-white speculum.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rintea1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.906,
-     "pose": 0.306,
-     "bird": 0.922
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.934,
+     "pose": 0.324,
+     "bird": 0.939
     },
     {
      "id": "v1",
      "img": "review_imgs/rintea1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.892,
-     "pose": 0.408,
-     "bird": 0.833
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rintea1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.907,
-     "pose": 0.185,
-     "bird": 0.92
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.895,
+     "pose": 0.303,
+     "bird": 0.788
     }
    ],
-   "id": "Small ornate duck; pinkish-buff body with bold black-spotted breast and flanks, a chestnut back, blackish crown-stripe down a pale face and neck. Grey-blue bill, pink legs, green-and-white speculum."
+   "reviewed": false
   },
   "rocbun1": {
    "name": "Rock Bunting",
    "sci": "Emberiza cia",
    "family": "Old World Buntings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rocbun1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/112309651/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Bunting with a pale blue-grey head marked by black eyestripe and black lateral crown stripes, plain grey throat and breast, and warm rufous-chestnut belly and back streaked black. Conical dark bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rocbun1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.889,
-     "pose": 0.304,
-     "bird": 0.883
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.911,
+     "pose": 0.202,
+     "bird": 0.758
     },
     {
      "id": "v1",
      "img": "review_imgs/rocbun1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.904,
-     "pose": 0.116,
-     "bird": 0.695
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rocbun1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.884,
-     "pose": 0.105,
-     "bird": 0.729
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.903,
+     "pose": 0.123,
+     "bird": 0.543
     }
    ],
-   "id": "Bunting with a pale blue-grey head marked by black eyestripe and black lateral crown stripes, plain grey throat and breast, and warm rufous-chestnut belly and back streaked black. Conical dark bill, pinkish legs."
+   "reviewed": false
   },
   "rocnut1": {
    "name": "Western Rock Nuthatch",
    "sci": "Sitta neumayer",
    "family": "Nuthatches",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rocnut1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/134332311/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stocky nuthatch; plain blue-grey above, whitish to buff below, with a bold black eyestripe running from bill through the eye onto the neck. Long pointed grey bill, short tail, large head, grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rocnut1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.853,
-     "pose": 0.083,
-     "bird": 0.917
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.836,
+     "pose": 0.037,
+     "bird": 0.87
     },
     {
      "id": "v1",
      "img": "review_imgs/rocnut1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.832,
-     "pose": 0.049,
-     "bird": 0.742
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rocnut1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.861,
-     "pose": 0.064,
-     "bird": 0.503
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.86,
+     "pose": 0.052,
+     "bird": 0.725
     }
    ],
-   "id": "Stocky nuthatch; plain blue-grey above, whitish to buff below, with a bold black eyestripe running from bill through the eye onto the neck. Long pointed grey bill, short tail, large head, grey legs."
+   "reviewed": false
   },
   "rocpet1": {
    "name": "Rock Sparrow",
    "sci": "Petronia petronia",
    "family": "Old World Sparrows",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rocpet1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43010621/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stocky pale sparrow with streaky grey-brown upperparts, a boldly striped head with broad pale crown stripe and supercilium, and a small yellow throat spot. White tail-tip spots, stout pale horn bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rocpet1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.902,
-     "pose": 0.303,
-     "bird": 0.772
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.907,
+     "pose": 0.445,
+     "bird": 0.777
     },
     {
      "id": "v1",
      "img": "review_imgs/rocpet1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.93,
-     "pose": 0.287,
-     "bird": 0.338
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rocpet1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.895,
-     "pose": 0.357,
-     "bird": 0.225
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.894,
+     "pose": 0.356,
+     "bird": 0.496
     }
    ],
-   "id": "Stocky pale sparrow with streaky grey-brown upperparts, a boldly striped head with broad pale crown stripe and supercilium, and a small yellow throat spot. White tail-tip spots, stout pale horn bill, pinkish legs."
+   "reviewed": false
   },
   "rocpig": {
    "name": "Rock Pigeon",
