@@ -11866,83 +11866,67 @@
    "name": "Meadow Pipit",
    "sci": "Anthus pratensis",
    "family": "Wagtails and Pipits",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/meapip1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204922651/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small streaky brown pipit, olive-brown above with heavy dark streaking, whitish underparts boldly streaked on breast and flanks, a thin pale eye-ring, pink legs with a very long hind claw, and fine bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/meapip1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.837,
-     "pose": 0.205,
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.847,
+     "pose": 0.261,
      "bird": 0.608
     },
     {
      "id": "v1",
      "img": "review_imgs/meapip1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.883,
-     "pose": 0.222,
-     "bird": 0.484
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/meapip1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.885,
-     "pose": 0.118,
-     "bird": 0.5
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.9,
+     "pose": 0.147,
+     "bird": 0.472
     }
    ],
-   "id": "Small streaky brown pipit, olive-brown above with heavy dark streaking, whitish underparts boldly streaked on breast and flanks, a thin pale eye-ring, pink legs with a very long hind claw, and fine bill."
+   "reviewed": false
   },
   "medgul1": {
    "name": "Mediterranean Gull",
    "sci": "Ichthyaetus melanocephalus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/medgul1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/205045531/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pale gull with an all-white wingtips, pale grey back, jet-black hood with broken white eye-crescents, bright blood-red drooping bill, and red legs; clean white underparts.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/medgul1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.907,
-     "pose": 0.165,
-     "bird": 0.968
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.904,
+     "pose": 0.284,
+     "bird": 0.969
     },
     {
      "id": "v1",
      "img": "review_imgs/medgul1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.893,
-     "pose": 0.164,
-     "bird": 0.898
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/medgul1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.905,
-     "pose": 0.088,
-     "bird": 0.923
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.901,
+     "pose": 0.159,
+     "bird": 0.967
     }
    ],
-   "id": "Pale gull with an all-white wingtips, pale grey back, jet-black hood with broken white eye-crescents, bright blood-red drooping bill, and red legs; clean white underparts."
+   "reviewed": false
   },
   "medshe1": {
    "name": "Yelkouan Shearwater",
@@ -11989,83 +11973,67 @@
    "name": "Melodious Warbler",
    "sci": "Hippolais polyglotta",
    "family": "Reed Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/melwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/100488051/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Plain greenish-grey warbler, olive-toned above and pale lemon-yellow below, with a yellowish face and faint supercilium, short rounded wings lacking a pale panel, pinkish-brown legs, and a broad pale-based bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/melwar1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.048,
-     "bird": 0.491
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.878,
+     "pose": 0.08,
+     "bird": 0.751
     },
     {
      "id": "v1",
      "img": "review_imgs/melwar1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.889,
-     "pose": 0.107,
-     "bird": 0.436
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/melwar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.875,
-     "pose": 0.048,
-     "bird": 0.381
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.885,
+     "pose": 0.145,
+     "bird": 0.502
     }
    ],
-   "id": "Plain greenish-grey warbler, olive-toned above and pale lemon-yellow below, with a yellowish face and faint supercilium, short rounded wings lacking a pale panel, pinkish-brown legs, and a broad pale-based bill."
+   "reviewed": false
   },
   "merlin": {
    "name": "Merlin",
    "sci": "Falco columbarius",
    "family": "Falcons and Caracaras",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/merlin/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/27354311/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small compact falcon; male slate-blue above with a rusty-streaked buff breast, faint dark moustache, and a broad black subterminal tail band; short pointed wings, yellow legs, dark-tipped yellow-based bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/merlin/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.903,
-     "pose": 0.598,
-     "bird": 0.867
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.899,
+     "pose": 0.57,
+     "bird": 0.697
     },
     {
      "id": "v1",
      "img": "review_imgs/merlin/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.865,
-     "pose": 0.625,
-     "bird": 0.835
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/merlin/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.896,
-     "pose": 0.685,
-     "bird": 0.656
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.873,
+     "pose": 0.614,
+     "bird": 0.705
     }
    ],
-   "id": "Small compact falcon; male slate-blue above with a rusty-streaked buff breast, faint dark moustache, and a broad black subterminal tail band; short pointed wings, yellow legs, dark-tipped yellow-based bill."
+   "reviewed": false
   },
   "mewgul": {
    "name": "Common Gull",
@@ -12112,42 +12080,34 @@
    "name": "Mistle Thrush",
    "sci": "Turdus viscivorus",
    "family": "Thrushes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/misthr1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44504961/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large pale grey-brown thrush with whitish underparts heavily marked with bold round black spots, greyish upperparts, white wing-bar edges, white-cornered tail, an upright stance, and pale belly; dark bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/misthr1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.9,
-     "pose": 0.571,
-     "bird": 0.56
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.885,
+     "pose": 0.371,
+     "bird": 0.59
     },
     {
      "id": "v1",
      "img": "review_imgs/misthr1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.896,
-     "pose": 0.62,
-     "bird": 0.2
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/misthr1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.886,
-     "pose": 0.314,
-     "bird": 0.352
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.901,
+     "pose": 0.407,
+     "bird": 0.218
     }
    ],
-   "id": "Large pale grey-brown thrush with whitish underparts heavily marked with bold round black spots, greyish upperparts, white wing-bar edges, white-cornered tail, an upright stance, and pale belly; dark bill, pinkish legs."
+   "reviewed": false
   },
   "miswoo1": {
    "name": "Middle Spotted Woodpecker",
