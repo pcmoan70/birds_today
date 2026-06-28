@@ -8609,206 +8609,202 @@
    "name": "Common Swift",
    "sci": "Apus apus",
    "family": "Swifts",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/comswi/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36129661/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "All sooty-black aerial bird with a pale greyish throat patch, very long slender scythe-shaped swept-back wings, a short forked tail and a tiny black bill; streamlined cigar-shaped body. Head held low in line with the streamlined body, not rounded.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comswi/v0.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.793,
-     "pose": 0.049,
-     "bird": 0.631
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.857,
+     "pose": 0.01,
+     "bird": 0.343
     },
     {
      "id": "v1",
      "img": "review_imgs/comswi/v1.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.857,
+     "sim": 0.854,
      "pose": 0.009,
-     "bird": 0.347
+     "bird": 0.237
     },
     {
      "id": "v2",
      "img": "review_imgs/comswi/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.809,
-     "pose": 0.016,
-     "bird": 0.315
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.848,
+     "pose": 0.008,
+     "bird": 0.234
     }
    ],
-   "id": "All sooty-black aerial bird with a pale greyish throat patch, very long slender scythe-shaped swept-back wings, a short forked tail and a tiny black bill; streamlined cigar-shaped body. Head held low in line with the streamlined body, not rounded."
+   "reviewed": false
   },
   "crebun2": {
    "name": "Cretzschmar's Bunting",
    "sci": "Emberiza caesia",
    "family": "Old World Buntings",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/crebun2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104406541/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Bunting with a blue-grey head and breast, a rusty-orange throat and eye-ring, warm rufous-brown streaked back, pinkish belly and a pinkish conical bill; like Ortolan but with grey throat. Head blue-grey with a rusty-orange throat; bill short, conical and pinkish.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/crebun2/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.863,
-     "pose": 0.293,
-     "bird": 0.506
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.859,
+     "pose": 0.188,
+     "bird": 0.38
     },
     {
      "id": "v1",
      "img": "review_imgs/crebun2/v1.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.858,
-     "pose": 0.095,
-     "bird": 0.647
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.853,
+     "pose": 0.139,
+     "bird": 0.305
     },
     {
      "id": "v2",
      "img": "review_imgs/crebun2/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.826,
-     "pose": 0.154,
-     "bird": 0.21
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.881,
+     "pose": 0.159,
+     "bird": 0.208
     }
    ],
-   "id": "Bunting with a blue-grey head and breast, a rusty-orange throat and eye-ring, warm rufous-brown streaked back, pinkish belly and a pinkish conical bill; like Ortolan but with grey throat. Head blue-grey with a rusty-orange throat; bill short, conical and pinkish."
+   "reviewed": false
   },
   "cursan": {
    "name": "Curlew Sandpiper",
    "sci": "Calidris ferruginea",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/cursan/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/78879241/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim wader with a long down-curved black bill, in breeding plumage rich brick-red on the head, underparts and back which is also scaled black, and a white rump; black legs, longer-legged and longer-billed than Dunlin.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/cursan/v0.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.839,
-     "pose": 0.317,
-     "bird": 0.608
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.845,
+     "pose": 0.226,
+     "bird": 0.603
     },
     {
      "id": "v1",
      "img": "review_imgs/cursan/v1.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.843,
-     "pose": 0.184,
-     "bird": 0.596
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/cursan/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.841,
-     "pose": 0.205,
-     "bird": 0.211
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.839,
+     "pose": 0.129,
+     "bird": 0.652
     }
    ],
-   "id": "Slim wader with a long down-curved black bill, in breeding plumage rich brick-red on the head, underparts and back which is also scaled black, and a white rump; black legs, longer-legged and longer-billed than Dunlin."
+   "reviewed": false
   },
   "cypwar1": {
    "name": "Cyprus Warbler",
    "sci": "Curruca melanothorax",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/cypwar1/before.png",
    "ref": "review_imgs/cypwar1/ref.jpg",
    "ref_source": "gbif",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small dark Sylvia-type warbler, slate-grey above, with a black head and heavy black scaling spotting on the white throat and breast, a red eye-ring and pale iris, and a long blackish white-edged tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/cypwar1/v0.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.729,
-     "pose": 0.074,
-     "bird": 0.385
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.695,
+     "pose": 0.458,
+     "bird": 0.405
     },
     {
      "id": "v1",
      "img": "review_imgs/cypwar1/v1.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.828,
-     "pose": 0.023,
-     "bird": 0.212
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.687,
+     "pose": 0.178,
+     "bird": 0.617
     },
     {
      "id": "v2",
      "img": "review_imgs/cypwar1/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.711,
-     "pose": 0.12,
-     "bird": 0.206
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.675,
+     "pose": 0.323,
+     "bird": 0.387
     }
    ],
-   "id": "Small dark Sylvia-type warbler, slate-grey above, with a black head and heavy black scaling spotting on the white throat and breast, a red eye-ring and pale iris, and a long blackish white-edged tail."
+   "reviewed": false
   },
   "delpri1": {
    "name": "Delicate Prinia",
    "sci": "Prinia lepida",
    "family": "Cisticolas and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/delpri1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/99215471/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny pale sandy-grey prinia, faintly streaked above, with whitish underparts, a pale supercilium, a slim dark bill, pinkish legs and a long graduated tail tipped white; slender and long-tailed.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/delpri1/v0.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.865,
-     "pose": 0.095,
-     "bird": 0.698
+     "sim": 0.853,
+     "pose": 0.178,
+     "bird": 0.837
     },
     {
      "id": "v1",
      "img": "review_imgs/delpri1/v1.png",
-     "seed": 1006,
+     "seed": 1011,
      "strength": 0.68,
-     "sim": 0.849,
-     "pose": 0.113,
-     "bird": 0.693
+     "sim": 0.82,
+     "pose": 0.048,
+     "bird": 0.762
     },
     {
      "id": "v2",
      "img": "review_imgs/delpri1/v2.png",
-     "seed": 1007,
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.852,
-     "pose": 0.091,
-     "bird": 0.586
+     "sim": 0.826,
+     "pose": 0.056,
+     "bird": 0.618
     }
    ],
-   "id": "Tiny pale sandy-grey prinia, faintly streaked above, with whitish underparts, a pale supercilium, a slim dark bill, pinkish legs and a long graduated tail tipped white; slender and long-tailed."
+   "reviewed": false
   },
   "doveki": {
    "name": "Dovekie",
