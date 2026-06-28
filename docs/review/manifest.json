@@ -18992,6 +18992,206 @@
      "bird": 0.25
     }
    ]
+  },
+  "wfspet": {
+   "name": "White-faced Storm-Petrel",
+   "sci": "Pelagodroma marina",
+   "family": "Southern Storm-Petrels",
+   "reason": "all",
+   "before": "review_imgs/wfspet/before.png",
+   "ref": "review_imgs/wfspet/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/wfspet/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.862,
+     "pose": 0.019,
+     "bird": 0.895
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/wfspet/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.839,
+     "pose": 0.005,
+     "bird": 0.771
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/wfspet/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.845,
+     "pose": 0.007,
+     "bird": 0.75
+    }
+   ]
+  },
+  "whbwoo1": {
+   "name": "White-backed Woodpecker",
+   "sci": "Dendrocopos leucotos",
+   "family": "Woodpeckers",
+   "reason": "all",
+   "before": "review_imgs/whbwoo1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/212416291/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whbwoo1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.696,
+     "pose": 0.198,
+     "bird": 0.786
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whbwoo1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.722,
+     "pose": 0.124,
+     "bird": 0.737
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whbwoo1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.74,
+     "pose": 0.083,
+     "bird": 0.599
+    }
+   ]
+  },
+  "whhduc1": {
+   "name": "White-headed Duck",
+   "sci": "Oxyura leucocephala",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/whhduc1/before.png",
+   "ref": "review_imgs/whhduc1/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whhduc1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.866,
+     "pose": 0.089,
+     "bird": 0.617
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whhduc1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.838,
+     "pose": 0.058,
+     "bird": 0.607
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whhduc1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.813,
+     "pose": 0.085,
+     "bird": 0.627
+    }
+   ]
+  },
+  "whimbr5": {
+   "name": "Eurasian Whimbrel",
+   "sci": "Numenius phaeopus",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/whimbr5/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257786691/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whimbr5/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.898,
+     "pose": 0.36,
+     "bird": 0.676
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whimbr5/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.893,
+     "pose": 0.285,
+     "bird": 0.732
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whimbr5/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.882,
+     "pose": 0.287,
+     "bird": 0.369
+    }
+   ]
+  },
+  "whinch1": {
+   "name": "Whinchat",
+   "sci": "Saxicola rubetra",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/whinch1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42408031/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whinch1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.881,
+     "pose": 0.533,
+     "bird": 0.804
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whinch1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.852,
+     "pose": 0.487,
+     "bird": 0.797
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whinch1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.814,
+     "pose": 0.421,
+     "bird": 0.818
+    }
+   ]
   }
  }
 }
