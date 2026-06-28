@@ -14277,42 +14277,34 @@
    "name": "Red-footed Falcon",
    "sci": "Falco vespertinus",
    "family": "Falcons and Caracaras",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/reffal1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204150991/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small slim falcon; male overall dark slate-grey with rusty-red thighs and undertail coverts, and silvery-grey flight feathers. Bright orange-red cere, eye-ring and legs, dark hooked bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/reffal1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.83,
-     "pose": 0.336,
-     "bird": 0.235
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.84,
+     "pose": 0.259,
+     "bird": 0.366
     },
     {
      "id": "v1",
      "img": "review_imgs/reffal1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.869,
-     "pose": 0.26,
-     "bird": 0.19
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/reffal1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.85,
-     "pose": 0.173,
-     "bird": 0.208
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.857,
+     "pose": 0.218,
+     "bird": 0.125
     }
    ],
-   "id": "Small slim falcon; male overall dark slate-grey with rusty-red thighs and undertail coverts, and silvery-grey flight feathers. Bright orange-red cere, eye-ring and legs, dark hooked bill."
+   "reviewed": false
   },
   "rekcoo1": {
    "name": "Red-knobbed Coot",
@@ -14359,165 +14351,133 @@
    "name": "Red-legged Partridge",
    "sci": "Alectoris rufa",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/relpar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/59866301/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Plump round partridge with brown back, blue-grey breast, and bold black-streaked chestnut-and-white barred flanks. White throat bordered by a black necklace breaking into streaks, red bill, red legs, red eye-ring.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/relpar1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.944,
-     "pose": 0.514,
-     "bird": 0.846
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.941,
+     "pose": 0.395,
+     "bird": 0.833
     },
     {
      "id": "v1",
      "img": "review_imgs/relpar1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.907,
-     "pose": 0.515,
-     "bird": 0.87
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/relpar1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.933,
-     "pose": 0.341,
-     "bird": 0.763
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.901,
+     "pose": 0.268,
+     "bird": 0.704
     }
    ],
-   "id": "Plump round partridge with brown back, blue-grey breast, and bold black-streaked chestnut-and-white barred flanks. White throat bordered by a black necklace breaking into streaks, red bill, red legs, red eye-ring."
+   "reviewed": false
   },
   "rengre": {
    "name": "Red-necked Grebe",
    "sci": "Podiceps grisegena",
    "family": "Grebes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rengre/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/59011691/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stocky grebe; breeding adult has a chestnut-red neck, pale grey cheeks bordered by a black cap, and dark grey-brown back. Stout black bill with yellow base, dark legs set far back, dark eye.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rengre/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.731,
-     "pose": 0.414,
-     "bird": 0.918
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.765,
+     "pose": 0.444,
+     "bird": 0.838
     },
     {
      "id": "v1",
      "img": "review_imgs/rengre/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.76,
-     "pose": 0.246,
-     "bird": 0.87
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rengre/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.779,
-     "pose": 0.464,
-     "bird": 0.583
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.749,
+     "pose": 0.256,
+     "bird": 0.845
     }
    ],
-   "id": "Stocky grebe; breeding adult has a chestnut-red neck, pale grey cheeks bordered by a black cap, and dark grey-brown back. Stout black bill with yellow base, dark legs set far back, dark eye."
+   "reviewed": false
   },
   "rennig1": {
    "name": "Red-necked Nightjar",
    "sci": "Caprimulgus ruficollis",
    "family": "Nightjars and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rennig1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/314205091/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large pale nightjar with cryptic grey-brown vermiculated plumage; warm rufous collar across the nape, buff-spotted wings, and small white throat patches. Tiny dark bill, very large dark eyes, short legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rennig1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.787,
-     "pose": 0.251,
-     "bird": 0.891
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.744,
+     "pose": 0.252,
+     "bird": 0.449
     },
     {
      "id": "v1",
      "img": "review_imgs/rennig1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.722,
-     "pose": 0.19,
-     "bird": 0.893
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rennig1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.761,
-     "pose": 0.155,
-     "bird": 0.76
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.742,
+     "pose": 0.053,
+     "bird": 0.575
     }
    ],
-   "id": "Large pale nightjar with cryptic grey-brown vermiculated plumage; warm rufous collar across the nape, buff-spotted wings, and small white throat patches. Tiny dark bill, very large dark eyes, short legs."
+   "reviewed": false
   },
   "renpha": {
    "name": "Red-necked Phalarope",
    "sci": "Phalaropus lobatus",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/renpha/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/240378151/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Dainty phalarope; breeding female has a dark grey head and back, white throat, a bright rufous-orange neck patch, and buff stripes on the back. Very thin needle-like black bill, dark lobed legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/renpha/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.785,
-     "pose": 0.258,
-     "bird": 0.755
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.833,
+     "pose": 0.495,
+     "bird": 0.798
     },
     {
      "id": "v1",
      "img": "review_imgs/renpha/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.794,
-     "pose": 0.289,
-     "bird": 0.62
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/renpha/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.745,
-     "pose": 0.154,
-     "bird": 0.458
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.782,
+     "pose": 0.425,
+     "bird": 0.798
     }
    ],
-   "id": "Dainty phalarope; breeding female has a dark grey head and back, white throat, a bright rufous-orange neck patch, and buff stripes on the back. Very thin needle-like black bill, dark lobed legs."
+   "reviewed": false
   },
   "retloo": {
    "name": "Red-throated Loon",
