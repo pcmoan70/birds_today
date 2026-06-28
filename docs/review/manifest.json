@@ -13819,6 +13819,206 @@
      "bird": 0.448
     }
    ]
+  },
+  "palwar5": {
+   "name": "Pallas's Leaf Warbler",
+   "sci": "Phylloscopus proregulus",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/palwar5/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63573791/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/palwar5/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.907,
+     "pose": 0.143,
+     "bird": 0.869
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/palwar5/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.91,
+     "pose": 0.214,
+     "bird": 0.61
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/palwar5/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.925,
+     "pose": 0.061,
+     "bird": 0.174
+    }
+   ]
+  },
+  "parcro2": {
+   "name": "Parrot Crossbill",
+   "sci": "Loxia pytyopsittacus",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/parcro2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/109633091/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/parcro2/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.865,
+     "pose": 0.065,
+     "bird": 0.605
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/parcro2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.875,
+     "pose": 0.057,
+     "bird": 0.447
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/parcro2/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.873,
+     "pose": 0.026,
+     "bird": 0.289
+    }
+   ]
+  },
+  "parjae": {
+   "name": "Parasitic Jaeger",
+   "sci": "Stercorarius parasiticus",
+   "family": "Skuas and Jaegers",
+   "reason": "all",
+   "before": "review_imgs/parjae/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64787191/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/parjae/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.906,
+     "pose": 0.019,
+     "bird": 0.755
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/parjae/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.917,
+     "pose": 0.035,
+     "bird": 0.691
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/parjae/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.904,
+     "pose": 0.035,
+     "bird": 0.591
+    }
+   ]
+  },
+  "pecsan": {
+   "name": "Pectoral Sandpiper",
+   "sci": "Calidris melanotos",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/pecsan/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31723701/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pecsan/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.943,
+     "pose": 0.423,
+     "bird": 0.782
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pecsan/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.93,
+     "pose": 0.256,
+     "bird": 0.839
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pecsan/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.934,
+     "pose": 0.181,
+     "bird": 0.497
+    }
+   ]
+  },
+  "perfal": {
+   "name": "Peregrine Falcon",
+   "sci": "Falco peregrinus",
+   "family": "Falcons and Caracaras",
+   "reason": "all",
+   "before": "review_imgs/perfal/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/288347741/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/perfal/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.933,
+     "pose": 0.678,
+     "bird": 0.848
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/perfal/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.935,
+     "pose": 0.68,
+     "bird": 0.836
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/perfal/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.924,
+     "pose": 0.684,
+     "bird": 0.765
+    }
+   ]
   }
  }
 }
