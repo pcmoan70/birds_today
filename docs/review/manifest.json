@@ -12419,6 +12419,206 @@
      "bird": 0.923
     }
    ]
+  },
+  "medshe1": {
+   "name": "Yelkouan Shearwater",
+   "sci": "Puffinus yelkouan",
+   "family": "Shearwaters and Petrels",
+   "reason": "all",
+   "before": "review_imgs/medshe1/before.png",
+   "ref": "review_imgs/medshe1/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/medshe1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.862,
+     "pose": 0.139,
+     "bird": 0.657
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/medshe1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.773,
+     "pose": 0.089,
+     "bird": 0.414
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/medshe1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.811,
+     "pose": 0.072,
+     "bird": 0.168
+    }
+   ]
+  },
+  "melwar1": {
+   "name": "Melodious Warbler",
+   "sci": "Hippolais polyglotta",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/melwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/100488051/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/melwar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.893,
+     "pose": 0.048,
+     "bird": 0.491
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/melwar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.889,
+     "pose": 0.107,
+     "bird": 0.436
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/melwar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.048,
+     "bird": 0.381
+    }
+   ]
+  },
+  "merlin": {
+   "name": "Merlin",
+   "sci": "Falco columbarius",
+   "family": "Falcons and Caracaras",
+   "reason": "all",
+   "before": "review_imgs/merlin/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/27354311/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/merlin/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.903,
+     "pose": 0.598,
+     "bird": 0.867
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/merlin/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.865,
+     "pose": 0.625,
+     "bird": 0.835
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/merlin/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.896,
+     "pose": 0.685,
+     "bird": 0.656
+    }
+   ]
+  },
+  "mewgul": {
+   "name": "Common Gull",
+   "sci": "Larus canus",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/mewgul/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/195654021/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/mewgul/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.895,
+     "pose": 0.419,
+     "bird": 0.799
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/mewgul/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.899,
+     "pose": 0.287,
+     "bird": 0.78
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/mewgul/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.885,
+     "pose": 0.25,
+     "bird": 0.747
+    }
+   ]
+  },
+  "misthr1": {
+   "name": "Mistle Thrush",
+   "sci": "Turdus viscivorus",
+   "family": "Thrushes",
+   "reason": "all",
+   "before": "review_imgs/misthr1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44504961/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/misthr1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.9,
+     "pose": 0.571,
+     "bird": 0.56
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/misthr1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.896,
+     "pose": 0.62,
+     "bird": 0.2
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/misthr1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.886,
+     "pose": 0.314,
+     "bird": 0.352
+    }
+   ]
   }
  }
 }
