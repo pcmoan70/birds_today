@@ -8058,206 +8058,193 @@
    "name": "Collared Pratincole",
    "sci": "Glareola pratincola",
    "family": "Pratincoles and Coursers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/colpra/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/33645371/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim tern-like wader, sandy-brown above and on the breast with a black-bordered creamy throat patch, white belly, and deeply forked tail. Chestnut underwing-coverts, red-based dark bill, short dark legs. A thin black line borders the creamy throat, curving back from the bill below the eye.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/colpra/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.901,
-     "pose": 0.205,
-     "bird": 0.646
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.89,
+     "pose": 0.233,
+     "bird": 0.498
     },
     {
      "id": "v1",
      "img": "review_imgs/colpra/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.892,
-     "pose": 0.177,
-     "bird": 0.653
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/colpra/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.908,
-     "pose": 0.275,
-     "bird": 0.521
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.895,
+     "pose": 0.186,
+     "bird": 0.389
     }
    ],
-   "id": "Slim tern-like wader, sandy-brown above and on the breast with a black-bordered creamy throat patch, white belly, and deeply forked tail. Chestnut underwing-coverts, red-based dark bill, short dark legs. A thin black line borders the creamy throat, curving back from the bill below the eye."
+   "reviewed": false
   },
   "comchi1": {
    "name": "Common Chiffchaff",
    "sci": "Phylloscopus collybita",
    "family": "Leaf Warblers",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/comchi1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/191052481/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny plain warbler, dull olive-brown above and off-white washed buff below, with a faint pale supercilium and pale eye-ring. Fine dark bill, blackish legs distinguishing it; short rounded wings, frequently dipped tail. Plumage smooth and plain with little feather detail; legs and feet distinctly dark.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comchi1/v0.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.778,
-     "pose": 0.185,
-     "bird": 0.784
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.789,
+     "pose": 0.072,
+     "bird": 0.81
     },
     {
      "id": "v1",
      "img": "review_imgs/comchi1/v1.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.739,
-     "pose": 0.203,
-     "bird": 0.817
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.805,
+     "pose": 0.064,
+     "bird": 0.696
     },
     {
      "id": "v2",
      "img": "review_imgs/comchi1/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.774,
-     "pose": 0.068,
-     "bird": 0.785
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.755,
+     "pose": 0.174,
+     "bird": 0.321
     }
    ],
-   "id": "Tiny plain warbler, dull olive-brown above and off-white washed buff below, with a faint pale supercilium and pale eye-ring. Fine dark bill, blackish legs distinguishing it; short rounded wings, frequently dipped tail. Plumage smooth and plain with little feather detail; legs and feet distinctly dark."
+   "reviewed": false
   },
   "comcuc": {
    "name": "Common Cuckoo",
    "sci": "Cuculus canorus",
    "family": "Cuckoos",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/comcuc/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/38117681/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim grey bird with a long graduated white-spotted tail, grey head and breast, and white underparts finely barred grey. Pointed falcon-like wings, yellow eye-ring and feet, slightly downcurved dark bill with yellow base.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comcuc/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.76,
-     "pose": 0.503,
-     "bird": 0.61
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.681,
+     "pose": 0.421,
+     "bird": 0.602
     },
     {
      "id": "v1",
      "img": "review_imgs/comcuc/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
+     "seed": 3011,
+     "strength": 0.7,
      "sim": 0.695,
-     "pose": 0.409,
-     "bird": 0.201
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comcuc/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.691,
-     "pose": 0.223,
-     "bird": 0.229
+     "pose": 0.26,
+     "bird": 0.474
     }
    ],
-   "id": "Slim grey bird with a long graduated white-spotted tail, grey head and breast, and white underparts finely barred grey. Pointed falcon-like wings, yellow eye-ring and feet, slightly downcurved dark bill with yellow base."
+   "reviewed": false
   },
   "comeid": {
    "name": "Common Eider",
    "sci": "Somateria mollissima",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/comeid/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299883211/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large heavy sea-duck; male white above with a black crown, pale green nape, white breast washed pink, and black flanks, belly and tail. Wedge-shaped grey-green bill sloping into forehead, dark legs. Face shows the pale sea-green nape patch clearly; natural side-on orientation.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comeid/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.823,
-     "pose": 0.166,
-     "bird": 0.832
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.808,
+     "pose": 0.226,
+     "bird": 0.95
     },
     {
      "id": "v1",
      "img": "review_imgs/comeid/v1.png",
-     "seed": 1007,
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.743,
-     "pose": 0.265,
-     "bird": 0.848
+     "sim": 0.802,
+     "pose": 0.207,
+     "bird": 0.892
     },
     {
      "id": "v2",
      "img": "review_imgs/comeid/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.792,
-     "pose": 0.13,
-     "bird": 0.849
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.836,
+     "pose": 0.195,
+     "bird": 0.83
     }
    ],
-   "id": "Large heavy sea-duck; male white above with a black crown, pale green nape, white breast washed pink, and black flanks, belly and tail. Wedge-shaped grey-green bill sloping into forehead, dark legs. Face shows the pale sea-green nape patch clearly; natural side-on orientation."
+   "reviewed": false
   },
   "comgol": {
    "name": "Common Goldeneye",
    "sci": "Bucephala clangula",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/comgol/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301917401/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Compact diving duck; male with a glossy green-black rounded head, a round white spot before the golden-yellow eye, white body, and black back. Black-and-white wings, short dark bill, yellow-orange legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comgol/v0.png",
-     "seed": 1006,
+     "seed": 1011,
      "strength": 0.68,
-     "sim": 0.801,
-     "pose": 0.136,
-     "bird": 0.938
+     "sim": 0.795,
+     "pose": 0.222,
+     "bird": 0.874
     },
     {
      "id": "v1",
      "img": "review_imgs/comgol/v1.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.787,
-     "pose": 0.158,
-     "bird": 0.606
+     "sim": 0.797,
+     "pose": 0.145,
+     "bird": 0.94
     },
     {
      "id": "v2",
      "img": "review_imgs/comgol/v2.png",
-     "seed": 1007,
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.741,
-     "pose": 0.064,
-     "bird": 0.523
+     "sim": 0.711,
+     "pose": 0.078,
+     "bird": 0.668
     }
    ],
-   "id": "Compact diving duck; male with a glossy green-black rounded head, a round white spot before the golden-yellow eye, white body, and black back. Black-and-white wings, short dark bill, yellow-orange legs."
+   "reviewed": false
   },
   "comgre": {
    "name": "Common Greenshank",
