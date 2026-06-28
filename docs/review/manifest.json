@@ -13429,206 +13429,166 @@
    "name": "Pied Kingfisher",
    "sci": "Ceryle rudis",
    "family": "Kingfishers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/piekin1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44256731/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Crested black-and-white kingfisher speckled and barred all over; white underparts with one or two black breast bands, black mask and crest streaked white. Long straight black dagger bill, blackish legs, large head.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/piekin1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.79,
-     "pose": 0.358,
-     "bird": 0.699
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.845,
+     "pose": 0.27,
+     "bird": 0.834
     },
     {
      "id": "v1",
      "img": "review_imgs/piekin1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.812,
-     "pose": 0.445,
-     "bird": 0.38
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/piekin1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.8,
-     "pose": 0.211,
-     "bird": 0.486
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.803,
+     "pose": 0.414,
+     "bird": 0.096
     }
    ],
-   "id": "Crested black-and-white kingfisher speckled and barred all over; white underparts with one or two black breast bands, black mask and crest streaked white. Long straight black dagger bill, blackish legs, large head."
+   "reviewed": false
   },
   "pifgoo": {
    "name": "Pink-footed Goose",
    "sci": "Anser brachyrhynchus",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/pifgoo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/40740951/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Compact grey-brown goose with a darker chocolate-brown head and neck, pale-fringed back giving a barred look, and pale grey forewing. Short dark bill with a pink central band, and bright pink legs and feet.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/pifgoo/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.921,
-     "pose": 0.374,
-     "bird": 0.939
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.914,
+     "pose": 0.277,
+     "bird": 0.973
     },
     {
      "id": "v1",
      "img": "review_imgs/pifgoo/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.911,
-     "pose": 0.213,
-     "bird": 0.956
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/pifgoo/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.871,
-     "pose": 0.29,
-     "bird": 0.958
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.865,
+     "pose": 0.265,
+     "bird": 0.968
     }
    ],
-   "id": "Compact grey-brown goose with a darker chocolate-brown head and neck, pale-fringed back giving a barred look, and pale grey forewing. Short dark bill with a pink central band, and bright pink legs and feet."
+   "reviewed": false
   },
   "pingro": {
    "name": "Pine Grosbeak",
    "sci": "Pinicola enucleator",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/pingro/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64887111/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Plump large finch with a stubby curved black bill; male rich rosy-red on head, breast and rump with grey flanks and belly, blackish wings showing two white wing bars. Dark eye, dark legs, long notched tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/pingro/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.922,
-     "pose": 0.058,
-     "bird": 0.475
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.924,
+     "pose": 0.076,
+     "bird": 0.487
     },
     {
      "id": "v1",
      "img": "review_imgs/pingro/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.12,
-     "bird": 0.288
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/pingro/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.935,
-     "pose": 0.026,
-     "bird": 0.254
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.931,
+     "pose": 0.077,
+     "bird": 0.302
     }
    ],
-   "id": "Plump large finch with a stubby curved black bill; male rich rosy-red on head, breast and rump with grey flanks and belly, blackish wings showing two white wing bars. Dark eye, dark legs, long notched tail."
+   "reviewed": false
   },
   "pitsan1": {
    "name": "Pin-tailed Sandgrouse",
    "sci": "Pterocles alchata",
    "family": "Sandgrouse",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/pitsan1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168694491/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Sandgrouse with a white belly, chestnut-bordered creamy breast band, finely vermiculated greenish-buff upperparts, and very long needle-like central tail feathers. Small pigeon-like head, short grey bill, feathered legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/pitsan1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.822,
-     "pose": 0.239,
-     "bird": 0.682
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.845,
+     "pose": 0.202,
+     "bird": 0.229
     },
     {
      "id": "v1",
      "img": "review_imgs/pitsan1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.843,
-     "pose": 0.091,
-     "bird": 0.439
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/pitsan1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.798,
-     "pose": 0.288,
-     "bird": 0.219
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.769,
+     "pose": 0.098,
+     "bird": 0.173
     }
    ],
-   "id": "Sandgrouse with a white belly, chestnut-bordered creamy breast band, finely vermiculated greenish-buff upperparts, and very long needle-like central tail feathers. Small pigeon-like head, short grey bill, feathered legs."
+   "reviewed": false
   },
   "pomjae": {
    "name": "Pomarine Jaeger",
    "sci": "Stercorarius pomarinus",
    "family": "Skuas and Jaegers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/pomjae/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107100071/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Bulky dark skua, pale morph with blackish cap, white underparts, dark brown back and broad breast band, white wing flash. Diagnostic long blunt central tail feathers twisted into a spoon, heavy bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/pomjae/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.893,
-     "pose": 0.033,
-     "bird": 0.37
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.835,
+     "pose": 0.004,
+     "bird": 0.621
     },
     {
      "id": "v1",
      "img": "review_imgs/pomjae/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.898,
-     "pose": 0.018,
-     "bird": 0.279
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/pomjae/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.869,
-     "pose": 0.009,
-     "bird": 0.241
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.886,
+     "pose": 0.038,
+     "bird": 0.185
     }
    ],
-   "id": "Bulky dark skua, pale morph with blackish cap, white underparts, dark brown back and broad breast band, white wing flash. Diagnostic long blunt central tail feathers twisted into a spoon, heavy bill, dark legs."
+   "reviewed": false
   },
   "purher1": {
    "name": "Purple Heron",
