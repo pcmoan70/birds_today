@@ -19192,6 +19192,206 @@
      "bird": 0.818
     }
    ]
+  },
+  "whisto1": {
+   "name": "White Stork",
+   "sci": "Ciconia ciconia",
+   "family": "Storks",
+   "reason": "all",
+   "before": "review_imgs/whisto1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/109122381/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whisto1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.92,
+     "pose": 0.474,
+     "bird": 0.843
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whisto1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.923,
+     "pose": 0.3,
+     "bird": 0.868
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whisto1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.909,
+     "pose": 0.36,
+     "bird": 0.475
+    }
+   ]
+  },
+  "whiter2": {
+   "name": "Whiskered Tern",
+   "sci": "Chlidonias hybrida",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/whiter2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30334171/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whiter2/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.886,
+     "pose": 0.087,
+     "bird": 0.738
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whiter2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.888,
+     "pose": 0.046,
+     "bird": 0.706
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whiter2/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.891,
+     "pose": 0.032,
+     "bird": 0.688
+    }
+   ]
+  },
+  "whiwag": {
+   "name": "White Wagtail",
+   "sci": "Motacilla alba",
+   "family": "Wagtails and Pipits",
+   "reason": "all",
+   "before": "review_imgs/whiwag/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42547971/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whiwag/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.934,
+     "pose": 0.154,
+     "bird": 0.752
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whiwag/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.924,
+     "pose": 0.121,
+     "bird": 0.554
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whiwag/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.918,
+     "pose": 0.065,
+     "bird": 0.363
+    }
+   ]
+  },
+  "whoswa": {
+   "name": "Whooper Swan",
+   "sci": "Cygnus cygnus",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/whoswa/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/199133081/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whoswa/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.921,
+     "pose": 0.432,
+     "bird": 0.859
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whoswa/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.913,
+     "pose": 0.353,
+     "bird": 0.722
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whoswa/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.912,
+     "pose": 0.279,
+     "bird": 0.708
+    }
+   ]
+  },
+  "whrswi1": {
+   "name": "White-rumped Swift",
+   "sci": "Apus caffer",
+   "family": "Swifts",
+   "reason": "all",
+   "before": "review_imgs/whrswi1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/58297481/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whrswi1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.841,
+     "pose": 0.001,
+     "bird": 0.754
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whrswi1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.908,
+     "pose": 0.006,
+     "bird": 0.443
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whrswi1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.855,
+     "pose": 0.002,
+     "bird": 0.544
+    }
+   ]
   }
  }
 }
