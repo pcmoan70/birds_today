@@ -104,11 +104,13 @@ def main():
             queued += 1
 
         if satisfied:
-            # Finalize: keep the chosen image (if any) live, drop off the page.
+            # Finalize: keep the chosen image (if any) live, drop off the page,
+            # and cancel any pending generation job for it.
             if choice and set_live(code, choice):
                 pass
             if code in review["species"]:
                 review["species"][code]["reviewed"] = True
+            jobs = [j for j in jobs if j["code"] != code]
             finalized += 1
             print(f"  {code}: satisfied -> finalized")
             continue
