@@ -156,6 +156,8 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
 }
 .fb button.up.act { background: #bfe3b0; }
 .fb button.down.act { background: #e8b4ad; }
+.fb button.rev { font-size: 12px; }
+.fb button.rev:hover { background: #cfe0d3; }
 
 #status {
   position: fixed; bottom: 10px; left: 0; right: 0; z-index: 20;

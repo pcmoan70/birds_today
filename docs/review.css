@@ -31,6 +31,12 @@ body {
   background: var(--paper); border: 1px solid #ddd5c2; border-radius: 12px;
   padding: 14px 16px; box-shadow: 0 6px 16px rgba(0,0,0,0.06);
 }
+/* Flash a deep-linked species (arrived via review.html#<code>). */
+@keyframes cardflash {
+  0%, 100% { box-shadow: 0 6px 16px rgba(0,0,0,0.06); }
+  20%, 60% { box-shadow: 0 0 0 3px var(--accent), 0 6px 16px rgba(0,0,0,0.12); }
+}
+.card.flash { animation: cardflash 2.4s ease-in-out; }
 .card .head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
 .card .name { font-family: "Playfair Display", Georgia, serif; font-size: 19px; font-weight: 600; }
 .card .sci { font-style: italic; color: var(--muted); font-size: 14px; }
