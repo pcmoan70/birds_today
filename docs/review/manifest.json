@@ -15555,124 +15555,100 @@
    "name": "Savi's Warbler",
    "sci": "Locustella luscinioides",
    "family": "Grassbirds and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/savwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/172916321/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Plain warm unstreaked reddish-brown warbler with rounded, broad fan-shaped tail; faint buff supercilium, whitish throat, buffy underparts. Slim pointed bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/savwar1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.892,
-     "pose": 0.062,
-     "bird": 0.412
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.897,
+     "pose": 0.027,
+     "bird": 0.342
     },
     {
      "id": "v1",
      "img": "review_imgs/savwar1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.877,
-     "pose": 0.133,
-     "bird": 0.223
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/savwar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.841,
-     "pose": 0.044,
-     "bird": 0.171
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.87,
+     "pose": 0.056,
+     "bird": 0.066
     }
    ],
-   "id": "Plain warm unstreaked reddish-brown warbler with rounded, broad fan-shaped tail; faint buff supercilium, whitish throat, buffy underparts. Slim pointed bill, pinkish legs."
+   "reviewed": false
   },
   "scoshe1": {
    "name": "Scopoli's Shearwater",
    "sci": "Calonectris diomedea",
    "family": "Shearwaters and Petrels",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/scoshe1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104100491/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large brown-grey shearwater, brown above and white below; pale grey-brown head merging into white throat. Yellowish bill with dark tip; pinkish legs. Long broad wings.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/scoshe1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.881,
-     "pose": 0.022,
-     "bird": 0.825
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.88,
+     "pose": 0.017,
+     "bird": 0.739
     },
     {
      "id": "v1",
      "img": "review_imgs/scoshe1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.894,
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.898,
      "pose": 0.018,
-     "bird": 0.643
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/scoshe1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.897,
-     "pose": 0.016,
-     "bird": 0.604
+     "bird": 0.657
     }
    ],
-   "id": "Large brown-grey shearwater, brown above and white below; pale grey-brown head merging into white throat. Yellowish bill with dark tip; pinkish legs. Long broad wings."
+   "reviewed": false
   },
   "sedwar1": {
    "name": "Sedge Warbler",
    "sci": "Acrocephalus schoenobaenus",
    "family": "Reed Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/sedwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23750451/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Streaky brown warbler with bold creamy-white supercilium and darker crown; warm rufous unstreaked rump, streaked back, plain buff underparts. Pointed dark bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sedwar1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.816,
-     "pose": 0.467,
-     "bird": 0.896
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.848,
+     "pose": 0.321,
+     "bird": 0.789
     },
     {
      "id": "v1",
      "img": "review_imgs/sedwar1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.814,
-     "pose": 0.519,
-     "bird": 0.789
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sedwar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.827,
-     "pose": 0.405,
-     "bird": 0.737
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.779,
+     "pose": 0.335,
+     "bird": 0.793
     }
    ],
-   "id": "Streaky brown warbler with bold creamy-white supercilium and darker crown; warm rufous unstreaked rump, streaked back, plain buff underparts. Pointed dark bill, pinkish legs."
+   "reviewed": false
   },
   "semfly1": {
    "name": "Semicollared Flycatcher",
@@ -15719,83 +15695,67 @@
    "name": "Short-eared Owl",
    "sci": "Asio flammeus",
    "family": "Typical Owls",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/sheowl/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35565681/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium pale buff-brown owl boldly streaked dark; rounded facial disc with piercing yellow eyes ringed black, short ear tufts. Long wings showing dark wrist patches. Feathered legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sheowl/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.927,
-     "pose": 0.413,
-     "bird": 0.536
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.941,
+     "pose": 0.424,
+     "bird": 0.418
     },
     {
      "id": "v1",
      "img": "review_imgs/sheowl/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.925,
-     "pose": 0.456,
-     "bird": 0.484
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sheowl/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.883,
-     "pose": 0.396,
-     "bird": 0.312
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.904,
+     "pose": 0.246,
+     "bird": 0.516
     }
    ],
-   "id": "Medium pale buff-brown owl boldly streaked dark; rounded facial disc with piercing yellow eyes ringed black, short ear tufts. Long wings showing dark wrist patches. Feathered legs."
+   "reviewed": false
   },
   "shteag1": {
    "name": "Short-toed Snake-Eagle",
    "sci": "Circaetus gallicus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/shteag1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36323561/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large pale eagle, greyish-brown above, white below; broad dark brown head and upper breast. Striking bright yellow eyes, big rounded head, owl-like face. Long broad wings, pale bluish bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/shteag1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.785,
-     "pose": 0.744,
-     "bird": 0.816
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.741,
+     "pose": 0.012,
+     "bird": 0.389
     },
     {
      "id": "v1",
      "img": "review_imgs/shteag1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.786,
-     "pose": 0.065,
-     "bird": 0.629
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/shteag1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.783,
-     "pose": 0.033,
-     "bird": 0.245
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.751,
+     "pose": 0.008,
+     "bird": 0.322
     }
    ],
-   "id": "Large pale eagle, greyish-brown above, white below; broad dark brown head and upper breast. Striking bright yellow eyes, big rounded head, owl-like face. Long broad wings, pale bluish bill."
+   "reviewed": false
   },
   "shttre1": {
    "name": "Short-toed Treecreeper",
