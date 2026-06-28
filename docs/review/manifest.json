@@ -15143,206 +15143,166 @@
    "name": "Ruddy Duck",
    "sci": "Oxyura jamaicensis",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rudduc/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/166130231/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small dumpy diving duck with large head and stiff cocked tail; chestnut body, black cap, gleaming white cheeks. Bright sky-blue bill (breeding male), dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rudduc/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.879,
-     "pose": 0.03,
-     "bird": 0.872
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.84,
+     "pose": 0.085,
+     "bird": 0.662
     },
     {
      "id": "v1",
      "img": "review_imgs/rudduc/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.823,
-     "pose": 0.103,
-     "bird": 0.792
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rudduc/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.702,
-     "pose": 0.041,
-     "bird": 0.801
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.772,
+     "pose": 0.024,
+     "bird": 0.688
     }
    ],
-   "id": "Small dumpy diving duck with large head and stiff cocked tail; chestnut body, black cap, gleaming white cheeks. Bright sky-blue bill (breeding male), dark legs."
+   "reviewed": false
   },
   "rudshe": {
    "name": "Ruddy Shelduck",
    "sci": "Tadorna ferruginea",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rudshe/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/135694691/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large orange-chestnut shelduck with paler buff-orange head; black bill and legs. In flight shows bold white wing coverts and green speculum. Slim black neck collar in breeding male.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rudshe/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.937,
-     "pose": 0.447,
-     "bird": 0.966
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.942,
+     "pose": 0.374,
+     "bird": 0.944
     },
     {
      "id": "v1",
      "img": "review_imgs/rudshe/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.953,
-     "pose": 0.448,
-     "bird": 0.909
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rudshe/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.935,
-     "pose": 0.362,
-     "bird": 0.861
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.927,
+     "pose": 0.276,
+     "bird": 0.956
     }
    ],
-   "id": "Large orange-chestnut shelduck with paler buff-orange head; black bill and legs. In flight shows bold white wing coverts and green speculum. Slim black neck collar in breeding male."
+   "reviewed": false
   },
   "rudtur": {
    "name": "Ruddy Turnstone",
    "sci": "Arenaria interpres",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rudtur/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45254791/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stocky short-legged wader with harlequin pattern: rich chestnut-and-black back, black-and-white head and breast, white belly. Short slightly upturned black bill, bright orange legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rudtur/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.891,
-     "pose": 0.19,
-     "bird": 0.91
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.908,
+     "pose": 0.245,
+     "bird": 0.959
     },
     {
      "id": "v1",
      "img": "review_imgs/rudtur/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.919,
-     "pose": 0.129,
-     "bird": 0.877
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rudtur/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.908,
-     "pose": 0.121,
-     "bird": 0.86
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.914,
+     "pose": 0.17,
+     "bird": 0.81
     }
    ],
-   "id": "Stocky short-legged wader with harlequin pattern: rich chestnut-and-black back, black-and-white head and breast, white belly. Short slightly upturned black bill, bright orange legs."
+   "reviewed": false
   },
   "ruewar1": {
    "name": "Rüppell's Warbler",
    "sci": "Curruca ruppeli",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/ruewar1/before.png",
    "ref": "review_imgs/ruewar1/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim grey Sylvia-type warbler; male has black hood and throat bordered by bold white moustachial stripe. Grey upperparts, whitish underparts, red eye-ring, reddish eye, blackish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ruewar1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.888,
-     "pose": 0.304,
-     "bird": 0.89
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.879,
+     "pose": 0.19,
+     "bird": 0.743
     },
     {
      "id": "v1",
      "img": "review_imgs/ruewar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.878,
-     "pose": 0.294,
-     "bird": 0.825
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/ruewar1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.895,
-     "pose": 0.223,
-     "bird": 0.417
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.916,
+     "pose": 0.146,
+     "bird": 0.496
     }
    ],
-   "id": "Slim grey Sylvia-type warbler; male has black hood and throat bordered by bold white moustachial stripe. Grey upperparts, whitish underparts, red eye-ring, reddish eye, blackish legs."
+   "reviewed": false
   },
   "ruff": {
    "name": "Ruff",
    "sci": "Calidris pugnax",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/ruff/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/98650201/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium wader with small head, longish neck and slightly drooped bill; scaly buff-and-brown upperparts. Breeding male has huge ruff and head tufts (variable colour). Orange to greenish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ruff/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.848,
-     "pose": 0.099,
-     "bird": 0.865
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.877,
+     "pose": 0.153,
+     "bird": 0.906
     },
     {
      "id": "v1",
      "img": "review_imgs/ruff/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.865,
-     "pose": 0.107,
-     "bird": 0.752
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/ruff/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.878,
-     "pose": 0.056,
-     "bird": 0.722
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.881,
+     "pose": 0.108,
+     "bird": 0.824
     }
    ],
-   "id": "Medium wader with small head, longish neck and slightly drooped bill; scaly buff-and-brown upperparts. Breeding male has huge ruff and head tufts (variable colour). Orange to greenish legs."
+   "reviewed": false
   },
   "rusbun": {
    "name": "Rustic Bunting",
