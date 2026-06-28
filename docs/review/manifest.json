@@ -6487,165 +6487,142 @@
    "name": "Eurasian Thick-knee",
    "sci": "Burhinus oedicnemus",
    "family": "Stone-curlews and Thick-knees",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/eutkne1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/65155461/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Cryptic sandy-brown wader streaked darker, with a large rounded head, very large staring yellow eyes, a short black-tipped yellow bill, pale wingbars, and long thick yellowish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eutkne1/v0.png",
-     "seed": 1002,
+     "seed": 1007,
      "strength": 0.74,
-     "sim": 0.872,
-     "pose": 0.381,
-     "bird": 0.668
+     "sim": 0.877,
+     "pose": 0.385,
+     "bird": 0.567
     },
     {
      "id": "v1",
      "img": "review_imgs/eutkne1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.862,
-     "pose": 0.287,
-     "bird": 0.537
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.892,
+     "pose": 0.303,
+     "bird": 0.562
     },
     {
      "id": "v2",
      "img": "review_imgs/eutkne1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.889,
-     "pose": 0.352,
-     "bird": 0.172
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.875,
+     "pose": 0.27,
+     "bird": 0.369
     }
    ],
-   "id": "Cryptic sandy-brown wader streaked darker, with a large rounded head, very large staring yellow eyes, a short black-tipped yellow bill, pale wingbars, and long thick yellowish legs."
+   "reviewed": false
   },
   "eutspa": {
    "name": "Eurasian Tree Sparrow",
    "sci": "Passer montanus",
    "family": "Old World Sparrows",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/eutspa/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/219798061/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small sparrow with a chestnut-brown crown, white cheeks marked by a black ear-spot, a small black throat bib, brown-streaked back, pale underparts and a stout grey conical bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eutspa/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.897,
-     "pose": 0.206,
-     "bird": 0.765
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.899,
+     "pose": 0.099,
+     "bird": 0.678
     },
     {
      "id": "v1",
      "img": "review_imgs/eutspa/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.901,
-     "pose": 0.169,
-     "bird": 0.663
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eutspa/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.89,
-     "pose": 0.203,
-     "bird": 0.558
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.887,
+     "pose": 0.1,
+     "bird": 0.62
     }
    ],
-   "id": "Small sparrow with a chestnut-brown crown, white cheeks marked by a black ear-spot, a small black throat bib, brown-streaked back, pale underparts and a stout grey conical bill."
+   "reviewed": false
   },
   "ferduc": {
    "name": "Ferruginous Duck",
    "sci": "Aythya nyroca",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/ferduc/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/136349881/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small diving duck, rich mahogany-chestnut head, neck and breast, dark brown back, white belly and undertail coverts, and a striking white iris; blue-grey bill with black tip, broad white wing-stripe in flight.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ferduc/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.607,
-     "pose": 0.175,
-     "bird": 0.825
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.626,
+     "pose": 0.143,
+     "bird": 0.905
     },
     {
      "id": "v1",
      "img": "review_imgs/ferduc/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.543,
-     "pose": 0.028,
-     "bird": 0.918
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/ferduc/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.574,
-     "pose": 0.061,
-     "bird": 0.587
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.683,
+     "pose": 0.111,
+     "bird": 0.44
     }
    ],
-   "id": "Small diving duck, rich mahogany-chestnut head, neck and breast, dark brown back, white belly and undertail coverts, and a striking white iris; blue-grey bill with black tip, broad white wing-stripe in flight."
+   "reviewed": false
   },
   "fieldf": {
    "name": "Fieldfare",
    "sci": "Turdus pilaris",
    "family": "Thrushes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/fieldf/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204244051/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large thrush with blue-grey head and rump contrasting chestnut-brown back, blackish tail; warm orange-buff breast heavily spotted black, white belly, dark arrowhead spots on flanks; yellow bill with dark tip.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/fieldf/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.883,
-     "pose": 0.187,
-     "bird": 0.395
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.903,
+     "pose": 0.15,
+     "bird": 0.394
     },
     {
      "id": "v1",
      "img": "review_imgs/fieldf/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.87,
-     "pose": 0.144,
-     "bird": 0.187
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/fieldf/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.882,
-     "pose": 0.144,
-     "bird": 0.14
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.886,
+     "pose": 0.163,
+     "bird": 0.279
     }
    ],
-   "id": "Large thrush with blue-grey head and rump contrasting chestnut-brown back, blackish tail; warm orange-buff breast heavily spotted black, white belly, dark arrowhead spots on flanks; yellow bill with dark tip."
+   "reviewed": false
   },
   "finwhe1": {
    "name": "Finsch's Wheatear",
@@ -7922,42 +7899,43 @@
    "name": "Pale Crag-Martin",
    "sci": "Ptyonoprogne obsoleta",
    "family": "Swallows and Martins",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/465888/before.png",
    "ref": "review_imgs/465888/ref.jpg",
    "ref_source": "pinned",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small stocky swallow-like bird with sandy grey-brown upperparts and paler buff-grey underparts, lacking strong contrast. Short slightly forked tail showing small white spots near tip when spread; blackish underwing coverts. Dark eye, short black bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/465888/v0.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.853,
-     "pose": 0.032,
-     "bird": 0.381
+     "sim": 0.863,
+     "pose": 0.098,
+     "bird": 0.415
     },
     {
      "id": "v1",
      "img": "review_imgs/465888/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.843,
-     "pose": 0.059,
-     "bird": 0.359
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.838,
+     "pose": 0.081,
+     "bird": 0.261
     },
     {
      "id": "v2",
      "img": "review_imgs/465888/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.832,
-     "pose": 0.044,
-     "bird": 0.158
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.828,
+     "pose": 0.123,
+     "bird": 0.215
     }
    ],
-   "id": "Small stocky swallow-like bird with sandy grey-brown upperparts and paler buff-grey underparts, lacking strong contrast. Short slightly forked tail showing small white spots near tip when spread; blackish underwing coverts. Dark eye, short black bill, dark legs."
+   "reviewed": false
   },
   "atlfly1": {
    "name": "Atlas Flycatcher",
