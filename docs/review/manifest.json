@@ -19592,6 +19592,206 @@
      "bird": 0.326
     }
    ]
+  },
+  "whwcro": {
+   "name": "White-winged Crossbill",
+   "sci": "Loxia leucoptera",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/whwcro/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/138938871/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whwcro/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.89,
+     "pose": 0.072,
+     "bird": 0.842
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whwcro/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.909,
+     "pose": 0.054,
+     "bird": 0.628
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whwcro/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.848,
+     "pose": 0.055,
+     "bird": 0.611
+    }
+   ]
+  },
+  "whwsno1": {
+   "name": "White-winged Snowfinch",
+   "sci": "Montifringilla nivalis",
+   "family": "Old World Sparrows",
+   "reason": "all",
+   "before": "review_imgs/whwsno1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/106252441/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whwsno1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.927,
+     "pose": 0.304,
+     "bird": 0.526
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whwsno1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.934,
+     "pose": 0.268,
+     "bird": 0.253
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whwsno1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.902,
+     "pose": 0.199,
+     "bird": 0.288
+    }
+   ]
+  },
+  "whwter": {
+   "name": "White-winged Tern",
+   "sci": "Chlidonias leucopterus",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/whwter/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30334121/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whwter/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.901,
+     "pose": 0.017,
+     "bird": 0.37
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whwter/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.877,
+     "pose": 0.009,
+     "bird": 0.402
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whwter/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.866,
+     "pose": 0.004,
+     "bird": 0.307
+    }
+   ]
+  },
+  "wilpta2": {
+   "name": "Willow Ptarmigan",
+   "sci": "Lagopus lagopus",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/wilpta2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/237083331/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/wilpta2/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.917,
+     "pose": 0.231,
+     "bird": 0.944
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/wilpta2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.915,
+     "pose": 0.167,
+     "bird": 0.968
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/wilpta2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.901,
+     "pose": 0.279,
+     "bird": 0.773
+    }
+   ]
+  },
+  "wiltit1": {
+   "name": "Willow Tit",
+   "sci": "Poecile montanus",
+   "family": "Tits, Chickadees, and Titmice",
+   "reason": "all",
+   "before": "review_imgs/wiltit1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44341321/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/wiltit1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.839,
+     "pose": 0.227,
+     "bird": 0.904
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/wiltit1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.863,
+     "pose": 0.13,
+     "bird": 0.896
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/wiltit1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.833,
+     "pose": 0.172,
+     "bird": 0.81
+    }
+   ]
   }
  }
 }
