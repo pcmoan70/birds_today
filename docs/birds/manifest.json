@@ -29347,7 +29347,7 @@
     },
     "faces": {
       "rossta2/flying_0.png": "left",
-      "rossta2/sitting_0.png": "left"
+      "rossta2/sitting_0.png": "right"
     },
     "credits": {
       "rossta2/flying_0.png": {
@@ -29419,7 +29419,7 @@
       ]
     },
     "faces": {
-      "rtrthr1/sitting_0.png": "left"
+      "rtrthr1/sitting_0.png": "right"
     },
     "credits": {
       "rtrthr1/sitting_0.png": {
@@ -29485,7 +29485,7 @@
     },
     "faces": {
       "rudduc/flying_0.png": "left",
-      "rudduc/sitting_0.png": "right"
+      "rudduc/sitting_0.png": "left"
     },
     "credits": {
       "rudduc/flying_0.png": {
@@ -29564,7 +29564,7 @@
     },
     "faces": {
       "rudshe/flying_0.png": "right",
-      "rudshe/sitting_0.png": "left"
+      "rudshe/sitting_0.png": "right"
     },
     "credits": {
       "rudshe/flying_0.png": {
