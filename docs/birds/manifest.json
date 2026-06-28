@@ -27813,7 +27813,7 @@
     },
     "faces": {
       "rengre/flying_0.png": "right",
-      "rengre/sitting_0.png": "right"
+      "rengre/sitting_0.png": "left"
     },
     "credits": {
       "rengre/flying_0.png": {
@@ -27880,7 +27880,7 @@
       ]
     },
     "faces": {
-      "rennig1/sitting_0.png": "right"
+      "rennig1/sitting_0.png": "left"
     },
     "credits": {
       "rennig1/sitting_0.png": {
@@ -28084,7 +28084,7 @@
     },
     "faces": {
       "retloo/flying_0.png": "left",
-      "retloo/sitting_0.png": "left"
+      "retloo/sitting_0.png": "right"
     },
     "credits": {
       "retloo/flying_0.png": {

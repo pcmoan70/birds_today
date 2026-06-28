@@ -15201,6 +15201,206 @@
      "bird": 0.763
     }
    ]
+  },
+  "rengre": {
+   "name": "Red-necked Grebe",
+   "sci": "Podiceps grisegena",
+   "family": "Grebes",
+   "reason": "all",
+   "before": "review_imgs/rengre/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/59011691/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rengre/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.731,
+     "pose": 0.414,
+     "bird": 0.918
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rengre/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.76,
+     "pose": 0.246,
+     "bird": 0.87
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rengre/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.779,
+     "pose": 0.464,
+     "bird": 0.583
+    }
+   ]
+  },
+  "rennig1": {
+   "name": "Red-necked Nightjar",
+   "sci": "Caprimulgus ruficollis",
+   "family": "Nightjars and Allies",
+   "reason": "all",
+   "before": "review_imgs/rennig1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/314205091/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rennig1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.787,
+     "pose": 0.251,
+     "bird": 0.891
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rennig1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.722,
+     "pose": 0.19,
+     "bird": 0.893
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rennig1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.761,
+     "pose": 0.155,
+     "bird": 0.76
+    }
+   ]
+  },
+  "renpha": {
+   "name": "Red-necked Phalarope",
+   "sci": "Phalaropus lobatus",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/renpha/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/240378151/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/renpha/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.785,
+     "pose": 0.258,
+     "bird": 0.755
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/renpha/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.794,
+     "pose": 0.289,
+     "bird": 0.62
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/renpha/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.745,
+     "pose": 0.154,
+     "bird": 0.458
+    }
+   ]
+  },
+  "retloo": {
+   "name": "Red-throated Loon",
+   "sci": "Gavia stellata",
+   "family": "Loons",
+   "reason": "all",
+   "before": "review_imgs/retloo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107460531/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/retloo/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.777,
+     "pose": 0.231,
+     "bird": 0.897
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/retloo/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.736,
+     "pose": 0.265,
+     "bird": 0.94
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/retloo/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.77,
+     "pose": 0.29,
+     "bird": 0.762
+    }
+   ]
+  },
+  "retpip": {
+   "name": "Red-throated Pipit",
+   "sci": "Anthus cervinus",
+   "family": "Wagtails and Pipits",
+   "reason": "all",
+   "before": "review_imgs/retpip/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204585981/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/retpip/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.855,
+     "pose": 0.152,
+     "bird": 0.801
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/retpip/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.83,
+     "pose": 0.108,
+     "bird": 0.8
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/retpip/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.85,
+     "pose": 0.04,
+     "bird": 0.61
+    }
+   ]
   }
  }
 }
