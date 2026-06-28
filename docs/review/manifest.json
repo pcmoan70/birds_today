@@ -10935,206 +10935,166 @@
    "name": "Little Ringed Plover",
    "sci": "Thinornis dubius",
    "family": "Plovers and Lapwings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/lirplo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66209651/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small plover with brown upperparts, white underparts, and a single complete black breast-band; black-and-white forehead pattern and a bright yellow eye-ring. Black bill, dull pinkish to flesh-coloured legs. Slim, large-headed; the yellow eye-ring is diagnostic.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lirplo/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.9,
-     "pose": 0.361,
-     "bird": 0.473
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.893,
+     "pose": 0.281,
+     "bird": 0.653
     },
     {
      "id": "v1",
      "img": "review_imgs/lirplo/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.89,
-     "pose": 0.174,
-     "bird": 0.581
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/lirplo/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.882,
-     "pose": 0.252,
-     "bird": 0.384
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.892,
+     "pose": 0.206,
+     "bird": 0.123
     }
    ],
-   "id": "Small plover with brown upperparts, white underparts, and a single complete black breast-band; black-and-white forehead pattern and a bright yellow eye-ring. Black bill, dull pinkish to flesh-coloured legs. Slim, large-headed; the yellow eye-ring is diagnostic."
+   "reviewed": false
   },
   "litbit1": {
    "name": "Little Bittern",
    "sci": "Botaurus minutus",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/litbit1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43255821/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny heron; male has a black crown and back, large buff wing-coverts forming a pale oval panel, and buff neck and underparts. Greenish-yellow dagger bill and yellow legs. Slim long-necked build; the contrasting black back and pale wing-patch stand out.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/litbit1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.91,
-     "pose": 0.347,
-     "bird": 0.763
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.9,
+     "pose": 0.317,
+     "bird": 0.942
     },
     {
      "id": "v1",
      "img": "review_imgs/litbit1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.933,
-     "pose": 0.361,
-     "bird": 0.596
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/litbit1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.903,
-     "pose": 0.32,
-     "bird": 0.689
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.909,
+     "pose": 0.343,
+     "bird": 0.453
     }
    ],
-   "id": "Tiny heron; male has a black crown and back, large buff wing-coverts forming a pale oval panel, and buff neck and underparts. Greenish-yellow dagger bill and yellow legs. Slim long-necked build; the contrasting black back and pale wing-patch stand out."
+   "reviewed": false
   },
   "litbun": {
    "name": "Little Bunting",
    "sci": "Emberiza pusilla",
    "family": "Old World Buntings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/litbun/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43162991/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small bunting with a chestnut crown bordered by black lateral stripes, chestnut ear-coverts outlined black, a pale eye-ring, and a whitish 'spot' behind the cheek. Whitish underparts streaked black on breast and flanks. Small dark conical bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/litbun/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.9,
-     "pose": 0.265,
-     "bird": 0.36
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.895,
+     "pose": 0.24,
+     "bird": 0.69
     },
     {
      "id": "v1",
      "img": "review_imgs/litbun/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.913,
-     "pose": 0.171,
-     "bird": 0.404
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/litbun/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.902,
-     "pose": 0.176,
-     "bird": 0.304
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.903,
+     "pose": 0.13,
+     "bird": 0.446
     }
    ],
-   "id": "Small bunting with a chestnut crown bordered by black lateral stripes, chestnut ear-coverts outlined black, a pale eye-ring, and a whitish 'spot' behind the cheek. Whitish underparts streaked black on breast and flanks. Small dark conical bill, pinkish legs."
+   "reviewed": false
   },
   "litcra1": {
    "name": "Little Crake",
    "sci": "Zapornia parva",
    "family": "Rails, Gallinules, and Coots",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/litcra1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64286061/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny slim crake; male has slate-grey face and underparts, olive-brown back streaked black with fine white spots, and barred buff-and-white undertail. Short green bill with a red spot at the base, green legs with long toes. Long tail held cocked.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/litcra1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.762,
-     "pose": 0.121,
-     "bird": 0.432
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.743,
+     "pose": 0.23,
+     "bird": 0.765
     },
     {
      "id": "v1",
      "img": "review_imgs/litcra1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.701,
-     "pose": 0.258,
-     "bird": 0.292
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/litcra1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.771,
-     "pose": 0.065,
-     "bird": 0.166
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.729,
+     "pose": 0.095,
+     "bird": 0.218
     }
    ],
-   "id": "Tiny slim crake; male has slate-grey face and underparts, olive-brown back streaked black with fine white spots, and barred buff-and-white undertail. Short green bill with a red spot at the base, green legs with long toes. Long tail held cocked."
+   "reviewed": false
   },
   "litegr": {
    "name": "Little Egret",
    "sci": "Egretta garzetta",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/litegr/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/115910611/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slender all-white heron with a long thin neck, slim black dagger bill, black legs and contrasting bright yellow feet. Fine drooping plumes on the nape, breast and back in breeding dress. Elegant, graceful build with sharp angular profile.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/litegr/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.944,
-     "pose": 0.572,
-     "bird": 0.832
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.931,
+     "pose": 0.533,
+     "bird": 0.866
     },
     {
      "id": "v1",
      "img": "review_imgs/litegr/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.934,
-     "pose": 0.539,
-     "bird": 0.837
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/litegr/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.943,
-     "pose": 0.582,
-     "bird": 0.739
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.911,
+     "pose": 0.314,
+     "bird": 0.451
     }
    ],
-   "id": "Slender all-white heron with a long thin neck, slim black dagger bill, black legs and contrasting bright yellow feet. Fine drooping plumes on the nape, breast and back in breeding dress. Elegant, graceful build with sharp angular profile."
+   "reviewed": false
   },
   "litgre1": {
    "name": "Little Grebe",
