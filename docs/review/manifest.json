@@ -17401,6 +17401,206 @@
      "bird": 0.426
     }
    ]
+  },
+  "spewar2": {
+   "name": "Spectacled Warbler",
+   "sci": "Curruca conspicillata",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/spewar2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/102001441/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/spewar2/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.871,
+     "pose": 0.082,
+     "bird": 0.805
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/spewar2/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.876,
+     "pose": 0.096,
+     "bird": 0.74
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/spewar2/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.861,
+     "pose": 0.096,
+     "bird": 0.754
+    }
+   ]
+  },
+  "spocra1": {
+   "name": "Spotted Crake",
+   "sci": "Porzana porzana",
+   "family": "Rails, Gallinules, and Coots",
+   "reason": "all",
+   "before": "review_imgs/spocra1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/207300951/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/spocra1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.911,
+     "pose": 0.521,
+     "bird": 0.741
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/spocra1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.894,
+     "pose": 0.47,
+     "bird": 0.591
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/spocra1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.892,
+     "pose": 0.215,
+     "bird": 0.61
+    }
+   ]
+  },
+  "spofly1": {
+   "name": "Spotted Flycatcher",
+   "sci": "Muscicapa striata",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/spofly1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181348861/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/spofly1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.918,
+     "pose": 0.282,
+     "bird": 0.508
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/spofly1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.889,
+     "pose": 0.307,
+     "bird": 0.308
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/spofly1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.912,
+     "pose": 0.209,
+     "bird": 0.207
+    }
+   ]
+  },
+  "spored": {
+   "name": "Spotted Redshank",
+   "sci": "Tringa erythropus",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/spored/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55482321/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/spored/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.859,
+     "pose": 0.221,
+     "bird": 0.608
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/spored/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.868,
+     "pose": 0.437,
+     "bird": 0.336
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/spored/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.805,
+     "pose": 0.206,
+     "bird": 0.219
+    }
+   ]
+  },
+  "sposta1": {
+   "name": "Spotless Starling",
+   "sci": "Sturnus unicolor",
+   "family": "Starlings",
+   "reason": "all",
+   "before": "review_imgs/sposta1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/198830371/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/sposta1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.881,
+     "pose": 0.196,
+     "bird": 0.76
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/sposta1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.881,
+     "pose": 0.233,
+     "bird": 0.692
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sposta1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.872,
+     "pose": 0.121,
+     "bird": 0.441
+    }
+   ]
   }
  }
 }

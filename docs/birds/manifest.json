@@ -31807,7 +31807,7 @@
       ]
     },
     "faces": {
-      "spewar2/sitting_0.png": "right"
+      "spewar2/sitting_0.png": "left"
     },
     "credits": {
       "spewar2/sitting_0.png": {
@@ -31876,7 +31876,7 @@
       ]
     },
     "faces": {
-      "spocra1/sitting_0.png": "left"
+      "spocra1/sitting_0.png": "right"
     },
     "credits": {
       "spocra1/sitting_0.png": {
@@ -31947,7 +31947,7 @@
     },
     "faces": {
       "spofly1/flying_0.png": "left",
-      "spofly1/sitting_0.png": "left"
+      "spofly1/sitting_0.png": "right"
     },
     "credits": {
       "spofly1/flying_0.png": {
@@ -32100,7 +32100,7 @@
     },
     "faces": {
       "sposta1/flying_0.png": "right",
-      "sposta1/sitting_0.png": "right"
+      "sposta1/sitting_0.png": "left"
     },
     "credits": {
       "sposta1/flying_0.png": {
