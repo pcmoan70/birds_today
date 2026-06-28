@@ -20392,6 +20392,126 @@
      "bird": 0.528
     }
    ]
+  },
+  "yelgul1": {
+   "name": "Yellow-legged Gull",
+   "sci": "Larus michahellis",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/yelgul1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/26870071/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/yelgul1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.937,
+     "pose": 0.484,
+     "bird": 0.963
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/yelgul1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.935,
+     "pose": 0.285,
+     "bird": 0.948
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/yelgul1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.899,
+     "pose": 0.418,
+     "bird": 0.814
+    }
+   ]
+  },
+  "yellow2": {
+   "name": "Yellowhammer",
+   "sci": "Emberiza citrinella",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/yellow2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/78557031/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/yellow2/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.937,
+     "pose": 0.363,
+     "bird": 0.146
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/yellow2/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.92,
+     "pose": 0.233,
+     "bird": 0.198
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/yellow2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.882,
+     "pose": 0.197,
+     "bird": 0.152
+    }
+   ]
+  },
+  "zitcis1": {
+   "name": "Zitting Cisticola",
+   "sci": "Cisticola juncidis",
+   "family": "Cisticolas and Allies",
+   "reason": "all",
+   "before": "review_imgs/zitcis1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/114810351/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/zitcis1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.919,
+     "pose": 0.284,
+     "bird": 0.469
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/zitcis1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.232,
+     "bird": 0.455
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/zitcis1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.899,
+     "pose": 0.167,
+     "bird": 0.183
+    }
+   ]
   }
  }
 }

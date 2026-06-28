@@ -37247,7 +37247,7 @@
     },
     "faces": {
       "yelgul1/flying_0.png": "left",
-      "yelgul1/sitting_0.png": "left"
+      "yelgul1/sitting_0.png": "right"
     },
     "credits": {
       "yelgul1/flying_0.png": {
@@ -37324,7 +37324,7 @@
     },
     "faces": {
       "yellow2/flying_0.png": "left",
-      "yellow2/sitting_0.png": "right"
+      "yellow2/sitting_0.png": "left"
     },
     "credits": {
       "yellow2/flying_0.png": {
