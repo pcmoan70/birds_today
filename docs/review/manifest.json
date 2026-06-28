@@ -13594,206 +13594,166 @@
    "name": "Purple Heron",
    "sci": "Ardea purpurea",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/purher1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/159812151/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slender dark heron with a long sinuous neck; slate-grey back, rich rufous-chestnut neck striped with black lines, and dark purplish-maroon underparts. Long dagger-like yellowish bill, snaky head, very long yellowish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/purher1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.897,
-     "pose": 0.57,
-     "bird": 0.607
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.891,
+     "pose": 0.633,
+     "bird": 0.438
     },
     {
      "id": "v1",
      "img": "review_imgs/purher1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.898,
-     "pose": 0.497,
-     "bird": 0.497
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/purher1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.897,
-     "pose": 0.454,
-     "bird": 0.137
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.891,
+     "pose": 0.592,
+     "bird": 0.42
     }
    ],
-   "id": "Slender dark heron with a long sinuous neck; slate-grey back, rich rufous-chestnut neck striped with black lines, and dark purplish-maroon underparts. Long dagger-like yellowish bill, snaky head, very long yellowish legs."
+   "reviewed": false
   },
   "pursan": {
    "name": "Purple Sandpiper",
    "sci": "Calidris maritima",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/pursan/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/285293751/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Dark stocky sandpiper, slate-grey upperparts with purplish gloss and pale feather fringes, grey-streaked breast fading to white belly. Slightly drooping dark bill with orange-yellow base, and orange-yellow legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/pursan/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.916,
-     "pose": 0.281,
-     "bird": 0.537
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.907,
+     "pose": 0.293,
+     "bird": 0.414
     },
     {
      "id": "v1",
      "img": "review_imgs/pursan/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.89,
-     "pose": 0.181,
-     "bird": 0.4
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/pursan/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.885,
-     "pose": 0.21,
-     "bird": 0.129
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.911,
+     "pose": 0.217,
+     "bird": 0.301
     }
    ],
-   "id": "Dark stocky sandpiper, slate-grey upperparts with purplish gloss and pale feather fringes, grey-streaked breast fading to white belly. Slightly drooping dark bill with orange-yellow base, and orange-yellow legs."
+   "reviewed": false
   },
   "purswa": {
    "name": "Western Swamphen",
    "sci": "Porphyrio porphyrio",
    "family": null,
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/purswa/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/26423711/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large bulky rail in deep purple-blue plumage with turquoise sheen on throat and breast. Massive triangular red bill and frontal shield, red eye, long thick red legs and huge red feet, white undertail flashed in tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/purswa/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.883,
-     "pose": 0.042,
-     "bird": 0.883
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.893,
+     "pose": 0.026,
+     "bird": 0.801
     },
     {
      "id": "v1",
      "img": "review_imgs/purswa/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.884,
-     "pose": 0.031,
-     "bird": 0.749
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/purswa/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.84,
-     "pose": 0.055,
-     "bird": 0.317
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.875,
+     "pose": 0.079,
+     "bird": 0.54
     }
    ],
-   "id": "Large bulky rail in deep purple-blue plumage with turquoise sheen on throat and breast. Massive triangular red bill and frontal shield, red eye, long thick red legs and huge red feet, white undertail flashed in tail."
+   "reviewed": false
   },
   "pygcor2": {
    "name": "Pygmy Cormorant",
    "sci": "Microcarbo pygmaeus",
    "family": "Cormorants and Shags",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/pygcor2/before.png",
    "ref": "review_imgs/pygcor2/ref.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small slim cormorant, dark brown-black plumage with a small rounded head and a notably long stiff tail. Short stubby yellowish bill, dark legs; overall daintier and longer-tailed than larger cormorants.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/pygcor2/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.852,
-     "pose": 0.314,
-     "bird": 0.345
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.859,
+     "pose": 0.309,
+     "bird": 0.477
     },
     {
      "id": "v1",
      "img": "review_imgs/pygcor2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.826,
-     "pose": 0.492,
-     "bird": 0.147
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/pygcor2/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.809,
-     "pose": 0.436,
-     "bird": 0.055
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.849,
+     "pose": 0.371,
+     "bird": 0.209
     }
    ],
-   "id": "Small slim cormorant, dark brown-black plumage with a small rounded head and a notably long stiff tail. Short stubby yellowish bill, dark legs; overall daintier and longer-tailed than larger cormorants."
+   "reviewed": false
   },
   "radacc2": {
    "name": "Radde's Accentor",
    "sci": "Prunella ocularis",
    "family": "Accentors",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/radacc2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/83507421/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small grey-brown accentor with plain warm-brown back, buff underparts, and a striking pale buff-white supercilium contrasting with a dark eyestripe and greyish crown. Thin dark sparrow-like bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/radacc2/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.739,
-     "pose": 0.272,
-     "bird": 0.622
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.744,
+     "pose": 0.347,
+     "bird": 0.863
     },
     {
      "id": "v1",
      "img": "review_imgs/radacc2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.751,
-     "pose": 0.323,
-     "bird": 0.476
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/radacc2/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.73,
-     "pose": 0.142,
-     "bird": 0.654
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.746,
+     "pose": 0.24,
+     "bird": 0.539
     }
    ],
-   "id": "Small grey-brown accentor with plain warm-brown back, buff underparts, and a striking pale buff-white supercilium contrasting with a dark eyestripe and greyish crown. Thin dark sparrow-like bill, pinkish legs."
+   "reviewed": false
   },
   "razorb": {
    "name": "Razorbill",
