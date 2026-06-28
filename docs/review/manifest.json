@@ -10170,206 +10170,166 @@
    "name": "Iberian Chiffchaff",
    "sci": "Phylloscopus ibericus",
    "family": "Leaf Warblers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/ibechi2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/216687131/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny olive-green warbler with yellowish supercilium and throat, greyer crown and nape, and whitish belly washed yellow. Fine dark bill, dark legs. Slim and active; very similar to Common Chiffchaff but slightly brighter yellow-and-green tones.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ibechi2/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.84,
-     "pose": 0.108,
-     "bird": 0.514
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.792,
+     "pose": 0.233,
+     "bird": 0.77
     },
     {
      "id": "v1",
      "img": "review_imgs/ibechi2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.884,
-     "pose": 0.134,
-     "bird": 0.298
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/ibechi2/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.855,
-     "pose": 0.053,
-     "bird": 0.194
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.843,
+     "pose": 0.098,
+     "bird": 0.526
     }
    ],
-   "id": "Tiny olive-green warbler with yellowish supercilium and throat, greyer crown and nape, and whitish belly washed yellow. Fine dark bill, dark legs. Slim and active; very similar to Common Chiffchaff but slightly brighter yellow-and-green tones."
+   "reviewed": false
   },
   "ibgshr1": {
    "name": "Iberian Gray Shrike",
    "sci": "Lanius meridionalis",
    "family": "Shrikes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/ibgshr1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/58153531/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pale grey shrike with a bold black mask through the eye, white throat and pinkish-white underparts, black wings with a small white patch, and black tail edged white. Stout hooked black bill, black legs. Slender long-tailed silhouette.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ibgshr1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.913,
-     "pose": 0.304,
-     "bird": 0.829
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.886,
+     "pose": 0.256,
+     "bird": 0.762
     },
     {
      "id": "v1",
      "img": "review_imgs/ibgshr1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.894,
-     "pose": 0.137,
-     "bird": 0.695
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/ibgshr1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.901,
-     "pose": 0.104,
-     "bird": 0.559
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.906,
+     "pose": 0.164,
+     "bird": 0.712
     }
    ],
-   "id": "Pale grey shrike with a bold black mask through the eye, white throat and pinkish-white underparts, black wings with a small white patch, and black tail edged white. Stout hooked black bill, black legs. Slender long-tailed silhouette."
+   "reviewed": false
   },
   "ictwar1": {
    "name": "Icterine Warbler",
    "sci": "Hippolais icterina",
    "family": "Reed Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/ictwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/29547441/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium warbler with plain greyish-green upperparts and lemon-yellow underparts, a pale yellow supercilium, and a pale wing-panel on the closed wing. Peaked crown, long stout pinkish-based bill, blue-grey legs. Long primary projection, sleek build.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ictwar1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.907,
-     "pose": 0.181,
-     "bird": 0.398
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.899,
+     "pose": 0.134,
+     "bird": 0.59
     },
     {
      "id": "v1",
      "img": "review_imgs/ictwar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.917,
-     "pose": 0.089,
-     "bird": 0.414
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/ictwar1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.917,
-     "pose": 0.092,
-     "bird": 0.394
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.903,
+     "pose": 0.088,
+     "bird": 0.137
     }
    ],
-   "id": "Medium warbler with plain greyish-green upperparts and lemon-yellow underparts, a pale yellow supercilium, and a pale wing-panel on the closed wing. Peaked crown, long stout pinkish-based bill, blue-grey legs. Long primary projection, sleek build."
+   "reviewed": false
   },
   "impeag1": {
    "name": "Imperial Eagle",
    "sci": "Aquila heliaca",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/impeag1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64341561/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large dark-brown eagle with a contrasting pale golden-buff crown and nape, white shoulder braces (scapular spots), and a greyish tail with broad dark terminal band. Yellow cere and feet, dark hooked bill. Long broad wings, heavy build.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/impeag1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.889,
-     "pose": 0.008,
-     "bird": 0.786
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.897,
+     "pose": 0.012,
+     "bird": 0.527
     },
     {
      "id": "v1",
      "img": "review_imgs/impeag1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.893,
-     "pose": 0.005,
-     "bird": 0.675
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/impeag1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.894,
-     "pose": 0.021,
-     "bird": 0.498
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.854,
+     "pose": 0.012,
+     "bird": 0.439
     }
    ],
-   "id": "Large dark-brown eagle with a contrasting pale golden-buff crown and nape, white shoulder braces (scapular spots), and a greyish tail with broad dark terminal band. Yellow cere and feet, dark hooked bill. Long broad wings, heavy build."
+   "reviewed": false
   },
   "itaspa1": {
    "name": "Italian Sparrow",
    "sci": "Passer italiae",
    "family": "Old World Sparrows",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/itaspa1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/205905761/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Sparrow with a chestnut crown and nape, clean white cheeks, black bib, grey rump, and pale whitish underparts. Chestnut back streaked black, white wing-bar. Stout conical bill, pinkish legs. Brighter, cleaner-faced than House Sparrow.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/itaspa1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.874,
-     "pose": 0.326,
-     "bird": 0.775
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.855,
+     "pose": 0.311,
+     "bird": 0.863
     },
     {
      "id": "v1",
      "img": "review_imgs/itaspa1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.881,
-     "pose": 0.225,
-     "bird": 0.783
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/itaspa1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.843,
-     "pose": 0.244,
-     "bird": 0.739
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.853,
+     "pose": 0.351,
+     "bird": 0.811
     }
    ],
-   "id": "Sparrow with a chestnut crown and nape, clean white cheeks, black bib, grey rump, and pale whitish underparts. Chestnut back streaked black, white wing-bar. Stout conical bill, pinkish legs. Brighter, cleaner-faced than House Sparrow."
+   "reviewed": false
   },
   "ivogul": {
    "name": "Ivory Gull",
