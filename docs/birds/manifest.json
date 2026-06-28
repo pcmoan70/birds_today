@@ -28998,7 +28998,7 @@
       ]
     },
     "faces": {
-      "rolhaw/sitting_0.png": "right"
+      "rolhaw/sitting_0.png": "left"
     },
     "credits": {
       "rolhaw/sitting_0.png": {
@@ -29140,7 +29140,7 @@
       ]
     },
     "faces": {
-      "rorpar/sitting_0.png": "right"
+      "rorpar/sitting_0.png": "left"
     },
     "credits": {
       "rorpar/sitting_0.png": {
@@ -29205,7 +29205,7 @@
     },
     "faces": {
       "rosgoo/flying_0.png": "right",
-      "rosgoo/sitting_0.png": "left"
+      "rosgoo/sitting_0.png": "right"
     },
     "credits": {
       "rosgoo/flying_0.png": {

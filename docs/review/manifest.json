@@ -15801,6 +15801,206 @@
      "bird": 0.322
     }
    ]
+  },
+  "rocpta1": {
+   "name": "Rock Ptarmigan",
+   "sci": "Lagopus muta",
+   "family": "Pheasants, Grouse, and Allies",
+   "reason": "all",
+   "before": "review_imgs/rocpta1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/113345131/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rocpta1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.907,
+     "pose": 0.473,
+     "bird": 0.502
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rocpta1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.914,
+     "pose": 0.389,
+     "bird": 0.565
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rocpta1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.922,
+     "pose": 0.283,
+     "bird": 0.536
+    }
+   ]
+  },
+  "rolhaw": {
+   "name": "Rough-legged Hawk",
+   "sci": "Buteo lagopus",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/rolhaw/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/47706471/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rolhaw/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.826,
+     "pose": 0.036,
+     "bird": 0.776
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rolhaw/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.789,
+     "pose": 0.028,
+     "bird": 0.38
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rolhaw/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.822,
+     "pose": 0.02,
+     "bird": 0.143
+    }
+   ]
+  },
+  "rook1": {
+   "name": "Rook",
+   "sci": "Corvus frugilegus",
+   "family": "Crows, Jays, and Magpies",
+   "reason": "all",
+   "before": "review_imgs/rook1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/21016221/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rook1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.913,
+     "pose": 0.141,
+     "bird": 0.664
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rook1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.911,
+     "pose": 0.158,
+     "bird": 0.595
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rook1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.927,
+     "pose": 0.155,
+     "bird": 0.528
+    }
+   ]
+  },
+  "rorpar": {
+   "name": "Rose-ringed Parakeet",
+   "sci": "Psittacula krameri",
+   "family": "Old World Parrots",
+   "reason": "all",
+   "before": "review_imgs/rorpar/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/129962691/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rorpar/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.893,
+     "pose": 0.244,
+     "bird": 0.809
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rorpar/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.886,
+     "pose": 0.136,
+     "bird": 0.744
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rorpar/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.897,
+     "pose": 0.125,
+     "bird": 0.629
+    }
+   ]
+  },
+  "rosgoo": {
+   "name": "Ross's Goose",
+   "sci": "Anser rossii",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/rosgoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/83984151/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rosgoo/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.942,
+     "pose": 0.207,
+     "bird": 0.982
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rosgoo/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.92,
+     "pose": 0.235,
+     "bird": 0.967
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rosgoo/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.91,
+     "pose": 0.176,
+     "bird": 0.977
+    }
+   ]
   }
  }
 }
