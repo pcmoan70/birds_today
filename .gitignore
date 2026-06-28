@@ -15,6 +15,9 @@ scripts/ml_cache/
 # Per-species "none good enough" retry counter (shifts seeds on re-gen). Local.
 scripts/retry_rounds.json
 
+# Prioritized image-generation job queue (local job state for gen_worker.py).
+scripts/gen_queue.json
+
 # Distribution-map reference images quarantined out of scripts/raw so img2img
 # never grounds a bird on a map (see generate.py ref_images); local only.
 scripts/raw_maps/

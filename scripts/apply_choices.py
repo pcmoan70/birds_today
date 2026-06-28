@@ -1,18 +1,24 @@
-"""Apply choices.json from the review page to the live images.
+"""Apply choices.json from the review page to the live images + generation queue.
 
 choices.json maps each species code to either:
   - a variant id string, e.g. {"comchi1": "v2"}, or
   - an object {"choice": "v2", "badRef": true, "noneGood": true,
-               "satisfied": true, "note": "..."}.
+               "satisfied": true, "id": "...", "note": "..."}.
 
-For each entry we copy docs/review_imgs/<code>/<choice>.png over
-docs/birds/<code>/sitting_0.png and update the review manifest's "chosen" —
-EXCEPT when "noneGood" is set, where we keep the current live image untouched.
+Iterative-review semantics (no variant is auto-selected):
+  - satisfied        -> finalize: keep the chosen variant live, mark reviewed,
+                        drop the species off the review page. No regeneration.
+  - none good enough -> keep the current live image; queue a full re-gen (3 fresh
+                        variants). Stays on the page.
+  - pick a variant   -> keep it as the new live "champion"; queue 2 fresh
+                        challenger suggestions next to it. Stays on the page.
+  - bad ref / prompt edit only -> queue a re-gen (re-fetch the reference for a
+                        bad ref; use the edited prompt). Stays on the page.
+  - note only / nothing -> recorded; current image kept, stays on the page.
 
-"badRef", "noneGood", "satisfied" and free-text "note" flags are collected
-into scripts/review_feedback.json (and printed) so they can be acted on: bad
-references want re-fetching, "none good enough" species want re-generation,
-"satisfied" marks confirmed-good images.
+An edited "id" prompt is persisted to id_features.json (the img2img prompt
+source of truth) and the review manifest. badRef / noneGood / satisfied / notes
+are also collected into scripts/review_feedback.json for the record.
 
 Usage:
   python apply_choices.py path/to/choices.json
@@ -25,6 +31,8 @@ import subprocess
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
+
+import gen_queue as Q  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -40,106 +48,115 @@ def git(*a):
     return subprocess.run(["git", "-C", ROOT, *a], capture_output=True, text=True)
 
 
+def set_live(code, vid):
+    """Copy a chosen review variant over the live image. Returns True on success."""
+    src = os.path.join(REVIEW_IMGS, code, f"{vid}.png")
+    if not os.path.exists(src):
+        print(f"  {code}: variant {vid} missing, skip copy"); return False
+    dst = os.path.join(BIRDS, code, "sitting_0.png")
+    os.makedirs(os.path.dirname(dst), exist_ok=True)
+    shutil.copy(src, dst)
+    return True
+
+
 def main():
     if len(sys.argv) < 2:
         sys.exit("usage: apply_choices.py choices.json")
     choices = json.load(open(sys.argv[1], encoding="utf-8"))
     review = json.load(open(REVIEW_MAN, encoding="utf-8")) if os.path.exists(REVIEW_MAN) else {"species": {}}
-
+    review.setdefault("species", {})
     retry = json.load(open(RETRY, encoding="utf-8")) if os.path.exists(RETRY) else {}
     idfeat = json.load(open(IDFEATURES, encoding="utf-8")) if os.path.exists(IDFEATURES) else {}
-    changed = applied = 0
+    jobs = Q.load()
+
+    finalized = kept = queued = 0
     id_changed = []
     feedback = {"badRef": [], "noneGood": [], "satisfied": [], "notes": {}}
+
     for code, val in choices.items():
         is_obj = isinstance(val, dict)
-        none_good = is_obj and val.get("noneGood")
-        satisfied = is_obj and val.get("satisfied")
+        choice = val.get("choice") if is_obj else val          # may be None
+        none_good = bool(is_obj and val.get("noneGood"))
+        satisfied = bool(is_obj and val.get("satisfied"))
+        badref = bool(is_obj and val.get("badRef"))
         new_id = (val.get("id") or "").strip() if is_obj else ""
-        if is_obj:
-            vid = val.get("choice", "v0")
-            if val.get("badRef"):
-                feedback["badRef"].append(code)
-            if val.get("noneGood"):
-                feedback["noneGood"].append(code)
-            if val.get("satisfied"):
-                feedback["satisfied"].append(code)
-            if val.get("note"):
-                feedback["notes"][code] = val["note"]
-        else:
-            vid = val
+        note = val.get("note") if is_obj else None
 
-        # An edited species-prompt is the new source of truth for img2img:
-        # persist it to id_features.json and the review manifest.
+        if badref: feedback["badRef"].append(code)
+        if none_good: feedback["noneGood"].append(code)
+        if satisfied: feedback["satisfied"].append(code)
+        if note: feedback["notes"][code] = note
+
+        # Edited prompt becomes the new img2img source of truth.
         if new_id and new_id != (idfeat.get(code) or "").strip():
             idfeat[code] = new_id
             id_changed.append(code)
-            if code in review.get("species", {}):
+            if code in review["species"]:
                 review["species"][code]["id"] = new_id
+        id_edited = code in id_changed
 
-        # Queue a fresh-seed regeneration when no variant was acceptable, or when
-        # the prompt was edited (so the new description actually takes effect) —
-        # unless the user also marked the species satisfied with the current one.
-        # Bump the retry round and clear the sidecar so it is no longer "done";
-        # the live image stays until the new one is generated, and the species
-        # returns to the review page once it is.
-        if none_good or (id_changed and id_changed[-1] == code and not satisfied):
+        def enqueue(kind, n_new=2, reason=""):
+            nonlocal jobs, queued
             retry[code] = retry.get(code, 0) + 1
-            sc = os.path.join(BIRDS, code, "sitting_0.png.json")
-            if os.path.exists(sc):
-                os.remove(sc)
-            why = "none good enough" if none_good else "prompt edited"
-            print(f"  {code}: {why} -> regenerate (retry round {retry[code]})")
+            jobs = Q.enqueue(jobs, code, kind, n_new=n_new,
+                             seed_off=retry[code] * 5, refetch=badref,
+                             priority=Q.FEEDBACK, reason=reason)
+            queued += 1
+
+        if satisfied:
+            # Finalize: keep the chosen image (if any) live, drop off the page.
+            if choice and set_live(code, choice):
+                pass
+            if code in review["species"]:
+                review["species"][code]["reviewed"] = True
+            finalized += 1
+            print(f"  {code}: satisfied -> finalized")
             continue
 
-        # Reviewed: drop off the review page until a new image is generated.
-        if code in review.get("species", {}):
-            review["species"][code]["reviewed"] = True
+        if none_good:
+            enqueue("regen", reason="none-good")
+            print(f"  {code}: none good -> queued full re-gen (round {retry[code]})")
+            continue
 
-        src = os.path.join(REVIEW_IMGS, code, f"{vid}.png")
-        if not os.path.exists(src):
-            print(f"  {code}: variant {vid} missing, skip"); continue
-        cur_chosen = review.get("species", {}).get(code, {}).get("chosen", "v0")
-        dst = os.path.join(BIRDS, code, "sitting_0.png")
-        os.makedirs(os.path.dirname(dst), exist_ok=True)
-        shutil.copy(src, dst)
-        applied += 1
-        if code in review.get("species", {}):
-            review["species"][code]["chosen"] = vid
-        if vid != cur_chosen:
-            changed += 1
-            print(f"  {code}: {cur_chosen} -> {vid}")
+        if choice:
+            # Keep this variant as the champion; queue 2 fresh challengers.
+            if set_live(code, choice):
+                kept += 1
+            enqueue("challengers", n_new=2, reason="pick-keep-regen2")
+            print(f"  {code}: keep {choice} -> queued 2 challengers (round {retry[code]})")
+            continue
+
+        if badref or id_edited:
+            enqueue("regen", reason="badref" if badref else "prompt-edit")
+            print(f"  {code}: {'bad ref' if badref else 'prompt edit'} -> queued re-gen")
+            continue
+        # note-only / nothing actionable: recorded; current image kept on page.
+
     json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(retry, open(RETRY, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    Q.save(jobs)
     if id_changed:
         json.dump(idfeat, open(IDFEATURES, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(f"updated id_features.json for {len(id_changed)}: " + ", ".join(id_changed))
-    print(f"applied {applied} choices ({changed} changed from auto-pick)")
+    print(f"\nfinalized {finalized} · kept {kept} champions live · queued {queued} gen jobs")
 
-    # Drop review_imgs for species that are now reviewed or no longer shown, so
-    # the published folder stays small (chosen variants are already in birds/).
-    keep = {c for c, e in review.get("species", {}).items() if not e.get("reviewed")}
+    # Drop review_imgs only for finalized (reviewed) species; queued ones keep
+    # their folder (champion/before tiles) until the worker refreshes them.
+    keep_dirs = {c for c, e in review["species"].items() if not e.get("reviewed")}
     pruned = 0
     for d in glob.glob(os.path.join(REVIEW_IMGS, "*")):
-        if os.path.isdir(d) and os.path.basename(d) not in keep:
+        if os.path.isdir(d) and os.path.basename(d) not in keep_dirs:
             shutil.rmtree(d, ignore_errors=True); pruned += 1
     if pruned:
-        print(f"pruned {pruned} reviewed/stale review_imgs dirs")
+        print(f"pruned {pruned} finalized/stale review_imgs dirs")
 
-    if (feedback["badRef"] or feedback["noneGood"]
-            or feedback["satisfied"] or feedback["notes"]):
+    if any(feedback[k] for k in ("badRef", "noneGood", "satisfied", "notes")):
         json.dump(feedback, open(FEEDBACK, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
         print(f"\nfeedback -> {FEEDBACK}")
-        if feedback["badRef"]:
-            print(f"  bad reference photo ({len(feedback['badRef'])}): "
-                  + ", ".join(feedback["badRef"]))
-        if feedback["noneGood"]:
-            print(f"  none good enough ({len(feedback['noneGood'])}): "
-                  + ", ".join(feedback["noneGood"]))
-        if feedback["satisfied"]:
-            print(f"  satisfied ({len(feedback['satisfied'])}): "
-                  + ", ".join(feedback["satisfied"]))
+        for k in ("badRef", "noneGood", "satisfied"):
+            if feedback[k]:
+                print(f"  {k} ({len(feedback[k])}): " + ", ".join(feedback[k]))
         for code, n in feedback["notes"].items():
             print(f"  note {code}: {n}")
 
@@ -150,7 +167,7 @@ def main():
         git("add", "scripts/id_features.json")
     if git("diff", "--cached", "--quiet").returncode == 0:
         print("nothing to push"); return
-    git("commit", "-m", "Apply reviewed AI image choices\n\n"
+    git("commit", "-m", "Apply review feedback (keep champions; queue re-gens)\n\n"
         "Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n"
         "Claude-Session: https://claude.ai/code/session_01QE9YmeK2n7PbSUUJKRUAzz")
     p = git("push", "origin", "main")

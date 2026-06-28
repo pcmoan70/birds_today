@@ -161,3 +161,25 @@ Next (precision + poses):
 - [ ] Wikimedia: prefer category members; reject multi-subject/plate images by heuristic.
 - [ ] Add Flickr-CC adapter for flying poses; more flight-search variants.
 - [ ] Lightweight manual review/cull tool (browser grid keep/reject) for a truly clean final set.
+
+## Iterative review loop + prioritized generation queue (2026-06-28)
+Confirmed with user:
+- **No auto-selected default** in review; choose deliberately.
+- **No feedback** → keep current, nothing queued.
+- **Pick one of three** (not Satisfied) → keep it as champion (live), queue the
+  **other two** as fresh suggestions; species stays for another round.
+- **Satisfied** → finalize (mark reviewed, drop off, no regen).
+- **None good enough** → keep current, queue regeneration of all 3.
+- **choices_5**: apply the new loop — every pick keeps that image + queues 2 new.
+- **Continuous queue worker**, feedback jobs (priority 0) before coverage (10).
+
+Tasks:
+- [x] Review UI: remove auto-select default (no pre-highlight, drop "(auto)").
+- [ ] `gen_queue.py`: load/save/enqueue/pop-highest-priority (FIFO within level).
+- [ ] `gen_worker.py`: import regen_flagged internals; job kinds `challengers`
+      (keep champion + regen N) and `coverage` (full best-of-3); push every N.
+- [ ] `apply_choices.py`: new semantics (pick→keep+enqueue 2; satisfied→
+      finalize; noneGood→enqueue 3; no-feedback→nothing); keep badRef/notes/id.
+- [ ] Seed coverage backlog as priority-10 queue entries (replaces --all).
+- [ ] Update `post_batch_apply.sh`: apply_choices (enqueues) → run worker.
+- [ ] Gitignore `gen_queue.json`.

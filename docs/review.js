@@ -76,7 +76,7 @@
     });
     codes.forEach(function (code) {
       var s = data.species[code];
-      var sel = choices[code] || s.chosen || "v0";
+      var sel = choices[code] || null;   // nothing auto-selected; reviewer picks
       var card = document.createElement("div");
       card.className = "card";
 
@@ -124,8 +124,7 @@
       var sep = document.createElement("div"); sep.className = "sep"; tiles.appendChild(sep);
       (s.variants || []).forEach(function (v) {
         var sub = "sim " + v.sim + " · pose " + v.pose;
-        var t = tile(v.id === sel ? "var chosen" : "var", v.img,
-          v.id + (v.id === (s.chosen || "v0") ? " (auto)" : ""), sub,
+        var t = tile(v.id === sel ? "var chosen" : "var", v.img, v.id, sub,
           function () {
             choices[code] = v.id; save();
             tiles.querySelectorAll(".tile.var").forEach(function (e) {
@@ -212,19 +211,20 @@
       return;
     }
     codes.forEach(function (code) {
-      var choice = choices[code] || data.species[code].chosen || "v0";
+      var picked = choices[code] || null;   // only an explicit pick, no default
       var mm = meta[code] || {};
       var origId = (data.species[code].id || "").trim();
       var idEdited = typeof mm.idEdit === "string" && mm.idEdit.trim() !== origId;
       if (mm.badRef || mm.noneGood || mm.satisfied || mm.note || idEdited) {
-        out[code] = { choice: choice };
+        out[code] = {};
+        if (picked) out[code].choice = picked;
         if (mm.badRef) out[code].badRef = true;
         if (mm.noneGood) out[code].noneGood = true;
         if (mm.satisfied) out[code].satisfied = true;
         if (idEdited) out[code].id = mm.idEdit.trim();
         if (mm.note) out[code].note = mm.note;
       } else {
-        out[code] = choice;
+        out[code] = picked;   // plain pick (variant id string)
       }
     });
     var blob = new Blob([JSON.stringify(out, null, 1)], { type: "application/json" });
