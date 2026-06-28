@@ -7462,206 +7462,166 @@
    "name": "Great Snipe",
    "sci": "Gallinago media",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gresni1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/224197811/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stocky snipe, richly patterned brown back with buff stripes, barred buff underparts; bold white-tipped outer tail feathers, dark-streaked head with stripes; long straight dark bill, greenish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gresni1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.878,
-     "pose": 0.273,
-     "bird": 0.659
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.904,
+     "pose": 0.29,
+     "bird": 0.39
     },
     {
      "id": "v1",
      "img": "review_imgs/gresni1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.218,
-     "bird": 0.665
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gresni1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.891,
-     "pose": 0.225,
-     "bird": 0.17
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.874,
+     "pose": 0.231,
+     "bird": 0.433
     }
    ],
-   "id": "Stocky snipe, richly patterned brown back with buff stripes, barred buff underparts; bold white-tipped outer tail feathers, dark-streaked head with stripes; long straight dark bill, greenish legs."
+   "reviewed": false
   },
   "gretit1": {
    "name": "Great Tit",
    "sci": "Parus major",
    "family": "Tits, Chickadees, and Titmice",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gretit1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/146576841/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Bold tit, glossy black head with large white cheek patches, black throat and broad black central belly stripe; yellow underparts, olive-green back, blue-grey wings with white wingbar; black bill, grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gretit1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.924,
-     "pose": 0.095,
-     "bird": 0.683
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.92,
+     "pose": 0.064,
+     "bird": 0.711
     },
     {
      "id": "v1",
      "img": "review_imgs/gretit1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.904,
-     "pose": 0.066,
-     "bird": 0.469
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gretit1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.919,
-     "pose": 0.056,
-     "bird": 0.409
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.922,
+     "pose": 0.061,
+     "bird": 0.539
     }
    ],
-   "id": "Bold tit, glossy black head with large white cheek patches, black throat and broad black central belly stripe; yellow underparts, olive-green back, blue-grey wings with white wingbar; black bill, grey legs."
+   "reviewed": false
   },
   "grewar3": {
    "name": "Greenish Warbler",
    "sci": "Phylloscopus trochiloides",
    "family": "Leaf Warblers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grewar3/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44704121/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small slim leaf warbler, plain greyish-green above, whitish below; long whitish supercilium, dark eyestripe, one thin pale wingbar; fine dark bill with pale base, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grewar3/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.762,
-     "pose": 0.143,
-     "bird": 0.749
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.79,
+     "pose": 0.056,
+     "bird": 0.659
     },
     {
      "id": "v1",
      "img": "review_imgs/grewar3/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.823,
-     "pose": 0.108,
-     "bird": 0.571
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grewar3/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.843,
-     "pose": 0.069,
-     "bird": 0.559
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.821,
+     "pose": 0.038,
+     "bird": 0.543
     }
    ],
-   "id": "Small slim leaf warbler, plain greyish-green above, whitish below; long whitish supercilium, dark eyestripe, one thin pale wingbar; fine dark bill with pale base, dark legs."
+   "reviewed": false
   },
   "grewhi1": {
    "name": "Greater Whitethroat",
    "sci": "Curruca communis",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grewhi1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/96634411/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim warbler with grey-brown head, rufous-edged wings, brown back, white throat contrasting buff-pink breast and white belly; pale eye-ring, white outer tail feathers; dark bill, pale brownish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grewhi1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.89,
-     "pose": 0.238,
-     "bird": 0.765
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.889,
+     "pose": 0.149,
+     "bird": 0.835
     },
     {
      "id": "v1",
      "img": "review_imgs/grewhi1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.877,
-     "pose": 0.243,
-     "bird": 0.678
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grewhi1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.892,
-     "pose": 0.161,
-     "bird": 0.469
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.898,
+     "pose": 0.153,
+     "bird": 0.752
     }
    ],
-   "id": "Slim warbler with grey-brown head, rufous-edged wings, brown back, white throat contrasting buff-pink breast and white belly; pale eye-ring, white outer tail feathers; dark bill, pale brownish legs."
+   "reviewed": false
   },
   "grgowl": {
    "name": "Great Gray Owl",
    "sci": "Strix nebulosa",
    "family": "Typical Owls",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grgowl/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/422308681/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Very large grey owl with huge rounded facial disc marked with concentric grey rings, no ear tufts; small yellow eyes, white bow-tie marking on throat; mottled grey-brown body, yellow bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grgowl/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.832,
-     "pose": 0.535,
-     "bird": 0.822
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.783,
+     "pose": 0.618,
+     "bird": 0.489
     },
     {
      "id": "v1",
      "img": "review_imgs/grgowl/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.803,
-     "pose": 0.582,
-     "bird": 0.61
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grgowl/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.814,
-     "pose": 0.457,
-     "bird": 0.638
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.791,
+     "pose": 0.528,
+     "bird": 0.429
     }
    ],
-   "id": "Very large grey owl with huge rounded facial disc marked with concentric grey rings, no ear tufts; small yellow eyes, white bow-tie marking on throat; mottled grey-brown body, yellow bill."
+   "reviewed": false
   },
   "bargoo": {
    "name": "Barnacle Goose",
