@@ -17201,6 +17201,206 @@
      "bird": 0.468
     }
    ]
+  },
+  "somtit3": {
+   "name": "Sombre Tit",
+   "sci": "Poecile lugubris",
+   "family": "Tits, Chickadees, and Titmice",
+   "reason": "all",
+   "before": "review_imgs/somtit3/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/79929731/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/somtit3/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.898,
+     "pose": 0.11,
+     "bird": 0.834
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/somtit3/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.908,
+     "pose": 0.073,
+     "bird": 0.76
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/somtit3/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.894,
+     "pose": 0.056,
+     "bird": 0.329
+    }
+   ]
+  },
+  "sonthr1": {
+   "name": "Song Thrush",
+   "sci": "Turdus philomelos",
+   "family": "Thrushes",
+   "reason": "all",
+   "before": "review_imgs/sonthr1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/234235711/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/sonthr1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.885,
+     "pose": 0.179,
+     "bird": 0.616
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/sonthr1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.89,
+     "pose": 0.233,
+     "bird": 0.54
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sonthr1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.9,
+     "pose": 0.178,
+     "bird": 0.492
+    }
+   ]
+  },
+  "sooshe": {
+   "name": "Sooty Shearwater",
+   "sci": "Ardenna grisea",
+   "family": "Shearwaters and Petrels",
+   "reason": "all",
+   "before": "review_imgs/sooshe/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/174404171/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/sooshe/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.893,
+     "pose": 0.042,
+     "bird": 0.488
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/sooshe/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.864,
+     "pose": 0.029,
+     "bird": 0.176
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sooshe/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.868,
+     "pose": 0.041,
+     "bird": 0.097
+    }
+   ]
+  },
+  "spaeag1": {
+   "name": "Spanish Eagle",
+   "sci": "Aquila adalberti",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/spaeag1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/56275381/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/spaeag1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.696,
+     "pose": 0.036,
+     "bird": 0.72
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/spaeag1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.667,
+     "pose": 0.043,
+     "bird": 0.61
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/spaeag1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.667,
+     "pose": 0.031,
+     "bird": 0.194
+    }
+   ]
+  },
+  "spaspa1": {
+   "name": "Spanish Sparrow",
+   "sci": "Passer hispaniolensis",
+   "family": "Old World Sparrows",
+   "reason": "all",
+   "before": "review_imgs/spaspa1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/61556351/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/spaspa1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.907,
+     "pose": 0.375,
+     "bird": 0.735
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/spaspa1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.885,
+     "pose": 0.207,
+     "bird": 0.62
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/spaspa1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.911,
+     "pose": 0.268,
+     "bird": 0.426
+    }
+   ]
   }
  }
 }
