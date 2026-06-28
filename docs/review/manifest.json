@@ -13219,6 +13219,206 @@
      "bird": 0.139
     }
    ]
+  },
+  "norhar1": {
+   "name": "Hen Harrier",
+   "sci": "Circus cyaneus",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/norhar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/189755831/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/norhar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.901,
+     "pose": 0.026,
+     "bird": 0.665
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/norhar1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.896,
+     "pose": 0.015,
+     "bird": 0.652
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norhar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.906,
+     "pose": 0.027,
+     "bird": 0.566
+    }
+   ]
+  },
+  "norlap": {
+   "name": "Northern Lapwing",
+   "sci": "Vanellus vanellus",
+   "family": "Plovers and Lapwings",
+   "reason": "all",
+   "before": "review_imgs/norlap/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/530705741/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/norlap/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.891,
+     "pose": 0.123,
+     "bird": 0.618
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/norlap/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.895,
+     "pose": 0.089,
+     "bird": 0.408
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norlap/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.909,
+     "pose": 0.075,
+     "bird": 0.358
+    }
+   ]
+  },
+  "norpin": {
+   "name": "Northern Pintail",
+   "sci": "Anas acuta",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/norpin/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/71206681/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/norpin/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.686,
+     "pose": 0.137,
+     "bird": 0.7
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/norpin/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.61,
+     "pose": 0.135,
+     "bird": 0.726
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norpin/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.523,
+     "pose": 0.152,
+     "bird": 0.17
+    }
+   ]
+  },
+  "norsho": {
+   "name": "Northern Shoveler",
+   "sci": "Spatula clypeata",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/norsho/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/215033941/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/norsho/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.743,
+     "pose": 0.037,
+     "bird": 0.909
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/norsho/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.742,
+     "pose": 0.05,
+     "bird": 0.812
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norsho/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.727,
+     "pose": 0.036,
+     "bird": 0.77
+    }
+   ]
+  },
+  "norshr1": {
+   "name": "Great Gray Shrike",
+   "sci": "Lanius excubitor",
+   "family": "Shrikes",
+   "reason": "all",
+   "before": "review_imgs/norshr1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66108031/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/norshr1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.785,
+     "pose": 0.194,
+     "bird": 0.936
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/norshr1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.803,
+     "pose": 0.127,
+     "bird": 0.944
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norshr1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.775,
+     "pose": 0.055,
+     "bird": 0.858
+    }
+   ]
   }
  }
 }
