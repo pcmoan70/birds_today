@@ -16617,42 +16617,34 @@
    "name": "Western Subalpine Warbler",
    "sci": "Curruca iberiae",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/subwar6/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/149647271/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small Sylvia warbler; male has blue-grey head and upperparts, brick-orange throat and breast, and bold white moustachial stripe. White belly, red eye-ring, pale orange legs, fine dark bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/subwar6/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
+     "seed": 3005,
+     "strength": 0.62,
      "sim": 0.871,
-     "pose": 0.195,
-     "bird": 0.545
+     "pose": 0.158,
+     "bird": 0.683
     },
     {
      "id": "v1",
      "img": "review_imgs/subwar6/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.885,
-     "pose": 0.095,
-     "bird": 0.515
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/subwar6/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.866,
-     "pose": 0.094,
-     "bird": 0.181
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.882,
+     "pose": 0.042,
+     "bird": 0.166
     }
    ],
-   "id": "Small Sylvia warbler; male has blue-grey head and upperparts, brick-orange throat and breast, and bold white moustachial stripe. White belly, red eye-ring, pale orange legs, fine dark bill."
+   "reviewed": false
   },
   "subwar8": {
    "name": "Moltoni's Warbler",
@@ -16699,124 +16691,100 @@
    "name": "Surf Scoter",
    "sci": "Melanitta perspicillata",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/sursco/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/190832741/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Bulky black sea-duck; drake all-black with bold white patches on forehead and nape, and a swollen multicoloured orange, white and black bill with round black spot near base; staring white eye.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sursco/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.752,
-     "pose": 0.46,
-     "bird": 0.957
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.75,
+     "pose": 0.297,
+     "bird": 0.907
     },
     {
      "id": "v1",
      "img": "review_imgs/sursco/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.715,
-     "pose": 0.271,
-     "bird": 0.908
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sursco/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.703,
-     "pose": 0.162,
-     "bird": 0.669
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.75,
+     "pose": 0.234,
+     "bird": 0.835
     }
    ],
-   "id": "Bulky black sea-duck; drake all-black with bold white patches on forehead and nape, and a swollen multicoloured orange, white and black bill with round black spot near base; staring white eye."
+   "reviewed": false
   },
   "swagoo1": {
    "name": "Swan Goose",
    "sci": "Anser cygnoides",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/swagoo1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/56526941/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large long-necked goose; pale buff underparts, brown-and-buff barred upperparts, dark chocolate stripe down the back of the long neck, large black bill (often with white base ring), and orange legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/swagoo1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.721,
-     "pose": 0.227,
-     "bird": 0.957
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.779,
+     "pose": 0.396,
+     "bird": 0.932
     },
     {
      "id": "v1",
      "img": "review_imgs/swagoo1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.682,
-     "pose": 0.224,
-     "bird": 0.95
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/swagoo1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.658,
-     "pose": 0.303,
-     "bird": 0.895
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.755,
+     "pose": 0.164,
+     "bird": 0.824
     }
    ],
-   "id": "Large long-necked goose; pale buff underparts, brown-and-buff barred upperparts, dark chocolate stripe down the back of the long neck, large black bill (often with white base ring), and orange legs."
+   "reviewed": false
   },
   "syrwoo1": {
    "name": "Syrian Woodpecker",
    "sci": "Dendrocopos syriacus",
    "family": "Woodpeckers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/syrwoo1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/510944671/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pied woodpecker; black-and-white back with large white shoulder patches, white underparts with pinkish vent, plain white cheek lacking full black collar; male shows red nape patch. Greyish bill, grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/syrwoo1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.899,
-     "pose": 0.14,
-     "bird": 0.602
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.89,
+     "pose": 0.151,
+     "bird": 0.656
     },
     {
      "id": "v1",
      "img": "review_imgs/syrwoo1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.88,
-     "pose": 0.146,
-     "bird": 0.614
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/syrwoo1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.865,
-     "pose": 0.043,
-     "bird": 0.702
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.873,
+     "pose": 0.068,
+     "bird": 0.665
     }
    ],
-   "id": "Pied woodpecker; black-and-white back with large white shoulder patches, white underparts with pinkish vent, plain white cheek lacking full black collar; male shows red nape patch. Greyish bill, grey legs."
+   "reviewed": false
   },
   "taibeg1": {
    "name": "Taiga Bean-Goose",
@@ -16863,42 +16831,34 @@
    "name": "Tawny Owl",
    "sci": "Strix aluco",
    "family": "Typical Owls",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/tawowl1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/227951381/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stocky round-headed owl with big black eyes; rich rufous-brown plumage streaked and mottled darker, pale facial disc, whitish eyebrows and shoulder spots. Hooked yellowish bill, feathered legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/tawowl1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.84,
-     "pose": 0.461,
-     "bird": 0.682
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.843,
+     "pose": 0.55,
+     "bird": 0.833
     },
     {
      "id": "v1",
      "img": "review_imgs/tawowl1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.844,
-     "pose": 0.534,
-     "bird": 0.588
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/tawowl1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.824,
-     "pose": 0.381,
-     "bird": 0.745
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.834,
+     "pose": 0.516,
+     "bird": 0.484
     }
    ],
-   "id": "Stocky round-headed owl with big black eyes; rich rufous-brown plumage streaked and mottled darker, pale facial disc, whitish eyebrows and shoulder spots. Hooked yellowish bill, feathered legs."
+   "reviewed": false
   },
   "tawpip1": {
    "name": "Tawny Pipit",
