@@ -12113,42 +12113,34 @@
    "name": "Middle Spotted Woodpecker",
    "sci": "Dendrocoptes medius",
    "family": "Woodpeckers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/miswoo1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23422691/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pied woodpecker with a full bright-red crown (no black border), black-and-white barred back with white shoulder patches, white face, pinkish-flushed lower belly, faint flank streaking, and a pale dark-tipped bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/miswoo1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.743,
-     "pose": 0.147,
-     "bird": 0.809
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.704,
+     "pose": 0.039,
+     "bird": 0.885
     },
     {
      "id": "v1",
      "img": "review_imgs/miswoo1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.652,
-     "pose": 0.029,
-     "bird": 0.766
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/miswoo1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.708,
-     "pose": 0.134,
-     "bird": 0.535
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.71,
+     "pose": 0.162,
+     "bird": 0.703
     }
    ],
-   "id": "Pied woodpecker with a full bright-red crown (no black border), black-and-white barred back with white shoulder patches, white face, pinkish-flushed lower belly, faint flank streaking, and a pale dark-tipped bill."
+   "reviewed": false
   },
   "monhar1": {
    "name": "Montagu's Harrier",
@@ -12400,42 +12392,34 @@
    "name": "Mediterranean Short-toed Lark",
    "sci": "Alaudala rufescens",
    "family": "Larks",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/mstlar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/56784401/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small pale sandy short-toed lark, greyish-buff above with fine streaking, whitish below with light breast streaking, a pale supercilium, stubby pale finch-like bill, and pale pinkish legs; plain face.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/mstlar1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.809,
-     "pose": 0.399,
-     "bird": 0.694
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.782,
+     "pose": 0.387,
+     "bird": 0.707
     },
     {
      "id": "v1",
      "img": "review_imgs/mstlar1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.746,
-     "pose": 0.335,
-     "bird": 0.745
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/mstlar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.76,
-     "pose": 0.135,
-     "bird": 0.806
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.784,
+     "pose": 0.218,
+     "bird": 0.634
     }
    ],
-   "id": "Small pale sandy short-toed lark, greyish-buff above with fine streaking, whitish below with light breast streaking, a pale supercilium, stubby pale finch-like bill, and pale pinkish legs; plain face."
+   "reviewed": false
   },
   "musduc": {
    "name": "Muscovy Duck",
@@ -12605,42 +12589,34 @@
    "name": "Northern Fulmar",
    "sci": "Fulmarus glacialis",
    "family": "Shearwaters and Petrels",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/norful/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/142378071/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stocky grey-and-white gull-like tubenose with a pale grey back and wings, white head and underparts, a thick neck, dark eye-smudge, and a short stout yellowish bill with prominent tube-nostrils.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norful/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.921,
-     "pose": 0.025,
-     "bird": 0.795
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.926,
+     "pose": 0.018,
+     "bird": 0.927
     },
     {
      "id": "v1",
      "img": "review_imgs/norful/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.064,
-     "bird": 0.776
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/norful/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.905,
-     "pose": 0.009,
-     "bird": 0.567
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.918,
+     "pose": 0.022,
+     "bird": 0.7
     }
    ],
-   "id": "Stocky grey-and-white gull-like tubenose with a pale grey back and wings, white head and underparts, a thick neck, dark eye-smudge, and a short stout yellowish bill with prominent tube-nostrils."
+   "reviewed": false
   },
   "norgan": {
    "name": "Northern Gannet",
@@ -12728,83 +12704,67 @@
    "name": "Hen Harrier",
    "sci": "Circus cyaneus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/norhar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/189755831/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim grey-and-white harrier; male pale ash-grey above with black wingtips, white underparts and rump, long wings and tail; rounded head, yellow eyes and legs, low-set wings held in a V.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norhar1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.901,
-     "pose": 0.026,
-     "bird": 0.665
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.895,
+     "pose": 0.028,
+     "bird": 0.732
     },
     {
      "id": "v1",
      "img": "review_imgs/norhar1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.896,
-     "pose": 0.015,
-     "bird": 0.652
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/norhar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.906,
-     "pose": 0.027,
-     "bird": 0.566
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.895,
+     "pose": 0.021,
+     "bird": 0.693
     }
    ],
-   "id": "Slim grey-and-white harrier; male pale ash-grey above with black wingtips, white underparts and rump, long wings and tail; rounded head, yellow eyes and legs, low-set wings held in a V."
+   "reviewed": false
   },
   "norlap": {
    "name": "Northern Lapwing",
    "sci": "Vanellus vanellus",
    "family": "Plovers and Lapwings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/norlap/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/530705741/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Black-and-white plover with iridescent green-glossed black upperparts, a long wispy black crest, black breast-band, white face and belly, orange-buff undertail, broad rounded wings, and dark reddish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norlap/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.891,
-     "pose": 0.123,
-     "bird": 0.618
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.914,
+     "pose": 0.077,
+     "bird": 0.556
     },
     {
      "id": "v1",
      "img": "review_imgs/norlap/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.895,
-     "pose": 0.089,
-     "bird": 0.408
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/norlap/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.909,
-     "pose": 0.075,
-     "bird": 0.358
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.891,
+     "pose": 0.037,
+     "bird": 0.523
     }
    ],
-   "id": "Black-and-white plover with iridescent green-glossed black upperparts, a long wispy black crest, black breast-band, white face and belly, orange-buff undertail, broad rounded wings, and dark reddish legs."
+   "reviewed": false
   },
   "norpin": {
    "name": "Northern Pintail",
