@@ -14978,206 +14978,166 @@
    "name": "Rose-ringed Parakeet",
    "sci": "Psittacula krameri",
    "family": "Old World Parrots",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rorpar/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/129962691/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim long-tailed bright grass-green parakeet with very long pointed tail; large red hooked bill. Male shows narrow black-and-rose neck collar; pale blue wash on nape. Grey-green legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rorpar/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.244,
-     "bird": 0.809
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.883,
+     "pose": 0.245,
+     "bird": 0.613
     },
     {
      "id": "v1",
      "img": "review_imgs/rorpar/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.886,
-     "pose": 0.136,
-     "bird": 0.744
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rorpar/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.897,
-     "pose": 0.125,
-     "bird": 0.629
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.878,
+     "pose": 0.18,
+     "bird": 0.655
     }
    ],
-   "id": "Slim long-tailed bright grass-green parakeet with very long pointed tail; large red hooked bill. Male shows narrow black-and-rose neck collar; pale blue wash on nape. Grey-green legs."
+   "reviewed": false
   },
   "rosgoo": {
    "name": "Ross's Goose",
    "sci": "Anser rossii",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rosgoo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/83984151/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small stocky white goose with black wingtips; short stubby pink-based bill with bluish 'grin patch' at base. Rounded head, pink legs and feet. Like a miniature Snow Goose.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rosgoo/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.942,
-     "pose": 0.207,
-     "bird": 0.982
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.917,
+     "pose": 0.215,
+     "bird": 0.98
     },
     {
      "id": "v1",
      "img": "review_imgs/rosgoo/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.92,
-     "pose": 0.235,
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.893,
+     "pose": 0.181,
      "bird": 0.967
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rosgoo/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.91,
-     "pose": 0.176,
-     "bird": 0.977
     }
    ],
-   "id": "Small stocky white goose with black wingtips; short stubby pink-based bill with bluish 'grin patch' at base. Rounded head, pink legs and feet. Like a miniature Snow Goose."
+   "reviewed": false
   },
   "rosgul": {
    "name": "Ross's Gull",
    "sci": "Rhodostethia rosea",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rosgul/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/106840791/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small delicate gull, dove-like, pale grey above with white wedge-shaped tail; pinkish flush on white underparts. Breeding adult has thin black neck ring; small black bill, red legs, dark eye.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rosgul/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.915,
-     "pose": 0.18,
-     "bird": 0.867
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.901,
+     "pose": 0.163,
+     "bird": 0.833
     },
     {
      "id": "v1",
      "img": "review_imgs/rosgul/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.904,
-     "pose": 0.186,
-     "bird": 0.774
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rosgul/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.901,
-     "pose": 0.101,
-     "bird": 0.601
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.917,
+     "pose": 0.104,
+     "bird": 0.705
     }
    ],
-   "id": "Small delicate gull, dove-like, pale grey above with white wedge-shaped tail; pinkish flush on white underparts. Breeding adult has thin black neck ring; small black bill, red legs, dark eye."
+   "reviewed": false
   },
   "rossta2": {
    "name": "Rosy Starling",
    "sci": "Pastor roseus",
    "family": "Starlings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rossta2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/118394501/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pink-and-black starling: glossy black head, neck, wings and tail with shaggy crest; bright rosy-pink back and breast. Pinkish-yellow bill, pink legs. Starling shape and size.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rossta2/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.173,
-     "bird": 0.612
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.914,
+     "pose": 0.191,
+     "bird": 0.701
     },
     {
      "id": "v1",
      "img": "review_imgs/rossta2/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.91,
-     "pose": 0.143,
-     "bird": 0.572
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rossta2/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.904,
-     "pose": 0.154,
-     "bird": 0.42
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.918,
+     "pose": 0.115,
+     "bird": 0.446
     }
    ],
-   "id": "Pink-and-black starling: glossy black head, neck, wings and tail with shaggy crest; bright rosy-pink back and breast. Pinkish-yellow bill, pink legs. Starling shape and size."
+   "reviewed": false
   },
   "rtrthr1": {
    "name": "Rufous-tailed Rock-Thrush",
    "sci": "Monticola saxatilis",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rtrthr1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/183109641/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Robin-sized thrush; male has blue-grey head and back, white patch on lower back, and bright orange-rufous breast, belly and tail. Dark wings, thin dark bill, brownish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rtrthr1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.915,
-     "pose": 0.175,
-     "bird": 0.152
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.931,
+     "pose": 0.174,
+     "bird": 0.063
     },
     {
      "id": "v1",
      "img": "review_imgs/rtrthr1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.913,
-     "pose": 0.175,
-     "bird": 0.026
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rtrthr1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.925,
-     "pose": 0.101,
-     "bird": 0.065
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.927,
+     "pose": 0.117,
+     "bird": 0.048
     }
    ],
-   "id": "Robin-sized thrush; male has blue-grey head and back, white patch on lower back, and bright orange-rufous breast, belly and tail. Dark wings, thin dark bill, brownish legs."
+   "reviewed": false
   },
   "rudduc": {
    "name": "Ruddy Duck",
