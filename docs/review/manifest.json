@@ -9560,206 +9560,166 @@
    "name": "Gray Wagtail",
    "sci": "Motacilla cinerea",
    "family": "Wagtails and Pipits",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grywag/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23443031/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim long-tailed wagtail, blue-grey back and head, yellow rump and bright yellow underparts (vivid on undertail); white supercilium, white wingbar, blackish wings; black bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grywag/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.897,
-     "pose": 0.085,
-     "bird": 0.733
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.882,
+     "pose": 0.058,
+     "bird": 0.864
     },
     {
      "id": "v1",
      "img": "review_imgs/grywag/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.886,
-     "pose": 0.102,
-     "bird": 0.698
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grywag/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.87,
-     "pose": 0.096,
-     "bird": 0.559
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.874,
+     "pose": 0.025,
+     "bird": 0.863
     }
    ],
-   "id": "Slim long-tailed wagtail, blue-grey back and head, yellow rump and bright yellow underparts (vivid on undertail); white supercilium, white wingbar, blackish wings; black bill, pinkish legs."
+   "reviewed": false
   },
   "gstlar1": {
    "name": "Greater Short-toed Lark",
    "sci": "Calandrella brachydactyla",
    "family": "Larks",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gstlar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/112309421/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small pale lark, sandy-brown streaked back, plain whitish underparts with dark patch at side of neck; pale supercilium, peaked crown, short stubby pale bill; pale legs, white outer tail feathers.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gstlar1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
+     "seed": 3006,
+     "strength": 0.7,
      "sim": 0.9,
-     "pose": 0.215,
-     "bird": 0.748
+     "pose": 0.182,
+     "bird": 0.528
     },
     {
      "id": "v1",
      "img": "review_imgs/gstlar1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.875,
-     "pose": 0.215,
-     "bird": 0.643
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gstlar1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.918,
-     "pose": 0.178,
-     "bird": 0.376
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.906,
+     "pose": 0.161,
+     "bird": 0.52
     }
    ],
-   "id": "Small pale lark, sandy-brown streaked back, plain whitish underparts with dark patch at side of neck; pale supercilium, peaked crown, short stubby pale bill; pale legs, white outer tail feathers."
+   "reviewed": false
   },
   "gubter2": {
    "name": "Gull-billed Tern",
    "sci": "Gelochelidon nilotica",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gubter2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/57046791/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stout pale tern, pale grey back and wings, white underparts; full black cap in breeding; thick gull-like all-black bill, long black legs, short forked tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gubter2/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.898,
-     "pose": 0.014,
-     "bird": 0.59
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.915,
+     "pose": 0.027,
+     "bird": 0.45
     },
     {
      "id": "v1",
      "img": "review_imgs/gubter2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.916,
-     "pose": 0.034,
-     "bird": 0.424
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gubter2/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.911,
-     "pose": 0.018,
-     "bird": 0.275
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.924,
+     "pose": 0.025,
+     "bird": 0.431
     }
    ],
-   "id": "Stout pale tern, pale grey back and wings, white underparts; full black cap in breeding; thick gull-like all-black bill, long black legs, short forked tail."
+   "reviewed": false
   },
   "gwfgoo": {
    "name": "Greater White-fronted Goose",
    "sci": "Anser albifrons",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gwfgoo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36909271/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Grey-brown goose with white blaze around base of bill, black irregular barring on belly; barred brown back, white undertail; pink-orange bill, orange legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gwfgoo/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.93,
-     "pose": 0.352,
-     "bird": 0.957
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.91,
+     "pose": 0.255,
+     "bird": 0.969
     },
     {
      "id": "v1",
      "img": "review_imgs/gwfgoo/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.909,
-     "pose": 0.266,
-     "bird": 0.956
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gwfgoo/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.895,
-     "pose": 0.274,
-     "bird": 0.887
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.877,
+     "pose": 0.225,
+     "bird": 0.885
     }
    ],
-   "id": "Grey-brown goose with white blaze around base of bill, black irregular barring on belly; barred brown back, white undertail; pink-orange bill, orange legs."
+   "reviewed": false
   },
   "gyfwoo1": {
    "name": "Gray-headed Woodpecker",
    "sci": "Picus canus",
    "family": "Woodpeckers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gyfwoo1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/656957834/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Green woodpecker, olive-green back, yellow-green rump, pale grey head and underparts; small red forehead patch, thin black moustache and dark lores; pale eye, slender grey bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gyfwoo1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.901,
-     "pose": 0.206,
-     "bird": 0.403
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.899,
+     "pose": 0.247,
+     "bird": 0.661
     },
     {
      "id": "v1",
      "img": "review_imgs/gyfwoo1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.894,
-     "pose": 0.219,
-     "bird": 0.227
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gyfwoo1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.842,
-     "pose": 0.171,
-     "bird": 0.228
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.892,
+     "pose": 0.265,
+     "bird": 0.491
     }
    ],
-   "id": "Green woodpecker, olive-green back, yellow-green rump, pale grey head and underparts; small red forehead patch, thin black moustache and dark lores; pale eye, slender grey bill."
+   "reviewed": false
   },
   "gyhchi": {
    "name": "Gray-headed Chickadee",
