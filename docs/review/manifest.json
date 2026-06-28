@@ -12019,6 +12019,206 @@
      "bird": 0.554
     }
    ]
+  },
+  "manduc": {
+   "name": "Mandarin Duck",
+   "sci": "Aix galericulata",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/manduc/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/86109331/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/manduc/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.843,
+     "pose": 0.075,
+     "bird": 0.392
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/manduc/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.814,
+     "pose": 0.049,
+     "bird": 0.38
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/manduc/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.836,
+     "pose": 0.042,
+     "bird": 0.226
+    }
+   ]
+  },
+  "manshe": {
+   "name": "Manx Shearwater",
+   "sci": "Puffinus puffinus",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/manshe/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/216800971/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/manshe/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.043,
+     "bird": 0.633
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/manshe/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.912,
+     "pose": 0.021,
+     "bird": 0.529
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/manshe/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.899,
+     "pose": 0.021,
+     "bird": 0.315
+    }
+   ]
+  },
+  "marsan": {
+   "name": "Marsh Sandpiper",
+   "sci": "Tringa stagnatilis",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/marsan/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/93850071/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/marsan/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.796,
+     "pose": 0.365,
+     "bird": 0.878
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/marsan/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.762,
+     "pose": 0.247,
+     "bird": 0.815
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/marsan/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.772,
+     "pose": 0.156,
+     "bird": 0.657
+    }
+   ]
+  },
+  "martea1": {
+   "name": "Marbled Duck",
+   "sci": "Marmaronetta angustirostris",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/martea1/before.png",
+   "ref": "review_imgs/martea1/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/martea1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.906,
+     "pose": 0.259,
+     "bird": 0.934
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/martea1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.916,
+     "pose": 0.305,
+     "bird": 0.844
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/martea1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.904,
+     "pose": 0.245,
+     "bird": 0.854
+    }
+   ]
+  },
+  "martit2": {
+   "name": "Marsh Tit",
+   "sci": "Poecile palustris",
+   "family": "Tits, Chickadees, and Titmice",
+   "reason": "all",
+   "before": "review_imgs/martit2/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/128664871/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/martit2/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.9,
+     "pose": 0.223,
+     "bird": 0.865
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/martit2/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.902,
+     "pose": 0.149,
+     "bird": 0.828
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/martit2/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.9,
+     "pose": 0.111,
+     "bird": 0.781
+    }
+   ]
   }
  }
 }
