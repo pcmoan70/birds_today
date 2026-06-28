@@ -8213,35 +8213,35 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301917401/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Compact diving duck; male with a glossy green-black rounded head, a round white spot before the golden-yellow eye, white body, and black back. Black-and-white wings, short dark bill, yellow-orange legs.",
+   "id": "Compact diving duck; male with a glossy green-black rounded head, a round white spot before the golden-yellow eye, white body, and black back. Black-and-white wings, short dark bill, yellow-orange legs. Body slightly longer and more elongated.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comgol/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.795,
-     "pose": 0.222,
-     "bird": 0.874
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.837,
+     "pose": 0.194,
+     "bird": 0.897
     },
     {
      "id": "v1",
      "img": "review_imgs/comgol/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.797,
-     "pose": 0.145,
-     "bird": 0.94
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.799,
+     "pose": 0.125,
+     "bird": 0.859
     },
     {
      "id": "v2",
      "img": "review_imgs/comgol/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.711,
-     "pose": 0.078,
-     "bird": 0.668
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.795,
+     "pose": 0.168,
+     "bird": 0.701
     }
    ],
    "reviewed": false
@@ -8261,29 +8261,29 @@
     {
      "id": "v0",
      "img": "review_imgs/comgre/v0.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.828,
-     "pose": 0.439,
-     "bird": 0.871
+     "sim": 0.861,
+     "pose": 0.41,
+     "bird": 0.574
     },
     {
      "id": "v1",
      "img": "review_imgs/comgre/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.859,
-     "pose": 0.32,
-     "bird": 0.599
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.384,
+     "bird": 0.454
     },
     {
      "id": "v2",
      "img": "review_imgs/comgre/v2.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.864,
-     "pose": 0.272,
-     "bird": 0.303
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.833,
+     "pose": 0.364,
+     "bird": 0.34
     }
    ],
    "reviewed": false
@@ -8303,29 +8303,29 @@
     {
      "id": "v0",
      "img": "review_imgs/commer/v0.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.704,
-     "pose": 0.108,
-     "bird": 0.864
+     "sim": 0.708,
+     "pose": 0.063,
+     "bird": 0.927
     },
     {
      "id": "v1",
      "img": "review_imgs/commer/v1.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.73,
-     "pose": 0.051,
-     "bird": 0.841
+     "sim": 0.764,
+     "pose": 0.14,
+     "bird": 0.679
     },
     {
      "id": "v2",
      "img": "review_imgs/commer/v2.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.626,
-     "pose": 0.073,
-     "bird": 0.471
+     "sim": 0.675,
+     "pose": 0.034,
+     "bird": 0.861
     }
    ],
    "reviewed": false
@@ -8345,11 +8345,11 @@
     {
      "id": "v0",
      "img": "review_imgs/commoo3/v0.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.771,
-     "pose": 0.187,
-     "bird": 0.906
+     "sim": 0.744,
+     "pose": 0.092,
+     "bird": 0.901
     }
    ],
    "reviewed": false
@@ -8358,42 +8358,43 @@
    "name": "Common Murre",
    "sci": "Uria aalge",
    "family": "Auks, Murres, and Puffins",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/commur/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252858111/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim black-and-white auk with dark chocolate-brown head, neck and upperparts, clean white underparts, a long pointed black bill, thin white trailing edge to the wing, and dark legs set far back.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/commur/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.788,
-     "pose": 0.171,
-     "bird": 0.763
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.777,
+     "pose": 0.3,
+     "bird": 0.868
     },
     {
      "id": "v1",
      "img": "review_imgs/commur/v1.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.8,
-     "pose": 0.113,
-     "bird": 0.704
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.78,
+     "pose": 0.249,
+     "bird": 0.854
     },
     {
      "id": "v2",
      "img": "review_imgs/commur/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.774,
-     "pose": 0.137,
-     "bird": 0.612
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.802,
+     "pose": 0.187,
+     "bird": 0.831
     }
    ],
-   "id": "Slim black-and-white auk with dark chocolate-brown head, neck and upperparts, clean white underparts, a long pointed black bill, thin white trailing edge to the wing, and dark legs set far back."
+   "reviewed": false
   },
   "comqua1": {
    "name": "Common Quail",
