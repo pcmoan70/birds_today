@@ -11928,42 +11928,34 @@
    "name": "Yelkouan Shearwater",
    "sci": "Puffinus yelkouan",
    "family": "Shearwaters and Petrels",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/medshe1/before.png",
    "ref": "review_imgs/medshe1/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium shearwater, brownish-black above and dull whitish below with dusky smudging on flanks and undertail; less clean than Manx, with a dark cap and slim dark bill, stiff narrow wings.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/medshe1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.862,
-     "pose": 0.139,
-     "bird": 0.657
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.858,
+     "pose": 0.061,
+     "bird": 0.473
     },
     {
      "id": "v1",
      "img": "review_imgs/medshe1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.773,
-     "pose": 0.089,
-     "bird": 0.414
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/medshe1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.811,
-     "pose": 0.072,
-     "bird": 0.168
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.795,
+     "pose": 0.085,
+     "bird": 0.443
     }
    ],
-   "id": "Medium shearwater, brownish-black above and dull whitish below with dusky smudging on flanks and undertail; less clean than Manx, with a dark cap and slim dark bill, stiff narrow wings."
+   "reviewed": false
   },
   "melwar1": {
    "name": "Melodious Warbler",
@@ -12035,42 +12027,43 @@
    "name": "Common Gull",
    "sci": "Larus canus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "badref",
    "before": "review_imgs/mewgul/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/195654021/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium gull with a gentle rounded head, medium-grey back, white head and underparts, black wingtips with large white spots ('mirrors'), a plain greenish-yellow bill, dark eye, and yellow-green legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/mewgul/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.895,
-     "pose": 0.419,
-     "bird": 0.799
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.917,
+     "pose": 0.472,
+     "bird": 0.935
     },
     {
      "id": "v1",
      "img": "review_imgs/mewgul/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.899,
-     "pose": 0.287,
-     "bird": 0.78
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.92,
+     "pose": 0.295,
+     "bird": 0.947
     },
     {
      "id": "v2",
      "img": "review_imgs/mewgul/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.885,
-     "pose": 0.25,
-     "bird": 0.747
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.9,
+     "pose": 0.273,
+     "bird": 0.832
     }
    ],
-   "id": "Medium gull with a gentle rounded head, medium-grey back, white head and underparts, black wingtips with large white spots ('mirrors'), a plain greenish-yellow bill, dark eye, and yellow-green legs."
+   "reviewed": false
   },
   "misthr1": {
    "name": "Mistle Thrush",
@@ -12142,124 +12135,100 @@
    "name": "Montagu's Harrier",
    "sci": "Circus pygargus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/monhar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44390971/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slender pale-grey harrier with long narrow wings, black wingtips and a single black bar across the upperwing, pale grey underparts with rusty streaks on belly and underwing; yellow eyes and legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/monhar1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.822,
-     "pose": 0.059,
-     "bird": 0.818
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.82,
+     "pose": 0.023,
+     "bird": 0.797
     },
     {
      "id": "v1",
      "img": "review_imgs/monhar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.83,
-     "pose": 0.054,
-     "bird": 0.767
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/monhar1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.794,
-     "pose": 0.036,
-     "bird": 0.723
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.823,
+     "pose": 0.052,
+     "bird": 0.72
     }
    ],
-   "id": "Slender pale-grey harrier with long narrow wings, black wingtips and a single black bar across the upperwing, pale grey underparts with rusty streaks on belly and underwing; yellow eyes and legs."
+   "reviewed": false
   },
   "monpar1": {
    "name": "Monk Parakeet",
    "sci": "Myiopsitta monachus",
    "family": "New World and African Parrots",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/monpar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/47263051/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Bright green parakeet with a pale grey forehead, cheeks and scaly-grey breast, green crown and back, blue-tinged flight feathers, a long green tail, a pinkish-horn hooked bill, and grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/monpar1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.382,
-     "bird": 0.867
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.911,
+     "pose": 0.422,
+     "bird": 0.84
     },
     {
      "id": "v1",
      "img": "review_imgs/monpar1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.869,
-     "pose": 0.072,
-     "bird": 0.971
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/monpar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.908,
-     "pose": 0.206,
-     "bird": 0.534
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.897,
+     "pose": 0.151,
+     "bird": 0.9
     }
    ],
-   "id": "Bright green parakeet with a pale grey forehead, cheeks and scaly-grey breast, green crown and back, blue-tinged flight feathers, a long green tail, a pinkish-horn hooked bill, and grey legs."
+   "reviewed": false
   },
   "mouchi2": {
    "name": "Mountain Chiffchaff",
    "sci": "Phylloscopus sindianus",
    "family": "Leaf Warblers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/mouchi2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/473549731/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Drab grey-brown leaf warbler with greyish upperparts, whitish underparts, a long whitish supercilium, dark eye-stripe, fine dark bill and blackish legs; lacks green and yellow tones, very plain.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/mouchi2/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.884,
-     "pose": 0.101,
-     "bird": 0.743
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.889,
+     "pose": 0.103,
+     "bird": 0.73
     },
     {
      "id": "v1",
      "img": "review_imgs/mouchi2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.898,
-     "pose": 0.132,
-     "bird": 0.672
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/mouchi2/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.877,
-     "pose": 0.138,
-     "bird": 0.13
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.926,
+     "pose": 0.087,
+     "bird": 0.389
     }
    ],
-   "id": "Drab grey-brown leaf warbler with greyish upperparts, whitish underparts, a long whitish supercilium, dark eye-stripe, fine dark bill and blackish legs; lacks green and yellow tones, very plain."
+   "reviewed": false
   },
   "moured1": {
    "name": "Moussier's Redstart",
