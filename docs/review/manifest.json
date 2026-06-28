@@ -8615,35 +8615,35 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36129661/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "All sooty-black aerial bird with a pale greyish throat patch, very long slender scythe-shaped swept-back wings, a short forked tail and a tiny black bill; streamlined cigar-shaped body. Head held low in line with the streamlined body, not rounded.",
+   "id": "All sooty-black aerial bird with a pale greyish throat patch, very long slender scythe-shaped swept-back wings, a short forked tail and a tiny black bill; streamlined cigar-shaped body. Head held low in line with the streamlined body, not rounded. Plumage only sooty brown-black with a slightly tan-tinged whitish throat; no other colours.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comswi/v0.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.857,
-     "pose": 0.01,
-     "bird": 0.343
+     "sim": 0.841,
+     "pose": 0.013,
+     "bird": 0.784
     },
     {
      "id": "v1",
      "img": "review_imgs/comswi/v1.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.854,
-     "pose": 0.009,
-     "bird": 0.237
+     "sim": 0.842,
+     "pose": 0.022,
+     "bird": 0.528
     },
     {
      "id": "v2",
      "img": "review_imgs/comswi/v2.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.848,
-     "pose": 0.008,
-     "bird": 0.234
+     "sim": 0.795,
+     "pose": 0.053,
+     "bird": 0.544
     }
    ],
    "reviewed": false
@@ -8663,29 +8663,29 @@
     {
      "id": "v0",
      "img": "review_imgs/crebun2/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.859,
-     "pose": 0.188,
-     "bird": 0.38
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.864,
+     "pose": 0.238,
+     "bird": 0.6
     },
     {
      "id": "v1",
      "img": "review_imgs/crebun2/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.853,
-     "pose": 0.139,
-     "bird": 0.305
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.848,
+     "pose": 0.075,
+     "bird": 0.484
     },
     {
      "id": "v2",
      "img": "review_imgs/crebun2/v2.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.881,
-     "pose": 0.159,
-     "bird": 0.208
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.873,
+     "pose": 0.161,
+     "bird": 0.211
     }
    ],
    "reviewed": false
@@ -8738,29 +8738,29 @@
     {
      "id": "v0",
      "img": "review_imgs/cypwar1/v0.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.695,
-     "pose": 0.458,
-     "bird": 0.405
+     "sim": 0.781,
+     "pose": 0.336,
+     "bird": 0.737
     },
     {
      "id": "v1",
      "img": "review_imgs/cypwar1/v1.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.687,
-     "pose": 0.178,
-     "bird": 0.617
+     "sim": 0.716,
+     "pose": 0.428,
+     "bird": 0.622
     },
     {
      "id": "v2",
      "img": "review_imgs/cypwar1/v2.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.675,
-     "pose": 0.323,
-     "bird": 0.387
+     "sim": 0.733,
+     "pose": 0.294,
+     "bird": 0.641
     }
    ],
    "reviewed": false
@@ -8774,35 +8774,35 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/99215471/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny pale sandy-grey prinia, faintly streaked above, with whitish underparts, a pale supercilium, a slim dark bill, pinkish legs and a long graduated tail tipped white; slender and long-tailed.",
+   "id": "Tiny pale sandy-grey prinia, faintly streaked above, with whitish underparts, a pale supercilium, a slim dark bill, pinkish legs and a long graduated tail tipped white; slender and long-tailed. Plumage colouring rougher and more streaked, less smooth.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/delpri1/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.853,
-     "pose": 0.178,
-     "bird": 0.837
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.869,
+     "pose": 0.109,
+     "bird": 0.77
     },
     {
      "id": "v1",
      "img": "review_imgs/delpri1/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.82,
-     "pose": 0.048,
-     "bird": 0.762
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.883,
+     "pose": 0.111,
+     "bird": 0.73
     },
     {
      "id": "v2",
      "img": "review_imgs/delpri1/v2.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.826,
-     "pose": 0.056,
-     "bird": 0.618
+     "sim": 0.855,
+     "pose": 0.116,
+     "bird": 0.775
     }
    ],
    "reviewed": false
@@ -8822,29 +8822,29 @@
     {
      "id": "v0",
      "img": "review_imgs/doveki/v0.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.853,
-     "pose": 0.042,
-     "bird": 0.487
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.87,
+     "pose": 0.041,
+     "bird": 0.866
     },
     {
      "id": "v1",
      "img": "review_imgs/doveki/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.863,
-     "pose": 0.116,
-     "bird": 0.39
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.853,
+     "pose": 0.018,
+     "bird": 0.26
     },
     {
      "id": "v2",
      "img": "review_imgs/doveki/v2.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.835,
-     "pose": 0.019,
-     "bird": 0.058
+     "sim": 0.847,
+     "pose": 0.024,
+     "bird": 0.264
     }
    ],
    "reviewed": false
