@@ -9221,206 +9221,175 @@
    "name": "Eurasian Sparrowhawk",
    "sci": "Accipiter nisus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/eurspa1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/154133151/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small short-winged hawk with long yellow legs and yellow eyes; male slate-grey above with fine rusty barring below, female grey-brown above with grey barring below. Long barred tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurspa1/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.77,
-     "pose": 0.405,
-     "bird": 0.669
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.857,
+     "pose": 0.018,
+     "bird": 0.662
     },
     {
      "id": "v1",
      "img": "review_imgs/eurspa1/v1.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.904,
-     "pose": 0.059,
-     "bird": 0.664
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.861,
+     "pose": 0.022,
+     "bird": 0.572
     },
     {
      "id": "v2",
      "img": "review_imgs/eurspa1/v2.png",
-     "seed": 1007,
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.879,
-     "pose": 0.059,
-     "bird": 0.671
+     "sim": 0.801,
+     "pose": 0.022,
+     "bird": 0.648
     }
    ],
-   "id": "Small short-winged hawk with long yellow legs and yellow eyes; male slate-grey above with fine rusty barring below, female grey-brown above with grey barring below. Long barred tail."
+   "reviewed": false
   },
   "grnsan": {
    "name": "Green Sandpiper",
    "sci": "Tringa ochropus",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grnsan/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/22248421/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium sandpiper, very dark greenish-brown back finely speckled white, white belly; bold white rump and barred tail in flight, dark underwing; short white supercilium before eye, white eye-ring; dark bill, greenish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grnsan/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.842,
-     "pose": 0.165,
-     "bird": 0.827
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.835,
+     "pose": 0.154,
+     "bird": 0.835
     },
     {
      "id": "v1",
      "img": "review_imgs/grnsan/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.844,
-     "pose": 0.169,
-     "bird": 0.789
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grnsan/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.86,
-     "pose": 0.145,
-     "bird": 0.706
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.82,
+     "pose": 0.092,
+     "bird": 0.522
     }
    ],
-   "id": "Medium sandpiper, very dark greenish-brown back finely speckled white, white belly; bold white rump and barred tail in flight, dark underwing; short white supercilium before eye, white eye-ring; dark bill, greenish legs."
+   "reviewed": false
   },
   "grnwar1": {
    "name": "Green Warbler",
    "sci": "Phylloscopus nitidus",
    "family": "Leaf Warblers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grnwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/58696621/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small leaf warbler, bright greenish above, clean whitish below with yellow wash on face and throat; long yellowish supercilium, dark eyestripe, two pale wingbars; fine bill with orange lower mandible, pale legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grnwar1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.846,
-     "pose": 0.163,
-     "bird": 0.858
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.851,
+     "pose": 0.265,
+     "bird": 0.784
     },
     {
      "id": "v1",
      "img": "review_imgs/grnwar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.849,
-     "pose": 0.22,
-     "bird": 0.75
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grnwar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.815,
-     "pose": 0.247,
-     "bird": 0.748
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.828,
+     "pose": 0.136,
+     "bird": 0.57
     }
    ],
-   "id": "Small leaf warbler, bright greenish above, clean whitish below with yellow wash on face and throat; long yellowish supercilium, dark eyestripe, two pale wingbars; fine bill with orange lower mandible, pale legs."
+   "reviewed": false
   },
   "grnwoo3": {
    "name": "Iberian Green Woodpecker",
    "sci": "Picus sharpei",
    "family": "Woodpeckers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grnwoo3/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/143839911/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Green woodpecker, olive-green back, yellowish-green rump, pale grey-green underparts; grey head with red crown, narrow black around eye, red-centred black moustache; pale eye, greenish bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grnwoo3/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.932,
-     "pose": 0.175,
-     "bird": 0.107
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.905,
+     "pose": 0.134,
+     "bird": 0.261
     },
     {
      "id": "v1",
      "img": "review_imgs/grnwoo3/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.912,
-     "pose": 0.236,
-     "bird": 0.073
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grnwoo3/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.898,
-     "pose": 0.181,
-     "bird": 0.136
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.909,
+     "pose": 0.142,
+     "bird": 0.222
     }
    ],
-   "id": "Green woodpecker, olive-green back, yellowish-green rump, pale grey-green underparts; grey head with red crown, narrow black around eye, red-centred black moustache; pale eye, greenish bill."
+   "reviewed": false
   },
   "grrwar1": {
    "name": "Great Reed Warbler",
    "sci": "Acrocephalus arundinaceus",
    "family": "Reed Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grrwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42407361/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large bulky reed warbler, warm brown above, buff-white below with buffy flanks; broad pale supercilium, peaked crown, sturdy build; strong dark bill with pale base, grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grrwar1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.787,
-     "pose": 0.341,
-     "bird": 0.655
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.835,
+     "pose": 0.43,
+     "bird": 0.763
     },
     {
      "id": "v1",
      "img": "review_imgs/grrwar1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.758,
-     "pose": 0.383,
-     "bird": 0.32
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grrwar1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.763,
-     "pose": 0.424,
-     "bird": 0.161
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.829,
+     "pose": 0.391,
+     "bird": 0.674
     }
    ],
-   "id": "Large bulky reed warbler, warm brown above, buff-white below with buffy flanks; broad pale supercilium, peaked crown, sturdy build; strong dark bill with pale base, grey legs."
+   "reviewed": false
   },
   "grscuc1": {
    "name": "Great Spotted Cuckoo",
