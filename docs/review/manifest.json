@@ -12770,124 +12770,100 @@
    "name": "Northern Pintail",
    "sci": "Anas acuta",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/norpin/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/71206681/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Elegant slender duck; drake has a chocolate-brown head, white breast extending as a stripe up the neck, grey body, black-and-cream rear, and very long pointed central tail feathers; blue-grey bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norpin/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.686,
-     "pose": 0.137,
-     "bird": 0.7
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.515,
+     "pose": 0.072,
+     "bird": 0.157
     },
     {
      "id": "v1",
      "img": "review_imgs/norpin/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.61,
-     "pose": 0.135,
-     "bird": 0.726
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/norpin/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.523,
-     "pose": 0.152,
-     "bird": 0.17
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.533,
+     "pose": 0.075,
+     "bird": 0.076
     }
    ],
-   "id": "Elegant slender duck; drake has a chocolate-brown head, white breast extending as a stripe up the neck, grey body, black-and-cream rear, and very long pointed central tail feathers; blue-grey bill."
+   "reviewed": false
   },
   "norsho": {
    "name": "Northern Shoveler",
    "sci": "Spatula clypeata",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/norsho/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/215033941/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Drake has a huge spatulate black bill, glossy green head, white breast, chestnut flanks and belly, black-and-white back, and a pale-blue forewing patch; orange legs; front-heavy low-floating profile.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norsho/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.743,
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.791,
      "pose": 0.037,
-     "bird": 0.909
+     "bird": 0.826
     },
     {
      "id": "v1",
      "img": "review_imgs/norsho/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.742,
-     "pose": 0.05,
-     "bird": 0.812
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/norsho/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.727,
-     "pose": 0.036,
-     "bird": 0.77
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.746,
+     "pose": 0.043,
+     "bird": 0.833
     }
    ],
-   "id": "Drake has a huge spatulate black bill, glossy green head, white breast, chestnut flanks and belly, black-and-white back, and a pale-blue forewing patch; orange legs; front-heavy low-floating profile."
+   "reviewed": false
   },
   "norshr1": {
    "name": "Great Gray Shrike",
    "sci": "Lanius excubitor",
    "family": "Shrikes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/norshr1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66108031/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large pale grey shrike, soft grey above and white below, with a bold black face mask, black wings showing a white patch, a long black white-edged tail, and a hooked black bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norshr1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.785,
-     "pose": 0.194,
-     "bird": 0.936
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.78,
+     "pose": 0.114,
+     "bird": 0.914
     },
     {
      "id": "v1",
      "img": "review_imgs/norshr1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.803,
-     "pose": 0.127,
-     "bird": 0.944
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/norshr1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.775,
-     "pose": 0.055,
-     "bird": 0.858
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.794,
+     "pose": 0.112,
+     "bird": 0.815
     }
    ],
-   "id": "Large pale grey shrike, soft grey above and white below, with a bold black face mask, black wings showing a white patch, a long black white-edged tail, and a hooked black bill."
+   "reviewed": false
   },
   "norwhe": {
    "name": "Northern Wheatear",
@@ -13057,83 +13033,67 @@
    "name": "Osprey",
    "sci": "Pandion haliaetus",
    "family": "Ospreys",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/osprey/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/48440631/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large fish-eagle; dark brown above and white below, with a white head crossed by a broad dark eye-stripe through the eye, a dark wrist patch on long crooked wings, yellow eyes, and grey feet.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/osprey/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.86,
-     "pose": 0.141,
-     "bird": 0.73
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.873,
+     "pose": 0.134,
+     "bird": 0.715
     },
     {
      "id": "v1",
      "img": "review_imgs/osprey/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.859,
-     "pose": 0.112,
-     "bird": 0.589
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/osprey/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.824,
-     "pose": 0.083,
-     "bird": 0.661
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.831,
+     "pose": 0.085,
+     "bird": 0.567
     }
    ],
-   "id": "Large fish-eagle; dark brown above and white below, with a white head crossed by a broad dark eye-stripe through the eye, a dark wrist patch on long crooked wings, yellow eyes, and grey feet."
+   "reviewed": false
   },
   "padwar1": {
    "name": "Paddyfield Warbler",
    "sci": "Acrocephalus agricola",
    "family": "Reed Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/padwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/52827831/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small warm-brown reed warbler with rusty-tinged upperparts and rump, a prominent whitish supercilium bordered above by a dark line, pale buff underparts, a short fine bill, and a rounded often-cocked tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/padwar1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.818,
-     "pose": 0.078,
-     "bird": 0.908
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.834,
+     "pose": 0.044,
+     "bird": 0.885
     },
     {
      "id": "v1",
      "img": "review_imgs/padwar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.851,
-     "pose": 0.122,
-     "bird": 0.75
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/padwar1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.811,
-     "pose": 0.062,
-     "bird": 0.802
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.86,
+     "pose": 0.086,
+     "bird": 0.787
     }
    ],
-   "id": "Small warm-brown reed warbler with rusty-tinged upperparts and rump, a prominent whitish supercilium bordered above by a dark line, pale buff underparts, a short fine bill, and a rounded often-cocked tail."
+   "reviewed": false
   },
   "palhar1": {
    "name": "Pallid Harrier",
