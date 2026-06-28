@@ -17992,6 +17992,206 @@
      "bird": 0.895
     }
    ]
+  },
+  "syrwoo1": {
+   "name": "Syrian Woodpecker",
+   "sci": "Dendrocopos syriacus",
+   "family": "Woodpeckers",
+   "reason": "all",
+   "before": "review_imgs/syrwoo1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/510944671/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/syrwoo1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.899,
+     "pose": 0.14,
+     "bird": 0.602
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/syrwoo1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.88,
+     "pose": 0.146,
+     "bird": 0.614
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/syrwoo1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.865,
+     "pose": 0.043,
+     "bird": 0.702
+    }
+   ]
+  },
+  "taibeg1": {
+   "name": "Taiga Bean-Goose",
+   "sci": "Anser fabalis",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/taibeg1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/95813661/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/taibeg1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.931,
+     "pose": 0.555,
+     "bird": 0.925
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/taibeg1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.943,
+     "pose": 0.438,
+     "bird": 0.926
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/taibeg1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.911,
+     "pose": 0.475,
+     "bird": 0.928
+    }
+   ]
+  },
+  "tawowl1": {
+   "name": "Tawny Owl",
+   "sci": "Strix aluco",
+   "family": "Typical Owls",
+   "reason": "all",
+   "before": "review_imgs/tawowl1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/227951381/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/tawowl1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.84,
+     "pose": 0.461,
+     "bird": 0.682
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/tawowl1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.844,
+     "pose": 0.534,
+     "bird": 0.588
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/tawowl1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.824,
+     "pose": 0.381,
+     "bird": 0.745
+    }
+   ]
+  },
+  "tawpip1": {
+   "name": "Tawny Pipit",
+   "sci": "Anthus campestris",
+   "family": "Wagtails and Pipits",
+   "reason": "all",
+   "before": "review_imgs/tawpip1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/108393041/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/tawpip1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.894,
+     "pose": 0.292,
+     "bird": 0.685
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/tawpip1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.914,
+     "pose": 0.315,
+     "bird": 0.605
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/tawpip1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.918,
+     "pose": 0.22,
+     "bird": 0.571
+    }
+   ]
+  },
+  "temsti": {
+   "name": "Temminck's Stint",
+   "sci": "Calidris temminckii",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/temsti/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/206390961/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/temsti/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.902,
+     "pose": 0.344,
+     "bird": 0.782
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/temsti/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.894,
+     "pose": 0.163,
+     "bird": 0.635
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/temsti/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.842,
+     "pose": 0.229,
+     "bird": 0.418
+    }
+   ]
   }
  }
 }
