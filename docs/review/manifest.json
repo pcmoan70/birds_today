@@ -15761,83 +15761,67 @@
    "name": "Short-toed Treecreeper",
    "sci": "Certhia brachydactyla",
    "family": "Treecreepers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/shttre1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66036851/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small streaky brown bird with curved fine bill and stiff pointed tail; brown white-spotted upperparts, dingy buff-white underparts. Short blurry supercilium, brownish flanks, pale legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/shttre1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.743,
-     "pose": 0.164,
-     "bird": 0.724
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.643,
+     "pose": 0.242,
+     "bird": 0.74
     },
     {
      "id": "v1",
      "img": "review_imgs/shttre1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.693,
-     "pose": 0.14,
-     "bird": 0.847
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/shttre1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.724,
-     "pose": 0.15,
-     "bird": 0.666
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.72,
+     "pose": 0.237,
+     "bird": 0.449
     }
    ],
-   "id": "Small streaky brown bird with curved fine bill and stiff pointed tail; brown white-spotted upperparts, dingy buff-white underparts. Short blurry supercilium, brownish flanks, pale legs."
+   "reviewed": false
   },
   "sibjay1": {
    "name": "Siberian Jay",
    "sci": "Perisoreus infaustus",
    "family": "Crows, Jays, and Magpies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/sibjay1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31497771/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Soft grey-brown jay; greyish head and back, rusty-orange patches on wings, rump and outer tail. Dusky crown, short dark bill, dark legs. Fluffy rounded shape, medium tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sibjay1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.871,
-     "pose": 0.154,
-     "bird": 0.73
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.881,
+     "pose": 0.168,
+     "bird": 0.762
     },
     {
      "id": "v1",
      "img": "review_imgs/sibjay1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.855,
-     "pose": 0.141,
-     "bird": 0.636
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sibjay1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.887,
-     "pose": 0.065,
-     "bird": 0.577
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.865,
+     "pose": 0.084,
+     "bird": 0.765
     }
    ],
-   "id": "Soft grey-brown jay; greyish head and back, rusty-orange patches on wings, rump and outer tail. Dusky crown, short dark bill, dark legs. Fluffy rounded shape, medium tail."
+   "reviewed": false
   },
   "skylar": {
    "name": "Eurasian Skylark",
@@ -15884,124 +15868,100 @@
    "name": "Slender-billed Gull",
    "sci": "Chroicocephalus genei",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/slbgul1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/88090541/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pale elegant gull with long sloping forehead and long slender dark-red bill; pale grey back, white head, white underparts often pink-flushed. Pale eye, orange-red legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/slbgul1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.903,
-     "pose": 0.311,
-     "bird": 0.713
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.88,
+     "pose": 0.212,
+     "bird": 0.718
     },
     {
      "id": "v1",
      "img": "review_imgs/slbgul1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.877,
-     "pose": 0.154,
-     "bird": 0.804
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/slbgul1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.86,
-     "pose": 0.321,
-     "bird": 0.478
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.917,
+     "pose": 0.203,
+     "bird": 0.566
     }
    ],
-   "id": "Pale elegant gull with long sloping forehead and long slender dark-red bill; pale grey back, white head, white underparts often pink-flushed. Pale eye, orange-red legs."
+   "reviewed": false
   },
   "smew": {
    "name": "Smew",
    "sci": "Mergellus albellus",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/smew/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/197359291/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small white sawbill duck; drake mostly white with fine black markings: black eye-patch, black nape stripe and breast lines. Short grey bill, grey flanks, blue-grey legs. Crested white head.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/smew/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.809,
-     "pose": 0.199,
-     "bird": 0.906
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.74,
+     "pose": 0.361,
+     "bird": 0.973
     },
     {
      "id": "v1",
      "img": "review_imgs/smew/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.793,
-     "pose": 0.148,
-     "bird": 0.96
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/smew/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.781,
-     "pose": 0.233,
-     "bird": 0.866
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.78,
+     "pose": 0.094,
+     "bird": 0.907
     }
    ],
-   "id": "Small white sawbill duck; drake mostly white with fine black markings: black eye-patch, black nape stripe and breast lines. Short grey bill, grey flanks, blue-grey legs. Crested white head."
+   "reviewed": false
   },
   "snobun": {
    "name": "Snow Bunting",
    "sci": "Plectrophenax nivalis",
    "family": "Longspurs and Snow Buntings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/snobun/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63891021/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small bunting; breeding male white-headed and white-bodied with black back, black wingtips and large white wing patches. Black-and-white tail, short black bill, black legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/snobun/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.934,
-     "pose": 0.207,
-     "bird": 0.931
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.938,
+     "pose": 0.234,
+     "bird": 0.917
     },
     {
      "id": "v1",
      "img": "review_imgs/snobun/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.921,
-     "pose": 0.208,
-     "bird": 0.89
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/snobun/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.925,
-     "pose": 0.156,
-     "bird": 0.844
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.918,
+     "pose": 0.112,
+     "bird": 0.919
     }
    ],
-   "id": "Small bunting; breeding male white-headed and white-bodied with black back, black wingtips and large white wing patches. Black-and-white tail, short black bill, black legs."
+   "reviewed": false
   },
   "snogoo": {
    "name": "Snow Goose",
