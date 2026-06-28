@@ -6813,20 +6813,20 @@
     {
      "id": "v0",
      "img": "review_imgs/garwar1/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.85,
-     "pose": 0.146,
-     "bird": 0.658
+     "sim": 0.857,
+     "pose": 0.222,
+     "bird": 0.718
     },
     {
      "id": "v1",
      "img": "review_imgs/garwar1/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.889,
-     "pose": 0.085,
-     "bird": 0.504
+     "sim": 0.901,
+     "pose": 0.097,
+     "bird": 0.459
     }
    ],
    "reviewed": false
@@ -7143,20 +7143,20 @@
     {
      "id": "v0",
      "img": "review_imgs/grapri1/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.881,
-     "pose": 0.073,
-     "bird": 0.497
+     "sim": 0.893,
+     "pose": 0.029,
+     "bird": 0.687
     },
     {
      "id": "v1",
      "img": "review_imgs/grapri1/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.887,
-     "pose": 0.062,
-     "bird": 0.436
+     "sim": 0.899,
+     "pose": 0.055,
+     "bird": 0.592
     }
    ],
    "reviewed": false
@@ -7802,20 +7802,20 @@
     {
      "id": "v0",
      "img": "review_imgs/blwpra1/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.737,
-     "pose": 0.378,
-     "bird": 0.87
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.743,
+     "pose": 0.403,
+     "bird": 0.594
     },
     {
      "id": "v1",
      "img": "review_imgs/blwpra1/v1.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.734,
-     "pose": 0.251,
-     "bird": 0.696
+     "sim": 0.747,
+     "pose": 0.288,
+     "bird": 0.19
     }
    ],
    "reviewed": false
@@ -7835,29 +7835,29 @@
     {
      "id": "v0",
      "img": "review_imgs/boowar1/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.911,
-     "pose": 0.311,
-     "bird": 0.647
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.913,
+     "pose": 0.49,
+     "bird": 0.56
     },
     {
      "id": "v1",
      "img": "review_imgs/boowar1/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.913,
-     "pose": 0.216,
-     "bird": 0.456
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.892,
+     "pose": 0.239,
+     "bird": 0.677
     },
     {
      "id": "v2",
      "img": "review_imgs/boowar1/v2.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.919,
-     "pose": 0.183,
-     "bird": 0.301
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.908,
+     "pose": 0.22,
+     "bird": 0.617
     }
    ],
    "reviewed": false
@@ -7877,29 +7877,29 @@
     {
      "id": "v0",
      "img": "review_imgs/brambl/v0.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.918,
-     "pose": 0.28,
-     "bird": 0.641
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.935,
+     "pose": 0.173,
+     "bird": 0.609
     },
     {
      "id": "v1",
      "img": "review_imgs/brambl/v1.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.938,
-     "pose": 0.206,
-     "bird": 0.609
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.914,
+     "pose": 0.176,
+     "bird": 0.521
     },
     {
      "id": "v2",
      "img": "review_imgs/brambl/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.929,
-     "pose": 0.201,
-     "bird": 0.459
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.907,
+     "pose": 0.103,
+     "bird": 0.461
     }
    ],
    "reviewed": false
