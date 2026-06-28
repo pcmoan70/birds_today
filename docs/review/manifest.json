@@ -11100,124 +11100,100 @@
    "name": "Little Grebe",
    "sci": "Tachybaptus ruficollis",
    "family": "Grebes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/litgre1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/84194951/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small dumpy grebe with dark brown upperparts, chestnut cheeks and neck, dark crown, and a pale yellowish-green patch at the gape base. Short stubby dark bill with pale tip, fluffy rounded rear. Dark legs set far back; rounded, almost tailless shape.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/litgre1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.838,
-     "pose": 0.364,
-     "bird": 0.934
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.871,
+     "pose": 0.26,
+     "bird": 0.899
     },
     {
      "id": "v1",
      "img": "review_imgs/litgre1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.86,
-     "pose": 0.181,
-     "bird": 0.744
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/litgre1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.833,
-     "pose": 0.284,
-     "bird": 0.643
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.838,
+     "pose": 0.309,
+     "bird": 0.409
     }
    ],
-   "id": "Small dumpy grebe with dark brown upperparts, chestnut cheeks and neck, dark crown, and a pale yellowish-green patch at the gape base. Short stubby dark bill with pale tip, fluffy rounded rear. Dark legs set far back; rounded, almost tailless shape."
+   "reviewed": false
   },
   "litgul": {
    "name": "Little Gull",
    "sci": "Hydrocoloeus minutus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/litgul/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/81497591/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Smallest gull, very small and tern-like, with a jet-black hood (breeding), pale grey upperparts, white underparts washed pink, and rounded wings showing blackish underwings. Short dark-red bill, red legs. Buoyant, delicate build; no black wingtips above.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/litgul/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.854,
-     "pose": 0.152,
-     "bird": 0.979
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.84,
+     "pose": 0.215,
+     "bird": 0.975
     },
     {
      "id": "v1",
      "img": "review_imgs/litgul/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.805,
-     "pose": 0.172,
-     "bird": 0.959
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/litgul/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.774,
-     "pose": 0.097,
-     "bird": 0.885
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.834,
+     "pose": 0.173,
+     "bird": 0.976
     }
    ],
-   "id": "Smallest gull, very small and tern-like, with a jet-black hood (breeding), pale grey upperparts, white underparts washed pink, and rounded wings showing blackish underwings. Short dark-red bill, red legs. Buoyant, delicate build; no black wingtips above."
+   "reviewed": false
   },
   "litowl1": {
    "name": "Little Owl",
    "sci": "Athene noctua",
    "family": "Typical Owls",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/litowl1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241599051/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small flat-headed owl with greyish-brown upperparts boldly spotted white, whitish underparts streaked brown, and pale 'eyebrows' over fierce yellow eyes giving a frowning look. Short pale bill, feathered whitish legs. Squat, short-tailed, large-headed.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/litowl1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.918,
-     "pose": 0.367,
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.923,
+     "pose": 0.472,
      "bird": 0.642
     },
     {
      "id": "v1",
      "img": "review_imgs/litowl1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.934,
-     "pose": 0.495,
-     "bird": 0.423
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/litowl1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.916,
-     "pose": 0.382,
-     "bird": 0.453
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.922,
+     "pose": 0.373,
+     "bird": 0.492
     }
    ],
-   "id": "Small flat-headed owl with greyish-brown upperparts boldly spotted white, whitish underparts streaked brown, and pale 'eyebrows' over fierce yellow eyes giving a frowning look. Short pale bill, feathered whitish legs. Squat, short-tailed, large-headed."
+   "reviewed": false
   },
   "litshe1": {
    "name": "Barolo Shearwater",
@@ -11246,83 +11222,67 @@
    "name": "Little Stint",
    "sci": "Calidris minuta",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/litsti/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/22283191/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny short-billed stint; breeding adult has rufous-fringed black-centred back feathers forming pale 'V' braces, a rufous-washed streaked breast, white belly and throat. Fine straight black bill, black legs. Diminutive, large-headed, quick.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/litsti/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.847,
-     "pose": 0.351,
-     "bird": 0.881
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.863,
+     "pose": 0.227,
+     "bird": 0.656
     },
     {
      "id": "v1",
      "img": "review_imgs/litsti/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.889,
-     "pose": 0.346,
-     "bird": 0.734
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/litsti/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.834,
-     "pose": 0.083,
-     "bird": 0.466
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.871,
+     "pose": 0.214,
+     "bird": 0.408
     }
    ],
-   "id": "Tiny short-billed stint; breeding adult has rufous-fringed black-centred back feathers forming pale 'V' braces, a rufous-washed streaked breast, white belly and throat. Fine straight black bill, black legs. Diminutive, large-headed, quick."
+   "reviewed": false
   },
   "litter1": {
    "name": "Little Tern",
    "sci": "Sternula albifrons",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/litter1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53146761/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny pale tern with a black cap and white forehead, pale grey back and wings, and white underparts. Yellow bill tipped black, orange-yellow legs. Narrow pointed wings with a dark leading edge to the outer primaries; slim, fast-looking build.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/litter1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.93,
-     "pose": 0.006,
-     "bird": 0.839
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.934,
+     "pose": 0.021,
+     "bird": 0.873
     },
     {
      "id": "v1",
      "img": "review_imgs/litter1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.915,
-     "pose": 0.025,
-     "bird": 0.795
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/litter1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.928,
-     "pose": 0.023,
-     "bird": 0.701
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.917,
+     "pose": 0.012,
+     "bird": 0.888
     }
    ],
-   "id": "Tiny pale tern with a black cap and white forehead, pale grey back and wings, and white underparts. Yellow bill tipped black, orange-yellow legs. Narrow pointed wings with a dark leading edge to the outer primaries; slim, fast-looking build."
+   "reviewed": false
   },
   "lobdow": {
    "name": "Long-billed Dowitcher",
