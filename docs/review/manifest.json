@@ -8411,29 +8411,29 @@
     {
      "id": "v0",
      "img": "review_imgs/comqua1/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.857,
-     "pose": 0.402,
-     "bird": 0.825
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.876,
+     "pose": 0.457,
+     "bird": 0.786
     },
     {
      "id": "v1",
      "img": "review_imgs/comqua1/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.871,
-     "pose": 0.417,
-     "bird": 0.68
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.89,
+     "pose": 0.579,
+     "bird": 0.494
     },
     {
      "id": "v2",
      "img": "review_imgs/comqua1/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.831,
-     "pose": 0.359,
-     "bird": 0.749
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.875,
+     "pose": 0.41,
+     "bird": 0.643
     }
    ],
    "reviewed": false
@@ -8453,29 +8453,29 @@
     {
      "id": "v0",
      "img": "review_imgs/comred1/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.851,
-     "pose": 0.271,
-     "bird": 0.724
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.855,
+     "pose": 0.189,
+     "bird": 0.927
     },
     {
      "id": "v1",
      "img": "review_imgs/comred1/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.88,
-     "pose": 0.153,
-     "bird": 0.506
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.854,
+     "pose": 0.161,
+     "bird": 0.74
     },
     {
      "id": "v2",
      "img": "review_imgs/comred1/v2.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.845,
-     "pose": 0.199,
-     "bird": 0.386
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.83,
+     "pose": 0.084,
+     "bird": 0.54
     }
    ],
    "reviewed": false
@@ -8495,29 +8495,29 @@
     {
      "id": "v0",
      "img": "review_imgs/comred2/v0.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.828,
-     "pose": 0.423,
-     "bird": 0.655
+     "sim": 0.824,
+     "pose": 0.489,
+     "bird": 0.604
     },
     {
      "id": "v1",
      "img": "review_imgs/comred2/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.838,
-     "pose": 0.237,
-     "bird": 0.679
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.809,
+     "pose": 0.27,
+     "bird": 0.613
     },
     {
      "id": "v2",
      "img": "review_imgs/comred2/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.8,
-     "pose": 0.263,
-     "bird": 0.652
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.85,
+     "pose": 0.412,
+     "bird": 0.316
     }
    ],
    "reviewed": false
@@ -8537,29 +8537,29 @@
     {
      "id": "v0",
      "img": "review_imgs/comsan/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.809,
-     "pose": 0.253,
-     "bird": 0.789
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.815,
+     "pose": 0.152,
+     "bird": 0.636
     },
     {
      "id": "v1",
      "img": "review_imgs/comsan/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.805,
-     "pose": 0.142,
-     "bird": 0.773
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.803,
+     "pose": 0.139,
+     "bird": 0.672
     },
     {
      "id": "v2",
      "img": "review_imgs/comsan/v2.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.785,
-     "pose": 0.172,
-     "bird": 0.744
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.806,
+     "pose": 0.222,
+     "bird": 0.381
     }
    ],
    "reviewed": false
@@ -8579,29 +8579,29 @@
     {
      "id": "v0",
      "img": "review_imgs/comsni/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.782,
-     "pose": 0.538,
-     "bird": 0.916
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.736,
+     "pose": 0.636,
+     "bird": 0.909
     },
     {
      "id": "v1",
      "img": "review_imgs/comsni/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.769,
-     "pose": 0.54,
-     "bird": 0.856
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.778,
+     "pose": 0.395,
+     "bird": 0.772
     },
     {
      "id": "v2",
      "img": "review_imgs/comsni/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.759,
-     "pose": 0.514,
-     "bird": 0.56
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.71,
+     "pose": 0.208,
+     "bird": 0.684
     }
    ],
    "reviewed": false
