@@ -6802,206 +6802,166 @@
    "name": "Garden Warbler",
    "sci": "Sylvia borin",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/garwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66341291/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Plump featureless warbler, uniform olive-brown above, pale buff-grey below; rounded head with plain face, faint pale eye-ring, no wingbars or strong markings; stout grey bill, blue-grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/garwar1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.849,
-     "pose": 0.235,
-     "bird": 0.722
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.85,
+     "pose": 0.146,
+     "bird": 0.658
     },
     {
      "id": "v1",
      "img": "review_imgs/garwar1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.867,
-     "pose": 0.152,
-     "bird": 0.712
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/garwar1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.868,
-     "pose": 0.155,
-     "bird": 0.49
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.889,
+     "pose": 0.085,
+     "bird": 0.504
     }
    ],
-   "id": "Plump featureless warbler, uniform olive-brown above, pale buff-grey below; rounded head with plain face, faint pale eye-ring, no wingbars or strong markings; stout grey bill, blue-grey legs."
+   "reviewed": false
   },
   "gbbgul": {
    "name": "Great Black-backed Gull",
    "sci": "Larus marinus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gbbgul/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/105244651/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Very large gull with massive yellow bill (red gonys spot), blackish-slate back and wings, white head, underparts and tail; pinkish legs, pale eye.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gbbgul/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.943,
-     "pose": 0.526,
-     "bird": 0.978
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.928,
+     "pose": 0.63,
+     "bird": 0.973
     },
     {
      "id": "v1",
      "img": "review_imgs/gbbgul/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.932,
-     "pose": 0.549,
-     "bird": 0.918
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gbbgul/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.946,
-     "pose": 0.397,
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.942,
+     "pose": 0.51,
      "bird": 0.978
     }
    ],
-   "id": "Very large gull with massive yellow bill (red gonys spot), blackish-slate back and wings, white head, underparts and tail; pinkish legs, pale eye."
+   "reviewed": false
   },
   "gbhgul2": {
    "name": "Pallas's Gull",
    "sci": "Ichthyaetus ichthyaetus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gbhgul2/before.png",
    "ref": "review_imgs/gbhgul2/ref.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large pale gull, white body, pale grey back and wings with black wingtips; in breeding has black hood with white crescents above and below eye; stout yellow bill with black ring and red tip, yellow legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gbhgul2/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.912,
-     "pose": 0.419,
-     "bird": 0.911
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.916,
+     "pose": 0.563,
+     "bird": 0.93
     },
     {
      "id": "v1",
      "img": "review_imgs/gbhgul2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.903,
-     "pose": 0.414,
-     "bird": 0.803
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gbhgul2/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.872,
-     "pose": 0.351,
-     "bird": 0.658
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.92,
+     "pose": 0.438,
+     "bird": 0.714
     }
    ],
-   "id": "Large pale gull, white body, pale grey back and wings with black wingtips; in breeding has black hood with white crescents above and below eye; stout yellow bill with black ring and red tip, yellow legs."
+   "reviewed": false
   },
   "glagul": {
    "name": "Glaucous Gull",
    "sci": "Larus hyperboreus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/glagul/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/198090131/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large pale gull, pale grey back and wings with no black, white wingtips, white head and underparts; heavy yellow bill with red gonys spot, pale eye, pink legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/glagul/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.934,
-     "pose": 0.296,
-     "bird": 0.91
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.929,
+     "pose": 0.43,
+     "bird": 0.852
     },
     {
      "id": "v1",
      "img": "review_imgs/glagul/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.929,
-     "pose": 0.245,
-     "bird": 0.852
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/glagul/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.91,
-     "pose": 0.171,
-     "bird": 0.85
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.906,
+     "pose": 0.292,
+     "bird": 0.635
     }
    ],
-   "id": "Large pale gull, pale grey back and wings with no black, white wingtips, white head and underparts; heavy yellow bill with red gonys spot, pale eye, pink legs."
+   "reviewed": false
   },
   "gloibi": {
    "name": "Glossy Ibis",
    "sci": "Plegadis falcinellus",
    "family": "Ibises and Spoonbills",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gloibi/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/224139071/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slender dark wading bird, deep maroon-chestnut head, neck and body with green-bronze iridescent gloss on wings and back; long downcurved grey bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gloibi/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.934,
-     "pose": 0.148,
-     "bird": 0.796
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.904,
+     "pose": 0.123,
+     "bird": 0.876
     },
     {
      "id": "v1",
      "img": "review_imgs/gloibi/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.938,
-     "pose": 0.202,
-     "bird": 0.56
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gloibi/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.929,
-     "pose": 0.161,
-     "bird": 0.588
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.936,
+     "pose": 0.206,
+     "bird": 0.63
     }
    ],
-   "id": "Slender dark wading bird, deep maroon-chestnut head, neck and body with green-bronze iridescent gloss on wings and back; long downcurved grey bill, dark legs."
+   "reviewed": false
   },
   "gnwtea": {
    "name": "Green-winged Teal",
