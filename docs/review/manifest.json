@@ -10582,206 +10582,166 @@
    "name": "Lapland Longspur",
    "sci": "Calcarius lapponicus",
    "family": "Longspurs and Snow Buntings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/laplon/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31721801/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Streaky brown bunting-like bird; breeding male has a black face and throat bordered by a white-then-buff stripe, a chestnut-red nape, and white belly with streaked flanks. Brown back streaked black, yellowish bill. Long hind claw, short pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/laplon/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.932,
-     "pose": 0.456,
-     "bird": 0.949
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.914,
+     "pose": 0.408,
+     "bird": 0.904
     },
     {
      "id": "v1",
      "img": "review_imgs/laplon/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.925,
-     "pose": 0.319,
-     "bird": 0.925
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/laplon/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.256,
-     "bird": 0.776
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.906,
+     "pose": 0.158,
+     "bird": 0.787
     }
    ],
-   "id": "Streaky brown bunting-like bird; breeding male has a black face and throat bordered by a white-then-buff stripe, a chestnut-red nape, and white belly with streaked flanks. Brown back streaked black, yellowish bill. Long hind claw, short pinkish legs."
+   "reviewed": false
   },
   "laudov1": {
    "name": "Laughing Dove",
    "sci": "Spilopelia senegalensis",
    "family": "Pigeons and Doves",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/laudov1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/71529241/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim long-tailed dove with a pinkish head and breast, rufous-brown back, and a distinctive black-spotted rusty 'necklace' patch on the lower throat. Bluish-grey wing panels, white-tipped tail edges. Small dark bill, reddish legs. Soft warm tones.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/laudov1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.892,
-     "pose": 0.101,
-     "bird": 0.742
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.877,
+     "pose": 0.092,
+     "bird": 0.618
     },
     {
      "id": "v1",
      "img": "review_imgs/laudov1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.898,
-     "pose": 0.114,
-     "bird": 0.601
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/laudov1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.873,
-     "pose": 0.079,
-     "bird": 0.545
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.866,
+     "pose": 0.08,
+     "bird": 0.509
     }
    ],
-   "id": "Slim long-tailed dove with a pinkish head and breast, rufous-brown back, and a distinctive black-spotted rusty 'necklace' patch on the lower throat. Bluish-grey wing panels, white-tipped tail edges. Small dark bill, reddish legs. Soft warm tones."
+   "reviewed": false
   },
   "lbbgul": {
    "name": "Lesser Black-backed Gull",
    "sci": "Larus fuscus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/lbbgul/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/265452641/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large gull with a slate-grey back and wings (black wingtips with small white spots), white head and underparts, and white tail. Yellow bill with red gonys spot, yellow legs, pale eye. Streamlined; the dark grey mantle with yellow legs is key.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lbbgul/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.932,
-     "pose": 0.495,
-     "bird": 0.955
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.928,
+     "pose": 0.587,
+     "bird": 0.98
     },
     {
      "id": "v1",
      "img": "review_imgs/lbbgul/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.927,
-     "pose": 0.485,
-     "bird": 0.951
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/lbbgul/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.941,
-     "pose": 0.408,
-     "bird": 0.972
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.924,
+     "pose": 0.483,
+     "bird": 0.959
     }
    ],
-   "id": "Large gull with a slate-grey back and wings (black wingtips with small white spots), white head and underparts, and white tail. Yellow bill with red gonys spot, yellow legs, pale eye. Streamlined; the dark grey mantle with yellow legs is key."
+   "reviewed": false
   },
   "lcspet": {
    "name": "Leach's Storm-Petrel",
    "sci": "Hydrobates leucorhous",
    "family": "Northern Storm-Petrels",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/lcspet/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66162781/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small dark sooty-brown storm-petrel with a white rump (often with a faint grey central line), a pale brown bar across the upperwing coverts, and a forked tail. Slim black bill, black legs. Long angular wings; buoyant build.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lcspet/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.887,
-     "pose": 0.006,
-     "bird": 0.502
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.922,
+     "pose": 0.013,
+     "bird": 0.582
     },
     {
      "id": "v1",
      "img": "review_imgs/lcspet/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.877,
-     "pose": 0.005,
-     "bird": 0.24
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/lcspet/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.872,
-     "pose": 0.011,
-     "bird": 0.216
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.89,
+     "pose": 0.004,
+     "bird": 0.2
     }
    ],
-   "id": "Small dark sooty-brown storm-petrel with a white rump (often with a faint grey central line), a pale brown bar across the upperwing coverts, and a forked tail. Slim black bill, black legs. Long angular wings; buoyant build."
+   "reviewed": false
   },
   "legshr2": {
    "name": "Lesser Gray Shrike",
    "sci": "Lanius minor",
    "family": "Shrikes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/legshr2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204560441/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pale grey shrike with a broad black mask extending across the forehead, white underparts washed pink, black wings with a white patch, and black tail edged white. Pale grey crown and back. Short stout hooked black bill, black legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/legshr2/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.907,
-     "pose": 0.159,
-     "bird": 0.556
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.914,
+     "pose": 0.091,
+     "bird": 0.567
     },
     {
      "id": "v1",
      "img": "review_imgs/legshr2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.922,
-     "pose": 0.084,
-     "bird": 0.433
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/legshr2/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.904,
-     "pose": 0.05,
-     "bird": 0.461
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.919,
+     "pose": 0.06,
+     "bird": 0.163
     }
    ],
-   "id": "Pale grey shrike with a broad black mask extending across the forehead, white underparts washed pink, black wings with a white patch, and black tail edged white. Pale grey crown and back. Short stout hooked black bill, black legs."
+   "reviewed": false
   },
   "leseag1": {
    "name": "Lesser Spotted Eagle",
