@@ -16338,83 +16338,67 @@
    "name": "Spotted Redshank",
    "sci": "Tringa erythropus",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/spored/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55482321/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Elegant slim wader with very long fine drooped black-and-red bill; breeding adult sooty-black with white spotting on upperparts. Long dark-red legs, white wedge up back in flight.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/spored/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.859,
-     "pose": 0.221,
-     "bird": 0.608
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.842,
+     "pose": 0.413,
+     "bird": 0.563
     },
     {
      "id": "v1",
      "img": "review_imgs/spored/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.868,
-     "pose": 0.437,
-     "bird": 0.336
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/spored/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.805,
-     "pose": 0.206,
-     "bird": 0.219
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.851,
+     "pose": 0.333,
+     "bird": 0.481
     }
    ],
-   "id": "Elegant slim wader with very long fine drooped black-and-red bill; breeding adult sooty-black with white spotting on upperparts. Long dark-red legs, white wedge up back in flight."
+   "reviewed": false
   },
   "sposta1": {
    "name": "Spotless Starling",
    "sci": "Sturnus unicolor",
    "family": "Starlings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/sposta1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/198830371/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "All-black starling with subtle oily green-purple gloss; lacks pale spotting. Long pointed yellow bill, reddish-pink legs. Shaggy throat feathers; like an unspotted Common Starling.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sposta1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.881,
-     "pose": 0.196,
-     "bird": 0.76
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.858,
+     "pose": 0.114,
+     "bird": 0.633
     },
     {
      "id": "v1",
      "img": "review_imgs/sposta1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.881,
-     "pose": 0.233,
-     "bird": 0.692
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sposta1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.872,
-     "pose": 0.121,
-     "bird": 0.441
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.862,
+     "pose": 0.124,
+     "bird": 0.605
     }
    ],
-   "id": "All-black starling with subtle oily green-purple gloss; lacks pale spotting. Long pointed yellow bill, reddish-pink legs. Shaggy throat feathers; like an unspotted Common Starling."
+   "reviewed": false
   },
   "spwlap1": {
    "name": "Spur-winged Lapwing",
@@ -16461,83 +16445,67 @@
    "name": "Squacco Heron",
    "sci": "Ardeola ralloides",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/squher1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104688081/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small stocky buff heron; pale sandy-buff body and neck, white wings and rump (showing white in flight). Long buff crown plumes, yellowish bill with dark tip, greenish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/squher1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.896,
-     "pose": 0.422,
-     "bird": 0.61
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.905,
+     "pose": 0.558,
+     "bird": 0.638
     },
     {
      "id": "v1",
      "img": "review_imgs/squher1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.906,
-     "pose": 0.623,
-     "bird": 0.333
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/squher1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.882,
-     "pose": 0.413,
-     "bird": 0.461
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.904,
+     "pose": 0.668,
+     "bird": 0.435
     }
    ],
-   "id": "Small stocky buff heron; pale sandy-buff body and neck, white wings and rump (showing white in flight). Long buff crown plumes, yellowish bill with dark tip, greenish legs."
+   "reviewed": false
   },
   "steeag1": {
    "name": "Steppe Eagle",
    "sci": "Aquila nipalensis",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/steeag1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66340331/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large dark brown eagle with broad wings; uniform earth-brown plumage, paler nape patch, gape line extending back to below eye. Yellow cere and feet, feathered legs, dark hooked bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/steeag1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.886,
-     "pose": 0.013,
-     "bird": 0.604
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.871,
+     "pose": 0.004,
+     "bird": 0.649
     },
     {
      "id": "v1",
      "img": "review_imgs/steeag1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.009,
-     "bird": 0.539
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/steeag1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.855,
-     "pose": 0.006,
-     "bird": 0.346
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.891,
+     "pose": 0.005,
+     "bird": 0.443
     }
    ],
-   "id": "Large dark brown eagle with broad wings; uniform earth-brown plumage, paler nape patch, gape line extending back to below eye. Yellow cere and feet, feathered legs, dark hooked bill."
+   "reviewed": false
   },
   "steeid": {
    "name": "Steller's Eider",
@@ -16575,42 +16543,34 @@
    "name": "Stock Dove",
    "sci": "Columba oenas",
    "family": "Pigeons and Doves",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/stodov1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/103889961/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Compact blue-grey pigeon; soft grey body, pinkish breast, iridescent green neck patch, two short black wing bars. Dark eye, dark-tipped pale bill, pinkish-red legs. No white on neck or rump.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/stodov1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.889,
-     "pose": 0.13,
-     "bird": 0.841
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.89,
+     "pose": 0.079,
+     "bird": 0.714
     },
     {
      "id": "v1",
      "img": "review_imgs/stodov1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.89,
-     "pose": 0.073,
-     "bird": 0.603
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/stodov1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.881,
-     "pose": 0.059,
-     "bird": 0.371
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.905,
+     "pose": 0.113,
+     "bird": 0.622
     }
    ],
-   "id": "Compact blue-grey pigeon; soft grey body, pinkish breast, iridescent green neck patch, two short black wing bars. Dark eye, dark-tipped pale bill, pinkish-red legs. No white on neck or rump."
+   "reviewed": false
   },
   "stonec4": {
    "name": "European Stonechat",
