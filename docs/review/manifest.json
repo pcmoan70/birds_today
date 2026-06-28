@@ -8250,106 +8250,109 @@
    "name": "Common Greenshank",
    "sci": "Tringa nebularia",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/comgre/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/206668731/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tall pale grey-brown wader, greyish above mottled darker, with a white belly and streaked breast. Long slightly upturned bill grey with a dark tip, long greenish legs, white rump and lower back wedge in flight. The longish grey-green bill is slightly upturned. Bill clearly slightly upturned; feet fully shown.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comgre/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.853,
-     "pose": 0.301,
-     "bird": 0.812
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.828,
+     "pose": 0.439,
+     "bird": 0.871
     },
     {
      "id": "v1",
      "img": "review_imgs/comgre/v1.png",
-     "seed": 1007,
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.856,
-     "pose": 0.454,
-     "bird": 0.521
+     "sim": 0.859,
+     "pose": 0.32,
+     "bird": 0.599
     },
     {
      "id": "v2",
      "img": "review_imgs/comgre/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.824,
-     "pose": 0.194,
-     "bird": 0.702
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.864,
+     "pose": 0.272,
+     "bird": 0.303
     }
    ],
-   "id": "Tall pale grey-brown wader, greyish above mottled darker, with a white belly and streaked breast. Long slightly upturned bill grey with a dark tip, long greenish legs, white rump and lower back wedge in flight. The longish grey-green bill is slightly upturned. Bill clearly slightly upturned; feet fully shown."
+   "reviewed": false
   },
   "commer": {
    "name": "Common Merganser",
    "sci": "Mergus merganser",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/commer/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/51564761/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large slim sawbill; male with a glossy green-black head, a thin red hooked bill, white body washed pink, and a black back. Long low profile, dark wings with a large white patch, red legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/commer/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.706,
-     "pose": 0.078,
-     "bird": 0.914
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.704,
+     "pose": 0.108,
+     "bird": 0.864
     },
     {
      "id": "v1",
      "img": "review_imgs/commer/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.671,
-     "pose": 0.039,
-     "bird": 0.913
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.73,
+     "pose": 0.051,
+     "bird": 0.841
     },
     {
      "id": "v2",
      "img": "review_imgs/commer/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.717,
-     "pose": 0.049,
-     "bird": 0.583
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.626,
+     "pose": 0.073,
+     "bird": 0.471
     }
    ],
-   "id": "Large slim sawbill; male with a glossy green-black head, a thin red hooked bill, white body washed pink, and a black back. Long low profile, dark wings with a large white patch, red legs."
+   "reviewed": false
   },
   "commoo3": {
    "name": "Eurasian Moorhen",
    "sci": "Gallinula chloropus",
    "family": "Rails, Gallinules, and Coots",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/commoo3/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42528261/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium dark slate-grey waterbird with brownish back, a bright red frontal shield and red bill tipped yellow, a broken white line along the flanks, white undertail coverts split by black, and long greenish-yellow legs with very long toes.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/commoo3/v0.png",
-     "seed": 1007,
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.764,
-     "pose": 0.141,
-     "bird": 0.639
+     "sim": 0.771,
+     "pose": 0.187,
+     "bird": 0.906
     }
    ],
-   "id": "Medium dark slate-grey waterbird with brownish back, a bright red frontal shield and red bill tipped yellow, a broken white line along the flanks, white undertail coverts split by black, and long greenish-yellow legs with very long toes."
+   "reviewed": false
   },
   "commur": {
    "name": "Common Murre",
@@ -8396,197 +8399,211 @@
    "name": "Common Quail",
    "sci": "Coturnix coturnix",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/comqua1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181537191/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny rotund streaky game-bird, sandy-brown above with cream streaks, buff underparts, a bold cream crown-stripe and supercilium, dark eyestripe, pale throat bordered by dark anchor marks, and pale legs. Face boldly patterned with cream and dark anchor markings.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comqua1/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.855,
-     "pose": 0.487,
-     "bird": 0.768
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.857,
+     "pose": 0.402,
+     "bird": 0.825
     },
     {
      "id": "v1",
      "img": "review_imgs/comqua1/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.882,
-     "pose": 0.505,
-     "bird": 0.629
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.871,
+     "pose": 0.417,
+     "bird": 0.68
     },
     {
      "id": "v2",
      "img": "review_imgs/comqua1/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.868,
-     "pose": 0.484,
-     "bird": 0.568
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.831,
+     "pose": 0.359,
+     "bird": 0.749
     }
    ],
-   "id": "Tiny rotund streaky game-bird, sandy-brown above with cream streaks, buff underparts, a bold cream crown-stripe and supercilium, dark eyestripe, pale throat bordered by dark anchor marks, and pale legs. Face boldly patterned with cream and dark anchor markings."
+   "reviewed": false
   },
   "comred1": {
    "name": "Common Redshank",
    "sci": "Tringa totanus",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/comred1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/62533451/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium grey-brown wader, streaked above and on the breast, with bright orange-red legs and a straight red-based black-tipped bill; in flight shows a broad white trailing wing-bar and white rump wedge.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comred1/v0.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.869,
-     "pose": 0.08,
-     "bird": 0.733
+     "sim": 0.851,
+     "pose": 0.271,
+     "bird": 0.724
     },
     {
      "id": "v1",
      "img": "review_imgs/comred1/v1.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.845,
-     "pose": 0.119,
-     "bird": 0.625
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.88,
+     "pose": 0.153,
+     "bird": 0.506
     },
     {
      "id": "v2",
      "img": "review_imgs/comred1/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.886,
-     "pose": 0.158,
-     "bird": 0.479
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.845,
+     "pose": 0.199,
+     "bird": 0.386
     }
    ],
-   "id": "Medium grey-brown wader, streaked above and on the breast, with bright orange-red legs and a straight red-based black-tipped bill; in flight shows a broad white trailing wing-bar and white rump wedge."
+   "reviewed": false
   },
   "comred2": {
    "name": "Common Redstart",
    "sci": "Phoenicurus phoenicurus",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/comred2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36928311/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim chat with blue-grey crown and back, black face and throat, white forehead, bright orange-red breast and flanks, and a rusty-orange rump and quivering tail; thin black bill and dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comred2/v0.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.789,
-     "pose": 0.345,
-     "bird": 0.718
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.828,
+     "pose": 0.423,
+     "bird": 0.655
     },
     {
      "id": "v1",
      "img": "review_imgs/comred2/v1.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.837,
-     "pose": 0.44,
-     "bird": 0.492
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.838,
+     "pose": 0.237,
+     "bird": 0.679
     },
     {
      "id": "v2",
      "img": "review_imgs/comred2/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.846,
-     "pose": 0.366,
-     "bird": 0.486
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.8,
+     "pose": 0.263,
+     "bird": 0.652
     }
    ],
-   "id": "Slim chat with blue-grey crown and back, black face and throat, white forehead, bright orange-red breast and flanks, and a rusty-orange rump and quivering tail; thin black bill and dark legs."
+   "reviewed": false
   },
   "comsan": {
    "name": "Common Sandpiper",
    "sci": "Actitis hypoleucos",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/comsan/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/37585061/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small brown wader with olive-brown upperparts, clean white underparts forming a distinctive white wedge in front of the bent wing, fine breast streaking, a white eye-ring, pale straight bill and greenish legs; constantly teetering rear.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comsan/v0.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.839,
-     "pose": 0.262,
-     "bird": 0.66
+     "sim": 0.809,
+     "pose": 0.253,
+     "bird": 0.789
     },
     {
      "id": "v1",
      "img": "review_imgs/comsan/v1.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.841,
-     "pose": 0.14,
-     "bird": 0.693
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.805,
+     "pose": 0.142,
+     "bird": 0.773
     },
     {
      "id": "v2",
      "img": "review_imgs/comsan/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.8,
-     "pose": 0.174,
-     "bird": 0.599
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.785,
+     "pose": 0.172,
+     "bird": 0.744
     }
    ],
-   "id": "Small brown wader with olive-brown upperparts, clean white underparts forming a distinctive white wedge in front of the bent wing, fine breast streaking, a white eye-ring, pale straight bill and greenish legs; constantly teetering rear."
+   "reviewed": false
   },
   "comsni": {
    "name": "Common Snipe",
    "sci": "Gallinago gallinago",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/comsni/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/26854421/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Cryptic wader, richly mottled brown above with bold cream back-stripes, dark crown split by a pale central stripe, heavily barred flanks, a very long straight bill and short greenish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comsni/v0.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.812,
-     "pose": 0.422,
-     "bird": 0.881
+     "sim": 0.782,
+     "pose": 0.538,
+     "bird": 0.916
     },
     {
      "id": "v1",
      "img": "review_imgs/comsni/v1.png",
-     "seed": 1007,
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.769,
+     "pose": 0.54,
+     "bird": 0.856
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comsni/v2.png",
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.742,
-     "pose": 0.182,
-     "bird": 0.438
+     "sim": 0.759,
+     "pose": 0.514,
+     "bird": 0.56
     }
    ],
-   "id": "Cryptic wader, richly mottled brown above with bold cream back-stripes, dark crown split by a pale central stripe, heavily barred flanks, a very long straight bill and short greenish legs."
+   "reviewed": false
   },
   "comswi": {
    "name": "Common Swift",
