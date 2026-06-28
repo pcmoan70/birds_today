@@ -8,6 +8,10 @@
   var KEY = "birdReviewChoices";   // {code: variantId}
   var MKEY = "birdReviewMeta";     // {code: {badRef, noneGood, satisfied, idEdit, note}}
   var SKEY = "birdReviewScroll";   // last scroll position (px)
+  // Deep-link target: the main page links a displayed bird to review.html#<code>
+  // so the user lands on that species' card.
+  var hashCode = "";
+  try { hashCode = decodeURIComponent((location.hash || "").replace(/^#/, "")); } catch (e) {}
   var choices = {}, meta = {};
   try { choices = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
   try { meta = JSON.parse(localStorage.getItem(MKEY) || "{}"); } catch (e) {}
@@ -47,6 +51,15 @@
     var y = parseInt(localStorage.getItem(SKEY) || "0", 10);
     if (y > 0) window.scrollTo(0, y);
   }
+  // Scroll a deep-linked species into view and flash it.
+  function focusSpecies(code) {
+    var card = document.getElementById("sp-" + code);
+    if (!card) return false;
+    card.scrollIntoView({ block: "center" });
+    card.classList.add("flash");
+    setTimeout(function () { card.classList.remove("flash"); }, 2400);
+    return true;
+  }
 
   function tile(cls, img, label, sub, onclick) {
     var d = document.createElement("div");
@@ -66,6 +79,7 @@
     // generated for it (regeneration writes a fresh, unreviewed entry).
     var codes = Object.keys(data.species || {}).filter(function (c) {
       var s = data.species[c];
+      if (c === hashCode) return true;   // always show a deep-linked species
       return (s.recipe || "").indexOf("v4") === 0 && !s.reviewed;
     });
     document.getElementById("count").textContent = codes.length + " species";
@@ -79,6 +93,7 @@
       var sel = choices[code] || null;   // nothing auto-selected; reviewer picks
       var card = document.createElement("div");
       card.className = "card";
+      card.id = "sp-" + code;            // deep-link anchor (review.html#<code>)
 
       // ---- header: name + a "none good enough" toggle -----------------
       var head = document.createElement("div");
@@ -238,7 +253,12 @@
     .then(function (r) { return r.json(); })
     .then(function (d) {
       window.__review = d; render(d); updateProgress();
-      requestAnimationFrame(restoreScroll);
+      if (hashCode && d.species && d.species[hashCode]) {
+        requestAnimationFrame(function () { focusSpecies(hashCode); });
+      } else {
+        if (hashCode) alert("That species hasn't been generated for review yet.");
+        requestAnimationFrame(restoreScroll);
+      }
     })
     .catch(function () { document.getElementById("empty").hidden = false; });
 })();

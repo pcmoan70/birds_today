@@ -333,9 +333,16 @@
     fb.className = "fb";
     fb.innerHTML =
       '<button class="up" title="Good">👍</button>' +
-      '<button class="down" title="Poor">👎</button>';
+      '<button class="down" title="Poor">👎</button>' +
+      (it.ai ? '<button class="rev" title="Improve this drawing (review)">✎</button>' : '');
     fb.querySelector(".up").onclick = function (e) { e.stopPropagation(); doVote(it, "up", fb); };
     fb.querySelector(".down").onclick = function (e) { e.stopPropagation(); doVote(it, "down", fb); };
+    if (it.ai) {
+      fb.querySelector(".rev").onclick = function (e) {
+        e.stopPropagation();
+        window.open("review.html#" + encodeURIComponent(it.code), "_blank", "noopener");
+      };
+    }
     el.appendChild(fb);
 
     el.addEventListener("mousemove", function (ev) { showTip(ev, it); });
@@ -541,6 +548,15 @@
     ml.target = "_blank"; ml.rel = "noopener";
     ml.textContent = "Photos & sounds on Macaulay Library →";
     extra.appendChild(ml);
+    // For AI drawings, deep-link to this species' card on the review page.
+    if (v.ai) {
+      extra.appendChild(document.createElement("br"));
+      var rv = document.createElement("a");
+      rv.href = "review.html#" + encodeURIComponent(BIRD.code);
+      rv.target = "_blank"; rv.rel = "noopener";
+      rv.textContent = "Improve this drawing (review) →";
+      extra.appendChild(rv);
+    }
   }
 
   function openBird(it) {
