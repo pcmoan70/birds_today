@@ -13419,6 +13419,206 @@
      "bird": 0.858
     }
    ]
+  },
+  "norwhe": {
+   "name": "Northern Wheatear",
+   "sci": "Oenanthe oenanthe",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/norwhe/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204639371/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/norwhe/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.787,
+     "pose": 0.569,
+     "bird": 0.804
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/norwhe/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.776,
+     "pose": 0.355,
+     "bird": 0.811
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norwhe/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.769,
+     "pose": 0.286,
+     "bird": 0.639
+    }
+   ]
+  },
+  "oltwar1": {
+   "name": "Olive-tree Warbler",
+   "sci": "Hippolais olivetorum",
+   "family": "Reed Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/oltwar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/97457521/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/oltwar1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.764,
+     "pose": 0.216,
+     "bird": 0.718
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/oltwar1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.776,
+     "pose": 0.196,
+     "bird": 0.681
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/oltwar1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.76,
+     "pose": 0.141,
+     "bird": 0.52
+    }
+   ]
+  },
+  "ortbun1": {
+   "name": "Ortolan Bunting",
+   "sci": "Emberiza hortulana",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/ortbun1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/112309661/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ortbun1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.917,
+     "pose": 0.16,
+     "bird": 0.65
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ortbun1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.919,
+     "pose": 0.168,
+     "bird": 0.449
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ortbun1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.922,
+     "pose": 0.145,
+     "bird": 0.039
+    }
+   ]
+  },
+  "ortdov": {
+   "name": "Oriental Turtle-Dove",
+   "sci": "Streptopelia orientalis",
+   "family": "Pigeons and Doves",
+   "reason": "all",
+   "before": "review_imgs/ortdov/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/51836521/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ortdov/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.895,
+     "pose": 0.125,
+     "bird": 0.768
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ortdov/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.896,
+     "pose": 0.138,
+     "bird": 0.476
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ortdov/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.892,
+     "pose": 0.124,
+     "bird": 0.451
+    }
+   ]
+  },
+  "osprey": {
+   "name": "Osprey",
+   "sci": "Pandion haliaetus",
+   "family": "Ospreys",
+   "reason": "all",
+   "before": "review_imgs/osprey/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/48440631/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/osprey/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.86,
+     "pose": 0.141,
+     "bird": 0.73
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/osprey/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.859,
+     "pose": 0.112,
+     "bird": 0.589
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/osprey/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.824,
+     "pose": 0.083,
+     "bird": 0.661
+    }
+   ]
   }
  }
 }
