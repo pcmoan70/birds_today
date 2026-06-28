@@ -7132,206 +7132,166 @@
    "name": "Graceful Prinia",
    "sci": "Prinia gracilis",
    "family": "Cisticolas and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grapri1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/146491981/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny slim warbler, pale sandy grey-brown above, whitish below; very long graduated tail with black-and-white tips; faint pale supercilium, fine dark bill, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grapri1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.863,
-     "pose": 0.117,
-     "bird": 0.633
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.881,
+     "pose": 0.073,
+     "bird": 0.497
     },
     {
      "id": "v1",
      "img": "review_imgs/grapri1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.892,
-     "pose": 0.057,
-     "bird": 0.599
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grapri1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.886,
-     "pose": 0.031,
-     "bird": 0.331
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.887,
+     "pose": 0.062,
+     "bird": 0.436
     }
    ],
-   "id": "Tiny slim warbler, pale sandy grey-brown above, whitish below; very long graduated tail with black-and-white tips; faint pale supercilium, fine dark bill, pinkish legs."
+   "reviewed": false
   },
   "grcgre1": {
    "name": "Great Crested Grebe",
    "sci": "Podiceps cristatus",
    "family": "Grebes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grcgre1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/144916431/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slender long-necked grebe, brown-grey back, white face and underparts, long white neck; black double crest and chestnut-and-black ear tufts (frills) on face; long pink-and-dark dagger bill, red eye.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grcgre1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.845,
-     "pose": 0.19,
-     "bird": 0.75
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.813,
+     "pose": 0.044,
+     "bird": 0.592
     },
     {
      "id": "v1",
      "img": "review_imgs/grcgre1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.86,
-     "pose": 0.115,
-     "bird": 0.743
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grcgre1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.802,
-     "pose": 0.079,
-     "bird": 0.793
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.85,
+     "pose": 0.052,
+     "bird": 0.489
     }
    ],
-   "id": "Slender long-necked grebe, brown-grey back, white face and underparts, long white neck; black double crest and chestnut-and-black ear tufts (frills) on face; long pink-and-dark dagger bill, red eye."
+   "reviewed": false
   },
   "grebit1": {
    "name": "Eurasian Bittern",
    "sci": "Botaurus stellaris",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grebit1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/21422101/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stocky bittern, warm golden-buff plumage heavily mottled and streaked black-brown; blackish crown, dark moustache; long greenish-yellow dagger bill, greenish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grebit1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.872,
-     "pose": 0.778,
-     "bird": 0.735
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.866,
+     "pose": 0.784,
+     "bird": 0.607
     },
     {
      "id": "v1",
      "img": "review_imgs/grebit1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.878,
-     "pose": 0.667,
-     "bird": 0.451
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grebit1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.854,
-     "pose": 0.426,
-     "bird": 0.096
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.87,
+     "pose": 0.664,
+     "bird": 0.222
     }
    ],
-   "id": "Stocky bittern, warm golden-buff plumage heavily mottled and streaked black-brown; blackish crown, dark moustache; long greenish-yellow dagger bill, greenish legs."
+   "reviewed": false
   },
   "grebus1": {
    "name": "Great Bustard",
    "sci": "Otis tarda",
    "family": "Bustards",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grebus1/before.png",
    "ref": "review_imgs/grebus1/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Huge heavy bustard, sandy-rufous back barred black, white belly; pale blue-grey head and neck, long white moustache-like throat whiskers in male; thick neck, stout pale bill, sturdy grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grebus1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.863,
-     "pose": 0.082,
-     "bird": 0.875
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.804,
+     "pose": 0.184,
+     "bird": 0.853
     },
     {
      "id": "v1",
      "img": "review_imgs/grebus1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.812,
-     "pose": 0.189,
-     "bird": 0.643
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grebus1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.781,
-     "pose": 0.339,
-     "bird": 0.525
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.804,
+     "pose": 0.055,
+     "bird": 0.601
     }
    ],
-   "id": "Huge heavy bustard, sandy-rufous back barred black, white belly; pale blue-grey head and neck, long white moustache-like throat whiskers in male; thick neck, stout pale bill, sturdy grey legs."
+   "reviewed": false
   },
   "grecor": {
    "name": "Great Cormorant",
    "sci": "Phalacrocorax carbo",
    "family": "Cormorants and Shags",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/grecor/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53006131/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large blackish waterbird glossed bronze-green, white chin and cheek patch, yellow bare facial skin; thick hooked grey bill, black legs; often shows white thigh patch in breeding.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grecor/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.75,
-     "pose": 0.527,
-     "bird": 0.139
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.7,
+     "pose": 0.487,
+     "bird": 0.149
     },
     {
      "id": "v1",
      "img": "review_imgs/grecor/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.707,
-     "pose": 0.497,
-     "bird": 0.091
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grecor/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.665,
-     "pose": 0.22,
-     "bird": 0.023
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.697,
+     "pose": 0.351,
+     "bird": 0.122
     }
    ],
-   "id": "Large blackish waterbird glossed bronze-green, white chin and cheek patch, yellow bare facial skin; thick hooked grey bill, black legs; often shows white thigh patch in breeding."
+   "reviewed": false
   },
   "greegr": {
    "name": "Great Egret",
