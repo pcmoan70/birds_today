@@ -9020,206 +9020,202 @@
    "name": "Eurasian Penduline-Tit",
    "sci": "Remiz pendulinus",
    "family": "Penduline-Tits",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/euptit1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/28714421/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny tit with a black mask through the eye, pale grey head, chestnut back, whitish underparts with rusty wash, and a fine sharply pointed grey bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/euptit1/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.781,
-     "pose": 0.421,
-     "bird": 0.79
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.787,
+     "pose": 0.44,
+     "bird": 0.895
     },
     {
      "id": "v1",
      "img": "review_imgs/euptit1/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.831,
-     "pose": 0.265,
-     "bird": 0.711
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/euptit1/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.772,
-     "pose": 0.228,
-     "bird": 0.811
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.867,
+     "pose": 0.234,
+     "bird": 0.796
     }
    ],
-   "id": "Tiny tit with a black mask through the eye, pale grey head, chestnut back, whitish underparts with rusty wash, and a fine sharply pointed grey bill."
+   "reviewed": false
   },
   "eurjac": {
    "name": "Eurasian Jackdaw",
    "sci": "Coloeus monedula",
    "family": "Crows, Jays, and Magpies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/eurjac/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35496821/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small compact crow, sooty black with a pale silvery-grey nape and ear-coverts, and a striking pale whitish-grey eye. Short black bill and black legs. Overall darker and sootier with subtle, low contrast.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurjac/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.921,
-     "pose": 0.127,
-     "bird": 0.49
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.907,
+     "pose": 0.223,
+     "bird": 0.377
     },
     {
      "id": "v1",
      "img": "review_imgs/eurjac/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.902,
-     "pose": 0.104,
-     "bird": 0.349
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.933,
+     "pose": 0.167,
+     "bird": 0.305
     },
     {
      "id": "v2",
      "img": "review_imgs/eurjac/v2.png",
-     "seed": 1006,
+     "seed": 1011,
      "strength": 0.68,
-     "sim": 0.918,
-     "pose": 0.088,
-     "bird": 0.267
+     "sim": 0.891,
+     "pose": 0.049,
+     "bird": 0.452
     }
    ],
-   "id": "Small compact crow, sooty black with a pale silvery-grey nape and ear-coverts, and a striking pale whitish-grey eye. Short black bill and black legs. Overall darker and sootier with subtle, low contrast."
+   "reviewed": false
   },
   "eurjay1": {
    "name": "Eurasian Jay",
    "sci": "Garrulus glandarius",
    "family": "Crows, Jays, and Magpies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/eurjay1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241250451/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pinkish-brown crow with a streaked black-and-white crown, black moustache, white rump, black tail, and a brilliant blue-and-black barred patch on the wing. Black bill, white throat. Crown finely streaked black-and-white, head colouring accurate.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurjay1/v0.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.905,
-     "pose": 0.104,
-     "bird": 0.846
+     "sim": 0.901,
+     "pose": 0.106,
+     "bird": 0.861
     },
     {
      "id": "v1",
      "img": "review_imgs/eurjay1/v1.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.904,
-     "pose": 0.095,
-     "bird": 0.728
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.9,
+     "pose": 0.053,
+     "bird": 0.816
     },
     {
      "id": "v2",
      "img": "review_imgs/eurjay1/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.851,
-     "pose": 0.099,
-     "bird": 0.373
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.892,
+     "pose": 0.052,
+     "bird": 0.634
     }
    ],
-   "id": "Pinkish-brown crow with a streaked black-and-white crown, black moustache, white rump, black tail, and a brilliant blue-and-black barred patch on the wing. Black bill, white throat. Crown finely streaked black-and-white, head colouring accurate."
+   "reviewed": false
   },
   "eurnig1": {
    "name": "Eurasian Nightjar",
    "sci": "Caprimulgus europaeus",
    "family": "Nightjars and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/eurnig1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/30060391/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Cryptic, intricately mottled grey-brown bird with a flat broad head, very large dark eyes, tiny bill with a wide gape, long wings and long tail; males show white spots near wingtips and tail corners. Bill tiny with a very wide gape.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurnig1/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.747,
-     "pose": 0.087,
-     "bird": 0.697
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.823,
+     "pose": 0.033,
+     "bird": 0.532
     },
     {
      "id": "v1",
      "img": "review_imgs/eurnig1/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.759,
-     "pose": 0.209,
-     "bird": 0.475
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.851,
+     "pose": 0.117,
+     "bird": 0.128
     },
     {
      "id": "v2",
      "img": "review_imgs/eurnig1/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.733,
-     "pose": 0.055,
-     "bird": 0.243
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.784,
+     "pose": 0.046,
+     "bird": 0.254
     }
    ],
-   "id": "Cryptic, intricately mottled grey-brown bird with a flat broad head, very large dark eyes, tiny bill with a wide gape, long wings and long tail; males show white spots near wingtips and tail corners. Bill tiny with a very wide gape."
+   "reviewed": false
   },
   "eursco1": {
    "name": "Eurasian Scops-Owl",
    "sci": "Otus scops",
    "family": "Typical Owls",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/eursco1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/27138081/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny grey owl with intricately vermiculated bark-like grey-brown plumage, small ear tufts, yellow eyes, fine dark streaking below, and a pale scapular line. Greyish bill, feathered legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eursco1/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.811,
-     "pose": 0.29,
-     "bird": 0.607
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.84,
+     "pose": 0.343,
+     "bird": 0.646
     },
     {
      "id": "v1",
      "img": "review_imgs/eursco1/v1.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.857,
-     "pose": 0.226,
-     "bird": 0.403
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.845,
+     "pose": 0.501,
+     "bird": 0.405
     },
     {
      "id": "v2",
      "img": "review_imgs/eursco1/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.832,
-     "pose": 0.145,
-     "bird": 0.364
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.868,
+     "pose": 0.322,
+     "bird": 0.376
     }
    ],
-   "id": "Tiny grey owl with intricately vermiculated bark-like grey-brown plumage, small ear tufts, yellow eyes, fine dark streaking below, and a pale scapular line. Greyish bill, feathered legs."
+   "reviewed": false
   },
   "eurspa1": {
    "name": "Eurasian Sparrowhawk",
