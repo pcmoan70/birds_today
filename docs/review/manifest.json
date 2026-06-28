@@ -15001,6 +15001,206 @@
      "bird": 0.196
     }
    ]
+  },
+  "reebun": {
+   "name": "Reed Bunting",
+   "sci": "Emberiza schoeniclus",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/reebun/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/221501371/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/reebun/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.81,
+     "pose": 0.431,
+     "bird": 0.919
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/reebun/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.801,
+     "pose": 0.354,
+     "bird": 0.915
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/reebun/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.798,
+     "pose": 0.155,
+     "bird": 0.867
+    }
+   ]
+  },
+  "refblu1": {
+   "name": "Red-flanked Bluetail",
+   "sci": "Tarsiger cyanurus",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/refblu1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104005221/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/refblu1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.926,
+     "pose": 0.118,
+     "bird": 0.089
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/refblu1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.942,
+     "pose": 0.075,
+     "bird": 0.072
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/refblu1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.937,
+     "pose": 0.065,
+     "bird": 0.042
+    }
+   ]
+  },
+  "reffal1": {
+   "name": "Red-footed Falcon",
+   "sci": "Falco vespertinus",
+   "family": "Falcons and Caracaras",
+   "reason": "all",
+   "before": "review_imgs/reffal1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204150991/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/reffal1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.83,
+     "pose": 0.336,
+     "bird": 0.235
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/reffal1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.26,
+     "bird": 0.19
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/reffal1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.85,
+     "pose": 0.173,
+     "bird": 0.208
+    }
+   ]
+  },
+  "rekcoo1": {
+   "name": "Red-knobbed Coot",
+   "sci": "Fulica cristata",
+   "family": "Rails, Gallinules, and Coots",
+   "reason": "all",
+   "before": "review_imgs/rekcoo1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66192451/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rekcoo1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.603,
+     "pose": 0.076,
+     "bird": 0.709
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rekcoo1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.605,
+     "pose": 0.146,
+     "bird": 0.632
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rekcoo1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.621,
+     "pose": 0.104,
+     "bird": 0.427
+    }
+   ]
+  },
+  "relpar1": {
+   "name": "Red-legged Partridge",
+   "sci": "Alectoris rufa",
+   "family": "Pheasants, Grouse, and Allies",
+   "reason": "all",
+   "before": "review_imgs/relpar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/59866301/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/relpar1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.944,
+     "pose": 0.514,
+     "bird": 0.846
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/relpar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.907,
+     "pose": 0.515,
+     "bird": 0.87
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/relpar1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.933,
+     "pose": 0.341,
+     "bird": 0.763
+    }
+   ]
   }
  }
 }
