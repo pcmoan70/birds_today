@@ -11819,6 +11819,206 @@
      "bird": 0.643
     }
    ]
+  },
+  "lotduc": {
+   "name": "Long-tailed Duck",
+   "sci": "Clangula hyemalis",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/lotduc/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299883551/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/lotduc/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.759,
+     "pose": 0.05,
+     "bird": 0.505
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/lotduc/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.767,
+     "pose": 0.009,
+     "bird": 0.345
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lotduc/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.787,
+     "pose": 0.098,
+     "bird": 0.178
+    }
+   ]
+  },
+  "lotjae": {
+   "name": "Long-tailed Jaeger",
+   "sci": "Stercorarius longicaudus",
+   "family": "Skuas and Jaegers",
+   "reason": "all",
+   "before": "review_imgs/lotjae/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31703181/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/lotjae/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.763,
+     "pose": 0.025,
+     "bird": 0.894
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/lotjae/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.782,
+     "pose": 0.012,
+     "bird": 0.739
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lotjae/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.778,
+     "pose": 0.044,
+     "bird": 0.536
+    }
+   ]
+  },
+  "lottit1": {
+   "name": "Long-tailed Tit",
+   "sci": "Aegithalos caudatus",
+   "family": "Long-tailed Tits and Bushtits",
+   "reason": "all",
+   "before": "review_imgs/lottit1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/424325641/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/lottit1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.921,
+     "pose": 0.048,
+     "bird": 0.904
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/lottit1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.895,
+     "pose": 0.036,
+     "bird": 0.776
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lottit1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.907,
+     "pose": 0.019,
+     "bird": 0.649
+    }
+   ]
+  },
+  "lwfgoo": {
+   "name": "Lesser White-fronted Goose",
+   "sci": "Anser erythropus",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/lwfgoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/138319961/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/lwfgoo/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.915,
+     "pose": 0.225,
+     "bird": 0.935
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/lwfgoo/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.913,
+     "pose": 0.126,
+     "bird": 0.882
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lwfgoo/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.872,
+     "pose": 0.131,
+     "bird": 0.948
+    }
+   ]
+  },
+  "mallar3": {
+   "name": "Mallard",
+   "sci": "Anas platyrhynchos",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/mallar3/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63736171/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/mallar3/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.641,
+     "pose": 0.112,
+     "bird": 0.526
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/mallar3/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.65,
+     "pose": 0.143,
+     "bird": 0.361
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/mallar3/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.559,
+     "pose": 0.007,
+     "bird": 0.554
+    }
+   ]
   }
  }
 }

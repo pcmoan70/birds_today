@@ -21809,7 +21809,7 @@
     },
     "faces": {
       "lottit1/flying_0.png": "right",
-      "lottit1/sitting_0.png": "right"
+      "lottit1/sitting_0.png": "left"
     },
     "credits": {
       "lottit1/flying_0.png": {
@@ -21882,7 +21882,7 @@
       ]
     },
     "faces": {
-      "lwfgoo/sitting_0.png": "left"
+      "lwfgoo/sitting_0.png": "right"
     },
     "credits": {
       "lwfgoo/sitting_0.png": {
@@ -21956,7 +21956,7 @@
     },
     "faces": {
       "mallar3/flying_0.png": "left",
-      "mallar3/sitting_0.png": "right"
+      "mallar3/sitting_0.png": "left"
     },
     "credits": {
       "mallar3/flying_0.png": {
