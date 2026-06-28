@@ -18392,6 +18392,206 @@
      "bird": 0.282
     }
    ]
+  },
+  "tstlar1": {
+   "name": "Turkestan Short-toed Lark",
+   "sci": "Alaudala heinei",
+   "family": "Larks",
+   "reason": "all",
+   "before": "review_imgs/tstlar1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/336306481/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/tstlar1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.895,
+     "pose": 0.406,
+     "bird": 0.756
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/tstlar1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.893,
+     "pose": 0.386,
+     "bird": 0.748
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/tstlar1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.895,
+     "pose": 0.187,
+     "bird": 0.712
+    }
+   ]
+  },
+  "tufduc": {
+   "name": "Tufted Duck",
+   "sci": "Aythya fuligula",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/tufduc/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/219416591/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/tufduc/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.777,
+     "pose": 0.039,
+     "bird": 0.973
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/tufduc/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.779,
+     "pose": 0.068,
+     "bird": 0.935
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/tufduc/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.721,
+     "pose": 0.127,
+     "bird": 0.857
+    }
+   ]
+  },
+  "tunbeg1": {
+   "name": "Tundra Bean-Goose",
+   "sci": "Anser serrirostris",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/tunbeg1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/41964711/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/tunbeg1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.925,
+     "pose": 0.448,
+     "bird": 0.954
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/tunbeg1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.903,
+     "pose": 0.489,
+     "bird": 0.935
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/tunbeg1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.922,
+     "pose": 0.479,
+     "bird": 0.879
+    }
+   ]
+  },
+  "tunswa": {
+   "name": "Tundra Swan",
+   "sci": "Cygnus columbianus",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/tunswa/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31724801/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/tunswa/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.895,
+     "pose": 0.486,
+     "bird": 0.811
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/tunswa/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.884,
+     "pose": 0.304,
+     "bird": 0.541
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/tunswa/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.865,
+     "pose": 0.276,
+     "bird": 0.448
+    }
+   ]
+  },
+  "twite1": {
+   "name": "Twite",
+   "sci": "Linaria flavirostris",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/twite1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/40041141/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/twite1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.848,
+     "pose": 0.15,
+     "bird": 0.636
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/twite1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.916,
+     "pose": 0.133,
+     "bird": 0.498
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/twite1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.878,
+     "pose": 0.109,
+     "bird": 0.542
+    }
+   ]
   }
  }
 }

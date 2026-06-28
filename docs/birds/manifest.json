@@ -33717,7 +33717,7 @@
       ]
     },
     "faces": {
-      "tunbeg1/sitting_0.png": "right"
+      "tunbeg1/sitting_0.png": "left"
     },
     "credits": {
       "tunbeg1/sitting_0.png": {
@@ -33788,7 +33788,7 @@
     },
     "faces": {
       "tunswa/flying_0.png": "right",
-      "tunswa/sitting_0.png": "left"
+      "tunswa/sitting_0.png": "right"
     },
     "credits": {
       "tunswa/flying_0.png": {
