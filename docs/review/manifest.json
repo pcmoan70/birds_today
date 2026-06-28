@@ -16132,165 +16132,133 @@
    "name": "Sooty Shearwater",
    "sci": "Ardenna grisea",
    "family": "Shearwaters and Petrels",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/sooshe/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/174404171/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large all-dark sooty-brown shearwater; long narrow swept-back wings showing silvery-white flash on underwing coverts. Slender dark bill, dark legs. Cigar-shaped body.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sooshe/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.893,
-     "pose": 0.042,
-     "bird": 0.488
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.904,
+     "pose": 0.052,
+     "bird": 0.676
     },
     {
      "id": "v1",
      "img": "review_imgs/sooshe/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.864,
-     "pose": 0.029,
-     "bird": 0.176
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sooshe/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.868,
-     "pose": 0.041,
-     "bird": 0.097
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.887,
+     "pose": 0.066,
+     "bird": 0.415
     }
    ],
-   "id": "Large all-dark sooty-brown shearwater; long narrow swept-back wings showing silvery-white flash on underwing coverts. Slender dark bill, dark legs. Cigar-shaped body."
+   "reviewed": false
   },
   "spaeag1": {
    "name": "Spanish Eagle",
    "sci": "Aquila adalberti",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/spaeag1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/56275381/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large dark brown eagle; adult shows distinctive white leading edge to wing (shoulder) and pale golden nape. Broad wings, smallish head, yellow cere and feet, dark hooked bill, feathered legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/spaeag1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.696,
-     "pose": 0.036,
-     "bird": 0.72
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.745,
+     "pose": 0.014,
+     "bird": 0.677
     },
     {
      "id": "v1",
      "img": "review_imgs/spaeag1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.667,
-     "pose": 0.043,
-     "bird": 0.61
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/spaeag1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.667,
-     "pose": 0.031,
-     "bird": 0.194
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.741,
+     "pose": 0.032,
+     "bird": 0.598
     }
    ],
-   "id": "Large dark brown eagle; adult shows distinctive white leading edge to wing (shoulder) and pale golden nape. Broad wings, smallish head, yellow cere and feet, dark hooked bill, feathered legs."
+   "reviewed": false
   },
   "spaspa1": {
    "name": "Spanish Sparrow",
    "sci": "Passer hispaniolensis",
    "family": "Old World Sparrows",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/spaspa1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/61556351/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Sparrow; male has chestnut crown, white cheeks, and heavy black streaking on white flanks and back; large black bib spreading onto breast. Stout grey-black bill, brown back, pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/spaspa1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.907,
-     "pose": 0.375,
-     "bird": 0.735
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.921,
+     "pose": 0.251,
+     "bird": 0.811
     },
     {
      "id": "v1",
      "img": "review_imgs/spaspa1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.885,
-     "pose": 0.207,
-     "bird": 0.62
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/spaspa1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.911,
-     "pose": 0.268,
-     "bird": 0.426
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.916,
+     "pose": 0.256,
+     "bird": 0.581
     }
    ],
-   "id": "Sparrow; male has chestnut crown, white cheeks, and heavy black streaking on white flanks and back; large black bib spreading onto breast. Stout grey-black bill, brown back, pinkish legs."
+   "reviewed": false
   },
   "spewar2": {
    "name": "Spectacled Warbler",
    "sci": "Curruca conspicillata",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/spewar2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/102001441/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small Sylvia warbler; male has grey-brown head, rufous-edged wings, white throat, pinkish-buff breast. Bold red-orange eye-ring, dark lores, reddish eye, yellowish legs, fine dark bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/spewar2/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
+     "seed": 3005,
+     "strength": 0.62,
      "sim": 0.871,
-     "pose": 0.082,
-     "bird": 0.805
+     "pose": 0.137,
+     "bird": 0.863
     },
     {
      "id": "v1",
      "img": "review_imgs/spewar2/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.876,
-     "pose": 0.096,
-     "bird": 0.74
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/spewar2/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.861,
-     "pose": 0.096,
-     "bird": 0.754
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.893,
+     "pose": 0.079,
+     "bird": 0.635
     }
    ],
-   "id": "Small Sylvia warbler; male has grey-brown head, rufous-edged wings, white throat, pinkish-buff breast. Bold red-orange eye-ring, dark lores, reddish eye, yellowish legs, fine dark bill."
+   "reviewed": false
   },
   "spocra1": {
    "name": "Spotted Crake",
@@ -16337,42 +16305,34 @@
    "name": "Spotted Flycatcher",
    "sci": "Muscicapa striata",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/spofly1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181348861/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim grey-brown flycatcher; pale greyish-white underparts with diffuse dark streaks on crown and breast. Plain face, large dark eye, thin pointed black bill, dark legs. Upright posture.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/spofly1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.918,
-     "pose": 0.282,
-     "bird": 0.508
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.887,
+     "pose": 0.201,
+     "bird": 0.46
     },
     {
      "id": "v1",
      "img": "review_imgs/spofly1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.889,
-     "pose": 0.307,
-     "bird": 0.308
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/spofly1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.912,
-     "pose": 0.209,
-     "bird": 0.207
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.9,
+     "pose": 0.341,
+     "bird": 0.213
     }
    ],
-   "id": "Slim grey-brown flycatcher; pale greyish-white underparts with diffuse dark streaks on crown and breast. Plain face, large dark eye, thin pointed black bill, dark legs. Upright posture."
+   "reviewed": false
   },
   "spored": {
    "name": "Spotted Redshank",
