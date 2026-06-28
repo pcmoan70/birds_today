@@ -12234,124 +12234,109 @@
    "name": "Moussier's Redstart",
    "sci": "Phoenicurus moussieri",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/moured1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63762261/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Striking small chat; male slaty-black above with a bold white supercilium curving onto the nape, a large white wing patch, and bright rufous-orange underparts and rump; black tail, dark legs and bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/moured1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.922,
-     "pose": 0.154,
-     "bird": 0.626
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.933,
+     "pose": 0.356,
+     "bird": 0.677
     },
     {
      "id": "v1",
      "img": "review_imgs/moured1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.912,
-     "pose": 0.215,
-     "bird": 0.332
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/moured1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.902,
-     "pose": 0.247,
-     "bird": 0.256
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.915,
+     "pose": 0.241,
+     "bird": 0.45
     }
    ],
-   "id": "Striking small chat; male slaty-black above with a bold white supercilium curving onto the nape, a large white wing patch, and bright rufous-orange underparts and rump; black tail, dark legs and bill."
+   "reviewed": false
   },
   "mouwar1": {
    "name": "Moustached Warbler",
    "sci": "Acrocephalus melanopogon",
    "family": "Reed Warblers and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/mouwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204572551/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small rich warbler with rufous-brown upperparts, a bold white supercilium contrasting with a blackish crown and eye-stripe, white throat, warm buff flanks, rufous rump, and a fine dark bill; often cocks its tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/mouwar1/v0.png",
-     "seed": 1002,
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.826,
-     "pose": 0.058,
-     "bird": 0.674
+     "sim": 0.836,
+     "pose": 0.05,
+     "bird": 0.661
     },
     {
      "id": "v1",
      "img": "review_imgs/mouwar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.867,
-     "pose": 0.059,
-     "bird": 0.242
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.848,
+     "pose": 0.037,
+     "bird": 0.439
     },
     {
      "id": "v2",
      "img": "review_imgs/mouwar1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.855,
-     "pose": 0.061,
-     "bird": 0.233
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.865,
+     "pose": 0.07,
+     "bird": 0.312
     }
    ],
-   "id": "Small rich warbler with rufous-brown upperparts, a bold white supercilium contrasting with a blackish crown and eye-stripe, white throat, warm buff flanks, rufous rump, and a fine dark bill; often cocks its tail."
+   "reviewed": false
   },
   "mouwhe2": {
    "name": "Mourning Wheatear",
    "sci": "Oenanthe lugens",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/mouwhe2/before.png",
    "ref": "review_imgs/mouwhe2/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pied wheatear; black face, throat, wings and back contrasting sharply with white crown, nape and underparts, buff-tinged vent, and a white rump with black inverted-T tail pattern; black bill and legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/mouwhe2/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.935,
-     "pose": 0.339,
-     "bird": 0.846
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.951,
+     "pose": 0.312,
+     "bird": 0.852
     },
     {
      "id": "v1",
      "img": "review_imgs/mouwhe2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.941,
-     "pose": 0.208,
-     "bird": 0.768
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/mouwhe2/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.923,
-     "pose": 0.163,
-     "bird": 0.801
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.929,
+     "pose": 0.255,
+     "bird": 0.828
     }
    ],
-   "id": "Pied wheatear; black face, throat, wings and back contrasting sharply with white crown, nape and underparts, buff-tinged vent, and a white rump with black inverted-T tail pattern; black bill and legs."
+   "reviewed": false
   },
   "mstlar1": {
    "name": "Mediterranean Short-toed Lark",
@@ -12390,83 +12375,67 @@
    "name": "Muscovy Duck",
    "sci": "Cairina moschata",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/musduc/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204580681/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large heavy blackish duck with glossy greenish-black plumage, bold white wing patches, and extensive red warty bare skin (caruncles) around the face and bill base; dark legs, broad body, short legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/musduc/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.715,
-     "pose": 0.189,
-     "bird": 0.962
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.734,
+     "pose": 0.016,
+     "bird": 0.926
     },
     {
      "id": "v1",
      "img": "review_imgs/musduc/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.71,
-     "pose": 0.28,
-     "bird": 0.844
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/musduc/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.764,
-     "pose": 0.31,
-     "bird": 0.644
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.742,
+     "pose": 0.116,
+     "bird": 0.595
     }
    ],
-   "id": "Large heavy blackish duck with glossy greenish-black plumage, bold white wing patches, and extensive red warty bare skin (caruncles) around the face and bill base; dark legs, broad body, short legs."
+   "reviewed": false
   },
   "mutswa": {
    "name": "Mute Swan",
    "sci": "Cygnus olor",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/mutswa/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53961801/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Very large all-white swan with a long gracefully S-curved neck, an orange bill with a prominent black basal knob, black facial skin and lores, and black legs; wings often arched over the back.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/mutswa/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.094,
-     "bird": 0.915
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.842,
+     "pose": 0.177,
+     "bird": 0.836
     },
     {
      "id": "v1",
      "img": "review_imgs/mutswa/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.837,
-     "pose": 0.1,
-     "bird": 0.695
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/mutswa/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.841,
-     "pose": 0.076,
-     "bird": 0.163
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.846,
+     "pose": 0.061,
+     "bird": 0.771
     }
    ],
-   "id": "Very large all-white swan with a long gracefully S-curved neck, an orange bill with a prominent black basal knob, black facial skin and lores, and black legs; wings often arched over the back."
+   "reviewed": false
   },
   "namdov1": {
    "name": "Namaqua Dove",
