@@ -48,17 +48,21 @@ def cut_pil(img, session, max_edge):
         print(f"      cull (coverage {cover:.1%})")
         return None
 
-    # Keep only the largest connected component: drops captions, frame edges,
-    # and secondary birds so each cutout is a single clean subject.
+    # Keep the main subject, but group components by a dilated mask first so
+    # thin parts the matting often severs from the body — legs, feet, tail tips,
+    # bill — stay attached instead of being erased as separate blobs. Captions,
+    # frame edges and well-separated secondary birds are still dropped.
     labels, n = ndimage.label(mask)
     if n > 1:
-        sizes = ndimage.sum(mask, labels, range(1, n + 1))
+        r = min(14, max(2, round(0.012 * max(mask.shape))))  # gap-bridging radius
+        grouped, gn = ndimage.label(ndimage.binary_dilation(mask, iterations=r))
+        sizes = ndimage.sum(mask, grouped, range(1, gn + 1))  # weight by real px
         biggest = int(sizes.argmax()) + 1
         dominance = sizes.max() / sizes.sum()
         if dominance < MIN_DOMINANCE:
             print(f"      cull (multi-subject, largest {dominance:.0%})")
             return None
-        keep = labels == biggest
+        keep = (grouped == biggest) & mask   # real pixels within the main group
         arr[~keep, 3] = 0          # erase everything but the main subject
         cut = Image.fromarray(arr)
         mask = keep
