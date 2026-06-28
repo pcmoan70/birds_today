@@ -16801,6 +16801,206 @@
      "bird": 0.312
     }
    ]
+  },
+  "shteag1": {
+   "name": "Short-toed Snake-Eagle",
+   "sci": "Circaetus gallicus",
+   "family": "Hawks, Eagles, and Kites",
+   "reason": "all",
+   "before": "review_imgs/shteag1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36323561/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/shteag1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.785,
+     "pose": 0.744,
+     "bird": 0.816
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/shteag1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.786,
+     "pose": 0.065,
+     "bird": 0.629
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/shteag1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.783,
+     "pose": 0.033,
+     "bird": 0.245
+    }
+   ]
+  },
+  "shttre1": {
+   "name": "Short-toed Treecreeper",
+   "sci": "Certhia brachydactyla",
+   "family": "Treecreepers",
+   "reason": "all",
+   "before": "review_imgs/shttre1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66036851/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/shttre1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.743,
+     "pose": 0.164,
+     "bird": 0.724
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/shttre1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.693,
+     "pose": 0.14,
+     "bird": 0.847
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/shttre1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.724,
+     "pose": 0.15,
+     "bird": 0.666
+    }
+   ]
+  },
+  "sibjay1": {
+   "name": "Siberian Jay",
+   "sci": "Perisoreus infaustus",
+   "family": "Crows, Jays, and Magpies",
+   "reason": "all",
+   "before": "review_imgs/sibjay1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31497771/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/sibjay1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.871,
+     "pose": 0.154,
+     "bird": 0.73
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/sibjay1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.855,
+     "pose": 0.141,
+     "bird": 0.636
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sibjay1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.887,
+     "pose": 0.065,
+     "bird": 0.577
+    }
+   ]
+  },
+  "skylar": {
+   "name": "Eurasian Skylark",
+   "sci": "Alauda arvensis",
+   "family": "Larks",
+   "reason": "all",
+   "before": "review_imgs/skylar/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/237452191/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/skylar/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.865,
+     "pose": 0.141,
+     "bird": 0.66
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/skylar/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.831,
+     "pose": 0.12,
+     "bird": 0.586
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/skylar/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.838,
+     "pose": 0.081,
+     "bird": 0.597
+    }
+   ]
+  },
+  "slbgul1": {
+   "name": "Slender-billed Gull",
+   "sci": "Chroicocephalus genei",
+   "family": "Gulls, Terns, and Skimmers",
+   "reason": "all",
+   "before": "review_imgs/slbgul1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/88090541/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/slbgul1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.903,
+     "pose": 0.311,
+     "bird": 0.713
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/slbgul1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.877,
+     "pose": 0.154,
+     "bird": 0.804
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/slbgul1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.86,
+     "pose": 0.321,
+     "bird": 0.478
+    }
+   ]
   }
  }
 }
