@@ -14019,6 +14019,206 @@
      "bird": 0.765
     }
    ]
+  },
+  "pieavo1": {
+   "name": "Pied Avocet",
+   "sci": "Recurvirostra avosetta",
+   "family": "Stilts and Avocets",
+   "reason": "all",
+   "before": "review_imgs/pieavo1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43400121/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pieavo1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.884,
+     "pose": 0.094,
+     "bird": 0.949
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pieavo1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.873,
+     "pose": 0.071,
+     "bird": 0.947
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pieavo1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.865,
+     "pose": 0.089,
+     "bird": 0.929
+    }
+   ]
+  },
+  "piekin1": {
+   "name": "Pied Kingfisher",
+   "sci": "Ceryle rudis",
+   "family": "Kingfishers",
+   "reason": "all",
+   "before": "review_imgs/piekin1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44256731/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/piekin1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.79,
+     "pose": 0.358,
+     "bird": 0.699
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/piekin1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.812,
+     "pose": 0.445,
+     "bird": 0.38
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/piekin1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.8,
+     "pose": 0.211,
+     "bird": 0.486
+    }
+   ]
+  },
+  "pifgoo": {
+   "name": "Pink-footed Goose",
+   "sci": "Anser brachyrhynchus",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/pifgoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/40740951/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pifgoo/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.921,
+     "pose": 0.374,
+     "bird": 0.939
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pifgoo/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.911,
+     "pose": 0.213,
+     "bird": 0.956
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pifgoo/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.871,
+     "pose": 0.29,
+     "bird": 0.958
+    }
+   ]
+  },
+  "pingro": {
+   "name": "Pine Grosbeak",
+   "sci": "Pinicola enucleator",
+   "family": "Finches, Euphonias, and Allies",
+   "reason": "all",
+   "before": "review_imgs/pingro/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64887111/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pingro/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.922,
+     "pose": 0.058,
+     "bird": 0.475
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pingro/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.911,
+     "pose": 0.12,
+     "bird": 0.288
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pingro/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.935,
+     "pose": 0.026,
+     "bird": 0.254
+    }
+   ]
+  },
+  "pitsan1": {
+   "name": "Pin-tailed Sandgrouse",
+   "sci": "Pterocles alchata",
+   "family": "Sandgrouse",
+   "reason": "all",
+   "before": "review_imgs/pitsan1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168694491/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pitsan1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.822,
+     "pose": 0.239,
+     "bird": 0.682
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pitsan1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.843,
+     "pose": 0.091,
+     "bird": 0.439
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pitsan1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.798,
+     "pose": 0.288,
+     "bird": 0.219
+    }
+   ]
   }
  }
 }
