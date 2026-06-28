@@ -14219,6 +14219,206 @@
      "bird": 0.219
     }
    ]
+  },
+  "pomjae": {
+   "name": "Pomarine Jaeger",
+   "sci": "Stercorarius pomarinus",
+   "family": "Skuas and Jaegers",
+   "reason": "all",
+   "before": "review_imgs/pomjae/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107100071/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pomjae/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.893,
+     "pose": 0.033,
+     "bird": 0.37
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pomjae/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.898,
+     "pose": 0.018,
+     "bird": 0.279
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pomjae/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.009,
+     "bird": 0.241
+    }
+   ]
+  },
+  "purher1": {
+   "name": "Purple Heron",
+   "sci": "Ardea purpurea",
+   "family": "Herons, Egrets, and Bitterns",
+   "reason": "all",
+   "before": "review_imgs/purher1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/159812151/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/purher1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.897,
+     "pose": 0.57,
+     "bird": 0.607
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/purher1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.898,
+     "pose": 0.497,
+     "bird": 0.497
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/purher1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.897,
+     "pose": 0.454,
+     "bird": 0.137
+    }
+   ]
+  },
+  "pursan": {
+   "name": "Purple Sandpiper",
+   "sci": "Calidris maritima",
+   "family": "Sandpipers and Allies",
+   "reason": "all",
+   "before": "review_imgs/pursan/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/285293751/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pursan/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.916,
+     "pose": 0.281,
+     "bird": 0.537
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pursan/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.89,
+     "pose": 0.181,
+     "bird": 0.4
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pursan/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.885,
+     "pose": 0.21,
+     "bird": 0.129
+    }
+   ]
+  },
+  "purswa": {
+   "name": "Western Swamphen",
+   "sci": "Porphyrio porphyrio",
+   "family": null,
+   "reason": "all",
+   "before": "review_imgs/purswa/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/26423711/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/purswa/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.883,
+     "pose": 0.042,
+     "bird": 0.883
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/purswa/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.884,
+     "pose": 0.031,
+     "bird": 0.749
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/purswa/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.84,
+     "pose": 0.055,
+     "bird": 0.317
+    }
+   ]
+  },
+  "pygcor2": {
+   "name": "Pygmy Cormorant",
+   "sci": "Microcarbo pygmaeus",
+   "family": "Cormorants and Shags",
+   "reason": "all",
+   "before": "review_imgs/pygcor2/before.png",
+   "ref": "review_imgs/pygcor2/ref.jpg",
+   "ref_source": "inaturalist",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/pygcor2/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.852,
+     "pose": 0.314,
+     "bird": 0.345
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/pygcor2/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.826,
+     "pose": 0.492,
+     "bird": 0.147
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pygcor2/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.809,
+     "pose": 0.436,
+     "bird": 0.055
+    }
+   ]
   }
  }
 }
