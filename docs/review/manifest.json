@@ -14483,206 +14483,166 @@
    "name": "Red-throated Loon",
    "sci": "Gavia stellata",
    "family": "Loons",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/retloo/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107460531/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slender diver; breeding adult has a soft grey head and neck with a brick-red throat patch and fine black-and-white striping down the hindneck. Plain grey-brown back, thin uptilted dark bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/retloo/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.777,
-     "pose": 0.231,
-     "bird": 0.897
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.756,
+     "pose": 0.3,
+     "bird": 0.891
     },
     {
      "id": "v1",
      "img": "review_imgs/retloo/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.736,
-     "pose": 0.265,
-     "bird": 0.94
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/retloo/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.77,
-     "pose": 0.29,
-     "bird": 0.762
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.768,
+     "pose": 0.301,
+     "bird": 0.843
     }
    ],
-   "id": "Slender diver; breeding adult has a soft grey head and neck with a brick-red throat patch and fine black-and-white striping down the hindneck. Plain grey-brown back, thin uptilted dark bill, dark legs."
+   "reviewed": false
   },
   "retpip": {
    "name": "Red-throated Pipit",
    "sci": "Anthus cervinus",
    "family": "Wagtails and Pipits",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/retpip/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204585981/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Streaky pipit with heavily dark-streaked olive-brown upperparts and whitish underparts streaked on breast and flanks. Diagnostic brick-red wash on the face, throat and supercilium. Thin pinkish bill, pale pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/retpip/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.855,
-     "pose": 0.152,
-     "bird": 0.801
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.854,
+     "pose": 0.126,
+     "bird": 0.749
     },
     {
      "id": "v1",
      "img": "review_imgs/retpip/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.83,
-     "pose": 0.108,
-     "bird": 0.8
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/retpip/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.85,
-     "pose": 0.04,
-     "bird": 0.61
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.782,
+     "pose": 0.058,
+     "bird": 0.861
     }
    ],
-   "id": "Streaky pipit with heavily dark-streaked olive-brown upperparts and whitish underparts streaked on breast and flanks. Diagnostic brick-red wash on the face, throat and supercilium. Thin pinkish bill, pale pinkish legs."
+   "reviewed": false
   },
   "ricpip1": {
    "name": "Richard's Pipit",
    "sci": "Anthus richardi",
    "family": "Wagtails and Pipits",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/ricpip1/before.png",
    "ref": "review_imgs/ricpip1/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large long-legged pipit; warm buff-brown above with bold dark streaking, pale buff breast with fine dark streaks, whitish belly. Long pale supercilium, stout pale-based bill, very long pinkish legs and long hind claw.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ricpip1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.916,
-     "pose": 0.336,
-     "bird": 0.629
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.904,
+     "pose": 0.254,
+     "bird": 0.504
     },
     {
      "id": "v1",
      "img": "review_imgs/ricpip1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.897,
-     "pose": 0.315,
-     "bird": 0.513
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/ricpip1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.9,
-     "pose": 0.265,
-     "bird": 0.499
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.891,
+     "pose": 0.202,
+     "bird": 0.289
     }
    ],
-   "id": "Large long-legged pipit; warm buff-brown above with bold dark streaking, pale buff breast with fine dark streaks, whitish belly. Long pale supercilium, stout pale-based bill, very long pinkish legs and long hind claw."
+   "reviewed": false
   },
   "rinduc": {
    "name": "Ring-necked Duck",
    "sci": "Aythya collaris",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rinduc/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/215033981/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Diving duck; male glossy black head with a faint purple sheen, black breast and back, pale grey flanks with a white spur near the breast. Grey bill with a white ring near the black tip, peaked crown, yellow eye.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rinduc/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.736,
-     "pose": 0.07,
-     "bird": 0.828
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.764,
+     "pose": 0.062,
+     "bird": 0.735
     },
     {
      "id": "v1",
      "img": "review_imgs/rinduc/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.714,
-     "pose": 0.084,
-     "bird": 0.552
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rinduc/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.656,
-     "pose": 0.045,
-     "bird": 0.596
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.752,
+     "pose": 0.068,
+     "bird": 0.71
     }
    ],
-   "id": "Diving duck; male glossy black head with a faint purple sheen, black breast and back, pale grey flanks with a white spur near the breast. Grey bill with a white ring near the black tip, peaked crown, yellow eye."
+   "reviewed": false
   },
   "rinouz1": {
    "name": "Ring Ouzel",
    "sci": "Turdus torquatus",
    "family": "Thrushes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/rinouz1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204438961/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Thrush-like blackbird; male sooty-black with a bold white crescent breast band and pale-scaled belly. Wings show frosty pale feather edges, yellowish dark-tipped bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rinouz1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.914,
-     "pose": 0.146,
-     "bird": 0.568
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.911,
+     "pose": 0.145,
+     "bird": 0.589
     },
     {
      "id": "v1",
      "img": "review_imgs/rinouz1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.906,
-     "pose": 0.144,
-     "bird": 0.476
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rinouz1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.888,
-     "pose": 0.145,
-     "bird": 0.313
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.904,
+     "pose": 0.174,
+     "bird": 0.508
     }
    ],
-   "id": "Thrush-like blackbird; male sooty-black with a bold white crescent breast band and pale-scaled belly. Wings show frosty pale feather edges, yellowish dark-tipped bill, dark legs."
+   "reviewed": false
   },
   "rinphe1": {
    "name": "Ring-necked Pheasant",
