@@ -8810,206 +8810,211 @@
    "name": "Dovekie",
    "sci": "Alle alle",
    "family": null,
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/doveki/before.png",
    "ref": "review_imgs/doveki/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Very small chubby auk, black above and white below, with a tiny stubby black bill, a black head and breast, white belly and short neck; tubby compact shape with dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/doveki/v0.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.86,
-     "pose": 0.18,
-     "bird": 0.758
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.853,
+     "pose": 0.042,
+     "bird": 0.487
     },
     {
      "id": "v1",
      "img": "review_imgs/doveki/v1.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.832,
-     "pose": 0.035,
-     "bird": 0.203
+     "sim": 0.863,
+     "pose": 0.116,
+     "bird": 0.39
     },
     {
      "id": "v2",
      "img": "review_imgs/doveki/v2.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.862,
-     "pose": 0.046,
-     "bird": 0.131
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.835,
+     "pose": 0.019,
+     "bird": 0.058
     }
    ],
-   "id": "Very small chubby auk, black above and white below, with a tiny stubby black bill, a black head and breast, white belly and short neck; tubby compact shape with dark legs."
+   "reviewed": false
   },
   "dunlin": {
    "name": "Dunlin",
    "sci": "Calidris alpina",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/dunlin/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/228228211/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small wader with a black belly patch in breeding plumage, a rufous-and-black scaled back, streaked whitish breast, a slightly down-curved black bill, black legs and a faint white wing-bar; hunched posture. Bill clearly fine and slightly down-curved; plumage cold-toned with little buff.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/dunlin/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.81,
-     "pose": 0.459,
-     "bird": 0.896
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.79,
+     "pose": 0.445,
+     "bird": 0.668
     },
     {
      "id": "v1",
      "img": "review_imgs/dunlin/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.765,
-     "pose": 0.313,
-     "bird": 0.883
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.776,
+     "pose": 0.067,
+     "bird": 0.823
     },
     {
      "id": "v2",
      "img": "review_imgs/dunlin/v2.png",
-     "seed": 1006,
+     "seed": 1011,
      "strength": 0.68,
-     "sim": 0.775,
-     "pose": 0.072,
-     "bird": 0.777
+     "sim": 0.758,
+     "pose": 0.179,
+     "bird": 0.67
     }
    ],
-   "id": "Small wader with a black belly patch in breeding plumage, a rufous-and-black scaled back, streaked whitish breast, a slightly down-curved black bill, black legs and a faint white wing-bar; hunched posture. Bill clearly fine and slightly down-curved; plumage cold-toned with little buff."
+   "reviewed": false
   },
   "duswar": {
    "name": "Dusky Warbler",
    "sci": "Phylloscopus fuscatus",
    "family": "Leaf Warblers",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/duswar/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/496987621/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small plain dark warbler, dull grey-brown above and buffish-white below with buff flanks, a long buff supercilium, a dark eyestripe, a fine dark bill and dark legs; lacks any wing-bars. Underparts and flanks warmer and buffier.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/duswar/v0.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.878,
-     "pose": 0.159,
-     "bird": 0.713
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.913,
+     "pose": 0.18,
+     "bird": 0.523
     },
     {
      "id": "v1",
      "img": "review_imgs/duswar/v1.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.897,
-     "pose": 0.069,
-     "bird": 0.656
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.902,
+     "pose": 0.312,
+     "bird": 0.331
     },
     {
      "id": "v2",
      "img": "review_imgs/duswar/v2.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.915,
-     "pose": 0.131,
-     "bird": 0.305
+     "sim": 0.91,
+     "pose": 0.165,
+     "bird": 0.441
     }
    ],
-   "id": "Small plain dark warbler, dull grey-brown above and buffish-white below with buff flanks, a long buff supercilium, a dark eyestripe, a fine dark bill and dark legs; lacks any wing-bars. Underparts and flanks warmer and buffier."
+   "reviewed": false
   },
   "eabwar1": {
    "name": "Eastern Bonelli's Warbler",
    "sci": "Phylloscopus orientalis",
    "family": "Leaf Warblers",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/eabwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/148211591/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small pale leaf-warbler, greenish-grey above with a yellowish-green rump and wing-panel, plain whitish underparts, a plain face with a faint pale eye-ring, a pale lower mandible and dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eabwar1/v0.png",
-     "seed": 1005,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.78,
-     "pose": 0.048,
-     "bird": 0.915
+     "sim": 0.775,
+     "pose": 0.113,
+     "bird": 0.637
     },
     {
      "id": "v1",
      "img": "review_imgs/eabwar1/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.782,
-     "pose": 0.164,
-     "bird": 0.478
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.756,
+     "pose": 0.14,
+     "bird": 0.648
     },
     {
      "id": "v2",
      "img": "review_imgs/eabwar1/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.789,
-     "pose": 0.065,
-     "bird": 0.209
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.762,
+     "pose": 0.085,
+     "bird": 0.049
     }
    ],
-   "id": "Small pale leaf-warbler, greenish-grey above with a yellowish-green rump and wing-panel, plain whitish underparts, a plain face with a faint pale eye-ring, a pale lower mandible and dark legs."
+   "reviewed": false
   },
   "eaowar2": {
    "name": "Eastern Orphean Warbler",
    "sci": "Curruca crassirostris",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/eaowar2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/47054451/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Largish robust Sylvia warbler, grey above with a dark grey-black hood, whitish underparts with a peach wash on the flanks, a pale staring yellow eye, a strong bill and white outer tail feathers. Plumage cold grey with no brown tones.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eaowar2/v0.png",
-     "seed": 1006,
+     "seed": 1011,
      "strength": 0.68,
-     "sim": 0.731,
-     "pose": 0.21,
-     "bird": 0.919
+     "sim": 0.756,
+     "pose": 0.309,
+     "bird": 0.78
     },
     {
      "id": "v1",
      "img": "review_imgs/eaowar2/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.734,
-     "pose": 0.469,
-     "bird": 0.618
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.764,
+     "pose": 0.448,
+     "bird": 0.517
     },
     {
      "id": "v2",
      "img": "review_imgs/eaowar2/v2.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.805,
-     "pose": 0.265,
-     "bird": 0.642
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.735,
+     "pose": 0.166,
+     "bird": 0.555
     }
    ],
-   "id": "Largish robust Sylvia warbler, grey above with a dark grey-black hood, whitish underparts with a peach wash on the flanks, a pale staring yellow eye, a strong bill and white outer tail feathers. Plumage cold grey with no brown tones."
+   "reviewed": false
   },
   "euptit1": {
    "name": "Eurasian Penduline-Tit",
