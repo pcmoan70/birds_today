@@ -10747,165 +10747,133 @@
    "name": "Lesser Spotted Eagle",
    "sci": "Clanga pomarina",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/leseag1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35864181/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium brown eagle with fairly uniform pale greyish-brown plumage, slightly darker flight feathers and a paler head and upperwing coverts. Yellow cere and feet, dark hooked bill, dark eye. Broad rounded wings, short tail; rather plain plumage.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/leseag1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.824,
-     "pose": 0.023,
-     "bird": 0.789
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.781,
+     "pose": 0.035,
+     "bird": 0.741
     },
     {
      "id": "v1",
      "img": "review_imgs/leseag1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.802,
-     "pose": 0.015,
-     "bird": 0.82
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/leseag1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.784,
-     "pose": 0.034,
-     "bird": 0.685
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.807,
+     "pose": 0.064,
+     "bird": 0.553
     }
    ],
-   "id": "Medium brown eagle with fairly uniform pale greyish-brown plumage, slightly darker flight feathers and a paler head and upperwing coverts. Yellow cere and feet, dark hooked bill, dark eye. Broad rounded wings, short tail; rather plain plumage."
+   "reviewed": false
   },
   "leskes1": {
    "name": "Lesser Kestrel",
    "sci": "Falco naumanni",
    "family": "Falcons and Caracaras",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/leskes1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/37731891/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small slender falcon; male has an unmarked brick-red back, blue-grey head, blue-grey greater coverts on the wing, and pinkish-buff underparts lightly spotted. Blue-grey tail with black band. Pale (whitish) claws, yellow cere and feet, short hooked bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/leskes1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.655,
-     "pose": 0.312,
-     "bird": 0.963
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.845,
+     "pose": 0.281,
+     "bird": 0.917
     },
     {
      "id": "v1",
      "img": "review_imgs/leskes1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.703,
-     "pose": 0.464,
-     "bird": 0.633
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/leskes1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.693,
-     "pose": 0.223,
-     "bird": 0.677
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.833,
+     "pose": 0.268,
+     "bird": 0.728
     }
    ],
-   "id": "Small slender falcon; male has an unmarked brick-red back, blue-grey head, blue-grey greater coverts on the wing, and pinkish-buff underparts lightly spotted. Blue-grey tail with black band. Pale (whitish) claws, yellow cere and feet, short hooked bill."
+   "reviewed": false
   },
   "leswhi4": {
    "name": "Lesser Whitethroat",
    "sci": "Curruca curruca",
    "family": null,
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/leswhi4/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/212053331/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small grey-and-white warbler with a grey crown, darker grey ear-coverts (mask-like), greyish-brown back, and clean white underparts. White throat, dark legs, short blackish bill. Compact and neat; the contrasting dark cheek patch is distinctive.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/leswhi4/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.897,
-     "pose": 0.111,
-     "bird": 0.685
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.911,
+     "pose": 0.249,
+     "bird": 0.694
     },
     {
      "id": "v1",
      "img": "review_imgs/leswhi4/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.161,
-     "bird": 0.525
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/leswhi4/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.912,
-     "pose": 0.165,
-     "bird": 0.18
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.906,
+     "pose": 0.18,
+     "bird": 0.431
     }
    ],
-   "id": "Small grey-and-white warbler with a grey crown, darker grey ear-coverts (mask-like), greyish-brown back, and clean white underparts. White throat, dark legs, short blackish bill. Compact and neat; the contrasting dark cheek patch is distinctive."
+   "reviewed": false
   },
   "lesyel": {
    "name": "Lesser Yellowlegs",
    "sci": "Tringa flavipes",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/lesyel/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/230771471/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim elegant wader with greyish-brown back finely spotted white, streaked neck and breast, white belly, and a square white rump. Long bright yellow legs, a straight thin dark bill about head-length. Slender neck, fine proportions.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lesyel/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.889,
-     "pose": 0.263,
-     "bird": 0.525
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.893,
+     "pose": 0.257,
+     "bird": 0.619
     },
     {
      "id": "v1",
      "img": "review_imgs/lesyel/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.838,
-     "pose": 0.202,
-     "bird": 0.236
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/lesyel/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.847,
-     "pose": 0.222,
-     "bird": 0.129
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.865,
+     "pose": 0.273,
+     "bird": 0.588
     }
    ],
-   "id": "Slim elegant wader with greyish-brown back finely spotted white, streaked neck and breast, white belly, and a square white rump. Long bright yellow legs, a straight thin dark bill about head-length. Slender neck, fine proportions."
+   "reviewed": false
   },
   "levspa1": {
    "name": "Levant Sparrowhawk",
@@ -10943,24 +10911,25 @@
    "name": "Levaillant's Woodpecker",
    "sci": "Picus vaillantii",
    "family": "Woodpeckers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/levwoo1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63741731/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Green woodpecker with yellowish-green back, pale grey-green underparts faintly barred on the belly, and a greyish face. Red crown extends to the nape; black moustache. Greenish-yellow rump, dark-tipped bill, greyish legs. Long stout grey bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/levwoo1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.779,
-     "pose": 0.417,
-     "bird": 0.705
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.711,
+     "pose": 0.284,
+     "bird": 0.841
     }
    ],
-   "id": "Green woodpecker with yellowish-green back, pale grey-green underparts faintly barred on the belly, and a greyish face. Red crown extends to the nape; black moustache. Greenish-yellow rump, dark-tipped bill, greyish legs. Long stout grey bill."
+   "reviewed": false
   },
   "lirplo": {
    "name": "Little Ringed Plover",
