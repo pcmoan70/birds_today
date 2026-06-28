@@ -15,7 +15,8 @@
     <h1>AI Image Review</h1>
     <span class="spacer"></span>
     <span id="count" class="muted"></span>
-    <button id="export" title="Download your selections as choices.json">Export choices</button>
+    <span id="progress" class="muted"></span>
+    <button id="export" title="Download the feedback you've given so far as choices.json">Export feedback</button>
     <a class="muted back" href="index.html">← Back to app</a>
   </header>
 
@@ -23,9 +24,12 @@
     Each row is a species. <strong>Current</strong> is the live image;
     <strong>Photo</strong> is the reference it was generated from. The remaining
     tiles are AI alternatives (v0 is the auto-pick). Click a tile to choose the
-    one you prefer. Use <em>⚐ flag photo</em> if the reference is bad,
-    <em>None good enough</em> if no variant works, and the text box to leave a
-    note. Then <em>Export choices</em> and send me the file — I'll act on it.
+    one you prefer. Mark <em>👍 Satisfied</em> when it's good, <em>None good
+    enough</em> if no variant works, <em>⚐ flag photo</em> if the reference is
+    bad; edit the <em>field marks</em> prompt to steer the next regeneration,
+    and use the text box for a note. <em>Export feedback</em> downloads only the
+    species you've touched so far — your place on the page is remembered, so you
+    can export partway and pick up later. Send me the file and I'll act on it.
   </p>
 
   <div id="grid"></div>

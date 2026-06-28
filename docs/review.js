@@ -6,14 +6,47 @@
  * scripts/apply_choices.py turns into the live images. */
 (function () {
   var KEY = "birdReviewChoices";   // {code: variantId}
-  var MKEY = "birdReviewMeta";     // {code: {badRef, noneGood, note}}
+  var MKEY = "birdReviewMeta";     // {code: {badRef, noneGood, satisfied, idEdit, note}}
+  var SKEY = "birdReviewScroll";   // last scroll position (px)
   var choices = {}, meta = {};
   try { choices = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
   try { meta = JSON.parse(localStorage.getItem(MKEY) || "{}"); } catch (e) {}
 
-  function save() { localStorage.setItem(KEY, JSON.stringify(choices)); }
-  function saveMeta() { localStorage.setItem(MKEY, JSON.stringify(meta)); }
+  function save() { localStorage.setItem(KEY, JSON.stringify(choices)); updateProgress(); }
+  function saveMeta() { localStorage.setItem(MKEY, JSON.stringify(meta)); updateProgress(); }
   function m(code) { return meta[code] || (meta[code] = {}); }
+
+  // A species is "touched" once the user picks a variant or sets any flag/note/
+  // prompt edit — i.e. has actually given feedback on it.
+  function hasMeta(code) {
+    var mm = meta[code];
+    return !!(mm && (mm.badRef || mm.noneGood || mm.satisfied || mm.note ||
+                     typeof mm.idEdit === "string"));
+  }
+  function touched(code) {
+    return Object.prototype.hasOwnProperty.call(choices, code) || hasMeta(code);
+  }
+  function updateProgress() {
+    var data = window.__review || { species: {} };
+    var n = Object.keys(data.species).filter(touched).length;
+    var el = document.getElementById("progress");
+    if (el) el.textContent = n ? "· " + n + " with feedback" : "";
+  }
+
+  // Remember the user's place on the long page so they can export partway and
+  // resume later. Tile heights are fixed in CSS, so the layout is stable and
+  // the saved offset lands on the same species after a reload.
+  var scrollTimer;
+  window.addEventListener("scroll", function () {
+    clearTimeout(scrollTimer);
+    scrollTimer = setTimeout(function () {
+      try { localStorage.setItem(SKEY, String(Math.round(window.scrollY))); } catch (e) {}
+    }, 200);
+  });
+  function restoreScroll() {
+    var y = parseInt(localStorage.getItem(SKEY) || "0", 10);
+    if (y > 0) window.scrollTo(0, y);
+  }
 
   function tile(cls, img, label, sub, onclick) {
     var d = document.createElement("div");
@@ -171,7 +204,14 @@
     // apply_choices.py reads both.
     var data = window.__review || { species: {} };
     var out = {};
-    Object.keys(data.species).forEach(function (code) {
+    // Only export species the user has actually given feedback on, so a partial
+    // download (and the apply that follows) doesn't mark the whole list reviewed.
+    var codes = Object.keys(data.species).filter(touched);
+    if (!codes.length) {
+      alert("No feedback to export yet — pick a variant or set a flag first.");
+      return;
+    }
+    codes.forEach(function (code) {
       var choice = choices[code] || data.species[code].chosen || "v0";
       var mm = meta[code] || {};
       var origId = (data.species[code].id || "").trim();
@@ -196,6 +236,9 @@
 
   fetch("review/manifest.json?_=" + Date.now())
     .then(function (r) { return r.json(); })
-    .then(function (d) { window.__review = d; render(d); })
+    .then(function (d) {
+      window.__review = d; render(d); updateProgress();
+      requestAnimationFrame(restoreScroll);
+    })
     .catch(function () { document.getElementById("empty").hidden = false; });
 })();
