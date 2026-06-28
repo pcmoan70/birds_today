@@ -9693,7 +9693,7 @@
    "name": "Gray-headed Woodpecker",
    "sci": "Picus canus",
    "family": "Woodpeckers",
-   "reason": "pick-keep-regen2",
+   "reason": "badref",
    "before": "review_imgs/gyfwoo1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/656957834/320",
    "ref_source": "whobird",
@@ -9704,20 +9704,29 @@
     {
      "id": "v0",
      "img": "review_imgs/gyfwoo1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.899,
-     "pose": 0.247,
-     "bird": 0.661
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.898,
+     "pose": 0.318,
+     "bird": 0.549
     },
     {
      "id": "v1",
      "img": "review_imgs/gyfwoo1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.892,
-     "pose": 0.265,
-     "bird": 0.491
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.896,
+     "pose": 0.256,
+     "bird": 0.512
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gyfwoo1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.878,
+     "pose": 0.199,
+     "bird": 0.582
     }
    ],
    "reviewed": false
@@ -9965,42 +9974,34 @@
    "name": "Common Hoopoe",
    "sci": "Upupa epops",
    "family": "Hoopoes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/hoopoe/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/40358641/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Pinkish-cinnamon body with a bold black-and-white barred back, wings and tail. Erectile fan crest is cinnamon tipped black-and-white. Long thin slightly down-curved blackish bill, short greyish legs. Broad rounded wings boldly barred black and white.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/hoopoe/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.188,
-     "bird": 0.754
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.905,
+     "pose": 0.38,
+     "bird": 0.513
     },
     {
      "id": "v1",
      "img": "review_imgs/hoopoe/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.882,
-     "pose": 0.241,
-     "bird": 0.541
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/hoopoe/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.896,
-     "pose": 0.186,
-     "bird": 0.556
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.876,
+     "pose": 0.402,
+     "bird": 0.425
     }
    ],
-   "id": "Pinkish-cinnamon body with a bold black-and-white barred back, wings and tail. Erectile fan crest is cinnamon tipped black-and-white. Long thin slightly down-curved blackish bill, short greyish legs. Broad rounded wings boldly barred black and white."
+   "reviewed": false
   },
   "horgre": {
    "name": "Horned Grebe",
@@ -10509,42 +10510,43 @@
    "name": "Bearded Vulture",
    "sci": "Gypaetus barbatus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/lammer1/before.png",
    "ref": "review_imgs/lammer1/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Huge slender vulture with a small head; pale creamy-orange head, neck and underparts contrasting with dark slate-grey wings and back. Black mask and bristly 'beard' below the bill, red eye-ring. Long narrow pointed wings and long wedge-shaped tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lammer1/v0.png",
-     "seed": 1000,
+     "seed": 1010,
      "strength": 0.6,
-     "sim": 0.832,
-     "pose": 0.465,
-     "bird": 0.605
+     "sim": 0.847,
+     "pose": 0.442,
+     "bird": 0.531
     },
     {
      "id": "v1",
      "img": "review_imgs/lammer1/v1.png",
-     "seed": 1002,
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.771,
-     "pose": 0.181,
-     "bird": 0.826
+     "sim": 0.809,
+     "pose": 0.355,
+     "bird": 0.691
     },
     {
      "id": "v2",
      "img": "review_imgs/lammer1/v2.png",
-     "seed": 1001,
+     "seed": 1011,
      "strength": 0.68,
-     "sim": 0.811,
-     "pose": 0.302,
-     "bird": 0.458
+     "sim": 0.795,
+     "pose": 0.372,
+     "bird": 0.53
     }
    ],
-   "id": "Huge slender vulture with a small head; pale creamy-orange head, neck and underparts contrasting with dark slate-grey wings and back. Black mask and bristly 'beard' below the bill, red eye-ring. Long narrow pointed wings and long wedge-shaped tail."
+   "reviewed": false
   },
   "lanwar": {
    "name": "Lanceolated Warbler",
@@ -11200,24 +11202,25 @@
    "name": "Barolo Shearwater",
    "sci": "Puffinus baroli",
    "family": "Shearwaters and Petrels",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/litshe1/before.png",
    "ref": "review_imgs/litshe1/ref.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small black-and-white shearwater with blackish upperparts and clean white underparts, white face extending above the eye, and white undertail-coverts. Thin dark bill, bluish legs. Compact, fast-fluttering build; black-capped appearance with white surrounds.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/litshe1/v0.png",
-     "seed": 1002,
+     "seed": 1012,
      "strength": 0.74,
-     "sim": 0.679,
-     "pose": 0.305,
-     "bird": 0.346
+     "sim": 0.67,
+     "pose": 0.242,
+     "bird": 0.941
     }
    ],
-   "id": "Small black-and-white shearwater with blackish upperparts and clean white underparts, white face extending above the eye, and white undertail-coverts. Thin dark bill, bluish legs. Compact, fast-fluttering build; black-capped appearance with white surrounds."
+   "reviewed": false
   },
   "litsti": {
    "name": "Little Stint",
@@ -11760,42 +11763,34 @@
    "name": "Marmora's Warbler",
    "sci": "Curruca sarda",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "badref",
    "before": "review_imgs/marwar1/before.png",
    "ref": "review_imgs/marwar1/ref.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small slim uniformly slate-grey warbler, slightly paler below, with a red orbital eye-ring, dark legs, and a long graduated dark tail often cocked; reddish iris and fine dark bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/marwar1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.837,
-     "pose": 0.173,
-     "bird": 0.77
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.823,
+     "pose": 0.164,
+     "bird": 0.747
     },
     {
      "id": "v1",
      "img": "review_imgs/marwar1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.849,
-     "pose": 0.263,
-     "bird": 0.449
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/marwar1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
+     "seed": 1012,
+     "strength": 0.74,
      "sim": 0.812,
-     "pose": 0.097,
-     "bird": 0.567
+     "pose": 0.149,
+     "bird": 0.19
     }
    ],
-   "id": "Small slim uniformly slate-grey warbler, slightly paler below, with a red orbital eye-ring, dark legs, and a long graduated dark tail often cocked; reddish iris and fine dark bill."
+   "reviewed": false
   },
   "marwar3": {
    "name": "Marsh Warbler",
