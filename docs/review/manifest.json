@@ -11288,188 +11288,166 @@
    "name": "Long-billed Dowitcher",
    "sci": "Limnodromus scolopaceus",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/lobdow/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107456791/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium snipe-like wader with greyish-brown upperparts (rufous-edged in breeding), reddish underparts barred on flanks, and a very long straight dark bill. White wedge up the back, greenish legs. Stocky body, short neck; sewing-machine feeding profile.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lobdow/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.888,
-     "pose": 0.259,
-     "bird": 0.721
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.914,
+     "pose": 0.389,
+     "bird": 0.651
     },
     {
      "id": "v1",
      "img": "review_imgs/lobdow/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.903,
-     "pose": 0.388,
-     "bird": 0.558
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/lobdow/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.888,
-     "pose": 0.179,
-     "bird": 0.587
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.883,
+     "pose": 0.144,
+     "bird": 0.416
     }
    ],
-   "id": "Medium snipe-like wader with greyish-brown upperparts (rufous-edged in breeding), reddish underparts barred on flanks, and a very long straight dark bill. White wedge up the back, greenish legs. Stocky body, short neck; sewing-machine feeding profile."
+   "reviewed": false
   },
   "loeowl": {
    "name": "Long-eared Owl",
    "sci": "Asio otus",
    "family": "Typical Owls",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/loeowl/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/83848141/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim upright owl with mottled grey-brown plumage, vertically streaked underparts, long close-set ear-tufts, and a rusty-orange facial disc with bright orange eyes. Dark X-pattern across the face. Hooked dark bill, feathered legs. Slender, elongated shape.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/loeowl/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.741,
-     "pose": 0.669,
-     "bird": 0.733
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.759,
+     "pose": 0.378,
+     "bird": 0.876
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/loeowl/v1.png",
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.707,
+     "pose": 0.444,
+     "bird": 0.359
     }
    ],
-   "id": "Slim upright owl with mottled grey-brown plumage, vertically streaked underparts, long close-set ear-tufts, and a rusty-orange facial disc with bright orange eyes. Dark X-pattern across the face. Hooked dark bill, feathered legs. Slender, elongated shape."
+   "reviewed": false
   },
   "lolbuz1": {
    "name": "Long-legged Buzzard",
    "sci": "Buteo rufinus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/lolbuz1/before.png",
    "ref": "review_imgs/lolbuz1/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large pale buzzard with a sandy-buff head and breast, rufous-tinged underparts, an unmarked pale rusty tail, and dark belly patch. Pale wings with dark wingtips and a dark carpal patch. Yellow cere and feet, hooked dark bill. Long-winged, lanky build.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lolbuz1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.893,
-     "pose": 0.535,
-     "bird": 0.888
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.931,
+     "pose": 0.575,
+     "bird": 0.695
     },
     {
      "id": "v1",
      "img": "review_imgs/lolbuz1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.874,
-     "pose": 0.418,
-     "bird": 0.921
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/lolbuz1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.916,
-     "pose": 0.458,
-     "bird": 0.643
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.914,
+     "pose": 0.623,
+     "bird": 0.605
     }
    ],
-   "id": "Large pale buzzard with a sandy-buff head and breast, rufous-tinged underparts, an unmarked pale rusty tail, and dark belly patch. Pale wings with dark wingtips and a dark carpal patch. Yellow cere and feet, hooked dark bill. Long-winged, lanky build."
+   "reviewed": false
   },
   "lotduc": {
    "name": "Long-tailed Duck",
    "sci": "Clangula hyemalis",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/lotduc/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299883551/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small sea-duck; breeding male is dark brown and white with a white face patch around the eye, dark cheek-patch, and very long slender pointed black tail-streamers. Pink band across the dark bill, blackish breast, white flanks. Compact, round-headed.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lotduc/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
+     "seed": 3006,
+     "strength": 0.7,
      "sim": 0.759,
-     "pose": 0.05,
-     "bird": 0.505
+     "pose": 0.044,
+     "bird": 0.724
     },
     {
      "id": "v1",
      "img": "review_imgs/lotduc/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.767,
-     "pose": 0.009,
-     "bird": 0.345
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/lotduc/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
+     "seed": 3005,
+     "strength": 0.62,
      "sim": 0.787,
-     "pose": 0.098,
-     "bird": 0.178
+     "pose": 0.023,
+     "bird": 0.562
     }
    ],
-   "id": "Small sea-duck; breeding male is dark brown and white with a white face patch around the eye, dark cheek-patch, and very long slender pointed black tail-streamers. Pink band across the dark bill, blackish breast, white flanks. Compact, round-headed."
+   "reviewed": false
   },
   "lotjae": {
    "name": "Long-tailed Jaeger",
    "sci": "Stercorarius longicaudus",
    "family": "Skuas and Jaegers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/lotjae/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31703181/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slender graceful skua with grey-brown upperparts, a neat black cap, pale yellowish neck-sides, and clean white breast shading to grey belly. Very long pointed central tail-streamers. Short dark bill, dark legs. Elegant, tern-like flight silhouette.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lotjae/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.763,
-     "pose": 0.025,
-     "bird": 0.894
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.782,
+     "pose": 0.017,
+     "bird": 0.913
     },
     {
      "id": "v1",
      "img": "review_imgs/lotjae/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.782,
-     "pose": 0.012,
-     "bird": 0.739
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/lotjae/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.778,
-     "pose": 0.044,
-     "bird": 0.536
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.733,
+     "pose": 0.02,
+     "bird": 0.95
     }
    ],
-   "id": "Slender graceful skua with grey-brown upperparts, a neat black cap, pale yellowish neck-sides, and clean white breast shading to grey belly. Very long pointed central tail-streamers. Short dark bill, dark legs. Elegant, tern-like flight silhouette."
+   "reviewed": false
   },
   "lottit1": {
    "name": "Long-tailed Tit",
