@@ -17792,6 +17792,206 @@
      "bird": 0.371
     }
    ]
+  },
+  "stonec4": {
+   "name": "European Stonechat",
+   "sci": "Saxicola rubicola",
+   "family": "Old World Flycatchers, Robins, and Chats",
+   "reason": "all",
+   "before": "review_imgs/stonec4/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/289140911/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/stonec4/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.935,
+     "pose": 0.239,
+     "bird": 0.68
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/stonec4/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.91,
+     "pose": 0.299,
+     "bird": 0.596
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/stonec4/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.92,
+     "pose": 0.196,
+     "bird": 0.53
+    }
+   ]
+  },
+  "subwar6": {
+   "name": "Western Subalpine Warbler",
+   "sci": "Curruca iberiae",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/subwar6/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/149647271/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/subwar6/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.871,
+     "pose": 0.195,
+     "bird": 0.545
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/subwar6/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.885,
+     "pose": 0.095,
+     "bird": 0.515
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/subwar6/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.866,
+     "pose": 0.094,
+     "bird": 0.181
+    }
+   ]
+  },
+  "subwar8": {
+   "name": "Moltoni's Warbler",
+   "sci": "Curruca subalpina",
+   "family": "Sylviid Warblers and Allies",
+   "reason": "all",
+   "before": "review_imgs/subwar8/before.png",
+   "ref": "review_imgs/subwar8/ref.jpg",
+   "ref_source": "gbif",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/subwar8/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.741,
+     "pose": 0.73,
+     "bird": 0.924
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/subwar8/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.752,
+     "pose": 0.558,
+     "bird": 0.959
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/subwar8/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.685,
+     "pose": 0.393,
+     "bird": 0.987
+    }
+   ]
+  },
+  "sursco": {
+   "name": "Surf Scoter",
+   "sci": "Melanitta perspicillata",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/sursco/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/190832741/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/sursco/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.752,
+     "pose": 0.46,
+     "bird": 0.957
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/sursco/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.715,
+     "pose": 0.271,
+     "bird": 0.908
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sursco/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.703,
+     "pose": 0.162,
+     "bird": 0.669
+    }
+   ]
+  },
+  "swagoo1": {
+   "name": "Swan Goose",
+   "sci": "Anser cygnoides",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/swagoo1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/56526941/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/swagoo1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.721,
+     "pose": 0.227,
+     "bird": 0.957
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/swagoo1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.682,
+     "pose": 0.224,
+     "bird": 0.95
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/swagoo1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.658,
+     "pose": 0.303,
+     "bird": 0.895
+    }
+   ]
   }
  }
 }

@@ -32544,7 +32544,7 @@
       ]
     },
     "faces": {
-      "stonec4/sitting_0.png": "right"
+      "stonec4/sitting_0.png": "left"
     },
     "credits": {
       "stonec4/sitting_0.png": {
@@ -32655,7 +32655,7 @@
       ]
     },
     "faces": {
-      "subwar8/sitting_0.png": "right"
+      "subwar8/sitting_0.png": "left"
     },
     "credits": {
       "subwar8/sitting_0.png": {
@@ -32720,7 +32720,7 @@
     },
     "faces": {
       "sursco/flying_0.png": "left",
-      "sursco/sitting_0.png": "right"
+      "sursco/sitting_0.png": "left"
     },
     "credits": {
       "sursco/flying_0.png": {
@@ -32790,7 +32790,7 @@
     },
     "faces": {
       "swagoo1/flying_0.png": "right",
-      "swagoo1/sitting_0.png": "right"
+      "swagoo1/sitting_0.png": "left"
     },
     "credits": {
       "swagoo1/flying_0.png": {
