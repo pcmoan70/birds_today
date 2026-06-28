@@ -31086,7 +31086,7 @@
     },
     "faces": {
       "smew/flying_0.png": "right",
-      "smew/sitting_0.png": "left"
+      "smew/sitting_0.png": "right"
     },
     "credits": {
       "smew/flying_0.png": {
@@ -31236,7 +31236,7 @@
     },
     "faces": {
       "snogoo/flying_0.png": "right",
-      "snogoo/sitting_0.png": "left"
+      "snogoo/sitting_0.png": "right"
     },
     "credits": {
       "snogoo/flying_0.png": {
@@ -31310,7 +31310,7 @@
     },
     "faces": {
       "snoowl1/flying_0.png": "left",
-      "snoowl1/sitting_0.png": "right"
+      "snoowl1/sitting_0.png": "left"
     },
     "credits": {
       "snoowl1/flying_0.png": {
@@ -31382,7 +31382,7 @@
       ]
     },
     "faces": {
-      "soclap1/sitting_0.png": "right"
+      "soclap1/sitting_0.png": "left"
     },
     "credits": {
       "soclap1/sitting_0.png": {

@@ -17001,6 +17001,206 @@
      "bird": 0.478
     }
    ]
+  },
+  "smew": {
+   "name": "Smew",
+   "sci": "Mergellus albellus",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/smew/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/197359291/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/smew/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.809,
+     "pose": 0.199,
+     "bird": 0.906
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/smew/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.793,
+     "pose": 0.148,
+     "bird": 0.96
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/smew/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.781,
+     "pose": 0.233,
+     "bird": 0.866
+    }
+   ]
+  },
+  "snobun": {
+   "name": "Snow Bunting",
+   "sci": "Plectrophenax nivalis",
+   "family": "Longspurs and Snow Buntings",
+   "reason": "all",
+   "before": "review_imgs/snobun/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63891021/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/snobun/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.934,
+     "pose": 0.207,
+     "bird": 0.931
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/snobun/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.921,
+     "pose": 0.208,
+     "bird": 0.89
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/snobun/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.925,
+     "pose": 0.156,
+     "bird": 0.844
+    }
+   ]
+  },
+  "snogoo": {
+   "name": "Snow Goose",
+   "sci": "Anser caerulescens",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/snogoo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/290513131/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/snogoo/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.947,
+     "pose": 0.388,
+     "bird": 0.99
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/snogoo/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.949,
+     "pose": 0.383,
+     "bird": 0.985
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/snogoo/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.948,
+     "pose": 0.36,
+     "bird": 0.978
+    }
+   ]
+  },
+  "snoowl1": {
+   "name": "Snowy Owl",
+   "sci": "Bubo scandiacus",
+   "family": "Typical Owls",
+   "reason": "all",
+   "before": "review_imgs/snoowl1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/106358811/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/snoowl1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.824,
+     "pose": 0.446,
+     "bird": 0.966
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/snoowl1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.786,
+     "pose": 0.419,
+     "bird": 0.902
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/snoowl1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.781,
+     "pose": 0.343,
+     "bird": 0.956
+    }
+   ]
+  },
+  "soclap1": {
+   "name": "Sociable Lapwing",
+   "sci": "Vanellus gregarius",
+   "family": "Plovers and Lapwings",
+   "reason": "all",
+   "before": "review_imgs/soclap1/before.png",
+   "ref": "review_imgs/soclap1/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/soclap1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.864,
+     "pose": 0.336,
+     "bird": 0.857
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/soclap1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.9,
+     "pose": 0.383,
+     "bird": 0.706
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/soclap1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.881,
+     "pose": 0.375,
+     "bird": 0.468
+    }
+   ]
   }
  }
 }
