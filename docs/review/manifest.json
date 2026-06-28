@@ -7729,7 +7729,7 @@
      "bird": 0.618
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "balshe1": {
    "name": "Balearic Shearwater",
@@ -9890,42 +9890,34 @@
    "name": "Hooded Crow",
    "sci": "Corvus cornix",
    "family": "Crows, Jays, and Magpies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/hoocro1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35081921/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large crow with pale ash-grey body and contrasting glossy black head, throat, wings and tail. Stout black bill, black legs. Robust build with a square tail; the grey-and-black two-tone pattern is unmistakable.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/hoocro1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.917,
-     "pose": 0.438,
-     "bird": 0.704
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.933,
+     "pose": 0.465,
+     "bird": 0.629
     },
     {
      "id": "v1",
      "img": "review_imgs/hoocro1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.933,
-     "pose": 0.389,
-     "bird": 0.541
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/hoocro1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.932,
-     "pose": 0.309,
-     "bird": 0.62
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.929,
+     "pose": 0.229,
+     "bird": 0.444
     }
    ],
-   "id": "Large crow with pale ash-grey body and contrasting glossy black head, throat, wings and tail. Stout black bill, black legs. Robust build with a square tail; the grey-and-black two-tone pattern is unmistakable."
+   "reviewed": false
   },
   "hoomer": {
    "name": "Hooded Merganser",
@@ -11912,7 +11904,8 @@
      "bird": 0.226
     }
    ],
-   "id": "Ornate drake with orange flared 'sail' feathers on the back, purple breast with white stripes, golden-buff flanks, a green-and-white crested head with broad white eye-stripe, red bill, and orange legs."
+   "id": "Ornate drake with orange flared 'sail' feathers on the back, purple breast with white stripes, golden-buff flanks, a green-and-white crested head with broad white eye-stripe, red bill, and orange legs.",
+   "reviewed": true
   },
   "manshe": {
    "name": "Manx Shearwater",
@@ -12035,7 +12028,8 @@
      "bird": 0.854
     }
    ],
-   "id": "Pale sandy-grey duck with dense whitish-buff spotting all over, a dark smudge through the eye, a shaggy nape, dark grey bill, and a slight crest; plain wings lack a bright speculum."
+   "id": "Pale sandy-grey duck with dense whitish-buff spotting all over, a dark smudge through the eye, a shaggy nape, dark grey bill, and a slight crest; plain wings lack a bright speculum.",
+   "reviewed": true
   },
   "martit2": {
    "name": "Marsh Tit",
@@ -20372,7 +20366,8 @@
      "bird": 0.205
     }
    ],
-   "id": "Large loon with a steeply angled, upturned ivory-yellow bill held slightly raised, blackish head, white-checkered black back, and white underparts. Bold black-and-white neck collar; thick neck."
+   "id": "Large loon with a steeply angled, upturned ivory-yellow bill held slightly raised, blackish head, white-checkered black back, and white underparts. Bold black-and-white neck collar; thick neck.",
+   "reviewed": true
   },
   "yebwar3": {
    "name": "Yellow-browed Warbler",
@@ -20454,7 +20449,8 @@
      "bird": 0.528
     }
    ],
-   "id": "Tiny weaver with a brilliant golden-yellow crown, nape, lower back and underparts contrasting with a black face, throat, breast band and belly. Brownish streaked wings; short conical bill; round-bodied."
+   "id": "Tiny weaver with a brilliant golden-yellow crown, nape, lower back and underparts contrasting with a black face, throat, breast band and belly. Brownish streaked wings; short conical bill; round-bodied.",
+   "reviewed": true
   },
   "yelgul1": {
    "name": "Yellow-legged Gull",
