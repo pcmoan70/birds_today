@@ -10005,206 +10005,166 @@
    "name": "Horned Grebe",
    "sci": "Podiceps auritus",
    "family": "Grebes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/horgre/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204241621/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small grebe in breeding dress: black head with golden-yellow ear-tufts fanning back from the red eye, chestnut neck and flanks, blackish back. Short straight black bill with pale tip, flat-crowned peaked head. Dark legs set far back.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/horgre/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.78,
-     "pose": 0.561,
-     "bird": 0.898
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.76,
+     "pose": 0.513,
+     "bird": 0.964
     },
     {
      "id": "v1",
      "img": "review_imgs/horgre/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.724,
-     "pose": 0.469,
-     "bird": 0.85
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/horgre/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.765,
-     "pose": 0.337,
-     "bird": 0.855
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.798,
+     "pose": 0.512,
+     "bird": 0.576
     }
    ],
-   "id": "Small grebe in breeding dress: black head with golden-yellow ear-tufts fanning back from the red eye, chestnut neck and flanks, blackish back. Short straight black bill with pale tip, flat-crowned peaked head. Dark legs set far back."
+   "reviewed": false
   },
   "horlar": {
    "name": "Horned Lark",
    "sci": "Eremophila alpestris",
    "family": "Larks",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/horlar/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63739361/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Sandy-brown lark with a striking black-and-yellow face: yellow throat and forehead, black mask and breast-band, and small black 'horn' feather tufts on the crown. Pinkish-brown back, white belly, dark tail edged white. Thin dark bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/horlar/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.883,
-     "pose": 0.229,
-     "bird": 0.854
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.91,
+     "pose": 0.17,
+     "bird": 0.654
     },
     {
      "id": "v1",
      "img": "review_imgs/horlar/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
+     "seed": 3006,
+     "strength": 0.7,
      "sim": 0.894,
-     "pose": 0.121,
-     "bird": 0.787
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/horlar/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.867,
-     "pose": 0.123,
-     "bird": 0.553
+     "pose": 0.214,
+     "bird": 0.629
     }
    ],
-   "id": "Sandy-brown lark with a striking black-and-yellow face: yellow throat and forehead, black mask and breast-band, and small black 'horn' feather tufts on the crown. Pinkish-brown back, white belly, dark tail edged white. Thin dark bill."
+   "reviewed": false
   },
   "houbun3": {
    "name": "House Bunting",
    "sci": "Emberiza sahari",
    "family": "Old World Buntings",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/houbun3/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/408958401/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small grey-headed bunting with fine blackish head streaking, rich rufous-chestnut back, wings and tail, and pale greyish underparts washed cinnamon. Short conical pinkish bill, pinkish legs. Plain face lacking strong markings; warm rusty body tones.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/houbun3/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.882,
-     "pose": 0.14,
-     "bird": 0.695
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.867,
+     "pose": 0.158,
+     "bird": 0.885
     },
     {
      "id": "v1",
      "img": "review_imgs/houbun3/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.876,
-     "pose": 0.202,
-     "bird": 0.474
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/houbun3/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.829,
-     "pose": 0.111,
-     "bird": 0.421
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.86,
+     "pose": 0.115,
+     "bird": 0.418
     }
    ],
-   "id": "Small grey-headed bunting with fine blackish head streaking, rich rufous-chestnut back, wings and tail, and pale greyish underparts washed cinnamon. Short conical pinkish bill, pinkish legs. Plain face lacking strong markings; warm rusty body tones."
+   "reviewed": false
   },
   "houspa": {
    "name": "House Sparrow",
    "sci": "Passer domesticus",
    "family": "Old World Sparrows",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/houspa/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/51357991/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Stocky sparrow; male has grey crown, chestnut-brown nape and back streaked black, grey cheeks, black bib, and pale grey underparts. White wing-bar on chestnut wings. Stout conical black bill, pinkish-brown legs. Plain whitish-buff face.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/houspa/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.878,
-     "pose": 0.182,
-     "bird": 0.857
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.847,
+     "pose": 0.229,
+     "bird": 0.959
     },
     {
      "id": "v1",
      "img": "review_imgs/houspa/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.852,
-     "pose": 0.17,
-     "bird": 0.912
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/houspa/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.855,
-     "pose": 0.154,
-     "bird": 0.837
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.866,
+     "pose": 0.197,
+     "bird": 0.81
     }
    ],
-   "id": "Stocky sparrow; male has grey crown, chestnut-brown nape and back streaked black, grey cheeks, black bib, and pale grey underparts. White wing-bar on chestnut wings. Stout conical black bill, pinkish-brown legs. Plain whitish-buff face."
+   "reviewed": false
   },
   "humwar1": {
    "name": "Hume's Warbler",
    "sci": "Phylloscopus humei",
    "family": "Leaf Warblers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/humwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/130100681/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny dull olive-grey warbler with whitish underparts, a long buff supercilium, dark eyestripe, and a single narrow pale wing-bar. Greyish crown with faint paler median stripe. Thin dark bill with pale base, dark legs. Compact, short-tailed.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/humwar1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.924,
-     "pose": 0.157,
-     "bird": 0.57
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.905,
+     "pose": 0.089,
+     "bird": 0.503
     },
     {
      "id": "v1",
      "img": "review_imgs/humwar1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.881,
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.926,
      "pose": 0.115,
-     "bird": 0.173
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/humwar1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.866,
-     "pose": 0.093,
-     "bird": 0.113
+     "bird": 0.275
     }
    ],
-   "id": "Tiny dull olive-grey warbler with whitish underparts, a long buff supercilium, dark eyestripe, and a single narrow pale wing-bar. Greyish crown with faint paler median stripe. Thin dark bill with pale base, dark legs. Compact, short-tailed."
+   "reviewed": false
   },
   "ibechi2": {
    "name": "Iberian Chiffchaff",
