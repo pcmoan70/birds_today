@@ -13264,206 +13264,166 @@
    "name": "Parrot Crossbill",
    "sci": "Loxia pytyopsittacus",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/parcro2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/109633091/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Bulky crossbill with a very large deep parrot-like crossed bill; male brick-red overall with browner wings, paler belly and rump, a thick neck and large head, and dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/parcro2/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.865,
-     "pose": 0.065,
-     "bird": 0.605
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.864,
+     "pose": 0.082,
+     "bird": 0.36
     },
     {
      "id": "v1",
      "img": "review_imgs/parcro2/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.875,
-     "pose": 0.057,
-     "bird": 0.447
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/parcro2/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.873,
-     "pose": 0.026,
-     "bird": 0.289
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.891,
+     "pose": 0.041,
+     "bird": 0.31
     }
    ],
-   "id": "Bulky crossbill with a very large deep parrot-like crossed bill; male brick-red overall with browner wings, paler belly and rump, a thick neck and large head, and dark legs."
+   "reviewed": false
   },
   "parjae": {
    "name": "Parasitic Jaeger",
    "sci": "Stercorarius parasiticus",
    "family": "Skuas and Jaegers",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/parjae/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64787191/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim dark-and-pale seabird with pointed central tail feathers projecting; pale-morph adult has a dark cap, yellowish neck, white underparts with a faint breast-band, dark upperparts, white wing flashes, and a small bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/parjae/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.906,
-     "pose": 0.019,
-     "bird": 0.755
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.928,
+     "pose": 0.048,
+     "bird": 0.742
     },
     {
      "id": "v1",
      "img": "review_imgs/parjae/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.917,
-     "pose": 0.035,
-     "bird": 0.691
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/parjae/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.904,
-     "pose": 0.035,
-     "bird": 0.591
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.899,
+     "pose": 0.036,
+     "bird": 0.706
     }
    ],
-   "id": "Slim dark-and-pale seabird with pointed central tail feathers projecting; pale-morph adult has a dark cap, yellowish neck, white underparts with a faint breast-band, dark upperparts, white wing flashes, and a small bill."
+   "reviewed": false
   },
   "pecsan": {
    "name": "Pectoral Sandpiper",
    "sci": "Calidris melanotos",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/pecsan/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31723701/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium sandpiper with brown scaly upperparts and a sharply demarcated, densely streaked buff breast ending in a clean line against white belly. Faint pale supercilium, slightly drooping dark bill with paler base, and dull yellow-green legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/pecsan/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.943,
-     "pose": 0.423,
-     "bird": 0.782
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.949,
+     "pose": 0.306,
+     "bird": 0.551
     },
     {
      "id": "v1",
      "img": "review_imgs/pecsan/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.93,
-     "pose": 0.256,
-     "bird": 0.839
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/pecsan/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.934,
-     "pose": 0.181,
-     "bird": 0.497
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.932,
+     "pose": 0.223,
+     "bird": 0.636
     }
    ],
-   "id": "Medium sandpiper with brown scaly upperparts and a sharply demarcated, densely streaked buff breast ending in a clean line against white belly. Faint pale supercilium, slightly drooping dark bill with paler base, and dull yellow-green legs."
+   "reviewed": false
   },
   "perfal": {
    "name": "Peregrine Falcon",
    "sci": "Falco peregrinus",
    "family": "Falcons and Caracaras",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/perfal/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/288347741/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Powerful falcon with slate blue-grey back and wings, pale whitish underparts finely barred grey-black, and a distinctive dark hooded head with broad black moustachial sausage on white cheeks. Yellow cere and eye-ring, yellow feet, dark hooked bill, pointed wings.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/perfal/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.933,
-     "pose": 0.678,
-     "bird": 0.848
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.929,
+     "pose": 0.768,
+     "bird": 0.871
     },
     {
      "id": "v1",
      "img": "review_imgs/perfal/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.935,
-     "pose": 0.68,
-     "bird": 0.836
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/perfal/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.924,
-     "pose": 0.684,
-     "bird": 0.765
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.93,
+     "pose": 0.67,
+     "bird": 0.868
     }
    ],
-   "id": "Powerful falcon with slate blue-grey back and wings, pale whitish underparts finely barred grey-black, and a distinctive dark hooded head with broad black moustachial sausage on white cheeks. Yellow cere and eye-ring, yellow feet, dark hooked bill, pointed wings."
+   "reviewed": false
   },
   "pieavo1": {
    "name": "Pied Avocet",
    "sci": "Recurvirostra avosetta",
    "family": "Stilts and Avocets",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/pieavo1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43400121/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Elegant white wader boldly patterned with black cap, nape and wing bars on the white body. Long slender upturned black bill, long bluish-grey legs, and a graceful slim-necked shape.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/pieavo1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.884,
-     "pose": 0.094,
-     "bird": 0.949
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.905,
+     "pose": 0.116,
+     "bird": 0.923
     },
     {
      "id": "v1",
      "img": "review_imgs/pieavo1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.873,
-     "pose": 0.071,
-     "bird": 0.947
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/pieavo1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.865,
-     "pose": 0.089,
-     "bird": 0.929
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.896,
+     "pose": 0.135,
+     "bird": 0.851
     }
    ],
-   "id": "Elegant white wader boldly patterned with black cap, nape and wing bars on the white body. Long slender upturned black bill, long bluish-grey legs, and a graceful slim-necked shape."
+   "reviewed": false
   },
   "piekin1": {
    "name": "Pied Kingfisher",
