@@ -9098,29 +9098,29 @@
     {
      "id": "v0",
      "img": "review_imgs/eurjay1/v0.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.901,
-     "pose": 0.106,
-     "bird": 0.861
+     "sim": 0.898,
+     "pose": 0.138,
+     "bird": 0.833
     },
     {
      "id": "v1",
      "img": "review_imgs/eurjay1/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.9,
-     "pose": 0.053,
-     "bird": 0.816
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.864,
+     "pose": 0.085,
+     "bird": 0.925
     },
     {
      "id": "v2",
      "img": "review_imgs/eurjay1/v2.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.892,
-     "pose": 0.052,
-     "bird": 0.634
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.874,
+     "pose": 0.067,
+     "bird": 0.895
     }
    ],
    "reviewed": false
@@ -9140,29 +9140,29 @@
     {
      "id": "v0",
      "img": "review_imgs/eurnig1/v0.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.823,
-     "pose": 0.033,
-     "bird": 0.532
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.8,
+     "pose": 0.211,
+     "bird": 0.639
     },
     {
      "id": "v1",
      "img": "review_imgs/eurnig1/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.851,
-     "pose": 0.117,
-     "bird": 0.128
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.808,
+     "pose": 0.126,
+     "bird": 0.426
     },
     {
      "id": "v2",
      "img": "review_imgs/eurnig1/v2.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.784,
-     "pose": 0.046,
-     "bird": 0.254
+     "sim": 0.822,
+     "pose": 0.022,
+     "bird": 0.477
     }
    ],
    "reviewed": false
@@ -9182,29 +9182,29 @@
     {
      "id": "v0",
      "img": "review_imgs/eursco1/v0.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.84,
-     "pose": 0.343,
-     "bird": 0.646
+     "sim": 0.859,
+     "pose": 0.255,
+     "bird": 0.468
     },
     {
      "id": "v1",
      "img": "review_imgs/eursco1/v1.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.845,
-     "pose": 0.501,
-     "bird": 0.405
+     "sim": 0.848,
+     "pose": 0.386,
+     "bird": 0.354
     },
     {
      "id": "v2",
      "img": "review_imgs/eursco1/v2.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.868,
-     "pose": 0.322,
-     "bird": 0.376
+     "sim": 0.855,
+     "pose": 0.278,
+     "bird": 0.254
     }
    ],
    "reviewed": false
@@ -9224,29 +9224,29 @@
     {
      "id": "v0",
      "img": "review_imgs/eurspa1/v0.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.857,
-     "pose": 0.018,
-     "bird": 0.662
+     "sim": 0.865,
+     "pose": 0.07,
+     "bird": 0.885
     },
     {
      "id": "v1",
      "img": "review_imgs/eurspa1/v1.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.861,
-     "pose": 0.022,
-     "bird": 0.572
+     "sim": 0.848,
+     "pose": 0.042,
+     "bird": 0.78
     },
     {
      "id": "v2",
      "img": "review_imgs/eurspa1/v2.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.801,
-     "pose": 0.022,
-     "bird": 0.648
+     "sim": 0.856,
+     "pose": 0.054,
+     "bird": 0.589
     }
    ],
    "reviewed": false
@@ -9354,7 +9354,7 @@
    "name": "Great Reed Warbler",
    "sci": "Acrocephalus arundinaceus",
    "family": "Reed Warblers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/grrwar1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42407361/320",
    "ref_source": "whobird",
@@ -9365,20 +9365,29 @@
     {
      "id": "v0",
      "img": "review_imgs/grrwar1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.835,
-     "pose": 0.43,
-     "bird": 0.763
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.795,
+     "pose": 0.182,
+     "bird": 0.753
     },
     {
      "id": "v1",
      "img": "review_imgs/grrwar1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.829,
-     "pose": 0.391,
-     "bird": 0.674
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.722,
+     "pose": 0.245,
+     "bird": 0.435
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grrwar1/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.769,
+     "pose": 0.335,
+     "bird": 0.218
     }
    ],
    "reviewed": false
