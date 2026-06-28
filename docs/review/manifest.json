@@ -11273,6 +11273,188 @@
      "bird": 0.576
     }
    ]
+  },
+  "levwoo1": {
+   "name": "Levaillant's Woodpecker",
+   "sci": "Picus vaillantii",
+   "family": "Woodpeckers",
+   "reason": "all",
+   "before": "review_imgs/levwoo1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63741731/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/levwoo1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.779,
+     "pose": 0.417,
+     "bird": 0.705
+    }
+   ]
+  },
+  "lirplo": {
+   "name": "Little Ringed Plover",
+   "sci": "Thinornis dubius",
+   "family": "Plovers and Lapwings",
+   "reason": "all",
+   "before": "review_imgs/lirplo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66209651/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/lirplo/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.9,
+     "pose": 0.361,
+     "bird": 0.473
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/lirplo/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.89,
+     "pose": 0.174,
+     "bird": 0.581
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lirplo/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.882,
+     "pose": 0.252,
+     "bird": 0.384
+    }
+   ]
+  },
+  "litbit1": {
+   "name": "Little Bittern",
+   "sci": "Botaurus minutus",
+   "family": "Herons, Egrets, and Bitterns",
+   "reason": "all",
+   "before": "review_imgs/litbit1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43255821/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/litbit1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.91,
+     "pose": 0.347,
+     "bird": 0.763
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litbit1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.933,
+     "pose": 0.361,
+     "bird": 0.596
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litbit1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.903,
+     "pose": 0.32,
+     "bird": 0.689
+    }
+   ]
+  },
+  "litbun": {
+   "name": "Little Bunting",
+   "sci": "Emberiza pusilla",
+   "family": "Old World Buntings",
+   "reason": "all",
+   "before": "review_imgs/litbun/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43162991/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/litbun/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.9,
+     "pose": 0.265,
+     "bird": 0.36
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litbun/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.913,
+     "pose": 0.171,
+     "bird": 0.404
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litbun/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.902,
+     "pose": 0.176,
+     "bird": 0.304
+    }
+   ]
+  },
+  "litcra1": {
+   "name": "Little Crake",
+   "sci": "Zapornia parva",
+   "family": "Rails, Gallinules, and Coots",
+   "reason": "all",
+   "before": "review_imgs/litcra1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64286061/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/litcra1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.762,
+     "pose": 0.121,
+     "bird": 0.432
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litcra1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.701,
+     "pose": 0.258,
+     "bird": 0.292
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litcra1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.771,
+     "pose": 0.065,
+     "bird": 0.166
+    }
+   ]
   }
  }
 }
