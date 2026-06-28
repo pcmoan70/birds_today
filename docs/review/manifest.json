@@ -15401,6 +15401,206 @@
      "bird": 0.61
     }
    ]
+  },
+  "ricpip1": {
+   "name": "Richard's Pipit",
+   "sci": "Anthus richardi",
+   "family": "Wagtails and Pipits",
+   "reason": "all",
+   "before": "review_imgs/ricpip1/before.png",
+   "ref": "review_imgs/ricpip1/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ricpip1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.916,
+     "pose": 0.336,
+     "bird": 0.629
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ricpip1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.897,
+     "pose": 0.315,
+     "bird": 0.513
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ricpip1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.9,
+     "pose": 0.265,
+     "bird": 0.499
+    }
+   ]
+  },
+  "rinduc": {
+   "name": "Ring-necked Duck",
+   "sci": "Aythya collaris",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/rinduc/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/215033981/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rinduc/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.736,
+     "pose": 0.07,
+     "bird": 0.828
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rinduc/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.714,
+     "pose": 0.084,
+     "bird": 0.552
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rinduc/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.656,
+     "pose": 0.045,
+     "bird": 0.596
+    }
+   ]
+  },
+  "rinouz1": {
+   "name": "Ring Ouzel",
+   "sci": "Turdus torquatus",
+   "family": "Thrushes",
+   "reason": "all",
+   "before": "review_imgs/rinouz1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204438961/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rinouz1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.914,
+     "pose": 0.146,
+     "bird": 0.568
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rinouz1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.906,
+     "pose": 0.144,
+     "bird": 0.476
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rinouz1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.888,
+     "pose": 0.145,
+     "bird": 0.313
+    }
+   ]
+  },
+  "rinphe1": {
+   "name": "Ring-necked Pheasant",
+   "sci": "Phasianus colchicus",
+   "family": "Pheasants, Grouse, and Allies",
+   "reason": "all",
+   "before": "review_imgs/rinphe1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/125602631/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rinphe1/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.867,
+     "pose": 0.179,
+     "bird": 0.913
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rinphe1/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.854,
+     "pose": 0.279,
+     "bird": 0.603
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rinphe1/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.838,
+     "pose": 0.224,
+     "bird": 0.548
+    }
+   ]
+  },
+  "rintea1": {
+   "name": "Ringed Teal",
+   "sci": "Callonetta leucophrys",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "all",
+   "before": "review_imgs/rintea1/before.png",
+   "ref": "review_imgs/rintea1/ref.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/rintea1/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.906,
+     "pose": 0.306,
+     "bird": 0.922
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/rintea1/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.892,
+     "pose": 0.408,
+     "bird": 0.833
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rintea1/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.907,
+     "pose": 0.185,
+     "bird": 0.92
+    }
+   ]
   }
  }
 }
