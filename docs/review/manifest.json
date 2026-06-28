@@ -7919,20 +7919,20 @@
     {
      "id": "v0",
      "img": "review_imgs/bripet/v0.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.813,
-     "pose": 0.024,
-     "bird": 0.526
+     "seed": 3021,
+     "strength": 0.7,
+     "sim": 0.805,
+     "pose": 0.044,
+     "bird": 0.652
     },
     {
      "id": "v1",
      "img": "review_imgs/bripet/v1.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.765,
-     "pose": 0.019,
-     "bird": 0.56
+     "seed": 3020,
+     "strength": 0.62,
+     "sim": 0.813,
+     "pose": 0.021,
+     "bird": 0.607
     }
    ],
    "reviewed": false
@@ -7952,29 +7952,29 @@
     {
      "id": "v0",
      "img": "review_imgs/cirbun1/v0.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.866,
-     "pose": 0.23,
-     "bird": 0.442
+     "sim": 0.853,
+     "pose": 0.247,
+     "bird": 0.533
     },
     {
      "id": "v1",
      "img": "review_imgs/cirbun1/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.156,
-     "bird": 0.339
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.902,
+     "pose": 0.199,
+     "bird": 0.05
     },
     {
      "id": "v2",
      "img": "review_imgs/cirbun1/v2.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.899,
-     "pose": 0.217,
-     "bird": 0.215
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.912,
+     "pose": 0.16,
+     "bird": 0.035
     }
    ],
    "reviewed": false
@@ -8027,29 +8027,29 @@
     {
      "id": "v0",
      "img": "review_imgs/colfly1/v0.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.849,
-     "pose": 0.379,
-     "bird": 0.788
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.855,
+     "pose": 0.315,
+     "bird": 0.787
     },
     {
      "id": "v1",
      "img": "review_imgs/colfly1/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.861,
-     "pose": 0.318,
-     "bird": 0.797
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.841,
+     "pose": 0.303,
+     "bird": 0.814
     },
     {
      "id": "v2",
      "img": "review_imgs/colfly1/v2.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.846,
-     "pose": 0.272,
-     "bird": 0.655
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.861,
+     "pose": 0.211,
+     "bird": 0.813
     }
    ],
    "reviewed": false
@@ -8102,29 +8102,29 @@
     {
      "id": "v0",
      "img": "review_imgs/comchi1/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.789,
-     "pose": 0.072,
-     "bird": 0.81
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.755,
+     "pose": 0.079,
+     "bird": 0.754
     },
     {
      "id": "v1",
      "img": "review_imgs/comchi1/v1.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.805,
-     "pose": 0.064,
-     "bird": 0.696
+     "sim": 0.813,
+     "pose": 0.078,
+     "bird": 0.638
     },
     {
      "id": "v2",
      "img": "review_imgs/comchi1/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.755,
-     "pose": 0.174,
-     "bird": 0.321
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.765,
+     "pose": 0.092,
+     "bird": 0.711
     }
    ],
    "reviewed": false
@@ -8177,29 +8177,29 @@
     {
      "id": "v0",
      "img": "review_imgs/comeid/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.808,
-     "pose": 0.226,
-     "bird": 0.95
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.794,
+     "pose": 0.135,
+     "bird": 0.903
     },
     {
      "id": "v1",
      "img": "review_imgs/comeid/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.802,
-     "pose": 0.207,
-     "bird": 0.892
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.768,
+     "pose": 0.091,
+     "bird": 0.919
     },
     {
      "id": "v2",
      "img": "review_imgs/comeid/v2.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.836,
-     "pose": 0.195,
-     "bird": 0.83
+     "sim": 0.79,
+     "pose": 0.088,
+     "bird": 0.841
     }
    ],
    "reviewed": false
