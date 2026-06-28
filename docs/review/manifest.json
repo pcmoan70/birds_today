@@ -20192,6 +20192,206 @@
      "bird": 0.67
     }
    ]
+  },
+  "y00743": {
+   "name": "Carrion Crow",
+   "sci": "Corvus corone",
+   "family": "Crows, Jays, and Magpies",
+   "reason": "all",
+   "before": "review_imgs/y00743/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/219759311/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/y00743/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.897,
+     "pose": 0.155,
+     "bird": 0.426
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/y00743/v1.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.886,
+     "pose": 0.188,
+     "bird": 0.413
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/y00743/v2.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.88,
+     "pose": 0.199,
+     "bird": 0.209
+    }
+   ]
+  },
+  "yebcho1": {
+   "name": "Yellow-billed Chough",
+   "sci": "Pyrrhocorax graculus",
+   "family": "Crows, Jays, and Magpies",
+   "reason": "all",
+   "before": "review_imgs/yebcho1/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/193203211/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/yebcho1/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.924,
+     "pose": 0.211,
+     "bird": 0.572
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/yebcho1/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.894,
+     "pose": 0.188,
+     "bird": 0.511
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/yebcho1/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.908,
+     "pose": 0.151,
+     "bird": 0.358
+    }
+   ]
+  },
+  "yebloo": {
+   "name": "Yellow-billed Loon",
+   "sci": "Gavia adamsii",
+   "family": "Loons",
+   "reason": "all",
+   "before": "review_imgs/yebloo/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242495381/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/yebloo/v0.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.76,
+     "pose": 0.376,
+     "bird": 0.539
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/yebloo/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.732,
+     "pose": 0.412,
+     "bird": 0.551
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/yebloo/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.725,
+     "pose": 0.327,
+     "bird": 0.205
+    }
+   ]
+  },
+  "yebwar3": {
+   "name": "Yellow-browed Warbler",
+   "sci": "Phylloscopus inornatus",
+   "family": "Leaf Warblers",
+   "reason": "all",
+   "before": "review_imgs/yebwar3/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63573451/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/yebwar3/v0.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.914,
+     "pose": 0.121,
+     "bird": 0.424
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/yebwar3/v1.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.912,
+     "pose": 0.104,
+     "bird": 0.437
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/yebwar3/v2.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.876,
+     "pose": 0.099,
+     "bird": 0.5
+    }
+   ]
+  },
+  "yecbis": {
+   "name": "Yellow-crowned Bishop",
+   "sci": "Euplectes afer",
+   "family": "Weavers and Allies",
+   "reason": "all",
+   "before": "review_imgs/yecbis/before.png",
+   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/83138121/320",
+   "ref_source": "whobird",
+   "recipe": "v4-macaulay-id",
+   "chosen": "v0",
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/yecbis/v0.png",
+     "seed": 1000,
+     "strength": 0.6,
+     "sim": 0.889,
+     "pose": 0.172,
+     "bird": 0.86
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/yecbis/v1.png",
+     "seed": 1002,
+     "strength": 0.74,
+     "sim": 0.899,
+     "pose": 0.184,
+     "bird": 0.655
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/yecbis/v2.png",
+     "seed": 1001,
+     "strength": 0.68,
+     "sim": 0.898,
+     "pose": 0.234,
+     "bird": 0.528
+    }
+   ]
   }
  }
 }
