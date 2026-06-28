@@ -11453,42 +11453,34 @@
    "name": "Long-tailed Tit",
    "sci": "Aegithalos caudatus",
    "family": "Long-tailed Tits and Bushtits",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/lottit1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/424325641/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny fluffy ball-shaped tit with a very long narrow tail. Whitish head (or with black lateral crown-stripes), blackish back, pinkish scapulars and flanks, and whitish underparts. Tiny stubby black bill, dark legs. Round body, long thin tail.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lottit1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.921,
-     "pose": 0.048,
-     "bird": 0.904
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.933,
+     "pose": 0.019,
+     "bird": 0.899
     },
     {
      "id": "v1",
      "img": "review_imgs/lottit1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.895,
-     "pose": 0.036,
-     "bird": 0.776
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/lottit1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.907,
-     "pose": 0.019,
-     "bird": 0.649
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.86,
+     "pose": 0.048,
+     "bird": 0.862
     }
    ],
-   "id": "Tiny fluffy ball-shaped tit with a very long narrow tail. Whitish head (or with black lateral crown-stripes), blackish back, pinkish scapulars and flanks, and whitish underparts. Tiny stubby black bill, dark legs. Round body, long thin tail."
+   "reviewed": false
   },
   "lwfgoo": {
    "name": "Lesser White-fronted Goose",
@@ -11535,42 +11527,34 @@
    "name": "Mallard",
    "sci": "Anas platyrhynchos",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/mallar3/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63736171/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Drake has a glossy bottle-green head, white neck-ring, yellow bill, chestnut-brown breast, grey body, black rear with curled central tail feathers, and orange legs; blue speculum bordered white shows on the wing.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/mallar3/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.641,
-     "pose": 0.112,
-     "bird": 0.526
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.566,
+     "pose": 0.038,
+     "bird": 0.656
     },
     {
      "id": "v1",
      "img": "review_imgs/mallar3/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.65,
-     "pose": 0.143,
-     "bird": 0.361
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/mallar3/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.559,
-     "pose": 0.007,
-     "bird": 0.554
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.584,
+     "pose": 0.023,
+     "bird": 0.54
     }
    ],
-   "id": "Drake has a glossy bottle-green head, white neck-ring, yellow bill, chestnut-brown breast, grey body, black rear with curled central tail feathers, and orange legs; blue speculum bordered white shows on the wing."
+   "reviewed": false
   },
   "manduc": {
    "name": "Mandarin Duck",
@@ -11742,42 +11726,34 @@
    "name": "Marsh Tit",
    "sci": "Poecile palustris",
    "family": "Tits, Chickadees, and Titmice",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/martit2/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/128664871/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small plain brownish tit with a glossy black cap and small neat black bib, dull buff-white cheeks, warm brown-grey upperparts, pale buffy underparts, a short dark bill, and dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/martit2/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.9,
-     "pose": 0.223,
-     "bird": 0.865
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.908,
+     "pose": 0.219,
+     "bird": 0.914
     },
     {
      "id": "v1",
      "img": "review_imgs/martit2/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.902,
-     "pose": 0.149,
-     "bird": 0.828
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/martit2/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.9,
-     "pose": 0.111,
-     "bird": 0.781
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.878,
+     "pose": 0.202,
+     "bird": 0.931
     }
    ],
-   "id": "Small plain brownish tit with a glossy black cap and small neat black bib, dull buff-white cheeks, warm brown-grey upperparts, pale buffy underparts, a short dark bill, and dark legs."
+   "reviewed": false
   },
   "marwar1": {
    "name": "Marmora's Warbler",
@@ -11824,83 +11800,67 @@
    "name": "Marsh Warbler",
    "sci": "Acrocephalus palustris",
    "family": "Reed Warblers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/marwar3/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/344097731/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Plain unstreaked warbler with warm olive-brown upperparts, pale buff-tinged whitish underparts, a faint pale supercilium, rounded head, pinkish legs, and a fine pointed bill; very similar to Reed Warbler.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/marwar3/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.894,
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.893,
      "pose": 0.051,
-     "bird": 0.703
+     "bird": 0.854
     },
     {
      "id": "v1",
      "img": "review_imgs/marwar3/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.829,
-     "pose": 0.162,
-     "bird": 0.564
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/marwar3/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.852,
-     "pose": 0.115,
-     "bird": 0.382
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.847,
+     "pose": 0.172,
+     "bird": 0.823
     }
    ],
-   "id": "Plain unstreaked warbler with warm olive-brown upperparts, pale buff-tinged whitish underparts, a faint pale supercilium, rounded head, pinkish legs, and a fine pointed bill; very similar to Reed Warbler."
+   "reviewed": false
   },
   "masshr1": {
    "name": "Masked Shrike",
    "sci": "Lanius nubicus",
    "family": "Shrikes",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/masshr1/before.png",
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/109615951/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim long-tailed shrike with black crown, back and face mask, white forehead and large white supercilium, white throat and belly, rich orange flanks, white wing and tail patches, and a slender black bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/masshr1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.944,
-     "pose": 0.176,
-     "bird": 0.826
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.939,
+     "pose": 0.279,
+     "bird": 0.761
     },
     {
      "id": "v1",
      "img": "review_imgs/masshr1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.926,
-     "pose": 0.111,
-     "bird": 0.885
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/masshr1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.91,
-     "pose": 0.316,
-     "bird": 0.368
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.928,
+     "pose": 0.154,
+     "bird": 0.238
     }
    ],
-   "id": "Slim long-tailed shrike with black crown, back and face mask, white forehead and large white supercilium, white throat and belly, rich orange flanks, white wing and tail patches, and a slender black bill."
+   "reviewed": false
   },
   "meapip1": {
    "name": "Meadow Pipit",
