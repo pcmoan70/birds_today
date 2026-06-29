@@ -16561,7 +16561,7 @@
    "family": "Starlings",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/sposta1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/198830371/320",
+   "ref": "review_imgs/sposta1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "All-black starling with subtle oily green-purple gloss; lacks pale spotting. Long pointed yellow bill, reddish-pink legs. Shaggy throat feathers; like an unspotted Common Starling.",
@@ -16570,24 +16570,25 @@
     {
      "id": "v0",
      "img": "review_imgs/sposta1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.858,
-     "pose": 0.114,
-     "bird": 0.633
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.878,
+     "pose": 0.307,
+     "bird": 0.661
     },
     {
      "id": "v1",
      "img": "review_imgs/sposta1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.862,
-     "pose": 0.124,
-     "bird": 0.605
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.876,
+     "pose": 0.26,
+     "bird": 0.697
     }
    ],
+   "gen": 1782733359,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "spwlap1": {
    "name": "Spur-winged Lapwing",
@@ -16701,34 +16702,36 @@
    "name": "Steller's Eider",
    "sci": "Polysticta stelleri",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/steeid/before.png",
    "ref": "review_imgs/steeid/ref.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small eider; drake has white head with greenish nape tinge, black eye-patch and chin, white neck and back, rich orange-buff underparts with black spot on side. Blue-grey bill, grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/steeid/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.646,
-     "pose": 0.093,
-     "bird": 0.95
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.725,
+     "pose": 0.145,
+     "bird": 0.897
     },
     {
      "id": "v1",
      "img": "review_imgs/steeid/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.745,
-     "pose": 0.053,
-     "bird": 0.257
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.621,
+     "pose": 0.043,
+     "bird": 0.638
     }
    ],
-   "id": "Small eider; drake has white head with greenish nape tinge, black eye-patch and chin, white neck and back, rich orange-buff underparts with black spot on side. Blue-grey bill, grey legs.",
-   "pending": true
+   "gen": 1782733492,
+   "reviewed": false,
+   "pending": false
   },
   "stodov1": {
    "name": "Stock Dove",
@@ -16853,24 +16856,25 @@
     {
      "id": "v0",
      "img": "review_imgs/subwar8/v0.png",
-     "seed": 3011,
+     "seed": 3016,
      "strength": 0.7,
-     "sim": 0.702,
-     "pose": 0.514,
-     "bird": 0.954
+     "sim": 0.726,
+     "pose": 0.737,
+     "bird": 0.771
     },
     {
      "id": "v1",
      "img": "review_imgs/subwar8/v1.png",
-     "seed": 3010,
+     "seed": 3015,
      "strength": 0.62,
-     "sim": 0.704,
-     "pose": 0.452,
-     "bird": 0.951
+     "sim": 0.721,
+     "pose": 0.4,
+     "bird": 0.957
     }
    ],
+   "gen": 1782733599,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "sursco": {
    "name": "Surf Scoter",
@@ -16909,9 +16913,9 @@
    "name": "Swan Goose",
    "sci": "Anser cygnoides",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "badref",
    "before": "review_imgs/swagoo1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/56526941/320",
+   "ref": "review_imgs/swagoo1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Large long-necked goose; pale buff underparts, brown-and-buff barred upperparts, dark chocolate stripe down the back of the long neck, large black bill (often with white base ring), and orange legs.",
@@ -16920,24 +16924,34 @@
     {
      "id": "v0",
      "img": "review_imgs/swagoo1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
+     "seed": 1011,
+     "strength": 0.68,
      "sim": 0.779,
-     "pose": 0.396,
-     "bird": 0.932
+     "pose": 0.258,
+     "bird": 0.857
     },
     {
      "id": "v1",
      "img": "review_imgs/swagoo1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.755,
-     "pose": 0.164,
-     "bird": 0.824
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.758,
+     "pose": 0.153,
+     "bird": 0.826
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/swagoo1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.727,
+     "pose": 0.192,
+     "bird": 0.818
     }
    ],
+   "gen": 1782733741,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "syrwoo1": {
    "name": "Syrian Woodpecker",
@@ -18051,43 +18065,36 @@
    "name": "Eurasian Whimbrel",
    "sci": "Numenius phaeopus",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/whimbr5/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257786691/320",
+   "ref": "review_imgs/whimbr5/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large brown curlew with a long downcurved bill; brown-streaked plumage, a strongly striped crown showing a dark lateral stripe and pale central stripe, pale supercilium, and bluish-grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/whimbr5/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.898,
-     "pose": 0.36,
-     "bird": 0.676
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.869,
+     "pose": 0.371,
+     "bird": 0.633
     },
     {
      "id": "v1",
      "img": "review_imgs/whimbr5/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.285,
-     "bird": 0.732
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/whimbr5/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.882,
-     "pose": 0.287,
-     "bird": 0.369
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.873,
+     "pose": 0.163,
+     "bird": 0.446
     }
    ],
-   "id": "Large brown curlew with a long downcurved bill; brown-streaked plumage, a strongly striped crown showing a dark lateral stripe and pale central stripe, pale supercilium, and bluish-grey legs.",
-   "pending": true
+   "gen": 1782733837,
+   "reviewed": false,
+   "pending": false
   },
   "whinch1": {
    "name": "Whinchat",
