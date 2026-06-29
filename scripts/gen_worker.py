@@ -90,7 +90,8 @@ def process(job, pipe, sess, by_code, fams, ids):
         "reason": job.get("reason", ""), "before": before_rel,
         "ref": res.get("ref"), "ref_source": refsrc, "recipe": R.RECIPE,
         "id": ids.get(code, ""),
-        "chosen": None, "variants": res["variants"], "reviewed": False}
+        "chosen": None, "variants": res["variants"],
+        "reviewed": False, "pending": False}
     json.dump(review, open(R.REVIEW_MAN, "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     return True

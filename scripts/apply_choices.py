@@ -104,6 +104,9 @@ def main():
             jobs = Q.enqueue(jobs, code, kind, n_new=n_new,
                              seed_off=retry[code] * 5, refetch=badref,
                              priority=Q.FEEDBACK, reason=reason)
+            # Hide from the review list until the worker produces the new images.
+            if code in review["species"]:
+                review["species"][code]["pending"] = True
             queued += 1
 
         if satisfied:
@@ -115,6 +118,7 @@ def main():
                 kept_what = f"alternative {choice}"
             if code in review["species"]:
                 review["species"][code]["reviewed"] = True
+                review["species"][code]["pending"] = False
             jobs = [j for j in jobs if j["code"] != code]
             applied[code] = choice
             finalized += 1

@@ -80,7 +80,9 @@
     var codes = Object.keys(data.species || {}).filter(function (c) {
       var s = data.species[c];
       if (c === hashCode) return true;   // always show a deep-linked species
-      return (s.recipe || "").indexOf("v4") === 0 && !s.reviewed;
+      // Hide reviewed (finalized) species and ones awaiting regeneration
+      // (pending) — the latter return once their new images are ready.
+      return (s.recipe || "").indexOf("v4") === 0 && !s.reviewed && !s.pending;
     });
     document.getElementById("count").textContent = codes.length + " species";
     if (!codes.length) { document.getElementById("empty").hidden = false; return; }
