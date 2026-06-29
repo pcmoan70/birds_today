@@ -12590,9 +12590,10 @@
    "name": "Monk Parakeet",
    "sci": "Myiopsitta monachus",
    "family": "New World and African Parrots",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/monpar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/47263051/320",
+   "ref": "review_imgs/monpar1/ref.jpg",
+   "photo": "review_imgs/monpar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Bright green parakeet with a pale grey forehead, cheeks and scaly-grey breast, green crown and back, blue-tinged flight feathers, a long green tail, a pinkish-horn hooked bill, and grey legs.",
@@ -12601,25 +12602,25 @@
     {
      "id": "v0",
      "img": "review_imgs/monpar1/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.911,
-     "pose": 0.422,
-     "bird": 0.84
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.896,
+     "pose": 0.134,
+     "bird": 0.738
     },
     {
      "id": "v1",
      "img": "review_imgs/monpar1/v1.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.897,
-     "pose": 0.151,
-     "bird": 0.9
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.909,
+     "pose": 0.138,
+     "bird": 0.633
     }
    ],
+   "gen": 1782771887,
    "reviewed": false,
-   "photo": "review_imgs/monpar1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "mouchi2": {
    "name": "Mountain Chiffchaff",
@@ -12739,9 +12740,10 @@
    "name": "Mourning Wheatear",
    "sci": "Oenanthe lugens",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/mouwhe2/before.png",
    "ref": "review_imgs/mouwhe2/ref.jpg",
+   "photo": "review_imgs/mouwhe2/photo.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
    "id": "Pied wheatear; black face, throat, wings and back contrasting sharply with white crown, nape and underparts, buff-tinged vent, and a white rump with black inverted-T tail pattern; black bill and legs.",
@@ -12750,25 +12752,25 @@
     {
      "id": "v0",
      "img": "review_imgs/mouwhe2/v0.png",
-     "seed": 3010,
+     "seed": 3015,
      "strength": 0.62,
-     "sim": 0.951,
-     "pose": 0.312,
-     "bird": 0.852
+     "sim": 0.935,
+     "pose": 0.234,
+     "bird": 0.91
     },
     {
      "id": "v1",
      "img": "review_imgs/mouwhe2/v1.png",
-     "seed": 3011,
+     "seed": 3016,
      "strength": 0.7,
-     "sim": 0.929,
-     "pose": 0.255,
-     "bird": 0.828
+     "sim": 0.935,
+     "pose": 0.19,
+     "bird": 0.866
     }
    ],
+   "gen": 1782771982,
    "reviewed": false,
-   "photo": "review_imgs/mouwhe2/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "mstlar1": {
    "name": "Mediterranean Short-toed Lark",
@@ -12809,9 +12811,10 @@
    "name": "Muscovy Duck",
    "sci": "Cairina moschata",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/musduc/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204580681/320",
+   "ref": "review_imgs/musduc/ref.jpg",
+   "photo": "review_imgs/musduc/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Large heavy blackish duck with glossy greenish-black plumage, bold white wing patches, and extensive red warty bare skin (caruncles) around the face and bill base; dark legs, broad body, short legs.",
@@ -12820,25 +12823,16 @@
     {
      "id": "v0",
      "img": "review_imgs/musduc/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.734,
-     "pose": 0.016,
-     "bird": 0.926
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/musduc/v1.png",
-     "seed": 3011,
+     "seed": 3016,
      "strength": 0.7,
-     "sim": 0.742,
-     "pose": 0.116,
-     "bird": 0.595
+     "sim": 0.775,
+     "pose": 0.178,
+     "bird": 0.802
     }
    ],
+   "gen": 1782772165,
    "reviewed": false,
-   "photo": "review_imgs/musduc/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "mutswa": {
    "name": "Mute Swan",
@@ -12923,71 +12917,82 @@
    "name": "Northern Hawk Owl",
    "sci": "Surnia ulula",
    "family": "Typical Owls",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/nohowl/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/195003601/320",
+   "ref": "review_imgs/nohowl/ref.jpg",
+   "photo": "review_imgs/nohowl/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Medium hawk-like owl with a long tail, brown-and-white finely barred underparts, white-spotted brown upperparts, a pale facial disc bordered by bold black sideburns, yellow eyes, and a yellowish bill.",
+   "id": "Medium hawk-like owl with a long tail, brown-and-white finely barred underparts, white-spotted brown upperparts, a pale facial disc bordered by bold black sideburns, yellow eyes, and a yellowish bill. Emphasise: eyes with softer, less heavy dark framing.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/nohowl/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.908,
-     "pose": 0.387,
-     "bird": 0.496
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.905,
+     "pose": 0.426,
+     "bird": 0.649
     },
     {
      "id": "v1",
      "img": "review_imgs/nohowl/v1.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.912,
-     "pose": 0.313,
-     "bird": 0.303
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.9,
+     "pose": 0.177,
+     "bird": 0.184
     }
    ],
+   "gen": 1782772261,
    "reviewed": false,
-   "photo": "review_imgs/nohowl/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "norful": {
    "name": "Northern Fulmar",
    "sci": "Fulmarus glacialis",
    "family": "Shearwaters and Petrels",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/norful/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/142378071/320",
+   "ref": "review_imgs/norful/ref.jpg",
+   "photo": "review_imgs/norful/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Stocky grey-and-white gull-like tubenose with a pale grey back and wings, white head and underparts, a thick neck, dark eye-smudge, and a short stout yellowish bill with prominent tube-nostrils.",
+   "id": "Stocky grey-and-white gull-like tubenose with a pale grey back and wings, white head and underparts, a thick neck, dark eye-smudge, and a short stout yellowish bill with prominent tube-nostrils. Emphasise: a thick bill with prominent tubular nostrils on top.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norful/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.926,
-     "pose": 0.018,
-     "bird": 0.927
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.796,
+     "pose": 0.118,
+     "bird": 0.968
     },
     {
      "id": "v1",
      "img": "review_imgs/norful/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.918,
-     "pose": 0.022,
-     "bird": 0.7
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.755,
+     "pose": 0.103,
+     "bird": 0.99
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norful/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.715,
+     "pose": 0.134,
+     "bird": 0.969
     }
    ],
+   "gen": 1782772394,
    "reviewed": false,
-   "photo": "review_imgs/norful/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "norgan": {
    "name": "Northern Gannet",
@@ -19984,13 +19989,6 @@
   "marwar1",
   "masshr1",
   "mewgul",
-  "monhar1",
-  "monpar1",
-  "mouwhe2",
-  "mstlar1",
-  "musduc",
-  "nohowl",
-  "norful",
   "norgos1",
   "norhar1",
   "norlap",
