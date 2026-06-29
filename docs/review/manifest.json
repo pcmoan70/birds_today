@@ -7240,7 +7240,7 @@
    "name": "Great Bustard",
    "sci": "Otis tarda",
    "family": "Bustards",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/grebus1/before.png",
    "ref": "review_imgs/grebus1/ref.jpg",
    "ref_source": "wikimedia",
@@ -7251,24 +7251,33 @@
     {
      "id": "v0",
      "img": "review_imgs/grebus1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.804,
-     "pose": 0.184,
-     "bird": 0.853
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.843,
+     "pose": 0.403,
+     "bird": 0.952
     },
     {
      "id": "v1",
      "img": "review_imgs/grebus1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.804,
-     "pose": 0.055,
-     "bird": 0.601
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.824,
+     "pose": 0.379,
+     "bird": 0.868
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grebus1/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.835,
+     "pose": 0.295,
+     "bird": 0.734
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "grecor": {
    "name": "Great Cormorant",
@@ -7406,7 +7415,7 @@
    "name": "Great Shearwater",
    "sci": "Ardenna gravis",
    "family": "Shearwaters and Petrels",
-   "reason": "pick-keep-regen2",
+   "reason": "badref",
    "before": "review_imgs/greshe/before.png",
    "ref": "review_imgs/greshe/ref.jpg",
    "ref_source": "wikimedia",
@@ -7417,24 +7426,33 @@
     {
      "id": "v0",
      "img": "review_imgs/greshe/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.884,
-     "pose": 0.285,
-     "bird": 0.934
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.769,
+     "pose": 0.732,
+     "bird": 0.908
     },
     {
      "id": "v1",
      "img": "review_imgs/greshe/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.89,
-     "pose": 0.372,
-     "bird": 0.803
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.7,
+     "pose": 0.506,
+     "bird": 0.756
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/greshe/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.688,
+     "pose": 0.311,
+     "bird": 0.847
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "gresku1": {
    "name": "Great Skua",
@@ -7451,24 +7469,24 @@
     {
      "id": "v0",
      "img": "review_imgs/gresku1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.876,
-     "pose": 0.354,
-     "bird": 0.472
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.873,
+     "pose": 0.309,
+     "bird": 0.402
     },
     {
      "id": "v1",
      "img": "review_imgs/gresku1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.88,
-     "pose": 0.354,
-     "bird": 0.436
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.822,
+     "pose": 0.069,
+     "bird": 0.474
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "gresni1": {
    "name": "Great Snipe",
@@ -7485,24 +7503,24 @@
     {
      "id": "v0",
      "img": "review_imgs/gresni1/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.904,
-     "pose": 0.29,
-     "bird": 0.39
+     "sim": 0.777,
+     "pose": 0.268,
+     "bird": 0.107
     },
     {
      "id": "v1",
      "img": "review_imgs/gresni1/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.874,
-     "pose": 0.231,
-     "bird": 0.433
+     "sim": 0.757,
+     "pose": 0.097,
+     "bird": 0.118
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "gretit1": {
    "name": "Great Tit",
@@ -7574,7 +7592,7 @@
    "name": "Greater Whitethroat",
    "sci": "Curruca communis",
    "family": "Sylviid Warblers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/grewhi1/before.png",
    "ref": "review_imgs/grewhi1/ref.jpg",
    "ref_source": "whobird",
@@ -7585,24 +7603,33 @@
     {
      "id": "v0",
      "img": "review_imgs/grewhi1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.889,
-     "pose": 0.149,
-     "bird": 0.835
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.883,
+     "pose": 0.307,
+     "bird": 0.659
     },
     {
      "id": "v1",
      "img": "review_imgs/grewhi1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.898,
-     "pose": 0.153,
-     "bird": 0.752
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.842,
+     "pose": 0.172,
+     "bird": 0.856
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grewhi1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.824,
+     "pose": 0.113,
+     "bird": 0.652
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "grgowl": {
    "name": "Great Gray Owl",
