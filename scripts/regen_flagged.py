@@ -280,11 +280,14 @@ def best_ref(sp, code, sess):
     return s[8], s[7]   # (path, source)
 
 
-def _center_square(im, size):
-    w, h = im.size
-    s = min(w, h)
-    im = im.crop(((w - s) // 2, (h - s) // 2, (w - s) // 2 + s, (h - s) // 2 + s))
-    return im.resize((size, size), Image.LANCZOS)
+def _fit_square(im, size):
+    """Letterbox the WHOLE image onto a white square — never crops, so no tail
+    or beak sticking out of a centre square is lost."""
+    im = im.convert("RGB").copy()
+    im.thumbnail((size, size), Image.LANCZOS)
+    sq = Image.new("RGB", (size, size), (255, 255, 255))
+    sq.paste(im, ((size - im.width) // 2, (size - im.height) // 2))
+    return sq
 
 
 def prep_init(ref_path, sess, size=1024, frame=0):
@@ -294,26 +297,29 @@ def prep_init(ref_path, sess, size=1024, frame=0):
     large and central (so the final matte never culls it as too small) and
     removes distracting backgrounds that pull colour/shape off.
 
+    The bird is NEVER cropped: the isolate path pastes the full cutout onto a
+    larger white square, and the whole-photo path letterboxes (pads, not crops)
+    so tails and beaks at the edges are kept.
+
     `frame` cycles the framing so re-flagging a "bad photo" that is really just a
-    bad crop yields a genuinely different model input (rather than re-cropping a
-    good photo identically):
-      0 -> isolate the bird, tight 1.18x margin (default)
-      1 -> isolate the bird, looser 1.5x margin (keeps edge parts like feet/tail)
-      2 -> no isolation: a centre square crop of the whole photo as-is
-    Frame 2 (and any isolation failure) falls back to the centre-square crop."""
+    bad crop yields a genuinely different model input:
+      0 -> isolate the bird, 1.3x margin (default)
+      1 -> isolate the bird, looser 1.6x margin (more breathing room)
+      2 -> no isolation: the whole photo letterboxed onto a white square
+    Frame 2 (and any isolation failure) letterboxes the whole photo."""
     im = Image.open(ref_path).convert("RGB")
     if frame % 3 != 2:
         try:
             ci = cut.cut_pil(im, sess, 900)  # RGBA, cropped tight to the bird
             if ci is not None:
-                margin = 1.18 if frame % 3 == 0 else 1.5
+                margin = 1.3 if frame % 3 == 0 else 1.6
                 side = int(max(ci.size) * margin)
                 sq = Image.new("RGBA", (side, side), (255, 255, 255, 255))
                 sq.paste(ci, ((side - ci.width) // 2, (side - ci.height) // 2), ci)
                 return sq.convert("RGB").resize((size, size), Image.LANCZOS)
         except Exception:
             pass
-    return _center_square(im, size)
+    return _fit_square(im, size)
 
 
 VARIANTS = [(1000, 0.60), (1001, 0.68), (1002, 0.74)]
