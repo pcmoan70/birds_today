@@ -56,6 +56,7 @@ body {
   background: #fff; cursor: pointer; position: relative; text-align: center;
 }
 .tile.photo, .tile.input, .tile.before { cursor: default; background: #f0ece2; }
+.tile.sel { cursor: pointer; }   /* Current (live), Model input and alternatives are choosable */
 .tile img {
   width: 100%; height: 130px; object-fit: contain; display: block;
   background: #fff; border-radius: 6px;
@@ -70,19 +71,18 @@ body {
 .tile.chosen .pick { opacity: 1; }
 .sep { width: 1px; align-self: stretch; background: #ddd5c2; margin: 0 2px; }
 
-/* Verdict toggles ("Satisfied" / "None good enough") in the card header */
+/* Single verdict toggle in the card header: unset → Satisfied → Not good enough */
 .head .flag {
   font: inherit; font-size: 12px; cursor: pointer;
   color: var(--muted); background: #fff; border: 1px solid #d9d2c0;
   border-radius: 999px; padding: 4px 12px;
 }
-.head .flag.sat { margin-left: auto; }
-.head .flag.none { margin-left: 6px; }
-.head .flag:hover { background: #f3efe6; }
-.head .flag.sat.on {
+.head .flag.verdict { margin-left: auto; }
+.head .flag:hover { filter: brightness(0.98); }
+.head .flag.verdict.sat {
   background: var(--accent); border-color: var(--accent); color: #fff;
 }
-.head .flag.none.on {
+.head .flag.verdict.none {
   background: #9a5b4a; border-color: #9a5b4a; color: #fff;
 }
 
@@ -98,10 +98,6 @@ body {
 .tile.photo .reff.on { background: #9a5b4a; border-color: #9a5b4a; color: #fff; }
 .tile.photo.badref { border-color: #9a5b4a; box-shadow: 0 0 0 2px rgba(154,91,74,0.25); }
 .tile.photo.badref img { filter: grayscale(.7) brightness(.92); }
-
-/* When "none good enough" is set, fade the variant tiles */
-.tiles.disabled .tile.var { opacity: .4; }
-.tiles.disabled .tile.var.chosen { opacity: .55; }
 
 /* Per-species feedback box */
 .card .note {

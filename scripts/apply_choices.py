@@ -1,23 +1,25 @@
 """Apply choices.json from the review page to the live images + generation queue.
 
-choices.json maps each species code to either:
-  - a variant id string, e.g. {"comchi1": "v2"}, or
-  - an object {"choice": "v2", "badRef": true, "noneGood": true,
-               "satisfied": true, "id": "...", "note": "..."}.
+choices.json maps each species code to an object:
+  {"choice": "live"|"input"|"v0"|…, "verdict": "satisfied"|"notgood",
+   "badRef": true, "id": "...", "note": "..."}
+where `choice` is the reviewer's preferred image (the Current live image, the
+Model input — a regeneration seed only, never published — or an AI alternative).
 
-Iterative-review semantics (no variant is auto-selected):
-  - satisfied        -> finalize: keep the chosen variant live, mark reviewed,
-                        drop the species off the review page. No regeneration.
-  - none good enough -> keep the current live image; queue a full re-gen (3 fresh
-                        variants). Stays on the page.
-  - pick a variant   -> keep it as the new live "champion"; queue 2 fresh
-                        challenger suggestions next to it. Stays on the page.
+Binary-verdict semantics (no image is auto-selected):
+  - satisfied -> finalize: an alternative pick is published as the new live
+                 image; "live"/"input"/none keep the current image. Mark
+                 reviewed and drop the species off the review page.
+  - not good enough -> regenerate. A picked alternative (or "live") is kept as
+                 the live champion and 2 fresh challengers are queued next to it;
+                 with no usable pick (none, or "input") all 3 are regenerated
+                 from the reference. Stays on the page (hidden until ready).
   - bad ref / prompt edit only -> queue a re-gen (re-fetch the reference for a
-                        bad ref; use the edited prompt). Stays on the page.
-  - note only / nothing -> recorded; current image kept, stays on the page.
+                 bad ref; use the edited prompt). Stays on the page.
+  - bare pick / note only / nothing -> recorded; current image kept.
 
 An edited "id" prompt is persisted to id_features.json (the img2img prompt
-source of truth) and the review manifest. badRef / noneGood / satisfied / notes
+source of truth) and the review manifest. badRef / satisfied / notgood / notes
 are also collected into scripts/review_feedback.json for the record.
 
 Usage:
@@ -74,20 +76,22 @@ def main():
 
     finalized = kept = queued = unchanged = 0
     id_changed = []
-    feedback = {"badRef": [], "noneGood": [], "satisfied": [], "notes": {}}
+    feedback = {"badRef": [], "satisfied": [], "notgood": [], "notes": {}}
 
     for code, val in choices.items():
+        # choices.json values are objects: {choice?, verdict?, badRef?, id?, note?}
+        # (older plain-string picks are treated as a bare choice).
         is_obj = isinstance(val, dict)
-        choice = val.get("choice") if is_obj else val          # may be None
-        none_good = bool(is_obj and val.get("noneGood"))
-        satisfied = bool(is_obj and val.get("satisfied"))
+        choice = val.get("choice") if is_obj else val          # "live"/"input"/"vN"/None
+        verdict = val.get("verdict") if is_obj else None        # "satisfied"/"notgood"/None
         badref = bool(is_obj and val.get("badRef"))
         new_id = (val.get("id") or "").strip() if is_obj else ""
         note = val.get("note") if is_obj else None
+        is_var = bool(choice) and choice not in ("live", "input")  # a "vN" alternative
 
         if badref: feedback["badRef"].append(code)
-        if none_good: feedback["noneGood"].append(code)
-        if satisfied: feedback["satisfied"].append(code)
+        if verdict == "satisfied": feedback["satisfied"].append(code)
+        if verdict == "notgood": feedback["notgood"].append(code)
         if note: feedback["notes"][code] = note
 
         # Edited prompt becomes the new img2img source of truth.
@@ -109,47 +113,53 @@ def main():
                 review["species"][code]["pending"] = True
             queued += 1
 
-        if satisfied:
-            # Finalize. If an alternative was selected, it becomes the live image;
-            # otherwise the current/live image is the chosen one (kept as-is).
-            # Drop off the page and cancel any pending generation job.
+        if verdict == "satisfied":
+            # Finalize with the picked image. An alternative is published as the
+            # new live image; "live"/"input"/none keep the current image (the
+            # model input is never published — it's all-rights-reserved).
             kept_what = "current image"
-            if choice and set_live(code, choice):
+            if is_var and set_live(code, choice):
                 kept_what = f"alternative {choice}"
+            elif choice == "input":
+                kept_what = "current image (model input not published)"
             if code in review["species"]:
                 review["species"][code]["reviewed"] = True
                 review["species"][code]["pending"] = False
             jobs = [j for j in jobs if j["code"] != code]
-            applied[code] = choice
+            applied[code] = f"satisfied|{choice or ''}"
             finalized += 1
             print(f"  {code}: satisfied -> finalized ({kept_what})")
             continue
 
-        if none_good:
-            enqueue("regen", reason="none-good")
-            applied.pop(code, None)   # no champion; next pick always counts as new
-            print(f"  {code}: none good -> queued full re-gen (round {retry[code]})")
-            continue
-
-        if choice:
-            # Only re-queue when the decision actually changed from last time —
-            # a re-export with the same pick (and no new bad-ref/prompt edit)
-            # leaves the bird alone instead of generating more challengers.
-            if choice == applied.get(code) and not badref and not id_edited:
+        if verdict == "notgood":
+            sig = f"notgood|{choice or ''}"
+            # Skip a duplicate re-export of the same verdict+pick (unless a new
+            # bad-ref/prompt edit makes it actionable again).
+            if sig == applied.get(code) and not badref and not id_edited:
                 unchanged += 1
                 continue
-            if set_live(code, choice):
-                kept += 1
-            applied[code] = choice
-            enqueue("challengers", n_new=2, reason="pick-keep-regen2")
-            print(f"  {code}: keep {choice} -> queued 2 challengers (round {retry[code]})")
+            applied[code] = sig
+            if is_var:
+                # Keep the chosen alternative as the live champion + 2 challengers.
+                if set_live(code, choice):
+                    kept += 1
+                enqueue("challengers", n_new=2, reason="notgood-keep-pick+2")
+                print(f"  {code}: not good, keep {choice} -> 2 challengers (round {retry[code]})")
+            elif choice == "live":
+                # Champion is already the live image; just add 2 challengers.
+                enqueue("challengers", n_new=2, reason="notgood-keep-live+2")
+                print(f"  {code}: not good, keep live -> 2 challengers (round {retry[code]})")
+            else:
+                # No usable pick (or "input"): regenerate all 3 from the reference.
+                enqueue("regen", reason="notgood-regen3")
+                print(f"  {code}: not good -> queued full re-gen (round {retry[code]})")
             continue
 
         if badref or id_edited:
             enqueue("regen", reason="badref" if badref else "prompt-edit")
             print(f"  {code}: {'bad ref' if badref else 'prompt edit'} -> queued re-gen")
             continue
-        # note-only / nothing actionable: recorded; current image kept on page.
+        # bare pick / note-only / nothing actionable: recorded; current kept.
 
     # Publish the queued codes so the review page hides anything awaiting (re)gen.
     review["queued"] = Q.job_codes(jobs)
@@ -173,11 +183,11 @@ def main():
     if pruned:
         print(f"pruned {pruned} finalized/stale review_imgs dirs")
 
-    if any(feedback[k] for k in ("badRef", "noneGood", "satisfied", "notes")):
+    if any(feedback[k] for k in ("badRef", "satisfied", "notgood", "notes")):
         json.dump(feedback, open(FEEDBACK, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
         print(f"\nfeedback -> {FEEDBACK}")
-        for k in ("badRef", "noneGood", "satisfied"):
+        for k in ("badRef", "satisfied", "notgood"):
             if feedback[k]:
                 print(f"  {k} ({len(feedback[k])}): " + ", ".join(feedback[k]))
         for code, n in feedback["notes"].items():

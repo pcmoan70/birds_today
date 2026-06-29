@@ -1,12 +1,13 @@
-/* AI Image Review — pick a preferred AI variant per species, mark it
- * "satisfied" or "none good enough", flag a bad reference photo, and leave
- * a free-text note.
+/* AI Image Review — per species, pick the preferred image (Current live, the
+ * Model input, or an AI alternative), set a single verdict (👍 Satisfied to
+ * finalise / 👎 Not good enough to regenerate), flag a bad reference photo,
+ * edit the field-marks prompt, and leave a free-text note.
  * Reads docs/review/manifest.json (written by scripts/regen_flagged.py).
  * State is stored in localStorage and exported as choices.json, which
  * scripts/apply_choices.py turns into the live images. */
 (function () {
   var KEY = "birdReviewChoices";   // {code: variantId}
-  var MKEY = "birdReviewMeta";     // {code: {badRef, noneGood, satisfied, idEdit, note}}
+  var MKEY = "birdReviewMeta";     // {code: {badRef, verdict, idEdit, note}}
   var SKEY = "birdReviewScroll";   // last scroll position (px)
   var GKEY = "birdReviewGen";      // {code: generation stamp we hold state for}
   var RESKEY = "birdReviewShowRes"; // "1" while resolved cards are revealed
@@ -25,12 +26,12 @@
   function saveGens() { localStorage.setItem(GKEY, JSON.stringify(gens)); }
   function m(code) { return meta[code] || (meta[code] = {}); }
 
-  // A species is "resolved" for this round once the reviewer marks it Satisfied
-  // (finalize) or None good enough (regenerate) — either way there's nothing
-  // more to decide until new candidates arrive, so it drops off the list.
+  // A species is "resolved" for this round once the reviewer sets a verdict —
+  // 👍 Satisfied (finalize) or 👎 Not good enough (regenerate) — either way
+  // there's nothing more to decide until new candidates arrive, so it drops off.
   function resolved(code) {
     var mm = meta[code];
-    return !!(mm && (mm.satisfied || mm.noneGood));
+    return !!(mm && mm.verdict);
   }
 
   // When an entry's generation stamp advances (the worker produced fresh
@@ -103,7 +104,7 @@
   // prompt edit — i.e. has actually given feedback on it.
   function hasMeta(code) {
     var mm = meta[code];
-    return !!(mm && (mm.badRef || mm.noneGood || mm.satisfied || mm.note ||
+    return !!(mm && (mm.badRef || mm.verdict || mm.note ||
                      typeof mm.idEdit === "string"));
   }
   function touched(code) {
@@ -169,26 +170,22 @@
     });
     codes.forEach(function (code) {
       var s = data.species[code];
-      var sel = choices[code] || null;   // nothing auto-selected; reviewer picks
       var card = document.createElement("div");
       card.className = "card";
       card.id = "sp-" + code;            // deep-link anchor (review.html#<code>)
 
-      // ---- header: name + a "none good enough" toggle -----------------
+      // ---- header: name + a single verdict toggle --------------------
       var head = document.createElement("div");
       head.className = "head";
       head.innerHTML = '<span class="name">' + (s.name || code) + "</span>" +
         '<span class="sci">' + (s.sci || "") + "</span>" +
         (s.family ? '<span class="fam">' + s.family + "</span>" : "") +
         (s.reason ? '<span class="reason">' + s.reason + "</span>" : "");
-      var satBtn = document.createElement("button");
-      satBtn.className = "flag sat" + (m(code).satisfied ? " on" : "");
-      satBtn.title = "Mark this species as good — confirms you're happy with the chosen image";
-      head.appendChild(satBtn);
-      var noneBtn = document.createElement("button");
-      noneBtn.className = "flag none" + (m(code).noneGood ? " on" : "");
-      noneBtn.title = "Mark when no variant is acceptable — keeps the current live image";
-      head.appendChild(noneBtn);
+      var vBtn = document.createElement("button");
+      vBtn.className = "flag verdict";
+      vBtn.title = "Tap to set the verdict: 👍 Satisfied (finalise the picked image) → "
+        + "👎 Not good enough (regenerate) → clear";
+      head.appendChild(vBtn);
       card.appendChild(head);
 
       var tiles = document.createElement("div");
@@ -215,58 +212,63 @@
         rt.appendChild(fb);
         tiles.appendChild(rt);
       }
-      // ---- model input (the isolated image actually fed to img2img) -------
-      if (s.ref) tiles.appendChild(tile("input", s.ref, "Model input", ""));
-      // ---- current live image --------------------------------------------
-      if (s.before) tiles.appendChild(tile("before", s.before, "Current (live)", ""));
+      // Separate the reference photo (context, not choosable) from the
+      // choosable options that follow.
+      if (s.photo) {
+        var sep = document.createElement("div"); sep.className = "sep";
+        tiles.appendChild(sep);
+      }
 
-      var sep = document.createElement("div"); sep.className = "sep"; tiles.appendChild(sep);
-      (s.variants || []).forEach(function (v) {
-        var sub = "sim " + v.sim + " · pose " + v.pose;
-        var t = tile(v.id === sel ? "var chosen" : "var", v.img, v.id, sub,
-          function () {
-            if (choices[code] === v.id) {        // click the picked one again to unselect
-              delete choices[code]; save();
-              t.classList.remove("chosen");
-              return;
-            }
-            choices[code] = v.id; save();
-            tiles.querySelectorAll(".tile.var").forEach(function (e) {
-              e.classList.remove("chosen");
-            });
-            t.classList.add("chosen");
+      // Single-select across the choosable tiles — the Current (live) image,
+      // the Model input (a regeneration seed only; never published), and the
+      // generated alternatives. Click the chosen tile again to clear it.
+      function choose(t, id) {
+        t.classList.add("sel");
+        t.dataset.id = id;
+        if (choices[code] === id) t.classList.add("chosen");
+        t.onclick = function () {
+          if (choices[code] === id) {            // click the picked one again to unselect
+            delete choices[code]; save(); t.classList.remove("chosen"); return;
+          }
+          choices[code] = id; save();
+          tiles.querySelectorAll(".tile.sel").forEach(function (e) {
+            e.classList.remove("chosen");
           });
-        t.dataset.id = v.id;
+          t.classList.add("chosen");
+        };
+      }
+
+      if (s.before) { var lt = tile("before", s.before, "Current (live)", ""); choose(lt, "live"); tiles.appendChild(lt); }
+      if (s.ref) { var it = tile("input", s.ref, "Model input", "regen seed"); choose(it, "input"); tiles.appendChild(it); }
+      (s.variants || []).forEach(function (v) {
+        var t = tile("var", v.img, v.id, "sim " + v.sim + " · pose " + v.pose);
+        choose(t, v.id);
         tiles.appendChild(t);
       });
       card.appendChild(tiles);
 
-      // "Satisfied" and "None good enough" are opposite verdicts — only one
-      // can be set. The variant row dims when nothing is acceptable.
+      // One verdict per card, cycled by the single header button:
+      //   (unset) → 👍 Satisfied → 👎 Not good enough → (unset)
       function syncVerdict() {
-        var none = !!m(code).noneGood, sat = !!m(code).satisfied;
-        tiles.classList.toggle("disabled", none);
-        noneBtn.classList.toggle("on", none);
-        noneBtn.textContent = none ? "None good enough ✓" : "None good enough";
-        satBtn.classList.toggle("on", sat);
-        satBtn.textContent = sat ? "👍 Satisfied ✓" : "👍 Satisfied";
+        var v = m(code).verdict;
+        vBtn.classList.toggle("sat", v === "satisfied");
+        vBtn.classList.toggle("none", v === "notgood");
+        vBtn.textContent = v === "satisfied" ? "👍 Satisfied"
+          : v === "notgood" ? "👎 Not good enough" : "Set verdict";
       }
-      // A resolved verdict (Satisfied / None good) drops the card off the list
-      // for this round; "Show resolved" keeps it visible so a mis-click can be
-      // undone. New candidates clear the verdict and bring it back clean.
+      // Setting a verdict resolves the card for this round, so it drops off the
+      // list; "Show resolved" keeps it visible so a mis-click can be undone. New
+      // candidates clear the verdict and bring it back clean.
       function afterVerdict() {
         if (resolved(code) && !showResolved) card.style.display = "none";
         else card.style.display = "";
         refreshCounts();
       }
-      satBtn.onclick = function () {
-        m(code).satisfied = !m(code).satisfied;
-        if (m(code).satisfied) m(code).noneGood = false;
-        saveMeta(); syncVerdict(); afterVerdict();
-      };
-      noneBtn.onclick = function () {
-        m(code).noneGood = !m(code).noneGood;
-        if (m(code).noneGood) m(code).satisfied = false;
+      vBtn.onclick = function () {
+        var v = m(code).verdict;
+        if (!v) m(code).verdict = "satisfied";
+        else if (v === "satisfied") m(code).verdict = "notgood";
+        else delete m(code).verdict;
         saveMeta(); syncVerdict(); afterVerdict();
       };
       syncVerdict();
@@ -319,41 +321,35 @@
   var clearBtn = document.getElementById("clearsel");
   if (clearBtn) clearBtn.onclick = function () {
     var n = Object.keys(choices).length;
-    if (!n) { alert("No variant selections to clear."); return; }
-    if (!confirm("Clear all " + n + " variant selections? (Flags and notes are kept.)")) return;
+    if (!n) { alert("No image picks to clear."); return; }
+    if (!confirm("Clear all " + n + " image picks? (Verdicts, flags and notes are kept.)")) return;
     choices = {}; save();
     render(window.__review || { species: {} });
   };
 
   document.getElementById("export").onclick = function () {
-    // Per species: plain variant id when nothing extra is flagged, else an
-    // object {choice, badRef?, noneGood?, satisfied?, id?, note?}.
-    // apply_choices.py reads both.
+    // Per species: an object {choice?, verdict?, badRef?, id?, note?}, where
+    // choice ∈ {"live","input","v0",…} and verdict ∈ {"satisfied","notgood"}.
     var data = window.__review || { species: {} };
     var out = {};
     // Only export species the user has actually given feedback on, so a partial
     // download (and the apply that follows) doesn't mark the whole list reviewed.
     var codes = Object.keys(data.species).filter(touched);
     if (!codes.length) {
-      alert("No feedback to export yet — pick a variant or set a flag first.");
+      alert("No feedback to export yet — set a verdict, pick an image, or flag the photo first.");
       return;
     }
     codes.forEach(function (code) {
-      var picked = choices[code] || null;   // only an explicit pick, no default
+      var picked = choices[code] || null;   // "live" / "input" / "vN" / null
       var mm = meta[code] || {};
       var origId = (data.species[code].id || "").trim();
       var idEdited = typeof mm.idEdit === "string" && mm.idEdit.trim() !== origId;
-      if (mm.badRef || mm.noneGood || mm.satisfied || mm.note || idEdited) {
-        out[code] = {};
-        if (picked) out[code].choice = picked;
-        if (mm.badRef) out[code].badRef = true;
-        if (mm.noneGood) out[code].noneGood = true;
-        if (mm.satisfied) out[code].satisfied = true;
-        if (idEdited) out[code].id = mm.idEdit.trim();
-        if (mm.note) out[code].note = mm.note;
-      } else {
-        out[code] = picked;   // plain pick (variant id string)
-      }
+      out[code] = {};
+      if (picked) out[code].choice = picked;
+      if (mm.verdict) out[code].verdict = mm.verdict;
+      if (mm.badRef) out[code].badRef = true;
+      if (idEdited) out[code].id = mm.idEdit.trim();
+      if (mm.note) out[code].note = mm.note;
     });
     var blob = new Blob([JSON.stringify(out, null, 1)], { type: "application/json" });
     var a = document.createElement("a");
