@@ -6687,9 +6687,10 @@
    "name": "Finsch's Wheatear",
    "sci": "Oenanthe finschii",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/finwhe1/before.png",
    "ref": "review_imgs/finwhe1/ref.jpg",
+   "photo": "review_imgs/finwhe1/photo.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
    "id": "Pale wheatear with whitish crown and underparts, black face, throat and wings; broad black inverted-T pattern on white tail; sandy-buff mantle, black bill and legs.",
@@ -6698,104 +6699,106 @@
     {
      "id": "v0",
      "img": "review_imgs/finwhe1/v0.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.839,
-     "pose": 0.253,
-     "bird": 0.562
+     "seed": 3021,
+     "strength": 0.7,
+     "sim": 0.741,
+     "pose": 0.414,
+     "bird": 0.745
     },
     {
      "id": "v1",
      "img": "review_imgs/finwhe1/v1.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.81,
-     "pose": 0.19,
-     "bird": 0.218
+     "seed": 3020,
+     "strength": 0.62,
+     "sim": 0.829,
+     "pose": 0.182,
+     "bird": 0.192
     }
    ],
+   "gen": 1782761780,
    "reviewed": false,
-   "photo": "review_imgs/finwhe1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "firecr1": {
    "name": "Common Firecrest",
    "sci": "Regulus ignicapilla",
    "family": "Kinglets",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/firecr1/before.png",
    "ref": "review_imgs/firecr1/ref.jpg",
+   "photo": "review_imgs/firecr1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny kinglet, bright olive-green above, whitish below; bold white supercilium over black eyestripe, white below eye; flame-orange crown stripe bordered black, bronze shoulder patch, two white wingbars; thin black bill. Crown stripe flame-orange bordered black; two clear white wing-bars.",
+   "id": "Tiny kinglet, bright olive-green above, whitish below; bold white supercilium over black eyestripe, white below eye; flame-orange crown stripe bordered black, bronze shoulder patch, two white wingbars; thin black bill. Crown stripe flame-orange bordered black; two clear white wing-bars. Emphasise: a compact shape with bold black-and-white face stripes and greenish wings with pale wing-bars.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/firecr1/v0.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.874,
-     "pose": 0.078,
-     "bird": 0.871
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.782,
+     "pose": 0.092,
+     "bird": 0.923
     },
     {
      "id": "v1",
      "img": "review_imgs/firecr1/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.803,
-     "pose": 0.057,
-     "bird": 0.94
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.78,
+     "pose": 0.045,
+     "bird": 0.893
     },
     {
      "id": "v2",
      "img": "review_imgs/firecr1/v2.png",
-     "seed": 1016,
+     "seed": 1021,
      "strength": 0.68,
-     "sim": 0.803,
-     "pose": 0.146,
-     "bird": 0.852
+     "sim": 0.765,
+     "pose": 0.068,
+     "bird": 0.686
     }
    ],
+   "gen": 1782761938,
    "reviewed": false,
-   "photo": "review_imgs/firecr1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "fuwduc": {
    "name": "Fulvous Whistling-Duck",
    "sci": "Dendrocygna bicolor",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/fuwduc/before.png",
    "ref": "review_imgs/fuwduc/ref.jpg",
+   "photo": "review_imgs/fuwduc/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tawny-orange goose-like duck with long neck and legs; rich cinnamon head, neck and underparts, dark brown back scaled buff, creamy-white flank stripes and U-shaped white uppertail band; dark grey bill and legs.",
+   "id": "Tawny-orange goose-like duck with long neck and legs; rich cinnamon head, neck and underparts, dark brown back scaled buff, creamy-white flank stripes and U-shaped white uppertail band; dark grey bill and legs. Emphasise: smaller eyes.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/fuwduc/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.948,
-     "pose": 0.245,
-     "bird": 0.959
+     "sim": 0.756,
+     "pose": 0.473,
+     "bird": 0.956
     },
     {
      "id": "v1",
      "img": "review_imgs/fuwduc/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.934,
-     "pose": 0.344,
-     "bird": 0.851
+     "sim": 0.794,
+     "pose": 0.313,
+     "bird": 0.935
     }
    ],
+   "gen": 1782762025,
    "reviewed": false,
-   "photo": "review_imgs/fuwduc/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "gadwal": {
    "name": "Gadwall",
@@ -6836,71 +6839,73 @@
    "name": "Garganey",
    "sci": "Spatula querquedula",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/gargan/before.png",
    "ref": "review_imgs/gargan/ref.jpg",
+   "photo": "review_imgs/gargan/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small dabbling duck, brown head with bold broad white crescent stripe from eye to nape; mottled brown breast, grey flanks, pale grey-blue forewing; dark bill, grey legs.",
+   "id": "Small dabbling duck, brown head with bold broad white crescent stripe from eye to nape; mottled brown breast, grey flanks, pale grey-blue forewing; dark bill, grey legs. Emphasise: finely vermiculated grey flanks.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gargan/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.779,
-     "pose": 0.086,
-     "bird": 0.735
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.828,
+     "pose": 0.055,
+     "bird": 0.583
     },
     {
      "id": "v1",
      "img": "review_imgs/gargan/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.818,
-     "pose": 0.044,
-     "bird": 0.26
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.816,
+     "pose": 0.166,
+     "bird": 0.391
     }
    ],
+   "gen": 1782762216,
    "reviewed": false,
-   "photo": "review_imgs/gargan/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "garwar1": {
    "name": "Garden Warbler",
    "sci": "Sylvia borin",
    "family": "Sylviid Warblers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/garwar1/before.png",
    "ref": "review_imgs/garwar1/ref.jpg",
+   "photo": "review_imgs/garwar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Plump featureless warbler, uniform olive-brown above, pale buff-grey below; rounded head with plain face, faint pale eye-ring, no wingbars or strong markings; stout grey bill, blue-grey legs.",
+   "id": "Plump featureless warbler, uniform olive-brown above, pale buff-grey below; rounded head with plain face, faint pale eye-ring, no wingbars or strong markings; stout grey bill, blue-grey legs. Emphasise: plain unmarked plumage with no wing-bars and only a faint greyish wash on the neck and chin.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/garwar1/v0.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.886,
-     "pose": 0.176,
-     "bird": 0.533
+     "seed": 3021,
+     "strength": 0.7,
+     "sim": 0.836,
+     "pose": 0.241,
+     "bird": 0.676
     },
     {
      "id": "v1",
      "img": "review_imgs/garwar1/v1.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.851,
-     "pose": 0.088,
-     "bird": 0.674
+     "seed": 3020,
+     "strength": 0.62,
+     "sim": 0.849,
+     "pose": 0.136,
+     "bird": 0.736
     }
    ],
+   "gen": 1782762321,
    "reviewed": false,
-   "photo": "review_imgs/garwar1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "gbbgul": {
    "name": "Great Black-backed Gull",
@@ -20046,12 +20051,6 @@
   "eurnig1",
   "eursco1",
   "eurspa1",
-  "finwhe1",
-  "firecr1",
-  "fuwduc",
-  "gadwal",
-  "gargan",
-  "garwar1",
   "glagul",
   "gnwtea",
   "grapri1",
