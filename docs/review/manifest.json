@@ -16965,9 +16965,10 @@
    "name": "Spotted Redshank",
    "sci": "Tringa erythropus",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/spored/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55482321/320",
+   "ref": "review_imgs/spored/ref.jpg",
+   "photo": "review_imgs/spored/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Elegant slim wader with very long fine drooped black-and-red bill; breeding adult sooty-black with white spotting on upperparts. Long dark-red legs, white wedge up back in flight.",
@@ -16976,25 +16977,25 @@
     {
      "id": "v0",
      "img": "review_imgs/spored/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.842,
-     "pose": 0.413,
-     "bird": 0.563
+     "sim": 0.793,
+     "pose": 0.294,
+     "bird": 0.745
     },
     {
      "id": "v1",
      "img": "review_imgs/spored/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.851,
-     "pose": 0.333,
-     "bird": 0.481
+     "sim": 0.8,
+     "pose": 0.341,
+     "bird": 0.625
     }
    ],
+   "gen": 1782775050,
    "reviewed": false,
-   "photo": "review_imgs/spored/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "sposta1": {
    "name": "Spotless Starling",
@@ -17079,71 +17080,82 @@
    "name": "Squacco Heron",
    "sci": "Ardeola ralloides",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/squher1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104688081/320",
+   "ref": "review_imgs/squher1/ref.jpg",
+   "photo": "review_imgs/squher1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small stocky buff heron; pale sandy-buff body and neck, white wings and rump (showing white in flight). Long buff crown plumes, yellowish bill with dark tip, greenish legs.",
+   "id": "Small stocky buff heron; pale sandy-buff body and neck, white wings and rump (showing white in flight). Long buff crown plumes, yellowish bill with dark tip, greenish legs. Emphasise: a bill with a dark tip.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/squher1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.905,
-     "pose": 0.558,
-     "bird": 0.638
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.861,
+     "pose": 0.669,
+     "bird": 0.876
     },
     {
      "id": "v1",
      "img": "review_imgs/squher1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.904,
-     "pose": 0.668,
-     "bird": 0.435
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.823,
+     "pose": 0.529,
+     "bird": 0.52
     }
    ],
+   "gen": 1782775137,
    "reviewed": false,
-   "photo": "review_imgs/squher1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "steeag1": {
    "name": "Steppe Eagle",
    "sci": "Aquila nipalensis",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "pick-keep-regen2",
+   "reason": "note-regen3",
    "before": "review_imgs/steeag1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66340331/320",
+   "ref": "review_imgs/steeag1/ref.jpg",
+   "photo": "review_imgs/steeag1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Large dark brown eagle with broad wings; uniform earth-brown plumage, paler nape patch, gape line extending back to below eye. Yellow cere and feet, feathered legs, dark hooked bill.",
+   "id": "Large dark brown eagle with broad wings; uniform earth-brown plumage, paler nape patch, gape line extending back to below eye. Yellow cere and feet, feathered legs, dark hooked bill. Emphasise: some warmer, paler orange patches in the plumage.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/steeag1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.871,
-     "pose": 0.004,
-     "bird": 0.649
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.848,
+     "pose": 0.005,
+     "bird": 0.907
     },
     {
      "id": "v1",
      "img": "review_imgs/steeag1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.891,
-     "pose": 0.005,
-     "bird": 0.443
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.839,
+     "pose": 0.019,
+     "bird": 0.688
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/steeag1/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.858,
+     "pose": 0.007,
+     "bird": 0.632
     }
    ],
+   "gen": 1782775271,
    "reviewed": false,
-   "photo": "review_imgs/steeag1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "steeid": {
    "name": "Steller's Eider",
@@ -17185,36 +17197,46 @@
    "name": "Stock Dove",
    "sci": "Columba oenas",
    "family": "Pigeons and Doves",
-   "reason": "pick-keep-regen2",
+   "reason": "note-regen3",
    "before": "review_imgs/stodov1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/103889961/320",
+   "ref": "review_imgs/stodov1/ref.jpg",
+   "photo": "review_imgs/stodov1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Compact blue-grey pigeon; soft grey body, pinkish breast, iridescent green neck patch, two short black wing bars. Dark eye, dark-tipped pale bill, pinkish-red legs. No white on neck or rump.",
+   "id": "Compact blue-grey pigeon; soft grey body, pinkish breast, iridescent green neck patch, two short black wing bars. Dark eye, dark-tipped pale bill, pinkish-red legs. No white on neck or rump. Emphasise: a dark, neutral bill colour.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/stodov1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.89,
-     "pose": 0.079,
-     "bird": 0.714
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.802,
+     "pose": 0.116,
+     "bird": 0.837
     },
     {
      "id": "v1",
      "img": "review_imgs/stodov1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.905,
-     "pose": 0.113,
-     "bird": 0.622
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.786,
+     "pose": 0.076,
+     "bird": 0.807
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/stodov1/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.825,
+     "pose": 0.103,
+     "bird": 0.693
     }
    ],
+   "gen": 1782775404,
    "reviewed": false,
-   "photo": "review_imgs/stodov1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "stonec4": {
    "name": "European Stonechat",
@@ -18552,37 +18574,46 @@
    "name": "Eurasian Whimbrel",
    "sci": "Numenius phaeopus",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/whimbr5/before.png",
    "ref": "review_imgs/whimbr5/ref.jpg",
+   "photo": "review_imgs/whimbr5/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Large brown curlew with a long downcurved bill; brown-streaked plumage, a strongly striped crown showing a dark lateral stripe and pale central stripe, pale supercilium, and bluish-grey legs.",
+   "id": "Large brown curlew with a long downcurved bill; brown-streaked plumage, a strongly striped crown showing a dark lateral stripe and pale central stripe, pale supercilium, and bluish-grey legs. Emphasise: a long decurved bill, not straight or sharply pointed.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/whimbr5/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.869,
-     "pose": 0.371,
-     "bird": 0.633
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.853,
+     "pose": 0.427,
+     "bird": 0.836
     },
     {
      "id": "v1",
      "img": "review_imgs/whimbr5/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.873,
-     "pose": 0.163,
-     "bird": 0.446
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.817,
+     "pose": 0.349,
+     "bird": 0.932
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/whimbr5/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.802,
+     "pose": 0.331,
+     "bird": 0.866
     }
    ],
-   "gen": 1782733837,
+   "gen": 1782775538,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/whimbr5/photo.jpg"
+   "pending": false
   },
   "whinch1": {
    "name": "Whinchat",
@@ -20035,12 +20066,7 @@
   "sheowl",
   "smew",
   "snoowl1",
-  "spored",
-  "squher1",
-  "steeag1",
-  "stodov1",
   "subwar8",
-  "whimbr5",
   "winwre4",
   "woowar",
   "yebcho1",
