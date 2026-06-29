@@ -13077,71 +13077,82 @@
    "name": "Hen Harrier",
    "sci": "Circus cyaneus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/norhar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/189755831/320",
+   "ref": "review_imgs/norhar1/ref.jpg",
+   "photo": "review_imgs/norhar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Slim grey-and-white harrier; male pale ash-grey above with black wingtips, white underparts and rump, long wings and tail; rounded head, yellow eyes and legs, low-set wings held in a V.",
+   "id": "Slim grey-and-white harrier; male pale ash-grey above with black wingtips, white underparts and rump, long wings and tail; rounded head, yellow eyes and legs, low-set wings held in a V. Emphasise: a small bill and a gentle, owl-like face, not falcon-like.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norhar1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.895,
-     "pose": 0.028,
-     "bird": 0.732
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.821,
+     "pose": 0.011,
+     "bird": 0.922
     },
     {
      "id": "v1",
      "img": "review_imgs/norhar1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.895,
-     "pose": 0.021,
-     "bird": 0.693
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.811,
+     "pose": 0.005,
+     "bird": 0.89
     }
    ],
+   "gen": 1782772486,
    "reviewed": false,
-   "photo": "review_imgs/norhar1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "norlap": {
    "name": "Northern Lapwing",
    "sci": "Vanellus vanellus",
    "family": "Plovers and Lapwings",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/norlap/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/530705741/320",
+   "ref": "review_imgs/norlap/ref.jpg",
+   "photo": "review_imgs/norlap/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Black-and-white plover with iridescent green-glossed black upperparts, a long wispy black crest, black breast-band, white face and belly, orange-buff undertail, broad rounded wings, and dark reddish legs.",
+   "id": "Black-and-white plover with iridescent green-glossed black upperparts, a long wispy black crest, black breast-band, white face and belly, orange-buff undertail, broad rounded wings, and dark reddish legs. Emphasise: the correct face pattern with a long wispy crest.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norlap/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.914,
-     "pose": 0.077,
-     "bird": 0.556
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.808,
+     "pose": 0.323,
+     "bird": 0.845
     },
     {
      "id": "v1",
      "img": "review_imgs/norlap/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.891,
-     "pose": 0.037,
-     "bird": 0.523
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.814,
+     "pose": 0.199,
+     "bird": 0.886
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norlap/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.818,
+     "pose": 0.234,
+     "bird": 0.522
     }
    ],
+   "gen": 1782772619,
    "reviewed": false,
-   "photo": "review_imgs/norlap/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "norpin": {
    "name": "Northern Pintail",
@@ -13182,9 +13193,10 @@
    "name": "Northern Shoveler",
    "sci": "Spatula clypeata",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/norsho/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/215033941/320",
+   "ref": "review_imgs/norsho/ref.jpg",
+   "photo": "review_imgs/norsho/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Drake has a huge spatulate black bill, glossy green head, white breast, chestnut flanks and belly, black-and-white back, and a pale-blue forewing patch; orange legs; front-heavy low-floating profile.",
@@ -13193,25 +13205,16 @@
     {
      "id": "v0",
      "img": "review_imgs/norsho/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.791,
-     "pose": 0.037,
-     "bird": 0.826
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/norsho/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.746,
-     "pose": 0.043,
-     "bird": 0.833
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.757,
+     "pose": 0.046,
+     "bird": 0.798
     }
    ],
+   "gen": 1782772884,
    "reviewed": false,
-   "photo": "review_imgs/norsho/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "norshr1": {
    "name": "Great Gray Shrike",
@@ -13443,36 +13446,46 @@
    "name": "Paddyfield Warbler",
    "sci": "Acrocephalus agricola",
    "family": "Reed Warblers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "note-regen3",
    "before": "review_imgs/padwar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/52827831/320",
+   "ref": "review_imgs/padwar1/ref.jpg",
+   "photo": "review_imgs/padwar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small warm-brown reed warbler with rusty-tinged upperparts and rump, a prominent whitish supercilium bordered above by a dark line, pale buff underparts, a short fine bill, and a rounded often-cocked tail.",
+   "id": "Small warm-brown reed warbler with rusty-tinged upperparts and rump, a prominent whitish supercilium bordered above by a dark line, pale buff underparts, a short fine bill, and a rounded often-cocked tail. Emphasise: soft, low-contrast feathering in warm tan tones.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/padwar1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.834,
-     "pose": 0.044,
-     "bird": 0.885
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.778,
+     "pose": 0.177,
+     "bird": 0.838
     },
     {
      "id": "v1",
      "img": "review_imgs/padwar1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.86,
-     "pose": 0.086,
-     "bird": 0.787
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.804,
+     "pose": 0.142,
+     "bird": 0.788
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/padwar1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.737,
+     "pose": 0.035,
+     "bird": 0.939
     }
    ],
+   "gen": 1782773105,
    "reviewed": false,
-   "photo": "review_imgs/padwar1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "palhar1": {
    "name": "Pallid Harrier",
@@ -15284,36 +15297,37 @@
    "name": "Rock Pipit",
    "sci": "Anthus petrosus",
    "family": "Wagtails and Pipits",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/rocpip1/before.png",
    "ref": "review_imgs/rocpip1/ref.jpg",
+   "photo": "review_imgs/rocpip1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Robust dark pipit with grey-olive heavily streaked upperparts and dingy grey-buff underparts streaked dark. Faint pale eye-ring, indistinct supercilium, dark bill, and dark greyish legs (not pink).",
+   "id": "Robust dark pipit with grey-olive heavily streaked upperparts and dingy grey-buff underparts streaked dark. Faint pale eye-ring, indistinct supercilium, dark bill, and dark greyish legs (not pink). Emphasise: a slightly adjusted, rounded head shape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rocpip1/v0.png",
-     "seed": 3011,
+     "seed": 3016,
      "strength": 0.7,
-     "sim": 0.804,
-     "pose": 0.269,
-     "bird": 0.857
+     "sim": 0.877,
+     "pose": 0.116,
+     "bird": 0.417
     },
     {
      "id": "v1",
      "img": "review_imgs/rocpip1/v1.png",
-     "seed": 3010,
+     "seed": 3015,
      "strength": 0.62,
-     "sim": 0.838,
-     "pose": 0.425,
-     "bird": 0.627
+     "sim": 0.872,
+     "pose": 0.074,
+     "bird": 0.363
     }
    ],
+   "gen": 1782773296,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/rocpip1/photo.jpg"
+   "pending": false
   },
   "rocpta1": {
    "name": "Rock Ptarmigan",
@@ -19990,14 +20004,6 @@
   "masshr1",
   "mewgul",
   "norgos1",
-  "norhar1",
-  "norlap",
-  "norpin",
-  "norsho",
-  "norshr1",
-  "padwar1",
-  "rinduc",
-  "rocpip1",
   "rocpta1",
   "rook1",
   "rosgoo",
