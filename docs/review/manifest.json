@@ -15229,7 +15229,7 @@
    "family": "Old World Flycatchers, Robins, and Chats",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/rtrthr1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/183109641/320",
+   "ref": "review_imgs/rtrthr1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Robin-sized thrush; male has blue-grey head and back, white patch on lower back, and bright orange-rufous breast, belly and tail. Dark wings, thin dark bill, brownish legs.",
@@ -15238,24 +15238,24 @@
     {
      "id": "v0",
      "img": "review_imgs/rtrthr1/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.931,
-     "pose": 0.174,
-     "bird": 0.063
+     "sim": 0.829,
+     "pose": 0.276,
+     "bird": 0.578
     },
     {
      "id": "v1",
      "img": "review_imgs/rtrthr1/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.927,
-     "pose": 0.117,
-     "bird": 0.048
+     "sim": 0.801,
+     "pose": 0.193,
+     "bird": 0.074
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "rudduc": {
    "name": "Ruddy Duck",
@@ -15371,24 +15371,24 @@
     {
      "id": "v0",
      "img": "review_imgs/ruewar1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.879,
-     "pose": 0.19,
-     "bird": 0.743
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.869,
+     "pose": 0.251,
+     "bird": 0.726
     },
     {
      "id": "v1",
      "img": "review_imgs/ruewar1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.916,
-     "pose": 0.146,
-     "bird": 0.496
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.852,
+     "pose": 0.188,
+     "bird": 0.538
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "ruff": {
    "name": "Ruff",
@@ -15471,7 +15471,7 @@
    "family": "Old World Flycatchers, Robins, and Chats",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/rutscr1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64057411/320",
+   "ref": "review_imgs/rutscr1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim warm rufous-brown chat with long, often-cocked rufous tail tipped black and white. Pale supercilium, dark eyestripe, whitish underparts. Long pale legs, fine dark bill.",
@@ -15480,24 +15480,24 @@
     {
      "id": "v0",
      "img": "review_imgs/rutscr1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.909,
-     "pose": 0.1,
-     "bird": 0.283
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.796,
+     "pose": 0.219,
+     "bird": 0.415
     },
     {
      "id": "v1",
      "img": "review_imgs/rutscr1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.919,
-     "pose": 0.092,
-     "bird": 0.245
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.786,
+     "pose": 0.196,
+     "bird": 0.399
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "sabgul": {
    "name": "Sabine's Gull",
@@ -15610,9 +15610,9 @@
    "name": "Sandwich Tern",
    "sci": "Thalasseus sandvicensis",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "pick-keep-regen2",
+   "reason": "badref",
    "before": "review_imgs/santer1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64794711/320",
+   "ref": "review_imgs/santer1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim pale tern with shaggy black crest; pale grey above, white below. Long slender black bill with distinctive yellow tip; short black legs, slightly forked white tail.",
@@ -15621,24 +15621,33 @@
     {
      "id": "v0",
      "img": "review_imgs/santer1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.936,
-     "pose": 0.033,
-     "bird": 0.9
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.899,
+     "pose": 0.017,
+     "bird": 0.923
     },
     {
      "id": "v1",
      "img": "review_imgs/santer1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.93,
-     "pose": 0.027,
-     "bird": 0.742
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.878,
+     "pose": 0.012,
+     "bird": 0.889
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/santer1/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.896,
+     "pose": 0.022,
+     "bird": 0.824
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "sarwar1": {
    "name": "Sardinian Warbler",
@@ -15646,7 +15655,7 @@
    "family": "Sylviid Warblers and Allies",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/sarwar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/196728121/320",
+   "ref": "review_imgs/sarwar1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Compact Sylvia warbler; male has glossy black cap reaching below eye, grey back, white throat, greyish underparts. Bold red eye-ring and red eye, blackish bill, pale legs.",
@@ -15655,24 +15664,24 @@
     {
      "id": "v0",
      "img": "review_imgs/sarwar1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.899,
-     "pose": 0.334,
-     "bird": 0.881
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.885,
+     "pose": 0.46,
+     "bird": 0.654
     },
     {
      "id": "v1",
      "img": "review_imgs/sarwar1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.9,
-     "pose": 0.146,
-     "bird": 0.755
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.884,
+     "pose": 0.236,
+     "bird": 0.768
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "savwar1": {
    "name": "Savi's Warbler",
