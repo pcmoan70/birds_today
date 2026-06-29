@@ -19291,37 +19291,46 @@
    "name": "Eurasian Wren",
    "sci": "Troglodytes troglodytes",
    "family": "Wrens",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/winwre4/before.png",
    "ref": "review_imgs/winwre4/ref.jpg",
+   "photo": "review_imgs/winwre4/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny rotund brown bird with a short cocked tail; warm rufous-brown plumage finely barred darker on wings, flanks and tail, a pale supercilium, and a fine thin bill. Brownish legs.",
+   "id": "Tiny rotund brown bird with a short cocked tail; warm rufous-brown plumage finely barred darker on wings, flanks and tail, a pale supercilium, and a fine thin bill. Brownish legs. Emphasise: plain, subdued brown plumage with fine barring.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/winwre4/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.854,
-     "pose": 0.135,
-     "bird": 0.803
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.78,
+     "pose": 0.219,
+     "bird": 0.691
     },
     {
      "id": "v1",
      "img": "review_imgs/winwre4/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.857,
-     "pose": 0.175,
-     "bird": 0.587
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.772,
+     "pose": 0.182,
+     "bird": 0.69
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/winwre4/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.782,
+     "pose": 0.057,
+     "bird": 0.507
     }
    ],
-   "gen": 1782733939,
+   "gen": 1782775677,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/winwre4/photo.jpg"
+   "pending": false
   },
   "wispet": {
    "name": "Wilson's Storm-Petrel",
@@ -19575,36 +19584,28 @@
    "name": "Wood Warbler",
    "sci": "Phylloscopus sibilatrix",
    "family": "Leaf Warblers",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/woowar/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204244021/320",
+   "ref": "review_imgs/woowar/ref.jpg",
+   "photo": "review_imgs/woowar/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Bright leaf-warbler with vivid yellow-green upperparts, a long lemon-yellow supercilium, yellow throat and breast contrasting sharply with a clean white belly, and long wings. Pale legs; slim fine bill.",
+   "id": "Bright leaf-warbler with vivid yellow-green upperparts, a long lemon-yellow supercilium, yellow throat and breast contrasting sharply with a clean white belly, and long wings. Pale legs; slim fine bill. Emphasise: a paler lemon-yellow throat and breast fading to a white belly.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/woowar/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.83,
-     "pose": 0.142,
-     "bird": 0.592
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/woowar/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.767,
-     "pose": 0.232,
-     "bird": 0.308
+     "sim": 0.784,
+     "pose": 0.187,
+     "bird": 0.805
     }
    ],
+   "gen": 1782775765,
    "reviewed": false,
-   "photo": "review_imgs/woowar/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "y00427": {
    "name": "Siberian Stonechat",
@@ -19740,9 +19741,10 @@
    "name": "Yellow-billed Chough",
    "sci": "Pyrrhocorax graculus",
    "family": "Crows, Jays, and Magpies",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/yebcho1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/193203211/320",
+   "ref": "review_imgs/yebcho1/ref.jpg",
+   "photo": "review_imgs/yebcho1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Glossy black crow-relative with a short slender bright-yellow bill, deep red legs and feet, and broad rounded wings. Wholly black plumage; compact, pigeon-headed look with a longish tail.",
@@ -19751,25 +19753,25 @@
     {
      "id": "v0",
      "img": "review_imgs/yebcho1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.918,
-     "pose": 0.244,
-     "bird": 0.615
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.831,
+     "pose": 0.342,
+     "bird": 0.76
     },
     {
      "id": "v1",
      "img": "review_imgs/yebcho1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.913,
-     "pose": 0.183,
-     "bird": 0.576
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.835,
+     "pose": 0.377,
+     "bird": 0.714
     }
    ],
+   "gen": 1782775853,
    "reviewed": false,
-   "photo": "review_imgs/yebcho1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "yebloo": {
    "name": "Yellow-billed Loon",
@@ -19818,44 +19820,46 @@
    "name": "Yellow-browed Warbler",
    "sci": "Phylloscopus inornatus",
    "family": "Leaf Warblers",
-   "reason": "all",
+   "reason": "note-regen3",
    "before": "review_imgs/yebwar3/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63573451/320",
+   "ref": "review_imgs/yebwar3/ref.jpg",
+   "photo": "review_imgs/yebwar3/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny bright leaf-warbler, greenish above with two bold yellowish-white wingbars, a long creamy supercilium, dark eyestripe, and pale tertial edges. Whitish underparts; thin dark bill, pale legs; very small and active. Emphasise: a slim, small warbler shape.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/yebwar3/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.914,
-     "pose": 0.121,
-     "bird": 0.424
+     "seed": 1005,
+     "strength": 0.6,
+     "sim": 0.891,
+     "pose": 0.104,
+     "bird": 0.708
     },
     {
      "id": "v1",
      "img": "review_imgs/yebwar3/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.912,
-     "pose": 0.104,
-     "bird": 0.437
+     "seed": 1007,
+     "strength": 0.74,
+     "sim": 0.879,
+     "pose": 0.162,
+     "bird": 0.634
     },
     {
      "id": "v2",
      "img": "review_imgs/yebwar3/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.876,
-     "pose": 0.099,
-     "bird": 0.5
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.897,
+     "pose": 0.13,
+     "bird": 0.296
     }
    ],
-   "id": "Tiny bright leaf-warbler, greenish above with two bold yellowish-white wingbars, a long creamy supercilium, dark eyestripe, and pale tertial edges. Whitish underparts; thin dark bill, pale legs; very small and active.",
-   "photo": "review_imgs/yebwar3/photo.jpg",
-   "pending": true
+   "gen": 1782775994,
+   "reviewed": false,
+   "pending": false
   },
   "yecbis": {
    "name": "Yellow-crowned Bishop",
@@ -19946,9 +19950,10 @@
    "name": "Yellowhammer",
    "sci": "Emberiza citrinella",
    "family": "Old World Buntings",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/yellow2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/78557031/320",
+   "ref": "review_imgs/yellow2/ref.jpg",
+   "photo": "review_imgs/yellow2/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Bunting with a bright lemon-yellow head and underparts marked with chestnut, a yellow-streaked breast band, warm chestnut-brown streaked back, and a rufous-chestnut rump. Greyish conical bill; pinkish legs.",
@@ -19957,25 +19962,25 @@
     {
      "id": "v0",
      "img": "review_imgs/yellow2/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.882,
-     "pose": 0.22,
-     "bird": 0.17
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.792,
+     "pose": 0.317,
+     "bird": 0.489
     },
     {
      "id": "v1",
      "img": "review_imgs/yellow2/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.873,
-     "pose": 0.16,
-     "bird": 0.111
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.809,
+     "pose": 0.244,
+     "bird": 0.422
     }
    ],
+   "gen": 1782776082,
    "reviewed": false,
-   "photo": "review_imgs/yellow2/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "zitcis1": {
    "name": "Zitting Cisticola",
@@ -20066,11 +20071,6 @@
   "sheowl",
   "smew",
   "snoowl1",
-  "subwar8",
-  "winwre4",
-  "woowar",
-  "yebcho1",
-  "yebwar3",
-  "yellow2"
+  "subwar8"
  ]
 }
