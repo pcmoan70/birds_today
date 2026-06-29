@@ -8878,33 +8878,33 @@
     {
      "id": "v0",
      "img": "review_imgs/doveki/v0.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.87,
-     "pose": 0.041,
-     "bird": 0.866
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.808,
+     "pose": 0.071,
+     "bird": 0.639
     },
     {
      "id": "v1",
      "img": "review_imgs/doveki/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.853,
-     "pose": 0.018,
-     "bird": 0.26
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.79,
+     "pose": 0.105,
+     "bird": 0.622
     },
     {
      "id": "v2",
      "img": "review_imgs/doveki/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.847,
-     "pose": 0.024,
-     "bird": 0.264
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.791,
+     "pose": 0.042,
+     "bird": 0.275
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "dunlin": {
    "name": "Dunlin",
@@ -8921,33 +8921,33 @@
     {
      "id": "v0",
      "img": "review_imgs/dunlin/v0.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.809,
-     "pose": 0.274,
-     "bird": 0.852
+     "sim": 0.816,
+     "pose": 0.335,
+     "bird": 0.78
     },
     {
      "id": "v1",
      "img": "review_imgs/dunlin/v1.png",
-     "seed": 1016,
+     "seed": 1021,
      "strength": 0.68,
-     "sim": 0.765,
-     "pose": 0.211,
-     "bird": 0.916
+     "sim": 0.745,
+     "pose": 0.146,
+     "bird": 0.777
     },
     {
      "id": "v2",
      "img": "review_imgs/dunlin/v2.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.757,
-     "pose": 0.134,
-     "bird": 0.245
+     "sim": 0.744,
+     "pose": 0.073,
+     "bird": 0.587
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "duswar": {
    "name": "Dusky Warbler",
@@ -8964,33 +8964,33 @@
     {
      "id": "v0",
      "img": "review_imgs/duswar/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.908,
-     "pose": 0.277,
-     "bird": 0.651
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.897,
+     "pose": 0.164,
+     "bird": 0.627
     },
     {
      "id": "v1",
      "img": "review_imgs/duswar/v1.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.911,
-     "pose": 0.113,
-     "bird": 0.507
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.873,
+     "pose": 0.228,
+     "bird": 0.605
     },
     {
      "id": "v2",
      "img": "review_imgs/duswar/v2.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.9,
-     "pose": 0.168,
-     "bird": 0.458
+     "sim": 0.891,
+     "pose": 0.227,
+     "bird": 0.4
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "eabwar1": {
    "name": "Eastern Bonelli's Warbler",
@@ -9007,33 +9007,33 @@
     {
      "id": "v0",
      "img": "review_imgs/eabwar1/v0.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.765,
-     "pose": 0.105,
-     "bird": 0.78
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.766,
+     "pose": 0.126,
+     "bird": 0.868
     },
     {
      "id": "v1",
      "img": "review_imgs/eabwar1/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.753,
-     "pose": 0.158,
-     "bird": 0.66
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.793,
+     "pose": 0.095,
+     "bird": 0.708
     },
     {
      "id": "v2",
      "img": "review_imgs/eabwar1/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.718,
-     "pose": 0.074,
-     "bird": 0.516
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.768,
+     "pose": 0.089,
+     "bird": 0.526
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "eaowar2": {
    "name": "Eastern Orphean Warbler",
@@ -9050,24 +9050,33 @@
     {
      "id": "v0",
      "img": "review_imgs/eaowar2/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
+     "seed": 1020,
+     "strength": 0.6,
      "sim": 0.753,
-     "pose": 0.215,
-     "bird": 0.705
+     "pose": 0.431,
+     "bird": 0.689
     },
     {
      "id": "v1",
      "img": "review_imgs/eaowar2/v1.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.715,
-     "pose": 0.264,
-     "bird": 0.539
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.742,
+     "pose": 0.189,
+     "bird": 0.77
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eaowar2/v2.png",
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.765,
+     "pose": 0.412,
+     "bird": 0.473
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "euptit1": {
    "name": "Eurasian Penduline-Tit",
