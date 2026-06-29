@@ -15753,9 +15753,9 @@
    "name": "Sedge Warbler",
    "sci": "Acrocephalus schoenobaenus",
    "family": "Reed Warblers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "badref",
    "before": "review_imgs/sedwar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23750451/320",
+   "ref": "review_imgs/sedwar1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Streaky brown warbler with bold creamy-white supercilium and darker crown; warm rufous unstreaked rump, streaked back, plain buff underparts. Pointed dark bill, pinkish legs.",
@@ -15764,74 +15764,75 @@
     {
      "id": "v0",
      "img": "review_imgs/sedwar1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.848,
-     "pose": 0.321,
-     "bird": 0.789
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.834,
+     "pose": 0.244,
+     "bird": 0.861
     },
     {
      "id": "v1",
      "img": "review_imgs/sedwar1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.779,
-     "pose": 0.335,
-     "bird": 0.793
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.728,
+     "pose": 0.343,
+     "bird": 0.861
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sedwar1/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.782,
+     "pose": 0.392,
+     "bird": 0.498
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "semfly1": {
    "name": "Semicollared Flycatcher",
    "sci": "Ficedula semitorquata",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/semfly1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/25647511/320",
+   "ref": "review_imgs/semfly1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small black-and-white flycatcher; male has black upperparts, white underparts, large white wing patch, white forehead spots and a narrow half white neck collar. Black bill and legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/semfly1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.926,
-     "pose": 0.246,
-     "bird": 0.675
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.914,
+     "pose": 0.309,
+     "bird": 0.757
     },
     {
      "id": "v1",
      "img": "review_imgs/semfly1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.911,
-     "pose": 0.269,
-     "bird": 0.443
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/semfly1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.915,
-     "pose": 0.112,
-     "bird": 0.491
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.917,
+     "pose": 0.235,
+     "bird": 0.585
     }
    ],
-   "id": "Small black-and-white flycatcher; male has black upperparts, white underparts, large white wing patch, white forehead spots and a narrow half white neck collar. Black bill and legs.",
-   "pending": true
+   "reviewed": false,
+   "pending": false
   },
   "sheowl": {
    "name": "Short-eared Owl",
    "sci": "Asio flammeus",
    "family": "Typical Owls",
-   "reason": "pick-keep-regen2",
+   "reason": "badref",
    "before": "review_imgs/sheowl/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35565681/320",
+   "ref": "review_imgs/sheowl/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Medium pale buff-brown owl boldly streaked dark; rounded facial disc with piercing yellow eyes ringed black, short ear tufts. Long wings showing dark wrist patches. Feathered legs.",
@@ -15840,24 +15841,33 @@
     {
      "id": "v0",
      "img": "review_imgs/sheowl/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.941,
-     "pose": 0.424,
-     "bird": 0.418
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.821,
+     "pose": 0.598,
+     "bird": 0.817
     },
     {
      "id": "v1",
      "img": "review_imgs/sheowl/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.904,
-     "pose": 0.246,
-     "bird": 0.516
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.826,
+     "pose": 0.449,
+     "bird": 0.829
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sheowl/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.751,
+     "pose": 0.386,
+     "bird": 0.362
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "shteag1": {
    "name": "Short-toed Snake-Eagle",
@@ -15865,7 +15875,7 @@
    "family": "Hawks, Eagles, and Kites",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/shteag1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36323561/320",
+   "ref": "review_imgs/shteag1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Large pale eagle, greyish-brown above, white below; broad dark brown head and upper breast. Striking bright yellow eyes, big rounded head, owl-like face. Long broad wings, pale bluish bill.",
@@ -15874,32 +15884,32 @@
     {
      "id": "v0",
      "img": "review_imgs/shteag1/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.741,
-     "pose": 0.012,
-     "bird": 0.389
+     "sim": 0.751,
+     "pose": 0.263,
+     "bird": 0.838
     },
     {
      "id": "v1",
      "img": "review_imgs/shteag1/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.751,
-     "pose": 0.008,
-     "bird": 0.322
+     "sim": 0.753,
+     "pose": 0.014,
+     "bird": 0.255
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "shttre1": {
    "name": "Short-toed Treecreeper",
    "sci": "Certhia brachydactyla",
    "family": "Treecreepers",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/shttre1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66036851/320",
+   "ref": "review_imgs/shttre1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small streaky brown bird with curved fine bill and stiff pointed tail; brown white-spotted upperparts, dingy buff-white underparts. Short blurry supercilium, brownish flanks, pale legs.",
@@ -15908,24 +15918,33 @@
     {
      "id": "v0",
      "img": "review_imgs/shttre1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.643,
-     "pose": 0.242,
-     "bird": 0.74
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.738,
+     "pose": 0.21,
+     "bird": 0.798
     },
     {
      "id": "v1",
      "img": "review_imgs/shttre1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.72,
-     "pose": 0.237,
-     "bird": 0.449
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.726,
+     "pose": 0.097,
+     "bird": 0.756
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/shttre1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.759,
+     "pose": 0.129,
+     "bird": 0.083
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "sibjay1": {
    "name": "Siberian Jay",
