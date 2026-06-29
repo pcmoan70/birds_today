@@ -6498,29 +6498,29 @@
     {
      "id": "v0",
      "img": "review_imgs/eutkne1/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.883,
-     "pose": 0.364,
-     "bird": 0.809
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.873,
+     "pose": 0.386,
+     "bird": 0.758
     },
     {
      "id": "v1",
      "img": "review_imgs/eutkne1/v1.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.897,
-     "pose": 0.25,
-     "bird": 0.468
+     "sim": 0.877,
+     "pose": 0.364,
+     "bird": 0.736
     },
     {
      "id": "v2",
      "img": "review_imgs/eutkne1/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.876,
-     "pose": 0.229,
-     "bird": 0.288
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.879,
+     "pose": 0.183,
+     "bird": 0.581
     }
    ],
    "reviewed": false
@@ -6639,20 +6639,20 @@
     {
      "id": "v0",
      "img": "review_imgs/finwhe1/v0.png",
-     "seed": 3010,
+     "seed": 3015,
      "strength": 0.62,
-     "sim": 0.849,
-     "pose": 0.156,
-     "bird": 0.453
+     "sim": 0.839,
+     "pose": 0.253,
+     "bird": 0.562
     },
     {
      "id": "v1",
      "img": "review_imgs/finwhe1/v1.png",
-     "seed": 3011,
+     "seed": 3016,
      "strength": 0.7,
-     "sim": 0.812,
-     "pose": 0.17,
-     "bird": 0.288
+     "sim": 0.81,
+     "pose": 0.19,
+     "bird": 0.218
     }
    ],
    "reviewed": false
@@ -6672,29 +6672,29 @@
     {
      "id": "v0",
      "img": "review_imgs/firecr1/v0.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.851,
-     "pose": 0.259,
-     "bird": 0.784
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.874,
+     "pose": 0.078,
+     "bird": 0.871
     },
     {
      "id": "v1",
      "img": "review_imgs/firecr1/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.85,
-     "pose": 0.058,
-     "bird": 0.921
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.803,
+     "pose": 0.057,
+     "bird": 0.94
     },
     {
      "id": "v2",
      "img": "review_imgs/firecr1/v2.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.85,
-     "pose": 0.068,
-     "bird": 0.834
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.803,
+     "pose": 0.146,
+     "bird": 0.852
     }
    ],
    "reviewed": false
@@ -6813,20 +6813,20 @@
     {
      "id": "v0",
      "img": "review_imgs/garwar1/v0.png",
-     "seed": 3010,
+     "seed": 3015,
      "strength": 0.62,
-     "sim": 0.857,
-     "pose": 0.222,
-     "bird": 0.718
+     "sim": 0.886,
+     "pose": 0.176,
+     "bird": 0.533
     },
     {
      "id": "v1",
      "img": "review_imgs/garwar1/v1.png",
-     "seed": 3011,
+     "seed": 3016,
      "strength": 0.7,
-     "sim": 0.901,
-     "pose": 0.097,
-     "bird": 0.459
+     "sim": 0.851,
+     "pose": 0.088,
+     "bird": 0.674
     }
    ],
    "reviewed": false
@@ -7671,29 +7671,29 @@
     {
      "id": "v0",
      "img": "review_imgs/465888/v0.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.857,
-     "pose": 0.053,
-     "bird": 0.448
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.639,
+     "pose": 0.275,
+     "bird": 0.515
     },
     {
      "id": "v1",
      "img": "review_imgs/465888/v1.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.823,
-     "pose": 0.132,
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.638,
+     "pose": 0.09,
      "bird": 0.29
     },
     {
      "id": "v2",
      "img": "review_imgs/465888/v2.png",
-     "seed": 1020,
+     "seed": 1025,
      "strength": 0.6,
-     "sim": 0.844,
-     "pose": 0.047,
-     "bird": 0.252
+     "sim": 0.709,
+     "pose": 0.058,
+     "bird": 0.113
     }
    ],
    "reviewed": false
