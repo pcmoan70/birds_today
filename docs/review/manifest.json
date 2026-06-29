@@ -7857,7 +7857,7 @@
    "name": "Pale Crag-Martin",
    "sci": "Ptyonoprogne obsoleta",
    "family": "Swallows and Martins",
-   "reason": "bad ref-regen3",
+   "reason": "manual-crop",
    "before": "review_imgs/465888/before.png",
    "ref": "review_imgs/465888/ref.jpg",
    "photo": "review_imgs/465888/photo.jpg",
@@ -7869,34 +7869,34 @@
     {
      "id": "v0",
      "img": "review_imgs/465888/v0.png",
-     "seed": 1030,
-     "strength": 0.6,
-     "sim": 0.791,
-     "pose": 0.078,
-     "bird": 0.616
+     "seed": 1036,
+     "strength": 0.68,
+     "sim": 0.794,
+     "pose": 0.054,
+     "bird": 0.52
     },
     {
      "id": "v1",
      "img": "review_imgs/465888/v1.png",
-     "seed": 1031,
-     "strength": 0.68,
-     "sim": 0.797,
-     "pose": 0.04,
-     "bird": 0.296
+     "seed": 1035,
+     "strength": 0.6,
+     "sim": 0.819,
+     "pose": 0.051,
+     "bird": 0.347
     },
     {
      "id": "v2",
      "img": "review_imgs/465888/v2.png",
-     "seed": 1032,
+     "seed": 1037,
      "strength": 0.74,
-     "sim": 0.588,
-     "pose": 0.09,
-     "bird": 0.248
+     "sim": 0.81,
+     "pose": 0.07,
+     "bird": 0.271
     }
    ],
-   "gen": 1782760408,
+   "gen": 1782776325,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "atlfly1": {
    "name": "Atlas Flycatcher",
@@ -8076,7 +8076,7 @@
    "name": "Brambling",
    "sci": "Fringilla montifringilla",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "not good-regen3",
+   "reason": "manual-crop",
    "before": "review_imgs/brambl/before.png",
    "ref": "review_imgs/brambl/ref.jpg",
    "photo": "review_imgs/brambl/photo.jpg",
@@ -8088,34 +8088,34 @@
     {
      "id": "v0",
      "img": "review_imgs/brambl/v0.png",
-     "seed": 1030,
-     "strength": 0.6,
-     "sim": 0.929,
-     "pose": 0.101,
-     "bird": 0.755
+     "seed": 1036,
+     "strength": 0.68,
+     "sim": 0.908,
+     "pose": 0.103,
+     "bird": 0.695
     },
     {
      "id": "v1",
      "img": "review_imgs/brambl/v1.png",
-     "seed": 1031,
-     "strength": 0.68,
-     "sim": 0.907,
-     "pose": 0.148,
-     "bird": 0.742
+     "seed": 1035,
+     "strength": 0.6,
+     "sim": 0.904,
+     "pose": 0.163,
+     "bird": 0.605
     },
     {
      "id": "v2",
      "img": "review_imgs/brambl/v2.png",
-     "seed": 1032,
+     "seed": 1037,
      "strength": 0.74,
-     "sim": 0.807,
-     "pose": 0.129,
-     "bird": 0.87
+     "sim": 0.915,
+     "pose": 0.1,
+     "bird": 0.54
     }
    ],
-   "gen": 1782764352,
+   "gen": 1782776865,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "bripet": {
    "name": "European Storm-Petrel",
@@ -8280,9 +8280,10 @@
    "name": "Collared Pratincole",
    "sci": "Glareola pratincola",
    "family": "Pratincoles and Coursers",
-   "reason": "pick-keep-regen2",
+   "reason": "manual-crop",
    "before": "review_imgs/colpra/before.png",
    "ref": "review_imgs/colpra/ref.jpg",
+   "photo": "review_imgs/colpra/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim tern-like wader, sandy-brown above and on the breast with a black-bordered creamy throat patch, white belly, and deeply forked tail. Chestnut underwing-coverts, red-based dark bill, short dark legs. A thin black line borders the creamy throat, curving back from the bill below the eye.",
@@ -8291,25 +8292,34 @@
     {
      "id": "v0",
      "img": "review_imgs/colpra/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.89,
-     "pose": 0.233,
-     "bird": 0.498
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.846,
+     "pose": 0.291,
+     "bird": 0.726
     },
     {
      "id": "v1",
      "img": "review_imgs/colpra/v1.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.895,
-     "pose": 0.186,
-     "bird": 0.389
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.854,
+     "pose": 0.118,
+     "bird": 0.574
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/colpra/v2.png",
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.858,
+     "pose": 0.134,
+     "bird": 0.37
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/colpra/photo.jpg",
-   "pending": true
+   "gen": 1782777006,
+   "reviewed": false,
+   "pending": false
   },
   "comchi1": {
    "name": "Common Chiffchaff",
@@ -10769,9 +10779,10 @@
    "name": "Bearded Vulture",
    "sci": "Gypaetus barbatus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "none-good",
+   "reason": "manual-crop",
    "before": "review_imgs/lammer1/before.png",
    "ref": "review_imgs/lammer1/ref.jpg",
+   "photo": "review_imgs/lammer1/photo.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
    "id": "Huge slender vulture with a small head; pale creamy-orange head, neck and underparts contrasting with dark slate-grey wings and back. Black mask and bristly 'beard' below the bill, red eye-ring. Long narrow pointed wings and long wedge-shaped tail.",
@@ -10780,34 +10791,34 @@
     {
      "id": "v0",
      "img": "review_imgs/lammer1/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.836,
-     "pose": 0.401,
-     "bird": 0.651
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.686,
+     "pose": 0.517,
+     "bird": 0.831
     },
     {
      "id": "v1",
      "img": "review_imgs/lammer1/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.822,
-     "pose": 0.275,
-     "bird": 0.663
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.681,
+     "pose": 0.316,
+     "bird": 0.447
     },
     {
      "id": "v2",
      "img": "review_imgs/lammer1/v2.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.803,
-     "pose": 0.446,
-     "bird": 0.454
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.64,
+     "pose": 0.125,
+     "bird": 0.224
     }
    ],
+   "gen": 1782776724,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/lammer1/photo.jpg"
+   "pending": false
   },
   "lanwar": {
    "name": "Lanceolated Warbler",
@@ -11557,9 +11568,10 @@
    "name": "Barolo Shearwater",
    "sci": "Puffinus baroli",
    "family": "Shearwaters and Petrels",
-   "reason": "none-good",
+   "reason": "manual-crop",
    "before": "review_imgs/litshe1/before.png",
    "ref": "review_imgs/litshe1/ref.jpg",
+   "photo": "review_imgs/litshe1/photo.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
    "id": "Small black-and-white shearwater with blackish upperparts and clean white underparts, white face extending above the eye, and white undertail-coverts. Thin dark bill, bluish legs. Compact, fast-fluttering build; black-capped appearance with white surrounds.",
@@ -11568,25 +11580,16 @@
     {
      "id": "v0",
      "img": "review_imgs/litshe1/v0.png",
-     "seed": 1016,
+     "seed": 1026,
      "strength": 0.68,
-     "sim": 0.674,
-     "pose": 0.125,
-     "bird": 0.735
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/litshe1/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.673,
-     "pose": 0.183,
-     "bird": 0.548
+     "sim": 0.691,
+     "pose": 0.014,
+     "bird": 0.883
     }
    ],
+   "gen": 1782776591,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/litshe1/photo.jpg"
+   "pending": false
   },
   "litsti": {
    "name": "Little Stint",
@@ -20029,14 +20032,9 @@
   }
  },
  "queued": [
-  "465888",
-  "balshe1",
-  "brambl",
   "bripet",
-  "colpra",
   "comcuc",
   "comeid",
-  "commer",
   "commoo3",
   "comred2",
   "cypwar1",
@@ -20055,10 +20053,8 @@
   "horgre",
   "ibechi2",
   "jacsni",
-  "lammer1",
   "leskes1",
   "levwoo1",
-  "litshe1",
   "loeowl",
   "lottit1",
   "marwar1",
