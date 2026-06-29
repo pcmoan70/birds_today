@@ -183,3 +183,18 @@ Tasks:
 - [ ] Seed coverage backlog as priority-10 queue entries (replaces --all).
 - [ ] Update `post_batch_apply.sh`: apply_choices (enqueues) → run worker.
 - [ ] Gitignore `gen_queue.json`.
+
+## Feet visibility (family-level feet descriptions)
+- [x] Add `scripts/feet_features.json`: family (sci) -> characteristic legs/feet
+      morphology (webbed ducks/gulls/loons; talons raptors/owls; long wading
+      legs sandpipers/herons; zygodactyl woodpeckers/parrots/cuckoos; lobed
+      toes grebes/coots; fine perching feet warblers/finches; `_default`).
+- [x] `improved_prompt()` injects the family feet clause after id_features, so
+      feet render plausibly even when the reference photo hides them.
+- [x] Restart worker (kill uv child + launcher, relaunch) so the 82 queued
+      feedback jobs regenerate with the feet clause. Draining continuously.
+- [x] Also: review page can now unselect a pick (toggle) + "Clear picks" button.
+
+Review: feet are now anchored per family in every prompt; per-species id_features
+still layer on specifics. No CLIP feet-detection added (reliability uncertain) —
+the description-based approach the user chose is deterministic and editable.

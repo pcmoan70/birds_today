@@ -1,0 +1,880 @@
+{
+ "465888": {
+  "badRef": true,
+  "noneGood": true
+ },
+ "afbtit2": "v2",
+ "barpet": "v2",
+ "afrcha1": "v2",
+ "alepar2": "v2",
+ "alpacc1": "v0",
+ "alpswi1": "v0",
+ "arcloo": "v2",
+ "arcter": "v2",
+ "arcwar1": "v0",
+ "azwmag3": "v1",
+ "bahgoo": "v2",
+ "baicra1": "v0",
+ "banswa": "v0",
+ "barpar2": "v2",
+ "barswa": "v0",
+ "barwar1": "v1",
+ "batgod": "v1",
+ "bbspet1": "v0",
+ "bcbeat1": "v2",
+ "bcnher": "v0",
+ "bearee1": "v1",
+ "bkbplo": "v2",
+ "bkewhe1": "v0",
+ "bkewhe2": {
+  "choice": "v0",
+  "note": "V0, but eye should move a tad back"
+ },
+ "bkhgul": "v0",
+ "bklkit": {
+  "choice": "v1",
+  "note": "V1 but, The face should be more friendly lookin"
+ },
+ "bkskit1": "v2",
+ "bkwsti": "v1",
+ "blackc1": "v1",
+ "blagro1": "v1",
+ "blakit1": "v2",
+ "blared1": "v0",
+ "blawhe1": "v1",
+ "blawoo1": "v1",
+ "blbsan1": "v0",
+ "blkfra": "v0",
+ "blkgui": "v0",
+ "blksco1": "v2",
+ "blrwar1": "v0",
+ "blutit": "v2",
+ "bohwax": "v1",
+ "boneag2": "v1",
+ "booeag1": "v0",
+ "borowl": {
+  "note": "Eyes should be neutral in expression. Not angry maybe more happy"
+ },
+ "brant": {
+  "choice": "v2",
+  "note": "Feet missing"
+ },
+ "brbsan": {
+  "choice": "v2",
+  "note": "Darker tan color, broader tip of beak"
+ },
+ "brnowl": "v1",
+ "budger": "v1",
+ "burthr": "v1",
+ "cangoo": "v1",
+ "casgul2": "v1",
+ "caster1": "v0",
+ "cetwar1": "v2",
+ "chifla1": "v0",
+ "chiwig1": "v2",
+ "citwag": "v0",
+ "coatit2": {
+  "choice": "v1",
+  "note": "Should have white in name. Proportions of small bird(larger head)"
+ },
+ "cockat": "v2",
+ "combuz1": "v1",
+ "comcha": {
+  "choice": "v1",
+  "note": "Placement of claws off"
+ },
+ "comcra": "v0",
+ "comloo": "v1",
+ "commyn": "v1",
+ "comnig1": "v1",
+ "compea": "v1",
+ "compoc": "v2",
+ "comrav": "v2",
+ "comshe": "v2",
+ "comter": "v2",
+ "corbun1": "v0",
+ "corcra": "v0",
+ "corfin1": {
+  "note": "The white stripe across wing should not be there"
+ },
+ "corplo": "v1",
+ "cowpig1": "v0",
+ "crelar1": "v0",
+ "cretit2": "v2",
+ "crwfin2": "v1",
+ "cypwhe1": "v1",
+ "darwar1": "v2",
+ "desfin2": "v0",
+ "desspa1": "v0",
+ "deswhe1": "v1",
+ "diadov1": "v0",
+ "dunnoc1": "v0",
+ "duplar1": "v1",
+ "eargre": "v1",
+ "easwar1": "v0",
+ "egygoo": "v1",
+ "egyvul1": "v1",
+ "elefal1": "v1",
+ "eucdov": "v2",
+ "eueowl1": {
+  "choice": "v2",
+  "note": "V2 but not double horns"
+ },
+ "eugwoo2": {
+  "note": "More da"
+ },
+ "eupowl1": "v1",
+ "eurbla": "v2",
+ "eurbul": "v0",
+ "eurcoo": "v1",
+ "eurcrm1": "v1",
+ "eurcur": {
+  "choice": "v0",
+  "note": "Too long beak"
+ },
+ "eurdot": "v0",
+ "eurhob": "v0",
+ "eurlin1": "v0",
+ "eurnut2": "v1",
+ "euroys1": "v2",
+ "eursis": "v0",
+ "eurwar1": "v1",
+ "eutkne1": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "eutspa": {
+  "choice": "v0",
+  "satisfied": true,
+  "note": "Missing black spot on cheek"
+ },
+ "ferduc": {
+  "choice": "v1",
+  "note": "Hedshape off"
+ },
+ "fieldf": {
+  "choice": "v2",
+  "note": "Blak Spots on underpants should be paler and slightly denser. Headcoloring off"
+ },
+ "finwhe1": {
+  "choice": "v2",
+  "badRef": true
+ },
+ "firecr1": {
+  "badRef": true,
+  "noneGood": true,
+  "note": "Shape and head colors,  bands on wings"
+ },
+ "fuwduc": {
+  "note": "White streak should be below"
+ },
+ "gadwal": {
+  "choice": "v1",
+  "note": "Make sure to show whole bird."
+ },
+ "gargan": {
+  "choice": "v1",
+  "note": "Patterns on flanks off"
+ },
+ "garwar1": {
+  "choice": "v0",
+  "badRef": true,
+  "note": "No wing bands,"
+ },
+ "gbbgul": {
+  "choice": "v2",
+  "satisfied": true
+ },
+ "glagul": {
+  "choice": "v1",
+  "note": "No black on wings nor tail"
+ },
+ "gloibi": "v0",
+ "gnwtea": {
+  "noneGood": true
+ },
+ "goldcr1": {
+  "choice": "v0",
+  "note": "Too much gray in face"
+ },
+ "goleag": {
+  "choice": "v0",
+  "note": "Tail seems off"
+ },
+ "gragoo": {
+  "choice": "v0",
+  "note": "Bump on back must go"
+ },
+ "graher1": {
+  "choice": "v0",
+  "satisfied": true
+ },
+ "grapri1": {
+  "choice": "v2",
+  "badRef": true
+ },
+ "grcgre1": {
+  "choice": "v1",
+  "note": "Head color improvement"
+ },
+ "grebit1": {
+  "note": "Streaking not dots overall shape"
+ },
+ "grebus1": {
+  "noneGood": true
+ },
+ "grecor": "v0",
+ "greegr": {
+  "note": "Need to see legs"
+ },
+ "grefla3": {
+  "choice": "v0",
+  "satisfied": true
+ },
+ "gresca": {
+  "note": "Coloring of body and head shape off"
+ },
+ "greshe": {
+  "badRef": true
+ },
+ "gresku1": {
+  "choice": "v0",
+  "note": "Beak too falcon like"
+ },
+ "gresni1": {
+  "choice": "v1",
+  "note": "Face"
+ },
+ "gretit1": {
+  "choice": "v0",
+  "satisfied": true
+ },
+ "grewar3": "v0",
+ "grewhi1": {
+  "noneGood": true,
+  "note": "Headshape and coloring"
+ },
+ "grgowl": "v1",
+ "bargoo": {
+  "choice": "v1",
+  "note": "Dark streak from beak missing. Make sure to show feet"
+ },
+ "atlfly1": {
+  "choice": "v1",
+  "satisfied": true
+ },
+ "balshe1": {
+  "choice": "v1",
+  "badRef": true
+ },
+ "bktgod": {
+  "choice": "v1",
+  "note": "No black on head, bit should have black tip of beak"
+ },
+ "blwpra1": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "boowar1": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "brambl": {
+  "badRef": true,
+  "noneGood": true
+ },
+ "bripet": {
+  "choice": "v0",
+  "badRef": true
+ },
+ "cirbun1": {
+  "noneGood": true
+ },
+ "cogwar1": {
+  "choice": "v1",
+  "note": "No wingbands"
+ },
+ "colfly1": {
+  "noneGood": true
+ },
+ "colpra": {
+  "choice": "v2",
+  "note": "Black stripe below eye slightly longer. No white on chest"
+ },
+ "comchi1": {
+  "choice": "v1",
+  "noneGood": true,
+  "note": "V2 but Less feather features, dark feet, overall shspe. No red or yellow color"
+ },
+ "comcuc": {
+  "choice": "v0",
+  "note": "Beak too massive"
+ },
+ "comeid": {
+  "noneGood": true,
+  "note": "Coloring in face, orientation"
+ },
+ "comgol": {
+  "choice": "v1",
+  "noneGood": true,
+  "note": "Slightly longer body"
+ },
+ "comgre": {
+  "noneGood": true,
+  "note": "Beak slightly upward pointing, show feed"
+ },
+ "commer": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "commoo3": {
+  "badRef": true,
+  "noneGood": true
+ },
+ "commur": {
+  "choice": "v0",
+  "noneGood": true
+ },
+ "comqua1": {
+  "noneGood": true,
+  "note": "Face coloring"
+ },
+ "comred1": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "comred2": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Show full bird"
+ },
+ "comsan": {
+  "noneGood": true,
+  "note": "Feet"
+ },
+ "comsni": {
+  "noneGood": true
+ },
+ "comswi": {
+  "choice": "v1",
+  "noneGood": true,
+  "note": "No other colors but brown black and slightly tanned white"
+ },
+ "crebun2": {
+  "choice": "v1",
+  "noneGood": true,
+  "note": "Head and beak-shape  off, general shape enphasis"
+ },
+ "cursan": {
+  "choice": "v1",
+  "note": "The coloring needs to be more exact"
+ },
+ "cypwar1": {
+  "choice": "v1",
+  "badRef": true,
+  "noneGood": true
+ },
+ "delpri1": {
+  "choice": "v1",
+  "noneGood": true,
+  "note": "Coloring more rough"
+ },
+ "doveki": {
+  "choice": "v1",
+  "badRef": true,
+  "noneGood": true
+ },
+ "dunlin": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Beak shape off, less buff coloring g"
+ },
+ "duswar": {
+  "noneGood": true,
+  "note": "Coloring should be more buff"
+ },
+ "eabwar1": {
+  "choice": "v2",
+  "noneGood": true,
+  "note": "Overall shape needs improvement"
+ },
+ "eaowar2": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "No browns"
+ },
+ "euptit1": "v2",
+ "eurjac": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Less contrast, darker"
+ },
+ "eurjay1": {
+  "noneGood": true,
+  "note": "Coloring off on head"
+ },
+ "eurnig1": {
+  "choice": "v0",
+  "badRef": true,
+  "noneGood": true,
+  "note": "Beak shape,"
+ },
+ "eursco1": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "eurspa1": {
+  "choice": "v0",
+  "badRef": true,
+  "noneGood": true
+ },
+ "grnsan": {
+  "noneGood": true
+ },
+ "grnwar1": {
+  "choice": "v0",
+  "note": "No yellow"
+ },
+ "grnwoo3": "v0",
+ "grrwar1": {
+  "badRef": true,
+  "noneGood": true
+ },
+ "grscuc1": {
+  "choice": "v1",
+  "badRef": true
+ },
+ "grseag1": "v0",
+ "grswoo": "v0",
+ "grwpel1": {
+  "choice": "v1",
+  "satisfied": true
+ },
+ "grypar": {
+  "choice": "v0",
+  "note": "Focus on coloring underpants and head"
+ },
+ "grywag": {
+  "choice": "v2",
+  "note": "Coloring in head must be better"
+ },
+ "gstlar1": {
+  "noneGood": true
+ },
+ "gubter2": "v0",
+ "gwfgoo": {
+  "choice": "v0",
+  "note": "Missing black patches under for adult bird"
+ },
+ "gyfwoo1": {
+  "choice": "v1",
+  "badRef": true
+ },
+ "gyhchi": {
+  "choice": "v1",
+  "note": "Coloring of wing needs improvement"
+ },
+ "gyrfal": {
+  "choice": "v0",
+  "note": "Beard not as contrasting black, rather diffuse  gray. Strong large wingmuscles gives a slightly hunched appearance."
+ },
+ "harduc": {
+  "noneGood": true
+ },
+ "hawfin": {
+  "choice": "v1",
+  "satisfied": true
+ },
+ "hazgro1": {
+  "noneGood": true
+ },
+ "hoocro1": {
+  "choice": "v0",
+  "satisfied": true
+ },
+ "hoomer": {
+  "choice": "v0",
+  "note": "Must show tail"
+ },
+ "hoopoe": {
+  "choice": "v0",
+  "badRef": true
+ },
+ "houbun3": {
+  "choice": "v0",
+  "note": "Lines in face"
+ },
+ "houspa": {
+  "satisfied": true
+ },
+ "humwar1": {
+  "note": "Make sure feet are included"
+ },
+ "ibechi2": {
+  "noneGood": true,
+  "note": "No yellow in plumage"
+ },
+ "ibgshr1": "v1",
+ "ictwar1": "v1",
+ "impeag1": "v0",
+ "itaspa1": "v0",
+ "ivogul": "v1",
+ "jacsni": {
+  "badRef": true,
+  "noneGood": true
+ },
+ "kenplo1": "v0",
+ "kineid": {
+  "noneGood": true
+ },
+ "krunut1": "v1",
+ "lammer1": {
+  "badRef": true,
+  "noneGood": true
+ },
+ "lanwar": "v0",
+ "laplon": {
+  "choice": "v0",
+  "note": "The feet must show"
+ },
+ "laudov1": "v0",
+ "lbbgul": "v0",
+ "lcspet": {
+  "choice": "v0",
+  "satisfied": true
+ },
+ "legshr2": "v0",
+ "leseag1": "v0",
+ "leskes1": {
+  "badRef": true
+ },
+ "leswhi4": {
+  "noneGood": true
+ },
+ "lesyel": "v0",
+ "levspa1": "v2",
+ "levwoo1": {
+  "badRef": true
+ },
+ "litshe1": {
+  "badRef": true,
+  "noneGood": true
+ },
+ "lwfgoo": {
+  "choice": "v1",
+  "satisfied": true
+ },
+ "mallar3": {
+  "note": "Make sure to draw whole bird"
+ },
+ "manduc": {
+  "choice": "v1",
+  "satisfied": true
+ },
+ "manshe": {
+  "choice": "v0",
+  "note": "Beak shape needs fix"
+ },
+ "marsan": "v2",
+ "martea1": {
+  "satisfied": true
+ },
+ "marwar1": {
+  "badRef": true
+ },
+ "medshe1": {
+  "choice": "v2",
+  "note": "Bill shape is off"
+ },
+ "mewgul": {
+  "badRef": true
+ },
+ "misthr1": {
+  "note": "Neck shorter"
+ },
+ "monhar1": {
+  "choice": "v2",
+  "note": "Improve the head shape and proportion"
+ },
+ "monpar1": "v1",
+ "mouchi2": {
+  "choice": "v1",
+  "note": "Not so contrasting feathers"
+ },
+ "moured1": "v1",
+ "mouwar1": {
+  "choice": "v0",
+  "noneGood": true
+ },
+ "mouwhe2": "v1",
+ "musduc": "v2",
+ "mutswa": "v1",
+ "namdov1": "v0",
+ "nohowl": {
+  "choice": "v1",
+  "note": "The eyes should not be frames so strongly"
+ },
+ "norful": {
+  "note": "The beak needs serious work"
+ },
+ "norgan": "v1",
+ "norgos1": {
+  "choice": "v1",
+  "badRef": true,
+  "noneGood": true
+ },
+ "norhar1": {
+  "choice": "v0",
+  "note": "Smaller beak, less falcon like head"
+ },
+ "norlap": {
+  "note": "Coloring in face is off"
+ },
+ "norpin": {
+  "note": "The pintail has some very long tail feathers"
+ },
+ "norshr1": "v0",
+ "norwhe": {
+  "choice": "v1",
+  "note": "The black around eyes should reach back just into the gray"
+ },
+ "oltwar1": "v0",
+ "ortbun1": "v0",
+ "ortdov": "v2",
+ "padwar1": {
+  "note": "Less contrasting feather, tan color"
+ },
+ "reebun": "v2",
+ "rekcoo1": "v0",
+ "ricpip1": "v0",
+ "rinduc": {
+  "choice": "v2",
+  "note": "V2 ok, but white detail on beak missing"
+ },
+ "rinouz1": "v0",
+ "rocbun1": "v0",
+ "rocpet1": {
+  "choice": "v0",
+  "satisfied": true
+ },
+ "rocpig": {
+  "choice": "v2",
+  "satisfied": true
+ },
+ "rocpip1": {
+  "choice": "v1",
+  "note": "head shape needs a little adjusting"
+ },
+ "rocpta1": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Not so regular patterning, camouflage effecr"
+ },
+ "rolhaw": {
+  "choice": "v0",
+  "satisfied": true
+ },
+ "rook1": {
+  "choice": "v2",
+  "noneGood": true,
+  "note": "Be careful to get face right"
+ },
+ "rorpar": {
+  "satisfied": true
+ },
+ "rosgoo": {
+  "choice": "v0",
+  "note": "Coloring of beak"
+ },
+ "rosgul": {
+  "choice": "v1",
+  "note": "Slightly stronger pink coloring"
+ },
+ "rossta2": {
+  "choice": "v1",
+  "satisfied": true
+ },
+ "rtrthr1": {
+  "choice": "v1",
+  "note": "No neck ring"
+ },
+ "rudduc": {
+  "satisfied": true
+ },
+ "rudshe": {
+  "note": "Make sure to show whole feet"
+ },
+ "rudtur": {
+  "note": "Facial markings are off"
+ },
+ "ruewar1": {
+  "choice": "v1",
+  "note": "Make feet in normal position"
+ },
+ "ruff": {
+  "note": "Note ruff males have many different coloring during breeding season"
+ },
+ "rusbun": {
+  "choice": "v0",
+  "satisfied": true
+ },
+ "rutscr1": "v1",
+ "sabgul": {
+  "choice": "v0",
+  "note": "Feet must show"
+ },
+ "sacibi2": "v0",
+ "sander": "v0",
+ "santer1": {
+  "badRef": true
+ },
+ "sarwar1": "v1",
+ "savwar1": "v0",
+ "scoshe1": "v0",
+ "sedwar1": {
+  "badRef": true,
+  "note": "Head shape more triangular, no wing bar"
+ },
+ "semfly1": {
+  "choice": "v1",
+  "badRef": true
+ },
+ "sheowl": {
+  "badRef": true
+ },
+ "shteag1": {
+  "choice": "v1",
+  "note": "More speckled underwings, tail end dark"
+ },
+ "shttre1": {
+  "noneGood": true
+ },
+ "sibjay1": {
+  "choice": "v0",
+  "note": "No colar, should be smooth transition"
+ },
+ "skylar": "v1",
+ "slbgul1": {
+  "id": "Pale elegant gull with long sloping forehead and long slender unicolor dark-red bill; pale grey back, white head, white underparts often pink-flushed. Pale eye, orange-red legs."
+ },
+ "smew": {
+  "choice": "v1",
+  "badRef": true
+ },
+ "snobun": {
+  "choice": "v0",
+  "satisfied": true
+ },
+ "snogoo": {
+  "choice": "v0",
+  "note": "Show feet"
+ },
+ "snoowl1": {
+  "badRef": true,
+  "note": "Whole bird, feet must show"
+ },
+ "somtit3": {
+  "choice": "v1",
+  "note": "Feet..."
+ },
+ "sonthr1": {
+  "note": "Current fine, but dots are off"
+ },
+ "sooshe": {
+  "choice": "v0",
+  "note": "Beak shape"
+ },
+ "spaeag1": "v1",
+ "spaspa1": "v0",
+ "spewar2": "v1",
+ "spocra1": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "spofly1": {
+  "noneGood": true
+ },
+ "spored": {
+  "choice": "v0",
+  "note": "Feet"
+ },
+ "sposta1": {
+  "choice": "v1",
+  "note": "Beak not curved"
+ },
+ "spwlap1": {
+  "choice": "v2",
+  "satisfied": true
+ },
+ "squher1": {
+  "choice": "v0",
+  "note": "Make sure dark tip of beak shows"
+ },
+ "steeag1": {
+  "note": "Coloring should have some lighter/orange areas"
+ },
+ "steeid": {
+  "noneGood": true
+ },
+ "stodov1": {
+  "note": "Fix beak color"
+ },
+ "stonec4": {
+  "choice": "v2",
+  "satisfied": true
+ },
+ "subwar8": {
+  "choice": "v2",
+  "badRef": true
+ },
+ "swagoo1": {
+  "badRef": true
+ },
+ "taibeg1": "v2",
+ "tawpip1": "v1",
+ "tunswa": "v0",
+ "whbwoo1": "v2",
+ "whimbr5": {
+  "choice": "v1",
+  "note": "Make sure to show feet"
+ },
+ "winwre4": {
+  "choice": "v2",
+  "note": "No so smooth coloring"
+ },
+ "woosan": {
+  "badRef": true
+ },
+ "wooshr1": "v0",
+ "woowar": {
+  "choice": "v0",
+  "note": "Paler yellow on chest,  feet placed underneath fully showing"
+ },
+ "y00427": {
+  "choice": "v2",
+  "satisfied": true
+ },
+ "y00478": "v1",
+ "yebcho1": {
+  "choice": "v0",
+  "note": "Make sure feet show in full"
+ },
+ "yebloo": {
+  "choice": "v2",
+  "satisfied": true
+ },
+ "yebwar3": {
+  "note": "Body shape is not right, must be slimmer"
+ },
+ "yecbis": {
+  "choice": "v0",
+  "satisfied": true
+ },
+ "yellow2": {
+  "choice": "v0",
+  "note": "Make sure feet show well"
+ },
+ "zitcis1": {
+  "badRef": true
+ }
+}

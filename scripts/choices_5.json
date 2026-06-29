@@ -1,0 +1,698 @@
+{
+ "465888": {
+  "choice": "v0",
+  "noneGood": true
+ },
+ "afbtit2": "v2",
+ "barpet": "v2",
+ "afrcha1": "v2",
+ "alepar2": "v2",
+ "alpacc1": "v0",
+ "alpswi1": "v0",
+ "arcloo": "v2",
+ "arcter": "v2",
+ "arcwar1": "v0",
+ "atlpuf": "v0",
+ "audgul1": "v0",
+ "azwmag3": "v1",
+ "bahgoo": "v2",
+ "baicra1": "v0",
+ "banswa": "v0",
+ "barpar2": "v2",
+ "barswa": "v0",
+ "barwar1": "v1",
+ "batgod": "v1",
+ "bbspet1": "v0",
+ "bcbeat1": "v2",
+ "bcnher": "v0",
+ "bearee1": "v1",
+ "bkbplo": "v2",
+ "bkewhe1": "v0",
+ "bkewhe2": {
+  "choice": "v0",
+  "note": "V0, but eye should move a tad back"
+ },
+ "bkhgul": "v0",
+ "bklkit": {
+  "choice": "v1",
+  "note": "V1 but, The face should be more friendly lookin"
+ },
+ "bkskit1": "v2",
+ "bkwsti": "v1",
+ "blackc1": "v1",
+ "blagro1": "v1",
+ "blakit1": "v2",
+ "blared1": "v0",
+ "blasto1": "v0",
+ "blawhe1": "v1",
+ "blawoo1": "v1",
+ "blbsan1": "v0",
+ "blhbun1": "v0",
+ "blkfra": "v0",
+ "blkgui": "v0",
+ "blksco1": "v2",
+ "blkswa": "v0",
+ "blkter": "v0",
+ "blrwar1": "v0",
+ "blueth": "v0",
+ "blutit": "v2",
+ "bohwax": "v1",
+ "boneag2": "v1",
+ "booeag1": "v0",
+ "borowl": {
+  "choice": "v0",
+  "note": "Eyes should be neutral in expression. Not angry maybe more happy"
+ },
+ "brant": {
+  "choice": "v2",
+  "note": "Feet missing"
+ },
+ "brbsan": {
+  "choice": "v2",
+  "note": "Darker tan color, broader tip of beak"
+ },
+ "brnowl": "v1",
+ "brnrav1": "v0",
+ "budger": "v1",
+ "bulpet": "v0",
+ "burthr": "v1",
+ "cacgoo1": "v0",
+ "callar1": "v0",
+ "cangoo": "v1",
+ "casgul2": "v1",
+ "caster1": "v0",
+ "categr1": "v0",
+ "cetwar1": "v2",
+ "chifla1": "v0",
+ "chiwig1": "v2",
+ "cinvul1": "v0",
+ "citfin1": "v0",
+ "citwag": "v0",
+ "coatit2": {
+  "choice": "v1",
+  "note": "Should have white in name. Proportions of small bird(larger head)"
+ },
+ "cockat": "v2",
+ "combul2": "v0",
+ "combuz1": "v1",
+ "comcan": "v0",
+ "comcha": {
+  "choice": "v1",
+  "note": "Placement of claws off"
+ },
+ "comcra": "v0",
+ "comhom1": "v0",
+ "comkin1": "v0",
+ "comloo": "v1",
+ "commyn": "v1",
+ "comnig1": "v1",
+ "compea": "v1",
+ "compoc": "v2",
+ "comrav": "v2",
+ "comros": "v0",
+ "comshe": "v2",
+ "comter": "v2",
+ "comwax": "v0",
+ "corbun1": "v0",
+ "corcra": "v0",
+ "corfin1": {
+  "choice": "v0",
+  "note": "The white stripe across wing should not be there"
+ },
+ "corplo": "v1",
+ "corshe1": "v0",
+ "cowpig1": "v0",
+ "crelar1": "v0",
+ "cretit2": "v2",
+ "crwfin2": "v1",
+ "cypwhe1": "v1",
+ "dalpel1": "v0",
+ "darwar1": "v2",
+ "desfin2": "v0",
+ "desspa1": "v0",
+ "deswhe1": "v1",
+ "diadov1": "v0",
+ "dunnoc1": "v0",
+ "duplar1": "v1",
+ "eaowar1": "v0",
+ "eargre": "v1",
+ "easwar1": "v0",
+ "eaywag1": "v0",
+ "egygoo": "v1",
+ "egyvul1": "v1",
+ "elefal1": "v1",
+ "ettwoo1": "v0",
+ "eubeat1": "v0",
+ "eucdov": "v2",
+ "eueowl1": {
+  "choice": "v2",
+  "note": "V2 but not double horns"
+ },
+ "eugori2": "v0",
+ "eugplo": "v0",
+ "eugwoo2": {
+  "choice": "v0",
+  "note": "More da"
+ },
+ "euhbuz1": "v0",
+ "euhgul1": "v0",
+ "eupfly1": "v0",
+ "eupowl1": "v1",
+ "eurbla": "v2",
+ "eurbul": "v0",
+ "eurcoo": "v1",
+ "eurcrm1": "v1",
+ "eurcur": {
+  "choice": "v0",
+  "note": "Too long beak"
+ },
+ "eurdot": "v0",
+ "eurgol1": "v0",
+ "eurgre1": "v0",
+ "eurgri1": "v0",
+ "eurhob": "v0",
+ "eurkes": "v0",
+ "eurlin1": "v0",
+ "eurmag1": "v0",
+ "eurnut2": "v1",
+ "eurnut3": "v0",
+ "euroys1": "v2",
+ "eurrob1": "v0",
+ "eurrol1": "v0",
+ "eurser1": "v0",
+ "eursha1": "v0",
+ "eursis": "v0",
+ "eurspo1": "v0",
+ "eursta": "v0",
+ "eurtre1": "v0",
+ "eurwar1": "v1",
+ "eurwar2": "v0",
+ "eurwig": "v0",
+ "eurwoo": "v0",
+ "eurwry": "v0",
+ "eutdov": "v0",
+ "eutkne1": {
+  "choice": "v0",
+  "noneGood": true
+ },
+ "eutspa": {
+  "choice": "v0",
+  "note": "Missing black spot on cheek"
+ },
+ "ferduc": {
+  "choice": "v1",
+  "note": "Hedshape off"
+ },
+ "fieldf": {
+  "choice": "v2",
+  "note": "Blak Spots on underpants should be paler and slightly denser"
+ },
+ "finwhe1": {
+  "choice": "v2",
+  "badRef": true
+ },
+ "firecr1": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Shape and head colors,  bands on wings"
+ },
+ "fuwduc": {
+  "choice": "v0",
+  "note": "White streak should be below"
+ },
+ "gadwal": {
+  "choice": "v1",
+  "note": "Make sure to show whole bird."
+ },
+ "gargan": "v1",
+ "garwar1": {
+  "choice": "v0",
+  "badRef": true,
+  "note": "No wing bands,"
+ },
+ "gbbgul": "v2",
+ "gbhgul2": "v0",
+ "glagul": "v1",
+ "gloibi": "v0",
+ "gnwtea": "v0",
+ "goldcr1": "v0",
+ "goleag": "v0",
+ "gragoo": {
+  "choice": "v1",
+  "note": "Show feet"
+ },
+ "graher1": "v0",
+ "grapri1": {
+  "choice": "v2",
+  "badRef": true
+ },
+ "grcgre1": "v0",
+ "grebit1": {
+  "choice": "v0",
+  "note": "Streaking not dots overall shape"
+ },
+ "grebus1": "v0",
+ "grecor": "v0",
+ "greegr": "v0",
+ "grefla3": "v0",
+ "gresca": "v0",
+ "greshe": "v0",
+ "gresku1": "v1",
+ "gresni1": "v0",
+ "gretit1": "v0",
+ "grewar3": "v0",
+ "grewhi1": "v0",
+ "grgowl": "v0",
+ "bargoo": {
+  "choice": "v1",
+  "note": "Dark streak from beak missing"
+ },
+ "atlfly1": "v1",
+ "balshe1": {
+  "choice": "v1",
+  "badRef": true
+ },
+ "bktgod": {
+  "choice": "v1",
+  "note": "No black on head, bit should have black tip of beak"
+ },
+ "blwpra1": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "boowar1": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "brambl": {
+  "choice": "v0",
+  "badRef": true,
+  "noneGood": true
+ },
+ "bripet": {
+  "choice": "v0",
+  "badRef": true
+ },
+ "cirbun1": {
+  "choice": "v0",
+  "noneGood": true
+ },
+ "cogwar1": {
+  "choice": "v1",
+  "note": "No wingbands"
+ },
+ "colfly1": {
+  "choice": "v0",
+  "noneGood": true
+ },
+ "colpra": {
+  "choice": "v2",
+  "note": "Black stripe below eye slightly longer. No white on chest"
+ },
+ "comchi1": {
+  "choice": "v2",
+  "noneGood": true,
+  "note": "V2 but Less feather features, dark feet, overall shspe"
+ },
+ "comcuc": {
+  "choice": "v0",
+  "note": "Beak too massive"
+ },
+ "comeid": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Coloring in face, orientation"
+ },
+ "comgol": {
+  "choice": "v1",
+  "noneGood": true,
+  "note": "Slightly longer body"
+ },
+ "comgre": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Beak slightly upward pointing, show feed"
+ },
+ "commer": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "commoo3": {
+  "choice": "v0",
+  "badRef": true,
+  "noneGood": true
+ },
+ "commur": {
+  "choice": "v0",
+  "noneGood": true
+ },
+ "comqua1": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Face coloring"
+ },
+ "comred1": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "comred2": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Show full bird"
+ },
+ "comsan": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Feet"
+ },
+ "comsni": {
+  "choice": "v0",
+  "noneGood": true
+ },
+ "comswi": {
+  "choice": "v1",
+  "noneGood": true,
+  "note": "Less round head, more in line w body"
+ },
+ "crebun2": {
+  "choice": "v1",
+  "noneGood": true,
+  "note": "Head and beak-shape  off, general shape enphasis"
+ },
+ "cursan": {
+  "choice": "v1",
+  "note": "The coloring needs to be more exact"
+ },
+ "cypwar1": {
+  "choice": "v1",
+  "badRef": true,
+  "noneGood": true
+ },
+ "delpri1": {
+  "choice": "v1",
+  "noneGood": true,
+  "note": "Coloring more rough"
+ },
+ "doveki": {
+  "choice": "v1",
+  "badRef": true,
+  "noneGood": true
+ },
+ "dunlin": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Beak shape off, less buff coloring g"
+ },
+ "duswar": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Coloring should be more buff"
+ },
+ "eabwar1": {
+  "choice": "v2",
+  "noneGood": true,
+  "note": "Overall shape needs improvement"
+ },
+ "eaowar2": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "No browns"
+ },
+ "euptit1": "v2",
+ "eurjac": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Less contrast, darker"
+ },
+ "eurjay1": {
+  "choice": "v0",
+  "noneGood": true,
+  "note": "Coloring off on head"
+ },
+ "eurnig1": {
+  "choice": "v0",
+  "badRef": true,
+  "noneGood": true,
+  "note": "Beak shape,"
+ },
+ "eursco1": {
+  "choice": "v1",
+  "noneGood": true
+ },
+ "eurspa1": {
+  "choice": "v2",
+  "badRef": true,
+  "noneGood": true
+ },
+ "grnsan": "v0",
+ "grnwar1": "v0",
+ "grnwoo3": "v0",
+ "grrwar1": "v0",
+ "grscuc1": "v1",
+ "grseag1": "v0",
+ "grswoo": "v0",
+ "grwpel1": "v1",
+ "grypar": {
+  "choice": "v0",
+  "note": "Focus on coloring underpants and head"
+ },
+ "grywag": {
+  "choice": "v2",
+  "note": "Coloring in head must be better"
+ },
+ "gstlar1": "v0",
+ "gubter2": "v0",
+ "gwfgoo": "v0",
+ "gyfwoo1": {
+  "choice": "v0",
+  "badRef": true
+ },
+ "gyhchi": "v0",
+ "gyrfal": "v0",
+ "harduc": "v0",
+ "hawfin": "v0",
+ "hazgro1": "v0",
+ "hoocro1": "v0",
+ "hoomer": "v0",
+ "hoopoe": {
+  "choice": "v0",
+  "badRef": true
+ },
+ "horgre": "v0",
+ "horlar": "v0",
+ "houbun3": "v0",
+ "houspa": "v0",
+ "humwar1": "v0",
+ "ibechi2": "v0",
+ "ibgshr1": "v0",
+ "ictwar1": "v0",
+ "impeag1": "v0",
+ "itaspa1": "v0",
+ "ivogul": "v1",
+ "jacsni": "v0",
+ "kenplo1": "v0",
+ "kineid": "v0",
+ "krunut1": "v0",
+ "lammer1": {
+  "choice": "v0",
+  "badRef": true,
+  "noneGood": true
+ },
+ "lanwar": "v0",
+ "laplon": "v0",
+ "laudov1": "v0",
+ "lbbgul": "v0",
+ "lcspet": "v0",
+ "legshr2": "v0",
+ "leseag1": "v0",
+ "leskes1": "v0",
+ "leswhi4": "v0",
+ "lesyel": "v0",
+ "levspa1": "v2",
+ "levwoo1": "v0",
+ "lirplo": "v0",
+ "litbit1": "v0",
+ "litbun": "v0",
+ "litcra1": "v0",
+ "litegr": "v0",
+ "litgre1": "v0",
+ "litgul": "v0",
+ "litowl1": "v0",
+ "litshe1": {
+  "choice": "v0",
+  "badRef": true,
+  "noneGood": true
+ },
+ "litsti": "v0",
+ "litter1": "v0",
+ "lobdow": "v0",
+ "loeowl": "v0",
+ "lolbuz1": "v0",
+ "lotduc": "v0",
+ "lotjae": "v0",
+ "lottit1": "v0",
+ "lwfgoo": "v1",
+ "mallar3": "v0",
+ "manduc": "v0",
+ "manshe": "v0",
+ "marsan": "v2",
+ "martea1": "v0",
+ "martit2": "v0",
+ "marwar1": "v0",
+ "marwar3": "v0",
+ "masshr1": "v0",
+ "meapip1": "v0",
+ "medgul1": "v0",
+ "medshe1": "v0",
+ "melwar1": "v0",
+ "merlin": "v0",
+ "mewgul": {
+  "choice": "v0",
+  "badRef": true
+ },
+ "misthr1": "v0",
+ "miswoo1": "v0",
+ "monhar1": "v0",
+ "monpar1": "v0",
+ "mouchi2": "v0",
+ "moured1": "v0",
+ "mouwar1": "v0",
+ "mouwhe2": "v0",
+ "mstlar1": "v0",
+ "musduc": "v0",
+ "mutswa": "v0",
+ "namdov1": "v0",
+ "nohowl": "v0",
+ "norful": "v0",
+ "norgan": "v0",
+ "norgos1": {
+  "choice": "v1",
+  "badRef": true,
+  "noneGood": true
+ },
+ "norhar1": "v0",
+ "norlap": "v0",
+ "norpin": "v0",
+ "norsho": "v0",
+ "norshr1": "v0",
+ "norwhe": "v0",
+ "oltwar1": "v0",
+ "ortbun1": "v0",
+ "ortdov": "v0",
+ "osprey": "v0",
+ "padwar1": "v0",
+ "palhar1": "v0",
+ "palroc1": "v0",
+ "palsun2": "v0",
+ "palswi3": "v0",
+ "palwar5": "v0",
+ "parcro2": "v0",
+ "parjae": "v0",
+ "pecsan": "v0",
+ "perfal": "v0",
+ "pieavo1": "v0",
+ "piekin1": "v0",
+ "pifgoo": "v0",
+ "pingro": "v0",
+ "pitsan1": "v0",
+ "pomjae": "v0",
+ "purher1": "v0",
+ "pursan": "v0",
+ "purswa": "v0",
+ "pygcor2": "v0",
+ "radacc2": "v0",
+ "razorb": "v0",
+ "rebcho1": "v0",
+ "rebfly": "v0",
+ "rebgoo1": "v0",
+ "rebmer": "v0",
+ "rebshr1": "v0",
+ "recpoc": "v0",
+ "redava": "v0",
+ "redcro": "v0",
+ "redkit1": "v0",
+ "redkno": "v0",
+ "redpha1": "v0",
+ "redpol1": "v0",
+ "redwin": "v0",
+ "reebun": "v0",
+ "refblu1": "v0",
+ "reffal1": "v0",
+ "rekcoo1": "v0",
+ "relpar1": "v0",
+ "rengre": "v0",
+ "rennig1": "v0",
+ "renpha": "v0",
+ "retloo": "v0",
+ "retpip": "v0",
+ "ricpip1": "v0",
+ "rinduc": "v0",
+ "rinouz1": "v0",
+ "rinphe1": "v0",
+ "rintea1": "v0",
+ "rocbun1": "v0",
+ "rocnut1": "v0",
+ "rocpet1": "v0",
+ "rocpig": "v0",
+ "rocpip1": "v0",
+ "rocpta1": "v0",
+ "rolhaw": "v0",
+ "rook1": "v0",
+ "rorpar": "v0",
+ "rosgoo": "v0",
+ "rosgul": "v0",
+ "rossta2": "v0",
+ "rtrthr1": "v0",
+ "rudduc": "v0",
+ "rudshe": "v0",
+ "rudtur": "v0",
+ "ruewar1": "v0",
+ "ruff": "v0",
+ "rusbun": "v0",
+ "rutscr1": "v0",
+ "sabgul": "v0",
+ "sacibi2": "v0",
+ "sander": "v0",
+ "santer1": "v0",
+ "sarwar1": "v0",
+ "savwar1": "v0",
+ "scoshe1": "v0",
+ "sedwar1": "v0",
+ "semfly1": "v1",
+ "sheowl": "v0",
+ "shteag1": "v0",
+ "shttre1": "v0",
+ "sibjay1": "v0",
+ "skylar": "v1",
+ "slbgul1": "v0",
+ "smew": "v0",
+ "snobun": "v0",
+ "snogoo": "v0",
+ "snoowl1": "v0",
+ "soclap1": "v0",
+ "somtit3": "v0",
+ "sonthr1": "v0",
+ "sooshe": "v0",
+ "spaeag1": "v0",
+ "spaspa1": "v0",
+ "spewar2": "v0",
+ "spocra1": "v1",
+ "spofly1": "v0",
+ "spored": "v0",
+ "sposta1": "v0",
+ "spwlap1": "v2",
+ "squher1": "v0",
+ "steeag1": "v0",
+ "steeid": "v0",
+ "stodov1": "v0",
+ "stonec4": "v2",
+ "subwar6": "v0",
+ "subwar8": "v2",
+ "sursco": "v0",
+ "swagoo1": "v0",
+ "syrwoo1": "v0",
+ "taibeg1": "v2",
+ "tawowl1": "v0",
+ "tawpip1": "v1",
+ "temsti": "v0"
+}
