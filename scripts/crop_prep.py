@@ -86,6 +86,8 @@ def main():
                         quality=85, optimize=True)
                 saved.append({"img": f"crop/{code}/cand{idx}.jpg",
                               "source": getattr(c, "source", "?"),
+                              "src_id": getattr(c, "src_id", "") or "",
+                              "url": getattr(c, "url", "") or "",       # original full-res
                               "author": getattr(c, "author", "") or "",
                               "license": getattr(c, "license", "") or "",
                               "page_url": getattr(c, "page_url", "") or ""})

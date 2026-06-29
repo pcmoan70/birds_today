@@ -127,12 +127,23 @@
   }
 
   document.getElementById("export").onclick = function () {
+    var d = window.__crop || { species: {} };
     var out = {};
     Object.keys(sel).forEach(function (code) {
       var s = sel[code];
       if (!s || !s.picked) return;
-      out[code] = (s.full || !s.box) ? { cand: s.cand, full: true }
-                                     : { cand: s.cand, box: s.box.map(function (n) { return Math.round(n * 1000) / 1000; }) };
+      var c = ((d.species[code] || {}).cands || [])[s.cand] || {};
+      // Identify the chosen photo (source/link/id + hosted copy) and the crop
+      // region — instructions only, never the cropped pixels.
+      var e = {
+        cand: s.cand,
+        img: c.img || ("crop/" + code + "/cand" + s.cand + ".jpg"),
+        source: c.source || "", src_id: c.src_id || "",
+        url: c.url || "", page_url: c.page_url || "", author: c.author || ""
+      };
+      if (s.full || !s.box) e.full = true;
+      else e.box = s.box.map(function (n) { return Math.round(n * 1000) / 1000; });
+      out[code] = e;
     });
     if (!Object.keys(out).length) { alert("Nothing set yet — pick a photo and crop it first."); return; }
     var blob = new Blob([JSON.stringify(out, null, 1)], { type: "application/json" });
@@ -142,6 +153,6 @@
 
   fetch("crop/manifest.json?_=" + Date.now())
     .then(function (r) { return r.json(); })
-    .then(render)
+    .then(function (d) { window.__crop = d; render(d); })
     .catch(function () { document.getElementById("empty").hidden = false; });
 })();

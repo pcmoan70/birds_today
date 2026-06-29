@@ -36,6 +36,33 @@ def git(*a):
     return subprocess.run(["git", "-C", ROOT, *a], capture_output=True, text=True)
 
 
+class _Cand:
+    """Minimal stand-in so regen_flagged._fetch_candidate can re-download the
+    chosen photo at full resolution (whoBIRD assets come from the disk cache)."""
+    def __init__(self, source, url, src_id):
+        self.source, self.url, self.src_id = source, url, src_id
+
+
+def source_image(code, v):
+    """The chosen photo to crop: the original full-res (re-fetched from its URL)
+    if available, else the hosted candidate thumbnail. Returns a PIL RGB image."""
+    url, source, src_id = v.get("url"), v.get("source"), v.get("src_id")
+    if url:
+        tmp = os.path.join(CROP_DIR, f"_dl_{code}.jpg")
+        try:
+            if R._fetch_candidate(_Cand(source or "", url, src_id or ""), tmp):
+                im = Image.open(tmp).convert("RGB")
+                os.remove(tmp)
+                return im
+        except Exception:
+            pass
+        if os.path.exists(tmp):
+            os.remove(tmp)
+    rel = v.get("img") or f"crop/{code}/cand{v.get('cand', 0)}.jpg"
+    p = os.path.join(ROOT, "docs", rel)
+    return Image.open(p).convert("RGB") if os.path.exists(p) else None
+
+
 def main():
     if len(sys.argv) < 2:
         sys.exit("usage: apply_crops.py crop_choices.json")
@@ -49,11 +76,10 @@ def main():
 
     done = 0
     for code, v in choices.items():
-        idx = v.get("cand", 0)
-        src = os.path.join(CROP_DIR, code, f"cand{idx}.jpg")
-        if not os.path.exists(src):
-            print(f"  {code}: candidate {idx} missing, skip"); continue
-        im = Image.open(src).convert("RGB")
+        im = source_image(code, v)
+        if im is None:
+            print(f"  {code}: chosen photo unavailable, skip"); continue
+        # Crop the recorded region from the (full-res) original.
         if not v.get("full") and v.get("box"):
             x, y, w, h = v["box"]
             W, H = im.size
@@ -72,7 +98,8 @@ def main():
             fb["badRef"].remove(code)
         shutil.rmtree(os.path.join(CROP_DIR, code), ignore_errors=True)
         done += 1
-        print(f"  {code}: pinned {'full' if v.get('full') else 'cropped'} cand{idx} -> queued re-gen")
+        print(f"  {code}: pinned {'full' if v.get('full') else 'cropped'} "
+              f"{v.get('source','?')} cand{v.get('cand',0)} -> queued re-gen")
 
     # Drop applied species from the crop manifest.
     if os.path.exists(CROP_MAN):
