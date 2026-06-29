@@ -16361,79 +16361,73 @@
    "name": "Siberian Jay",
    "sci": "Perisoreus infaustus",
    "family": "Crows, Jays, and Magpies",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/sibjay1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/31497771/320",
+   "ref": "review_imgs/sibjay1/ref.jpg",
+   "photo": "review_imgs/sibjay1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Soft grey-brown jay; greyish head and back, rusty-orange patches on wings, rump and outer tail. Dusky crown, short dark bill, dark legs. Fluffy rounded shape, medium tail.",
+   "id": "Soft grey-brown jay; greyish head and back, rusty-orange patches on wings, rump and outer tail. Dusky crown, short dark bill, dark legs. Fluffy rounded shape, medium tail. Emphasise: no neck collar, with a smooth gradual colour transition.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sibjay1/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.881,
-     "pose": 0.168,
-     "bird": 0.762
+     "sim": 0.8,
+     "pose": 0.257,
+     "bird": 0.818
     },
     {
      "id": "v1",
      "img": "review_imgs/sibjay1/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.865,
-     "pose": 0.084,
-     "bird": 0.765
+     "sim": 0.777,
+     "pose": 0.25,
+     "bird": 0.739
     }
    ],
+   "gen": 1782774552,
    "reviewed": false,
-   "photo": "review_imgs/sibjay1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "skylar": {
    "name": "Eurasian Skylark",
    "sci": "Alauda arvensis",
    "family": "Larks",
-   "reason": "all",
+   "reason": "not good-keep+2",
    "before": "review_imgs/skylar/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/237452191/320",
+   "ref": "review_imgs/skylar/ref.jpg",
+   "photo": "review_imgs/skylar/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Streaky brown lark with short erectile crest; pale buff underparts streaked on breast, whitish belly. White trailing edge to wing and white outer tail feathers. Stout pinkish bill, pale legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/skylar/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.865,
-     "pose": 0.141,
-     "bird": 0.66
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.867,
+     "pose": 0.053,
+     "bird": 0.712
     },
     {
      "id": "v1",
      "img": "review_imgs/skylar/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.831,
-     "pose": 0.12,
-     "bird": 0.586
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/skylar/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.838,
-     "pose": 0.081,
-     "bird": 0.597
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.828,
+     "pose": 0.077,
+     "bird": 0.258
     }
    ],
-   "id": "Streaky brown lark with short erectile crest; pale buff underparts streaked on breast, whitish belly. White trailing edge to wing and white outer tail feathers. Stout pinkish bill, pale legs.",
-   "photo": "review_imgs/skylar/photo.jpg",
-   "pending": true
+   "gen": 1782774648,
+   "reviewed": false,
+   "pending": false
   },
   "slbgul1": {
    "name": "Slender-billed Gull",
@@ -16552,9 +16546,10 @@
    "name": "Snow Goose",
    "sci": "Anser caerulescens",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/snogoo/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/290513131/320",
+   "ref": "review_imgs/snogoo/ref.jpg",
+   "photo": "review_imgs/snogoo/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Medium white goose with black wingtips; stout pink bill with black 'grin patch', pink legs. (Dark 'blue' morph has white head and dark grey body.) Rounded head, white tail.",
@@ -16563,25 +16558,25 @@
     {
      "id": "v0",
      "img": "review_imgs/snogoo/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.942,
-     "pose": 0.368,
-     "bird": 0.988
+     "sim": 0.886,
+     "pose": 0.458,
+     "bird": 0.992
     },
     {
      "id": "v1",
      "img": "review_imgs/snogoo/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.933,
-     "pose": 0.357,
-     "bird": 0.954
+     "sim": 0.895,
+     "pose": 0.356,
+     "bird": 0.984
     }
    ],
+   "gen": 1782774736,
    "reviewed": false,
-   "photo": "review_imgs/snogoo/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "snoowl1": {
    "name": "Snowy Owl",
@@ -16692,71 +16687,82 @@
    "name": "Song Thrush",
    "sci": "Turdus philomelos",
    "family": "Thrushes",
-   "reason": "pick-keep-regen2",
+   "reason": "note-regen3",
    "before": "review_imgs/sonthr1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/234235711/320",
+   "ref": "review_imgs/sonthr1/ref.jpg",
+   "photo": "review_imgs/sonthr1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Warm brown thrush, plain above; creamy-buff underparts boldly marked with neat dark arrowhead spots. Plain buffish face, dark eye, yellowish lower bill, pinkish legs. Slim and upright.",
+   "id": "Warm brown thrush, plain above; creamy-buff underparts boldly marked with neat dark arrowhead spots. Plain buffish face, dark eye, yellowish lower bill, pinkish legs. Slim and upright. Emphasise: neat round dark spots arranged in lines on warm-buff underparts.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sonthr1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.888,
-     "pose": 0.255,
-     "bird": 0.434
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.839,
+     "pose": 0.228,
+     "bird": 0.785
     },
     {
      "id": "v1",
      "img": "review_imgs/sonthr1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.882,
-     "pose": 0.168,
-     "bird": 0.215
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.805,
+     "pose": 0.261,
+     "bird": 0.794
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sonthr1/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.857,
+     "pose": 0.191,
+     "bird": 0.73
     }
    ],
+   "gen": 1782774869,
    "reviewed": false,
-   "photo": "review_imgs/sonthr1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "sooshe": {
    "name": "Sooty Shearwater",
    "sci": "Ardenna grisea",
    "family": "Shearwaters and Petrels",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/sooshe/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/174404171/320",
+   "ref": "review_imgs/sooshe/ref.jpg",
+   "photo": "review_imgs/sooshe/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Large all-dark sooty-brown shearwater; long narrow swept-back wings showing silvery-white flash on underwing coverts. Slender dark bill, dark legs. Cigar-shaped body.",
+   "id": "Large all-dark sooty-brown shearwater; long narrow swept-back wings showing silvery-white flash on underwing coverts. Slender dark bill, dark legs. Cigar-shaped body. Emphasise: a slender bill of correct shape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sooshe/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.904,
-     "pose": 0.052,
-     "bird": 0.676
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.832,
+     "pose": 0.013,
+     "bird": 0.633
     },
     {
      "id": "v1",
      "img": "review_imgs/sooshe/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.887,
-     "pose": 0.066,
-     "bird": 0.415
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.807,
+     "pose": 0.02,
+     "bird": 0.351
     }
    ],
+   "gen": 1782774956,
    "reviewed": false,
-   "photo": "review_imgs/sooshe/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "spaeag1": {
    "name": "Spanish Eagle",
@@ -20027,14 +20033,8 @@
   "sedwar1",
   "semfly1",
   "sheowl",
-  "shteag1",
-  "sibjay1",
-  "skylar",
   "smew",
-  "snogoo",
   "snoowl1",
-  "sonthr1",
-  "sooshe",
   "spored",
   "squher1",
   "steeag1",
