@@ -6556,7 +6556,7 @@
      "bird": 0.62
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "ferduc": {
    "name": "Ferruginous Duck",
@@ -6862,7 +6862,7 @@
      "bird": 0.978
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "gbhgul2": {
    "name": "Pallas's Gull",
@@ -7126,7 +7126,7 @@
      "bird": 0.401
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "grapri1": {
    "name": "Graceful Prinia",
@@ -7357,7 +7357,7 @@
      "bird": 0.859
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "gresca": {
    "name": "Greater Scaup",
@@ -7522,7 +7522,7 @@
      "bird": 0.539
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "grewar3": {
    "name": "Greenish Warbler",
@@ -9522,7 +9522,7 @@
      "bird": 0.496
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "grypar": {
    "name": "Gray Partridge",
@@ -9861,7 +9861,7 @@
      "bird": 0.243
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "hazgro1": {
    "name": "Hazel Grouse",
@@ -9927,7 +9927,7 @@
      "bird": 0.444
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "hoomer": {
    "name": "Hooded Merganser",
@@ -10133,7 +10133,7 @@
      "bird": 0.81
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "humwar1": {
    "name": "Hume's Warbler",
@@ -10711,7 +10711,7 @@
      "bird": 0.2
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "legshr2": {
    "name": "Lesser Gray Shrike",
@@ -11525,7 +11525,8 @@
      "bird": 0.948
     }
    ],
-   "id": "Small compact grey-brown goose with a large white forehead blaze extending above the eye, bold black belly blotches, pink bill, and orange legs; bright yellow eye-ring is diagnostic, and folded wingtips extend past the short tail."
+   "id": "Small compact grey-brown goose with a large white forehead blaze extending above the eye, bold black belly blotches, pink bill, and orange legs; bright yellow eye-ring is diagnostic, and folded wingtips extend past the short tail.",
+   "reviewed": true
   },
   "mallar3": {
    "name": "Mallard",
@@ -14710,7 +14711,7 @@
      "bird": 0.496
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "rocpig": {
    "name": "Rock Pigeon",
@@ -14743,7 +14744,7 @@
      "bird": 0.745
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "rocpip1": {
    "name": "Rock Pipit",
@@ -14842,7 +14843,7 @@
      "bird": 0.288
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "rook1": {
    "name": "Rook",
@@ -14908,7 +14909,7 @@
      "bird": 0.655
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "rosgoo": {
    "name": "Ross's Goose",
@@ -15007,7 +15008,7 @@
      "bird": 0.446
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "rtrthr1": {
    "name": "Rufous-tailed Rock-Thrush",
@@ -15073,7 +15074,7 @@
      "bird": 0.688
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "rudshe": {
    "name": "Ruddy Shelduck",
@@ -15246,7 +15247,8 @@
      "bird": 0.544
     }
    ],
-   "id": "Bunting with rufous-chestnut breast band, flanks streaking and nape; black-and-white head with white supercilium and small crest. Whitish underparts, streaked brown back, pinkish bill, pale legs."
+   "id": "Bunting with rufous-chestnut breast band, flanks streaking and nape; black-and-white head with white supercilium and small crest. Whitish underparts, streaked brown back, pinkish bill, pale legs.",
+   "reviewed": true
   },
   "rutscr1": {
    "name": "Rufous-tailed Scrub-Robin",
@@ -15776,7 +15778,7 @@
    "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/88090541/320",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Pale elegant gull with long sloping forehead and long slender dark-red bill; pale grey back, white head, white underparts often pink-flushed. Pale eye, orange-red legs.",
+   "id": "Pale elegant gull with long sloping forehead and long slender unicolor dark-red bill; pale grey back, white head, white underparts often pink-flushed. Pale eye, orange-red legs.",
    "chosen": null,
    "variants": [
     {
@@ -15864,7 +15866,7 @@
      "bird": 0.919
     }
    ],
-   "reviewed": false
+   "reviewed": true
   },
   "snogoo": {
    "name": "Snow Goose",
@@ -16342,7 +16344,8 @@
      "bird": 0.488
     }
    ],
-   "id": "Bold pied lapwing; black crown, throat and breast, white cheeks and neck-sides, sandy-brown back, white belly. Long black legs, black bill, sharp carpal wing spurs. White wing band."
+   "id": "Bold pied lapwing; black crown, throat and breast, white cheeks and neck-sides, sandy-brown back, white belly. Long black legs, black bill, sharp carpal wing spurs. White wing band.",
+   "reviewed": true
   },
   "squher1": {
    "name": "Squacco Heron",
@@ -16514,7 +16517,8 @@
      "bird": 0.53
     }
    ],
-   "id": "Small upright chat; male has black head, orange-red breast, white half-collar and white wing and rump patches. Dark brown streaked back, whitish belly, fine dark bill, black legs."
+   "id": "Small upright chat; male has black head, orange-red breast, white half-collar and white wing and rump patches. Dark brown streaked back, whitish belly, fine dark bill, black legs.",
+   "reviewed": true
   },
   "subwar6": {
    "name": "Western Subalpine Warbler",
@@ -18805,7 +18809,8 @@
      "bird": 0.753
     }
    ],
-   "id": "Compact chat with a black head and throat, white half-collar on the neck side, orange-rufous breast, and pale unstreaked rump. Dark brown back, blackish wings; black bill and legs; upright stance."
+   "id": "Compact chat with a black head and throat, white half-collar on the neck side, orange-rufous breast, and pale unstreaked rump. Dark brown back, blackish wings; black bill and legs; upright stance.",
+   "reviewed": true
   },
   "y00478": {
    "name": "Iceland Gull",
