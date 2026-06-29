@@ -2954,44 +2954,37 @@
    "name": "Coal Tit",
    "sci": "Periparus ater",
    "family": "Tits, Chickadees, and Titmice",
-   "reason": "all",
+   "reason": "note-keep+2",
    "before": "review_imgs/coatit2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/70455821/320",
+   "ref": "review_imgs/coatit2/ref.jpg",
+   "photo": "review_imgs/coatit2/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v1",
+   "id": "Small tit with a glossy black cap and bib, white cheeks, and a diagnostic white nape patch. Olive-grey back, buff-grey underparts, two thin white wing bars, fine dark bill, bluish-grey legs. Emphasise: a prominent white nape patch and white cheeks; small-bird proportions with a relatively large head.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/coatit2/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.896,
-     "pose": 0.059,
-     "bird": 0.702
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.91,
+     "pose": 0.105,
+     "bird": 0.801
     },
     {
      "id": "v1",
      "img": "review_imgs/coatit2/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.859,
-     "pose": 0.107,
-     "bird": 0.7
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/coatit2/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.903,
-     "pose": 0.052,
-     "bird": 0.531
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.918,
+     "pose": 0.126,
+     "bird": 0.674
     }
    ],
-   "reviewed": true,
-   "id": "Small tit with a glossy black cap and bib, white cheeks, and a diagnostic white nape patch. Olive-grey back, buff-grey underparts, two thin white wing bars, fine dark bill, bluish-grey legs.",
-   "pending": true
+   "gen": 1782761027,
+   "reviewed": false,
+   "pending": false
   },
   "cockat": {
    "name": "Cockatiel",
@@ -3167,44 +3160,37 @@
    "name": "Common Chaffinch",
    "sci": "Fringilla coelebs",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
+   "reason": "note-keep+2",
    "before": "review_imgs/comcha/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/433940431/320",
+   "ref": "review_imgs/comcha/ref.jpg",
+   "photo": "review_imgs/comcha/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v1",
+   "id": "Finch with a blue-grey crown and nape, pinkish-brown face and breast, and a greenish rump. Bold double white wing bars and white shoulder patch on dark wings, white outer tail feathers, conical grey bill, pinkish legs. Emphasise: feet and claws naturally placed gripping the perch.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comcha/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.914,
-     "pose": 0.05,
-     "bird": 0.23
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.925,
+     "pose": 0.088,
+     "bird": 0.39
     },
     {
      "id": "v1",
      "img": "review_imgs/comcha/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.923,
-     "pose": 0.048,
-     "bird": 0.176
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comcha/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.933,
-     "pose": 0.054,
-     "bird": 0.134
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.926,
+     "pose": 0.045,
+     "bird": 0.399
     }
    ],
-   "reviewed": true,
-   "id": "Finch with a blue-grey crown and nape, pinkish-brown face and breast, and a greenish rump. Bold double white wing bars and white shoulder patch on dark wings, white outer tail feathers, conical grey bill, pinkish legs.",
-   "pending": true
+   "gen": 1782761123,
+   "reviewed": false,
+   "pending": false
   },
   "comcra": {
    "name": "Common Crane",
@@ -3851,44 +3837,46 @@
    "name": "Corsican Finch",
    "sci": "Carduelis corsicana",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
+   "reason": "note-regen3",
    "before": "review_imgs/corfin1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23442651/320",
+   "ref": "review_imgs/corfin1/ref.jpg",
+   "photo": "review_imgs/corfin1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small finch with a yellow-green face and breast, grey-brown nape and crown, streaked greenish-brown back, yellowish wing-bars and yellow wing-flash, and a pale conical bill; brighter and greyer-capped than a Citril Finch. Emphasise: no white stripe or wing-bar across the wing.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/corfin1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.867,
-     "pose": 0.086,
-     "bird": 0.822
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.774,
+     "pose": 0.336,
+     "bird": 0.875
     },
     {
      "id": "v1",
      "img": "review_imgs/corfin1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.89,
-     "pose": 0.159,
-     "bird": 0.694
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.813,
+     "pose": 0.228,
+     "bird": 0.894
     },
     {
      "id": "v2",
      "img": "review_imgs/corfin1/v2.png",
-     "seed": 1001,
+     "seed": 1011,
      "strength": 0.68,
-     "sim": 0.911,
-     "pose": 0.029,
-     "bird": 0.625
+     "sim": 0.79,
+     "pose": 0.188,
+     "bird": 0.772
     }
    ],
-   "reviewed": true,
-   "id": "Small finch with a yellow-green face and breast, grey-brown nape and crown, streaked greenish-brown back, yellowish wing-bars and yellow wing-flash, and a pale conical bill; brighter and greyer-capped than a Citril Finch.",
-   "pending": true
+   "gen": 1782761255,
+   "reviewed": false,
+   "pending": false
   },
   "corplo": {
    "name": "Common Ringed Plover",
@@ -5465,44 +5453,37 @@
    "name": "Eurasian Curlew",
    "sci": "Numenius arquata",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "note-keep+2",
    "before": "review_imgs/eurcur/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/71662071/320",
+   "ref": "review_imgs/eurcur/ref.jpg",
+   "photo": "review_imgs/eurcur/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Large brown wader streaked dark on buff, with a very long evenly downcurved bill, plain head without strong stripes, white rump and lower back, and long greyish legs. Emphasise: a long decurved bill, but not exaggeratedly long.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurcur/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.919,
-     "pose": 0.338,
-     "bird": 0.794
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.925,
+     "pose": 0.204,
+     "bird": 0.853
     },
     {
      "id": "v1",
      "img": "review_imgs/eurcur/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.927,
-     "pose": 0.219,
-     "bird": 0.884
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eurcur/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.927,
-     "pose": 0.17,
-     "bird": 0.89
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.913,
+     "pose": 0.177,
+     "bird": 0.716
     }
    ],
-   "reviewed": true,
-   "id": "Large brown wader streaked dark on buff, with a very long evenly downcurved bill, plain head without strong stripes, white rump and lower back, and long greyish legs.",
-   "pending": true
+   "gen": 1782761579,
+   "reviewed": false,
+   "pending": false
   },
   "eurdot": {
    "name": "Eurasian Dotterel",
@@ -6600,35 +6581,37 @@
    "name": "Eurasian Tree Sparrow",
    "sci": "Passer montanus",
    "family": "Old World Sparrows",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/eutspa/before.png",
    "ref": "review_imgs/eutspa/ref.jpg",
+   "photo": "review_imgs/eutspa/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small sparrow with a chestnut-brown crown, white cheeks marked by a black ear-spot, a small black throat bib, brown-streaked back, pale underparts and a stout grey conical bill.",
+   "id": "Small sparrow with a chestnut-brown crown, white cheeks marked by a black ear-spot, a small black throat bib, brown-streaked back, pale underparts and a stout grey conical bill. Emphasise: a distinct black spot on the white cheek and a chestnut crown.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eutspa/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.899,
-     "pose": 0.099,
-     "bird": 0.678
+     "sim": 0.776,
+     "pose": 0.248,
+     "bird": 0.946
     },
     {
      "id": "v1",
      "img": "review_imgs/eutspa/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.887,
-     "pose": 0.1,
-     "bird": 0.62
+     "sim": 0.807,
+     "pose": 0.214,
+     "bird": 0.217
     }
    ],
-   "reviewed": true,
-   "pending": true
+   "gen": 1782761666,
+   "reviewed": false,
+   "pending": false
   },
   "ferduc": {
    "name": "Ferruginous Duck",
@@ -20036,11 +20019,8 @@
   "bargoo",
   "bktgod",
   "brambl",
-  "brbsan",
   "bripet",
-  "coatit2",
   "cogwar1",
-  "comcha",
   "comchi1",
   "comgre",
   "commer",
@@ -20051,7 +20031,6 @@
   "comsan",
   "comsni",
   "comswi",
-  "corfin1",
   "crebun2",
   "cursan",
   "cypwar1",
@@ -20061,16 +20040,12 @@
   "duswar",
   "eabwar1",
   "eaowar2",
-  "eueowl1",
-  "eugwoo2",
   "euptit1",
-  "eurcur",
   "eurjac",
   "eurjay1",
   "eurnig1",
   "eursco1",
   "eurspa1",
-  "eutspa",
   "finwhe1",
   "firecr1",
   "fuwduc",
