@@ -75,9 +75,11 @@ def process(job, pipe, sess, by_code, fams, ids):
             return False
 
     seeds, set_live = _seeds_for(job)
+    # A flagged "bad photo" (refetch) re-crops: each variant uses a different
+    # framing so a badly-cropped reference is recovered, not just refetched.
     res = R.gen_best(pipe, sess, code, sp, pose, ref_input, fams, ids,
                      seed_off=int(job.get("seed_off", 0)), set_live=set_live,
-                     seeds=seeds)
+                     seeds=seeds, vary_frame=bool(job.get("refetch")))
     if not res:
         return False
 

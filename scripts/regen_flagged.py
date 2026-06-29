@@ -351,7 +351,7 @@ def save_small(im, path, colors=200):
 
 
 def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
-             set_live=True, seeds=None):
+             set_live=True, seeds=None, vary_frame=False):
     """Generate seed/strength variants and save them for the review page.
 
     No variant is auto-selected (chosen is None) — the reviewer picks. When
@@ -360,18 +360,43 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
     untouched (used for "none good enough" re-gen and for generating fresh
     challengers next to a kept champion). seeds overrides the default 3
     (base_seed, strength) pairs — e.g. 2 fresh pairs for challenger suggestions.
-    seed_off shifts the seeds so each round yields genuinely different variants."""
+    seed_off shifts the seeds so each round yields genuinely different variants.
+
+    vary_frame=True (used for a flagged "bad photo") generates each variant from
+    a DIFFERENT crop/framing of the reference, so a badly-cropped photo is
+    re-cropped — the reviewer then picks the best-framed result."""
     prompt = improved_prompt(sp["common"], sp["sci"], code, pose, fams, ids)
-    # Cycle the framing each retry round (seed_off = round*5) so re-flagging a
-    # photo that's really just badly cropped yields a different model input.
-    init = prep_init(ref_path, sess, frame=(seed_off // 5) % 3)
-    # Publish the exact model input as the review reference, so the tile shows
-    # precisely what grounded the generation (bird isolated, centred, cropped
-    # square) rather than the raw photo.
     vdir = os.path.join(REVIEW_IMGS, code); os.makedirs(vdir, exist_ok=True)
-    rt = init.copy(); rt.thumbnail((384, 384), Image.LANCZOS)
-    rt.save(os.path.join(vdir, "ref.jpg"), "JPEG", quality=82, optimize=True)
-    ref_rel = f"review_imgs/{code}/ref.jpg"
+    base_frame = (seed_off // 5) % 3
+    # Cache prep_init per frame so non-recrop calls compute the (slow) cutout
+    # once; a recrop call computes one per distinct frame.
+    _icache = {}
+    def init_for(frame):
+        if frame not in _icache:
+            _icache[frame] = prep_init(ref_path, sess, frame=frame)
+        return _icache[frame]
+
+    seed_list = seeds or VARIANTS
+    ref_rel = None
+    variants = []   # (cutout, seed, strength, init_used)
+    for i, (base_seed, strength) in enumerate(seed_list):
+        frame = (base_frame + i) % 3 if vary_frame else base_frame
+        init = init_for(frame)
+        if ref_rel is None:
+            # Publish the first model input as the review reference tile (what
+            # actually grounded generation). With vary_frame the crops differ
+            # per variant; this shows a representative one.
+            rt = init.copy(); rt.thumbnail((384, 384), Image.LANCZOS)
+            rt.save(os.path.join(vdir, "ref.jpg"), "JPEG", quality=82, optimize=True)
+            ref_rel = f"review_imgs/{code}/ref.jpg"
+        seed = base_seed + seed_off
+        gen = torch.Generator("cpu").manual_seed(seed)
+        out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt, image=init,
+                   strength=strength, num_inference_steps=28, guidance_scale=3.5,
+                   generator=gen).images[0]
+        ci = cut.cut_pil(out, sess, MAX_EDGE)
+        if ci is not None:
+            variants.append((ci, seed, strength, init))
     # Also publish the raw reference photo IN FULL (aspect preserved, never
     # cropped — the review tile letterboxes it), so the reviewer sees the whole
     # real photograph (tail, feet and all), not a square crop of it.
@@ -383,22 +408,13 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
         photo_rel = f"review_imgs/{code}/photo.jpg"
     except Exception:
         pass
-    variants = []
-    for base_seed, strength in (seeds or VARIANTS):
-        seed = base_seed + seed_off
-        gen = torch.Generator("cpu").manual_seed(seed)
-        out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt, image=init,
-                   strength=strength, num_inference_steps=28, guidance_scale=3.5,
-                   generator=gen).images[0]
-        ci = cut.cut_pil(out, sess, MAX_EDGE)
-        if ci is not None:
-            variants.append((ci, seed, strength))
     if not variants:
         print(f"    {code} {pose}: all variants culled"); return None
     outs = [v[0].convert("RGB") for v in variants]
-    feats = QC.clip_image_features([init] + outs)
-    ref = feats[0]
-    sims = [float((ref * feats[i + 1]).sum()) for i in range(len(outs))]
+    # Score each output's similarity to its OWN model input (crops may differ).
+    n = len(outs)
+    feats = QC.clip_image_features([v[3] for v in variants] + outs)
+    sims = [float((feats[i] * feats[n + i]).sum()) for i in range(n)]
     pose_p = QC.clip_probs(outs, [POSE_GOOD] + POSE_BAD)[:, 0].tolist()
     bird_p = QC.clip_probs(outs, [QC.POS] + QC.NEG)[:, 0].tolist()
     # Rank all variants best-first and save them for the review page so the user

@@ -14,8 +14,9 @@ Binary-verdict semantics (no image is auto-selected):
                  the live champion and 2 fresh challengers are queued next to it;
                  with no usable pick (none, or "input") all 3 are regenerated
                  from the reference. Stays on the page (hidden until ready).
-  - bad ref / prompt edit only -> queue a re-gen (re-fetch the reference for a
-                 bad ref; use the edited prompt). Stays on the page.
+  - bad ref / prompt edit only -> queue a re-gen. A bad ref re-fetches the
+                 reference AND re-crops it (each variant uses a different framing,
+                 so a badly-cropped photo is recovered). Stays on the page.
   - bare pick / note only / nothing -> recorded; current image kept.
 
 An edited "id" prompt is persisted to id_features.json (the img2img prompt
@@ -156,8 +157,8 @@ def main():
             continue
 
         if badref or id_edited:
-            enqueue("regen", reason="badref" if badref else "prompt-edit")
-            print(f"  {code}: {'bad ref' if badref else 'prompt edit'} -> queued re-gen")
+            enqueue("regen", reason="badref-refetch+recrop" if badref else "prompt-edit")
+            print(f"  {code}: {'bad ref -> re-gen (refetch + recrop)' if badref else 'prompt edit -> re-gen'}")
             continue
         # bare pick / note-only / nothing actionable: recorded; current kept.
 
