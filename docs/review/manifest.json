@@ -6717,7 +6717,7 @@
    ],
    "gen": 1782761780,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "firecr1": {
    "name": "Common Firecrest",
@@ -6762,7 +6762,7 @@
    ],
    "gen": 1782761938,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "fuwduc": {
    "name": "Fulvous Whistling-Duck",
@@ -6905,7 +6905,7 @@
    ],
    "gen": 1782762321,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "gbbgul": {
    "name": "Great Black-backed Gull",
@@ -7264,7 +7264,7 @@
    ],
    "gen": 1782762669,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "grcgre1": {
    "name": "Great Crested Grebe",
@@ -7399,7 +7399,7 @@
    ],
    "gen": 1782763108,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "grecor": {
    "name": "Great Cormorant",
@@ -7593,7 +7593,7 @@
    ],
    "gen": 1782763401,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "gresku1": {
    "name": "Great Skua",
@@ -7896,7 +7896,7 @@
    ],
    "gen": 1782760408,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "atlfly1": {
    "name": "Atlas Flycatcher",
@@ -8115,7 +8115,7 @@
    ],
    "gen": 1782764352,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "bripet": {
    "name": "European Storm-Petrel",
@@ -8309,7 +8309,7 @@
    ],
    "reviewed": true,
    "photo": "review_imgs/colpra/photo.jpg",
-   "pending": false
+   "pending": true
   },
   "comchi1": {
    "name": "Common Chiffchaff",
@@ -8371,7 +8371,7 @@
    ],
    "reviewed": true,
    "photo": "review_imgs/comcuc/photo.jpg",
-   "pending": false
+   "pending": true
   },
   "comeid": {
    "name": "Common Eider",
@@ -8414,7 +8414,7 @@
     }
    ],
    "reviewed": true,
-   "pending": false,
+   "pending": true,
    "photo": "review_imgs/comeid/photo.jpg"
   },
   "comgol": {
@@ -8575,7 +8575,7 @@
    ],
    "gen": 1782764957,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "commur": {
    "name": "Common Murre",
@@ -8951,7 +8951,7 @@
    ],
    "gen": 1782765993,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "delpri1": {
    "name": "Delicate Prinia",
@@ -9032,7 +9032,7 @@
    ],
    "gen": 1782766231,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "dunlin": {
    "name": "Dunlin",
@@ -9328,7 +9328,7 @@
    ],
    "gen": 1782767078,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "eursco1": {
    "name": "Eurasian Scops-Owl",
@@ -9391,7 +9391,7 @@
    ],
    "gen": 1782767272,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "grnsan": {
    "name": "Green Sandpiper",
@@ -9460,9 +9460,10 @@
    "name": "Iberian Green Woodpecker",
    "sci": "Picus sharpei",
    "family": "Woodpeckers",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/grnwoo3/before.png",
    "ref": "review_imgs/grnwoo3/ref.jpg",
+   "photo": "review_imgs/grnwoo3/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Green woodpecker, olive-green back, yellowish-green rump, pale grey-green underparts; grey head with red crown, narrow black around eye, red-centred black moustache; pale eye, greenish bill.",
@@ -9471,25 +9472,25 @@
     {
      "id": "v0",
      "img": "review_imgs/grnwoo3/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.905,
-     "pose": 0.134,
-     "bird": 0.261
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.792,
+     "pose": 0.256,
+     "bird": 0.643
     },
     {
      "id": "v1",
      "img": "review_imgs/grnwoo3/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.909,
-     "pose": 0.142,
-     "bird": 0.222
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.778,
+     "pose": 0.333,
+     "bird": 0.108
     }
    ],
+   "gen": 1782767548,
    "reviewed": false,
-   "photo": "review_imgs/grnwoo3/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "grrwar1": {
    "name": "Great Reed Warbler",
@@ -10194,7 +10195,7 @@
     }
    ],
    "reviewed": true,
-   "pending": false,
+   "pending": true,
    "photo": "review_imgs/hoopoe/photo.jpg"
   },
   "horgre": {
@@ -19907,9 +19908,27 @@
   }
  },
  "queued": [
+  "465888",
+  "balshe1",
+  "brambl",
+  "bripet",
+  "colpra",
+  "comcuc",
+  "comeid",
   "commer",
-  "grnwoo3",
-  "grrwar1",
+  "commoo3",
+  "comred2",
+  "cypwar1",
+  "doveki",
+  "dunlin",
+  "eurnig1",
+  "eurspa1",
+  "finwhe1",
+  "firecr1",
+  "garwar1",
+  "grapri1",
+  "grebus1",
+  "greshe",
   "grscuc1",
   "grypar",
   "grywag",
@@ -19920,6 +19939,7 @@
   "harduc",
   "hazgro1",
   "hoomer",
+  "hoopoe",
   "horgre",
   "ibechi2",
   "ictwar1",
