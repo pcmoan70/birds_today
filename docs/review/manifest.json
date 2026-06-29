@@ -6979,36 +6979,37 @@
    "name": "Glaucous Gull",
    "sci": "Larus hyperboreus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/glagul/before.png",
    "ref": "review_imgs/glagul/ref.jpg",
+   "photo": "review_imgs/glagul/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Large pale gull, pale grey back and wings with no black, white wingtips, white head and underparts; heavy yellow bill with red gonys spot, pale eye, pink legs.",
+   "id": "Large pale gull, pale grey back and wings with no black, white wingtips, white head and underparts; heavy yellow bill with red gonys spot, pale eye, pink legs. Emphasise: a pale white-winged gull with no black in the wingtips or tail.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/glagul/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.929,
-     "pose": 0.43,
-     "bird": 0.852
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.914,
+     "pose": 0.234,
+     "bird": 0.934
     },
     {
      "id": "v1",
      "img": "review_imgs/glagul/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
+     "seed": 3016,
+     "strength": 0.7,
      "sim": 0.906,
-     "pose": 0.292,
-     "bird": 0.635
+     "pose": 0.217,
+     "bird": 0.656
     }
    ],
+   "gen": 1782762422,
    "reviewed": false,
-   "photo": "review_imgs/glagul/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "gloibi": {
    "name": "Glossy Ibis",
@@ -7049,9 +7050,10 @@
    "name": "Green-winged Teal",
    "sci": "Anas crecca",
    "family": "Ducks, Geese, and Swans",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/gnwtea/before.png",
    "ref": "review_imgs/gnwtea/ref.jpg",
+   "photo": "review_imgs/gnwtea/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny dabbling duck, chestnut head with broad green eye-patch bordered cream, vertical white bar on grey flanks; grey vermiculated body, buff-edged black undertail, green-and-black speculum; dark bill, grey legs.",
@@ -7060,34 +7062,34 @@
     {
      "id": "v0",
      "img": "review_imgs/gnwtea/v0.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.82,
-     "pose": 0.118,
-     "bird": 0.778
+     "sim": 0.829,
+     "pose": 0.069,
+     "bird": 0.816
     },
     {
      "id": "v1",
      "img": "review_imgs/gnwtea/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.738,
-     "pose": 0.131,
-     "bird": 0.91
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.873,
+     "pose": 0.055,
+     "bird": 0.734
     },
     {
      "id": "v2",
      "img": "review_imgs/gnwtea/v2.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.723,
-     "pose": 0.062,
-     "bird": 0.799
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.755,
+     "pose": 0.031,
+     "bird": 0.143
     }
    ],
+   "gen": 1782762563,
    "reviewed": false,
-   "photo": "review_imgs/gnwtea/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "goldcr1": {
    "name": "Goldcrest",
@@ -7232,9 +7234,10 @@
    "name": "Graceful Prinia",
    "sci": "Prinia gracilis",
    "family": "Cisticolas and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "bad ref-keep+2",
    "before": "review_imgs/grapri1/before.png",
    "ref": "review_imgs/grapri1/ref.jpg",
+   "photo": "review_imgs/grapri1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny slim warbler, pale sandy grey-brown above, whitish below; very long graduated tail with black-and-white tips; faint pale supercilium, fine dark bill, pinkish legs.",
@@ -7243,95 +7246,115 @@
     {
      "id": "v0",
      "img": "review_imgs/grapri1/v0.png",
-     "seed": 3016,
+     "seed": 3021,
      "strength": 0.7,
-     "sim": 0.885,
-     "pose": 0.055,
-     "bird": 0.856
+     "sim": 0.759,
+     "pose": 0.515,
+     "bird": 0.35
     },
     {
      "id": "v1",
      "img": "review_imgs/grapri1/v1.png",
-     "seed": 3015,
+     "seed": 3020,
      "strength": 0.62,
-     "sim": 0.877,
-     "pose": 0.028,
-     "bird": 0.761
+     "sim": 0.87,
+     "pose": 0.03,
+     "bird": 0.374
     }
    ],
+   "gen": 1782762669,
    "reviewed": false,
-   "photo": "review_imgs/grapri1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "grcgre1": {
    "name": "Great Crested Grebe",
    "sci": "Podiceps cristatus",
    "family": "Grebes",
-   "reason": "pick-keep-regen2",
+   "reason": "note-regen3",
    "before": "review_imgs/grcgre1/before.png",
    "ref": "review_imgs/grcgre1/ref.jpg",
+   "photo": "review_imgs/grcgre1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Slender long-necked grebe, brown-grey back, white face and underparts, long white neck; black double crest and chestnut-and-black ear tufts (frills) on face; long pink-and-dark dagger bill, red eye.",
+   "id": "Slender long-necked grebe, brown-grey back, white face and underparts, long white neck; black double crest and chestnut-and-black ear tufts (frills) on face; long pink-and-dark dagger bill, red eye. Emphasise: correct head colouring with chestnut-and-black head plumes.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grcgre1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.813,
-     "pose": 0.044,
-     "bird": 0.592
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.824,
+     "pose": 0.188,
+     "bird": 0.916
     },
     {
      "id": "v1",
      "img": "review_imgs/grcgre1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.85,
-     "pose": 0.052,
-     "bird": 0.489
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.781,
+     "pose": 0.237,
+     "bird": 0.929
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grcgre1/v2.png",
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.827,
+     "pose": 0.162,
+     "bird": 0.595
     }
    ],
+   "gen": 1782762810,
    "reviewed": false,
-   "photo": "review_imgs/grcgre1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "grebit1": {
    "name": "Eurasian Bittern",
    "sci": "Botaurus stellaris",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/grebit1/before.png",
    "ref": "review_imgs/grebit1/ref.jpg",
+   "photo": "review_imgs/grebit1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Stocky bittern, warm golden-buff plumage heavily mottled and streaked black-brown; blackish crown, dark moustache; long greenish-yellow dagger bill, greenish legs.",
+   "id": "Stocky bittern, warm golden-buff plumage heavily mottled and streaked black-brown; blackish crown, dark moustache; long greenish-yellow dagger bill, greenish legs. Emphasise: vertical brown streaking rather than spots, and a bulky heron shape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grebit1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.866,
-     "pose": 0.784,
-     "bird": 0.607
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.795,
+     "pose": 0.732,
+     "bird": 0.827
     },
     {
      "id": "v1",
      "img": "review_imgs/grebit1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.87,
-     "pose": 0.664,
-     "bird": 0.222
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.756,
+     "pose": 0.68,
+     "bird": 0.886
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grebit1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.778,
+     "pose": 0.589,
+     "bird": 0.688
     }
    ],
+   "gen": 1782762943,
    "reviewed": false,
-   "photo": "review_imgs/grebit1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "grebus1": {
    "name": "Great Bustard",
@@ -20051,11 +20074,6 @@
   "eurnig1",
   "eursco1",
   "eurspa1",
-  "glagul",
-  "gnwtea",
-  "grapri1",
-  "grcgre1",
-  "grebit1",
   "grebus1",
   "greegr",
   "greshe",
