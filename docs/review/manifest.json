@@ -11951,24 +11951,33 @@
     {
      "id": "v0",
      "img": "review_imgs/marwar1/v0.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.823,
-     "pose": 0.164,
-     "bird": 0.747
+     "sim": 0.815,
+     "pose": 0.28,
+     "bird": 0.774
     },
     {
      "id": "v1",
      "img": "review_imgs/marwar1/v1.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.812,
-     "pose": 0.149,
-     "bird": 0.19
+     "sim": 0.785,
+     "pose": 0.414,
+     "bird": 0.512
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/marwar1/v2.png",
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.842,
+     "pose": 0.172,
+     "bird": 0.556
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "marwar3": {
    "name": "Marsh Warbler",
@@ -12207,7 +12216,7 @@
    "family": "Gulls, Terns, and Skimmers",
    "reason": "badref",
    "before": "review_imgs/mewgul/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/195654021/320",
+   "ref": "review_imgs/mewgul/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Medium gull with a gentle rounded head, medium-grey back, white head and underparts, black wingtips with large white spots ('mirrors'), a plain greenish-yellow bill, dark eye, and yellow-green legs.",
@@ -12216,33 +12225,33 @@
     {
      "id": "v0",
      "img": "review_imgs/mewgul/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.917,
-     "pose": 0.472,
-     "bird": 0.935
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.902,
+     "pose": 0.341,
+     "bird": 0.959
     },
     {
      "id": "v1",
      "img": "review_imgs/mewgul/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.92,
-     "pose": 0.295,
-     "bird": 0.947
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.913,
+     "pose": 0.414,
+     "bird": 0.853
     },
     {
      "id": "v2",
      "img": "review_imgs/mewgul/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.9,
-     "pose": 0.273,
-     "bird": 0.832
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.906,
+     "pose": 0.35,
+     "bird": 0.807
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "misthr1": {
    "name": "Mistle Thrush",
@@ -12448,7 +12457,7 @@
    "family": "Reed Warblers and Allies",
    "reason": "none-good",
    "before": "review_imgs/mouwar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204572551/320",
+   "ref": "review_imgs/mouwar1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small rich warbler with rufous-brown upperparts, a bold white supercilium contrasting with a blackish crown and eye-stripe, white throat, warm buff flanks, rufous rump, and a fine dark bill; often cocks its tail.",
@@ -12457,33 +12466,33 @@
     {
      "id": "v0",
      "img": "review_imgs/mouwar1/v0.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.836,
-     "pose": 0.05,
-     "bird": 0.661
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.855,
+     "pose": 0.039,
+     "bird": 0.671
     },
     {
      "id": "v1",
      "img": "review_imgs/mouwar1/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.848,
-     "pose": 0.037,
-     "bird": 0.439
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.85,
+     "pose": 0.153,
+     "bird": 0.471
     },
     {
      "id": "v2",
      "img": "review_imgs/mouwar1/v2.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.865,
-     "pose": 0.07,
-     "bird": 0.312
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.854,
+     "pose": 0.03,
+     "bird": 0.307
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "mouwhe2": {
    "name": "Mourning Wheatear",
@@ -12772,33 +12781,33 @@
     {
      "id": "v0",
      "img": "review_imgs/norgos1/v0.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.887,
-     "pose": 0.202,
-     "bird": 0.781
+     "sim": 0.893,
+     "pose": 0.564,
+     "bird": 0.725
     },
     {
      "id": "v1",
      "img": "review_imgs/norgos1/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.866,
-     "pose": 0.401,
-     "bird": 0.611
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.824,
+     "pose": 0.249,
+     "bird": 0.674
     },
     {
      "id": "v2",
      "img": "review_imgs/norgos1/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.879,
-     "pose": 0.477,
-     "bird": 0.488
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.821,
+     "pose": 0.209,
+     "bird": 0.602
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "norhar1": {
    "name": "Hen Harrier",
@@ -14297,7 +14306,7 @@
    "family": "Old World Buntings",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/reebun/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/221501371/320",
+   "ref": "review_imgs/reebun/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Sparrow-like bunting; breeding male has a black head and throat, a broad white moustache and collar, streaky brown back and whitish underparts. Conical dark bill, pinkish-brown legs, white outer tail feathers.",
@@ -14306,24 +14315,24 @@
     {
      "id": "v0",
      "img": "review_imgs/reebun/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.805,
-     "pose": 0.25,
-     "bird": 0.818
+     "sim": 0.79,
+     "pose": 0.23,
+     "bird": 0.85
     },
     {
      "id": "v1",
      "img": "review_imgs/reebun/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.795,
+     "sim": 0.787,
      "pose": 0.169,
-     "bird": 0.834
+     "bird": 0.849
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "refblu1": {
    "name": "Red-flanked Bluetail",
