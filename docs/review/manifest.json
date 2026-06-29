@@ -7999,33 +7999,33 @@
     {
      "id": "v0",
      "img": "review_imgs/cirbun1/v0.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.853,
-     "pose": 0.247,
-     "bird": 0.533
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.878,
+     "pose": 0.173,
+     "bird": 0.516
     },
     {
      "id": "v1",
      "img": "review_imgs/cirbun1/v1.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.902,
-     "pose": 0.199,
-     "bird": 0.05
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.912,
+     "pose": 0.212,
+     "bird": 0.208
     },
     {
      "id": "v2",
      "img": "review_imgs/cirbun1/v2.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.912,
-     "pose": 0.16,
-     "bird": 0.035
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.881,
+     "pose": 0.113,
+     "bird": 0.259
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "cogwar1": {
    "name": "Common Grasshopper Warbler",
@@ -8075,33 +8075,33 @@
     {
      "id": "v0",
      "img": "review_imgs/colfly1/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.855,
-     "pose": 0.315,
-     "bird": 0.787
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.839,
+     "pose": 0.287,
+     "bird": 0.769
     },
     {
      "id": "v1",
      "img": "review_imgs/colfly1/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.841,
-     "pose": 0.303,
-     "bird": 0.814
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.835,
+     "pose": 0.163,
+     "bird": 0.863
     },
     {
      "id": "v2",
      "img": "review_imgs/colfly1/v2.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.861,
-     "pose": 0.211,
-     "bird": 0.813
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.851,
+     "pose": 0.224,
+     "bird": 0.711
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "colpra": {
    "name": "Collared Pratincole",
