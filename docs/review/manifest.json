@@ -1068,44 +1068,37 @@
    "name": "Eastern Black-eared Wheatear",
    "sci": "Oenanthe melanoleuca",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "note-keep+2",
    "before": "review_imgs/bkewhe2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/145187391/320",
+   "ref": "review_imgs/bkewhe2/ref.jpg",
+   "photo": "review_imgs/bkewhe2/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Slim wheatear with creamy-white crown and back, black face-mask through eye and black wings. Pale buff breast fading to white belly; white rump and tail with black inverted-T. Black bill, black legs. Emphasise: the eye sits slightly further back on the face.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/bkewhe2/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.924,
-     "pose": 0.246,
-     "bird": 0.873
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.919,
+     "pose": 0.201,
+     "bird": 0.535
     },
     {
      "id": "v1",
      "img": "review_imgs/bkewhe2/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.906,
-     "pose": 0.141,
-     "bird": 0.765
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bkewhe2/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.906,
-     "pose": 0.225,
-     "bird": 0.585
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.916,
+     "pose": 0.231,
+     "bird": 0.441
     }
    ],
-   "reviewed": true,
-   "id": "Slim wheatear with creamy-white crown and back, black face-mask through eye and black wings. Pale buff breast fading to white belly; white rump and tail with black inverted-T. Black bill, black legs.",
-   "pending": true
+   "gen": 1782760504,
+   "reviewed": false,
+   "pending": false
   },
   "bkhgul": {
    "name": "Black-headed Gull",
@@ -1154,44 +1147,37 @@
    "name": "Black-legged Kittiwake",
    "sci": "Rissa tridactyla",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "note-keep+2",
    "before": "review_imgs/bklkit/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64889231/320",
+   "ref": "review_imgs/bklkit/ref.jpg",
+   "photo": "review_imgs/bklkit/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v1",
+   "id": "Medium gull with white head and body, pale grey back, and clean black wingtips with no white spots (dipped-in-ink look). Slender yellow bill, dark eye, short black legs. Emphasise: a gentle, mild facial expression, not fierce or angry.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/bklkit/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.942,
-     "pose": 0.426,
-     "bird": 0.877
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.937,
+     "pose": 0.277,
+     "bird": 0.945
     },
     {
      "id": "v1",
      "img": "review_imgs/bklkit/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.944,
-     "pose": 0.327,
-     "bird": 0.864
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/bklkit/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.924,
-     "pose": 0.36,
-     "bird": 0.869
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.926,
+     "pose": 0.297,
+     "bird": 0.6
     }
    ],
-   "reviewed": true,
-   "id": "Medium gull with white head and body, pale grey back, and clean black wingtips with no white spots (dipped-in-ink look). Slender yellow bill, dark eye, short black legs.",
-   "pending": true
+   "gen": 1782760599,
+   "reviewed": false,
+   "pending": false
   },
   "bkskit1": {
    "name": "Black-winged Kite",
@@ -2138,87 +2124,64 @@
    "name": "Boreal Owl",
    "sci": "Aegolius funereus",
    "family": "Typical Owls",
-   "reason": "all",
+   "reason": "note-regen3",
    "before": "review_imgs/borowl/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63333271/320",
+   "ref": "review_imgs/borowl/ref.jpg",
+   "photo": "review_imgs/borowl/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small owl with a large square greyish-white facial disc bordered black, raised white-spotted eyebrows giving a surprised look, and yellow eyes. Chocolate-brown upperparts heavily spotted white, white underparts streaked brown; pale bill, feathered feet. Emphasise: a calm, neutral to gentle facial expression, not angry.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/borowl/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.88,
-     "pose": 0.505,
-     "bird": 0.553
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/borowl/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.845,
-     "pose": 0.528,
-     "bird": 0.531
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/borowl/v2.png",
-     "seed": 1001,
+     "seed": 1011,
      "strength": 0.68,
-     "sim": 0.785,
-     "pose": 0.381,
-     "bird": 0.785
+     "sim": 0.831,
+     "pose": 0.481,
+     "bird": 0.726
     }
    ],
-   "reviewed": true,
-   "id": "Small owl with a large square greyish-white facial disc bordered black, raised white-spotted eyebrows giving a surprised look, and yellow eyes. Chocolate-brown upperparts heavily spotted white, white underparts streaked brown; pale bill, feathered feet.",
-   "pending": true
+   "gen": 1782760733,
+   "reviewed": false,
+   "pending": false
   },
   "brant": {
    "name": "Brant",
    "sci": "Branta bernicla",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "note-keep+2",
    "before": "review_imgs/brant/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53811211/320",
+   "ref": "review_imgs/brant/ref.jpg",
+   "photo": "review_imgs/brant/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v2",
+   "id": "Small dark goose with black head, neck and breast, a small white neck collar patch, dark brownish-grey back, and pale flanks. White undertail and stern conspicuous, short black bill and black legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/brant/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.926,
-     "pose": 0.26,
-     "bird": 0.75
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.919,
+     "pose": 0.209,
+     "bird": 0.865
     },
     {
      "id": "v1",
      "img": "review_imgs/brant/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.901,
-     "pose": 0.235,
-     "bird": 0.739
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/brant/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.935,
-     "pose": 0.167,
-     "bird": 0.668
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.895,
+     "pose": 0.22,
+     "bird": 0.626
     }
    ],
-   "reviewed": true,
-   "id": "Small dark goose with black head, neck and breast, a small white neck collar patch, dark brownish-grey back, and pale flanks. White undertail and stern conspicuous, short black bill and black legs.",
-   "pending": true
+   "gen": 1782760829,
+   "reviewed": false,
+   "pending": false
   },
   "brbsan": {
    "name": "Broad-billed Sandpiper",
@@ -7866,9 +7829,10 @@
    "name": "Pale Crag-Martin",
    "sci": "Ptyonoprogne obsoleta",
    "family": "Swallows and Martins",
-   "reason": "none-good",
+   "reason": "bad ref-regen3",
    "before": "review_imgs/465888/before.png",
    "ref": "review_imgs/465888/ref.jpg",
+   "photo": "review_imgs/465888/photo.jpg",
    "ref_source": "pinned",
    "recipe": "v4-macaulay-id",
    "id": "Small stocky swallow-like bird with sandy grey-brown upperparts and paler buff-grey underparts, lacking strong contrast. Short slightly forked tail showing small white spots near tip when spread; blackish underwing coverts. Dark eye, short black bill, dark legs.",
@@ -7877,34 +7841,34 @@
     {
      "id": "v0",
      "img": "review_imgs/465888/v0.png",
-     "seed": 1027,
-     "strength": 0.74,
-     "sim": 0.639,
-     "pose": 0.275,
-     "bird": 0.515
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.791,
+     "pose": 0.078,
+     "bird": 0.616
     },
     {
      "id": "v1",
      "img": "review_imgs/465888/v1.png",
-     "seed": 1026,
+     "seed": 1031,
      "strength": 0.68,
-     "sim": 0.638,
-     "pose": 0.09,
-     "bird": 0.29
+     "sim": 0.797,
+     "pose": 0.04,
+     "bird": 0.296
     },
     {
      "id": "v2",
      "img": "review_imgs/465888/v2.png",
-     "seed": 1025,
-     "strength": 0.6,
-     "sim": 0.709,
-     "pose": 0.058,
-     "bird": 0.113
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.588,
+     "pose": 0.09,
+     "bird": 0.248
     }
    ],
+   "gen": 1782760408,
    "reviewed": false,
-   "photo": "review_imgs/465888/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "atlfly1": {
    "name": "Atlas Flycatcher",
@@ -20068,15 +20032,10 @@
   }
  },
  "queued": [
-  "465888",
   "balshe1",
   "bargoo",
-  "bkewhe2",
-  "bklkit",
   "bktgod",
-  "borowl",
   "brambl",
-  "brant",
   "brbsan",
   "bripet",
   "coatit2",

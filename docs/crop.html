@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Photo Crop Tool — Birds Today</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" />
+  <link rel="stylesheet" href="crop.css" />
+</head>
+<body>
+  <header id="bar">
+    <h1>Photo Crop Tool</h1>
+    <span class="spacer"></span>
+    <span id="count" class="muted"></span>
+    <button id="export" title="Download the crops you've set as crop_choices.json">Export crops</button>
+    <a class="muted back" href="index.html">← Back to app</a>
+  </header>
+
+  <p id="intro" class="intro">
+    These species were flagged <em>bad photo</em>. For each, <strong>click the best
+    candidate photo</strong>, then <strong>drag a box on the large image</strong> to
+    crop tightly to the whole bird (include the tail, beak and feet). Use
+    <em>Use full image</em> if no crop is needed. Your choices are remembered —
+    <em>Export crops</em> downloads <code>crop_choices.json</code>; send it to me and
+    I'll pin those photos and regenerate. Photos are from Macaulay Library /
+    iNaturalist / Wikimedia / GBIF and shown here only to choose a reference.
+  </p>
+
+  <div id="grid"></div>
+  <div id="empty" class="muted" hidden>No bad-photo species prepared yet — run crop_prep.py.</div>
+
+  <script src="crop.js"></script>
+</body>
+</html>
