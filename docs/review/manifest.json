@@ -9330,7 +9330,7 @@
    "name": "Green Sandpiper",
    "sci": "Tringa ochropus",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/grnsan/before.png",
    "ref": "review_imgs/grnsan/ref.jpg",
    "ref_source": "whobird",
@@ -9341,24 +9341,33 @@
     {
      "id": "v0",
      "img": "review_imgs/grnsan/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.835,
-     "pose": 0.154,
-     "bird": 0.835
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.848,
+     "pose": 0.195,
+     "bird": 0.848
     },
     {
      "id": "v1",
      "img": "review_imgs/grnsan/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.82,
-     "pose": 0.092,
-     "bird": 0.522
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.806,
+     "pose": 0.072,
+     "bird": 0.618
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grnsan/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.831,
+     "pose": 0.106,
+     "bird": 0.488
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "grnwar1": {
    "name": "Green Warbler",
@@ -9441,33 +9450,33 @@
     {
      "id": "v0",
      "img": "review_imgs/grrwar1/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.795,
-     "pose": 0.182,
-     "bird": 0.753
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.794,
+     "pose": 0.595,
+     "bird": 0.513
     },
     {
      "id": "v1",
      "img": "review_imgs/grrwar1/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.722,
-     "pose": 0.245,
-     "bird": 0.435
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.814,
+     "pose": 0.332,
+     "bird": 0.433
     },
     {
      "id": "v2",
      "img": "review_imgs/grrwar1/v2.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.769,
-     "pose": 0.335,
-     "bird": 0.218
+     "sim": 0.746,
+     "pose": 0.252,
+     "bird": 0.408
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "grscuc1": {
    "name": "Great Spotted Cuckoo",
@@ -9484,24 +9493,24 @@
     {
      "id": "v0",
      "img": "review_imgs/grscuc1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.769,
-     "pose": 0.052,
-     "bird": 0.381
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.799,
+     "pose": 0.1,
+     "bird": 0.623
     },
     {
      "id": "v1",
      "img": "review_imgs/grscuc1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.704,
-     "pose": 0.044,
-     "bird": 0.238
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.809,
+     "pose": 0.159,
+     "bird": 0.307
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "grseag1": {
    "name": "Greater Spotted Eagle",
@@ -9672,7 +9681,7 @@
    "name": "Greater Short-toed Lark",
    "sci": "Calandrella brachydactyla",
    "family": "Larks",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/gstlar1/before.png",
    "ref": "review_imgs/gstlar1/ref.jpg",
    "ref_source": "whobird",
@@ -9683,24 +9692,33 @@
     {
      "id": "v0",
      "img": "review_imgs/gstlar1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.9,
-     "pose": 0.182,
-     "bird": 0.528
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.818,
+     "pose": 0.258,
+     "bird": 0.814
     },
     {
      "id": "v1",
      "img": "review_imgs/gstlar1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.906,
-     "pose": 0.161,
-     "bird": 0.52
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.793,
+     "pose": 0.358,
+     "bird": 0.709
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gstlar1/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.786,
+     "pose": 0.138,
+     "bird": 0.858
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "gubter2": {
    "name": "Gull-billed Tern",
@@ -9772,7 +9790,7 @@
    "name": "Gray-headed Woodpecker",
    "sci": "Picus canus",
    "family": "Woodpeckers",
-   "reason": "badref",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/gyfwoo1/before.png",
    "ref": "review_imgs/gyfwoo1/ref.jpg",
    "ref_source": "whobird",
@@ -9783,33 +9801,24 @@
     {
      "id": "v0",
      "img": "review_imgs/gyfwoo1/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.898,
-     "pose": 0.318,
-     "bird": 0.549
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.877,
+     "pose": 0.156,
+     "bird": 0.464
     },
     {
      "id": "v1",
      "img": "review_imgs/gyfwoo1/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.896,
-     "pose": 0.256,
-     "bird": 0.512
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gyfwoo1/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.878,
-     "pose": 0.199,
-     "bird": 0.582
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.899,
+     "pose": 0.189,
+     "bird": 0.205
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "gyhchi": {
    "name": "Gray-headed Chickadee",
