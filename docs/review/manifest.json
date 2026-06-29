@@ -11182,35 +11182,37 @@
    "name": "Levant Sparrowhawk",
    "sci": "Tachyspiza brevipes",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "not good-keep+2",
    "before": "review_imgs/levspa1/before.png",
    "ref": "review_imgs/levspa1/ref.jpg",
+   "photo": "review_imgs/levspa1/photo.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small slim hawk; male has blue-grey upperparts, very pale whitish underparts with faint rufous barring, blackish wingtips, and a grey tail with dark bands. Dark eye (not yellow), yellow cere and legs. Pointed wingtips, slender build.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/levspa1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.71,
-     "pose": 0.481,
-     "bird": 0.718
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.737,
+     "pose": 0.643,
+     "bird": 0.795
     },
     {
      "id": "v1",
      "img": "review_imgs/levspa1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.696,
-     "pose": 0.404,
-     "bird": 0.576
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.709,
+     "pose": 0.571,
+     "bird": 0.538
     }
    ],
-   "id": "Small slim hawk; male has blue-grey upperparts, very pale whitish underparts with faint rufous barring, blackish wingtips, and a grey tail with dark bands. Dark eye (not yellow), yellow cere and legs. Pointed wingtips, slender build.",
-   "photo": "review_imgs/levspa1/photo.jpg",
-   "pending": true
+   "gen": 1782769228,
+   "reviewed": false,
+   "pending": false
   },
   "levwoo1": {
    "name": "Levaillant's Woodpecker",
@@ -11277,9 +11279,10 @@
    "name": "Little Bittern",
    "sci": "Botaurus minutus",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/litbit1/before.png",
    "ref": "review_imgs/litbit1/ref.jpg",
+   "photo": "review_imgs/litbit1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny heron; male has a black crown and back, large buff wing-coverts forming a pale oval panel, and buff neck and underparts. Greenish-yellow dagger bill and yellow legs. Slim long-necked build; the contrasting black back and pale wing-patch stand out.",
@@ -11288,33 +11291,43 @@
     {
      "id": "v0",
      "img": "review_imgs/litbit1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.9,
-     "pose": 0.317,
-     "bird": 0.942
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.785,
+     "pose": 0.509,
+     "bird": 0.742
     },
     {
      "id": "v1",
      "img": "review_imgs/litbit1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.909,
-     "pose": 0.343,
-     "bird": 0.453
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.789,
+     "pose": 0.381,
+     "bird": 0.68
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litbit1/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.779,
+     "pose": 0.365,
+     "bird": 0.659
     }
    ],
+   "gen": 1782769360,
    "reviewed": false,
-   "photo": "review_imgs/litbit1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "litbun": {
    "name": "Little Bunting",
    "sci": "Emberiza pusilla",
    "family": "Old World Buntings",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/litbun/before.png",
    "ref": "review_imgs/litbun/ref.jpg",
+   "photo": "review_imgs/litbun/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small bunting with a chestnut crown bordered by black lateral stripes, chestnut ear-coverts outlined black, a pale eye-ring, and a whitish 'spot' behind the cheek. Whitish underparts streaked black on breast and flanks. Small dark conical bill, pinkish legs.",
@@ -11323,33 +11336,43 @@
     {
      "id": "v0",
      "img": "review_imgs/litbun/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.895,
-     "pose": 0.24,
-     "bird": 0.69
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.767,
+     "pose": 0.404,
+     "bird": 0.892
     },
     {
      "id": "v1",
      "img": "review_imgs/litbun/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.903,
-     "pose": 0.13,
-     "bird": 0.446
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.744,
+     "pose": 0.324,
+     "bird": 0.815
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litbun/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.75,
+     "pose": 0.224,
+     "bird": 0.683
     }
    ],
+   "gen": 1782769493,
    "reviewed": false,
-   "photo": "review_imgs/litbun/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "litcra1": {
    "name": "Little Crake",
    "sci": "Zapornia parva",
    "family": "Rails, Gallinules, and Coots",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/litcra1/before.png",
    "ref": "review_imgs/litcra1/ref.jpg",
+   "photo": "review_imgs/litcra1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny slim crake; male has slate-grey face and underparts, olive-brown back streaked black with fine white spots, and barred buff-and-white undertail. Short green bill with a red spot at the base, green legs with long toes. Long tail held cocked.",
@@ -11358,33 +11381,43 @@
     {
      "id": "v0",
      "img": "review_imgs/litcra1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.743,
-     "pose": 0.23,
-     "bird": 0.765
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.776,
+     "pose": 0.127,
+     "bird": 0.878
     },
     {
      "id": "v1",
      "img": "review_imgs/litcra1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.729,
-     "pose": 0.095,
-     "bird": 0.218
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.737,
+     "pose": 0.039,
+     "bird": 0.912
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litcra1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.722,
+     "pose": 0.133,
+     "bird": 0.041
     }
    ],
+   "gen": 1782769626,
    "reviewed": false,
-   "photo": "review_imgs/litcra1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "litegr": {
    "name": "Little Egret",
    "sci": "Egretta garzetta",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/litegr/before.png",
    "ref": "review_imgs/litegr/ref.jpg",
+   "photo": "review_imgs/litegr/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slender all-white heron with a long thin neck, slim black dagger bill, black legs and contrasting bright yellow feet. Fine drooping plumes on the nape, breast and back in breeding dress. Elegant, graceful build with sharp angular profile.",
@@ -11393,25 +11426,25 @@
     {
      "id": "v0",
      "img": "review_imgs/litegr/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.931,
-     "pose": 0.533,
-     "bird": 0.866
+     "sim": 0.847,
+     "pose": 0.49,
+     "bird": 0.722
     },
     {
      "id": "v1",
      "img": "review_imgs/litegr/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.911,
-     "pose": 0.314,
-     "bird": 0.451
+     "sim": 0.841,
+     "pose": 0.407,
+     "bird": 0.734
     }
    ],
+   "gen": 1782769714,
    "reviewed": false,
-   "photo": "review_imgs/litegr/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "litgre1": {
    "name": "Little Grebe",
@@ -19946,12 +19979,7 @@
   "jacsni",
   "lammer1",
   "leskes1",
-  "levspa1",
   "levwoo1",
-  "litbit1",
-  "litbun",
-  "litcra1",
-  "litegr",
   "litgre1",
   "litgul",
   "litshe1",
