@@ -540,7 +540,8 @@ def main():
             "reason": r.get("reason", ""), "before": before_rel,
             "ref": res.get("ref"), "ref_source": refsrc, "recipe": RECIPE,
             "id": ids.get(code, ""),
-            "chosen": res["chosen"], "variants": res["variants"]}
+            "chosen": res["chosen"], "variants": res["variants"],
+            "gen": int(time.time()), "reviewed": False, "pending": False}
         json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
         done += 1

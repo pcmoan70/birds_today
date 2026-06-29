@@ -16,6 +16,7 @@
     <span class="spacer"></span>
     <span id="count" class="muted"></span>
     <span id="progress" class="muted"></span>
+    <button id="showres" class="ghost" hidden title="Reveal cards you've marked Satisfied / None good enough so you can undo">Show resolved (0)</button>
     <button id="clearsel" class="ghost" title="Clear all variant selections (keeps flags/notes)">Clear picks</button>
     <button id="export" title="Download the feedback you've given so far as choices.json">Export feedback</button>
     <a class="muted back" href="index.html">← Back to app</a>
@@ -27,8 +28,11 @@
     tiles are AI suggestions — <em>nothing is pre-selected</em>. Click the best
     one to <strong>keep it</strong> as the new current; two fresh suggestions
     are then generated next to it for the next round. Mark <em>👍 Satisfied</em>
-    when it's good enough to finalise (it drops off), <em>None good enough</em>
-    to regenerate all three, <em>⚐ flag photo</em> if the reference is bad; edit
+    when it's good enough to finalise, or <em>None good enough</em> to regenerate
+    all three — either verdict <strong>drops the card off the list</strong> until
+    fresh candidates are ready (use <em>Show resolved</em> to undo). New
+    suggestions always appear with nothing pre-selected. Use <em>⚐ flag photo</em>
+    if the reference is bad; edit
     the <em>field marks</em> prompt to steer generation, and use the text box for
     a note. Giving no feedback keeps the current image. <em>Export feedback</em>
     downloads only the species you've touched — your place is remembered, so you

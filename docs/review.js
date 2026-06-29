@@ -8,17 +8,85 @@
   var KEY = "birdReviewChoices";   // {code: variantId}
   var MKEY = "birdReviewMeta";     // {code: {badRef, noneGood, satisfied, idEdit, note}}
   var SKEY = "birdReviewScroll";   // last scroll position (px)
+  var GKEY = "birdReviewGen";      // {code: generation stamp we hold state for}
+  var RESKEY = "birdReviewShowRes"; // "1" while resolved cards are revealed
   // Deep-link target: the main page links a displayed bird to review.html#<code>
   // so the user lands on that species' card.
   var hashCode = "";
   try { hashCode = decodeURIComponent((location.hash || "").replace(/^#/, "")); } catch (e) {}
-  var choices = {}, meta = {};
+  var choices = {}, meta = {}, gens = {};
   try { choices = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
   try { meta = JSON.parse(localStorage.getItem(MKEY) || "{}"); } catch (e) {}
+  try { gens = JSON.parse(localStorage.getItem(GKEY) || "{}"); } catch (e) {}
+  var showResolved = localStorage.getItem(RESKEY) === "1";
 
   function save() { localStorage.setItem(KEY, JSON.stringify(choices)); updateProgress(); }
   function saveMeta() { localStorage.setItem(MKEY, JSON.stringify(meta)); updateProgress(); }
+  function saveGens() { localStorage.setItem(GKEY, JSON.stringify(gens)); }
   function m(code) { return meta[code] || (meta[code] = {}); }
+
+  // A species is "resolved" for this round once the reviewer marks it Satisfied
+  // (finalize) or None good enough (regenerate) — either way there's nothing
+  // more to decide until new candidates arrive, so it drops off the list.
+  function resolved(code) {
+    var mm = meta[code];
+    return !!(mm && (mm.satisfied || mm.noneGood));
+  }
+
+  // When an entry's generation stamp advances (the worker produced fresh
+  // candidates), wipe any picks/toggles we held for it so the new round shows
+  // a clean slate. Legacy entries (no gen) are left as-is.
+  function reconcileGen(data) {
+    var sp = data.species || {}, dirty = false;
+    Object.keys(sp).forEach(function (code) {
+      var g = sp[code].gen;
+      if (g == null) return;
+      if (gens[code] !== g) {
+        if (Object.prototype.hasOwnProperty.call(choices, code)) delete choices[code];
+        if (meta[code]) delete meta[code];
+        gens[code] = g; dirty = true;
+      }
+    });
+    if (dirty) {
+      localStorage.setItem(KEY, JSON.stringify(choices));
+      localStorage.setItem(MKEY, JSON.stringify(meta));
+      saveGens();
+    }
+  }
+
+  // Codes currently visible: current-recipe, not reviewed/pending, and (unless
+  // "Show resolved" is on) not resolved. A deep-linked species always shows.
+  function visibleCodes() {
+    var data = window.__review || { species: {} };
+    return Object.keys(data.species || {}).filter(function (c) {
+      var s = data.species[c];
+      if (c === hashCode) return true;
+      if (!((s.recipe || "").indexOf("v4") === 0 && !s.reviewed && !s.pending)) return false;
+      if (resolved(c) && !showResolved) return false;
+      return true;
+    });
+  }
+
+  function resolvedCount() {
+    var data = window.__review || { species: {} };
+    return Object.keys(data.species || {}).filter(function (c) {
+      var s = data.species[c];
+      if (!((s.recipe || "").indexOf("v4") === 0 && !s.reviewed && !s.pending)) return false;
+      return resolved(c);
+    }).length;
+  }
+
+  function refreshCounts() {
+    var ce = document.getElementById("count");
+    if (ce) ce.textContent = visibleCodes().length + " species";
+    var rb = document.getElementById("showres");
+    if (rb) {
+      var n = resolvedCount();
+      rb.hidden = n === 0;
+      rb.textContent = (showResolved ? "Hide resolved" : "Show resolved") + " (" + n + ")";
+      rb.classList.toggle("on", showResolved);
+    }
+  }
 
   // A species is "touched" once the user picks a variant or sets any flag/note/
   // prompt edit — i.e. has actually given feedback on it.
@@ -74,17 +142,15 @@
 
   function render(data) {
     var grid = document.getElementById("grid");
-    // Show current-recipe (v4) images that haven't been reviewed yet. A species
-    // drops off once feedback is applied, and returns only when a new image is
-    // generated for it (regeneration writes a fresh, unreviewed entry).
-    var codes = Object.keys(data.species || {}).filter(function (c) {
-      var s = data.species[c];
-      if (c === hashCode) return true;   // always show a deep-linked species
-      // Hide reviewed (finalized) species and ones awaiting regeneration
-      // (pending) — the latter return once their new images are ready.
-      return (s.recipe || "").indexOf("v4") === 0 && !s.reviewed && !s.pending;
-    });
-    document.getElementById("count").textContent = codes.length + " species";
+    // Drop stale picks/toggles for any entry that has been regenerated, so new
+    // candidates show with nothing selected.
+    reconcileGen(data);
+    // Show current-recipe (v4) images that haven't been reviewed/are not pending
+    // and aren't resolved (Satisfied / None good) — those drop off until fresh
+    // candidates are generated (which clears the verdict and brings them back).
+    var codes = visibleCodes();
+    document.getElementById("empty").hidden = true;
+    refreshCounts();
     if (!codes.length) { document.getElementById("empty").hidden = false; return; }
     grid.innerHTML = "";
     codes.sort(function (a, b) {
@@ -169,15 +235,23 @@
         satBtn.classList.toggle("on", sat);
         satBtn.textContent = sat ? "👍 Satisfied ✓" : "👍 Satisfied";
       }
+      // A resolved verdict (Satisfied / None good) drops the card off the list
+      // for this round; "Show resolved" keeps it visible so a mis-click can be
+      // undone. New candidates clear the verdict and bring it back clean.
+      function afterVerdict() {
+        if (resolved(code) && !showResolved) card.style.display = "none";
+        else card.style.display = "";
+        refreshCounts();
+      }
       satBtn.onclick = function () {
         m(code).satisfied = !m(code).satisfied;
         if (m(code).satisfied) m(code).noneGood = false;
-        saveMeta(); syncVerdict();
+        saveMeta(); syncVerdict(); afterVerdict();
       };
       noneBtn.onclick = function () {
         m(code).noneGood = !m(code).noneGood;
         if (m(code).noneGood) m(code).satisfied = false;
-        saveMeta(); syncVerdict();
+        saveMeta(); syncVerdict(); afterVerdict();
       };
       syncVerdict();
 
@@ -218,6 +292,13 @@
       grid.appendChild(card);
     });
   }
+
+  var resBtn = document.getElementById("showres");
+  if (resBtn) resBtn.onclick = function () {
+    showResolved = !showResolved;
+    localStorage.setItem(RESKEY, showResolved ? "1" : "0");
+    render(window.__review || { species: {} });
+  };
 
   var clearBtn = document.getElementById("clearsel");
   if (clearBtn) clearBtn.onclick = function () {

@@ -91,6 +91,9 @@ def process(job, pipe, sess, by_code, fams, ids):
         "ref": res.get("ref"), "ref_source": refsrc, "recipe": R.RECIPE,
         "id": ids.get(code, ""),
         "chosen": None, "variants": res["variants"],
+        # gen = generation stamp: when this advances, the review page knows the
+        # entry is a fresh round and clears any stale picks/toggles for it.
+        "gen": int(time.time()),
         "reviewed": False, "pending": False}
     json.dump(review, open(R.REVIEW_MAN, "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
