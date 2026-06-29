@@ -9679,71 +9679,73 @@
    "name": "Gray Partridge",
    "sci": "Perdix perdix",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/grypar/before.png",
    "ref": "review_imgs/grypar/ref.jpg",
+   "photo": "review_imgs/grypar/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Plump round partridge, grey breast and neck finely barred, brown-streaked back, chestnut-barred flanks; orange-buff face, dark horseshoe belly patch; short grey bill, greyish legs.",
+   "id": "Plump round partridge, grey breast and neck finely barred, brown-streaked back, chestnut-barred flanks; orange-buff face, dark horseshoe belly patch; short grey bill, greyish legs. Emphasise: an orange face, finely barred grey underparts and a dark belly horseshoe.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grypar/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.869,
-     "pose": 0.124,
-     "bird": 0.726
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.899,
+     "pose": 0.332,
+     "bird": 0.43
     },
     {
      "id": "v1",
      "img": "review_imgs/grypar/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.872,
-     "pose": 0.346,
-     "bird": 0.425
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.891,
+     "pose": 0.229,
+     "bird": 0.412
     }
    ],
+   "gen": 1782767934,
    "reviewed": false,
-   "photo": "review_imgs/grypar/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "grywag": {
    "name": "Gray Wagtail",
    "sci": "Motacilla cinerea",
    "family": "Wagtails and Pipits",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/grywag/before.png",
    "ref": "review_imgs/grywag/ref.jpg",
+   "photo": "review_imgs/grywag/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Slim long-tailed wagtail, blue-grey back and head, yellow rump and bright yellow underparts (vivid on undertail); white supercilium, white wingbar, blackish wings; black bill, pinkish legs.",
+   "id": "Slim long-tailed wagtail, blue-grey back and head, yellow rump and bright yellow underparts (vivid on undertail); white supercilium, white wingbar, blackish wings; black bill, pinkish legs. Emphasise: a blue-grey head with a white supercilium and white moustachial stripe, and yellow underparts.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grywag/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.882,
-     "pose": 0.058,
-     "bird": 0.864
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.879,
+     "pose": 0.054,
+     "bird": 0.892
     },
     {
      "id": "v1",
      "img": "review_imgs/grywag/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.874,
-     "pose": 0.025,
-     "bird": 0.863
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.853,
+     "pose": 0.075,
+     "bird": 0.908
     }
    ],
+   "gen": 1782768030,
    "reviewed": false,
-   "photo": "review_imgs/grywag/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "gstlar1": {
    "name": "Greater Short-toed Lark",
@@ -9793,9 +9795,10 @@
    "name": "Gull-billed Tern",
    "sci": "Gelochelidon nilotica",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/gubter2/before.png",
    "ref": "review_imgs/gubter2/ref.jpg",
+   "photo": "review_imgs/gubter2/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Stout pale tern, pale grey back and wings, white underparts; full black cap in breeding; thick gull-like all-black bill, long black legs, short forked tail.",
@@ -9804,33 +9807,34 @@
     {
      "id": "v0",
      "img": "review_imgs/gubter2/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.915,
-     "pose": 0.027,
-     "bird": 0.45
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.773,
+     "pose": 0.136,
+     "bird": 0.855
     },
     {
      "id": "v1",
      "img": "review_imgs/gubter2/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.924,
-     "pose": 0.025,
-     "bird": 0.431
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.89,
+     "pose": 0.021,
+     "bird": 0.733
     }
    ],
+   "gen": 1782768117,
    "reviewed": false,
-   "photo": "review_imgs/gubter2/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "gwfgoo": {
    "name": "Greater White-fronted Goose",
    "sci": "Anser albifrons",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/gwfgoo/before.png",
    "ref": "review_imgs/gwfgoo/ref.jpg",
+   "photo": "review_imgs/gwfgoo/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Grey-brown goose with white blaze around base of bill, black irregular barring on belly; barred brown back, white undertail; pink-orange bill, orange legs.",
@@ -9839,25 +9843,34 @@
     {
      "id": "v0",
      "img": "review_imgs/gwfgoo/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.91,
-     "pose": 0.255,
-     "bird": 0.969
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.836,
+     "pose": 0.347,
+     "bird": 0.982
     },
     {
      "id": "v1",
      "img": "review_imgs/gwfgoo/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.877,
-     "pose": 0.225,
-     "bird": 0.885
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.839,
+     "pose": 0.299,
+     "bird": 0.966
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gwfgoo/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.839,
+     "pose": 0.198,
+     "bird": 0.969
     }
    ],
+   "gen": 1782768250,
    "reviewed": false,
-   "photo": "review_imgs/gwfgoo/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "gyfwoo1": {
    "name": "Gray-headed Woodpecker",
@@ -9933,36 +9946,46 @@
    "name": "Gyrfalcon",
    "sci": "Falco rusticolus",
    "family": "Falcons and Caracaras",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/gyrfal/before.png",
    "ref": "review_imgs/gyrfal/ref.jpg",
+   "photo": "review_imgs/gyrfal/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Large powerful falcon, pale grey-white plumage variably barred and spotted dark grey above, white below with dark streaking; broad pointed wings, yellow cere and feet, dark hooked bill, faint moustache.",
+   "id": "Large powerful falcon, pale grey-white plumage variably barred and spotted dark grey above, white below with dark streaking; broad pointed wings, yellow cere and feet, dark hooked bill, faint moustache. Emphasise: a diffuse grey moustache rather than a strong black one, and a bulky, slightly hunched look from large wing muscles.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gyrfal/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.899,
-     "pose": 0.549,
-     "bird": 0.538
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.836,
+     "pose": 0.662,
+     "bird": 0.756
     },
     {
      "id": "v1",
      "img": "review_imgs/gyrfal/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.903,
-     "pose": 0.462,
-     "bird": 0.341
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.809,
+     "pose": 0.603,
+     "bird": 0.592
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gyrfal/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.812,
+     "pose": 0.604,
+     "bird": 0.412
     }
    ],
+   "gen": 1782768383,
    "reviewed": false,
-   "photo": "review_imgs/gyrfal/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "harduc": {
    "name": "Harlequin Duck",
@@ -19929,13 +19952,7 @@
   "grapri1",
   "grebus1",
   "greshe",
-  "grscuc1",
-  "grypar",
-  "grywag",
-  "gubter2",
-  "gwfgoo",
   "gyfwoo1",
-  "gyrfal",
   "harduc",
   "hazgro1",
   "hoomer",
