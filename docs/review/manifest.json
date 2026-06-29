@@ -9835,24 +9835,24 @@
     {
      "id": "v0",
      "img": "review_imgs/gyhchi/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.899,
-     "pose": 0.023,
-     "bird": 0.808
+     "sim": 0.812,
+     "pose": 0.102,
+     "bird": 0.797
     },
     {
      "id": "v1",
      "img": "review_imgs/gyhchi/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.895,
-     "pose": 0.052,
-     "bird": 0.687
+     "sim": 0.804,
+     "pose": 0.059,
+     "bird": 0.737
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "gyrfal": {
    "name": "Gyrfalcon",
@@ -9891,7 +9891,7 @@
    "name": "Harlequin Duck",
    "sci": "Histrionicus histrionicus",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/harduc/before.png",
    "ref": "review_imgs/harduc/ref.jpg",
    "ref_source": "whobird",
@@ -9902,24 +9902,33 @@
     {
      "id": "v0",
      "img": "review_imgs/harduc/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.808,
-     "pose": 0.074,
-     "bird": 0.374
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.781,
+     "pose": 0.264,
+     "bird": 0.733
     },
     {
      "id": "v1",
      "img": "review_imgs/harduc/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.793,
-     "pose": 0.114,
-     "bird": 0.08
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.847,
+     "pose": 0.219,
+     "bird": 0.643
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/harduc/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.686,
+     "pose": 0.046,
+     "bird": 0.719
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "hawfin": {
    "name": "Hawfinch",
@@ -9958,7 +9967,7 @@
    "name": "Hazel Grouse",
    "sci": "Tetrastes bonasia",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/hazgro1/before.png",
    "ref": "review_imgs/hazgro1/ref.jpg",
    "ref_source": "whobird",
@@ -9969,24 +9978,33 @@
     {
      "id": "v0",
      "img": "review_imgs/hazgro1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.853,
-     "pose": 0.126,
-     "bird": 0.87
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.811,
+     "pose": 0.233,
+     "bird": 0.943
     },
     {
      "id": "v1",
      "img": "review_imgs/hazgro1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.818,
-     "pose": 0.107,
-     "bird": 0.886
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.85,
+     "pose": 0.154,
+     "bird": 0.935
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/hazgro1/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.813,
+     "pose": 0.219,
+     "bird": 0.79
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "hoocro1": {
    "name": "Hooded Crow",
@@ -10077,24 +10095,24 @@
     {
      "id": "v0",
      "img": "review_imgs/hoopoe/v0.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.905,
-     "pose": 0.38,
-     "bird": 0.513
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.921,
+     "pose": 0.091,
+     "bird": 0.521
     },
     {
      "id": "v1",
      "img": "review_imgs/hoopoe/v1.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.876,
-     "pose": 0.402,
-     "bird": 0.425
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.905,
+     "pose": 0.199,
+     "bird": 0.189
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "horgre": {
    "name": "Horned Grebe",
@@ -10265,35 +10283,44 @@
    "name": "Iberian Chiffchaff",
    "sci": "Phylloscopus ibericus",
    "family": "Leaf Warblers",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/ibechi2/before.png",
    "ref": "review_imgs/ibechi2/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny olive-green warbler with yellowish supercilium and throat, greyer crown and nape, and whitish belly washed yellow. Fine dark bill, dark legs. Slim and active; very similar to Common Chiffchaff but slightly brighter yellow-and-green tones.",
+   "id": "Tiny olive-green warbler with yellowish supercilium and throat, greyer crown and nape, and whitish belly washed yellow. Fine dark bill, dark legs. Slim and active; very similar to Common Chiffchaff but slightly brighter yellow-and-green tones. No yellow anywhere in the plumage.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ibechi2/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.792,
-     "pose": 0.233,
-     "bird": 0.77
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.844,
+     "pose": 0.31,
+     "bird": 0.675
     },
     {
      "id": "v1",
      "img": "review_imgs/ibechi2/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.843,
-     "pose": 0.098,
-     "bird": 0.526
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.872,
+     "pose": 0.33,
+     "bird": 0.376
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ibechi2/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.849,
+     "pose": 0.204,
+     "bird": 0.348
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "ibgshr1": {
    "name": "Iberian Gray Shrike",
