@@ -53,6 +53,7 @@ QCDIR = os.path.join(HERE, "qc_out")
 BA = os.path.join(QCDIR, "ba")
 FAMILIES = os.path.join(HERE, "families.json")
 IDFEATURES = os.path.join(HERE, "id_features.json")
+FEETFEATURES = os.path.join(HERE, "feet_features.json")  # family -> legs/feet clause
 RETRY = os.path.join(HERE, "retry_rounds.json")  # {code: round} — bumped when a
 #   species is marked "none good enough" so its re-gen uses fresh seeds.
 RECIPE = "v4-macaulay-id"   # primary Macaulay reference + ID-feature prompt
@@ -104,6 +105,20 @@ def load_id_features():
     return json.load(open(IDFEATURES, encoding="utf-8")) if os.path.exists(IDFEATURES) else {}
 
 
+_FEET = [None]
+
+
+def load_feet():
+    """Family -> characteristic legs/feet description (cached). Lets a bird's
+    family ground its feet morphology (webbed for ducks, talons for raptors,
+    long wading legs for sandpipers, zygodactyl for woodpeckers/parrots, …) so
+    the drawing renders plausible feet even when the reference hides them."""
+    if _FEET[0] is None:
+        _FEET[0] = (json.load(open(FEETFEATURES, encoding="utf-8"))
+                    if os.path.exists(FEETFEATURES) else {})
+    return _FEET[0]
+
+
 def load_retry():
     return json.load(open(RETRY, encoding="utf-8")) if os.path.exists(RETRY) else {}
 
@@ -116,8 +131,13 @@ def improved_prompt(common, sci, code, stance, fams, ids):
         fam_clause = f", a member of the family {fam[0]}{en}"
     id_text = (ids or {}).get(code, "").strip()
     id_clause = f" Identification — emphasise these field marks: {id_text}" if id_text else ""
+    # Family-level legs/feet morphology — anchors the feet even when the
+    # reference photo hides them (bird on water, crouched, feet behind a perch).
+    feet = load_feet()
+    feet_text = (feet.get(fam[0]) if fam[0] else None) or feet.get("_default", "")
+    feet_clause = f" Render the legs and feet accurately: {feet_text}." if feet_text else ""
     return (G.STYLES["fieldguide"]["prompt"] + ". "
-            f"A {common} ({sci}){fam_clause}, {G.STANCES[stance]['desc']}.{id_clause} "
+            f"A {common} ({sci}){fam_clause}, {G.STANCES[stance]['desc']}.{id_clause}{feet_clause} "
             "Depict a typical wild adult in natural, accurate, muted plumage "
             "colours, true to these field marks and the reference photograph; "
             "avoid over-saturated or exaggerated colours. Show the complete bird "
