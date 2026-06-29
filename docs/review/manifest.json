@@ -10665,33 +10665,33 @@
     {
      "id": "v0",
      "img": "review_imgs/lammer1/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.847,
-     "pose": 0.442,
-     "bird": 0.531
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.836,
+     "pose": 0.401,
+     "bird": 0.651
     },
     {
      "id": "v1",
      "img": "review_imgs/lammer1/v1.png",
-     "seed": 1012,
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.809,
-     "pose": 0.355,
-     "bird": 0.691
+     "sim": 0.822,
+     "pose": 0.275,
+     "bird": 0.663
     },
     {
      "id": "v2",
      "img": "review_imgs/lammer1/v2.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.795,
-     "pose": 0.372,
-     "bird": 0.53
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.803,
+     "pose": 0.446,
+     "bird": 0.454
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "lanwar": {
    "name": "Lanceolated Warbler",
@@ -10928,7 +10928,7 @@
    "name": "Lesser Kestrel",
    "sci": "Falco naumanni",
    "family": "Falcons and Caracaras",
-   "reason": "pick-keep-regen2",
+   "reason": "badref",
    "before": "review_imgs/leskes1/before.png",
    "ref": "review_imgs/leskes1/ref.jpg",
    "ref_source": "whobird",
@@ -10939,30 +10939,39 @@
     {
      "id": "v0",
      "img": "review_imgs/leskes1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.845,
-     "pose": 0.281,
-     "bird": 0.917
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.724,
+     "pose": 0.406,
+     "bird": 0.851
     },
     {
      "id": "v1",
      "img": "review_imgs/leskes1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.833,
-     "pose": 0.268,
-     "bird": 0.728
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.701,
+     "pose": 0.418,
+     "bird": 0.846
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/leskes1/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.703,
+     "pose": 0.539,
+     "bird": 0.708
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "leswhi4": {
    "name": "Lesser Whitethroat",
    "sci": "Curruca curruca",
    "family": null,
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/leswhi4/before.png",
    "ref": "review_imgs/leswhi4/ref.jpg",
    "ref_source": "whobird",
@@ -10973,24 +10982,33 @@
     {
      "id": "v0",
      "img": "review_imgs/leswhi4/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.911,
-     "pose": 0.249,
-     "bird": 0.694
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.791,
+     "pose": 0.498,
+     "bird": 0.739
     },
     {
      "id": "v1",
      "img": "review_imgs/leswhi4/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.906,
-     "pose": 0.18,
-     "bird": 0.431
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.85,
+     "pose": 0.272,
+     "bird": 0.813
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/leswhi4/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.805,
+     "pose": 0.323,
+     "bird": 0.822
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "lesyel": {
    "name": "Lesser Yellowlegs",
@@ -11061,7 +11079,7 @@
    "name": "Levaillant's Woodpecker",
    "sci": "Picus vaillantii",
    "family": "Woodpeckers",
-   "reason": "pick-keep-regen2",
+   "reason": "badref",
    "before": "review_imgs/levwoo1/before.png",
    "ref": "review_imgs/levwoo1/ref.jpg",
    "ref_source": "whobird",
@@ -11072,15 +11090,15 @@
     {
      "id": "v0",
      "img": "review_imgs/levwoo1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.711,
-     "pose": 0.284,
-     "bird": 0.841
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.768,
+     "pose": 0.332,
+     "bird": 0.788
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "lirplo": {
    "name": "Little Ringed Plover",
@@ -11361,15 +11379,24 @@
     {
      "id": "v0",
      "img": "review_imgs/litshe1/v0.png",
-     "seed": 1012,
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.674,
+     "pose": 0.125,
+     "bird": 0.735
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/litshe1/v1.png",
+     "seed": 1017,
      "strength": 0.74,
-     "sim": 0.67,
-     "pose": 0.242,
-     "bird": 0.941
+     "sim": 0.673,
+     "pose": 0.183,
+     "bird": 0.548
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "litsti": {
    "name": "Little Stint",
