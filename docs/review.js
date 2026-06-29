@@ -181,11 +181,19 @@
         '<span class="sci">' + (s.sci || "") + "</span>" +
         (s.family ? '<span class="fam">' + s.family + "</span>" : "") +
         (s.reason ? '<span class="reason">' + s.reason + "</span>" : "");
-      var vBtn = document.createElement("button");
-      vBtn.className = "flag verdict";
-      vBtn.title = "Tap to set the verdict: 👍 Satisfied (finalise the picked image) → "
-        + "👎 Not good enough (regenerate) → clear";
-      head.appendChild(vBtn);
+      // Explicit binary verdict — the reviewer must say whether a generated
+      // image is good or needs more iterations. Two segmented buttons; exactly
+      // one can be active (click the active one again to clear = no feedback).
+      var goodBtn = document.createElement("button");
+      goodBtn.className = "flag good";
+      goodBtn.textContent = "👍 Good";
+      goodBtn.title = "This image is good — finalise the picked image";
+      head.appendChild(goodBtn);
+      var iterBtn = document.createElement("button");
+      iterBtn.className = "flag iter";
+      iterBtn.textContent = "🔁 More iterations";
+      iterBtn.title = "Not good enough — keep the picked image and generate more";
+      head.appendChild(iterBtn);
       card.appendChild(head);
 
       var tiles = document.createElement("div");
@@ -247,14 +255,12 @@
       });
       card.appendChild(tiles);
 
-      // One verdict per card, cycled by the single header button:
-      //   (unset) → 👍 Satisfied → 👎 Not good enough → (unset)
+      // Exactly one verdict can be active: "satisfied" (Good) or "notgood"
+      // (More iterations). Neither active = no feedback for this species.
       function syncVerdict() {
         var v = m(code).verdict;
-        vBtn.classList.toggle("sat", v === "satisfied");
-        vBtn.classList.toggle("none", v === "notgood");
-        vBtn.textContent = v === "satisfied" ? "👍 Satisfied"
-          : v === "notgood" ? "👎 Not good enough" : "Set verdict";
+        goodBtn.classList.toggle("on", v === "satisfied");
+        iterBtn.classList.toggle("on", v === "notgood");
       }
       // Setting a verdict resolves the card for this round, so it drops off the
       // list; "Show resolved" keeps it visible so a mis-click can be undone. New
@@ -264,13 +270,13 @@
         else card.style.display = "";
         refreshCounts();
       }
-      vBtn.onclick = function () {
-        var v = m(code).verdict;
-        if (!v) m(code).verdict = "satisfied";
-        else if (v === "satisfied") m(code).verdict = "notgood";
-        else delete m(code).verdict;
+      function setVerdict(v) {
+        m(code).verdict = (m(code).verdict === v) ? undefined : v;
+        if (!m(code).verdict) delete m(code).verdict;
         saveMeta(); syncVerdict(); afterVerdict();
-      };
+      }
+      goodBtn.onclick = function () { setVerdict("satisfied"); };
+      iterBtn.onclick = function () { setVerdict("notgood"); };
       syncVerdict();
 
       // ---- editable species-specific prompt (ID field marks) ----------
