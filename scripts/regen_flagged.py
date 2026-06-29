@@ -366,12 +366,13 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
     rt = init.copy(); rt.thumbnail((384, 384), Image.LANCZOS)
     rt.save(os.path.join(vdir, "ref.jpg"), "JPEG", quality=82, optimize=True)
     ref_rel = f"review_imgs/{code}/ref.jpg"
-    # Also publish the raw reference photo cropped to the same square size, so the
-    # review shows the real photograph (recognisable, background intact) next to
-    # the isolated model input it produced.
+    # Also publish the raw reference photo IN FULL (aspect preserved, never
+    # cropped — the review tile letterboxes it), so the reviewer sees the whole
+    # real photograph (tail, feet and all), not a square crop of it.
     photo_rel = None
     try:
-        photo = _center_square(Image.open(ref_path).convert("RGB"), 384)
+        photo = Image.open(ref_path).convert("RGB")
+        photo.thumbnail((512, 512), Image.LANCZOS)
         photo.save(os.path.join(vdir, "photo.jpg"), "JPEG", quality=82, optimize=True)
         photo_rel = f"review_imgs/{code}/photo.jpg"
     except Exception:

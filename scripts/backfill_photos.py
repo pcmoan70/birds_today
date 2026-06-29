@@ -32,7 +32,7 @@ def main():
     written = skipped = rejected = 0
     reject_codes = []
     for code, s in sp.items():
-        if s.get("reviewed") or s.get("photo"):
+        if s.get("reviewed"):
             continue
         raw = os.path.join(R.RAW, code, "sitting_0.jpg")
         if not os.path.exists(raw):
@@ -52,8 +52,9 @@ def main():
                 continue
         vdir = os.path.join(R.REVIEW_IMGS, code)
         os.makedirs(vdir, exist_ok=True)
-        R._center_square(im, 384).save(os.path.join(vdir, "photo.jpg"),
-                                       "JPEG", quality=82, optimize=True)
+        full = im.copy()
+        full.thumbnail((512, 512), Image.LANCZOS)  # full photo, aspect preserved
+        full.save(os.path.join(vdir, "photo.jpg"), "JPEG", quality=82, optimize=True)
         s["photo"] = f"review_imgs/{code}/photo.jpg"
         written += 1
 
