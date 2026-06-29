@@ -6523,7 +6523,8 @@
      "bird": 0.581
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/eutkne1/photo.jpg"
   },
   "eutspa": {
    "name": "Eurasian Tree Sparrow",
@@ -6589,7 +6590,8 @@
      "bird": 0.44
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/ferduc/photo.jpg"
   },
   "fieldf": {
    "name": "Fieldfare",
@@ -6622,7 +6624,8 @@
      "bird": 0.279
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/fieldf/photo.jpg"
   },
   "finwhe1": {
    "name": "Finsch's Wheatear",
@@ -6655,7 +6658,8 @@
      "bird": 0.218
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/finwhe1/photo.jpg"
   },
   "firecr1": {
    "name": "Common Firecrest",
@@ -6697,7 +6701,8 @@
      "bird": 0.852
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/firecr1/photo.jpg"
   },
   "fuwduc": {
    "name": "Fulvous Whistling-Duck",
@@ -6730,7 +6735,8 @@
      "bird": 0.851
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/fuwduc/photo.jpg"
   },
   "gadwal": {
    "name": "Gadwall",
@@ -6763,7 +6769,8 @@
      "bird": 0.766
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/gadwal/photo.jpg"
   },
   "gargan": {
    "name": "Garganey",
@@ -6796,7 +6803,8 @@
      "bird": 0.26
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/gargan/photo.jpg"
   },
   "garwar1": {
    "name": "Garden Warbler",
@@ -6829,7 +6837,8 @@
      "bird": 0.674
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/garwar1/photo.jpg"
   },
   "gbbgul": {
    "name": "Great Black-backed Gull",
@@ -6895,7 +6904,8 @@
      "bird": 0.714
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/gbhgul2/photo.jpg"
   },
   "glagul": {
    "name": "Glaucous Gull",
@@ -6928,7 +6938,8 @@
      "bird": 0.635
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/glagul/photo.jpg"
   },
   "gloibi": {
    "name": "Glossy Ibis",
@@ -6961,7 +6972,8 @@
      "bird": 0.63
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/gloibi/photo.jpg"
   },
   "gnwtea": {
    "name": "Green-winged Teal",
@@ -7003,7 +7015,8 @@
      "bird": 0.799
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/gnwtea/photo.jpg"
   },
   "goldcr1": {
    "name": "Goldcrest",
@@ -7036,7 +7049,8 @@
      "bird": 0.833
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/goldcr1/photo.jpg"
   },
   "goleag": {
    "name": "Golden Eagle",
@@ -7069,7 +7083,8 @@
      "bird": 0.66
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/goleag/photo.jpg"
   },
   "gragoo": {
    "name": "Graylag Goose",
@@ -7102,7 +7117,8 @@
      "bird": 0.865
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/gragoo/photo.jpg"
   },
   "graher1": {
    "name": "Gray Heron",
@@ -7168,7 +7184,8 @@
      "bird": 0.761
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grapri1/photo.jpg"
   },
   "grcgre1": {
    "name": "Great Crested Grebe",
@@ -7201,7 +7218,8 @@
      "bird": 0.489
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grcgre1/photo.jpg"
   },
   "grebit1": {
    "name": "Eurasian Bittern",
@@ -7234,7 +7252,8 @@
      "bird": 0.222
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grebit1/photo.jpg"
   },
   "grebus1": {
    "name": "Great Bustard",
@@ -7277,7 +7296,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/grebus1/photo.jpg"
   },
   "grecor": {
    "name": "Great Cormorant",
@@ -7310,7 +7330,8 @@
      "bird": 0.122
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grecor/photo.jpg"
   },
   "greegr": {
    "name": "Great Egret",
@@ -7343,7 +7364,8 @@
      "bird": 0.816
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/greegr/photo.jpg"
   },
   "grefla3": {
    "name": "Greater Flamingo",
@@ -7409,7 +7431,8 @@
      "bird": 0.316
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/gresca/photo.jpg"
   },
   "greshe": {
    "name": "Great Shearwater",
@@ -7452,7 +7475,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/greshe/photo.jpg"
   },
   "gresku1": {
    "name": "Great Skua",
@@ -7486,7 +7510,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/gresku1/photo.jpg"
   },
   "gresni1": {
    "name": "Great Snipe",
@@ -7520,7 +7545,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/gresni1/photo.jpg"
   },
   "gretit1": {
    "name": "Great Tit",
@@ -7586,7 +7612,8 @@
      "bird": 0.543
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grewar3/photo.jpg"
   },
   "grewhi1": {
    "name": "Greater Whitethroat",
@@ -7629,7 +7656,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/grewhi1/photo.jpg"
   },
   "grgowl": {
    "name": "Great Gray Owl",
@@ -7663,7 +7691,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/grgowl/photo.jpg"
   },
   "bargoo": {
    "name": "Barnacle Goose",
@@ -7696,7 +7725,8 @@
      "bird": 0.778
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/bargoo/photo.jpg"
   },
   "465888": {
    "name": "Pale Crag-Martin",
@@ -7738,7 +7768,8 @@
      "bird": 0.113
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/465888/photo.jpg"
   },
   "atlfly1": {
    "name": "Atlas Flycatcher",
@@ -7795,7 +7826,8 @@
     }
    ],
    "id": "Medium shearwater with dull brown upperparts and dirty buff-brown underparts, smudgy under-tail and vent. Slender dark bill, pinkish legs; long narrow wings held stiff. Overall drab muddy brown coloration.",
-   "pending": true
+   "pending": true,
+   "photo": "review_imgs/balshe1/photo.jpg"
   },
   "bktgod": {
    "name": "Black-tailed Godwit",
@@ -7828,7 +7860,8 @@
      "bird": 0.552
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/bktgod/photo.jpg"
   },
   "blwpra1": {
    "name": "Black-winged Pratincole",
@@ -7862,7 +7895,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/blwpra1/photo.jpg"
   },
   "boowar1": {
    "name": "Booted Warbler",
@@ -7905,7 +7939,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/boowar1/photo.jpg"
   },
   "brambl": {
    "name": "Brambling",
@@ -7948,7 +7983,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/brambl/photo.jpg"
   },
   "bripet": {
    "name": "European Storm-Petrel",
@@ -7982,7 +8018,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/bripet/photo.jpg"
   },
   "cirbun1": {
    "name": "Cirl Bunting",
@@ -8025,7 +8062,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/cirbun1/photo.jpg"
   },
   "cogwar1": {
    "name": "Common Grasshopper Warbler",
@@ -8058,7 +8096,8 @@
      "bird": 0.159
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/cogwar1/photo.jpg"
   },
   "colfly1": {
    "name": "Collared Flycatcher",
@@ -8101,7 +8140,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/colfly1/photo.jpg"
   },
   "colpra": {
    "name": "Collared Pratincole",
@@ -8134,7 +8174,8 @@
      "bird": 0.389
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/colpra/photo.jpg"
   },
   "comchi1": {
    "name": "Common Chiffchaff",
@@ -8177,7 +8218,8 @@
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": true,
+   "photo": "review_imgs/comchi1/photo.jpg"
   },
   "comcuc": {
    "name": "Common Cuckoo",
@@ -8210,7 +8252,8 @@
      "bird": 0.474
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/comcuc/photo.jpg"
   },
   "comeid": {
    "name": "Common Eider",
@@ -8253,7 +8296,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/comeid/photo.jpg"
   },
   "comgol": {
    "name": "Common Goldeneye",
@@ -8296,7 +8340,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/comgol/photo.jpg"
   },
   "comgre": {
    "name": "Common Greenshank",
@@ -8339,7 +8384,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/comgre/photo.jpg"
   },
   "commer": {
    "name": "Common Merganser",
@@ -8382,7 +8428,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/commer/photo.jpg"
   },
   "commoo3": {
    "name": "Eurasian Moorhen",
@@ -8407,7 +8454,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/commoo3/photo.jpg"
   },
   "commur": {
    "name": "Common Murre",
@@ -8450,7 +8498,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/commur/photo.jpg"
   },
   "comqua1": {
    "name": "Common Quail",
@@ -8493,7 +8542,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/comqua1/photo.jpg"
   },
   "comred1": {
    "name": "Common Redshank",
@@ -8536,7 +8586,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/comred1/photo.jpg"
   },
   "comred2": {
    "name": "Common Redstart",
@@ -8579,7 +8630,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/comred2/photo.jpg"
   },
   "comsan": {
    "name": "Common Sandpiper",
@@ -8622,7 +8674,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/comsan/photo.jpg"
   },
   "comsni": {
    "name": "Common Snipe",
@@ -8656,7 +8709,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/comsni/photo.jpg"
   },
   "comswi": {
    "name": "Common Swift",
@@ -8699,7 +8753,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/comswi/photo.jpg"
   },
   "crebun2": {
    "name": "Cretzschmar's Bunting",
@@ -8742,7 +8797,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/crebun2/photo.jpg"
   },
   "cursan": {
    "name": "Curlew Sandpiper",
@@ -8775,7 +8831,8 @@
      "bird": 0.652
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/cursan/photo.jpg"
   },
   "cypwar1": {
    "name": "Cyprus Warbler",
@@ -8818,7 +8875,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/cypwar1/photo.jpg"
   },
   "delpri1": {
    "name": "Delicate Prinia",
@@ -8861,7 +8919,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/delpri1/photo.jpg"
   },
   "doveki": {
    "name": "Dovekie",
@@ -8904,7 +8963,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/doveki/photo.jpg"
   },
   "dunlin": {
    "name": "Dunlin",
@@ -8947,7 +9007,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/dunlin/photo.jpg"
   },
   "duswar": {
    "name": "Dusky Warbler",
@@ -8990,7 +9051,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/duswar/photo.jpg"
   },
   "eabwar1": {
    "name": "Eastern Bonelli's Warbler",
@@ -9033,7 +9095,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/eabwar1/photo.jpg"
   },
   "eaowar2": {
    "name": "Eastern Orphean Warbler",
@@ -9076,7 +9139,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/eaowar2/photo.jpg"
   },
   "euptit1": {
    "name": "Eurasian Penduline-Tit",
@@ -9109,7 +9173,8 @@
      "bird": 0.796
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/euptit1/photo.jpg"
   },
   "eurjac": {
    "name": "Eurasian Jackdaw",
@@ -9152,7 +9217,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/eurjac/photo.jpg"
   },
   "eurjay1": {
    "name": "Eurasian Jay",
@@ -9195,7 +9261,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/eurjay1/photo.jpg"
   },
   "eurnig1": {
    "name": "Eurasian Nightjar",
@@ -9238,7 +9305,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/eurnig1/photo.jpg"
   },
   "eursco1": {
    "name": "Eurasian Scops-Owl",
@@ -9281,7 +9349,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/eursco1/photo.jpg"
   },
   "eurspa1": {
    "name": "Eurasian Sparrowhawk",
@@ -9324,7 +9393,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/eurspa1/photo.jpg"
   },
   "grnsan": {
    "name": "Green Sandpiper",
@@ -9367,7 +9437,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/grnsan/photo.jpg"
   },
   "grnwar1": {
    "name": "Green Warbler",
@@ -9400,7 +9471,8 @@
      "bird": 0.57
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grnwar1/photo.jpg"
   },
   "grnwoo3": {
    "name": "Iberian Green Woodpecker",
@@ -9433,7 +9505,8 @@
      "bird": 0.222
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grnwoo3/photo.jpg"
   },
   "grrwar1": {
    "name": "Great Reed Warbler",
@@ -9476,7 +9549,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/grrwar1/photo.jpg"
   },
   "grscuc1": {
    "name": "Great Spotted Cuckoo",
@@ -9510,7 +9584,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/grscuc1/photo.jpg"
   },
   "grseag1": {
    "name": "Greater Spotted Eagle",
@@ -9543,7 +9618,8 @@
      "bird": 0.738
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grseag1/photo.jpg"
   },
   "grswoo": {
    "name": "Great Spotted Woodpecker",
@@ -9576,7 +9652,8 @@
      "bird": 0.747
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grswoo/photo.jpg"
   },
   "grwpel1": {
    "name": "Great White Pelican",
@@ -9642,7 +9719,8 @@
      "bird": 0.425
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grypar/photo.jpg"
   },
   "grywag": {
    "name": "Gray Wagtail",
@@ -9675,7 +9753,8 @@
      "bird": 0.863
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/grywag/photo.jpg"
   },
   "gstlar1": {
    "name": "Greater Short-toed Lark",
@@ -9718,7 +9797,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/gstlar1/photo.jpg"
   },
   "gubter2": {
    "name": "Gull-billed Tern",
@@ -9751,7 +9831,8 @@
      "bird": 0.431
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/gubter2/photo.jpg"
   },
   "gwfgoo": {
    "name": "Greater White-fronted Goose",
@@ -9784,7 +9865,8 @@
      "bird": 0.885
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/gwfgoo/photo.jpg"
   },
   "gyfwoo1": {
    "name": "Gray-headed Woodpecker",
@@ -9818,7 +9900,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/gyfwoo1/photo.jpg"
   },
   "gyhchi": {
    "name": "Gray-headed Chickadee",
@@ -9852,7 +9935,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/gyhchi/photo.jpg"
   },
   "gyrfal": {
    "name": "Gyrfalcon",
@@ -9885,7 +9969,8 @@
      "bird": 0.341
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/gyrfal/photo.jpg"
   },
   "harduc": {
    "name": "Harlequin Duck",
@@ -9928,7 +10013,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/harduc/photo.jpg"
   },
   "hawfin": {
    "name": "Hawfinch",
@@ -10004,7 +10090,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/hazgro1/photo.jpg"
   },
   "hoocro1": {
    "name": "Hooded Crow",
@@ -10078,7 +10165,8 @@
      "bird": 0.931
     }
    ],
-   "id": "Small slim sawbill with a huge fan-shaped white crest bordered black, black head and back, white breast crossed by two black bars, and rich cinnamon flanks. Thin black serrated bill, yellow eye. Compact body, long stiff tail."
+   "id": "Small slim sawbill with a huge fan-shaped white crest bordered black, black head and back, white breast crossed by two black bars, and rich cinnamon flanks. Thin black serrated bill, yellow eye. Compact body, long stiff tail.",
+   "photo": "review_imgs/hoomer/photo.jpg"
   },
   "hoopoe": {
    "name": "Common Hoopoe",
@@ -10112,7 +10200,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/hoopoe/photo.jpg"
   },
   "horgre": {
    "name": "Horned Grebe",
@@ -10145,7 +10234,8 @@
      "bird": 0.576
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/horgre/photo.jpg"
   },
   "horlar": {
    "name": "Horned Lark",
@@ -10178,7 +10268,8 @@
      "bird": 0.629
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/horlar/photo.jpg"
   },
   "houbun3": {
    "name": "House Bunting",
@@ -10211,7 +10302,8 @@
      "bird": 0.418
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/houbun3/photo.jpg"
   },
   "houspa": {
    "name": "House Sparrow",
@@ -10277,7 +10369,8 @@
      "bird": 0.275
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/humwar1/photo.jpg"
   },
   "ibechi2": {
    "name": "Iberian Chiffchaff",
@@ -10320,7 +10413,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/ibechi2/photo.jpg"
   },
   "ibgshr1": {
    "name": "Iberian Gray Shrike",
@@ -10354,7 +10448,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/ibgshr1/photo.jpg"
   },
   "ictwar1": {
    "name": "Icterine Warbler",
@@ -10388,7 +10483,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/ictwar1/photo.jpg"
   },
   "impeag1": {
    "name": "Imperial Eagle",
@@ -10421,7 +10517,8 @@
      "bird": 0.439
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/impeag1/photo.jpg"
   },
   "itaspa1": {
    "name": "Italian Sparrow",
@@ -10454,7 +10551,8 @@
      "bird": 0.811
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/itaspa1/photo.jpg"
   },
   "ivogul": {
    "name": "Ivory Gull",
@@ -10495,7 +10593,8 @@
      "bird": 0.904
     }
    ],
-   "id": "Wholly pure white gull with no markings, a rounded dove-like head, and dark eye. Short bluish bill tipped yellow-orange, and short black legs. Compact pigeon-like body; the all-white plumage with black legs is diagnostic."
+   "id": "Wholly pure white gull with no markings, a rounded dove-like head, and dark eye. Short bluish bill tipped yellow-orange, and short black legs. Compact pigeon-like body; the all-white plumage with black legs is diagnostic.",
+   "photo": "review_imgs/ivogul/photo.jpg"
   },
   "jacsni": {
    "name": "Jack Snipe",
@@ -10538,7 +10637,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/jacsni/photo.jpg"
   },
   "kenplo1": {
    "name": "Kentish Plover",
@@ -10571,7 +10671,8 @@
      "bird": 0.488
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/kenplo1/photo.jpg"
   },
   "kineid": {
    "name": "King Eider",
@@ -10614,7 +10715,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/kineid/photo.jpg"
   },
   "krunut1": {
    "name": "Krüper's Nuthatch",
@@ -10648,7 +10750,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/krunut1/photo.jpg"
   },
   "lammer1": {
    "name": "Bearded Vulture",
@@ -10691,7 +10794,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/lammer1/photo.jpg"
   },
   "lanwar": {
    "name": "Lanceolated Warbler",
@@ -10724,7 +10828,8 @@
      "bird": 0.119
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/lanwar/photo.jpg"
   },
   "laplon": {
    "name": "Lapland Longspur",
@@ -10757,7 +10862,8 @@
      "bird": 0.787
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/laplon/photo.jpg"
   },
   "laudov1": {
    "name": "Laughing Dove",
@@ -10790,7 +10896,8 @@
      "bird": 0.509
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/laudov1/photo.jpg"
   },
   "lbbgul": {
    "name": "Lesser Black-backed Gull",
@@ -10823,7 +10930,8 @@
      "bird": 0.959
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/lbbgul/photo.jpg"
   },
   "lcspet": {
    "name": "Leach's Storm-Petrel",
@@ -10889,7 +10997,8 @@
      "bird": 0.163
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/legshr2/photo.jpg"
   },
   "leseag1": {
    "name": "Lesser Spotted Eagle",
@@ -10922,7 +11031,8 @@
      "bird": 0.553
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/leseag1/photo.jpg"
   },
   "leskes1": {
    "name": "Lesser Kestrel",
@@ -10965,7 +11075,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/leskes1/photo.jpg"
   },
   "leswhi4": {
    "name": "Lesser Whitethroat",
@@ -11008,7 +11119,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/leswhi4/photo.jpg"
   },
   "lesyel": {
    "name": "Lesser Yellowlegs",
@@ -11041,7 +11153,8 @@
      "bird": 0.588
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/lesyel/photo.jpg"
   },
   "levspa1": {
    "name": "Levant Sparrowhawk",
@@ -11073,7 +11186,8 @@
      "bird": 0.576
     }
    ],
-   "id": "Small slim hawk; male has blue-grey upperparts, very pale whitish underparts with faint rufous barring, blackish wingtips, and a grey tail with dark bands. Dark eye (not yellow), yellow cere and legs. Pointed wingtips, slender build."
+   "id": "Small slim hawk; male has blue-grey upperparts, very pale whitish underparts with faint rufous barring, blackish wingtips, and a grey tail with dark bands. Dark eye (not yellow), yellow cere and legs. Pointed wingtips, slender build.",
+   "photo": "review_imgs/levspa1/photo.jpg"
   },
   "levwoo1": {
    "name": "Levaillant's Woodpecker",
@@ -11098,7 +11212,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/levwoo1/photo.jpg"
   },
   "lirplo": {
    "name": "Little Ringed Plover",
@@ -11131,7 +11246,8 @@
      "bird": 0.123
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/lirplo/photo.jpg"
   },
   "litbit1": {
    "name": "Little Bittern",
@@ -11164,7 +11280,8 @@
      "bird": 0.453
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/litbit1/photo.jpg"
   },
   "litbun": {
    "name": "Little Bunting",
@@ -11197,7 +11314,8 @@
      "bird": 0.446
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/litbun/photo.jpg"
   },
   "litcra1": {
    "name": "Little Crake",
@@ -11230,7 +11348,8 @@
      "bird": 0.218
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/litcra1/photo.jpg"
   },
   "litegr": {
    "name": "Little Egret",
@@ -11263,7 +11382,8 @@
      "bird": 0.451
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/litegr/photo.jpg"
   },
   "litgre1": {
    "name": "Little Grebe",
@@ -11296,7 +11416,8 @@
      "bird": 0.409
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/litgre1/photo.jpg"
   },
   "litgul": {
    "name": "Little Gull",
@@ -11329,7 +11450,8 @@
      "bird": 0.976
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/litgul/photo.jpg"
   },
   "litowl1": {
    "name": "Little Owl",
@@ -11362,7 +11484,8 @@
      "bird": 0.492
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/litowl1/photo.jpg"
   },
   "litshe1": {
    "name": "Barolo Shearwater",
@@ -11396,7 +11519,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/litshe1/photo.jpg"
   },
   "litsti": {
    "name": "Little Stint",
@@ -11429,7 +11553,8 @@
      "bird": 0.408
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/litsti/photo.jpg"
   },
   "litter1": {
    "name": "Little Tern",
@@ -11462,7 +11587,8 @@
      "bird": 0.888
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/litter1/photo.jpg"
   },
   "lobdow": {
    "name": "Long-billed Dowitcher",
@@ -11495,7 +11621,8 @@
      "bird": 0.416
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/lobdow/photo.jpg"
   },
   "loeowl": {
    "name": "Long-eared Owl",
@@ -11528,7 +11655,8 @@
      "bird": 0.359
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/loeowl/photo.jpg"
   },
   "lolbuz1": {
    "name": "Long-legged Buzzard",
@@ -11561,7 +11689,8 @@
      "bird": 0.605
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/lolbuz1/photo.jpg"
   },
   "lotduc": {
    "name": "Long-tailed Duck",
@@ -11594,7 +11723,8 @@
      "bird": 0.562
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/lotduc/photo.jpg"
   },
   "lotjae": {
    "name": "Long-tailed Jaeger",
@@ -11627,7 +11757,8 @@
      "bird": 0.95
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/lotjae/photo.jpg"
   },
   "lottit1": {
    "name": "Long-tailed Tit",
@@ -11660,7 +11791,8 @@
      "bird": 0.862
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/lottit1/photo.jpg"
   },
   "lwfgoo": {
    "name": "Lesser White-fronted Goose",
@@ -11735,7 +11867,8 @@
      "bird": 0.54
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/mallar3/photo.jpg"
   },
   "manduc": {
    "name": "Mandarin Duck",
@@ -11818,7 +11951,8 @@
      "bird": 0.315
     }
    ],
-   "id": "Slim black-and-white tubenose shearwater; clean blackish-brown above and pure white below from chin to undertail, with a dark cap reaching below the eye, narrow stiff wings, and dark slender bill."
+   "id": "Slim black-and-white tubenose shearwater; clean blackish-brown above and pure white below from chin to undertail, with a dark cap reaching below the eye, narrow stiff wings, and dark slender bill.",
+   "photo": "review_imgs/manshe/photo.jpg"
   },
   "marsan": {
    "name": "Marsh Sandpiper",
@@ -11859,7 +11993,8 @@
      "bird": 0.657
     }
    ],
-   "id": "Elegant pale slender wader with very long greenish legs, a fine straight needle-thin black bill, grey-brown streaked upperparts, white face and underparts, and a white rump and back wedge in flight."
+   "id": "Elegant pale slender wader with very long greenish legs, a fine straight needle-thin black bill, grey-brown streaked upperparts, white face and underparts, and a white rump and back wedge in flight.",
+   "photo": "review_imgs/marsan/photo.jpg"
   },
   "martea1": {
    "name": "Marbled Duck",
@@ -11934,7 +12069,8 @@
      "bird": 0.931
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/martit2/photo.jpg"
   },
   "marwar1": {
    "name": "Marmora's Warbler",
@@ -11977,7 +12113,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/marwar1/photo.jpg"
   },
   "marwar3": {
    "name": "Marsh Warbler",
@@ -12010,7 +12147,8 @@
      "bird": 0.823
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/marwar3/photo.jpg"
   },
   "masshr1": {
    "name": "Masked Shrike",
@@ -12043,7 +12181,8 @@
      "bird": 0.238
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/masshr1/photo.jpg"
   },
   "meapip1": {
    "name": "Meadow Pipit",
@@ -12076,7 +12215,8 @@
      "bird": 0.472
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/meapip1/photo.jpg"
   },
   "medgul1": {
    "name": "Mediterranean Gull",
@@ -12109,7 +12249,8 @@
      "bird": 0.967
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/medgul1/photo.jpg"
   },
   "medshe1": {
    "name": "Yelkouan Shearwater",
@@ -12142,7 +12283,8 @@
      "bird": 0.443
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/medshe1/photo.jpg"
   },
   "melwar1": {
    "name": "Melodious Warbler",
@@ -12175,7 +12317,8 @@
      "bird": 0.502
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/melwar1/photo.jpg"
   },
   "merlin": {
    "name": "Merlin",
@@ -12208,7 +12351,8 @@
      "bird": 0.705
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/merlin/photo.jpg"
   },
   "mewgul": {
    "name": "Common Gull",
@@ -12251,7 +12395,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/mewgul/photo.jpg"
   },
   "misthr1": {
    "name": "Mistle Thrush",
@@ -12284,7 +12429,8 @@
      "bird": 0.218
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/misthr1/photo.jpg"
   },
   "miswoo1": {
    "name": "Middle Spotted Woodpecker",
@@ -12317,7 +12463,8 @@
      "bird": 0.703
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/miswoo1/photo.jpg"
   },
   "monhar1": {
    "name": "Montagu's Harrier",
@@ -12350,7 +12497,8 @@
      "bird": 0.72
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/monhar1/photo.jpg"
   },
   "monpar1": {
    "name": "Monk Parakeet",
@@ -12383,7 +12531,8 @@
      "bird": 0.9
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/monpar1/photo.jpg"
   },
   "mouchi2": {
    "name": "Mountain Chiffchaff",
@@ -12416,7 +12565,8 @@
      "bird": 0.389
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/mouchi2/photo.jpg"
   },
   "moured1": {
    "name": "Moussier's Redstart",
@@ -12449,7 +12599,8 @@
      "bird": 0.45
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/moured1/photo.jpg"
   },
   "mouwar1": {
    "name": "Moustached Warbler",
@@ -12492,7 +12643,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/mouwar1/photo.jpg"
   },
   "mouwhe2": {
    "name": "Mourning Wheatear",
@@ -12525,7 +12677,8 @@
      "bird": 0.828
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/mouwhe2/photo.jpg"
   },
   "mstlar1": {
    "name": "Mediterranean Short-toed Lark",
@@ -12558,7 +12711,8 @@
      "bird": 0.634
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/mstlar1/photo.jpg"
   },
   "musduc": {
    "name": "Muscovy Duck",
@@ -12591,7 +12745,8 @@
      "bird": 0.595
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/musduc/photo.jpg"
   },
   "mutswa": {
    "name": "Mute Swan",
@@ -12624,7 +12779,8 @@
      "bird": 0.771
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/mutswa/photo.jpg"
   },
   "namdov1": {
    "name": "Namaqua Dove",
@@ -12665,7 +12821,8 @@
      "bird": 0.233
     }
    ],
-   "id": "Tiny long-tailed dove; male pale grey-brown with a black face, throat and breast, white belly, chestnut wing patches in flight, a very long pointed tail, and a red-and-yellow bill."
+   "id": "Tiny long-tailed dove; male pale grey-brown with a black face, throat and breast, white belly, chestnut wing patches in flight, a very long pointed tail, and a red-and-yellow bill.",
+   "photo": "review_imgs/namdov1/photo.jpg"
   },
   "nohowl": {
    "name": "Northern Hawk Owl",
@@ -12698,7 +12855,8 @@
      "bird": 0.303
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/nohowl/photo.jpg"
   },
   "norful": {
    "name": "Northern Fulmar",
@@ -12731,7 +12889,8 @@
      "bird": 0.7
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/norful/photo.jpg"
   },
   "norgan": {
    "name": "Northern Gannet",
@@ -12764,7 +12923,8 @@
      "bird": 0.141
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/norgan/photo.jpg"
   },
   "norgos1": {
    "name": "Eurasian Goshawk",
@@ -12807,7 +12967,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/norgos1/photo.jpg"
   },
   "norhar1": {
    "name": "Hen Harrier",
@@ -12840,7 +13001,8 @@
      "bird": 0.693
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/norhar1/photo.jpg"
   },
   "norlap": {
    "name": "Northern Lapwing",
@@ -12873,7 +13035,8 @@
      "bird": 0.523
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/norlap/photo.jpg"
   },
   "norpin": {
    "name": "Northern Pintail",
@@ -12906,7 +13069,8 @@
      "bird": 0.076
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/norpin/photo.jpg"
   },
   "norsho": {
    "name": "Northern Shoveler",
@@ -12939,7 +13103,8 @@
      "bird": 0.833
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/norsho/photo.jpg"
   },
   "norshr1": {
    "name": "Great Gray Shrike",
@@ -12972,7 +13137,8 @@
      "bird": 0.815
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/norshr1/photo.jpg"
   },
   "norwhe": {
    "name": "Northern Wheatear",
@@ -13005,7 +13171,8 @@
      "bird": 0.781
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/norwhe/photo.jpg"
   },
   "oltwar1": {
    "name": "Olive-tree Warbler",
@@ -13046,7 +13213,8 @@
      "bird": 0.52
     }
    ],
-   "id": "Large pale grey warbler, greyish above and whitish below, with a long heavy spike-like pinkish bill, a pale wing panel, a faint pale eye-ring, upright stance, and bluish-grey legs; warbler with a shrike-like bill."
+   "id": "Large pale grey warbler, greyish above and whitish below, with a long heavy spike-like pinkish bill, a pale wing panel, a faint pale eye-ring, upright stance, and bluish-grey legs; warbler with a shrike-like bill.",
+   "photo": "review_imgs/oltwar1/photo.jpg"
   },
   "ortbun1": {
    "name": "Ortolan Bunting",
@@ -13087,7 +13255,8 @@
      "bird": 0.039
     }
    ],
-   "id": "Bunting with an olive-grey head and breast, a pale yellow throat and eye-ring (spectacle), rusty-buff belly, streaked brown back, a pinkish bill, and pinkish legs; subtle but distinctive head pattern."
+   "id": "Bunting with an olive-grey head and breast, a pale yellow throat and eye-ring (spectacle), rusty-buff belly, streaked brown back, a pinkish bill, and pinkish legs; subtle but distinctive head pattern.",
+   "photo": "review_imgs/ortbun1/photo.jpg"
   },
   "ortdov": {
    "name": "Oriental Turtle-Dove",
@@ -13120,7 +13289,8 @@
      "bird": 0.572
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/ortdov/photo.jpg"
   },
   "osprey": {
    "name": "Osprey",
@@ -13153,7 +13323,8 @@
      "bird": 0.567
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/osprey/photo.jpg"
   },
   "padwar1": {
    "name": "Paddyfield Warbler",
@@ -13186,7 +13357,8 @@
      "bird": 0.787
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/padwar1/photo.jpg"
   },
   "palhar1": {
    "name": "Pallid Harrier",
@@ -13219,7 +13391,8 @@
      "bird": 0.386
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/palhar1/photo.jpg"
   },
   "palroc1": {
    "name": "Pale Rockfinch",
@@ -13252,7 +13425,8 @@
      "bird": 0.517
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/palroc1/photo.jpg"
   },
   "palsun2": {
    "name": "Palestine Sunbird",
@@ -13285,7 +13459,8 @@
      "bird": 0.535
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/palsun2/photo.jpg"
   },
   "palswi3": {
    "name": "Pallid Swift",
@@ -13318,7 +13493,8 @@
      "bird": 0.578
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/palswi3/photo.jpg"
   },
   "palwar5": {
    "name": "Pallas's Leaf Warbler",
@@ -13351,7 +13527,8 @@
      "bird": 0.488
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/palwar5/photo.jpg"
   },
   "parcro2": {
    "name": "Parrot Crossbill",
@@ -13384,7 +13561,8 @@
      "bird": 0.31
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/parcro2/photo.jpg"
   },
   "parjae": {
    "name": "Parasitic Jaeger",
@@ -13417,7 +13595,8 @@
      "bird": 0.706
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/parjae/photo.jpg"
   },
   "pecsan": {
    "name": "Pectoral Sandpiper",
@@ -13450,7 +13629,8 @@
      "bird": 0.636
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/pecsan/photo.jpg"
   },
   "perfal": {
    "name": "Peregrine Falcon",
@@ -13483,7 +13663,8 @@
      "bird": 0.868
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/perfal/photo.jpg"
   },
   "pieavo1": {
    "name": "Pied Avocet",
@@ -13516,7 +13697,8 @@
      "bird": 0.851
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/pieavo1/photo.jpg"
   },
   "piekin1": {
    "name": "Pied Kingfisher",
@@ -13549,7 +13731,8 @@
      "bird": 0.096
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/piekin1/photo.jpg"
   },
   "pifgoo": {
    "name": "Pink-footed Goose",
@@ -13582,7 +13765,8 @@
      "bird": 0.968
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/pifgoo/photo.jpg"
   },
   "pingro": {
    "name": "Pine Grosbeak",
@@ -13615,7 +13799,8 @@
      "bird": 0.302
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/pingro/photo.jpg"
   },
   "pitsan1": {
    "name": "Pin-tailed Sandgrouse",
@@ -13648,7 +13833,8 @@
      "bird": 0.173
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/pitsan1/photo.jpg"
   },
   "pomjae": {
    "name": "Pomarine Jaeger",
@@ -13681,7 +13867,8 @@
      "bird": 0.185
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/pomjae/photo.jpg"
   },
   "purher1": {
    "name": "Purple Heron",
@@ -13714,7 +13901,8 @@
      "bird": 0.42
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/purher1/photo.jpg"
   },
   "pursan": {
    "name": "Purple Sandpiper",
@@ -13747,7 +13935,8 @@
      "bird": 0.301
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/pursan/photo.jpg"
   },
   "purswa": {
    "name": "Western Swamphen",
@@ -13780,7 +13969,8 @@
      "bird": 0.54
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/purswa/photo.jpg"
   },
   "pygcor2": {
    "name": "Pygmy Cormorant",
@@ -13813,7 +14003,8 @@
      "bird": 0.209
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/pygcor2/photo.jpg"
   },
   "radacc2": {
    "name": "Radde's Accentor",
@@ -13846,7 +14037,8 @@
      "bird": 0.539
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/radacc2/photo.jpg"
   },
   "razorb": {
    "name": "Razorbill",
@@ -13869,7 +14061,8 @@
      "bird": 0.884
     }
    ],
-   "id": "Black-and-white auk with a glossy black head and upperparts, pure white underparts, and a thin white line running from eye to the bill base. Deep flat-sided black bill crossed by a vertical white line, black legs."
+   "id": "Black-and-white auk with a glossy black head and upperparts, pure white underparts, and a thin white line running from eye to the bill base. Deep flat-sided black bill crossed by a vertical white line, black legs.",
+   "photo": "review_imgs/razorb/photo.jpg"
   },
   "rebcho1": {
    "name": "Red-billed Chough",
@@ -13902,7 +14095,8 @@
      "bird": 0.477
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rebcho1/photo.jpg"
   },
   "rebfly": {
    "name": "Red-breasted Flycatcher",
@@ -13935,7 +14129,8 @@
      "bird": 0.293
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rebfly/photo.jpg"
   },
   "rebgoo1": {
    "name": "Red-breasted Goose",
@@ -13968,7 +14163,8 @@
      "bird": 0.705
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rebgoo1/photo.jpg"
   },
   "rebmer": {
    "name": "Red-breasted Merganser",
@@ -14001,7 +14197,8 @@
      "bird": 0.453
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rebmer/photo.jpg"
   },
   "rebshr1": {
    "name": "Red-backed Shrike",
@@ -14034,7 +14231,8 @@
      "bird": 0.433
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rebshr1/photo.jpg"
   },
   "recpoc": {
    "name": "Red-crested Pochard",
@@ -14067,7 +14265,8 @@
      "bird": 0.769
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/recpoc/photo.jpg"
   },
   "redava": {
    "name": "Red Avadavat",
@@ -14100,7 +14299,8 @@
      "bird": 0.909
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/redava/photo.jpg"
   },
   "redcro": {
    "name": "Red Crossbill",
@@ -14133,7 +14333,8 @@
      "bird": 0.153
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/redcro/photo.jpg"
   },
   "redkit1": {
    "name": "Red Kite",
@@ -14166,7 +14367,8 @@
      "bird": 0.617
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/redkit1/photo.jpg"
   },
   "redkno": {
    "name": "Red Knot",
@@ -14199,7 +14401,8 @@
      "bird": 0.312
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/redkno/photo.jpg"
   },
   "redpha1": {
    "name": "Red Phalarope",
@@ -14232,7 +14435,8 @@
      "bird": 0.964
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/redpha1/photo.jpg"
   },
   "redpol1": {
    "name": "Redpoll",
@@ -14265,7 +14469,8 @@
      "bird": 0.581
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/redpol1/photo.jpg"
   },
   "redwin": {
    "name": "Redwing",
@@ -14298,7 +14503,8 @@
      "bird": 0.41
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/redwin/photo.jpg"
   },
   "reebun": {
    "name": "Reed Bunting",
@@ -14332,7 +14538,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/reebun/photo.jpg"
   },
   "refblu1": {
    "name": "Red-flanked Bluetail",
@@ -14365,7 +14572,8 @@
      "bird": 0.033
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/refblu1/photo.jpg"
   },
   "reffal1": {
    "name": "Red-footed Falcon",
@@ -14398,7 +14606,8 @@
      "bird": 0.125
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/reffal1/photo.jpg"
   },
   "rekcoo1": {
    "name": "Red-knobbed Coot",
@@ -14439,7 +14648,8 @@
      "bird": 0.427
     }
    ],
-   "id": "Slaty-black waterbird like a coot, with a white bill and frontal shield topped by two distinctive dark red knobs above the shield. Red eye, greenish lobed legs, rounded sooty body."
+   "id": "Slaty-black waterbird like a coot, with a white bill and frontal shield topped by two distinctive dark red knobs above the shield. Red eye, greenish lobed legs, rounded sooty body.",
+   "photo": "review_imgs/rekcoo1/photo.jpg"
   },
   "relpar1": {
    "name": "Red-legged Partridge",
@@ -14472,7 +14682,8 @@
      "bird": 0.704
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/relpar1/photo.jpg"
   },
   "rengre": {
    "name": "Red-necked Grebe",
@@ -14505,7 +14716,8 @@
      "bird": 0.845
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rengre/photo.jpg"
   },
   "rennig1": {
    "name": "Red-necked Nightjar",
@@ -14538,7 +14750,8 @@
      "bird": 0.575
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rennig1/photo.jpg"
   },
   "renpha": {
    "name": "Red-necked Phalarope",
@@ -14571,7 +14784,8 @@
      "bird": 0.798
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/renpha/photo.jpg"
   },
   "retloo": {
    "name": "Red-throated Loon",
@@ -14604,7 +14818,8 @@
      "bird": 0.843
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/retloo/photo.jpg"
   },
   "retpip": {
    "name": "Red-throated Pipit",
@@ -14637,7 +14852,8 @@
      "bird": 0.861
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/retpip/photo.jpg"
   },
   "ricpip1": {
    "name": "Richard's Pipit",
@@ -14670,7 +14886,8 @@
      "bird": 0.289
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/ricpip1/photo.jpg"
   },
   "rinduc": {
    "name": "Ring-necked Duck",
@@ -14704,7 +14921,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/rinduc/photo.jpg"
   },
   "rinouz1": {
    "name": "Ring Ouzel",
@@ -14737,7 +14955,8 @@
      "bird": 0.508
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rinouz1/photo.jpg"
   },
   "rinphe1": {
    "name": "Ring-necked Pheasant",
@@ -14770,7 +14989,8 @@
      "bird": 0.658
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rinphe1/photo.jpg"
   },
   "rintea1": {
    "name": "Ringed Teal",
@@ -14803,7 +15023,8 @@
      "bird": 0.788
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rintea1/photo.jpg"
   },
   "rocbun1": {
    "name": "Rock Bunting",
@@ -14836,7 +15057,8 @@
      "bird": 0.543
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rocbun1/photo.jpg"
   },
   "rocnut1": {
    "name": "Western Rock Nuthatch",
@@ -14869,7 +15091,8 @@
      "bird": 0.725
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rocnut1/photo.jpg"
   },
   "rocpet1": {
    "name": "Rock Sparrow",
@@ -14969,7 +15192,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/rocpip1/photo.jpg"
   },
   "rocpta1": {
    "name": "Rock Ptarmigan",
@@ -15012,7 +15236,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/rocpta1/photo.jpg"
   },
   "rolhaw": {
    "name": "Rough-legged Hawk",
@@ -15088,7 +15313,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/rook1/photo.jpg"
   },
   "rorpar": {
    "name": "Rose-ringed Parakeet",
@@ -15154,7 +15380,8 @@
      "bird": 0.967
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rosgoo/photo.jpg"
   },
   "rosgul": {
    "name": "Ross's Gull",
@@ -15188,7 +15415,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/rosgul/photo.jpg"
   },
   "rossta2": {
    "name": "Rosy Starling",
@@ -15255,7 +15483,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/rtrthr1/photo.jpg"
   },
   "rudduc": {
    "name": "Ruddy Duck",
@@ -15321,7 +15550,8 @@
      "bird": 0.956
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rudshe/photo.jpg"
   },
   "rudtur": {
    "name": "Ruddy Turnstone",
@@ -15354,7 +15584,8 @@
      "bird": 0.81
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/rudtur/photo.jpg"
   },
   "ruewar1": {
    "name": "Rüppell's Warbler",
@@ -15388,7 +15619,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/ruewar1/photo.jpg"
   },
   "ruff": {
    "name": "Ruff",
@@ -15421,7 +15653,8 @@
      "bird": 0.824
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/ruff/photo.jpg"
   },
   "rusbun": {
    "name": "Rustic Bunting",
@@ -15497,7 +15730,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/rutscr1/photo.jpg"
   },
   "sabgul": {
    "name": "Sabine's Gull",
@@ -15530,7 +15764,8 @@
      "bird": 0.612
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/sabgul/photo.jpg"
   },
   "sacibi2": {
    "name": "African Sacred Ibis",
@@ -15571,7 +15806,8 @@
      "bird": 0.797
     }
    ],
-   "id": "Large white ibis with bare black head and neck and long down-curved black bill; black plumes (drooping tertials) over rear. Black legs, black wingtips visible in flight."
+   "id": "Large white ibis with bare black head and neck and long down-curved black bill; black plumes (drooping tertials) over rear. Black legs, black wingtips visible in flight.",
+   "photo": "review_imgs/sacibi2/photo.jpg"
   },
   "sander": {
    "name": "Sanderling",
@@ -15604,7 +15840,8 @@
      "bird": 0.682
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/sander/photo.jpg"
   },
   "santer1": {
    "name": "Sandwich Tern",
@@ -15647,7 +15884,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/santer1/photo.jpg"
   },
   "sarwar1": {
    "name": "Sardinian Warbler",
@@ -15681,7 +15919,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/sarwar1/photo.jpg"
   },
   "savwar1": {
    "name": "Savi's Warbler",
@@ -15714,7 +15953,8 @@
      "bird": 0.066
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/savwar1/photo.jpg"
   },
   "scoshe1": {
    "name": "Scopoli's Shearwater",
@@ -15747,7 +15987,8 @@
      "bird": 0.657
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/scoshe1/photo.jpg"
   },
   "sedwar1": {
    "name": "Sedge Warbler",
@@ -15790,7 +16031,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/sedwar1/photo.jpg"
   },
   "semfly1": {
    "name": "Semicollared Flycatcher",
@@ -15824,7 +16066,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/semfly1/photo.jpg"
   },
   "sheowl": {
    "name": "Short-eared Owl",
@@ -15867,7 +16110,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/sheowl/photo.jpg"
   },
   "shteag1": {
    "name": "Short-toed Snake-Eagle",
@@ -15901,7 +16145,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/shteag1/photo.jpg"
   },
   "shttre1": {
    "name": "Short-toed Treecreeper",
@@ -15944,7 +16189,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/shttre1/photo.jpg"
   },
   "sibjay1": {
    "name": "Siberian Jay",
@@ -15977,7 +16223,8 @@
      "bird": 0.765
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/sibjay1/photo.jpg"
   },
   "skylar": {
    "name": "Eurasian Skylark",
@@ -16018,7 +16265,8 @@
      "bird": 0.597
     }
    ],
-   "id": "Streaky brown lark with short erectile crest; pale buff underparts streaked on breast, whitish belly. White trailing edge to wing and white outer tail feathers. Stout pinkish bill, pale legs."
+   "id": "Streaky brown lark with short erectile crest; pale buff underparts streaked on breast, whitish belly. White trailing edge to wing and white outer tail feathers. Stout pinkish bill, pale legs.",
+   "photo": "review_imgs/skylar/photo.jpg"
   },
   "slbgul1": {
    "name": "Slender-billed Gull",
@@ -16061,7 +16309,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/slbgul1/photo.jpg"
   },
   "smew": {
    "name": "Smew",
@@ -16095,7 +16344,8 @@
     }
    ],
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/smew/photo.jpg"
   },
   "snobun": {
    "name": "Snow Bunting",
@@ -16161,7 +16411,8 @@
      "bird": 0.954
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/snogoo/photo.jpg"
   },
   "snoowl1": {
    "name": "Snowy Owl",
@@ -16195,7 +16446,8 @@
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": true,
+   "photo": "review_imgs/snoowl1/photo.jpg"
   },
   "soclap1": {
    "name": "Sociable Lapwing",
@@ -16228,7 +16480,8 @@
      "bird": 0.445
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/soclap1/photo.jpg"
   },
   "somtit3": {
    "name": "Sombre Tit",
@@ -16263,7 +16516,8 @@
    ],
    "gen": 1782732817,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/somtit3/photo.jpg"
   },
   "sonthr1": {
    "name": "Song Thrush",
@@ -16296,7 +16550,8 @@
      "bird": 0.215
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/sonthr1/photo.jpg"
   },
   "sooshe": {
    "name": "Sooty Shearwater",
@@ -16329,7 +16584,8 @@
      "bird": 0.415
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/sooshe/photo.jpg"
   },
   "spaeag1": {
    "name": "Spanish Eagle",
@@ -16364,7 +16620,8 @@
    ],
    "gen": 1782732904,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/spaeag1/photo.jpg"
   },
   "spaspa1": {
    "name": "Spanish Sparrow",
@@ -16397,7 +16654,8 @@
      "bird": 0.581
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/spaspa1/photo.jpg"
   },
   "spewar2": {
    "name": "Spectacled Warbler",
@@ -16432,7 +16690,8 @@
    ],
    "gen": 1782732992,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/spewar2/photo.jpg"
   },
   "spocra1": {
    "name": "Spotted Crake",
@@ -16476,7 +16735,8 @@
    ],
    "gen": 1782733133,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/spocra1/photo.jpg"
   },
   "spofly1": {
    "name": "Spotted Flycatcher",
@@ -16520,7 +16780,8 @@
    ],
    "gen": 1782733266,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/spofly1/photo.jpg"
   },
   "spored": {
    "name": "Spotted Redshank",
@@ -16553,7 +16814,8 @@
      "bird": 0.481
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/spored/photo.jpg"
   },
   "sposta1": {
    "name": "Spotless Starling",
@@ -16588,7 +16850,8 @@
    ],
    "gen": 1782733359,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/sposta1/photo.jpg"
   },
   "spwlap1": {
    "name": "Spur-winged Lapwing",
@@ -16663,7 +16926,8 @@
      "bird": 0.435
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/squher1/photo.jpg"
   },
   "steeag1": {
    "name": "Steppe Eagle",
@@ -16696,7 +16960,8 @@
      "bird": 0.443
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/steeag1/photo.jpg"
   },
   "steeid": {
    "name": "Steller's Eider",
@@ -16731,7 +16996,8 @@
    ],
    "gen": 1782733492,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/steeid/photo.jpg"
   },
   "stodov1": {
    "name": "Stock Dove",
@@ -16764,7 +17030,8 @@
      "bird": 0.622
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/stodov1/photo.jpg"
   },
   "stonec4": {
    "name": "European Stonechat",
@@ -16839,7 +17106,8 @@
      "bird": 0.166
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/subwar6/photo.jpg"
   },
   "subwar8": {
    "name": "Moltoni's Warbler",
@@ -16874,7 +17142,8 @@
    ],
    "gen": 1782733599,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/subwar8/photo.jpg"
   },
   "sursco": {
    "name": "Surf Scoter",
@@ -16907,7 +17176,8 @@
      "bird": 0.835
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/sursco/photo.jpg"
   },
   "swagoo1": {
    "name": "Swan Goose",
@@ -16951,7 +17221,8 @@
    ],
    "gen": 1782733741,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/swagoo1/photo.jpg"
   },
   "syrwoo1": {
    "name": "Syrian Woodpecker",
@@ -16984,7 +17255,8 @@
      "bird": 0.665
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/syrwoo1/photo.jpg"
   },
   "taibeg1": {
    "name": "Taiga Bean-Goose",
@@ -17025,7 +17297,8 @@
      "bird": 0.928
     }
    ],
-   "id": "Large brown goose; dark brown head and neck, paler brown body, long slim black bill with broad orange band, and bright orange legs. Slender-necked and long-billed."
+   "id": "Large brown goose; dark brown head and neck, paler brown body, long slim black bill with broad orange band, and bright orange legs. Slender-necked and long-billed.",
+   "photo": "review_imgs/taibeg1/photo.jpg"
   },
   "tawowl1": {
    "name": "Tawny Owl",
@@ -17058,7 +17331,8 @@
      "bird": 0.484
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/tawowl1/photo.jpg"
   },
   "tawpip1": {
    "name": "Tawny Pipit",
@@ -17099,7 +17373,8 @@
      "bird": 0.571
     }
    ],
-   "id": "Slim pale sandy-buff pipit with nearly unstreaked breast, dark eyestripe and pale supercilium, dark median-covert wing bar, and long pale legs; wagtail-like long-tailed shape. Pinkish bill."
+   "id": "Slim pale sandy-buff pipit with nearly unstreaked breast, dark eyestripe and pale supercilium, dark median-covert wing bar, and long pale legs; wagtail-like long-tailed shape. Pinkish bill.",
+   "photo": "review_imgs/tawpip1/photo.jpg"
   },
   "temsti": {
    "name": "Temminck's Stint",
@@ -17132,7 +17407,8 @@
      "bird": 0.687
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/temsti/photo.jpg"
   },
   "tersan": {
    "name": "Terek Sandpiper",
@@ -17173,7 +17449,8 @@
      "bird": 0.744
     }
    ],
-   "id": "Small pale-grey sandpiper with a long upturned dark bill (orange at base) and short bright orange-yellow legs; grey upperparts, white underparts, faint dark shoulder lines."
+   "id": "Small pale-grey sandpiper with a long upturned dark bill (orange at base) and short bright orange-yellow legs; grey upperparts, white underparts, faint dark shoulder lines.",
+   "photo": "review_imgs/tersan/photo.jpg"
   },
   "thbmur": {
    "name": "Thick-billed Murre",
@@ -17214,7 +17491,8 @@
      "bird": 0.847
     }
    ],
-   "id": "Heavy black-and-white auk; blackish head, throat and upperparts, clean white underparts, with a thick pointed black bill bearing a thin white line along the gape. Stocky upright build."
+   "id": "Heavy black-and-white auk; blackish head, throat and upperparts, clean white underparts, with a thick pointed black bill bearing a thin white line along the gape. Stocky upright build.",
+   "photo": "review_imgs/thbmur/photo.jpg"
   },
   "thelar1": {
    "name": "Thekla's Lark",
@@ -17255,7 +17533,8 @@
      "bird": 0.54
     }
    ],
-   "id": "Crested lark with a short steep pointed crest; grey-brown upperparts boldly streaked, plain greyish underparts with crisp dark breast streaks, short stubby bill, and grey rump. Pale eye-ring."
+   "id": "Crested lark with a short steep pointed crest; grey-brown upperparts boldly streaked, plain greyish underparts with crisp dark breast streaks, short stubby bill, and grey rump. Pale eye-ring.",
+   "photo": "review_imgs/thelar1/photo.jpg"
   },
   "thrnig1": {
    "name": "Thrush Nightingale",
@@ -17296,7 +17575,8 @@
      "bird": 0.227
     }
    ],
-   "id": "Plain brown chat; warm dark olive-brown upperparts, rufous-tinged tail, and mottled greyish breast with diffuse darker scaling on whitish underparts. Slender pinkish legs, dark bill."
+   "id": "Plain brown chat; warm dark olive-brown upperparts, rufous-tinged tail, and mottled greyish breast with diffuse darker scaling on whitish underparts. Slender pinkish legs, dark bill.",
+   "photo": "review_imgs/thrnig1/photo.jpg"
   },
   "trepip": {
    "name": "Tree Pipit",
@@ -17337,7 +17617,8 @@
      "bird": 0.282
     }
    ],
-   "id": "Streaky olive-buff pipit; brown-streaked back, buff breast with bold black streaks thinning on flanks, pale supercilium, and pinkish legs with a short hind claw. Fine dark bill."
+   "id": "Streaky olive-buff pipit; brown-streaked back, buff breast with bold black streaks thinning on flanks, pale supercilium, and pinkish legs with a short hind claw. Fine dark bill.",
+   "photo": "review_imgs/trepip/photo.jpg"
   },
   "tstlar1": {
    "name": "Turkestan Short-toed Lark",
@@ -17378,7 +17659,8 @@
      "bird": 0.712
     }
    ],
-   "id": "Small pale sandy lark; plain greyish-buff upperparts with fine streaking, whitish underparts with a faint dark patch on the breast-side, pale supercilium, and a short stubby pale bill. Pinkish legs."
+   "id": "Small pale sandy lark; plain greyish-buff upperparts with fine streaking, whitish underparts with a faint dark patch on the breast-side, pale supercilium, and a short stubby pale bill. Pinkish legs.",
+   "photo": "review_imgs/tstlar1/photo.jpg"
   },
   "tufduc": {
    "name": "Tufted Duck",
@@ -17419,7 +17701,8 @@
      "bird": 0.857
     }
    ],
-   "id": "Compact black-and-white diving duck; drake glossy black with bright white flanks, a drooping tufted crest off the nape, golden-yellow eye, and a blue-grey bill with black tip."
+   "id": "Compact black-and-white diving duck; drake glossy black with bright white flanks, a drooping tufted crest off the nape, golden-yellow eye, and a blue-grey bill with black tip.",
+   "photo": "review_imgs/tufduc/photo.jpg"
   },
   "tunbeg1": {
    "name": "Tundra Bean-Goose",
@@ -17460,7 +17743,8 @@
      "bird": 0.879
     }
    ],
-   "id": "Large brown goose; very dark brown head and neck, paler brown body, short deep-based black bill with narrow orange band, and orange legs. Stockier and shorter-billed than Taiga Bean-Goose."
+   "id": "Large brown goose; very dark brown head and neck, paler brown body, short deep-based black bill with narrow orange band, and orange legs. Stockier and shorter-billed than Taiga Bean-Goose.",
+   "photo": "review_imgs/tunbeg1/photo.jpg"
   },
   "tunswa": {
    "name": "Tundra Swan",
@@ -17493,7 +17777,8 @@
      "bird": 0.29
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/tunswa/photo.jpg"
   },
   "twite1": {
    "name": "Twite",
@@ -17534,7 +17819,8 @@
      "bird": 0.542
     }
    ],
-   "id": "Small streaky finch; warm buff-brown plumage streaked dark, plain buffy unstreaked throat, pinkish rump, and a short yellow bill (greyer in summer). White edges to wing and tail feathers."
+   "id": "Small streaky finch; warm buff-brown plumage streaked dark, plain buffy unstreaked throat, pinkish rump, and a short yellow bill (greyer in summer). White edges to wing and tail feathers.",
+   "photo": "review_imgs/twite1/photo.jpg"
   },
   "upcwar1": {
    "name": "Upcher's Warbler",
@@ -17575,7 +17861,8 @@
      "bird": 0.287
     }
    ],
-   "id": "Plain greyish warbler with a long broad blackish tail edged paler, grey-brown upperparts, whitish underparts, pale lores giving a plain face, and a long stout pinkish-based bill."
+   "id": "Plain greyish warbler with a long broad blackish tail edged paler, grey-brown upperparts, whitish underparts, pale lores giving a plain face, and a long stout pinkish-based bill.",
+   "photo": "review_imgs/upcwar1/photo.jpg"
   },
   "uraowl1": {
    "name": "Ural Owl",
@@ -17616,7 +17903,8 @@
      "bird": 0.385
     }
    ],
-   "id": "Large pale long-tailed owl; greyish-buff plumage boldly streaked dark on whitish underparts, plain rounded pale facial disc with small dark eyes, and a yellow bill. Long barred tail."
+   "id": "Large pale long-tailed owl; greyish-buff plumage boldly streaked dark on whitish underparts, plain rounded pale facial disc with small dark eyes, and a yellow bill. Long barred tail.",
+   "photo": "review_imgs/uraowl1/photo.jpg"
   },
   "wallcr1": {
    "name": "Wallcreeper",
@@ -17657,7 +17945,8 @@
      "bird": 0.14
     }
    ],
-   "id": "Ash-grey songbird with a long thin decurved black bill; striking crimson wing panels and rounded black wings spotted white; blackish throat (breeding), grey body, and short blackish tail."
+   "id": "Ash-grey songbird with a long thin decurved black bill; striking crimson wing panels and rounded black wings spotted white; blackish throat (breeding), grey body, and short blackish tail.",
+   "photo": "review_imgs/wallcr1/photo.jpg"
   },
   "watpip1": {
    "name": "Water Pipit",
@@ -17698,7 +17987,8 @@
      "bird": 0.671
     }
    ],
-   "id": "Slim grey-brown pipit with streaked upperparts; breeding adult shows pinkish-buff unstreaked breast, grey head, white supercilium, white outer tail feathers, and dark legs. Fine dark bill."
+   "id": "Slim grey-brown pipit with streaked upperparts; breeding adult shows pinkish-buff unstreaked breast, grey head, white supercilium, white outer tail feathers, and dark legs. Fine dark bill.",
+   "photo": "review_imgs/watpip1/photo.jpg"
   },
   "watrai1": {
    "name": "Water Rail",
@@ -17739,7 +18029,8 @@
      "bird": 0.303
     }
    ],
-   "id": "Slim long-billed rail; olive-brown back streaked black, blue-grey face and breast, black-and-white barred flanks, buff undertail, and a long slightly downcurved red bill. Pinkish legs."
+   "id": "Slim long-billed rail; olive-brown back streaked black, blue-grey face and breast, black-and-white barred flanks, buff undertail, and a long slightly downcurved red bill. Pinkish legs.",
+   "photo": "review_imgs/watrai1/photo.jpg"
   },
   "webwar1": {
    "name": "Western Bonelli's Warbler",
@@ -17780,7 +18071,8 @@
      "bird": 0.694
     }
    ],
-   "id": "Small pale leaf-warbler; greyish-green upperparts with a bright yellow-green panel on wings and rump, clean white underparts, plain whitish face with a pale eye-ring, and a yellowish lower bill."
+   "id": "Small pale leaf-warbler; greyish-green upperparts with a bright yellow-green panel on wings and rump, clean white underparts, plain whitish face with a pale eye-ring, and a yellowish lower bill.",
+   "photo": "review_imgs/webwar1/photo.jpg"
   },
   "wemhar1": {
    "name": "Western Marsh Harrier",
@@ -17821,7 +18113,8 @@
      "bird": 0.166
     }
    ],
-   "id": "Large slim harrier; male has brown body with pale streaked head, grey wings and tail, and black wingtips; long wings held in shallow V. Yellow eye and legs, dark bill."
+   "id": "Large slim harrier; male has brown body with pale streaked head, grey wings and tail, and black wingtips; long wings held in shallow V. Yellow eye and legs, dark bill.",
+   "photo": "review_imgs/wemhar1/photo.jpg"
   },
   "weowar1": {
    "name": "Western Olivaceous Warbler",
@@ -17862,7 +18155,8 @@
      "bird": 0.408
     }
    ],
-   "id": "Plain pale warbler; uniform grey-brown upperparts, dull whitish underparts, plain face with faint pale supercilium, and a long straight broad-based pinkish bill. Long squarish dark tail, greyish legs."
+   "id": "Plain pale warbler; uniform grey-brown upperparts, dull whitish underparts, plain face with faint pale supercilium, and a long straight broad-based pinkish bill. Long squarish dark tail, greyish legs.",
+   "photo": "review_imgs/weowar1/photo.jpg"
   },
   "weowar2": {
    "name": "Western Orphean Warbler",
@@ -17903,7 +18197,8 @@
      "bird": 0.491
     }
    ],
-   "id": "Large grey warbler; blackish-grey crown and cheeks contrasting with greyish back, whitish throat with peachy-buff flanks, and a pale lemon-yellow staring eye. Stout dark bill, grey legs."
+   "id": "Large grey warbler; blackish-grey crown and cheeks contrasting with greyish back, whitish throat with peachy-buff flanks, and a pale lemon-yellow staring eye. Stout dark bill, grey legs.",
+   "photo": "review_imgs/weowar2/photo.jpg"
   },
   "wescap1": {
    "name": "Western Capercaillie",
@@ -17944,7 +18239,8 @@
      "bird": 0.25
     }
    ],
-   "id": "Huge dark grouse; male has blackish-grey body, glossy dark-green breast, brown wings, fan-shaped black tail spotted white, shaggy beard, red wattle over eye, and a stout ivory bill."
+   "id": "Huge dark grouse; male has blackish-grey body, glossy dark-green breast, brown wings, fan-shaped black tail spotted white, shaggy beard, red wattle over eye, and a stout ivory bill.",
+   "photo": "review_imgs/wescap1/photo.jpg"
   },
   "wfspet": {
    "name": "White-faced Storm-Petrel",
@@ -17985,7 +18281,8 @@
      "bird": 0.75
     }
    ],
-   "id": "Small grey-and-white storm-petrel; grey-brown upperparts with pale wing panel and grey rump, white underparts and face with a dark eye-stripe and dark crown, white face, and long yellow legs with black feet."
+   "id": "Small grey-and-white storm-petrel; grey-brown upperparts with pale wing panel and grey rump, white underparts and face with a dark eye-stripe and dark crown, white face, and long yellow legs with black feet.",
+   "photo": "review_imgs/wfspet/photo.jpg"
   },
   "whbwoo1": {
    "name": "White-backed Woodpecker",
@@ -18018,7 +18315,8 @@
      "bird": 0.716
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/whbwoo1/photo.jpg"
   },
   "whhduc1": {
    "name": "White-headed Duck",
@@ -18059,7 +18357,8 @@
      "bird": 0.627
     }
    ],
-   "id": "Stiff-tailed duck; male has a mostly white head with small black cap, rusty-brown body, dark neck collar, and a swollen sky-blue bill. Often holds spiky tail cocked upward."
+   "id": "Stiff-tailed duck; male has a mostly white head with small black cap, rusty-brown body, dark neck collar, and a swollen sky-blue bill. Often holds spiky tail cocked upward.",
+   "photo": "review_imgs/whhduc1/photo.jpg"
   },
   "whimbr5": {
    "name": "Eurasian Whimbrel",
@@ -18094,7 +18393,8 @@
    ],
    "gen": 1782733837,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/whimbr5/photo.jpg"
   },
   "whinch1": {
    "name": "Whinchat",
@@ -18135,7 +18435,8 @@
      "bird": 0.818
     }
    ],
-   "id": "Small perky chat; streaky brown upperparts, warm orange-buff breast, bold creamy supercilium over a dark cheek, and white wing patches; white tail-base patches. Fine dark bill, dark legs."
+   "id": "Small perky chat; streaky brown upperparts, warm orange-buff breast, bold creamy supercilium over a dark cheek, and white wing patches; white tail-base patches. Fine dark bill, dark legs.",
+   "photo": "review_imgs/whinch1/photo.jpg"
   },
   "whisto1": {
    "name": "White Stork",
@@ -18176,7 +18477,8 @@
      "bird": 0.475
     }
    ],
-   "id": "Large white stork; pure white body with black flight feathers, long straight bright red bill, and long red legs. Bare red facial skin around the eye."
+   "id": "Large white stork; pure white body with black flight feathers, long straight bright red bill, and long red legs. Bare red facial skin around the eye.",
+   "photo": "review_imgs/whisto1/photo.jpg"
   },
   "whiter2": {
    "name": "Whiskered Tern",
@@ -18217,7 +18519,8 @@
      "bird": 0.688
     }
    ],
-   "id": "Marsh tern; breeding adult has black cap, dark grey upperparts and uniform grey underparts contrasting with white cheeks, and a slightly forked grey tail. Deep dark-red bill and red legs."
+   "id": "Marsh tern; breeding adult has black cap, dark grey upperparts and uniform grey underparts contrasting with white cheeks, and a slightly forked grey tail. Deep dark-red bill and red legs.",
+   "photo": "review_imgs/whiter2/photo.jpg"
   },
   "whiwag": {
    "name": "White Wagtail",
@@ -18258,7 +18561,8 @@
      "bird": 0.363
     }
    ],
-   "id": "Slim black-white-grey wagtail; grey back, black crown and bib, white face, white underparts, and a long black tail edged white that it wags. Black bill and legs."
+   "id": "Slim black-white-grey wagtail; grey back, black crown and bib, white face, white underparts, and a long black tail edged white that it wags. Black bill and legs.",
+   "photo": "review_imgs/whiwag/photo.jpg"
   },
   "whoswa": {
    "name": "Whooper Swan",
@@ -18299,7 +18603,8 @@
      "bird": 0.708
     }
    ],
-   "id": "Large white swan with a long straight neck held erect; black bill with a large triangular yellow wedge extending forward past the nostril to a point, and black legs."
+   "id": "Large white swan with a long straight neck held erect; black bill with a large triangular yellow wedge extending forward past the nostril to a point, and black legs.",
+   "photo": "review_imgs/whoswa/photo.jpg"
   },
   "whrswi1": {
    "name": "White-rumped Swift",
@@ -18340,7 +18645,8 @@
      "bird": 0.544
     }
    ],
-   "id": "Slim black swift with a square tail; sooty-black plumage with a narrow white throat patch and a clean white horseshoe-shaped band across the rump. Long scythe-shaped wings."
+   "id": "Slim black swift with a square tail; sooty-black plumage with a narrow white throat patch and a clean white horseshoe-shaped band across the rump. Long scythe-shaped wings.",
+   "photo": "review_imgs/whrswi1/photo.jpg"
   },
   "whsbul1": {
    "name": "White-spectacled Bulbul",
@@ -18381,7 +18687,8 @@
      "bird": 0.222
     }
    ],
-   "id": "Slim dark bulbul; sooty grey-brown body, blackish hood, conspicuous bright white eye-ring (spectacle), and a contrasting bright yellow vent. Slender dark bill, dark legs."
+   "id": "Slim dark bulbul; sooty grey-brown body, blackish hood, conspicuous bright white eye-ring (spectacle), and a contrasting bright yellow vent. Slender dark bill, dark legs.",
+   "photo": "review_imgs/whsbul1/photo.jpg"
   },
   "whtdip1": {
    "name": "White-throated Dipper",
@@ -18422,7 +18729,8 @@
      "bird": 0.268
     }
    ],
-   "id": "Plump dark dipper with a short cocked tail; rich chocolate-brown head and chestnut-tinged upperparts, dark grey body, and a bold white throat and breast bib. Short dark bill, dark legs."
+   "id": "Plump dark dipper with a short cocked tail; rich chocolate-brown head and chestnut-tinged upperparts, dark grey body, and a bold white throat and breast bib. Short dark bill, dark legs.",
+   "photo": "review_imgs/whtdip1/photo.jpg"
   },
   "whteag": {
    "name": "White-tailed Eagle",
@@ -18463,7 +18771,8 @@
      "bird": 0.501
     }
    ],
-   "id": "Massive brown eagle with broad plank-like wings; pale sandy-brown body and head, dark wings, and a short wedge-shaped pure white tail. Large yellow hooked bill, yellow feet."
+   "id": "Massive brown eagle with broad plank-like wings; pale sandy-brown body and head, dark wings, and a short wedge-shaped pure white tail. Large yellow hooked bill, yellow feet.",
+   "photo": "review_imgs/whteag/photo.jpg"
   },
   "whtkin2": {
    "name": "White-throated Kingfisher",
@@ -18504,7 +18813,8 @@
      "bird": 0.696
     }
    ],
-   "id": "Stocky kingfisher; chocolate-brown head, belly and flanks, brilliant turquoise-blue back, wings and tail, a large white throat and breast bib, and a heavy bright red bill. Red legs."
+   "id": "Stocky kingfisher; chocolate-brown head, belly and flanks, brilliant turquoise-blue back, wings and tail, a large white throat and breast bib, and a heavy bright red bill. Red legs.",
+   "photo": "review_imgs/whtkin2/photo.jpg"
   },
   "whtrob3": {
    "name": "White-throated Robin",
@@ -18545,7 +18855,8 @@
      "bird": 0.326
     }
    ],
-   "id": "Slim chat; slate-grey upperparts, black face and breast-sides framing a white throat and supercilium, rich orange flanks and breast, and a black tail. Fine dark bill, blackish legs."
+   "id": "Slim chat; slate-grey upperparts, black face and breast-sides framing a white throat and supercilium, rich orange flanks and breast, and a black tail. Fine dark bill, blackish legs.",
+   "photo": "review_imgs/whtrob3/photo.jpg"
   },
   "whwcro": {
    "name": "White-winged Crossbill",
@@ -18586,7 +18897,8 @@
      "bird": 0.611
     }
    ],
-   "id": "Stocky finch with crossed-tip bill; male rosy-pink overall with blackish wings showing two bold white wing bars and white tertial tips. Dark bill, dark legs."
+   "id": "Stocky finch with crossed-tip bill; male rosy-pink overall with blackish wings showing two bold white wing bars and white tertial tips. Dark bill, dark legs.",
+   "photo": "review_imgs/whwcro/photo.jpg"
   },
   "whwsno1": {
    "name": "White-winged Snowfinch",
@@ -18627,7 +18939,8 @@
      "bird": 0.288
     }
    ],
-   "id": "Stocky sparrow-like finch; pale grey head, brown back, white underparts, and bold black-and-white wings showing large white panels; black-tipped tail with white sides. Black bill (breeding), dark legs."
+   "id": "Stocky sparrow-like finch; pale grey head, brown back, white underparts, and bold black-and-white wings showing large white panels; black-tipped tail with white sides. Black bill (breeding), dark legs.",
+   "photo": "review_imgs/whwsno1/photo.jpg"
   },
   "whwter": {
    "name": "White-winged Tern",
@@ -18668,7 +18981,8 @@
      "bird": 0.307
     }
    ],
-   "id": "Small marsh tern; breeding adult strikingly black head, body and underwing coverts contrasting with pale grey-white upperwings and white tail and rump. Short dark-red bill, red legs."
+   "id": "Small marsh tern; breeding adult strikingly black head, body and underwing coverts contrasting with pale grey-white upperwings and white tail and rump. Short dark-red bill, red legs.",
+   "photo": "review_imgs/whwter/photo.jpg"
   },
   "wilpta2": {
    "name": "Willow Ptarmigan",
@@ -18709,7 +19023,8 @@
      "bird": 0.773
     }
    ],
-   "id": "Plump grouse; breeding male has rich rusty-brown head, neck and breast, white wings and belly, red eye-comb, and a short black-and-white tail. Stubby black bill, feathered white legs."
+   "id": "Plump grouse; breeding male has rich rusty-brown head, neck and breast, white wings and belly, red eye-comb, and a short black-and-white tail. Stubby black bill, feathered white legs.",
+   "photo": "review_imgs/wilpta2/photo.jpg"
   },
   "wiltit1": {
    "name": "Willow Tit",
@@ -18750,7 +19065,8 @@
      "bird": 0.81
     }
    ],
-   "id": "Small dumpy tit; large dull black cap reaching the nape, black bib, pale buffy-brown flanks, whitish cheeks, and brown-grey upperparts with a pale wing panel. Short dark bill."
+   "id": "Small dumpy tit; large dull black cap reaching the nape, black bib, pale buffy-brown flanks, whitish cheeks, and brown-grey upperparts with a pale wing panel. Short dark bill.",
+   "photo": "review_imgs/wiltit1/photo.jpg"
   },
   "winwre4": {
    "name": "Eurasian Wren",
@@ -18785,7 +19101,8 @@
    ],
    "gen": 1782733939,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/winwre4/photo.jpg"
   },
   "wispet": {
    "name": "Wilson's Storm-Petrel",
@@ -18826,7 +19143,8 @@
      "bird": 0.059
     }
    ],
-   "id": "Small sooty-black storm-petrel with a bold white U-shaped rump band wrapping onto the flanks, squared tail, and a pale diagonal bar across the upperwing. Black bill; long black legs whose yellow-webbed feet trail beyond the tail tip."
+   "id": "Small sooty-black storm-petrel with a bold white U-shaped rump band wrapping onto the flanks, squared tail, and a pale diagonal bar across the upperwing. Black bill; long black legs whose yellow-webbed feet trail beyond the tail tip.",
+   "photo": "review_imgs/wispet/photo.jpg"
   },
   "wlwwar": {
    "name": "Willow Warbler",
@@ -18867,7 +19185,8 @@
      "bird": 0.571
     }
    ],
-   "id": "Slim olive-green warbler with pale yellowish underparts, a soft yellow supercilium over a dark eyeline, plain unmarked wings, and a fine thin bill. Pale orange-brown legs; clean, gentle-faced appearance."
+   "id": "Slim olive-green warbler with pale yellowish underparts, a soft yellow supercilium over a dark eyeline, plain unmarked wings, and a fine thin bill. Pale orange-brown legs; clean, gentle-faced appearance.",
+   "photo": "review_imgs/wlwwar/photo.jpg"
   },
   "wooduc": {
    "name": "Wood Duck",
@@ -18908,7 +19227,8 @@
      "bird": 0.372
     }
    ],
-   "id": "Ornate duck with a glossy iridescent green-and-purple crested head striped white, red eye, red-and-white bill, chestnut breast spotted white, buff flanks, and a black back. Bold white throat patch and finger-like white facial lines."
+   "id": "Ornate duck with a glossy iridescent green-and-purple crested head striped white, red eye, red-and-white bill, chestnut breast spotted white, buff flanks, and a black back. Bold white throat patch and finger-like white facial lines.",
+   "photo": "review_imgs/wooduc/photo.jpg"
   },
   "woolar1": {
    "name": "Wood Lark",
@@ -18949,7 +19269,8 @@
      "bird": 0.442
     }
    ],
-   "id": "Small streaky brown lark with a short tail, long buff-white supercilia meeting across the nape, a small crest, and dark crescent at the wing bend bordered black-and-white. Whitish underparts streaked dark on the breast; pinkish legs."
+   "id": "Small streaky brown lark with a short tail, long buff-white supercilia meeting across the nape, a small crest, and dark crescent at the wing bend bordered black-and-white. Whitish underparts streaked dark on the breast; pinkish legs.",
+   "photo": "review_imgs/woolar1/photo.jpg"
   },
   "woosan": {
    "name": "Wood Sandpiper",
@@ -18993,7 +19314,8 @@
    ],
    "gen": 1782734082,
    "reviewed": false,
-   "pending": false
+   "pending": false,
+   "photo": "review_imgs/woosan/photo.jpg"
   },
   "wooshr1": {
    "name": "Woodchat Shrike",
@@ -19026,7 +19348,8 @@
      "bird": 0.531
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/wooshr1/photo.jpg"
   },
   "woowar": {
    "name": "Wood Warbler",
@@ -19059,7 +19382,8 @@
      "bird": 0.308
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/woowar/photo.jpg"
   },
   "y00427": {
    "name": "Siberian Stonechat",
@@ -19143,7 +19467,8 @@
     }
    ],
    "id": "Pale 'white-winged' gull with frosty grey back and pure white wingtips lacking black, rounded head, and dark eye. Long wings extending well past the tail; yellow bill with red gonys spot; pink legs.",
-   "pending": true
+   "pending": true,
+   "photo": "review_imgs/y00478/photo.jpg"
   },
   "y00743": {
    "name": "Carrion Crow",
@@ -19184,7 +19509,8 @@
      "bird": 0.209
     }
    ],
-   "id": "Wholly glossy black crow with a green-purple sheen, heavy black bill with feathered base, black legs, and a squarish tail. Robust, evenly proportioned; lacks any grey or pale areas."
+   "id": "Wholly glossy black crow with a green-purple sheen, heavy black bill with feathered base, black legs, and a squarish tail. Robust, evenly proportioned; lacks any grey or pale areas.",
+   "photo": "review_imgs/y00743/photo.jpg"
   },
   "yebcho1": {
    "name": "Yellow-billed Chough",
@@ -19217,7 +19543,8 @@
      "bird": 0.576
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/yebcho1/photo.jpg"
   },
   "yebloo": {
    "name": "Yellow-billed Loon",
@@ -19300,7 +19627,8 @@
      "bird": 0.5
     }
    ],
-   "id": "Tiny bright leaf-warbler, greenish above with two bold yellowish-white wingbars, a long creamy supercilium, dark eyestripe, and pale tertial edges. Whitish underparts; thin dark bill, pale legs; very small and active."
+   "id": "Tiny bright leaf-warbler, greenish above with two bold yellowish-white wingbars, a long creamy supercilium, dark eyestripe, and pale tertial edges. Whitish underparts; thin dark bill, pale legs; very small and active.",
+   "photo": "review_imgs/yebwar3/photo.jpg"
   },
   "yecbis": {
    "name": "Yellow-crowned Bishop",
@@ -19383,7 +19711,8 @@
      "bird": 0.814
     }
    ],
-   "id": "Large gull with a clean white head, dark slate-grey back and wings, black wingtips with small white spots, and yellow legs. Stout yellow bill with a strong red gonys spot; red orbital ring around a pale eye."
+   "id": "Large gull with a clean white head, dark slate-grey back and wings, black wingtips with small white spots, and yellow legs. Stout yellow bill with a strong red gonys spot; red orbital ring around a pale eye.",
+   "photo": "review_imgs/yelgul1/photo.jpg"
   },
   "yellow2": {
    "name": "Yellowhammer",
@@ -19416,52 +19745,54 @@
      "bird": 0.111
     }
    ],
-   "reviewed": false
+   "reviewed": false,
+   "photo": "review_imgs/yellow2/photo.jpg"
   },
   "zitcis1": {
    "name": "Zitting Cisticola",
    "sci": "Cisticola juncidis",
    "family": "Cisticolas and Allies",
-   "reason": "all",
+   "reason": "badref",
    "before": "review_imgs/zitcis1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/114810351/320",
+   "ref": "review_imgs/zitcis1/ref.jpg",
+   "photo": "review_imgs/zitcis1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny warbler with a short rounded tail tipped white-and-black below, buff-brown crown and upperparts boldly streaked black, and plain pale buff underparts. Pale eyebrow; fine pointed bill; pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/zitcis1/v0.png",
-     "seed": 1000,
+     "seed": 1005,
      "strength": 0.6,
-     "sim": 0.919,
-     "pose": 0.284,
-     "bird": 0.469
+     "sim": 0.894,
+     "pose": 0.331,
+     "bird": 0.616
     },
     {
      "id": "v1",
      "img": "review_imgs/zitcis1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.875,
-     "pose": 0.232,
-     "bird": 0.455
+     "seed": 1006,
+     "strength": 0.68,
+     "sim": 0.901,
+     "pose": 0.204,
+     "bird": 0.581
     },
     {
      "id": "v2",
      "img": "review_imgs/zitcis1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
+     "seed": 1007,
+     "strength": 0.74,
      "sim": 0.899,
-     "pose": 0.167,
-     "bird": 0.183
+     "pose": 0.232,
+     "bird": 0.449
     }
    ],
-   "id": "Tiny warbler with a short rounded tail tipped white-and-black below, buff-brown crown and upperparts boldly streaked black, and plain pale buff underparts. Pale eyebrow; fine pointed bill; pinkish legs.",
-   "pending": true
+   "gen": 1782734392,
+   "reviewed": false,
+   "pending": false
   }
  },
- "queued": [
-  "zitcis1"
- ]
+ "queued": []
 }

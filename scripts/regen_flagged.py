@@ -150,6 +150,12 @@ def sharp(im):
     return float(laplace(g).var())
 
 
+# Reject illustrations / field-guide plates / paintings: the reference MUST be
+# a real photograph. (Macaulay/whoBIRD assets are always photos; Wikimedia and
+# GBIF sometimes serve artwork.)
+PHOTO_POS = "a real photograph of a bird taken with a camera"
+PHOTO_NEG = "a painting, drawing, illustration, engraving or digital artwork of a bird"
+
 POSE_GOOD = "a single whole bird perched, clear side profile view"
 POSE_BAD = [
     "a bird flying with wings spread wide",
@@ -235,20 +241,22 @@ def best_ref(sp, code, sess):
         return None
     obj = QC.clip_probs(imgs, [QC.POS] + QC.NEG)[:, 0].tolist()
     pose = QC.clip_probs(imgs, [POSE_GOOD] + POSE_BAD)[:, 0].tolist()
+    photo = QC.clip_probs(imgs, [PHOTO_POS, PHOTO_NEG])[:, 0].tolist()  # P(real photo)
     fast = _fast_session()
 
     # whoBIRD/Macaulay curated photo is the PRIMARY reference. These are
     # editor-picked whole-bird ID shots — often tight crops where the bird fills
     # the frame — so we trust the curation and require only that CLIP sees a real
-    # bird. prep_init isolates and re-centres it, so framing/edge-touch is fine.
-    # We fall back to scored multi-source selection only if it isn't bird-like.
+    # bird (and, defensively, a real photograph). prep_init isolates and
+    # re-centres it, so framing/edge-touch is fine. We fall back to scored
+    # multi-source selection only if it isn't a bird-like photo.
     wb = next((i for i, s in enumerate(srcs) if s == "whobird"), None)
     if wb is not None:
-        if obj[wb] > 0.5:
+        if obj[wb] > 0.5 and photo[wb] > 0.35:
             print(f"    ref[whobird PRIMARY]: bird={obj[wb]:.2f} pose={pose[wb]:.2f} "
-                  f"(curated, of {len(imgs)})")
+                  f"photo={photo[wb]:.2f} (curated, of {len(imgs)})")
             return tmp[wb], "whobird"
-        print(f"    whobird ref not bird-like (bird={obj[wb]:.2f}); falling back")
+        print(f"    whobird ref rejected (bird={obj[wb]:.2f} photo={photo[wb]:.2f}); falling back")
 
     # CLIP is cheap; the whole-bird mask is not. Only mask the most promising
     # candidates (top real-bird + pose) with the fast model.
@@ -257,16 +265,19 @@ def best_ref(sp, code, sess):
     for i in pre[:8]:
         whole, subj = _wholeness(_mask(imgs[i], fast))
         size_term = max(0.0, 0.4 - abs(subj - 0.35))   # prefer bird ~35% of frame
-        ok = obj[i] > 0.5 and whole > 0.55 and subj > 0.05  # real, whole, not tiny
-        score = obj[i] * 1.0 + pose[i] * 0.7 + whole * 1.3 + size_term + min(sharp(imgs[i]) / 1500, 0.3)
-        scored.append((ok, round(score, 3), obj[i], pose[i], whole, subj, srcs[i], tmp[i]))
+        # Must be a real photo, a real bird, whole and not tiny.
+        ok = obj[i] > 0.5 and photo[i] > 0.5 and whole > 0.55 and subj > 0.05
+        score = (obj[i] * 1.0 + pose[i] * 0.7 + whole * 1.3 + size_term
+                 + photo[i] * 0.9 + min(sharp(imgs[i]) / 1500, 0.3))
+        scored.append((ok, round(score, 3), obj[i], pose[i], whole, subj,
+                       photo[i], srcs[i], tmp[i]))
     scored.sort(key=lambda t: (t[0], t[1]), reverse=True)
     s = scored[0]
-    print(f"    ref[{s[6]}]: bird={s[2]:.2f} pose={s[3]:.2f} whole={s[4]:.2f} "
-          f"subj={s[5]:.2f} ok={s[0]} (of {len(imgs)})")
+    print(f"    ref[{s[7]}]: bird={s[2]:.2f} pose={s[3]:.2f} whole={s[4]:.2f} "
+          f"subj={s[5]:.2f} photo={s[6]:.2f} ok={s[0]} (of {len(imgs)})")
     if not s[0]:
-        print(f"    {code}: no fully-in-frame candidate; using best available")
-    return s[7], s[6]   # (path, source)
+        print(f"    {code}: no fully-in-frame real photo; using best available")
+    return s[8], s[7]   # (path, source)
 
 
 def _center_square(im, size):

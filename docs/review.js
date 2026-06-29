@@ -194,14 +194,13 @@
       var tiles = document.createElement("div");
       tiles.className = "tiles";
 
-      // ---- reference photo (raw source, cropped to the model-input square),
-      // carrying the "flag bad photo" toggle. Legacy entries that predate the
-      // separate photo tile fall back to the model input here.
-      var photoSrc = s.photo || s.ref;
-      if (photoSrc) {
+      // ---- reference photo (the real source, cropped to the model-input
+      // square), carrying the "flag bad photo" toggle. Only shown when a real
+      // photo is available — never the isolated model-input cutout.
+      if (s.photo) {
         var refSub = (s.ref_source === "whobird") ? "© Macaulay Library" : "";
-        var rt = tile("photo" + (m(code).badRef ? " badref" : ""), photoSrc,
-                      s.photo ? "Reference photo" : "Reference (model input)", refSub);
+        var rt = tile("photo" + (m(code).badRef ? " badref" : ""), s.photo,
+                      "Reference photo", refSub);
         var fb = document.createElement("button");
         fb.className = "reff" + (m(code).badRef ? " on" : "");
         fb.textContent = m(code).badRef ? "⚑ bad photo" : "⚐ flag photo";
@@ -217,7 +216,7 @@
         tiles.appendChild(rt);
       }
       // ---- model input (the isolated image actually fed to img2img) -------
-      if (s.photo && s.ref) tiles.appendChild(tile("input", s.ref, "Model input", ""));
+      if (s.ref) tiles.appendChild(tile("input", s.ref, "Model input", ""));
       // ---- current live image --------------------------------------------
       if (s.before) tiles.appendChild(tile("before", s.before, "Current (live)", ""));
 
