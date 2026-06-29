@@ -8670,9 +8670,10 @@
    "name": "Common Redshank",
    "sci": "Tringa totanus",
    "family": "Sandpipers and Allies",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/comred1/before.png",
    "ref": "review_imgs/comred1/ref.jpg",
+   "photo": "review_imgs/comred1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Medium grey-brown wader, streaked above and on the breast, with bright orange-red legs and a straight red-based black-tipped bill; in flight shows a broad white trailing wing-bar and white rump wedge.",
@@ -8681,34 +8682,25 @@
     {
      "id": "v0",
      "img": "review_imgs/comred1/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.853,
-     "pose": 0.235,
-     "bird": 0.864
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.784,
+     "pose": 0.149,
+     "bird": 0.865
     },
     {
      "id": "v1",
      "img": "review_imgs/comred1/v1.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.814,
-     "pose": 0.141,
-     "bird": 0.607
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comred1/v2.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.806,
-     "pose": 0.104,
-     "bird": 0.368
+     "seed": 3025,
+     "strength": 0.62,
+     "sim": 0.741,
+     "pose": 0.306,
+     "bird": 0.484
     }
    ],
+   "gen": 1782765183,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/comred1/photo.jpg"
+   "pending": false
   },
   "comred2": {
    "name": "Common Redstart",
@@ -8758,9 +8750,10 @@
    "name": "Common Sandpiper",
    "sci": "Actitis hypoleucos",
    "family": "Sandpipers and Allies",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/comsan/before.png",
    "ref": "review_imgs/comsan/ref.jpg",
+   "photo": "review_imgs/comsan/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small brown wader with olive-brown upperparts, clean white underparts forming a distinctive white wedge in front of the bent wing, fine breast streaking, a white eye-ring, pale straight bill and greenish legs; constantly teetering rear.",
@@ -8769,42 +8762,34 @@
     {
      "id": "v0",
      "img": "review_imgs/comsan/v0.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.836,
-     "pose": 0.191,
-     "bird": 0.85
+     "seed": 3025,
+     "strength": 0.62,
+     "sim": 0.784,
+     "pose": 0.257,
+     "bird": 0.723
     },
     {
      "id": "v1",
      "img": "review_imgs/comsan/v1.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.847,
-     "pose": 0.263,
-     "bird": 0.748
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comsan/v2.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.822,
-     "pose": 0.135,
-     "bird": 0.189
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.778,
+     "pose": 0.208,
+     "bird": 0.682
     }
    ],
+   "gen": 1782765377,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/comsan/photo.jpg"
+   "pending": false
   },
   "comsni": {
    "name": "Common Snipe",
    "sci": "Gallinago gallinago",
    "family": "Sandpipers and Allies",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/comsni/before.png",
    "ref": "review_imgs/comsni/ref.jpg",
+   "photo": "review_imgs/comsni/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Cryptic wader, richly mottled brown above with bold cream back-stripes, dark crown split by a pale central stripe, heavily barred flanks, a very long straight bill and short greenish legs.",
@@ -8813,113 +8798,79 @@
     {
      "id": "v0",
      "img": "review_imgs/comsni/v0.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.792,
-     "pose": 0.428,
-     "bird": 0.91
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comsni/v1.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.812,
-     "pose": 0.53,
-     "bird": 0.716
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.713,
+     "pose": 0.475,
+     "bird": 0.883
     }
    ],
+   "gen": 1782765511,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/comsni/photo.jpg"
+   "pending": false
   },
   "comswi": {
    "name": "Common Swift",
    "sci": "Apus apus",
    "family": "Swifts",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/comswi/before.png",
    "ref": "review_imgs/comswi/ref.jpg",
+   "photo": "review_imgs/comswi/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "All sooty-black aerial bird with a pale greyish throat patch, very long slender scythe-shaped swept-back wings, a short forked tail and a tiny black bill; streamlined cigar-shaped body. Head held low in line with the streamlined body, not rounded. Plumage only sooty brown-black with a slightly tan-tinged whitish throat; no other colours.",
+   "id": "All sooty-black aerial bird with a pale greyish throat patch, very long slender scythe-shaped swept-back wings, a short forked tail and a tiny black bill; streamlined cigar-shaped body. Head held low in line with the streamlined body, not rounded. Plumage only sooty brown-black with a slightly tan-tinged whitish throat; no other colours. Emphasise: only sooty brown-black tones with a slightly paler throat, and no other colours.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comswi/v0.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.835,
-     "pose": 0.02,
-     "bird": 0.509
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comswi/v1.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.87,
-     "pose": 0.013,
-     "bird": 0.253
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comswi/v2.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.801,
-     "pose": 0.008,
-     "bird": 0.172
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.795,
+     "pose": 0.028,
+     "bird": 0.532
     }
    ],
+   "gen": 1782765598,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/comswi/photo.jpg"
+   "pending": false
   },
   "crebun2": {
    "name": "Cretzschmar's Bunting",
    "sci": "Emberiza caesia",
    "family": "Old World Buntings",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/crebun2/before.png",
    "ref": "review_imgs/crebun2/ref.jpg",
+   "photo": "review_imgs/crebun2/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Bunting with a blue-grey head and breast, a rusty-orange throat and eye-ring, warm rufous-brown streaked back, pinkish belly and a pinkish conical bill; like Ortolan but with grey throat. Head blue-grey with a rusty-orange throat; bill short, conical and pinkish.",
+   "id": "Bunting with a blue-grey head and breast, a rusty-orange throat and eye-ring, warm rufous-brown streaked back, pinkish belly and a pinkish conical bill; like Ortolan but with grey throat. Head blue-grey with a rusty-orange throat; bill short, conical and pinkish. Emphasise: the correct head and bill shape, with emphasis on overall body proportions.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/crebun2/v0.png",
-     "seed": 1020,
+     "seed": 1025,
      "strength": 0.6,
-     "sim": 0.877,
-     "pose": 0.267,
-     "bird": 0.52
+     "sim": 0.709,
+     "pose": 0.311,
+     "bird": 0.866
     },
     {
      "id": "v1",
      "img": "review_imgs/crebun2/v1.png",
-     "seed": 1022,
+     "seed": 1027,
      "strength": 0.74,
-     "sim": 0.859,
-     "pose": 0.098,
-     "bird": 0.513
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/crebun2/v2.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.861,
-     "pose": 0.133,
-     "bird": 0.297
+     "sim": 0.701,
+     "pose": 0.184,
+     "bird": 0.708
     }
    ],
+   "gen": 1782765731,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/crebun2/photo.jpg"
+   "pending": false
   },
   "cursan": {
    "name": "Curlew Sandpiper",
@@ -20050,12 +20001,6 @@
  },
  "queued": [
   "commer",
-  "comred1",
-  "comred2",
-  "comsan",
-  "comsni",
-  "comswi",
-  "crebun2",
   "cursan",
   "cypwar1",
   "delpri1",
