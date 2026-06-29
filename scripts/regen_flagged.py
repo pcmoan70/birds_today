@@ -249,27 +249,40 @@ def best_ref(sp, code, sess):
     return s[7], s[6]   # (path, source)
 
 
-def prep_init(ref_path, sess, size=1024):
-    """Isolate the bird and centre it on white so it fills the frame.
-
-    Feeding a tight, background-free bird to img2img makes the generated bird
-    large and central (so the final matte never culls it as too small) and
-    removes distracting backgrounds that pull colour/shape off. Falls back to a
-    centre square crop if the subject can't be isolated."""
-    im = Image.open(ref_path).convert("RGB")
-    try:
-        ci = cut.cut_pil(im, sess, 900)  # RGBA, cropped tight to the bird
-        if ci is not None:
-            side = int(max(ci.size) * 1.18)
-            sq = Image.new("RGBA", (side, side), (255, 255, 255, 255))
-            sq.paste(ci, ((side - ci.width) // 2, (side - ci.height) // 2), ci)
-            return sq.convert("RGB").resize((size, size), Image.LANCZOS)
-    except Exception:
-        pass
+def _center_square(im, size):
     w, h = im.size
     s = min(w, h)
     im = im.crop(((w - s) // 2, (h - s) // 2, (w - s) // 2 + s, (h - s) // 2 + s))
     return im.resize((size, size), Image.LANCZOS)
+
+
+def prep_init(ref_path, sess, size=1024, frame=0):
+    """Isolate the bird and centre it on white so it fills the frame.
+
+    Feeding a tight, background-free bird to img2img makes the generated bird
+    large and central (so the final matte never culls it as too small) and
+    removes distracting backgrounds that pull colour/shape off.
+
+    `frame` cycles the framing so re-flagging a "bad photo" that is really just a
+    bad crop yields a genuinely different model input (rather than re-cropping a
+    good photo identically):
+      0 -> isolate the bird, tight 1.18x margin (default)
+      1 -> isolate the bird, looser 1.5x margin (keeps edge parts like feet/tail)
+      2 -> no isolation: a centre square crop of the whole photo as-is
+    Frame 2 (and any isolation failure) falls back to the centre-square crop."""
+    im = Image.open(ref_path).convert("RGB")
+    if frame % 3 != 2:
+        try:
+            ci = cut.cut_pil(im, sess, 900)  # RGBA, cropped tight to the bird
+            if ci is not None:
+                margin = 1.18 if frame % 3 == 0 else 1.5
+                side = int(max(ci.size) * margin)
+                sq = Image.new("RGBA", (side, side), (255, 255, 255, 255))
+                sq.paste(ci, ((side - ci.width) // 2, (side - ci.height) // 2), ci)
+                return sq.convert("RGB").resize((size, size), Image.LANCZOS)
+        except Exception:
+            pass
+    return _center_square(im, size)
 
 
 VARIANTS = [(1000, 0.60), (1001, 0.68), (1002, 0.74)]
@@ -312,7 +325,9 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
     (base_seed, strength) pairs — e.g. 2 fresh pairs for challenger suggestions.
     seed_off shifts the seeds so each round yields genuinely different variants."""
     prompt = improved_prompt(sp["common"], sp["sci"], code, pose, fams, ids)
-    init = prep_init(ref_path, sess)
+    # Cycle the framing each retry round (seed_off = round*5) so re-flagging a
+    # photo that's really just badly cropped yields a different model input.
+    init = prep_init(ref_path, sess, frame=(seed_off // 5) % 3)
     # Publish the exact model input as the review reference, so the tile shows
     # precisely what grounded the generation (bird isolated, centred, cropped
     # square) rather than the raw photo.
