@@ -198,3 +198,15 @@ Tasks:
 Review: feet are now anchored per family in every prompt; per-species id_features
 still layer on specifics. No CLIP feet-detection added (reliability uncertain) —
 the description-based approach the user chose is deterministic and editable.
+
+## Clean new entries + hide resolved cards
+- [x] Write a generation stamp (`gen`) on every (re)generated review entry
+      (gen_worker.py + regen_flagged.py). apply_choices edits in place, so it
+      preserves `gen`.
+- [x] review.js reconcileGen(): when an entry's `gen` advances, wipe stored
+      picks/toggles for that code -> new candidates show clean. Legacy entries
+      (no `gen`) left untouched (don't nuke in-progress feedback).
+- [x] Resolved (Satisfied / None good) cards drop off the list immediately;
+      return clean when new candidates arrive. "Show resolved (N)" bar toggle
+      reveals them to undo. Picks stay visible (can still mark Satisfied).
+- [x] Restarted worker so the remaining batch writes `gen` and uses the clause.
