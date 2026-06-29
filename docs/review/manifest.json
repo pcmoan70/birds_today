@@ -12340,44 +12340,46 @@
    "name": "Yelkouan Shearwater",
    "sci": "Puffinus yelkouan",
    "family": "Shearwaters and Petrels",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/medshe1/before.png",
    "ref": "review_imgs/medshe1/ref.jpg",
+   "photo": "review_imgs/medshe1/photo.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
-   "id": "Medium shearwater, brownish-black above and dull whitish below with dusky smudging on flanks and undertail; less clean than Manx, with a dark cap and slim dark bill, stiff narrow wings.",
+   "id": "Medium shearwater, brownish-black above and dull whitish below with dusky smudging on flanks and undertail; less clean than Manx, with a dark cap and slim dark bill, stiff narrow wings. Emphasise: the correct slender bill shape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/medshe1/v0.png",
-     "seed": 3011,
+     "seed": 3016,
      "strength": 0.7,
-     "sim": 0.858,
-     "pose": 0.061,
-     "bird": 0.473
+     "sim": 0.831,
+     "pose": 0.184,
+     "bird": 0.694
     },
     {
      "id": "v1",
      "img": "review_imgs/medshe1/v1.png",
-     "seed": 3010,
+     "seed": 3015,
      "strength": 0.62,
-     "sim": 0.795,
-     "pose": 0.085,
-     "bird": 0.443
+     "sim": 0.753,
+     "pose": 0.037,
+     "bird": 0.3
     }
    ],
+   "gen": 1782771206,
    "reviewed": false,
-   "photo": "review_imgs/medshe1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "melwar1": {
    "name": "Melodious Warbler",
    "sci": "Hippolais polyglotta",
    "family": "Reed Warblers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/melwar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/100488051/320",
+   "ref": "review_imgs/melwar1/ref.jpg",
+   "photo": "review_imgs/melwar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Plain greenish-grey warbler, olive-toned above and pale lemon-yellow below, with a yellowish face and faint supercilium, short rounded wings lacking a pale panel, pinkish-brown legs, and a broad pale-based bill.",
@@ -12386,60 +12388,61 @@
     {
      "id": "v0",
      "img": "review_imgs/melwar1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.878,
-     "pose": 0.08,
-     "bird": 0.751
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.803,
+     "pose": 0.273,
+     "bird": 0.796
     },
     {
      "id": "v1",
      "img": "review_imgs/melwar1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.885,
-     "pose": 0.145,
-     "bird": 0.502
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.827,
+     "pose": 0.273,
+     "bird": 0.59
     }
    ],
+   "gen": 1782771339,
    "reviewed": false,
-   "photo": "review_imgs/melwar1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "merlin": {
    "name": "Merlin",
    "sci": "Falco columbarius",
    "family": "Falcons and Caracaras",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/merlin/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/27354311/320",
+   "ref": "review_imgs/merlin/ref.jpg",
+   "photo": "review_imgs/merlin/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small compact falcon; male slate-blue above with a rusty-streaked buff breast, faint dark moustache, and a broad black subterminal tail band; short pointed wings, yellow legs, dark-tipped yellow-based bill.",
+   "id": "Small compact falcon; male slate-blue above with a rusty-streaked buff breast, faint dark moustache, and a broad black subterminal tail band; short pointed wings, yellow legs, dark-tipped yellow-based bill. Emphasise: less contrasting cheek markings.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/merlin/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.899,
-     "pose": 0.57,
-     "bird": 0.697
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.779,
+     "pose": 0.668,
+     "bird": 0.873
     },
     {
      "id": "v1",
      "img": "review_imgs/merlin/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.873,
-     "pose": 0.614,
-     "bird": 0.705
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.792,
+     "pose": 0.475,
+     "bird": 0.686
     }
    ],
+   "gen": 1782771426,
    "reviewed": false,
-   "photo": "review_imgs/merlin/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "mewgul": {
    "name": "Common Gull",
@@ -12489,71 +12492,64 @@
    "name": "Mistle Thrush",
    "sci": "Turdus viscivorus",
    "family": "Thrushes",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/misthr1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44504961/320",
+   "ref": "review_imgs/misthr1/ref.jpg",
+   "photo": "review_imgs/misthr1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Large pale grey-brown thrush with whitish underparts heavily marked with bold round black spots, greyish upperparts, white wing-bar edges, white-cornered tail, an upright stance, and pale belly; dark bill, pinkish legs.",
+   "id": "Large pale grey-brown thrush with whitish underparts heavily marked with bold round black spots, greyish upperparts, white wing-bar edges, white-cornered tail, an upright stance, and pale belly; dark bill, pinkish legs. Emphasise: a shorter neck.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/misthr1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.885,
-     "pose": 0.371,
-     "bird": 0.59
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.755,
+     "pose": 0.674,
+     "bird": 0.746
     },
     {
      "id": "v1",
      "img": "review_imgs/misthr1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.901,
-     "pose": 0.407,
-     "bird": 0.218
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.744,
+     "pose": 0.532,
+     "bird": 0.691
     }
    ],
+   "gen": 1782771559,
    "reviewed": false,
-   "photo": "review_imgs/misthr1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "miswoo1": {
    "name": "Middle Spotted Woodpecker",
    "sci": "Dendrocoptes medius",
    "family": "Woodpeckers",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/miswoo1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/23422691/320",
+   "ref": "review_imgs/miswoo1/ref.jpg",
+   "photo": "review_imgs/miswoo1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Pied woodpecker with a full bright-red crown (no black border), black-and-white barred back with white shoulder patches, white face, pinkish-flushed lower belly, faint flank streaking, and a pale dark-tipped bill.",
+   "id": "Pied woodpecker with a full bright-red crown (no black border), black-and-white barred back with white shoulder patches, white face, pinkish-flushed lower belly, faint flank streaking, and a pale dark-tipped bill. Emphasise: bold dark streaks on the flanks and belly.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/miswoo1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.704,
-     "pose": 0.039,
-     "bird": 0.885
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/miswoo1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.71,
-     "pose": 0.162,
-     "bird": 0.703
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.732,
+     "pose": 0.085,
+     "bird": 0.806
     }
    ],
+   "gen": 1782771691,
    "reviewed": false,
-   "photo": "review_imgs/miswoo1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "monhar1": {
    "name": "Montagu's Harrier",
@@ -19987,12 +19983,7 @@
   "lottit1",
   "marwar1",
   "masshr1",
-  "medshe1",
-  "melwar1",
-  "merlin",
   "mewgul",
-  "misthr1",
-  "miswoo1",
   "monhar1",
   "monpar1",
   "mouwhe2",
