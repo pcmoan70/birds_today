@@ -9126,33 +9126,33 @@
     {
      "id": "v0",
      "img": "review_imgs/eurjac/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.911,
-     "pose": 0.152,
-     "bird": 0.456
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.871,
+     "pose": 0.173,
+     "bird": 0.676
     },
     {
      "id": "v1",
      "img": "review_imgs/eurjac/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.916,
-     "pose": 0.135,
-     "bird": 0.412
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.894,
+     "pose": 0.247,
+     "bird": 0.472
     },
     {
      "id": "v2",
      "img": "review_imgs/eurjac/v2.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.904,
-     "pose": 0.175,
-     "bird": 0.263
+     "sim": 0.869,
+     "pose": 0.177,
+     "bird": 0.478
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "eurjay1": {
    "name": "Eurasian Jay",
@@ -9169,33 +9169,33 @@
     {
      "id": "v0",
      "img": "review_imgs/eurjay1/v0.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.898,
-     "pose": 0.138,
-     "bird": 0.833
+     "sim": 0.893,
+     "pose": 0.154,
+     "bird": 0.767
     },
     {
      "id": "v1",
      "img": "review_imgs/eurjay1/v1.png",
-     "seed": 1016,
+     "seed": 1021,
      "strength": 0.68,
-     "sim": 0.864,
-     "pose": 0.085,
-     "bird": 0.925
+     "sim": 0.899,
+     "pose": 0.135,
+     "bird": 0.747
     },
     {
      "id": "v2",
      "img": "review_imgs/eurjay1/v2.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.874,
-     "pose": 0.067,
-     "bird": 0.895
+     "sim": 0.856,
+     "pose": 0.034,
+     "bird": 0.695
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "eurnig1": {
    "name": "Eurasian Nightjar",
@@ -9212,33 +9212,33 @@
     {
      "id": "v0",
      "img": "review_imgs/eurnig1/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.8,
-     "pose": 0.211,
-     "bird": 0.639
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.835,
+     "pose": 0.098,
+     "bird": 0.56
     },
     {
      "id": "v1",
      "img": "review_imgs/eurnig1/v1.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.808,
-     "pose": 0.126,
-     "bird": 0.426
+     "sim": 0.823,
+     "pose": 0.085,
+     "bird": 0.526
     },
     {
      "id": "v2",
      "img": "review_imgs/eurnig1/v2.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.822,
-     "pose": 0.022,
-     "bird": 0.477
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.83,
+     "pose": 0.099,
+     "bird": 0.215
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "eursco1": {
    "name": "Eurasian Scops-Owl",
@@ -9255,33 +9255,33 @@
     {
      "id": "v0",
      "img": "review_imgs/eursco1/v0.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.859,
-     "pose": 0.255,
-     "bird": 0.468
+     "sim": 0.867,
+     "pose": 0.223,
+     "bird": 0.685
     },
     {
      "id": "v1",
      "img": "review_imgs/eursco1/v1.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.848,
-     "pose": 0.386,
-     "bird": 0.354
+     "sim": 0.855,
+     "pose": 0.26,
+     "bird": 0.379
     },
     {
      "id": "v2",
      "img": "review_imgs/eursco1/v2.png",
-     "seed": 1016,
+     "seed": 1021,
      "strength": 0.68,
-     "sim": 0.855,
-     "pose": 0.278,
-     "bird": 0.254
+     "sim": 0.863,
+     "pose": 0.348,
+     "bird": 0.185
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "eurspa1": {
    "name": "Eurasian Sparrowhawk",
@@ -9298,33 +9298,33 @@
     {
      "id": "v0",
      "img": "review_imgs/eurspa1/v0.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.865,
-     "pose": 0.07,
-     "bird": 0.885
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.833,
+     "pose": 0.085,
+     "bird": 0.62
     },
     {
      "id": "v1",
      "img": "review_imgs/eurspa1/v1.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.848,
-     "pose": 0.042,
-     "bird": 0.78
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.868,
+     "pose": 0.02,
+     "bird": 0.582
     },
     {
      "id": "v2",
      "img": "review_imgs/eurspa1/v2.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.856,
-     "pose": 0.054,
-     "bird": 0.589
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.837,
+     "pose": 0.047,
+     "bird": 0.454
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "grnsan": {
    "name": "Green Sandpiper",
