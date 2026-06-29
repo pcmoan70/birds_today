@@ -9298,53 +9298,46 @@
    "name": "Eurasian Nightjar",
    "sci": "Caprimulgus europaeus",
    "family": "Nightjars and Allies",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/eurnig1/before.png",
    "ref": "review_imgs/eurnig1/ref.jpg",
+   "photo": "review_imgs/eurnig1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Cryptic, intricately mottled grey-brown bird with a flat broad head, very large dark eyes, tiny bill with a wide gape, long wings and long tail; males show white spots near wingtips and tail corners. Bill tiny with a very wide gape.",
+   "id": "Cryptic, intricately mottled grey-brown bird with a flat broad head, very large dark eyes, tiny bill with a wide gape, long wings and long tail; males show white spots near wingtips and tail corners. Bill tiny with a very wide gape. Emphasise: a tiny flat bill with a very wide gape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurnig1/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.835,
-     "pose": 0.098,
-     "bird": 0.56
+     "seed": 3025,
+     "strength": 0.62,
+     "sim": 0.777,
+     "pose": 0.277,
+     "bird": 0.636
     },
     {
      "id": "v1",
      "img": "review_imgs/eurnig1/v1.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.823,
-     "pose": 0.085,
-     "bird": 0.526
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eurnig1/v2.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.83,
-     "pose": 0.099,
-     "bird": 0.215
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.829,
+     "pose": 0.102,
+     "bird": 0.386
     }
    ],
+   "gen": 1782767078,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/eurnig1/photo.jpg"
+   "pending": false
   },
   "eursco1": {
    "name": "Eurasian Scops-Owl",
    "sci": "Otus scops",
    "family": "Typical Owls",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/eursco1/before.png",
    "ref": "review_imgs/eursco1/ref.jpg",
+   "photo": "review_imgs/eursco1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny grey owl with intricately vermiculated bark-like grey-brown plumage, small ear tufts, yellow eyes, fine dark streaking below, and a pale scapular line. Greyish bill, feathered legs.",
@@ -9353,42 +9346,25 @@
     {
      "id": "v0",
      "img": "review_imgs/eursco1/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.867,
-     "pose": 0.223,
-     "bird": 0.685
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/eursco1/v1.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.855,
-     "pose": 0.26,
-     "bird": 0.379
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eursco1/v2.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.863,
-     "pose": 0.348,
-     "bird": 0.185
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.755,
+     "pose": 0.75,
+     "bird": 0.665
     }
    ],
+   "gen": 1782767166,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/eursco1/photo.jpg"
+   "pending": false
   },
   "eurspa1": {
    "name": "Eurasian Sparrowhawk",
    "sci": "Accipiter nisus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/eurspa1/before.png",
    "ref": "review_imgs/eurspa1/ref.jpg",
+   "photo": "review_imgs/eurspa1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small short-winged hawk with long yellow legs and yellow eyes; male slate-grey above with fine rusty barring below, female grey-brown above with grey barring below. Long barred tail.",
@@ -9397,42 +9373,34 @@
     {
      "id": "v0",
      "img": "review_imgs/eurspa1/v0.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.833,
-     "pose": 0.085,
-     "bird": 0.62
+     "seed": 3025,
+     "strength": 0.62,
+     "sim": 0.847,
+     "pose": 0.043,
+     "bird": 0.861
     },
     {
      "id": "v1",
      "img": "review_imgs/eurspa1/v1.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.868,
-     "pose": 0.02,
-     "bird": 0.582
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eurspa1/v2.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.837,
-     "pose": 0.047,
-     "bird": 0.454
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.873,
+     "pose": 0.019,
+     "bird": 0.677
     }
    ],
+   "gen": 1782767272,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/eurspa1/photo.jpg"
+   "pending": false
   },
   "grnsan": {
    "name": "Green Sandpiper",
    "sci": "Tringa ochropus",
    "family": "Sandpipers and Allies",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/grnsan/before.png",
    "ref": "review_imgs/grnsan/ref.jpg",
+   "photo": "review_imgs/grnsan/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Medium sandpiper, very dark greenish-brown back finely speckled white, white belly; bold white rump and barred tail in flight, dark underwing; short white supercilium before eye, white eye-ring; dark bill, greenish legs.",
@@ -9441,69 +9409,52 @@
     {
      "id": "v0",
      "img": "review_imgs/grnsan/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.848,
-     "pose": 0.195,
-     "bird": 0.848
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/grnsan/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.806,
-     "pose": 0.072,
-     "bird": 0.618
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/grnsan/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.831,
-     "pose": 0.106,
-     "bird": 0.488
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.82,
+     "pose": 0.113,
+     "bird": 0.685
     }
    ],
+   "gen": 1782767368,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/grnsan/photo.jpg"
+   "pending": false
   },
   "grnwar1": {
    "name": "Green Warbler",
    "sci": "Phylloscopus nitidus",
    "family": "Leaf Warblers",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/grnwar1/before.png",
    "ref": "review_imgs/grnwar1/ref.jpg",
+   "photo": "review_imgs/grnwar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small leaf warbler, bright greenish above, clean whitish below with yellow wash on face and throat; long yellowish supercilium, dark eyestripe, two pale wingbars; fine bill with orange lower mandible, pale legs.",
+   "id": "Small leaf warbler, bright greenish above, clean whitish below with yellow wash on face and throat; long yellowish supercilium, dark eyestripe, two pale wingbars; fine bill with orange lower mandible, pale legs. Emphasise: no yellow tones.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grnwar1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.851,
-     "pose": 0.265,
-     "bird": 0.784
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.768,
+     "pose": 0.504,
+     "bird": 0.928
     },
     {
      "id": "v1",
      "img": "review_imgs/grnwar1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.828,
-     "pose": 0.136,
-     "bird": 0.57
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.766,
+     "pose": 0.236,
+     "bird": 0.669
     }
    ],
+   "gen": 1782767455,
    "reviewed": false,
-   "photo": "review_imgs/grnwar1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "grnwoo3": {
    "name": "Iberian Green Woodpecker",
@@ -19957,11 +19908,6 @@
  },
  "queued": [
   "commer",
-  "eurnig1",
-  "eursco1",
-  "eurspa1",
-  "grnsan",
-  "grnwar1",
   "grnwoo3",
   "grrwar1",
   "grscuc1",
