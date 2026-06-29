@@ -8876,45 +8876,47 @@
    "name": "Curlew Sandpiper",
    "sci": "Calidris ferruginea",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/cursan/before.png",
    "ref": "review_imgs/cursan/ref.jpg",
+   "photo": "review_imgs/cursan/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Slim wader with a long down-curved black bill, in breeding plumage rich brick-red on the head, underparts and back which is also scaled black, and a white rump; black legs, longer-legged and longer-billed than Dunlin.",
+   "id": "Slim wader with a long down-curved black bill, in breeding plumage rich brick-red on the head, underparts and back which is also scaled black, and a white rump; black legs, longer-legged and longer-billed than Dunlin. Emphasise: precise, accurate plumage colouring and a decurved bill.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/cursan/v0.png",
-     "seed": 3010,
+     "seed": 3020,
      "strength": 0.62,
-     "sim": 0.845,
-     "pose": 0.226,
-     "bird": 0.603
+     "sim": 0.801,
+     "pose": 0.189,
+     "bird": 0.65
     },
     {
      "id": "v1",
      "img": "review_imgs/cursan/v1.png",
-     "seed": 3011,
+     "seed": 3021,
      "strength": 0.7,
-     "sim": 0.839,
-     "pose": 0.129,
-     "bird": 0.652
+     "sim": 0.779,
+     "pose": 0.158,
+     "bird": 0.583
     }
    ],
+   "gen": 1782765832,
    "reviewed": false,
-   "photo": "review_imgs/cursan/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "cypwar1": {
    "name": "Cyprus Warbler",
    "sci": "Curruca melanothorax",
    "family": "Sylviid Warblers and Allies",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/cypwar1/before.png",
    "ref": "review_imgs/cypwar1/ref.jpg",
-   "ref_source": "gbif",
+   "photo": "review_imgs/cypwar1/photo.jpg",
+   "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
    "id": "Small dark Sylvia-type warbler, slate-grey above, with a black head and heavy black scaling spotting on the white throat and breast, a red eye-ring and pale iris, and a long blackish white-edged tail.",
    "chosen": null,
@@ -8922,86 +8924,88 @@
     {
      "id": "v0",
      "img": "review_imgs/cypwar1/v0.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.821,
-     "pose": 0.328,
-     "bird": 0.547
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.745,
+     "pose": 0.451,
+     "bird": 0.799
     },
     {
      "id": "v1",
      "img": "review_imgs/cypwar1/v1.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.779,
-     "pose": 0.123,
-     "bird": 0.378
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.719,
+     "pose": 0.488,
+     "bird": 0.587
     },
     {
      "id": "v2",
      "img": "review_imgs/cypwar1/v2.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.809,
-     "pose": 0.014,
-     "bird": 0.063
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.707,
+     "pose": 0.341,
+     "bird": 0.647
     }
    ],
+   "gen": 1782765993,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/cypwar1/photo.jpg"
+   "pending": false
   },
   "delpri1": {
    "name": "Delicate Prinia",
    "sci": "Prinia lepida",
    "family": "Cisticolas and Allies",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/delpri1/before.png",
    "ref": "review_imgs/delpri1/ref.jpg",
+   "photo": "review_imgs/delpri1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny pale sandy-grey prinia, faintly streaked above, with whitish underparts, a pale supercilium, a slim dark bill, pinkish legs and a long graduated tail tipped white; slender and long-tailed. Plumage colouring rougher and more streaked, less smooth.",
+   "id": "Tiny pale sandy-grey prinia, faintly streaked above, with whitish underparts, a pale supercilium, a slim dark bill, pinkish legs and a long graduated tail tipped white; slender and long-tailed. Plumage colouring rougher and more streaked, less smooth. Emphasise: rougher, less smooth colouring.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/delpri1/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.858,
-     "pose": 0.055,
-     "bird": 0.789
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.768,
+     "pose": 0.16,
+     "bird": 0.889
     },
     {
      "id": "v1",
      "img": "review_imgs/delpri1/v1.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.85,
-     "pose": 0.145,
-     "bird": 0.702
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.789,
+     "pose": 0.202,
+     "bird": 0.783
     },
     {
      "id": "v2",
      "img": "review_imgs/delpri1/v2.png",
-     "seed": 1022,
+     "seed": 1027,
      "strength": 0.74,
-     "sim": 0.821,
-     "pose": 0.162,
-     "bird": 0.499
+     "sim": 0.776,
+     "pose": 0.152,
+     "bird": 0.647
     }
    ],
+   "gen": 1782766126,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/delpri1/photo.jpg"
+   "pending": false
   },
   "doveki": {
    "name": "Dovekie",
    "sci": "Alle alle",
    "family": null,
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/doveki/before.png",
    "ref": "review_imgs/doveki/ref.jpg",
+   "photo": "review_imgs/doveki/photo.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
    "id": "Very small chubby auk, black above and white below, with a tiny stubby black bill, a black head and breast, white belly and short neck; tubby compact shape with dark legs.",
@@ -9010,34 +9014,25 @@
     {
      "id": "v0",
      "img": "review_imgs/doveki/v0.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.808,
-     "pose": 0.071,
-     "bird": 0.639
+     "seed": 3025,
+     "strength": 0.62,
+     "sim": 0.785,
+     "pose": 0.269,
+     "bird": 0.718
     },
     {
      "id": "v1",
      "img": "review_imgs/doveki/v1.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.79,
-     "pose": 0.105,
-     "bird": 0.622
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/doveki/v2.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.791,
-     "pose": 0.042,
-     "bird": 0.275
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.875,
+     "pose": 0.135,
+     "bird": 0.382
     }
    ],
+   "gen": 1782766231,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/doveki/photo.jpg"
+   "pending": false
   },
   "dunlin": {
    "name": "Dunlin",
@@ -9087,45 +9082,46 @@
    "name": "Dusky Warbler",
    "sci": "Phylloscopus fuscatus",
    "family": "Leaf Warblers",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/duswar/before.png",
    "ref": "review_imgs/duswar/ref.jpg",
+   "photo": "review_imgs/duswar/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small plain dark warbler, dull grey-brown above and buffish-white below with buff flanks, a long buff supercilium, a dark eyestripe, a fine dark bill and dark legs; lacks any wing-bars. Underparts and flanks warmer and buffier.",
+   "id": "Small plain dark warbler, dull grey-brown above and buffish-white below with buff flanks, a long buff supercilium, a dark eyestripe, a fine dark bill and dark legs; lacks any wing-bars. Underparts and flanks warmer and buffier. Emphasise: warmer buff-brown tones.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/duswar/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.897,
-     "pose": 0.164,
-     "bird": 0.627
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.803,
+     "pose": 0.254,
+     "bird": 0.874
     },
     {
      "id": "v1",
      "img": "review_imgs/duswar/v1.png",
-     "seed": 1021,
+     "seed": 1026,
      "strength": 0.68,
-     "sim": 0.873,
+     "sim": 0.83,
      "pose": 0.228,
-     "bird": 0.605
+     "bird": 0.795
     },
     {
      "id": "v2",
      "img": "review_imgs/duswar/v2.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.891,
-     "pose": 0.227,
-     "bird": 0.4
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.826,
+     "pose": 0.232,
+     "bird": 0.638
     }
    ],
+   "gen": 1782766470,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/duswar/photo.jpg"
+   "pending": false
   },
   "eabwar1": {
    "name": "Eastern Bonelli's Warbler",
@@ -20001,12 +19997,6 @@
  },
  "queued": [
   "commer",
-  "cursan",
-  "cypwar1",
-  "delpri1",
-  "doveki",
-  "dunlin",
-  "duswar",
   "eabwar1",
   "eaowar2",
   "euptit1",
