@@ -40,7 +40,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Small tit with bright cobalt-blue crown, wings and tail, white face bordered by dark blue eye-stripe and collar. Yellow underparts, greenish-blue back. Short black bill, bluish-grey legs; rounded compact body."
+   "id": "Small tit with bright cobalt-blue crown, wings and tail, white face bordered by dark blue eye-stripe and collar. Yellow underparts, greenish-blue back. Short black bill, bluish-grey legs; rounded compact body.",
+   "pending": false
   },
   "barpet": {
    "name": "Band-rumped Storm-Petrel",
@@ -82,7 +83,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Small dark storm-petrel, sooty blackish-brown overall with a broad clean white rump band wrapping onto the flanks. Pale wing-covert bar, slightly forked tail; short black bill, black legs."
+   "id": "Small dark storm-petrel, sooty blackish-brown overall with a broad clean white rump band wrapping onto the flanks. Pale wing-covert bar, slightly forked tail; short black bill, black legs.",
+   "pending": false
   },
   "afrcha1": {
    "name": "African Chaffinch",
@@ -115,7 +117,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Robust finch; male has slate-grey head and nape, warm pinkish-brown breast and back, white wing bars and white shoulder patch, greenish rump. Whitish belly, conical greyish bill, brownish legs."
+   "id": "Robust finch; male has slate-grey head and nape, warm pinkish-brown breast and back, white wing bars and white shoulder patch, greenish rump. Whitish belly, conical greyish bill, brownish legs.",
+   "pending": false
   },
   "alepar2": {
    "name": "Alexandrine Parakeet",
@@ -157,7 +160,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Large long-tailed green parakeet with massive red bill, deep red shoulder patch on wing coverts. Male shows narrow black chin stripe and pink-and-black neck collar. Very long graduated blue-green tail; grey legs."
+   "id": "Large long-tailed green parakeet with massive red bill, deep red shoulder patch on wing coverts. Male shows narrow black chin stripe and pink-and-black neck collar. Very long graduated blue-green tail; grey legs.",
+   "pending": false
   },
   "alpacc1": {
    "name": "Alpine Accentor",
@@ -199,7 +203,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Plump streaky sparrow-like bird; grey-brown head and breast, chestnut-streaked flanks, dark-and-white spotted throat. Brown streaked back, dark wings with white-tipped covert spots forming a wing-bar row. Yellow-based dark bill, reddish legs."
+   "id": "Plump streaky sparrow-like bird; grey-brown head and breast, chestnut-streaked flanks, dark-and-white spotted throat. Brown streaked back, dark wings with white-tipped covert spots forming a wing-bar row. Yellow-based dark bill, reddish legs.",
+   "pending": false
   },
   "alpswi1": {
    "name": "Alpine Swift",
@@ -241,7 +246,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Large powerful swift with scythe-shaped wings; brown upperparts and brown breast-band separating a white throat from a white belly. Short forked tail, dark eye, tiny black bill, dark legs."
+   "id": "Large powerful swift with scythe-shaped wings; brown upperparts and brown breast-band separating a white throat from a white belly. Short forked tail, dark eye, tiny black bill, dark legs.",
+   "pending": false
   },
   "arcloo": {
    "name": "Arctic Loon",
@@ -283,7 +289,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Large slender diver; smooth pale grey crown and hindneck, black throat patch, bold black-and-white striped neck sides, white-spotted black back. White underparts, dagger-like grey bill held level, dark legs."
+   "id": "Large slender diver; smooth pale grey crown and hindneck, black throat patch, bold black-and-white striped neck sides, white-spotted black back. White underparts, dagger-like grey bill held level, dark legs.",
+   "pending": false
   },
   "arcter": {
    "name": "Arctic Tern",
@@ -325,7 +332,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Slender pale grey tern with full black cap, short red bill (no black tip), very short red legs. Long translucent white wings with narrow dark trailing-edge tip; deeply forked long white tail streamers, grey underparts."
+   "id": "Slender pale grey tern with full black cap, short red bill (no black tip), very short red legs. Long translucent white wings with narrow dark trailing-edge tip; deeply forked long white tail streamers, grey underparts.",
+   "pending": false
   },
   "arcwar1": {
    "name": "Arctic Warbler",
@@ -367,7 +375,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Small olive-green warbler with long pale yellowish supercilium reaching almost to nape, dark eyestripe. Whitish underparts faintly washed yellow, one faint pale wing bar. Spike-like bill with pale orange lower mandible, pinkish-orange legs."
+   "id": "Small olive-green warbler with long pale yellowish supercilium reaching almost to nape, dark eyestripe. Whitish underparts faintly washed yellow, one faint pale wing bar. Spike-like bill with pale orange lower mandible, pinkish-orange legs.",
+   "pending": false
   },
   "atlpuf": {
    "name": "Atlantic Puffin",
@@ -493,7 +502,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Slim long-tailed magpie with glossy black cap, pale grey-buff body, and pale grey throat. Bright azure-blue wings and very long blue tail. Black bill and legs; graceful elongated proportions."
+   "id": "Slim long-tailed magpie with glossy black cap, pale grey-buff body, and pale grey throat. Bright azure-blue wings and very long blue tail. Black bill and legs; graceful elongated proportions.",
+   "pending": false
   },
   "bahgoo": {
    "name": "Bar-headed Goose",
@@ -535,7 +545,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Pale grey goose with white head crossed by two bold black bars on the nape, white face stripe down the neck sides. Pale grey body, orange-yellow bill, orange legs."
+   "id": "Pale grey goose with white head crossed by two bold black bars on the nape, white face stripe down the neck sides. Pale grey body, orange-yellow bill, orange legs.",
+   "pending": false
   },
   "baicra1": {
    "name": "Baillon's Crake",
@@ -577,7 +588,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Tiny crake with olive-brown black-streaked and white-flecked upperparts, slate-blue-grey face and breast, black-and-white barred flanks and undertail. Short greenish bill (no red), dull green legs; very small dumpy body."
+   "id": "Tiny crake with olive-brown black-streaked and white-flecked upperparts, slate-blue-grey face and breast, black-and-white barred flanks and undertail. Short greenish bill (no red), dull green legs; very small dumpy body.",
+   "pending": false
   },
   "banswa": {
    "name": "Bank Swallow",
@@ -619,7 +631,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Small brown swallow-martin; plain grey-brown upperparts, white underparts crossed by a distinct brown breast-band. White throat, short notched tail, tiny black bill, dark legs. Smallest, plainest hirundine."
+   "id": "Small brown swallow-martin; plain grey-brown upperparts, white underparts crossed by a distinct brown breast-band. White throat, short notched tail, tiny black bill, dark legs. Smallest, plainest hirundine.",
+   "pending": false
   },
   "barpar2": {
    "name": "Barbary Partridge",
@@ -661,7 +674,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Plump partridge with grey-brown back and breast; greyish face bordered by a broad chestnut collar speckled with white spots. Greyish crown, barred chestnut-and-grey flanks. Red bill, red legs."
+   "id": "Plump partridge with grey-brown back and breast; greyish face bordered by a broad chestnut collar speckled with white spots. Greyish crown, barred chestnut-and-grey flanks. Red bill, red legs.",
+   "pending": false
   },
   "barswa": {
    "name": "Barn Swallow",
@@ -703,7 +717,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Glossy steel-blue above with dark chestnut-red forehead and throat, a blue-black breast-band, and creamy-white underparts. Very long deeply forked tail with thin streamers showing white spots. Black bill, dark legs."
+   "id": "Glossy steel-blue above with dark chestnut-red forehead and throat, a blue-black breast-band, and creamy-white underparts. Very long deeply forked tail with thin streamers showing white spots. Black bill, dark legs.",
+   "pending": false
   },
   "barwar1": {
    "name": "Barred Warbler",
@@ -745,7 +760,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Large bulky grey warbler; grey-brown upperparts, pale underparts finely barred with dark crescents (scaly look). Pale yellow eye, two thin pale wing bars, white-cornered tail. Stout grey bill, greyish legs."
+   "id": "Large bulky grey warbler; grey-brown upperparts, pale underparts finely barred with dark crescents (scaly look). Pale yellow eye, two thin pale wing bars, white-cornered tail. Stout grey bill, greyish legs.",
+   "pending": false
   },
   "batgod": {
    "name": "Bar-tailed Godwit",
@@ -787,7 +803,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Large long-legged wader; breeding male with brick-red head, neck and underparts, mottled grey-brown back. Long slightly upturned bill pink at base, black tip. Tail finely barred, dark legs."
+   "id": "Large long-legged wader; breeding male with brick-red head, neck and underparts, mottled grey-brown back. Long slightly upturned bill pink at base, black tip. Tail finely barred, dark legs.",
+   "pending": false
   },
   "bbspet1": {
    "name": "Black-bellied Storm-Petrel",
@@ -829,7 +846,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Blackish storm-petrel with white rump and white belly patch divided by a dark central line down the underbody. Long legs, dark webbed feet projecting past short forked tail; black bill."
+   "id": "Blackish storm-petrel with white rump and white belly patch divided by a dark central line down the underbody. Long legs, dark webbed feet projecting past short forked tail; black bill.",
+   "pending": false
   },
   "bcbeat1": {
    "name": "Blue-cheeked Bee-eater",
@@ -871,7 +889,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Slender green bee-eater; overall grass-green with rufous-buff throat, blue cheek stripe and forehead bordering black eye-mask. Coppery underwing, long central tail streamers. Long down-curved black bill, dark legs."
+   "id": "Slender green bee-eater; overall grass-green with rufous-buff throat, blue cheek stripe and forehead bordering black eye-mask. Coppery underwing, long central tail streamers. Long down-curved black bill, dark legs.",
+   "pending": false
   },
   "bcnher": {
    "name": "Black-crowned Night Heron",
@@ -913,7 +932,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Stocky short-necked heron with black crown and back, pale grey wings, white face and underparts. Two long white nape plumes; large red eye, stout dark bill, yellowish legs."
+   "id": "Stocky short-necked heron with black crown and back, pale grey wings, white face and underparts. Two long white nape plumes; large red eye, stout dark bill, yellowish legs.",
+   "pending": false
   },
   "bearee1": {
    "name": "Bearded Reedling",
@@ -955,7 +975,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Long-tailed tawny-cinnamon bird; male has blue-grey head with bold black moustache drooping from eye, black-and-white undertail. Warm rufous-buff body, very long graduated tail. Yellow-orange bill, dark legs."
+   "id": "Long-tailed tawny-cinnamon bird; male has blue-grey head with bold black moustache drooping from eye, black-and-white undertail. Warm rufous-buff body, very long graduated tail. Yellow-orange bill, dark legs.",
+   "pending": false
   },
   "bkbplo": {
    "name": "Black-bellied Plover",
@@ -997,7 +1018,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Plump large plover; breeding adult silvery spangled grey-and-black above, black face, throat and belly bordered by white, white undertail. Black armpits, stout black bill, grey-black legs."
+   "id": "Plump large plover; breeding adult silvery spangled grey-and-black above, black face, throat and belly bordered by white, white undertail. Black armpits, stout black bill, grey-black legs.",
+   "pending": false
   },
   "bkewhe1": {
    "name": "Western Black-eared Wheatear",
@@ -1039,7 +1061,8 @@
    ],
    "recipe": "v4-macaulay-id",
    "reviewed": true,
-   "id": "Slim wheatear; sandy-buff crown and back, pale orange-buff breast, white belly. Black throat (or black mask) and black wings; white rump and tail with black inverted-T pattern. Black bill, black legs."
+   "id": "Slim wheatear; sandy-buff crown and back, pale orange-buff breast, white belly. Black throat (or black mask) and black wings; white rump and tail with black inverted-T pattern. Black bill, black legs.",
+   "pending": false
   },
   "bkewhe2": {
    "name": "Eastern Black-eared Wheatear",
@@ -1124,7 +1147,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small gull; breeding adult with chocolate-brown hood, white neck and underparts, pale grey back. White leading wing-edge, black wingtips. Dark red bill and dark red legs, narrow white eye-crescents."
+   "id": "Small gull; breeding adult with chocolate-brown hood, white neck and underparts, pale grey back. White leading wing-edge, black wingtips. Dark red bill and dark red legs, narrow white eye-crescents.",
+   "pending": false
   },
   "bklkit": {
    "name": "Black-legged Kittiwake",
@@ -1209,7 +1233,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small pale falcon-like raptor; pearly grey above, white head and underparts, with bold black shoulder patches on the upperwing. Large forward-set red eyes, short black-tipped bill, yellow legs; long pointed wings."
+   "id": "Small pale falcon-like raptor; pearly grey above, white head and underparts, with bold black shoulder patches on the upperwing. Large forward-set red eyes, short black-tipped bill, yellow legs; long pointed wings.",
+   "pending": false
   },
   "bkwsti": {
    "name": "Black-winged Stilt",
@@ -1251,7 +1276,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Very long-legged slim wader; pure white body and head, glossy black back and wings. Extremely long bright pink-red legs, fine straight black needle bill, red eye."
+   "id": "Very long-legged slim wader; pure white body and head, glossy black back and wings. Extremely long bright pink-red legs, fine straight black needle bill, red eye.",
+   "pending": false
   },
   "blackc1": {
    "name": "Eurasian Blackcap",
@@ -1293,7 +1319,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Plain grey warbler; male grey-brown above, paler grey below, with a neat glossy black cap to eye level. Greyer face and nape, no wing bars. Fine dark bill, grey legs."
+   "id": "Plain grey warbler; male grey-brown above, paler grey below, with a neat glossy black cap to eye level. Greyer face and nape, no wing bars. Fine dark bill, grey legs.",
+   "pending": false
   },
   "blagro1": {
    "name": "Black Grouse",
@@ -1335,7 +1362,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large grouse; male glossy blue-black with a lyre-shaped curved tail, white undertail coverts forming a puffy white patch, white wing-bar. Bright red wattle over eye, dark bill, feathered dark legs."
+   "id": "Large grouse; male glossy blue-black with a lyre-shaped curved tail, white undertail coverts forming a puffy white patch, white wing-bar. Bright red wattle over eye, dark bill, feathered dark legs.",
+   "pending": false
   },
   "blakit1": {
    "name": "Black Kite",
@@ -1377,7 +1405,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Medium brown raptor; dark rufous-brown overall with paler greyish head and faint pale wing patches. Long wings, distinctly shallow-forked tail. Yellow legs, dark-tipped yellow bill."
+   "id": "Medium brown raptor; dark rufous-brown overall with paler greyish head and faint pale wing patches. Long wings, distinctly shallow-forked tail. Yellow legs, dark-tipped yellow bill.",
+   "pending": false
   },
   "blared1": {
    "name": "Black Redstart",
@@ -1419,7 +1448,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small chat; male sooty-black face, throat and breast, dark slate-grey crown and back, blackish belly with whitish wing panel. Rusty-orange rump and tail sides. Fine black bill, black legs."
+   "id": "Small chat; male sooty-black face, throat and breast, dark slate-grey crown and back, blackish belly with whitish wing panel. Rusty-orange rump and tail sides. Fine black bill, black legs.",
+   "pending": false
   },
   "blasto1": {
    "name": "Black Stork",
@@ -1503,7 +1533,8 @@
     }
    ],
    "reviewed": true,
-   "id": "All-black wheatear; sooty black plumage overall with contrasting white rump, white undertail coverts, and white tail-base showing a black terminal band. Black bill, black legs."
+   "id": "All-black wheatear; sooty black plumage overall with contrasting white rump, white undertail coverts, and white tail-base showing a black terminal band. Black bill, black legs.",
+   "pending": false
   },
   "blawoo1": {
    "name": "Black Woodpecker",
@@ -1545,7 +1576,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large crow-sized woodpecker; entirely black with a glaring pale yellow eye and a bright red crown (full red crown on male). Long neck, chisel pale ivory bill, grey legs."
+   "id": "Large crow-sized woodpecker; entirely black with a glaring pale yellow eye and a bright red crown (full red crown on male). Long neck, chisel pale ivory bill, grey legs.",
+   "pending": false
   },
   "blbsan1": {
    "name": "Black-bellied Sandgrouse",
@@ -1587,7 +1619,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Bulky sandgrouse; male sandy-buff above with fine dark spotting, grey head and throat with chestnut throat patch, narrow black breast-band above a black belly. Short greyish bill, feathered legs."
+   "id": "Bulky sandgrouse; male sandy-buff above with fine dark spotting, grey head and throat with chestnut throat patch, narrow black breast-band above a black belly. Short greyish bill, feathered legs.",
+   "pending": false
   },
   "blhbun1": {
    "name": "Black-headed Bunting",
@@ -1671,7 +1704,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Striking gamebird; male glossy black with bold white cheek patches, a broad chestnut neck-collar, and white-spotted black flanks. Brown-barred wings and back, reddish bill, orange-red legs."
+   "id": "Striking gamebird; male glossy black with bold white cheek patches, a broad chestnut neck-collar, and white-spotted black flanks. Brown-barred wings and back, reddish bill, orange-red legs.",
+   "pending": false
   },
   "blkgui": {
    "name": "Black Guillemot",
@@ -1713,7 +1747,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small black auk; sooty black overall with a large bold white oval wing patch. Bright scarlet-red mouth lining and legs; slender pointed black bill, dark eye."
+   "id": "Small black auk; sooty black overall with a large bold white oval wing patch. Bright scarlet-red mouth lining and legs; slender pointed black bill, dark eye.",
+   "pending": false
   },
   "blksco1": {
    "name": "Common Scoter",
@@ -1755,7 +1790,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Bulky all-black sea duck; male entirely glossy black with a knob at the bill base; bill black with a yellow-orange patch on the upper ridge. Dark legs, pointed tail."
+   "id": "Bulky all-black sea duck; male entirely glossy black with a knob at the bill base; bill black with a yellow-orange patch on the upper ridge. Dark legs, pointed tail.",
+   "pending": false
   },
   "blkswa": {
    "name": "Black Swan",
@@ -1881,7 +1917,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small plain warbler, uniform warm olive-brown above and pale buff-cream below, with a short faint pale supercilium and pale eye-ring giving a gentle expression. Long fine dark bill, dark legs, and a rounded tail; no wing bars or streaking."
+   "id": "Small plain warbler, uniform warm olive-brown above and pale buff-cream below, with a short faint pale supercilium and pale eye-ring giving a gentle expression. Long fine dark bill, dark legs, and a rounded tail; no wing bars or streaking.",
+   "pending": false
   },
   "blueth": {
    "name": "Bluethroat",
@@ -1965,7 +2002,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small compact tit with sky-blue crown, wings and tail, a white face crossed by a black eye-stripe and blue-black nape collar, and bright yellow underparts. Greenish back, short stubby black bill, bluish-grey legs."
+   "id": "Small compact tit with sky-blue crown, wings and tail, a white face crossed by a black eye-stripe and blue-black nape collar, and bright yellow underparts. Greenish back, short stubby black bill, bluish-grey legs.",
+   "pending": false
   },
   "bohwax": {
    "name": "Bohemian Waxwing",
@@ -2007,7 +2045,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Plump pinkish-grey bird with a prominent backswept crest, black mask and bib, and a chestnut undertail. Wings show white and yellow markings with waxy red tips; tail tipped bright yellow, short dark bill, dark legs."
+   "id": "Plump pinkish-grey bird with a prominent backswept crest, black mask and bib, and a chestnut undertail. Wings show white and yellow markings with waxy red tips; tail tipped bright yellow, short dark bill, dark legs.",
+   "pending": false
   },
   "boneag2": {
    "name": "Bonelli's Eagle",
@@ -2049,7 +2088,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large eagle, dark brown above with a pale whitish breast and belly finely streaked dark, and a whitish nape patch. In flight long broad wings and a long grey barred tail with a broad dark terminal band; yellow legs and cere, dark hooked bill."
+   "id": "Large eagle, dark brown above with a pale whitish breast and belly finely streaked dark, and a whitish nape patch. In flight long broad wings and a long grey barred tail with a broad dark terminal band; yellow legs and cere, dark hooked bill.",
+   "pending": false
   },
   "booeag1": {
    "name": "Booted Eagle",
@@ -2091,7 +2131,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small compact eagle (pale morph) with creamy-white underparts and underwing-coverts contrasting dark flight feathers, brown upperparts with a pale wing panel. Square-tipped tail, small head, feathered legs yellow-toed, dark hooked bill."
+   "id": "Small compact eagle (pale morph) with creamy-white underparts and underwing-coverts contrasting dark flight feathers, brown upperparts with a pale wing panel. Square-tipped tail, small head, feathered legs yellow-toed, dark hooked bill.",
+   "pending": false
   },
   "borowl": {
    "name": "Boreal Owl",
@@ -2262,7 +2303,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Pale heart-shaped white facial disc with dark eyes, golden-buff and grey upperparts finely speckled, and pure white underparts. Long white-feathered legs, dark-tipped pale bill, rounded wings; ghostly overall appearance."
+   "id": "Pale heart-shaped white facial disc with dark eyes, golden-buff and grey upperparts finely speckled, and pure white underparts. Long white-feathered legs, dark-tipped pale bill, rounded wings; ghostly overall appearance.",
+   "pending": false
   },
   "brnrav1": {
    "name": "Brown-necked Raven",
@@ -2346,7 +2388,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small slender parakeet, bright green below with a yellow face and head finely barred black on the nape and back, plus dark throat spots and a blue cheek patch. Long tapering blue-green tail, small grey-blue cere bill, greyish legs."
+   "id": "Small slender parakeet, bright green below with a yellow face and head finely barred black on the nape and back, plus dark throat spots and a blue cheek patch. Long tapering blue-green tail, small grey-blue cere bill, greyish legs.",
+   "pending": false
   },
   "bulpet": {
    "name": "Bulwer's Petrel",
@@ -2430,7 +2473,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Slim thrush-sized chat, uniformly deep slate-blue overall with fine pale spangling, slightly darker wings and tail. Long thin blackish bill, dark legs; rounded head and upright posture."
+   "id": "Slim thrush-sized chat, uniformly deep slate-blue overall with fine pale spangling, slightly darker wings and tail. Long thin blackish bill, dark legs; rounded head and upright posture.",
+   "pending": false
   },
   "cacgoo1": {
    "name": "Cackling Goose",
@@ -2556,7 +2600,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large goose with a long black neck and head bearing a broad white chin-strap cheek patch, brown back, and pale tan breast. White undertail and U-shaped rump band, black bill and black legs."
+   "id": "Large goose with a long black neck and head bearing a broad white chin-strap cheek patch, brown back, and pale tan breast. White undertail and U-shaped rump band, black bill and black legs.",
+   "pending": false
   },
   "casgul2": {
    "name": "Caspian Gull",
@@ -2598,7 +2643,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large pale grey-backed gull with white head and underparts, long slender pale-yellow bill, and a small dark eye giving a gentle look. Long legs pale pink to yellowish, black wingtips with white spots, sloping forehead and long neck."
+   "id": "Large pale grey-backed gull with white head and underparts, long slender pale-yellow bill, and a small dark eye giving a gentle look. Long legs pale pink to yellowish, black wingtips with white spots, sloping forehead and long neck.",
+   "pending": false
   },
   "caster1": {
    "name": "Caspian Tern",
@@ -2640,7 +2686,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Very large tern with a massive blood-red dagger bill, black cap, pale grey back and wings, and white underparts. Dusky underside to the primaries, slightly forked tail, short black legs."
+   "id": "Very large tern with a massive blood-red dagger bill, black cap, pale grey back and wings, and white underparts. Dusky underside to the primaries, slightly forked tail, short black legs.",
+   "pending": false
   },
   "categr1": {
    "name": "Western Cattle-Egret",
@@ -2724,7 +2771,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small rich rufous-brown warbler, warm chestnut-brown above and greyish-white below with greyer face and a short whitish supercilium. Broad rounded cocked tail, short rounded wings, fine dark bill, pinkish legs."
+   "id": "Small rich rufous-brown warbler, warm chestnut-brown above and greyish-white below with greyer face and a short whitish supercilium. Broad rounded cocked tail, short rounded wings, fine dark bill, pinkish legs.",
+   "pending": false
   },
   "chifla1": {
    "name": "Chilean Flamingo",
@@ -2766,7 +2814,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Tall pinkish flamingo, pale rose-white body with brighter pink wing-coverts, and grey legs with contrasting bright red knees and feet. Strongly downbent bill pale with a black tip, long sinuous neck."
+   "id": "Tall pinkish flamingo, pale rose-white body with brighter pink wing-coverts, and grey legs with contrasting bright red knees and feet. Strongly downbent bill pale with a black tip, long sinuous neck.",
+   "pending": false
   },
   "chiwig1": {
    "name": "Chiloe Wigeon",
@@ -2808,7 +2857,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Striking duck with a glossy green-black head, white forecrown and cheeks, rich chestnut flanks, and a black-and-white scaled back. White wing patch, dark vermiculated breast, short blue-grey bill, grey legs."
+   "id": "Striking duck with a glossy green-black head, white forecrown and cheeks, rich chestnut flanks, and a black-and-white scaled back. White wing patch, dark vermiculated breast, short blue-grey bill, grey legs.",
+   "pending": false
   },
   "cinvul1": {
    "name": "Cinereous Vulture",
@@ -2934,7 +2984,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Slender wagtail with a bright lemon-yellow head and underparts, a black hindneck band, and a blue-grey back. Two bold white wing bars on dark wings, long black tail with white outer feathers, thin black bill, dark legs."
+   "id": "Slender wagtail with a bright lemon-yellow head and underparts, a black hindneck band, and a blue-grey back. Two bold white wing bars on dark wings, long black tail with white outer feathers, thin black bill, dark legs.",
+   "pending": false
   },
   "coatit2": {
    "name": "Coal Tit",
@@ -3019,7 +3070,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Slim grey parrot with a tall pointed crest, white wing patches, and a long tapering grey tail. Face yellow with a round orange cheek patch; small grey hooked bill, grey legs."
+   "id": "Slim grey parrot with a tall pointed crest, white wing patches, and a long tapering grey tail. Face yellow with a round orange cheek patch; small grey hooked bill, grey legs.",
+   "pending": false
   },
   "combul2": {
    "name": "Common Bulbul",
@@ -3103,7 +3155,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Medium raptor, variable brown above and below with a pale band across the lower breast and barred underparts. In flight broad rounded wings with dark wrist patches and dark trailing edge, barred tail, yellow cere and legs, hooked bill."
+   "id": "Medium raptor, variable brown above and below with a pale band across the lower breast and barred underparts. In flight broad rounded wings with dark wrist patches and dark trailing edge, barred tail, yellow cere and legs, hooked bill.",
+   "pending": false
   },
   "comcan": {
    "name": "Island Canary",
@@ -3230,7 +3283,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Tall elegant grey crane with a black face and foreneck, a white stripe down the side of the neck, and a small red crown patch. Drooping bushy black-and-grey tail plumes, long dark legs, straight greyish bill."
+   "id": "Tall elegant grey crane with a black face and foreneck, a white stripe down the side of the neck, and a small red crown patch. Drooping bushy black-and-grey tail plumes, long dark legs, straight greyish bill.",
+   "pending": false
   },
   "comhom1": {
    "name": "Western House-Martin",
@@ -3356,7 +3410,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large diver, blackish-green head and neck with a white necklace of vertical stripes, a checkerboard black-and-white back, and white underparts. Heavy straight dagger-shaped black bill, red eye, low in water."
+   "id": "Large diver, blackish-green head and neck with a white necklace of vertical stripes, a checkerboard black-and-white back, and white underparts. Heavy straight dagger-shaped black bill, red eye, low in water.",
+   "pending": false
   },
   "commyn": {
    "name": "Common Myna",
@@ -3398,7 +3453,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Stocky brown bird with glossy black head and throat, bare yellow skin patch behind the eye, yellow bill and legs, white wing patches and white tail tip conspicuous in flight, and a dark vinous-brown body."
+   "id": "Stocky brown bird with glossy black head and throat, bare yellow skin patch behind the eye, yellow bill and legs, white wing patches and white tail tip conspicuous in flight, and a dark vinous-brown body.",
+   "pending": false
   },
   "comnig1": {
    "name": "Common Nightingale",
@@ -3440,7 +3496,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Plain warm rufous-brown bird with a brighter chestnut-red rounded tail, paler buff-grey underparts, faintly large dark eye, fine pale eye-ring, slim dark bill and pinkish legs; robin-like but larger and longer-tailed."
+   "id": "Plain warm rufous-brown bird with a brighter chestnut-red rounded tail, paler buff-grey underparts, faintly large dark eye, fine pale eye-ring, slim dark bill and pinkish legs; robin-like but larger and longer-tailed.",
+   "pending": false
   },
   "compea": {
    "name": "Indian Peafowl",
@@ -3482,7 +3539,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large iridescent blue-necked peacock with a fan-shaped crest of wire-tufts, glossy green-and-bronze train studded with blue-green eyespots, scaly bronze-green wing feathers, white face patches and grey legs."
+   "id": "Large iridescent blue-necked peacock with a fan-shaped crest of wire-tufts, glossy green-and-bronze train studded with blue-green eyespots, scaly bronze-green wing feathers, white face patches and grey legs.",
+   "pending": false
   },
   "compoc": {
    "name": "Common Pochard",
@@ -3524,7 +3582,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Medium diving duck with rich chestnut-red head, black breast and rear, pale grey vermiculated body, a black bill crossed by a pale blue-grey band, and a red eye; sloping forehead profile."
+   "id": "Medium diving duck with rich chestnut-red head, black breast and rear, pale grey vermiculated body, a black bill crossed by a pale blue-grey band, and a red eye; sloping forehead profile.",
+   "pending": false
   },
   "comrav": {
    "name": "Common Raven",
@@ -3566,7 +3625,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Very large all-glossy-black corvid with purple-blue sheen, a massive heavy black bill, shaggy throat hackles, long wedge-shaped tail and broad fingered wings; stout black legs."
+   "id": "Very large all-glossy-black corvid with purple-blue sheen, a massive heavy black bill, shaggy throat hackles, long wedge-shaped tail and broad fingered wings; stout black legs.",
+   "pending": false
   },
   "comros": {
    "name": "Common Rosefinch",
@@ -3650,7 +3710,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large goose-like duck, mostly white with a dark glossy-green head, a broad chestnut breast-band, black scapular and belly stripes, a bright red bill with a knob, and pink legs."
+   "id": "Large goose-like duck, mostly white with a dark glossy-green head, a broad chestnut breast-band, black scapular and belly stripes, a bright red bill with a knob, and pink legs.",
+   "pending": false
   },
   "comter": {
    "name": "Common Tern",
@@ -3692,7 +3753,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Slender pale-grey tern with a black cap, pale grey underparts, an orange-red bill tipped black, short red legs, long pointed wings and deeply forked white tail with long streamers."
+   "id": "Slender pale-grey tern with a black cap, pale grey underparts, an orange-red bill tipped black, short red legs, long pointed wings and deeply forked white tail with long streamers.",
+   "pending": false
   },
   "comwax": {
    "name": "Common Waxbill",
@@ -3776,7 +3838,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large plump dull bunting, streaky grey-brown above and on buff underparts, with dense dark streaking on the breast forming a central spot, a plain face, a pale stout conical bill and pinkish legs."
+   "id": "Large plump dull bunting, streaky grey-brown above and on buff underparts, with dense dark streaking on the breast forming a central spot, a plain face, a pale stout conical bill and pinkish legs.",
+   "pending": false
   },
   "corcra": {
    "name": "Corn Crake",
@@ -3818,7 +3881,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Buff-brown rail with grey face and breast, bold chestnut barring on the flanks, blackish streaking on the back, a short stout pale bill, pinkish legs, and bright rufous wing patches in flight."
+   "id": "Buff-brown rail with grey face and breast, bold chestnut barring on the flanks, blackish streaking on the back, a short stout pale bill, pinkish legs, and bright rufous wing patches in flight.",
+   "pending": false
   },
   "corfin1": {
    "name": "Corsican Finch",
@@ -3903,7 +3967,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small plump plover, sandy-brown above and white below, with a complete black breast-band, black mask and forehead, a white forehead and collar, an orange bill with black tip and orange-yellow legs."
+   "id": "Small plump plover, sandy-brown above and white below, with a complete black breast-band, black mask and forehead, a white forehead and collar, an orange bill with black tip and orange-yellow legs.",
+   "pending": false
   },
   "corshe1": {
    "name": "Cory's Shearwater",
@@ -3987,7 +4052,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large grey pigeon with a pinkish breast, a bold white patch on each side of the neck, a broad white wing-bar across the grey wing, an iridescent green-purple neck sheen, and a yellow-tipped pinkish bill."
+   "id": "Large grey pigeon with a pinkish breast, a bold white patch on each side of the neck, a broad white wing-bar across the grey wing, an iridescent green-purple neck sheen, and a yellow-tipped pinkish bill.",
+   "pending": false
   },
   "crelar1": {
    "name": "Crested Lark",
@@ -4029,7 +4095,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Sandy buff-brown lark, streaked above and on the breast, with a long spiky upstanding crest, a longish slightly down-curved pale bill, pale buff underwing in flight, and a short tail with buff outer feathers."
+   "id": "Sandy buff-brown lark, streaked above and on the breast, with a long spiky upstanding crest, a longish slightly down-curved pale bill, pale buff underwing in flight, and a short tail with buff outer feathers.",
+   "pending": false
   },
   "cretit2": {
    "name": "Crested Tit",
@@ -4071,7 +4138,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small grey-brown tit with a tall pointed black-and-white speckled crest, whitish face outlined by black, a black bib and a curved black collar-mark, pale buff underparts and a short dark bill."
+   "id": "Small grey-brown tit with a tall pointed black-and-white speckled crest, whitish face outlined by black, a black bib and a curved black collar-mark, pale buff underparts and a short dark bill.",
+   "pending": false
   },
   "crwfin2": {
    "name": "Crimson-winged Finch",
@@ -4113,7 +4181,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Stocky pale sandy-brown finch with a grey head, pinkish-red wash on the face and wings, bold crimson-pink wing patches and tail edges, and a pale yellowish conical bill."
+   "id": "Stocky pale sandy-brown finch with a grey head, pinkish-red wash on the face and wings, bold crimson-pink wing patches and tail edges, and a pale yellowish conical bill.",
+   "pending": false
   },
   "cypwhe1": {
    "name": "Cyprus Wheatear",
@@ -4155,7 +4224,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small wheatear with black face, throat and wings contrasting with a white crown, nape and underparts, a black inverted-T tail pattern on white, and black legs; crisp black-and-white pied appearance."
+   "id": "Small wheatear with black face, throat and wings contrasting with a white crown, nape and underparts, a black inverted-T tail pattern on white, and black legs; crisp black-and-white pied appearance.",
+   "pending": false
   },
   "dalpel1": {
    "name": "Dalmatian Pelican",
@@ -4239,7 +4309,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small dark long-tailed warbler, slate-grey above, with a dark wine-red breast and throat speckled white, a red eye and red eye-ring, a cocked dark white-tipped tail, and a thin dark bill."
+   "id": "Small dark long-tailed warbler, slate-grey above, with a dark wine-red breast and throat speckled white, a red eye and red eye-ring, a cocked dark white-tipped tail, and a thin dark bill.",
+   "pending": false
   },
   "desfin2": {
    "name": "Desert Finch",
@@ -4281,7 +4352,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Pale sandy-grey finch with a black-and-white wing pattern showing pink at the base of the flight feathers, a black bill, a black mask around the eye and a black chin, and a buff-grey body."
+   "id": "Pale sandy-grey finch with a black-and-white wing pattern showing pink at the base of the flight feathers, a black bill, a black mask around the eye and a black chin, and a buff-grey body.",
+   "pending": false
   },
   "desspa1": {
    "name": "Dead Sea Sparrow",
@@ -4323,7 +4395,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small sparrow with a grey head, a chestnut crown-side band and broad white supercilium, a black bib, yellow spots at the throat sides, chestnut back streaked black, and whitish underparts."
+   "id": "Small sparrow with a grey head, a chestnut crown-side band and broad white supercilium, a black bib, yellow spots at the throat sides, chestnut back streaked black, and whitish underparts.",
+   "pending": false
   },
   "deswhe1": {
    "name": "Desert Wheatear",
@@ -4365,7 +4438,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Pale sandy-buff wheatear with a black face and throat that join black wings, sandy crown and back, pale buff underparts, and an all-black tail (no white inverted-T) above a small white rump."
+   "id": "Pale sandy-buff wheatear with a black face and throat that join black wings, sandy crown and back, pale buff underparts, and an all-black tail (no white inverted-T) above a small white rump.",
+   "pending": false
   },
   "diadov1": {
    "name": "Diamond Dove",
@@ -4407,7 +4481,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Tiny pale blue-grey dove, brownish on the back and wings spangled with small white spots, a grey head and breast, a deep red eye-ring, a dark slender bill and a long tail; very small and delicate."
+   "id": "Tiny pale blue-grey dove, brownish on the back and wings spangled with small white spots, a grey head and breast, a deep red eye-ring, a dark slender bill and a long tail; very small and delicate.",
+   "pending": false
   },
   "dunnoc1": {
    "name": "Dunnock",
@@ -4449,7 +4524,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small streaky brown bird with a blue-grey head and breast, brown black-streaked back, brownish flanks streaked dark, a thin pointed dark bill and pinkish-brown legs; sparrow-sized but slim-billed."
+   "id": "Small streaky brown bird with a blue-grey head and breast, brown black-streaked back, brownish flanks streaked dark, a thin pointed dark bill and pinkish-brown legs; sparrow-sized but slim-billed.",
+   "pending": false
   },
   "duplar1": {
    "name": "Dupont's Lark",
@@ -4491,7 +4567,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Slim long-bodied lark, sandy grey-brown streaked above and on the breast, with a pale supercilium and eye-ring, a long thin slightly down-curved bill, a peaked crown and pale buff legs."
+   "id": "Slim long-bodied lark, sandy grey-brown streaked above and on the breast, with a pale supercilium and eye-ring, a long thin slightly down-curved bill, a peaked crown and pale buff legs.",
+   "pending": false
   },
   "eaowar1": {
    "name": "Eastern Olivaceous Warbler",
@@ -4575,7 +4652,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small grebe with a black head and neck, a fan of golden-yellow ear plumes spreading behind a red eye, a peaked crown, dark back, chestnut flanks and a thin slightly upturned dark bill."
+   "id": "Small grebe with a black head and neck, a fan of golden-yellow ear plumes spreading behind a red eye, a peaked crown, dark back, chestnut flanks and a thin slightly upturned dark bill.",
+   "pending": false
   },
   "easwar1": {
    "name": "Eastern Subalpine Warbler",
@@ -4617,7 +4695,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small Sylvia warbler with a blue-grey head and back, a brick-orange throat and breast, a white moustachial stripe separating throat from face, white belly, a red eye-ring and white outer tail."
+   "id": "Small Sylvia warbler with a blue-grey head and back, a brick-orange throat and breast, a white moustachial stripe separating throat from face, white belly, a red eye-ring and white outer tail.",
+   "pending": false
   },
   "eaywag1": {
    "name": "Western Yellow Wagtail",
@@ -4701,7 +4780,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Large pale buff-brown goose-like duck with a dark chocolate patch around each eye and on the breast, a chestnut-brown back, pink bill and legs, and bold white wing patches with green visible in flight."
+   "id": "Large pale buff-brown goose-like duck with a dark chocolate patch around each eye and on the breast, a chestnut-brown back, pink bill and legs, and bold white wing patches with green visible in flight.",
+   "pending": false
   },
   "egyvul1": {
    "name": "Egyptian Vulture",
@@ -4743,7 +4823,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Smallish vulture, mostly creamy-white with black flight feathers, a bare yellow-orange face, a shaggy white ruff and spiky nape, a thin yellow hooked bill and a wedge-shaped white tail."
+   "id": "Smallish vulture, mostly creamy-white with black flight feathers, a bare yellow-orange face, a shaggy white ruff and spiky nape, a thin yellow hooked bill and a wedge-shaped white tail.",
+   "pending": false
   },
   "elefal1": {
    "name": "Eleonora's Falcon",
@@ -4785,7 +4866,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Slim long-winged falcon with long tail; dark slate-grey above, rusty-buff underparts with dark streaking, dark moustachial stripe on pale throat. Yellow cere and feet, dark wingtips; dark-morph birds are uniformly sooty."
+   "id": "Slim long-winged falcon with long tail; dark slate-grey above, rusty-buff underparts with dark streaking, dark moustachial stripe on pale throat. Yellow cere and feet, dark wingtips; dark-morph birds are uniformly sooty.",
+   "pending": false
   },
   "ettwoo1": {
    "name": "Eurasian Three-toed Woodpecker",
@@ -4911,7 +4993,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Pale sandy grey-buff dove with a thin black half-collar edged white on the hindneck, paler head, blackish primaries, broad white-tipped tail underside, dark bill and deep-pink legs."
+   "id": "Pale sandy grey-buff dove with a thin black half-collar edged white on the hindneck, paler head, blackish primaries, broad white-tipped tail underside, dark bill and deep-pink legs.",
+   "pending": false
   },
   "eueowl1": {
    "name": "Eurasian Eagle-Owl",
@@ -5240,7 +5323,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Tiny, small-headed owl, greyish-brown spotted white above, whitish below with brown streaking, faint indistinct facial disc, yellow eyes, white eyebrows, and a relatively long barred tail. Yellowish bill."
+   "id": "Tiny, small-headed owl, greyish-brown spotted white above, whitish below with brown streaking, faint indistinct facial disc, yellow eyes, white eyebrows, and a relatively long barred tail. Yellowish bill.",
+   "pending": false
   },
   "eurbla": {
    "name": "Eurasian Blackbird",
@@ -5282,7 +5366,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Medium thrush; male entirely glossy black with a bright orange-yellow bill and yellow eye-ring; female dark brown with faintly mottled paler throat and breast, duller bill. Dark legs."
+   "id": "Medium thrush; male entirely glossy black with a bright orange-yellow bill and yellow eye-ring; female dark brown with faintly mottled paler throat and breast, duller bill. Dark legs.",
+   "pending": false
   },
   "eurbul": {
    "name": "Eurasian Bullfinch",
@@ -5324,7 +5409,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Plump finch with black cap, short thick black bill, grey back, black wings with a white wingbar, white rump and black tail; male has rosy-red cheeks and underparts, female greyish-buff below."
+   "id": "Plump finch with black cap, short thick black bill, grey back, black wings with a white wingbar, white rump and black tail; male has rosy-red cheeks and underparts, female greyish-buff below.",
+   "pending": false
   },
   "eurcoo": {
    "name": "Eurasian Coot",
@@ -5366,7 +5452,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Sooty slate-black waterbird with a glossy black head, white frontal shield and white bill, red eye, and greenish legs with broadly lobed grey toes. Rounded plump body."
+   "id": "Sooty slate-black waterbird with a glossy black head, white frontal shield and white bill, red eye, and greenish legs with broadly lobed grey toes. Rounded plump body.",
+   "pending": false
   },
   "eurcrm1": {
    "name": "Eurasian Crag-Martin",
@@ -5408,7 +5495,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Stocky brown martin, dusky grey-brown above, paler grey-brown below with a darker throat, slightly forked tail showing small white spots near the tip. Dark underwing coverts, small dark bill."
+   "id": "Stocky brown martin, dusky grey-brown above, paler grey-brown below with a darker throat, slightly forked tail showing small white spots near the tip. Dark underwing coverts, small dark bill.",
+   "pending": false
   },
   "eurcur": {
    "name": "Eurasian Curlew",
@@ -5493,7 +5581,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Plover with grey-brown upperparts, a broad white supercilium meeting in a V on the nape, grey breast bordered below by a narrow white line, chestnut belly and black lower belly patch. Short dark bill, yellowish legs."
+   "id": "Plover with grey-brown upperparts, a broad white supercilium meeting in a V on the nape, grey breast bordered below by a narrow white line, chestnut belly and black lower belly patch. Short dark bill, yellowish legs.",
+   "pending": false
   },
   "eurgol1": {
    "name": "European Goldfinch",
@@ -5661,7 +5750,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Slim, scythe-winged falcon, slate-grey above, whitish underparts heavily streaked black, with a dark hood and bold black moustache on white cheeks, and rufous-red thighs and vent. Yellow cere and feet."
+   "id": "Slim, scythe-winged falcon, slate-grey above, whitish underparts heavily streaked black, with a dark hood and bold black moustache on white cheeks, and rufous-red thighs and vent. Yellow cere and feet.",
+   "pending": false
   },
   "eurkes": {
    "name": "Eurasian Kestrel",
@@ -5745,7 +5835,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small slim finch, chestnut-brown back, grey head, with a crimson forehead and rosy-red breast on breeding males, white-edged wing and tail feathers, and a small grey conical bill."
+   "id": "Small slim finch, chestnut-brown back, grey head, with a crimson forehead and rosy-red breast on breeding males, white-edged wing and tail feathers, and a small grey conical bill.",
+   "pending": false
   },
   "eurmag1": {
    "name": "Eurasian Magpie",
@@ -5829,7 +5920,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Compact tit-like bird, blue-grey above, with a black eyestripe, white cheeks and throat, and warm buff-orange underparts becoming chestnut on the flanks. Strong straight dark bill, short tail."
+   "id": "Compact tit-like bird, blue-grey above, with a black eyestripe, white cheeks and throat, and warm buff-orange underparts becoming chestnut on the flanks. Strong straight dark bill, short tail.",
+   "pending": false
   },
   "eurnut3": {
    "name": "Northern Nutcracker",
@@ -5913,7 +6005,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Bold black-and-white wader, black head, breast and upperparts, white belly, broad white wingbar and rump, long straight orange-red bill, red eye, and stout pinkish legs."
+   "id": "Bold black-and-white wader, black head, breast and upperparts, white belly, broad white wingbar and rump, long straight orange-red bill, red eye, and stout pinkish legs.",
+   "pending": false
   },
   "eurrob1": {
    "name": "European Robin",
@@ -6123,7 +6216,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Small streaked yellow-green finch with a black crown and chin (male), bright yellow face, breast and wingbars, dark-streaked flanks, yellow rump, and a fine pointed bill. Forked tail."
+   "id": "Small streaked yellow-green finch with a black crown and chin (male), bright yellow face, breast and wingbars, dark-streaked flanks, yellow rump, and a fine pointed bill. Forked tail.",
+   "pending": false
   },
   "eurspo1": {
    "name": "Eurasian Spoonbill",
@@ -6282,7 +6376,8 @@
     }
    ],
    "reviewed": true,
-   "id": "Plain warbler, warm brown above and buff-white below, with an unmarked face except a faint pale supercilium, a sloping forehead, longish pointed bill, and pinkish legs."
+   "id": "Plain warbler, warm brown above and buff-white below, with an unmarked face except a faint pale supercilium, a sloping forehead, longish pointed bill, and pinkish legs.",
+   "pending": false
   },
   "eurwar2": {
    "name": "River Warbler",
@@ -6892,7 +6987,8 @@
      "bird": 0.978
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "gbhgul2": {
    "name": "Pallas's Gull",
@@ -6995,7 +7091,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/gloibi/photo.jpg"
+   "photo": "review_imgs/gloibi/photo.jpg",
+   "pending": false
   },
   "gnwtea": {
    "name": "Green-winged Teal",
@@ -7177,7 +7274,8 @@
      "bird": 0.401
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "grapri1": {
    "name": "Graceful Prinia",
@@ -7429,7 +7527,8 @@
      "bird": 0.859
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "gresca": {
    "name": "Greater Scaup",
@@ -7611,7 +7710,8 @@
      "bird": 0.539
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "grewar3": {
    "name": "Greenish Warbler",
@@ -7837,7 +7937,8 @@
      "bird": 0.618
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "balshe1": {
    "name": "Balearic Shearwater",
@@ -9731,7 +9832,8 @@
      "bird": 0.496
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "grypar": {
    "name": "Gray Partridge",
@@ -10097,7 +10199,8 @@
      "bird": 0.243
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "hazgro1": {
    "name": "Hazel Grouse",
@@ -10174,7 +10277,8 @@
      "bird": 0.444
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "hoomer": {
    "name": "Hooded Merganser",
@@ -11028,7 +11132,8 @@
      "bird": 0.2
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "legshr2": {
    "name": "Lesser Gray Shrike",
@@ -11918,7 +12023,8 @@
     }
    ],
    "id": "Small compact grey-brown goose with a large white forehead blaze extending above the eye, bold black belly blotches, pink bill, and orange legs; bright yellow eye-ring is diagnostic, and folded wingtips extend past the short tail.",
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "mallar3": {
    "name": "Mallard",
@@ -11995,7 +12101,8 @@
     }
    ],
    "id": "Ornate drake with orange flared 'sail' feathers on the back, purple breast with white stripes, golden-buff flanks, a green-and-white crested head with broad white eye-stripe, red bill, and orange legs.",
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "manshe": {
    "name": "Manx Shearwater",
@@ -13374,7 +13481,8 @@
     }
    ],
    "id": "Bunting with an olive-grey head and breast, a pale yellow throat and eye-ring (spectacle), rusty-buff belly, streaked brown back, a pinkish bill, and pinkish legs; subtle but distinctive head pattern.",
-   "photo": "review_imgs/ortbun1/photo.jpg"
+   "photo": "review_imgs/ortbun1/photo.jpg",
+   "pending": false
   },
   "ortdov": {
    "name": "Oriental Turtle-Dove",
@@ -13408,7 +13516,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/ortdov/photo.jpg"
+   "photo": "review_imgs/ortdov/photo.jpg",
+   "pending": false
   },
   "osprey": {
    "name": "Osprey",
@@ -14768,7 +14877,8 @@
     }
    ],
    "id": "Slaty-black waterbird like a coot, with a white bill and frontal shield topped by two distinctive dark red knobs above the shield. Red eye, greenish lobed legs, rounded sooty body.",
-   "photo": "review_imgs/rekcoo1/photo.jpg"
+   "photo": "review_imgs/rekcoo1/photo.jpg",
+   "pending": false
   },
   "relpar1": {
    "name": "Red-legged Partridge",
@@ -15006,7 +15116,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/ricpip1/photo.jpg"
+   "photo": "review_imgs/ricpip1/photo.jpg",
+   "pending": false
   },
   "rinduc": {
    "name": "Ring-necked Duck",
@@ -15075,7 +15186,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/rinouz1/photo.jpg"
+   "photo": "review_imgs/rinouz1/photo.jpg",
+   "pending": false
   },
   "rinphe1": {
    "name": "Ring-necked Pheasant",
@@ -15177,7 +15289,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/rocbun1/photo.jpg"
+   "photo": "review_imgs/rocbun1/photo.jpg",
+   "pending": false
   },
   "rocnut1": {
    "name": "Western Rock Nuthatch",
@@ -15244,7 +15357,8 @@
      "bird": 0.496
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "rocpig": {
    "name": "Rock Pigeon",
@@ -15277,7 +15391,8 @@
      "bird": 0.745
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "rocpip1": {
    "name": "Rock Pipit",
@@ -15389,7 +15504,8 @@
      "bird": 0.288
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "rook1": {
    "name": "Rook",
@@ -15569,7 +15685,8 @@
      "bird": 0.446
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "rtrthr1": {
    "name": "Rufous-tailed Rock-Thrush",
@@ -15819,7 +15936,8 @@
     }
    ],
    "id": "Bunting with rufous-chestnut breast band, flanks streaking and nape; black-and-white head with white supercilium and small crest. Whitish underparts, streaked brown back, pinkish bill, pale legs.",
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "rutscr1": {
    "name": "Rufous-tailed Scrub-Robin",
@@ -15931,7 +16049,8 @@
     }
    ],
    "id": "Large white ibis with bare black head and neck and long down-curved black bill; black plumes (drooping tertials) over rear. Black legs, black wingtips visible in flight.",
-   "photo": "review_imgs/sacibi2/photo.jpg"
+   "photo": "review_imgs/sacibi2/photo.jpg",
+   "pending": false
   },
   "sander": {
    "name": "Sanderling",
@@ -15965,7 +16084,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/sander/photo.jpg"
+   "photo": "review_imgs/sander/photo.jpg",
+   "pending": false
   },
   "santer1": {
    "name": "Sandwich Tern",
@@ -16078,7 +16198,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/savwar1/photo.jpg"
+   "photo": "review_imgs/savwar1/photo.jpg",
+   "pending": false
   },
   "scoshe1": {
    "name": "Scopoli's Shearwater",
@@ -16112,7 +16233,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/scoshe1/photo.jpg"
+   "photo": "review_imgs/scoshe1/photo.jpg",
+   "pending": false
   },
   "sedwar1": {
    "name": "Sedge Warbler",
@@ -16504,7 +16626,8 @@
      "bird": 0.919
     }
    ],
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "snogoo": {
    "name": "Snow Goose",
@@ -16784,7 +16907,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/spaspa1/photo.jpg"
+   "photo": "review_imgs/spaspa1/photo.jpg",
+   "pending": false
   },
   "spewar2": {
    "name": "Spectacled Warbler",
@@ -17023,7 +17147,8 @@
     }
    ],
    "id": "Bold pied lapwing; black crown, throat and breast, white cheeks and neck-sides, sandy-brown back, white belly. Long black legs, black bill, sharp carpal wing spurs. White wing band.",
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "squher1": {
    "name": "Squacco Heron",
@@ -17206,7 +17331,8 @@
     }
    ],
    "id": "Small upright chat; male has black head, orange-red breast, white half-collar and white wing and rump patches. Dark brown streaked back, whitish belly, fine dark bill, black legs.",
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "subwar6": {
    "name": "Western Subalpine Warbler",
@@ -17431,7 +17557,8 @@
     }
    ],
    "id": "Large brown goose; dark brown head and neck, paler brown body, long slim black bill with broad orange band, and bright orange legs. Slender-necked and long-billed.",
-   "photo": "review_imgs/taibeg1/photo.jpg"
+   "photo": "review_imgs/taibeg1/photo.jpg",
+   "pending": false
   },
   "tawowl1": {
    "name": "Tawny Owl",
@@ -17507,7 +17634,8 @@
     }
    ],
    "id": "Slim pale sandy-buff pipit with nearly unstreaked breast, dark eyestripe and pale supercilium, dark median-covert wing bar, and long pale legs; wagtail-like long-tailed shape. Pinkish bill.",
-   "photo": "review_imgs/tawpip1/photo.jpg"
+   "photo": "review_imgs/tawpip1/photo.jpg",
+   "pending": false
   },
   "temsti": {
    "name": "Temminck's Stint",
@@ -17911,7 +18039,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/tunswa/photo.jpg"
+   "photo": "review_imgs/tunswa/photo.jpg",
+   "pending": false
   },
   "twite1": {
    "name": "Twite",
@@ -18449,7 +18578,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/whbwoo1/photo.jpg"
+   "photo": "review_imgs/whbwoo1/photo.jpg",
+   "pending": false
   },
   "whhduc1": {
    "name": "White-headed Duck",
@@ -19482,7 +19612,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/wooshr1/photo.jpg"
+   "photo": "review_imgs/wooshr1/photo.jpg",
+   "pending": false
   },
   "woowar": {
    "name": "Wood Warbler",
@@ -19559,7 +19690,8 @@
     }
    ],
    "id": "Compact chat with a black head and throat, white half-collar on the neck side, orange-rufous breast, and pale unstreaked rump. Dark brown back, blackish wings; black bill and legs; upright stance.",
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "y00478": {
    "name": "Iceland Gull",
@@ -19601,7 +19733,7 @@
     }
    ],
    "id": "Pale 'white-winged' gull with frosty grey back and pure white wingtips lacking black, rounded head, and dark eye. Long wings extending well past the tail; yellow bill with red gonys spot; pink legs.",
-   "pending": true,
+   "pending": false,
    "photo": "review_imgs/y00478/photo.jpg"
   },
   "y00743": {
@@ -19723,7 +19855,8 @@
     }
    ],
    "id": "Large loon with a steeply angled, upturned ivory-yellow bill held slightly raised, blackish head, white-checkered black back, and white underparts. Bold black-and-white neck collar; thick neck.",
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "yebwar3": {
    "name": "Yellow-browed Warbler",
@@ -19808,7 +19941,8 @@
     }
    ],
    "id": "Tiny weaver with a brilliant golden-yellow crown, nape, lower back and underparts contrasting with a black face, throat, breast band and belly. Brownish streaked wings; short conical bill; round-bodied.",
-   "reviewed": true
+   "reviewed": true,
+   "pending": false
   },
   "yelgul1": {
    "name": "Yellow-legged Gull",
