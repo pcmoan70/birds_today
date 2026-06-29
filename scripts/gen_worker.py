@@ -65,12 +65,12 @@ def process(job, pipe, sess, by_code, fams, ids):
     prev = review["species"].get(code, {})
     raw_input = os.path.join(R.RAW, code, "sitting_0.jpg")
     can_reuse = (kind != "coverage" and not job.get("refetch")
-                 and os.path.exists(raw_input) and prev.get("ref"))
+                 and os.path.exists(raw_input) and prev)
     if can_reuse:
-        ref_input, ref_rel, refsrc = raw_input, prev.get("ref"), prev.get("ref_source")
+        ref_input, refsrc = raw_input, prev.get("ref_source")
         print(f"    ref[reuse {refsrc}]: existing local reference")
     else:
-        ref_input, ref_rel, refsrc = R.setup_reference(code, sp, sess)
+        ref_input, refsrc = R.setup_reference(code, sp, sess)
         if not ref_input:
             return False
 
@@ -88,7 +88,7 @@ def process(job, pipe, sess, by_code, fams, ids):
     review["species"][code] = {
         "name": sp["common"], "sci": sp["sci"], "family": fam[1],
         "reason": job.get("reason", ""), "before": before_rel,
-        "ref": ref_rel, "ref_source": refsrc, "recipe": R.RECIPE,
+        "ref": res.get("ref"), "ref_source": refsrc, "recipe": R.RECIPE,
         "id": ids.get(code, ""),
         "chosen": None, "variants": res["variants"], "reviewed": False}
     json.dump(review, open(R.REVIEW_MAN, "w", encoding="utf-8"),

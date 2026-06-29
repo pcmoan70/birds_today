@@ -53,9 +53,8 @@ body {
   width: 100%; height: 130px; object-fit: contain; display: block;
   background: #fff; border-radius: 6px;
 }
-/* Current (live) is an AI cutout — scale to fit (like the variants), don't crop.
-   Only the photo reference is cropped-to-fill. */
-.tile.ref img { object-fit: cover; }
+/* All tiles scale to fit (contain): the Current (live) cutout and the reference
+   tile (which now shows the exact, already-square model input) must not crop. */
 .tile .lab { font-size: 11px; color: var(--muted); margin-top: 5px; }
 .tile .scores { font-size: 10px; color: #8a857a; }
 .tile.chosen { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(58,106,74,0.2); }

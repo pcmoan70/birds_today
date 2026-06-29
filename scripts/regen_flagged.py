@@ -276,14 +276,6 @@ VARIANTS = [(1000, 0.60), (1001, 0.68), (1002, 0.74)]
 MAX_EDGE = 448   # display is <=230px (~460px retina); 448 is ample and ~20% smaller
 
 
-def save_ref_thumb(src, dst, max_edge=384):
-    """Save a small JPEG thumbnail of a reference photo for the review page (the
-    tile shows it ~150px, so a full-size download is wasted bytes)."""
-    im = Image.open(src).convert("RGB")
-    im.thumbnail((max_edge, max_edge), Image.LANCZOS)
-    im.save(dst, "JPEG", quality=80, optimize=True)
-
-
 def prune_review_imgs(review):
     """Keep review_imgs/ only for species currently shown on the review page
     (in the manifest and not yet reviewed); delete the rest so the published
@@ -321,6 +313,13 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
     seed_off shifts the seeds so each round yields genuinely different variants."""
     prompt = improved_prompt(sp["common"], sp["sci"], code, pose, fams, ids)
     init = prep_init(ref_path, sess)
+    # Publish the exact model input as the review reference, so the tile shows
+    # precisely what grounded the generation (bird isolated, centred, cropped
+    # square) rather than the raw photo.
+    vdir = os.path.join(REVIEW_IMGS, code); os.makedirs(vdir, exist_ok=True)
+    rt = init.copy(); rt.thumbnail((384, 384), Image.LANCZOS)
+    rt.save(os.path.join(vdir, "ref.jpg"), "JPEG", quality=82, optimize=True)
+    ref_rel = f"review_imgs/{code}/ref.jpg"
     variants = []
     for base_seed, strength in (seeds or VARIANTS):
         seed = base_seed + seed_off
@@ -373,7 +372,7 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
                        "reference": os.path.basename(ref_path), "strength": best[2],
                        "seed": best[1], "recipe": RECIPE}, jf,
                       ensure_ascii=False, indent=2)
-    return {"png": png, "chosen": None, "variants": vmeta}
+    return {"png": png, "chosen": None, "variants": vmeta, "ref": ref_rel}
 
 
 def _is_done(code):
@@ -397,15 +396,12 @@ def snapshot_before(code, vdir):
 
 
 def setup_reference(code, sp, sess):
-    """Pick/install the img2img reference and publish its review thumbnail.
-
-    Uses a manually-pinned ref if present, else auto-selects the best whole-bird
-    photo across sources. Quarantines any previous reference and installs the new
-    one as the local img2img input. Macaulay (whoBIRD) photos are all-rights-
-    reserved so we never host them — we hotlink a thumbnail from Cornell's CDN;
-    other (CC) sources are saved as a local thumbnail. Returns
-    (ref_input_path, ref_rel, refsrc), or (None, None, None) if none usable."""
-    vdir = os.path.join(REVIEW_IMGS, code); os.makedirs(vdir, exist_ok=True)
+    """Pick/install the img2img reference. Uses a manually-pinned ref if present,
+    else auto-selects the best whole-bird photo across sources. Quarantines any
+    previous reference and installs the new one as the local img2img input. The
+    review tile is published later by gen_best (the exact prep_init model input).
+    Returns (ref_input_path, refsrc), or (None, None) if none usable."""
+    d = os.path.join(RAW, code); os.makedirs(d, exist_ok=True)
     pinned = os.path.join(PINNED, code + ".jpg")
     if os.path.exists(pinned):
         newref, refsrc = pinned, "pinned"
@@ -413,8 +409,7 @@ def setup_reference(code, sp, sess):
     else:
         newref, refsrc = best_ref(sp, code, sess)
     if not newref:
-        print(f"  {code}: no usable reference found, skip"); return None, None, None
-    d = os.path.join(RAW, code); os.makedirs(d, exist_ok=True)
+        print(f"  {code}: no usable reference found, skip"); return None, None
     for f in sorted(os.listdir(d)):
         if f.startswith("sitting_0.") and not f.endswith(".json"):
             os.makedirs(os.path.join(BADREFS, code), exist_ok=True)
@@ -424,15 +419,7 @@ def setup_reference(code, sp, sess):
                 shutil.move(j, os.path.join(BADREFS, code, f + ".json"))
     ref_input = os.path.join(d, "sitting_0.jpg")
     shutil.copy(newref, ref_input)   # local img2img input (gitignored)
-    ref_jpg = os.path.join(vdir, "ref.jpg")
-    if refsrc == "whobird":
-        if os.path.exists(ref_jpg):
-            os.remove(ref_jpg)   # drop any stale published ref
-        ref_rel = whobird.asset_url(sp["sci"], sp["common"], 320)
-    else:
-        save_ref_thumb(newref, ref_jpg)
-        ref_rel = f"review_imgs/{code}/ref.jpg"
-    return ref_input, ref_rel, refsrc
+    return ref_input, refsrc
 
 
 def main():
@@ -504,7 +491,7 @@ def main():
         print(f"\n[{i}/{len(flagged)}] {code}  {sp['common']}  ({r['reason']})")
         vdir = os.path.join(REVIEW_IMGS, code); os.makedirs(vdir, exist_ok=True)
         before_rel = snapshot_before(code, vdir)
-        ref_input, ref_rel, refsrc = setup_reference(code, sp, sess)
+        ref_input, refsrc = setup_reference(code, sp, sess)
         if not ref_input:
             continue
         res = gen_best(pipe, sess, code, sp, "sitting", ref_input, fams, ids,
@@ -516,7 +503,7 @@ def main():
         review["species"][code] = {
             "name": sp["common"], "sci": sp["sci"], "family": fam[1],
             "reason": r.get("reason", ""), "before": before_rel,
-            "ref": ref_rel, "ref_source": refsrc, "recipe": RECIPE,
+            "ref": res.get("ref"), "ref_source": refsrc, "recipe": RECIPE,
             "id": ids.get(code, ""),
             "chosen": res["chosen"], "variants": res["variants"]}
         json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"),
