@@ -15647,9 +15647,10 @@
    "name": "Ruddy Shelduck",
    "sci": "Tadorna ferruginea",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "note-regen3",
    "before": "review_imgs/rudshe/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/135694691/320",
+   "ref": "review_imgs/rudshe/ref.jpg",
+   "photo": "review_imgs/rudshe/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Large orange-chestnut shelduck with paler buff-orange head; black bill and legs. In flight shows bold white wing coverts and green speculum. Slim black neck collar in breeding male.",
@@ -15658,68 +15659,88 @@
     {
      "id": "v0",
      "img": "review_imgs/rudshe/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.942,
-     "pose": 0.374,
-     "bird": 0.944
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.792,
+     "pose": 0.553,
+     "bird": 0.778
     },
     {
      "id": "v1",
      "img": "review_imgs/rudshe/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.927,
-     "pose": 0.276,
-     "bird": 0.956
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.831,
+     "pose": 0.253,
+     "bird": 0.792
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rudshe/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.829,
+     "pose": 0.358,
+     "bird": 0.689
     }
    ],
+   "gen": 1782773914,
    "reviewed": false,
-   "photo": "review_imgs/rudshe/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "rudtur": {
    "name": "Ruddy Turnstone",
    "sci": "Arenaria interpres",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "note-regen3",
    "before": "review_imgs/rudtur/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45254791/320",
+   "ref": "review_imgs/rudtur/ref.jpg",
+   "photo": "review_imgs/rudtur/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Stocky short-legged wader with harlequin pattern: rich chestnut-and-black back, black-and-white head and breast, white belly. Short slightly upturned black bill, bright orange legs.",
+   "id": "Stocky short-legged wader with harlequin pattern: rich chestnut-and-black back, black-and-white head and breast, white belly. Short slightly upturned black bill, bright orange legs. Emphasise: bold, correctly placed harlequin black-and-white facial markings.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rudtur/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.908,
-     "pose": 0.245,
-     "bird": 0.959
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.836,
+     "pose": 0.3,
+     "bird": 0.946
     },
     {
      "id": "v1",
      "img": "review_imgs/rudtur/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.914,
-     "pose": 0.17,
-     "bird": 0.81
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.822,
+     "pose": 0.289,
+     "bird": 0.968
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rudtur/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.776,
+     "pose": 0.084,
+     "bird": 0.969
     }
    ],
+   "gen": 1782774047,
    "reviewed": false,
-   "photo": "review_imgs/rudtur/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "ruewar1": {
    "name": "Rüppell's Warbler",
    "sci": "Curruca ruppeli",
    "family": "Sylviid Warblers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/ruewar1/before.png",
    "ref": "review_imgs/ruewar1/ref.jpg",
+   "photo": "review_imgs/ruewar1/photo.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
    "id": "Slim grey Sylvia-type warbler; male has black hood and throat bordered by bold white moustachial stripe. Grey upperparts, whitish underparts, red eye-ring, reddish eye, blackish legs.",
@@ -15728,60 +15749,70 @@
     {
      "id": "v0",
      "img": "review_imgs/ruewar1/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.869,
-     "pose": 0.251,
-     "bird": 0.726
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.896,
+     "pose": 0.174,
+     "bird": 0.836
     },
     {
      "id": "v1",
      "img": "review_imgs/ruewar1/v1.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.852,
-     "pose": 0.188,
-     "bird": 0.538
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.891,
+     "pose": 0.137,
+     "bird": 0.866
     }
    ],
+   "gen": 1782774143,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/ruewar1/photo.jpg"
+   "pending": false
   },
   "ruff": {
    "name": "Ruff",
    "sci": "Calidris pugnax",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "note-regen3",
    "before": "review_imgs/ruff/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/98650201/320",
+   "ref": "review_imgs/ruff/ref.jpg",
+   "photo": "review_imgs/ruff/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Medium wader with small head, longish neck and slightly drooped bill; scaly buff-and-brown upperparts. Breeding male has huge ruff and head tufts (variable colour). Orange to greenish legs.",
+   "id": "Medium wader with small head, longish neck and slightly drooped bill; scaly buff-and-brown upperparts. Breeding male has huge ruff and head tufts (variable colour). Orange to greenish legs. Emphasise: breeding males extremely variable, with ornate ruffs in many colours.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ruff/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.877,
-     "pose": 0.153,
-     "bird": 0.906
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.769,
+     "pose": 0.47,
+     "bird": 0.956
     },
     {
      "id": "v1",
      "img": "review_imgs/ruff/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.881,
-     "pose": 0.108,
-     "bird": 0.824
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.796,
+     "pose": 0.106,
+     "bird": 0.974
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ruff/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.763,
+     "pose": 0.161,
+     "bird": 0.961
     }
    ],
+   "gen": 1782774276,
    "reviewed": false,
-   "photo": "review_imgs/ruff/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "rusbun": {
    "name": "Rustic Bunting",
@@ -15865,9 +15896,10 @@
    "name": "Sabine's Gull",
    "sci": "Xema sabini",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/sabgul/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/237435121/320",
+   "ref": "review_imgs/sabgul/ref.jpg",
+   "photo": "review_imgs/sabgul/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small graceful gull with striking tricoloured upperwing: grey, black and white triangles. Breeding adult has dark slate-grey hood edged black, forked white tail, yellow-tipped black bill.",
@@ -15876,25 +15908,25 @@
     {
      "id": "v0",
      "img": "review_imgs/sabgul/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.878,
-     "pose": 0.206,
-     "bird": 0.781
+     "sim": 0.826,
+     "pose": 0.136,
+     "bird": 0.891
     },
     {
      "id": "v1",
      "img": "review_imgs/sabgul/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.875,
-     "pose": 0.257,
-     "bird": 0.612
+     "sim": 0.796,
+     "pose": 0.014,
+     "bird": 0.456
     }
    ],
+   "gen": 1782774363,
    "reviewed": false,
-   "photo": "review_imgs/sabgul/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "sacibi2": {
    "name": "African Sacred Ibis",
@@ -19991,11 +20023,6 @@
   "masshr1",
   "mewgul",
   "norgos1",
-  "rudshe",
-  "rudtur",
-  "ruewar1",
-  "ruff",
-  "sabgul",
   "santer1",
   "sedwar1",
   "semfly1",
