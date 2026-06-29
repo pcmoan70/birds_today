@@ -9127,53 +9127,37 @@
    "name": "Eastern Bonelli's Warbler",
    "sci": "Phylloscopus orientalis",
    "family": "Leaf Warblers",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/eabwar1/before.png",
    "ref": "review_imgs/eabwar1/ref.jpg",
+   "photo": "review_imgs/eabwar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small pale leaf-warbler, greenish-grey above with a yellowish-green rump and wing-panel, plain whitish underparts, a plain face with a faint pale eye-ring, a pale lower mandible and dark legs.",
+   "id": "Small pale leaf-warbler, greenish-grey above with a yellowish-green rump and wing-panel, plain whitish underparts, a plain face with a faint pale eye-ring, a pale lower mandible and dark legs. Emphasise: an improved, correct slim warbler shape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eabwar1/v0.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.766,
-     "pose": 0.126,
-     "bird": 0.868
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/eabwar1/v1.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.793,
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.758,
      "pose": 0.095,
-     "bird": 0.708
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eabwar1/v2.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.768,
-     "pose": 0.089,
-     "bird": 0.526
+     "bird": 0.156
     }
    ],
+   "gen": 1782766563,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/eabwar1/photo.jpg"
+   "pending": false
   },
   "eaowar2": {
    "name": "Eastern Orphean Warbler",
    "sci": "Curruca crassirostris",
    "family": "Sylviid Warblers and Allies",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/eaowar2/before.png",
    "ref": "review_imgs/eaowar2/ref.jpg",
+   "photo": "review_imgs/eaowar2/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Largish robust Sylvia warbler, grey above with a dark grey-black hood, whitish underparts with a peach wash on the flanks, a pale staring yellow eye, a strong bill and white outer tail feathers. Plumage cold grey with no brown tones.",
@@ -9182,42 +9166,34 @@
     {
      "id": "v0",
      "img": "review_imgs/eaowar2/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.753,
-     "pose": 0.431,
-     "bird": 0.689
+     "seed": 3025,
+     "strength": 0.62,
+     "sim": 0.72,
+     "pose": 0.215,
+     "bird": 0.391
     },
     {
      "id": "v1",
      "img": "review_imgs/eaowar2/v1.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.742,
-     "pose": 0.189,
-     "bird": 0.77
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eaowar2/v2.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.765,
-     "pose": 0.412,
-     "bird": 0.473
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.741,
+     "pose": 0.15,
+     "bird": 0.4
     }
    ],
+   "gen": 1782766651,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/eaowar2/photo.jpg"
+   "pending": false
   },
   "euptit1": {
    "name": "Eurasian Penduline-Tit",
    "sci": "Remiz pendulinus",
    "family": "Penduline-Tits",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/euptit1/before.png",
    "ref": "review_imgs/euptit1/ref.jpg",
+   "photo": "review_imgs/euptit1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny tit with a black mask through the eye, pale grey head, chestnut back, whitish underparts with rusty wash, and a fine sharply pointed grey bill.",
@@ -9226,113 +9202,97 @@
     {
      "id": "v0",
      "img": "review_imgs/euptit1/v0.png",
-     "seed": 3011,
+     "seed": 3021,
      "strength": 0.7,
-     "sim": 0.787,
-     "pose": 0.44,
-     "bird": 0.895
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/euptit1/v1.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.867,
-     "pose": 0.234,
-     "bird": 0.796
+     "sim": 0.766,
+     "pose": 0.155,
+     "bird": 0.794
     }
    ],
+   "gen": 1782766746,
    "reviewed": false,
-   "photo": "review_imgs/euptit1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "eurjac": {
    "name": "Eurasian Jackdaw",
    "sci": "Coloeus monedula",
    "family": "Crows, Jays, and Magpies",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/eurjac/before.png",
    "ref": "review_imgs/eurjac/ref.jpg",
+   "photo": "review_imgs/eurjac/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small compact crow, sooty black with a pale silvery-grey nape and ear-coverts, and a striking pale whitish-grey eye. Short black bill and black legs. Overall darker and sootier with subtle, low contrast.",
+   "id": "Small compact crow, sooty black with a pale silvery-grey nape and ear-coverts, and a striking pale whitish-grey eye. Short black bill and black legs. Overall darker and sootier with subtle, low contrast. Emphasise: darker overall with low contrast and only a subtle grey nape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurjac/v0.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.871,
-     "pose": 0.173,
-     "bird": 0.676
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.814,
+     "pose": 0.181,
+     "bird": 0.558
     },
     {
      "id": "v1",
      "img": "review_imgs/eurjac/v1.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.894,
-     "pose": 0.247,
-     "bird": 0.472
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/eurjac/v2.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.869,
-     "pose": 0.177,
-     "bird": 0.478
+     "seed": 3025,
+     "strength": 0.62,
+     "sim": 0.806,
+     "pose": 0.19,
+     "bird": 0.458
     }
    ],
+   "gen": 1782766834,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/eurjac/photo.jpg"
+   "pending": false
   },
   "eurjay1": {
    "name": "Eurasian Jay",
    "sci": "Garrulus glandarius",
    "family": "Crows, Jays, and Magpies",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/eurjay1/before.png",
    "ref": "review_imgs/eurjay1/ref.jpg",
+   "photo": "review_imgs/eurjay1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Pinkish-brown crow with a streaked black-and-white crown, black moustache, white rump, black tail, and a brilliant blue-and-black barred patch on the wing. Black bill, white throat. Crown finely streaked black-and-white, head colouring accurate.",
+   "id": "Pinkish-brown crow with a streaked black-and-white crown, black moustache, white rump, black tail, and a brilliant blue-and-black barred patch on the wing. Black bill, white throat. Crown finely streaked black-and-white, head colouring accurate. Emphasise: correct head colouring, a pinkish-buff crown with fine black streaks.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurjay1/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.154,
-     "bird": 0.767
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.86,
+     "pose": 0.128,
+     "bird": 0.745
     },
     {
      "id": "v1",
      "img": "review_imgs/eurjay1/v1.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.899,
-     "pose": 0.135,
-     "bird": 0.747
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.836,
+     "pose": 0.08,
+     "bird": 0.816
     },
     {
      "id": "v2",
      "img": "review_imgs/eurjay1/v2.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.856,
-     "pose": 0.034,
-     "bird": 0.695
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.841,
+     "pose": 0.124,
+     "bird": 0.674
     }
    ],
+   "gen": 1782766966,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/eurjay1/photo.jpg"
+   "pending": false
   },
   "eurnig1": {
    "name": "Eurasian Nightjar",
@@ -19997,11 +19957,6 @@
  },
  "queued": [
   "commer",
-  "eabwar1",
-  "eaowar2",
-  "euptit1",
-  "eurjac",
-  "eurjay1",
   "eurnig1",
   "eursco1",
   "eurspa1",
