@@ -15333,45 +15333,37 @@
    "name": "Rock Ptarmigan",
    "sci": "Lagopus muta",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "none-good",
+   "reason": "note-keep+2",
    "before": "review_imgs/rocpta1/before.png",
    "ref": "review_imgs/rocpta1/ref.jpg",
+   "photo": "review_imgs/rocpta1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Plump grouse; breeding adult mottled grey-brown above with white belly and white wings. Male shows a black line from bill through the eye and a small red comb above the eye; feathered white legs, small dark bill. Patterning irregular and broken for camouflage, not regular or uniform.",
+   "id": "Plump grouse; breeding adult mottled grey-brown above with white belly and white wings. Male shows a black line from bill through the eye and a small red comb above the eye; feathered white legs, small dark bill. Patterning irregular and broken for camouflage, not regular or uniform. Emphasise: irregular, mottled cryptic camouflage rather than a regular pattern.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rocpta1/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.795,
-     "pose": 0.135,
-     "bird": 0.386
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.892,
+     "pose": 0.357,
+     "bird": 0.586
     },
     {
      "id": "v1",
      "img": "review_imgs/rocpta1/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.79,
-     "pose": 0.297,
-     "bird": 0.142
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rocpta1/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.771,
-     "pose": 0.194,
-     "bird": 0.179
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.894,
+     "pose": 0.306,
+     "bird": 0.523
     }
    ],
+   "gen": 1782773402,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/rocpta1/photo.jpg"
+   "pending": false
   },
   "rolhaw": {
    "name": "Rough-legged Hawk",
@@ -15411,45 +15403,37 @@
    "name": "Rook",
    "sci": "Corvus frugilegus",
    "family": "Crows, Jays, and Magpies",
-   "reason": "none-good",
+   "reason": "note-keep+2",
    "before": "review_imgs/rook1/before.png",
    "ref": "review_imgs/rook1/ref.jpg",
+   "photo": "review_imgs/rook1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Large all-black crow with glossy purplish sheen; diagnostic bare greyish-white skin at base of long, pointed grey bill. Shaggy 'baggy-trousered' thigh feathers, peaked crown, blackish legs. Slimmer-headed than Carrion Crow.",
+   "id": "Large all-black crow with glossy purplish sheen; diagnostic bare greyish-white skin at base of long, pointed grey bill. Shaggy 'baggy-trousered' thigh feathers, peaked crown, blackish legs. Slimmer-headed than Carrion Crow. Emphasise: bare greyish-white skin on the face around the base of the bill.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rook1/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.847,
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.906,
      "pose": 0.257,
-     "bird": 0.591
+     "bird": 0.785
     },
     {
      "id": "v1",
      "img": "review_imgs/rook1/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.868,
-     "pose": 0.387,
-     "bird": 0.329
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/rook1/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.86,
-     "pose": 0.185,
-     "bird": 0.546
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.899,
+     "pose": 0.187,
+     "bird": 0.554
     }
    ],
+   "gen": 1782773497,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/rook1/photo.jpg"
+   "pending": false
   },
   "rorpar": {
    "name": "Rose-ringed Parakeet",
@@ -15488,71 +15472,73 @@
    "name": "Ross's Goose",
    "sci": "Anser rossii",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/rosgoo/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/83984151/320",
+   "ref": "review_imgs/rosgoo/ref.jpg",
+   "photo": "review_imgs/rosgoo/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small stocky white goose with black wingtips; short stubby pink-based bill with bluish 'grin patch' at base. Rounded head, pink legs and feet. Like a miniature Snow Goose.",
+   "id": "Small stocky white goose with black wingtips; short stubby pink-based bill with bluish 'grin patch' at base. Rounded head, pink legs and feet. Like a miniature Snow Goose. Emphasise: a small stubby bill, pink with a bluish base.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rosgoo/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.917,
-     "pose": 0.215,
-     "bird": 0.98
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.888,
+     "pose": 0.269,
+     "bird": 0.981
     },
     {
      "id": "v1",
      "img": "review_imgs/rosgoo/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.893,
-     "pose": 0.181,
-     "bird": 0.967
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.884,
+     "pose": 0.215,
+     "bird": 0.985
     }
    ],
+   "gen": 1782773585,
    "reviewed": false,
-   "photo": "review_imgs/rosgoo/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "rosgul": {
    "name": "Ross's Gull",
    "sci": "Rhodostethia rosea",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/rosgul/before.png",
    "ref": "review_imgs/rosgul/ref.jpg",
+   "photo": "review_imgs/rosgul/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small delicate gull, dove-like, pale grey above with white wedge-shaped tail; pinkish flush on white underparts. Breeding adult has thin black neck ring; small black bill, red legs, dark eye.",
+   "id": "Small delicate gull, dove-like, pale grey above with white wedge-shaped tail; pinkish flush on white underparts. Breeding adult has thin black neck ring; small black bill, red legs, dark eye. Emphasise: a stronger rosy-pink flush on the underparts.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rosgul/v0.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.828,
-     "pose": 0.315,
-     "bird": 0.871
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.895,
+     "pose": 0.181,
+     "bird": 0.839
     },
     {
      "id": "v1",
      "img": "review_imgs/rosgul/v1.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.822,
-     "pose": 0.292,
-     "bird": 0.824
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.877,
+     "pose": 0.164,
+     "bird": 0.417
     }
    ],
+   "gen": 1782773680,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/rosgul/photo.jpg"
+   "pending": false
   },
   "rossta2": {
    "name": "Rosy Starling",
@@ -15592,36 +15578,37 @@
    "name": "Rufous-tailed Rock-Thrush",
    "sci": "Monticola saxatilis",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "pick-keep-regen2",
+   "reason": "note-keep+2",
    "before": "review_imgs/rtrthr1/before.png",
    "ref": "review_imgs/rtrthr1/ref.jpg",
+   "photo": "review_imgs/rtrthr1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Robin-sized thrush; male has blue-grey head and back, white patch on lower back, and bright orange-rufous breast, belly and tail. Dark wings, thin dark bill, brownish legs.",
+   "id": "Robin-sized thrush; male has blue-grey head and back, white patch on lower back, and bright orange-rufous breast, belly and tail. Dark wings, thin dark bill, brownish legs. Emphasise: no dark neck-ring or collar.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rtrthr1/v0.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.829,
-     "pose": 0.276,
-     "bird": 0.578
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.911,
+     "pose": 0.237,
+     "bird": 0.042
     },
     {
      "id": "v1",
      "img": "review_imgs/rtrthr1/v1.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.801,
-     "pose": 0.193,
-     "bird": 0.074
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.893,
+     "pose": 0.16,
+     "bird": 0.075
     }
    ],
+   "gen": 1782773776,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/rtrthr1/photo.jpg"
+   "pending": false
   },
   "rudduc": {
    "name": "Ruddy Duck",
@@ -20004,11 +19991,6 @@
   "masshr1",
   "mewgul",
   "norgos1",
-  "rocpta1",
-  "rook1",
-  "rosgoo",
-  "rosgul",
-  "rtrthr1",
   "rudshe",
   "rudtur",
   "ruewar1",
