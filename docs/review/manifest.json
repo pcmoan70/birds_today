@@ -9991,9 +9991,10 @@
    "name": "Harlequin Duck",
    "sci": "Histrionicus histrionicus",
    "family": "Ducks, Geese, and Swans",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/harduc/before.png",
    "ref": "review_imgs/harduc/ref.jpg",
+   "photo": "review_imgs/harduc/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Striking small duck, slate-blue body with bold white crescents and spots edged black, chestnut flanks; white face patch, white crown stripe; small dark bill, grey legs.",
@@ -10002,34 +10003,25 @@
     {
      "id": "v0",
      "img": "review_imgs/harduc/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.781,
-     "pose": 0.264,
-     "bird": 0.733
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.854,
+     "pose": 0.107,
+     "bird": 0.715
     },
     {
      "id": "v1",
      "img": "review_imgs/harduc/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.847,
-     "pose": 0.219,
-     "bird": 0.643
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/harduc/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.686,
-     "pose": 0.046,
-     "bird": 0.719
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.819,
+     "pose": 0.032,
+     "bird": 0.709
     }
    ],
+   "gen": 1782768484,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/harduc/photo.jpg"
+   "pending": false
   },
   "hawfin": {
    "name": "Hawfinch",
@@ -10069,9 +10061,10 @@
    "name": "Hazel Grouse",
    "sci": "Tetrastes bonasia",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "none-good",
+   "reason": "not good-keep+2",
    "before": "review_imgs/hazgro1/before.png",
    "ref": "review_imgs/hazgro1/ref.jpg",
+   "photo": "review_imgs/hazgro1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small plump grouse with intricately marbled grey-brown plumage barred chestnut, black and white; male has a black throat patch bordered white, short crest, grey tail with broad black subterminal band, and a red eye-comb. Short dark bill, feathered legs.",
@@ -10080,34 +10073,25 @@
     {
      "id": "v0",
      "img": "review_imgs/hazgro1/v0.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.811,
-     "pose": 0.233,
-     "bird": 0.943
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.852,
+     "pose": 0.292,
+     "bird": 0.814
     },
     {
      "id": "v1",
      "img": "review_imgs/hazgro1/v1.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.85,
-     "pose": 0.154,
-     "bird": 0.935
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/hazgro1/v2.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.813,
-     "pose": 0.219,
-     "bird": 0.79
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.868,
+     "pose": 0.177,
+     "bird": 0.891
     }
    ],
+   "gen": 1782768579,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/hazgro1/photo.jpg"
+   "pending": false
   },
   "hoocro1": {
    "name": "Hooded Crow",
@@ -10477,9 +10461,10 @@
    "name": "Icterine Warbler",
    "sci": "Hippolais icterina",
    "family": "Reed Warblers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/ictwar1/before.png",
    "ref": "review_imgs/ictwar1/ref.jpg",
+   "photo": "review_imgs/ictwar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Medium warbler with plain greyish-green upperparts and lemon-yellow underparts, a pale yellow supercilium, and a pale wing-panel on the closed wing. Peaked crown, long stout pinkish-based bill, blue-grey legs. Long primary projection, sleek build.",
@@ -10488,25 +10473,25 @@
     {
      "id": "v0",
      "img": "review_imgs/ictwar1/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.838,
-     "pose": 0.043,
-     "bird": 0.862
+     "seed": 3016,
+     "strength": 0.7,
+     "sim": 0.879,
+     "pose": 0.048,
+     "bird": 0.772
     },
     {
      "id": "v1",
      "img": "review_imgs/ictwar1/v1.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.851,
-     "pose": 0.211,
-     "bird": 0.544
+     "seed": 3015,
+     "strength": 0.62,
+     "sim": 0.923,
+     "pose": 0.086,
+     "bird": 0.516
     }
    ],
+   "gen": 1782768762,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/ictwar1/photo.jpg"
+   "pending": false
   },
   "impeag1": {
    "name": "Imperial Eagle",
@@ -10828,9 +10813,10 @@
    "name": "Lanceolated Warbler",
    "sci": "Locustella lanceolata",
    "family": "Grassbirds and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/lanwar/before.png",
    "ref": "review_imgs/lanwar/ref.jpg",
+   "photo": "review_imgs/lanwar/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small skulking warbler with olive-brown upperparts boldly streaked blackish, including streaked rump and breast, and pale buff underparts with dark malar streaks. Faint pale supercilium, rounded tail. Fine dark bill, pinkish legs. Heavily streaked overall.",
@@ -10839,25 +10825,25 @@
     {
      "id": "v0",
      "img": "review_imgs/lanwar/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.828,
-     "pose": 0.127,
-     "bird": 0.394
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.743,
+     "pose": 0.069,
+     "bird": 0.64
     },
     {
      "id": "v1",
      "img": "review_imgs/lanwar/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.8,
-     "pose": 0.085,
-     "bird": 0.119
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.765,
+     "pose": 0.076,
+     "bird": 0.21
     }
    ],
+   "gen": 1782769040,
    "reviewed": false,
-   "photo": "review_imgs/lanwar/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "laplon": {
    "name": "Lapland Longspur",
@@ -11160,9 +11146,10 @@
    "name": "Lesser Yellowlegs",
    "sci": "Tringa flavipes",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/lesyel/before.png",
    "ref": "review_imgs/lesyel/ref.jpg",
+   "photo": "review_imgs/lesyel/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim elegant wader with greyish-brown back finely spotted white, streaked neck and breast, white belly, and a square white rump. Long bright yellow legs, a straight thin dark bill about head-length. Slender neck, fine proportions.",
@@ -11171,25 +11158,25 @@
     {
      "id": "v0",
      "img": "review_imgs/lesyel/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.893,
-     "pose": 0.257,
-     "bird": 0.619
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.811,
+     "pose": 0.359,
+     "bird": 0.861
     },
     {
      "id": "v1",
      "img": "review_imgs/lesyel/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.865,
-     "pose": 0.273,
-     "bird": 0.588
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.848,
+     "pose": 0.197,
+     "bird": 0.581
     }
    ],
+   "gen": 1782769127,
    "reviewed": false,
-   "photo": "review_imgs/lesyel/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "levspa1": {
    "name": "Levant Sparrowhawk",
@@ -19953,20 +19940,12 @@
   "grebus1",
   "greshe",
   "gyfwoo1",
-  "harduc",
-  "hazgro1",
-  "hoomer",
   "hoopoe",
   "horgre",
   "ibechi2",
-  "ictwar1",
   "jacsni",
-  "kineid",
-  "krunut1",
   "lammer1",
-  "lanwar",
   "leskes1",
-  "lesyel",
   "levspa1",
   "levwoo1",
   "litbit1",
