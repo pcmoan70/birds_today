@@ -56,12 +56,21 @@
 
   // Codes currently visible: current-recipe, not reviewed/pending, and (unless
   // "Show resolved" is on) not resolved. A deep-linked species always shows.
+  // Species with a job in the generation queue (awaiting re-gen) are hidden
+  // until the worker produces their new candidates.
+  function queuedSet() {
+    var data = window.__review || {};
+    return (data.queued || []).reduce(function (acc, c) { acc[c] = 1; return acc; }, {});
+  }
+
   function visibleCodes() {
     var data = window.__review || { species: {} };
+    var q = queuedSet();
     return Object.keys(data.species || {}).filter(function (c) {
       var s = data.species[c];
       if (c === hashCode) return true;
       if (!((s.recipe || "").indexOf("v4") === 0 && !s.reviewed && !s.pending)) return false;
+      if (q[c]) return false;                       // awaiting (re)generation
       if (resolved(c) && !showResolved) return false;
       return true;
     });
@@ -69,9 +78,11 @@
 
   function resolvedCount() {
     var data = window.__review || { species: {} };
+    var q = queuedSet();
     return Object.keys(data.species || {}).filter(function (c) {
       var s = data.species[c];
       if (!((s.recipe || "").indexOf("v4") === 0 && !s.reviewed && !s.pending)) return false;
+      if (q[c]) return false;
       return resolved(c);
     }).length;
   }
@@ -182,13 +193,15 @@
 
       var tiles = document.createElement("div");
       tiles.className = "tiles";
-      if (s.before) tiles.appendChild(tile("before", s.before, "Current (live)", ""));
 
-      // ---- reference tile with a "flag bad photo" toggle --------------
-      if (s.ref) {
+      // ---- reference photo (raw source, cropped to the model-input square),
+      // carrying the "flag bad photo" toggle. Legacy entries that predate the
+      // separate photo tile fall back to the model input here.
+      var photoSrc = s.photo || s.ref;
+      if (photoSrc) {
         var refSub = (s.ref_source === "whobird") ? "© Macaulay Library" : "";
-        var rt = tile("ref" + (m(code).badRef ? " badref" : ""), s.ref,
-                      "Reference (model input)", refSub);
+        var rt = tile("photo" + (m(code).badRef ? " badref" : ""), photoSrc,
+                      s.photo ? "Reference photo" : "Reference (model input)", refSub);
         var fb = document.createElement("button");
         fb.className = "reff" + (m(code).badRef ? " on" : "");
         fb.textContent = m(code).badRef ? "⚑ bad photo" : "⚐ flag photo";
@@ -203,6 +216,10 @@
         rt.appendChild(fb);
         tiles.appendChild(rt);
       }
+      // ---- model input (the isolated image actually fed to img2img) -------
+      if (s.photo && s.ref) tiles.appendChild(tile("input", s.ref, "Model input", ""));
+      // ---- current live image --------------------------------------------
+      if (s.before) tiles.appendChild(tile("before", s.before, "Current (live)", ""));
 
       var sep = document.createElement("div"); sep.className = "sep"; tiles.appendChild(sep);
       (s.variants || []).forEach(function (v) {

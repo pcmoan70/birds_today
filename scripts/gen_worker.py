@@ -88,13 +88,17 @@ def process(job, pipe, sess, by_code, fams, ids):
     review["species"][code] = {
         "name": sp["common"], "sci": sp["sci"], "family": fam[1],
         "reason": job.get("reason", ""), "before": before_rel,
-        "ref": res.get("ref"), "ref_source": refsrc, "recipe": R.RECIPE,
+        "ref": res.get("ref"), "photo": res.get("photo"),
+        "ref_source": refsrc, "recipe": R.RECIPE,
         "id": ids.get(code, ""),
         "chosen": None, "variants": res["variants"],
         # gen = generation stamp: when this advances, the review page knows the
         # entry is a fresh round and clears any stale picks/toggles for it.
         "gen": int(time.time()),
         "reviewed": False, "pending": False}
+    # Refresh the published queue so the review page keeps hiding the species
+    # still awaiting (re)gen (this just-finished code is no longer among them).
+    review["queued"] = Q.job_codes(Q.load())
     json.dump(review, open(R.REVIEW_MAN, "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     return True

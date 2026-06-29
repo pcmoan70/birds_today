@@ -151,6 +151,8 @@ def main():
             continue
         # note-only / nothing actionable: recorded; current image kept on page.
 
+    # Publish the queued codes so the review page hides anything awaiting (re)gen.
+    review["queued"] = Q.job_codes(jobs)
     json.dump(review, open(REVIEW_MAN, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(retry, open(RETRY, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(applied, open(APPLIED, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

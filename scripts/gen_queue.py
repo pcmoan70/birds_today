@@ -53,6 +53,12 @@ def enqueue(jobs, code, kind, pose="sitting", n_new=2, seed_off=0,
     return jobs
 
 
+def job_codes(jobs):
+    """Sorted unique species codes that currently have a queued job — published
+    to the review manifest so the review page hides anything awaiting (re)gen."""
+    return sorted({j["code"] for j in jobs})
+
+
 def pop(jobs):
     """Return (highest-priority job, remaining jobs). (None, jobs) if empty."""
     if not jobs:

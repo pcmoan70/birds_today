@@ -18756,43 +18756,36 @@
    "name": "Eurasian Wren",
    "sci": "Troglodytes troglodytes",
    "family": "Wrens",
-   "reason": "all",
+   "reason": "pick-keep-regen2",
    "before": "review_imgs/winwre4/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/396581701/320",
+   "ref": "review_imgs/winwre4/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Tiny rotund brown bird with a short cocked tail; warm rufous-brown plumage finely barred darker on wings, flanks and tail, a pale supercilium, and a fine thin bill. Brownish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/winwre4/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.85,
-     "pose": 0.17,
-     "bird": 0.718
+     "seed": 3006,
+     "strength": 0.7,
+     "sim": 0.854,
+     "pose": 0.135,
+     "bird": 0.803
     },
     {
      "id": "v1",
      "img": "review_imgs/winwre4/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.856,
-     "pose": 0.09,
-     "bird": 0.783
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/winwre4/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.864,
-     "pose": 0.06,
-     "bird": 0.293
+     "seed": 3005,
+     "strength": 0.62,
+     "sim": 0.857,
+     "pose": 0.175,
+     "bird": 0.587
     }
    ],
-   "id": "Tiny rotund brown bird with a short cocked tail; warm rufous-brown plumage finely barred darker on wings, flanks and tail, a pale supercilium, and a fine thin bill. Brownish legs.",
-   "pending": true
+   "gen": 1782733939,
+   "reviewed": false,
+   "pending": false
   },
   "wispet": {
    "name": "Wilson's Storm-Petrel",
@@ -18964,7 +18957,7 @@
    "family": "Sandpipers and Allies",
    "reason": "badref",
    "before": "review_imgs/woosan/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/206669001/320",
+   "ref": "review_imgs/woosan/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim, elegant wader with brown upperparts heavily spangled white, a long pale supercilium, streaked breast fading to white belly, and a barred white tail. Straight dark bill; long yellow-green legs.",
@@ -18973,33 +18966,34 @@
     {
      "id": "v0",
      "img": "review_imgs/woosan/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.82,
-     "pose": 0.395,
-     "bird": 0.843
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.777,
+     "pose": 0.365,
+     "bird": 0.905
     },
     {
      "id": "v1",
      "img": "review_imgs/woosan/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.797,
-     "pose": 0.287,
-     "bird": 0.889
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.802,
+     "pose": 0.232,
+     "bird": 0.676
     },
     {
      "id": "v2",
      "img": "review_imgs/woosan/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.789,
-     "pose": 0.341,
-     "bird": 0.791
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.771,
+     "pose": 0.153,
+     "bird": 0.729
     }
    ],
+   "gen": 1782734082,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "wooshr1": {
    "name": "Woodchat Shrike",
@@ -19466,5 +19460,8 @@
    "id": "Tiny warbler with a short rounded tail tipped white-and-black below, buff-brown crown and upperparts boldly streaked black, and plain pale buff underparts. Pale eyebrow; fine pointed bill; pinkish legs.",
    "pending": true
   }
- }
+ },
+ "queued": [
+  "zitcis1"
+ ]
 }
