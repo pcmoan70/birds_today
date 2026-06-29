@@ -14678,7 +14678,7 @@
    "family": "Ducks, Geese, and Swans",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/rinduc/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/215033981/320",
+   "ref": "review_imgs/rinduc/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Diving duck; male glossy black head with a faint purple sheen, black breast and back, pale grey flanks with a white spur near the breast. Grey bill with a white ring near the black tip, peaked crown, yellow eye.",
@@ -14687,24 +14687,24 @@
     {
      "id": "v0",
      "img": "review_imgs/rinduc/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.764,
-     "pose": 0.062,
-     "bird": 0.735
+     "sim": 0.706,
+     "pose": 0.078,
+     "bird": 0.891
     },
     {
      "id": "v1",
      "img": "review_imgs/rinduc/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.752,
-     "pose": 0.068,
-     "bird": 0.71
+     "sim": 0.616,
+     "pose": 0.081,
+     "bird": 0.914
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "rinouz1": {
    "name": "Ring Ouzel",
@@ -14943,7 +14943,7 @@
    "family": "Wagtails and Pipits",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/rocpip1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/88416591/320",
+   "ref": "review_imgs/rocpip1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Robust dark pipit with grey-olive heavily streaked upperparts and dingy grey-buff underparts streaked dark. Faint pale eye-ring, indistinct supercilium, dark bill, and dark greyish legs (not pink).",
@@ -14952,58 +14952,67 @@
     {
      "id": "v0",
      "img": "review_imgs/rocpip1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.897,
-     "pose": 0.221,
-     "bird": 0.523
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.804,
+     "pose": 0.269,
+     "bird": 0.857
     },
     {
      "id": "v1",
      "img": "review_imgs/rocpip1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.898,
-     "pose": 0.137,
-     "bird": 0.237
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.838,
+     "pose": 0.425,
+     "bird": 0.627
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "rocpta1": {
    "name": "Rock Ptarmigan",
    "sci": "Lagopus muta",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/rocpta1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/113345131/320",
+   "ref": "review_imgs/rocpta1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Plump grouse; breeding adult mottled grey-brown above with white belly and white wings. Male shows a black line from bill through the eye and a small red comb above the eye; feathered white legs, small dark bill.",
+   "id": "Plump grouse; breeding adult mottled grey-brown above with white belly and white wings. Male shows a black line from bill through the eye and a small red comb above the eye; feathered white legs, small dark bill. Patterning irregular and broken for camouflage, not regular or uniform.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rocpta1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.901,
-     "pose": 0.173,
-     "bird": 0.74
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.795,
+     "pose": 0.135,
+     "bird": 0.386
     },
     {
      "id": "v1",
      "img": "review_imgs/rocpta1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.89,
-     "pose": 0.148,
-     "bird": 0.442
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.79,
+     "pose": 0.297,
+     "bird": 0.142
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rocpta1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.771,
+     "pose": 0.194,
+     "bird": 0.179
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "rolhaw": {
    "name": "Rough-legged Hawk",
@@ -15042,9 +15051,9 @@
    "name": "Rook",
    "sci": "Corvus frugilegus",
    "family": "Crows, Jays, and Magpies",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/rook1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/21016221/320",
+   "ref": "review_imgs/rook1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Large all-black crow with glossy purplish sheen; diagnostic bare greyish-white skin at base of long, pointed grey bill. Shaggy 'baggy-trousered' thigh feathers, peaked crown, blackish legs. Slimmer-headed than Carrion Crow.",
@@ -15053,24 +15062,33 @@
     {
      "id": "v0",
      "img": "review_imgs/rook1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.9,
-     "pose": 0.091,
-     "bird": 0.763
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.847,
+     "pose": 0.257,
+     "bird": 0.591
     },
     {
      "id": "v1",
      "img": "review_imgs/rook1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.899,
-     "pose": 0.12,
-     "bird": 0.674
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.868,
+     "pose": 0.387,
+     "bird": 0.329
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rook1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.86,
+     "pose": 0.185,
+     "bird": 0.546
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "rorpar": {
    "name": "Rose-ringed Parakeet",
@@ -15144,7 +15162,7 @@
    "family": "Gulls, Terns, and Skimmers",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/rosgul/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/106840791/320",
+   "ref": "review_imgs/rosgul/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small delicate gull, dove-like, pale grey above with white wedge-shaped tail; pinkish flush on white underparts. Breeding adult has thin black neck ring; small black bill, red legs, dark eye.",
@@ -15153,24 +15171,24 @@
     {
      "id": "v0",
      "img": "review_imgs/rosgul/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.901,
-     "pose": 0.163,
-     "bird": 0.833
+     "sim": 0.828,
+     "pose": 0.315,
+     "bird": 0.871
     },
     {
      "id": "v1",
      "img": "review_imgs/rosgul/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.917,
-     "pose": 0.104,
-     "bird": 0.705
+     "sim": 0.822,
+     "pose": 0.292,
+     "bird": 0.824
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "rossta2": {
    "name": "Rosy Starling",
