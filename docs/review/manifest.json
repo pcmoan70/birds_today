@@ -10337,24 +10337,24 @@
     {
      "id": "v0",
      "img": "review_imgs/ibgshr1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.886,
-     "pose": 0.256,
-     "bird": 0.762
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.767,
+     "pose": 0.286,
+     "bird": 0.867
     },
     {
      "id": "v1",
      "img": "review_imgs/ibgshr1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.906,
-     "pose": 0.164,
-     "bird": 0.712
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.773,
+     "pose": 0.297,
+     "bird": 0.584
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "ictwar1": {
    "name": "Icterine Warbler",
@@ -10371,24 +10371,24 @@
     {
      "id": "v0",
      "img": "review_imgs/ictwar1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.899,
-     "pose": 0.134,
-     "bird": 0.59
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.838,
+     "pose": 0.043,
+     "bird": 0.862
     },
     {
      "id": "v1",
      "img": "review_imgs/ictwar1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.903,
-     "pose": 0.088,
-     "bird": 0.137
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.851,
+     "pose": 0.211,
+     "bird": 0.544
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "impeag1": {
    "name": "Imperial Eagle",
@@ -10501,7 +10501,7 @@
    "name": "Jack Snipe",
    "sci": "Lymnocryptes minimus",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/jacsni/before.png",
    "ref": "review_imgs/jacsni/ref.jpg",
    "ref_source": "inaturalist",
@@ -10512,24 +10512,33 @@
     {
      "id": "v0",
      "img": "review_imgs/jacsni/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.891,
-     "pose": 0.362,
-     "bird": 0.522
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.843,
+     "pose": 0.505,
+     "bird": 0.768
     },
     {
      "id": "v1",
      "img": "review_imgs/jacsni/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.903,
-     "pose": 0.273,
-     "bird": 0.468
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.786,
+     "pose": 0.12,
+     "bird": 0.769
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/jacsni/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.806,
+     "pose": 0.206,
+     "bird": 0.555
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "kenplo1": {
    "name": "Kentish Plover",
@@ -10568,7 +10577,7 @@
    "name": "King Eider",
    "sci": "Somateria spectabilis",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/kineid/before.png",
    "ref": "review_imgs/kineid/ref.jpg",
    "ref_source": "whobird",
@@ -10579,24 +10588,33 @@
     {
      "id": "v0",
      "img": "review_imgs/kineid/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.806,
-     "pose": 0.158,
-     "bird": 0.843
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.755,
+     "pose": 0.324,
+     "bird": 0.964
     },
     {
      "id": "v1",
      "img": "review_imgs/kineid/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.75,
-     "pose": 0.135,
-     "bird": 0.921
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.788,
+     "pose": 0.224,
+     "bird": 0.941
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/kineid/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.714,
+     "pose": 0.122,
+     "bird": 0.992
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "krunut1": {
    "name": "Krüper's Nuthatch",
@@ -10613,24 +10631,24 @@
     {
      "id": "v0",
      "img": "review_imgs/krunut1/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.768,
-     "pose": 0.308,
-     "bird": 0.885
+     "sim": 0.821,
+     "pose": 0.136,
+     "bird": 0.469
     },
     {
      "id": "v1",
      "img": "review_imgs/krunut1/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.821,
-     "pose": 0.167,
-     "bird": 0.582
+     "sim": 0.785,
+     "pose": 0.083,
+     "bird": 0.516
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "lammer1": {
    "name": "Bearded Vulture",
