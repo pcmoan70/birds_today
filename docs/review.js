@@ -143,6 +143,11 @@
         var sub = "sim " + v.sim + " · pose " + v.pose;
         var t = tile(v.id === sel ? "var chosen" : "var", v.img, v.id, sub,
           function () {
+            if (choices[code] === v.id) {        // click the picked one again to unselect
+              delete choices[code]; save();
+              t.classList.remove("chosen");
+              return;
+            }
             choices[code] = v.id; save();
             tiles.querySelectorAll(".tile.var").forEach(function (e) {
               e.classList.remove("chosen");
@@ -213,6 +218,15 @@
       grid.appendChild(card);
     });
   }
+
+  var clearBtn = document.getElementById("clearsel");
+  if (clearBtn) clearBtn.onclick = function () {
+    var n = Object.keys(choices).length;
+    if (!n) { alert("No variant selections to clear."); return; }
+    if (!confirm("Clear all " + n + " variant selections? (Flags and notes are kept.)")) return;
+    choices = {}; save();
+    render(window.__review || { species: {} });
+  };
 
   document.getElementById("export").onclick = function () {
     // Per species: plain variant id when nothing extra is flagged, else an

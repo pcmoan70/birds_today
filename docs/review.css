@@ -24,6 +24,11 @@ body {
   background: var(--accent); border: 0; border-radius: 8px; padding: 8px 16px;
 }
 #export:hover { filter: brightness(1.08); }
+.ghost {
+  font: inherit; font-size: 13px; cursor: pointer; color: var(--muted);
+  background: #fff; border: 1px solid #d9d2c0; border-radius: 8px; padding: 7px 12px;
+}
+.ghost:hover { background: #f3efe6; }
 .intro { max-width: 900px; margin: 16px 20px; font-size: 14px; line-height: 1.5; color: #4a473f; }
 
 #grid { display: flex; flex-direction: column; gap: 14px; padding: 0 20px; }
