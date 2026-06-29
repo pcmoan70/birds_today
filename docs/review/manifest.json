@@ -8227,33 +8227,33 @@
     {
      "id": "v0",
      "img": "review_imgs/comeid/v0.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.794,
-     "pose": 0.135,
-     "bird": 0.903
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.829,
+     "pose": 0.161,
+     "bird": 0.944
     },
     {
      "id": "v1",
      "img": "review_imgs/comeid/v1.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.768,
-     "pose": 0.091,
-     "bird": 0.919
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.791,
+     "pose": 0.193,
+     "bird": 0.891
     },
     {
      "id": "v2",
      "img": "review_imgs/comeid/v2.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.79,
-     "pose": 0.088,
-     "bird": 0.841
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.826,
+     "pose": 0.162,
+     "bird": 0.824
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comgol": {
    "name": "Common Goldeneye",
@@ -8270,33 +8270,33 @@
     {
      "id": "v0",
      "img": "review_imgs/comgol/v0.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.837,
-     "pose": 0.194,
-     "bird": 0.897
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.817,
+     "pose": 0.183,
+     "bird": 0.89
     },
     {
      "id": "v1",
      "img": "review_imgs/comgol/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.799,
-     "pose": 0.125,
-     "bird": 0.859
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.812,
+     "pose": 0.138,
+     "bird": 0.945
     },
     {
      "id": "v2",
      "img": "review_imgs/comgol/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.795,
-     "pose": 0.168,
-     "bird": 0.701
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.753,
+     "pose": 0.102,
+     "bird": 0.784
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comgre": {
    "name": "Common Greenshank",
@@ -8313,33 +8313,33 @@
     {
      "id": "v0",
      "img": "review_imgs/comgre/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.861,
-     "pose": 0.41,
-     "bird": 0.574
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.813,
+     "pose": 0.346,
+     "bird": 0.87
     },
     {
      "id": "v1",
      "img": "review_imgs/comgre/v1.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.869,
-     "pose": 0.384,
-     "bird": 0.454
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.821,
+     "pose": 0.333,
+     "bird": 0.643
     },
     {
      "id": "v2",
      "img": "review_imgs/comgre/v2.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.833,
-     "pose": 0.364,
-     "bird": 0.34
+     "sim": 0.838,
+     "pose": 0.247,
+     "bird": 0.571
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "commer": {
    "name": "Common Merganser",
@@ -8356,33 +8356,33 @@
     {
      "id": "v0",
      "img": "review_imgs/commer/v0.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.708,
-     "pose": 0.063,
-     "bird": 0.927
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.745,
+     "pose": 0.081,
+     "bird": 0.818
     },
     {
      "id": "v1",
      "img": "review_imgs/commer/v1.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.764,
-     "pose": 0.14,
-     "bird": 0.679
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.747,
+     "pose": 0.107,
+     "bird": 0.779
     },
     {
      "id": "v2",
      "img": "review_imgs/commer/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.675,
-     "pose": 0.034,
-     "bird": 0.861
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.707,
+     "pose": 0.038,
+     "bird": 0.584
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "commoo3": {
    "name": "Eurasian Moorhen",
@@ -8399,15 +8399,15 @@
     {
      "id": "v0",
      "img": "review_imgs/commoo3/v0.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.744,
-     "pose": 0.092,
-     "bird": 0.901
+     "sim": 0.766,
+     "pose": 0.1,
+     "bird": 0.821
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "commur": {
    "name": "Common Murre",
