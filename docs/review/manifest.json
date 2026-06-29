@@ -11450,9 +11450,10 @@
    "name": "Little Grebe",
    "sci": "Tachybaptus ruficollis",
    "family": "Grebes",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/litgre1/before.png",
    "ref": "review_imgs/litgre1/ref.jpg",
+   "photo": "review_imgs/litgre1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small dumpy grebe with dark brown upperparts, chestnut cheeks and neck, dark crown, and a pale yellowish-green patch at the gape base. Short stubby dark bill with pale tip, fluffy rounded rear. Dark legs set far back; rounded, almost tailless shape.",
@@ -11461,33 +11462,25 @@
     {
      "id": "v0",
      "img": "review_imgs/litgre1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.871,
-     "pose": 0.26,
-     "bird": 0.899
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/litgre1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.838,
-     "pose": 0.309,
-     "bird": 0.409
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.798,
+     "pose": 0.665,
+     "bird": 0.811
     }
    ],
+   "gen": 1782769851,
    "reviewed": false,
-   "photo": "review_imgs/litgre1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "litgul": {
    "name": "Little Gull",
    "sci": "Hydrocoloeus minutus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/litgul/before.png",
    "ref": "review_imgs/litgul/ref.jpg",
+   "photo": "review_imgs/litgul/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Smallest gull, very small and tern-like, with a jet-black hood (breeding), pale grey upperparts, white underparts washed pink, and rounded wings showing blackish underwings. Short dark-red bill, red legs. Buoyant, delicate build; no black wingtips above.",
@@ -11496,25 +11489,34 @@
     {
      "id": "v0",
      "img": "review_imgs/litgul/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.84,
-     "pose": 0.215,
-     "bird": 0.975
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.865,
+     "pose": 0.155,
+     "bird": 0.974
     },
     {
      "id": "v1",
      "img": "review_imgs/litgul/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.834,
-     "pose": 0.173,
-     "bird": 0.976
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.863,
+     "pose": 0.122,
+     "bird": 0.98
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litgul/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.844,
+     "pose": 0.13,
+     "bird": 0.921
     }
    ],
+   "gen": 1782769984,
    "reviewed": false,
-   "photo": "review_imgs/litgul/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "litowl1": {
    "name": "Little Owl",
@@ -11590,9 +11592,10 @@
    "name": "Little Stint",
    "sci": "Calidris minuta",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/litsti/before.png",
    "ref": "review_imgs/litsti/ref.jpg",
+   "photo": "review_imgs/litsti/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny short-billed stint; breeding adult has rufous-fringed black-centred back feathers forming pale 'V' braces, a rufous-washed streaked breast, white belly and throat. Fine straight black bill, black legs. Diminutive, large-headed, quick.",
@@ -11601,25 +11604,34 @@
     {
      "id": "v0",
      "img": "review_imgs/litsti/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.863,
-     "pose": 0.227,
-     "bird": 0.656
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.781,
+     "pose": 0.289,
+     "bird": 0.881
     },
     {
      "id": "v1",
      "img": "review_imgs/litsti/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.871,
-     "pose": 0.214,
-     "bird": 0.408
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.774,
+     "pose": 0.219,
+     "bird": 0.67
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/litsti/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.753,
+     "pose": 0.18,
+     "bird": 0.671
     }
    ],
+   "gen": 1782770117,
    "reviewed": false,
-   "photo": "review_imgs/litsti/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "litter1": {
    "name": "Little Tern",
@@ -11730,9 +11742,10 @@
    "name": "Long-legged Buzzard",
    "sci": "Buteo rufinus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/lolbuz1/before.png",
    "ref": "review_imgs/lolbuz1/ref.jpg",
+   "photo": "review_imgs/lolbuz1/photo.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
    "id": "Large pale buzzard with a sandy-buff head and breast, rufous-tinged underparts, an unmarked pale rusty tail, and dark belly patch. Pale wings with dark wingtips and a dark carpal patch. Yellow cere and feet, hooked dark bill. Long-winged, lanky build.",
@@ -11741,33 +11754,34 @@
     {
      "id": "v0",
      "img": "review_imgs/lolbuz1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.931,
-     "pose": 0.575,
-     "bird": 0.695
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.865,
+     "pose": 0.729,
+     "bird": 0.747
     },
     {
      "id": "v1",
      "img": "review_imgs/lolbuz1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.914,
-     "pose": 0.623,
-     "bird": 0.605
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.831,
+     "pose": 0.608,
+     "bird": 0.675
     }
    ],
+   "gen": 1782770204,
    "reviewed": false,
-   "photo": "review_imgs/lolbuz1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "lotduc": {
    "name": "Long-tailed Duck",
    "sci": "Clangula hyemalis",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/lotduc/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299883551/320",
+   "ref": "review_imgs/lotduc/ref.jpg",
+   "photo": "review_imgs/lotduc/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small sea-duck; breeding male is dark brown and white with a white face patch around the eye, dark cheek-patch, and very long slender pointed black tail-streamers. Pink band across the dark bill, blackish breast, white flanks. Compact, round-headed.",
@@ -11776,25 +11790,16 @@
     {
      "id": "v0",
      "img": "review_imgs/lotduc/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.759,
-     "pose": 0.044,
-     "bird": 0.724
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/lotduc/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.787,
-     "pose": 0.023,
-     "bird": 0.562
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.751,
+     "pose": 0.156,
+     "bird": 0.809
     }
    ],
+   "gen": 1782770337,
    "reviewed": false,
-   "photo": "review_imgs/lotduc/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "lotjae": {
    "name": "Long-tailed Jaeger",
@@ -19980,13 +19985,8 @@
   "lammer1",
   "leskes1",
   "levwoo1",
-  "litgre1",
-  "litgul",
   "litshe1",
-  "litsti",
   "loeowl",
-  "lolbuz1",
-  "lotduc",
   "lotjae",
   "lottit1",
   "mallar3",
