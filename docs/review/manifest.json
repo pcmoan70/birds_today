@@ -8424,33 +8424,33 @@
     {
      "id": "v0",
      "img": "review_imgs/commur/v0.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.777,
-     "pose": 0.3,
-     "bird": 0.868
+     "sim": 0.76,
+     "pose": 0.211,
+     "bird": 0.881
     },
     {
      "id": "v1",
      "img": "review_imgs/commur/v1.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.78,
-     "pose": 0.249,
-     "bird": 0.854
+     "sim": 0.74,
+     "pose": 0.21,
+     "bird": 0.611
     },
     {
      "id": "v2",
      "img": "review_imgs/commur/v2.png",
-     "seed": 1016,
+     "seed": 1021,
      "strength": 0.68,
-     "sim": 0.802,
-     "pose": 0.187,
-     "bird": 0.831
+     "sim": 0.735,
+     "pose": 0.176,
+     "bird": 0.516
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comqua1": {
    "name": "Common Quail",
@@ -8467,33 +8467,33 @@
     {
      "id": "v0",
      "img": "review_imgs/comqua1/v0.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.876,
-     "pose": 0.457,
-     "bird": 0.786
+     "sim": 0.848,
+     "pose": 0.629,
+     "bird": 0.741
     },
     {
      "id": "v1",
      "img": "review_imgs/comqua1/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.89,
-     "pose": 0.579,
-     "bird": 0.494
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.843,
+     "pose": 0.541,
+     "bird": 0.822
     },
     {
      "id": "v2",
      "img": "review_imgs/comqua1/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.875,
-     "pose": 0.41,
-     "bird": 0.643
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.831,
+     "pose": 0.554,
+     "bird": 0.737
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comred1": {
    "name": "Common Redshank",
@@ -8510,33 +8510,33 @@
     {
      "id": "v0",
      "img": "review_imgs/comred1/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.855,
-     "pose": 0.189,
-     "bird": 0.927
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.853,
+     "pose": 0.235,
+     "bird": 0.864
     },
     {
      "id": "v1",
      "img": "review_imgs/comred1/v1.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.854,
-     "pose": 0.161,
-     "bird": 0.74
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.814,
+     "pose": 0.141,
+     "bird": 0.607
     },
     {
      "id": "v2",
      "img": "review_imgs/comred1/v2.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.83,
-     "pose": 0.084,
-     "bird": 0.54
+     "sim": 0.806,
+     "pose": 0.104,
+     "bird": 0.368
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comred2": {
    "name": "Common Redstart",
@@ -8553,33 +8553,33 @@
     {
      "id": "v0",
      "img": "review_imgs/comred2/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.824,
-     "pose": 0.489,
-     "bird": 0.604
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.852,
+     "pose": 0.586,
+     "bird": 0.637
     },
     {
      "id": "v1",
      "img": "review_imgs/comred2/v1.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.809,
-     "pose": 0.27,
-     "bird": 0.613
+     "sim": 0.785,
+     "pose": 0.472,
+     "bird": 0.569
     },
     {
      "id": "v2",
      "img": "review_imgs/comred2/v2.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.85,
-     "pose": 0.412,
-     "bird": 0.316
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.835,
+     "pose": 0.337,
+     "bird": 0.345
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comsan": {
    "name": "Common Sandpiper",
@@ -8596,33 +8596,33 @@
     {
      "id": "v0",
      "img": "review_imgs/comsan/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.815,
-     "pose": 0.152,
-     "bird": 0.636
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.836,
+     "pose": 0.191,
+     "bird": 0.85
     },
     {
      "id": "v1",
      "img": "review_imgs/comsan/v1.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.803,
-     "pose": 0.139,
-     "bird": 0.672
+     "sim": 0.847,
+     "pose": 0.263,
+     "bird": 0.748
     },
     {
      "id": "v2",
      "img": "review_imgs/comsan/v2.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.806,
-     "pose": 0.222,
-     "bird": 0.381
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.822,
+     "pose": 0.135,
+     "bird": 0.189
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comsni": {
    "name": "Common Snipe",
