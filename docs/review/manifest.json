@@ -8200,36 +8200,37 @@
    "name": "Common Grasshopper Warbler",
    "sci": "Locustella naevia",
    "family": "Grassbirds and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/cogwar1/before.png",
    "ref": "review_imgs/cogwar1/ref.jpg",
+   "photo": "review_imgs/cogwar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small skulking warbler, olive-brown above heavily streaked dark on crown, back and rump, with paler buff streaked breast. Faint pale supercilium, plain undertail, rounded graduated tail, fine pointed bill, pinkish legs.",
+   "id": "Small skulking warbler, olive-brown above heavily streaked dark on crown, back and rump, with paler buff streaked breast. Faint pale supercilium, plain undertail, rounded graduated tail, fine pointed bill, pinkish legs. Emphasise: no wing-bars.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/cogwar1/v0.png",
-     "seed": 3011,
+     "seed": 3021,
      "strength": 0.7,
-     "sim": 0.896,
-     "pose": 0.081,
-     "bird": 0.582
+     "sim": 0.852,
+     "pose": 0.034,
+     "bird": 0.79
     },
     {
      "id": "v1",
      "img": "review_imgs/cogwar1/v1.png",
-     "seed": 3010,
+     "seed": 3020,
      "strength": 0.62,
-     "sim": 0.919,
-     "pose": 0.092,
-     "bird": 0.159
+     "sim": 0.888,
+     "pose": 0.042,
+     "bird": 0.295
     }
    ],
+   "gen": 1782764576,
    "reviewed": false,
-   "photo": "review_imgs/cogwar1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "colfly1": {
    "name": "Collared Flycatcher",
@@ -8314,45 +8315,28 @@
    "name": "Common Chiffchaff",
    "sci": "Phylloscopus collybita",
    "family": "Leaf Warblers",
-   "reason": "none-good",
+   "reason": "note-keep+2",
    "before": "review_imgs/comchi1/before.png",
    "ref": "review_imgs/comchi1/ref.jpg",
+   "photo": "review_imgs/comchi1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny plain warbler, dull olive-brown above and off-white washed buff below, with a faint pale supercilium and pale eye-ring. Fine dark bill, blackish legs distinguishing it; short rounded wings, frequently dipped tail. Plumage smooth and plain with little feather detail; legs and feet distinctly dark.",
+   "id": "Tiny plain warbler, dull olive-brown above and off-white washed buff below, with a faint pale supercilium and pale eye-ring. Fine dark bill, blackish legs distinguishing it; short rounded wings, frequently dipped tail. Plumage smooth and plain with little feather detail; legs and feet distinctly dark. No red or yellow tones. Emphasise: plain olive-brown plumage with minimal feather detail, dark legs and feet, and no red or yellow tones.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comchi1/v0.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.755,
-     "pose": 0.079,
-     "bird": 0.754
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comchi1/v1.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.813,
-     "pose": 0.078,
-     "bird": 0.638
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comchi1/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.765,
-     "pose": 0.092,
-     "bird": 0.711
+     "seed": 3025,
+     "strength": 0.62,
+     "sim": 0.733,
+     "pose": 0.189,
+     "bird": 0.798
     }
    ],
+   "gen": 1782764664,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/comchi1/photo.jpg"
+   "pending": false
   },
   "comcuc": {
    "name": "Common Cuckoo",
@@ -8481,45 +8465,46 @@
    "name": "Common Greenshank",
    "sci": "Tringa nebularia",
    "family": "Sandpipers and Allies",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/comgre/before.png",
    "ref": "review_imgs/comgre/ref.jpg",
+   "photo": "review_imgs/comgre/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tall pale grey-brown wader, greyish above mottled darker, with a white belly and streaked breast. Long slightly upturned bill grey with a dark tip, long greenish legs, white rump and lower back wedge in flight. The longish grey-green bill is slightly upturned. Bill clearly slightly upturned; feet fully shown.",
+   "id": "Tall pale grey-brown wader, greyish above mottled darker, with a white belly and streaked breast. Long slightly upturned bill grey with a dark tip, long greenish legs, white rump and lower back wedge in flight. The longish grey-green bill is slightly upturned. Bill clearly slightly upturned; feet fully shown. Emphasise: a very slightly upturned bill.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comgre/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.813,
-     "pose": 0.346,
-     "bird": 0.87
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.808,
+     "pose": 0.402,
+     "bird": 0.88
     },
     {
      "id": "v1",
      "img": "review_imgs/comgre/v1.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.821,
-     "pose": 0.333,
-     "bird": 0.643
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.794,
+     "pose": 0.404,
+     "bird": 0.865
     },
     {
      "id": "v2",
      "img": "review_imgs/comgre/v2.png",
-     "seed": 1022,
+     "seed": 1027,
      "strength": 0.74,
-     "sim": 0.838,
-     "pose": 0.247,
-     "bird": 0.571
+     "sim": 0.78,
+     "pose": 0.403,
+     "bird": 0.89
     }
    ],
+   "gen": 1782764796,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/comgre/photo.jpg"
+   "pending": false
   },
   "commer": {
    "name": "Common Merganser",
@@ -8569,9 +8554,10 @@
    "name": "Eurasian Moorhen",
    "sci": "Gallinula chloropus",
    "family": "Rails, Gallinules, and Coots",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/commoo3/before.png",
    "ref": "review_imgs/commoo3/ref.jpg",
+   "photo": "review_imgs/commoo3/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Medium dark slate-grey waterbird with brownish back, a bright red frontal shield and red bill tipped yellow, a broken white line along the flanks, white undertail coverts split by black, and long greenish-yellow legs with very long toes.",
@@ -8580,16 +8566,16 @@
     {
      "id": "v0",
      "img": "review_imgs/commoo3/v0.png",
-     "seed": 1022,
+     "seed": 1027,
      "strength": 0.74,
-     "sim": 0.766,
-     "pose": 0.1,
-     "bird": 0.821
+     "sim": 0.778,
+     "pose": 0.245,
+     "bird": 0.77
     }
    ],
+   "gen": 1782764957,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/commoo3/photo.jpg"
+   "pending": false
   },
   "commur": {
    "name": "Common Murre",
@@ -8639,45 +8625,46 @@
    "name": "Common Quail",
    "sci": "Coturnix coturnix",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/comqua1/before.png",
    "ref": "review_imgs/comqua1/ref.jpg",
+   "photo": "review_imgs/comqua1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny rotund streaky game-bird, sandy-brown above with cream streaks, buff underparts, a bold cream crown-stripe and supercilium, dark eyestripe, pale throat bordered by dark anchor marks, and pale legs. Face boldly patterned with cream and dark anchor markings.",
+   "id": "Tiny rotund streaky game-bird, sandy-brown above with cream streaks, buff underparts, a bold cream crown-stripe and supercilium, dark eyestripe, pale throat bordered by dark anchor marks, and pale legs. Face boldly patterned with cream and dark anchor markings. Emphasise: the correct face pattern with pale stripes and a dark throat anchor.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comqua1/v0.png",
-     "seed": 1020,
+     "seed": 1025,
      "strength": 0.6,
-     "sim": 0.848,
-     "pose": 0.629,
-     "bird": 0.741
+     "sim": 0.864,
+     "pose": 0.562,
+     "bird": 0.865
     },
     {
      "id": "v1",
      "img": "review_imgs/comqua1/v1.png",
-     "seed": 1021,
+     "seed": 1026,
      "strength": 0.68,
-     "sim": 0.843,
-     "pose": 0.541,
-     "bird": 0.822
+     "sim": 0.824,
+     "pose": 0.36,
+     "bird": 0.658
     },
     {
      "id": "v2",
      "img": "review_imgs/comqua1/v2.png",
-     "seed": 1022,
+     "seed": 1027,
      "strength": 0.74,
-     "sim": 0.831,
-     "pose": 0.554,
-     "bird": 0.737
+     "sim": 0.792,
+     "pose": 0.347,
+     "bird": 0.429
     }
    ],
+   "gen": 1782765090,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/comqua1/photo.jpg"
+   "pending": false
   },
   "comred1": {
    "name": "Common Redshank",
@@ -20062,13 +20049,7 @@
   }
  },
  "queued": [
-  "bripet",
-  "cogwar1",
-  "comchi1",
-  "comgre",
   "commer",
-  "commoo3",
-  "comqua1",
   "comred1",
   "comred2",
   "comsan",
