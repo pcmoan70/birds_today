@@ -107,16 +107,18 @@ def main():
             queued += 1
 
         if satisfied:
-            # Finalize: keep the chosen image (if any) live, drop off the page,
-            # and cancel any pending generation job for it.
+            # Finalize. If an alternative was selected, it becomes the live image;
+            # otherwise the current/live image is the chosen one (kept as-is).
+            # Drop off the page and cancel any pending generation job.
+            kept_what = "current image"
             if choice and set_live(code, choice):
-                pass
+                kept_what = f"alternative {choice}"
             if code in review["species"]:
                 review["species"][code]["reviewed"] = True
             jobs = [j for j in jobs if j["code"] != code]
             applied[code] = choice
             finalized += 1
-            print(f"  {code}: satisfied -> finalized")
+            print(f"  {code}: satisfied -> finalized ({kept_what})")
             continue
 
         if none_good:
