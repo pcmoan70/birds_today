@@ -7646,24 +7646,24 @@
     {
      "id": "v0",
      "img": "review_imgs/grgowl/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.783,
-     "pose": 0.618,
-     "bird": 0.489
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.814,
+     "pose": 0.542,
+     "bird": 0.565
     },
     {
      "id": "v1",
      "img": "review_imgs/grgowl/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.791,
-     "pose": 0.528,
-     "bird": 0.429
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.805,
+     "pose": 0.605,
+     "bird": 0.472
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "bargoo": {
    "name": "Barnacle Goose",
@@ -7845,24 +7845,24 @@
     {
      "id": "v0",
      "img": "review_imgs/blwpra1/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.743,
-     "pose": 0.403,
-     "bird": 0.594
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.717,
+     "pose": 0.308,
+     "bird": 0.619
     },
     {
      "id": "v1",
      "img": "review_imgs/blwpra1/v1.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.747,
-     "pose": 0.288,
-     "bird": 0.19
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.703,
+     "pose": 0.192,
+     "bird": 0.126
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "boowar1": {
    "name": "Booted Warbler",
@@ -7879,33 +7879,33 @@
     {
      "id": "v0",
      "img": "review_imgs/boowar1/v0.png",
-     "seed": 1020,
+     "seed": 1025,
      "strength": 0.6,
-     "sim": 0.913,
-     "pose": 0.49,
-     "bird": 0.56
+     "sim": 0.835,
+     "pose": 0.313,
+     "bird": 0.605
     },
     {
      "id": "v1",
      "img": "review_imgs/boowar1/v1.png",
-     "seed": 1021,
+     "seed": 1026,
      "strength": 0.68,
-     "sim": 0.892,
-     "pose": 0.239,
-     "bird": 0.677
+     "sim": 0.83,
+     "pose": 0.275,
+     "bird": 0.594
     },
     {
      "id": "v2",
      "img": "review_imgs/boowar1/v2.png",
-     "seed": 1022,
+     "seed": 1027,
      "strength": 0.74,
-     "sim": 0.908,
-     "pose": 0.22,
-     "bird": 0.617
+     "sim": 0.803,
+     "pose": 0.265,
+     "bird": 0.626
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "brambl": {
    "name": "Brambling",
@@ -7922,33 +7922,33 @@
     {
      "id": "v0",
      "img": "review_imgs/brambl/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.935,
-     "pose": 0.173,
-     "bird": 0.609
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.798,
+     "pose": 0.391,
+     "bird": 0.862
     },
     {
      "id": "v1",
      "img": "review_imgs/brambl/v1.png",
-     "seed": 1021,
+     "seed": 1026,
      "strength": 0.68,
-     "sim": 0.914,
-     "pose": 0.176,
-     "bird": 0.521
+     "sim": 0.838,
+     "pose": 0.368,
+     "bird": 0.662
     },
     {
      "id": "v2",
      "img": "review_imgs/brambl/v2.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.907,
-     "pose": 0.103,
-     "bird": 0.461
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.835,
+     "pose": 0.101,
+     "bird": 0.817
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "bripet": {
    "name": "European Storm-Petrel",
@@ -7965,24 +7965,24 @@
     {
      "id": "v0",
      "img": "review_imgs/bripet/v0.png",
-     "seed": 3021,
+     "seed": 3026,
      "strength": 0.7,
-     "sim": 0.805,
-     "pose": 0.044,
-     "bird": 0.652
+     "sim": 0.816,
+     "pose": 0.045,
+     "bird": 0.677
     },
     {
      "id": "v1",
      "img": "review_imgs/bripet/v1.png",
-     "seed": 3020,
+     "seed": 3025,
      "strength": 0.62,
-     "sim": 0.813,
-     "pose": 0.021,
-     "bird": 0.607
+     "sim": 0.771,
+     "pose": 0.024,
+     "bird": 0.224
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "cirbun1": {
    "name": "Cirl Bunting",
