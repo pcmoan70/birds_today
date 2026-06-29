@@ -8639,33 +8639,24 @@
     {
      "id": "v0",
      "img": "review_imgs/comsni/v0.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.736,
-     "pose": 0.636,
-     "bird": 0.909
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.792,
+     "pose": 0.428,
+     "bird": 0.91
     },
     {
      "id": "v1",
      "img": "review_imgs/comsni/v1.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.778,
-     "pose": 0.395,
-     "bird": 0.772
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comsni/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.71,
-     "pose": 0.208,
-     "bird": 0.684
+     "sim": 0.812,
+     "pose": 0.53,
+     "bird": 0.716
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comswi": {
    "name": "Common Swift",
@@ -8682,33 +8673,33 @@
     {
      "id": "v0",
      "img": "review_imgs/comswi/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.841,
-     "pose": 0.013,
-     "bird": 0.784
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.835,
+     "pose": 0.02,
+     "bird": 0.509
     },
     {
      "id": "v1",
      "img": "review_imgs/comswi/v1.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.842,
-     "pose": 0.022,
-     "bird": 0.528
+     "sim": 0.87,
+     "pose": 0.013,
+     "bird": 0.253
     },
     {
      "id": "v2",
      "img": "review_imgs/comswi/v2.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.795,
-     "pose": 0.053,
-     "bird": 0.544
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.801,
+     "pose": 0.008,
+     "bird": 0.172
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "crebun2": {
    "name": "Cretzschmar's Bunting",
@@ -8725,33 +8716,33 @@
     {
      "id": "v0",
      "img": "review_imgs/crebun2/v0.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.864,
-     "pose": 0.238,
-     "bird": 0.6
+     "sim": 0.877,
+     "pose": 0.267,
+     "bird": 0.52
     },
     {
      "id": "v1",
      "img": "review_imgs/crebun2/v1.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.848,
-     "pose": 0.075,
-     "bird": 0.484
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.859,
+     "pose": 0.098,
+     "bird": 0.513
     },
     {
      "id": "v2",
      "img": "review_imgs/crebun2/v2.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.873,
-     "pose": 0.161,
-     "bird": 0.211
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.861,
+     "pose": 0.133,
+     "bird": 0.297
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "cursan": {
    "name": "Curlew Sandpiper",
@@ -8801,33 +8792,33 @@
     {
      "id": "v0",
      "img": "review_imgs/cypwar1/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.781,
-     "pose": 0.336,
-     "bird": 0.737
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.821,
+     "pose": 0.328,
+     "bird": 0.547
     },
     {
      "id": "v1",
      "img": "review_imgs/cypwar1/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.716,
-     "pose": 0.428,
-     "bird": 0.622
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.779,
+     "pose": 0.123,
+     "bird": 0.378
     },
     {
      "id": "v2",
      "img": "review_imgs/cypwar1/v2.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.733,
-     "pose": 0.294,
-     "bird": 0.641
+     "sim": 0.809,
+     "pose": 0.014,
+     "bird": 0.063
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "delpri1": {
    "name": "Delicate Prinia",
@@ -8844,33 +8835,33 @@
     {
      "id": "v0",
      "img": "review_imgs/delpri1/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.869,
-     "pose": 0.109,
-     "bird": 0.77
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.858,
+     "pose": 0.055,
+     "bird": 0.789
     },
     {
      "id": "v1",
      "img": "review_imgs/delpri1/v1.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.883,
-     "pose": 0.111,
-     "bird": 0.73
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.85,
+     "pose": 0.145,
+     "bird": 0.702
     },
     {
      "id": "v2",
      "img": "review_imgs/delpri1/v2.png",
-     "seed": 1017,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.855,
-     "pose": 0.116,
-     "bird": 0.775
+     "sim": 0.821,
+     "pose": 0.162,
+     "bird": 0.499
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "doveki": {
    "name": "Dovekie",
