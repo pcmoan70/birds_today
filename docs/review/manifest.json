@@ -7360,9 +7360,10 @@
    "name": "Great Bustard",
    "sci": "Otis tarda",
    "family": "Bustards",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/grebus1/before.png",
    "ref": "review_imgs/grebus1/ref.jpg",
+   "photo": "review_imgs/grebus1/photo.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
    "id": "Huge heavy bustard, sandy-rufous back barred black, white belly; pale blue-grey head and neck, long white moustache-like throat whiskers in male; thick neck, stout pale bill, sturdy grey legs.",
@@ -7371,34 +7372,34 @@
     {
      "id": "v0",
      "img": "review_imgs/grebus1/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.843,
-     "pose": 0.403,
-     "bird": 0.952
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.718,
+     "pose": 0.753,
+     "bird": 0.86
     },
     {
      "id": "v1",
      "img": "review_imgs/grebus1/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.824,
-     "pose": 0.379,
-     "bird": 0.868
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.873,
+     "pose": 0.113,
+     "bird": 0.778
     },
     {
      "id": "v2",
      "img": "review_imgs/grebus1/v2.png",
-     "seed": 1011,
+     "seed": 1016,
      "strength": 0.68,
-     "sim": 0.835,
-     "pose": 0.295,
-     "bird": 0.734
+     "sim": 0.794,
+     "pose": 0.162,
+     "bird": 0.747
     }
    ],
+   "gen": 1782763108,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/grebus1/photo.jpg"
+   "pending": false
   },
   "grecor": {
    "name": "Great Cormorant",
@@ -7439,9 +7440,10 @@
    "name": "Great Egret",
    "sci": "Ardea alba",
    "family": "Herons, Egrets, and Bitterns",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/greegr/before.png",
    "ref": "review_imgs/greegr/ref.jpg",
+   "photo": "review_imgs/greegr/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tall all-white heron, slender long neck, long black-and-yellow dagger bill (yellow in non-breeding); long blackish legs and feet, no plumes on head.",
@@ -7450,25 +7452,34 @@
     {
      "id": "v0",
      "img": "review_imgs/greegr/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.916,
-     "pose": 0.655,
-     "bird": 0.845
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.887,
+     "pose": 0.877,
+     "bird": 0.832
     },
     {
      "id": "v1",
      "img": "review_imgs/greegr/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.898,
-     "pose": 0.434,
-     "bird": 0.816
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.871,
+     "pose": 0.769,
+     "bird": 0.875
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/greegr/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.76,
+     "bird": 0.834
     }
    ],
+   "gen": 1782763241,
    "reviewed": false,
-   "photo": "review_imgs/greegr/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "grefla3": {
    "name": "Greater Flamingo",
@@ -7543,9 +7554,10 @@
    "name": "Great Shearwater",
    "sci": "Ardenna gravis",
    "family": "Shearwaters and Petrels",
-   "reason": "badref",
+   "reason": "not good-regen3",
    "before": "review_imgs/greshe/before.png",
    "ref": "review_imgs/greshe/ref.jpg",
+   "photo": "review_imgs/greshe/photo.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
    "id": "Large shearwater, dark brown-grey above with pale-scaled back, white below; blackish-brown cap sharply cut off from white cheeks and white nape collar, dark belly smudge, white uppertail band; long dark bill.",
@@ -7554,104 +7566,106 @@
     {
      "id": "v0",
      "img": "review_imgs/greshe/v0.png",
-     "seed": 1010,
+     "seed": 1015,
      "strength": 0.6,
-     "sim": 0.769,
-     "pose": 0.732,
-     "bird": 0.908
+     "sim": 0.903,
+     "pose": 0.263,
+     "bird": 0.704
     },
     {
      "id": "v1",
      "img": "review_imgs/greshe/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.7,
-     "pose": 0.506,
-     "bird": 0.756
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.766,
+     "pose": 0.281,
+     "bird": 0.654
     },
     {
      "id": "v2",
      "img": "review_imgs/greshe/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.688,
-     "pose": 0.311,
-     "bird": 0.847
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.838,
+     "pose": 0.187,
+     "bird": 0.356
     }
    ],
+   "gen": 1782763401,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/greshe/photo.jpg"
+   "pending": false
   },
   "gresku1": {
    "name": "Great Skua",
    "sci": "Stercorarius skua",
    "family": "Skuas and Jaegers",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/gresku1/before.png",
    "ref": "review_imgs/gresku1/ref.jpg",
+   "photo": "review_imgs/gresku1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Bulky brown skua, dark rufous-brown plumage streaked paler, with bold white wing-flashes at base of primaries; heavy hooked dark bill, dark legs.",
+   "id": "Bulky brown skua, dark rufous-brown plumage streaked paler, with bold white wing-flashes at base of primaries; heavy hooked dark bill, dark legs. Emphasise: a stout gull-like bill, not a falcon-like hooked beak.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gresku1/v0.png",
-     "seed": 3015,
+     "seed": 3020,
      "strength": 0.62,
-     "sim": 0.873,
-     "pose": 0.309,
-     "bird": 0.402
+     "sim": 0.87,
+     "pose": 0.157,
+     "bird": 0.589
     },
     {
      "id": "v1",
      "img": "review_imgs/gresku1/v1.png",
-     "seed": 3016,
+     "seed": 3021,
      "strength": 0.7,
-     "sim": 0.822,
-     "pose": 0.069,
-     "bird": 0.474
+     "sim": 0.832,
+     "pose": 0.085,
+     "bird": 0.339
     }
    ],
+   "gen": 1782763496,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/gresku1/photo.jpg"
+   "pending": false
   },
   "gresni1": {
    "name": "Great Snipe",
    "sci": "Gallinago media",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/gresni1/before.png",
    "ref": "review_imgs/gresni1/ref.jpg",
+   "photo": "review_imgs/gresni1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Stocky snipe, richly patterned brown back with buff stripes, barred buff underparts; bold white-tipped outer tail feathers, dark-streaked head with stripes; long straight dark bill, greenish legs.",
+   "id": "Stocky snipe, richly patterned brown back with buff stripes, barred buff underparts; bold white-tipped outer tail feathers, dark-streaked head with stripes; long straight dark bill, greenish legs. Emphasise: a clearly barred face and bold pale stripes along the back.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gresni1/v0.png",
-     "seed": 3010,
+     "seed": 3015,
      "strength": 0.62,
-     "sim": 0.777,
-     "pose": 0.268,
-     "bird": 0.107
+     "sim": 0.856,
+     "pose": 0.27,
+     "bird": 0.568
     },
     {
      "id": "v1",
      "img": "review_imgs/gresni1/v1.png",
-     "seed": 3011,
+     "seed": 3016,
      "strength": 0.7,
-     "sim": 0.757,
-     "pose": 0.097,
-     "bird": 0.118
+     "sim": 0.871,
+     "pose": 0.242,
+     "bird": 0.244
     }
    ],
+   "gen": 1782763592,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/gresni1/photo.jpg"
+   "pending": false
   },
   "gretit1": {
    "name": "Great Tit",
@@ -20074,11 +20088,6 @@
   "eurnig1",
   "eursco1",
   "eurspa1",
-  "grebus1",
-  "greegr",
-  "greshe",
-  "gresku1",
-  "gresni1",
   "grewar3",
   "grewhi1",
   "grgowl",
