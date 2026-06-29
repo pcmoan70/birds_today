@@ -16024,9 +16024,9 @@
    "name": "Slender-billed Gull",
    "sci": "Chroicocephalus genei",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "pick-keep-regen2",
+   "reason": "prompt-edit",
    "before": "review_imgs/slbgul1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/88090541/320",
+   "ref": "review_imgs/slbgul1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Pale elegant gull with long sloping forehead and long slender unicolor dark-red bill; pale grey back, white head, white underparts often pink-flushed. Pale eye, orange-red legs.",
@@ -16035,24 +16035,33 @@
     {
      "id": "v0",
      "img": "review_imgs/slbgul1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.88,
-     "pose": 0.212,
-     "bird": 0.718
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.859,
+     "pose": 0.285,
+     "bird": 0.973
     },
     {
      "id": "v1",
      "img": "review_imgs/slbgul1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.917,
-     "pose": 0.203,
-     "bird": 0.566
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.855,
+     "pose": 0.276,
+     "bird": 0.972
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/slbgul1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.833,
+     "pose": 0.309,
+     "bird": 0.979
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "smew": {
    "name": "Smew",
@@ -16060,7 +16069,7 @@
    "family": "Ducks, Geese, and Swans",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/smew/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/197359291/320",
+   "ref": "review_imgs/smew/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small white sawbill duck; drake mostly white with fine black markings: black eye-patch, black nape stripe and breast lines. Short grey bill, grey flanks, blue-grey legs. Crested white head.",
@@ -16069,24 +16078,24 @@
     {
      "id": "v0",
      "img": "review_imgs/smew/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.74,
-     "pose": 0.361,
-     "bird": 0.973
+     "sim": 0.82,
+     "pose": 0.278,
+     "bird": 0.943
     },
     {
      "id": "v1",
      "img": "review_imgs/smew/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.78,
-     "pose": 0.094,
-     "bird": 0.907
+     "sim": 0.763,
+     "pose": 0.18,
+     "bird": 0.949
     }
    ],
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "snobun": {
    "name": "Snow Bunting",
@@ -16227,7 +16236,7 @@
    "family": "Tits, Chickadees, and Titmice",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/somtit3/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/79929731/320",
+   "ref": "review_imgs/somtit3/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Stout dull tit; dusky brown-black cap and large black bib, pale buff-grey cheeks, brown-grey back, buffy-white underparts. Short stubby dark bill, dark legs. Larger-billed than Marsh Tit.",
@@ -16236,24 +16245,25 @@
     {
      "id": "v0",
      "img": "review_imgs/somtit3/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.885,
-     "pose": 0.054,
-     "bird": 0.944
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.839,
+     "pose": 0.099,
+     "bird": 0.864
     },
     {
      "id": "v1",
      "img": "review_imgs/somtit3/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.901,
-     "pose": 0.064,
-     "bird": 0.783
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.866,
+     "pose": 0.116,
+     "bird": 0.778
     }
    ],
+   "gen": 1782732817,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "sonthr1": {
    "name": "Song Thrush",
@@ -16327,7 +16337,7 @@
    "family": "Hawks, Eagles, and Kites",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/spaeag1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/56275381/320",
+   "ref": "review_imgs/spaeag1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Large dark brown eagle; adult shows distinctive white leading edge to wing (shoulder) and pale golden nape. Broad wings, smallish head, yellow cere and feet, dark hooked bill, feathered legs.",
@@ -16336,24 +16346,25 @@
     {
      "id": "v0",
      "img": "review_imgs/spaeag1/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.745,
-     "pose": 0.014,
-     "bird": 0.677
+     "sim": 0.725,
+     "pose": 0.009,
+     "bird": 0.765
     },
     {
      "id": "v1",
      "img": "review_imgs/spaeag1/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.741,
-     "pose": 0.032,
-     "bird": 0.598
+     "sim": 0.73,
+     "pose": 0.017,
+     "bird": 0.392
     }
    ],
+   "gen": 1782732904,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "spaspa1": {
    "name": "Spanish Sparrow",
@@ -16394,7 +16405,7 @@
    "family": "Sylviid Warblers and Allies",
    "reason": "pick-keep-regen2",
    "before": "review_imgs/spewar2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/102001441/320",
+   "ref": "review_imgs/spewar2/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small Sylvia warbler; male has grey-brown head, rufous-edged wings, white throat, pinkish-buff breast. Bold red-orange eye-ring, dark lores, reddish eye, yellowish legs, fine dark bill.",
@@ -16403,74 +16414,77 @@
     {
      "id": "v0",
      "img": "review_imgs/spewar2/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.871,
+     "sim": 0.849,
      "pose": 0.137,
-     "bird": 0.863
+     "bird": 0.9
     },
     {
      "id": "v1",
      "img": "review_imgs/spewar2/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.893,
-     "pose": 0.079,
-     "bird": 0.635
+     "sim": 0.872,
+     "pose": 0.103,
+     "bird": 0.759
     }
    ],
+   "gen": 1782732992,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "spocra1": {
    "name": "Spotted Crake",
    "sci": "Porzana porzana",
    "family": "Rails, Gallinules, and Coots",
-   "reason": "all",
+   "reason": "none-good",
    "before": "review_imgs/spocra1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/207300951/320",
+   "ref": "review_imgs/spocra1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Small secretive rail; olive-brown above heavily spotted white, grey-brown breast finely speckled white, buff undertail. Short yellow bill with red base, greenish legs, brown crown.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/spocra1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.911,
-     "pose": 0.521,
-     "bird": 0.741
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.869,
+     "pose": 0.297,
+     "bird": 0.757
     },
     {
      "id": "v1",
      "img": "review_imgs/spocra1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.894,
-     "pose": 0.47,
-     "bird": 0.591
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.914,
+     "pose": 0.318,
+     "bird": 0.367
     },
     {
      "id": "v2",
      "img": "review_imgs/spocra1/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.892,
-     "pose": 0.215,
-     "bird": 0.61
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.88,
+     "pose": 0.273,
+     "bird": 0.225
     }
    ],
-   "id": "Small secretive rail; olive-brown above heavily spotted white, grey-brown breast finely speckled white, buff undertail. Short yellow bill with red base, greenish legs, brown crown.",
-   "pending": true
+   "gen": 1782733133,
+   "reviewed": false,
+   "pending": false
   },
   "spofly1": {
    "name": "Spotted Flycatcher",
    "sci": "Muscicapa striata",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "pick-keep-regen2",
+   "reason": "none-good",
    "before": "review_imgs/spofly1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181348861/320",
+   "ref": "review_imgs/spofly1/ref.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim grey-brown flycatcher; pale greyish-white underparts with diffuse dark streaks on crown and breast. Plain face, large dark eye, thin pointed black bill, dark legs. Upright posture.",
@@ -16479,24 +16493,34 @@
     {
      "id": "v0",
      "img": "review_imgs/spofly1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.887,
-     "pose": 0.201,
-     "bird": 0.46
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.879,
+     "pose": 0.469,
+     "bird": 0.688
     },
     {
      "id": "v1",
      "img": "review_imgs/spofly1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.9,
-     "pose": 0.341,
-     "bird": 0.213
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.894,
+     "pose": 0.392,
+     "bird": 0.643
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/spofly1/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.896,
+     "pose": 0.435,
+     "bird": 0.523
     }
    ],
+   "gen": 1782733266,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "spored": {
    "name": "Spotted Redshank",
