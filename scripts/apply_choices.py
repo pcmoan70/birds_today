@@ -132,35 +132,49 @@ def main():
             print(f"  {code}: satisfied -> finalized ({kept_what})")
             continue
 
-        if verdict == "notgood":
-            sig = f"notgood|{choice or ''}"
-            # Skip a duplicate re-export of the same verdict+pick (unless a new
-            # bad-ref/prompt edit makes it actionable again).
-            if sig == applied.get(code) and not badref and not id_edited:
+        # Anything that asks for a change -> regenerate: an explicit "not good
+        # enough", a free-text note (a correction request, folded into the
+        # prompt separately), a flagged bad photo, or an edited prompt.
+        iterate = (verdict == "notgood") or bool(note) or badref or id_edited
+        if iterate:
+            sig = f"iter|{choice or ''}|{1 if badref else 0}|{1 if id_edited else 0}|{note or ''}"
+            if sig == applied.get(code):
                 unchanged += 1
                 continue
             applied[code] = sig
-            if is_var:
-                # Keep the chosen alternative as the live champion + 2 challengers.
-                if set_live(code, choice):
+            why = "not good" if verdict == "notgood" else ("note" if note else
+                  ("bad ref" if badref else "prompt edit"))
+            if is_var or choice == "live":
+                # Keep the picked image as the live champion + 2 challengers.
+                if is_var and set_live(code, choice):
                     kept += 1
-                enqueue("challengers", n_new=2, reason="notgood-keep-pick+2")
-                print(f"  {code}: not good, keep {choice} -> 2 challengers (round {retry[code]})")
-            elif choice == "live":
-                # Champion is already the live image; just add 2 challengers.
-                enqueue("challengers", n_new=2, reason="notgood-keep-live+2")
-                print(f"  {code}: not good, keep live -> 2 challengers (round {retry[code]})")
+                enqueue("challengers", n_new=2, reason=f"{why}-keep+2")
+                print(f"  {code}: {why}, keep {choice} -> 2 challengers (round {retry[code]})")
             else:
                 # No usable pick (or "input"): regenerate all 3 from the reference.
-                enqueue("regen", reason="notgood-regen3")
-                print(f"  {code}: not good -> queued full re-gen (round {retry[code]})")
+                enqueue("regen", reason=f"{why}-regen3")
+                print(f"  {code}: {why} -> queued full re-gen (round {retry[code]})")
             continue
 
-        if badref or id_edited:
-            enqueue("regen", reason="badref-refetch+recrop" if badref else "prompt-edit")
-            print(f"  {code}: {'bad ref -> re-gen (refetch + recrop)' if badref else 'prompt edit -> re-gen'}")
+        if choice:
+            # Bare pick (no verdict/note/flag): just set it as the live image and
+            # leave the species on the review list for a later call. No re-gen.
+            # Clear any stale pending so it stays visible (it's not awaiting gen).
+            if code in review["species"]:
+                review["species"][code]["pending"] = False
+            if is_var and set_live(code, choice):
+                kept += 1
+                # Refresh the "Current (live)" review tile so it shows the pick.
+                src = os.path.join(REVIEW_IMGS, code, f"{choice}.png")
+                bp = os.path.join(REVIEW_IMGS, code, "before.png")
+                if os.path.exists(src):
+                    shutil.copy(src, bp)
+                applied[code] = f"setlive|{choice}"
+                print(f"  {code}: set live = {choice} (kept on list)")
+            elif choice in ("live", "input"):
+                print(f"  {code}: pick '{choice}' -> nothing to publish (kept on list)")
             continue
-        # bare pick / note-only / nothing actionable: recorded; current kept.
+        # nothing actionable (empty entry): left as-is.
 
     # Publish the queued codes so the review page hides anything awaiting (re)gen.
     review["queued"] = Q.job_codes(jobs)
