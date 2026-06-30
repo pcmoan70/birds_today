@@ -14640,141 +14640,163 @@
    "name": "Red Avadavat",
    "sci": "Amandava amandava",
    "family": "Waxbills and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/redava/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/66696251/320",
+   "ref": "review_imgs/redava/ref.jpg",
+   "photo": "review_imgs/redava/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny finch; breeding male deep crimson-red overall, browner on wings and belly, spangled with many small white spots on flanks and wings. Stubby bright red bill, dark tail, pinkish legs.",
+   "id": "Tiny finch; breeding male deep crimson-red overall, browner on wings and belly, spangled with many small white spots on flanks and wings. Stubby bright red bill, dark tail, pinkish legs. Emphasise: white spots confined to the flanks.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redava/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.899,
-     "pose": 0.116,
-     "bird": 0.795
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.856,
+     "pose": 0.127,
+     "bird": 0.791
     },
     {
      "id": "v1",
      "img": "review_imgs/redava/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.858,
-     "pose": 0.071,
-     "bird": 0.909
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.811,
+     "pose": 0.039,
+     "bird": 0.923
     }
    ],
+   "gen": 1782804383,
    "reviewed": false,
-   "photo": "review_imgs/redava/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "redcro": {
    "name": "Red Crossbill",
    "sci": "Loxia curvirostra",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/redcro/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/290896961/320",
+   "ref": "review_imgs/redcro/ref.jpg",
+   "photo": "review_imgs/redcro/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Chunky finch with a unique crossed-tipped bill; male brick-red to orange-red overall, brightest on rump, with darker brown wings and tail. Female olive-grey-green. Dark legs, large head, short forked tail.",
+   "id": "Chunky finch with a unique crossed-tipped bill; male brick-red to orange-red overall, brightest on rump, with darker brown wings and tail. Female olive-grey-green. Dark legs, large head, short forked tail. Emphasise: a crossed bill with the mandible tips crossing.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redcro/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.907,
-     "pose": 0.288,
-     "bird": 0.626
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.741,
+     "pose": 0.295,
+     "bird": 0.861
     },
     {
      "id": "v1",
      "img": "review_imgs/redcro/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.899,
-     "pose": 0.141,
-     "bird": 0.153
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.748,
+     "pose": 0.22,
+     "bird": 0.838
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/redcro/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.764,
+     "pose": 0.299,
+     "bird": 0.642
     }
    ],
+   "gen": 1782804516,
    "reviewed": false,
-   "photo": "review_imgs/redcro/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "redkit1": {
    "name": "Red Kite",
    "sci": "Milvus milvus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/redkit1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104479601/320",
+   "ref": "review_imgs/redkit1/ref.jpg",
+   "photo": "review_imgs/redkit1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Large graceful raptor with rich rufous-chestnut body and underwings, a pale grey streaked head, and a long deeply forked rusty tail. Wings show bold white patches under the black-tipped primaries; yellow legs, yellow-based hooked bill.",
+   "id": "Large graceful raptor with rich rufous-chestnut body and underwings, a pale grey streaked head, and a long deeply forked rusty tail. Wings show bold white patches under the black-tipped primaries; yellow legs, yellow-based hooked bill. Emphasise: a pale grey head of the correct shape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redkit1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.864,
-     "pose": 0.013,
-     "bird": 0.869
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.822,
+     "pose": 0.011,
+     "bird": 0.904
     },
     {
      "id": "v1",
      "img": "review_imgs/redkit1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.9,
-     "pose": 0.008,
-     "bird": 0.617
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.844,
+     "pose": 0.004,
+     "bird": 0.656
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/redkit1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.799,
+     "pose": 0.004,
+     "bird": 0.675
     }
    ],
+   "gen": 1782804648,
    "reviewed": false,
-   "photo": "review_imgs/redkit1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "redkno": {
    "name": "Red Knot",
    "sci": "Calidris canutus",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/redkno/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/27328091/320",
+   "ref": "review_imgs/redkno/ref.jpg",
+   "photo": "review_imgs/redkno/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Stocky medium wader; breeding adult has brick-red face, neck and underparts, with grey, black and chestnut scaled upperparts. Straight medium black bill, short greenish-grey legs, dumpy rounded shape.",
+   "id": "Stocky medium wader; breeding adult has brick-red face, neck and underparts, with grey, black and chestnut scaled upperparts. Straight medium black bill, short greenish-grey legs, dumpy rounded shape. Emphasise: a straight, medium-length bill.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redkno/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.932,
-     "pose": 0.376,
-     "bird": 0.471
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.821,
+     "pose": 0.293,
+     "bird": 0.812
     },
     {
      "id": "v1",
      "img": "review_imgs/redkno/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.913,
-     "pose": 0.379,
-     "bird": 0.312
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.815,
+     "pose": 0.349,
+     "bird": 0.732
     }
    ],
+   "gen": 1782804736,
    "reviewed": false,
-   "photo": "review_imgs/redkno/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "redpha1": {
    "name": "Red Phalarope",
@@ -14918,9 +14940,10 @@
    "name": "Red-flanked Bluetail",
    "sci": "Tarsiger cyanurus",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/refblu1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/104005221/320",
+   "ref": "review_imgs/refblu1/ref.jpg",
+   "photo": "review_imgs/refblu1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small chat-like bird; male slate-blue above on head, back and tail, with bright orange-red flanks, white throat and belly. Thin dark bill, dark legs; the blue tail and orange flanks are diagnostic.",
@@ -14929,25 +14952,34 @@
     {
      "id": "v0",
      "img": "review_imgs/refblu1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.936,
-     "pose": 0.13,
-     "bird": 0.07
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.796,
+     "pose": 0.411,
+     "bird": 0.523
     },
     {
      "id": "v1",
      "img": "review_imgs/refblu1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.917,
-     "pose": 0.072,
-     "bird": 0.033
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.798,
+     "pose": 0.231,
+     "bird": 0.394
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/refblu1/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.769,
+     "pose": 0.137,
+     "bird": 0.393
     }
    ],
+   "gen": 1782805028,
    "reviewed": false,
-   "photo": "review_imgs/refblu1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "reffal1": {
    "name": "Red-footed Falcon",
@@ -20272,12 +20304,6 @@
   }
  },
  "queued": [
-  "redava",
-  "redcro",
-  "redkit1",
-  "redkno",
-  "redpha1",
-  "refblu1",
   "rekcoo1",
   "rengre",
   "rennig1",
