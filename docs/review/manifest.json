@@ -16108,9 +16108,10 @@
    "name": "Sandwich Tern",
    "sci": "Thalasseus sandvicensis",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "badref",
+   "reason": "manual-crop",
    "before": "review_imgs/santer1/before.png",
    "ref": "review_imgs/santer1/ref.jpg",
+   "photo": "review_imgs/santer1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim pale tern with shaggy black crest; pale grey above, white below. Long slender black bill with distinctive yellow tip; short black legs, slightly forked white tail.",
@@ -16119,34 +16120,34 @@
     {
      "id": "v0",
      "img": "review_imgs/santer1/v0.png",
-     "seed": 1012,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.899,
-     "pose": 0.017,
-     "bird": 0.923
+     "sim": 0.919,
+     "pose": 0.027,
+     "bird": 0.784
     },
     {
      "id": "v1",
      "img": "review_imgs/santer1/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.878,
-     "pose": 0.012,
-     "bird": 0.889
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.928,
+     "pose": 0.023,
+     "bird": 0.681
     },
     {
      "id": "v2",
      "img": "review_imgs/santer1/v2.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.896,
-     "pose": 0.022,
-     "bird": 0.824
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.902,
+     "pose": 0.025,
+     "bird": 0.421
     }
    ],
+   "gen": 1782781326,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/santer1/photo.jpg"
+   "pending": false
   },
   "sarwar1": {
    "name": "Sardinian Warbler",
@@ -16257,53 +16258,37 @@
    "name": "Sedge Warbler",
    "sci": "Acrocephalus schoenobaenus",
    "family": "Reed Warblers and Allies",
-   "reason": "badref",
+   "reason": "manual-crop",
    "before": "review_imgs/sedwar1/before.png",
    "ref": "review_imgs/sedwar1/ref.jpg",
+   "photo": "review_imgs/sedwar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Streaky brown warbler with bold creamy-white supercilium and darker crown; warm rufous unstreaked rump, streaked back, plain buff underparts. Pointed dark bill, pinkish legs.",
+   "id": "Streaky brown warbler with bold creamy-white supercilium and darker crown; warm rufous unstreaked rump, streaked back, plain buff underparts. Pointed dark bill, pinkish legs. Emphasise: a more triangular head shape, a bold cream supercilium and no wing-bar.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sedwar1/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.834,
-     "pose": 0.244,
-     "bird": 0.861
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/sedwar1/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.728,
-     "pose": 0.343,
-     "bird": 0.861
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/sedwar1/v2.png",
-     "seed": 1011,
+     "seed": 1021,
      "strength": 0.68,
-     "sim": 0.782,
-     "pose": 0.392,
-     "bird": 0.498
+     "sim": 0.77,
+     "pose": 0.503,
+     "bird": 0.811
     }
    ],
+   "gen": 1782781467,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/sedwar1/photo.jpg"
+   "pending": false
   },
   "semfly1": {
    "name": "Semicollared Flycatcher",
    "sci": "Ficedula semitorquata",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "pick-keep-regen2",
+   "reason": "manual-crop",
    "before": "review_imgs/semfly1/before.png",
    "ref": "review_imgs/semfly1/ref.jpg",
+   "photo": "review_imgs/semfly1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small black-and-white flycatcher; male has black upperparts, white underparts, large white wing patch, white forehead spots and a narrow half white neck collar. Black bill and legs.",
@@ -16312,33 +16297,43 @@
     {
      "id": "v0",
      "img": "review_imgs/semfly1/v0.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.914,
-     "pose": 0.309,
-     "bird": 0.757
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.88,
+     "pose": 0.432,
+     "bird": 0.769
     },
     {
      "id": "v1",
      "img": "review_imgs/semfly1/v1.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.917,
-     "pose": 0.235,
-     "bird": 0.585
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.848,
+     "pose": 0.295,
+     "bird": 0.612
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/semfly1/v2.png",
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.864,
+     "pose": 0.257,
+     "bird": 0.59
     }
    ],
+   "gen": 1782781599,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/semfly1/photo.jpg"
+   "pending": false
   },
   "sheowl": {
    "name": "Short-eared Owl",
    "sci": "Asio flammeus",
    "family": "Typical Owls",
-   "reason": "badref",
+   "reason": "manual-crop",
    "before": "review_imgs/sheowl/before.png",
    "ref": "review_imgs/sheowl/ref.jpg",
+   "photo": "review_imgs/sheowl/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Medium pale buff-brown owl boldly streaked dark; rounded facial disc with piercing yellow eyes ringed black, short ear tufts. Long wings showing dark wrist patches. Feathered legs.",
@@ -16347,34 +16342,34 @@
     {
      "id": "v0",
      "img": "review_imgs/sheowl/v0.png",
-     "seed": 1011,
+     "seed": 1021,
      "strength": 0.68,
-     "sim": 0.821,
-     "pose": 0.598,
-     "bird": 0.817
+     "sim": 0.889,
+     "pose": 0.463,
+     "bird": 0.476
     },
     {
      "id": "v1",
      "img": "review_imgs/sheowl/v1.png",
-     "seed": 1010,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.826,
-     "pose": 0.449,
-     "bird": 0.829
+     "sim": 0.906,
+     "pose": 0.156,
+     "bird": 0.5
     },
     {
      "id": "v2",
      "img": "review_imgs/sheowl/v2.png",
-     "seed": 1012,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.751,
-     "pose": 0.386,
-     "bird": 0.362
+     "sim": 0.877,
+     "pose": 0.264,
+     "bird": 0.187
     }
    ],
+   "gen": 1782781740,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/sheowl/photo.jpg"
+   "pending": false
   },
   "shteag1": {
    "name": "Short-toed Snake-Eagle",
@@ -16575,9 +16570,10 @@
    "name": "Smew",
    "sci": "Mergellus albellus",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "manual-crop",
    "before": "review_imgs/smew/before.png",
    "ref": "review_imgs/smew/ref.jpg",
+   "photo": "review_imgs/smew/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small white sawbill duck; drake mostly white with fine black markings: black eye-patch, black nape stripe and breast lines. Short grey bill, grey flanks, blue-grey legs. Crested white head.",
@@ -16586,25 +16582,16 @@
     {
      "id": "v0",
      "img": "review_imgs/smew/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.82,
-     "pose": 0.278,
-     "bird": 0.943
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/smew/v1.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.763,
-     "pose": 0.18,
-     "bird": 0.949
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.806,
+     "pose": 0.322,
+     "bird": 0.884
     }
    ],
+   "gen": 1782781880,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/smew/photo.jpg"
+   "pending": false
   },
   "snobun": {
    "name": "Snow Bunting",
@@ -20127,12 +20114,6 @@
   }
  },
  "queued": [
-  "santer1",
-  "sedwar1",
-  "semfly1",
-  "sheowl",
-  "smew",
-  "snoowl1",
-  "subwar8"
+  "snoowl1"
  ]
 }
