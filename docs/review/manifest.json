@@ -6981,9 +6981,10 @@
    "name": "Pallas's Gull",
    "sci": "Ichthyaetus ichthyaetus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/gbhgul2/before.png",
    "ref": "review_imgs/gbhgul2/ref.jpg",
+   "photo": "review_imgs/gbhgul2/photo.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
    "id": "Large pale gull, white body, pale grey back and wings with black wingtips; in breeding has black hood with white crescents above and below eye; stout yellow bill with black ring and red tip, yellow legs.",
@@ -6992,25 +6993,34 @@
     {
      "id": "v0",
      "img": "review_imgs/gbhgul2/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.916,
-     "pose": 0.563,
-     "bird": 0.93
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.811,
+     "pose": 0.595,
+     "bird": 0.869
     },
     {
      "id": "v1",
      "img": "review_imgs/gbhgul2/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.92,
-     "pose": 0.438,
-     "bird": 0.714
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.766,
+     "pose": 0.411,
+     "bird": 0.948
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gbhgul2/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.769,
+     "pose": 0.296,
+     "bird": 0.944
     }
    ],
+   "gen": 1782801099,
    "reviewed": false,
-   "photo": "review_imgs/gbhgul2/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "glagul": {
    "name": "Glaucous Gull",
@@ -7867,7 +7877,7 @@
    "name": "Barnacle Goose",
    "sci": "Branta leucopsis",
    "family": "Ducks, Geese, and Swans",
-   "reason": "note-keep+2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/bargoo/before.png",
    "ref": "review_imgs/bargoo/ref.jpg",
    "photo": "review_imgs/bargoo/photo.jpg",
@@ -7879,25 +7889,25 @@
     {
      "id": "v0",
      "img": "review_imgs/bargoo/v0.png",
-     "seed": 3026,
-     "strength": 0.7,
-     "sim": 0.766,
-     "pose": 0.485,
-     "bird": 0.981
+     "seed": 3030,
+     "strength": 0.62,
+     "sim": 0.907,
+     "pose": 0.332,
+     "bird": 0.95
     },
     {
      "id": "v1",
      "img": "review_imgs/bargoo/v1.png",
-     "seed": 3025,
-     "strength": 0.62,
-     "sim": 0.723,
-     "pose": 0.332,
-     "bird": 0.86
+     "seed": 3031,
+     "strength": 0.7,
+     "sim": 0.904,
+     "pose": 0.259,
+     "bird": 0.981
     }
    ],
-   "gen": 1782764010,
+   "gen": 1782801195,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "465888": {
    "name": "Pale Crag-Martin",
@@ -8007,45 +8017,46 @@
    "name": "Black-tailed Godwit",
    "sci": "Limosa limosa",
    "family": "Sandpipers and Allies",
-   "reason": "note-keep+2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/bktgod/before.png",
    "ref": "review_imgs/bktgod/ref.jpg",
    "photo": "review_imgs/bktgod/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tall elegant wader; breeding adult orange-rufous head, neck and breast, barred lower belly, grey-brown back. Long straight bill pink at base with dark tip; black tail-band over white rump, long dark legs. The head is plain orange-rufous with no black markings on the head. The long straight bill is pinkish at the base with a dark/black tip. Emphasise: a plain head without black, and a long straight bill, pinkish at the base with a dark tip.",
+   "id": "Tall elegant wader; breeding adult orange-rufous head, neck and breast, barred lower belly, grey-brown back. Long straight bill pink at base with dark tip; black tail-band over white rump, long dark legs. The head is plain orange-rufous with no black markings on the head. The long straight bill is pinkish at the base with a dark/black tip. Emphasise: a plain head without black, and a long straight bill, pinkish at the base with a dark tip. Emphasise: underparts not too pale.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/bktgod/v0.png",
-     "seed": 3026,
-     "strength": 0.7,
-     "sim": 0.816,
-     "pose": 0.482,
-     "bird": 0.587
+     "seed": 3030,
+     "strength": 0.62,
+     "sim": 0.918,
+     "pose": 0.178,
+     "bird": 0.703
     },
     {
      "id": "v1",
      "img": "review_imgs/bktgod/v1.png",
-     "seed": 3025,
-     "strength": 0.62,
-     "sim": 0.811,
-     "pose": 0.27,
-     "bird": 0.801
+     "seed": 3031,
+     "strength": 0.7,
+     "sim": 0.893,
+     "pose": 0.279,
+     "bird": 0.341
     }
    ],
-   "gen": 1782764193,
+   "gen": 1782801290,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "blwpra1": {
    "name": "Black-winged Pratincole",
    "sci": "Glareola nordmanni",
    "family": "Pratincoles and Coursers",
-   "reason": "none-good",
+   "reason": "not good-regen3",
    "before": "review_imgs/blwpra1/before.png",
    "ref": "review_imgs/blwpra1/ref.jpg",
+   "photo": "review_imgs/blwpra1/photo.jpg",
    "ref_source": "pinned",
    "recipe": "v4-macaulay-id",
    "id": "Slim tern-like wader, warm brown above and on the breast with a black-bordered creamy throat patch, white belly, and forked tail. Diagnostic blackish underwing-coverts, short red-based dark bill, long dark legs.",
@@ -8054,25 +8065,25 @@
     {
      "id": "v0",
      "img": "review_imgs/blwpra1/v0.png",
-     "seed": 1027,
-     "strength": 0.74,
-     "sim": 0.717,
-     "pose": 0.308,
-     "bird": 0.619
+     "seed": 1031,
+     "strength": 0.68,
+     "sim": 0.697,
+     "pose": 0.426,
+     "bird": 0.639
     },
     {
      "id": "v1",
      "img": "review_imgs/blwpra1/v1.png",
-     "seed": 1025,
-     "strength": 0.6,
-     "sim": 0.703,
-     "pose": 0.192,
-     "bird": 0.126
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.692,
+     "pose": 0.138,
+     "bird": 0.524
     }
    ],
+   "gen": 1782801431,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/blwpra1/photo.jpg"
+   "pending": false
   },
   "boowar1": {
    "name": "Booted Warbler",
@@ -8244,31 +8255,31 @@
    "photo": "review_imgs/cogwar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Small skulking warbler, olive-brown above heavily streaked dark on crown, back and rump, with paler buff streaked breast. Faint pale supercilium, plain undertail, rounded graduated tail, fine pointed bill, pinkish legs. Emphasise: no wing-bars.",
+   "id": "Small skulking warbler, olive-brown above heavily streaked dark on crown, back and rump, with paler buff streaked breast. Faint pale supercilium, plain undertail, rounded graduated tail, fine pointed bill, pinkish legs. Emphasise: no wing-bars. Emphasise: distinct dark streaking on the upperparts.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/cogwar1/v0.png",
-     "seed": 3021,
-     "strength": 0.7,
-     "sim": 0.852,
-     "pose": 0.034,
-     "bird": 0.79
+     "seed": 3025,
+     "strength": 0.62,
+     "sim": 0.823,
+     "pose": 0.054,
+     "bird": 0.645
     },
     {
      "id": "v1",
      "img": "review_imgs/cogwar1/v1.png",
-     "seed": 3020,
-     "strength": 0.62,
-     "sim": 0.888,
-     "pose": 0.042,
-     "bird": 0.295
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.784,
+     "pose": 0.085,
+     "bird": 0.539
     }
    ],
-   "gen": 1782764576,
+   "gen": 1782801518,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "colfly1": {
    "name": "Collared Flycatcher",
@@ -20176,17 +20187,12 @@
   }
  },
  "queued": [
-  "bargoo",
-  "bktgod",
-  "blwpra1",
-  "cogwar1",
   "colpra",
   "comchi1",
   "comcuc",
   "comgre",
   "comqua1",
   "comred1",
-  "gbhgul2",
   "litshe1",
   "mewgul",
   "osprey",
