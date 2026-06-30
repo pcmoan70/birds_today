@@ -1,3 +1,1252 @@
 {
- "species": {}
+ "species": {
+  "balshe1": {
+   "name": "Balearic Shearwater",
+   "sci": "Puffinus mauretanicus",
+   "cands": [
+    {
+     "img": "crop/balshe1/cand0.jpg",
+     "source": "inaturalist",
+     "src_id": "682685249",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/682685249/large.jpg",
+     "author": "(c) zoebl, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/373550589"
+    },
+    {
+     "img": "crop/balshe1/cand1.jpg",
+     "source": "wikimedia",
+     "src_id": "38633572",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Balearic_shearwater_colonies.jpg/1280px-Balearic_shearwater_colonies.jpg",
+     "author": "derivative work: Donkey shot",
+     "license": "CC BY-SA 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Balearic_shearwater_colonies.jpg"
+    },
+    {
+     "img": "crop/balshe1/cand2.jpg",
+     "source": "gbif",
+     "src_id": "5938325130",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604604444/original.jpg",
+     "author": "BEKKOUCHE Abdelkader",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938325130"
+    },
+    {
+     "img": "crop/balshe1/cand3.jpg",
+     "source": "inaturalist",
+     "src_id": "678821687",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/678821687/large.jpg",
+     "author": "(c) Eduardo Campos Wals, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/371528961"
+    },
+    {
+     "img": "crop/balshe1/cand4.jpg",
+     "source": "wikimedia",
+     "src_id": "38636472",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Balearic_shearwater_movements.jpg",
+     "author": "Donkey shot",
+     "license": "CC BY 3.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Balearic_shearwater_movements.jpg"
+    },
+    {
+     "img": "crop/balshe1/cand5.jpg",
+     "source": "gbif",
+     "src_id": "6129997349",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606990538/original.jpg",
+     "author": "jjulio2000",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/6129997349"
+    },
+    {
+     "img": "crop/balshe1/cand6.jpg",
+     "source": "inaturalist",
+     "src_id": "678821635",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/678821635/large.jpg",
+     "author": "(c) Eduardo Campos Wals, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/371528952"
+    },
+    {
+     "img": "crop/balshe1/cand7.jpg",
+     "source": "wikimedia",
+     "src_id": "15076773",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Puffinus_mauretanicus.jpg",
+     "author": "Conselleria de Medi Ambient i Mobilitat, Govern des Illes Balears",
+     "license": "CC BY-SA 3.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Puffinus_mauretanicus.jpg"
+    },
+    {
+     "img": "crop/balshe1/cand8.jpg",
+     "source": "gbif",
+     "src_id": "6130934452",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606175024/original.jpg",
+     "author": "Gleb Berloff",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/6130934452"
+    },
+    {
+     "img": "crop/balshe1/cand9.jpg",
+     "source": "inaturalist",
+     "src_id": "677198943",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/677198943/large.jpg",
+     "author": "(c) Antonio Xeira, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/370683282"
+    }
+   ]
+  },
+  "comchi1": {
+   "name": "Common Chiffchaff",
+   "sci": "Phylloscopus collybita",
+   "cands": [
+    {
+     "img": "crop/comchi1/cand0.jpg",
+     "source": "whobird",
+     "src_id": "191052481",
+     "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/191052481/900",
+     "author": "Macaulay Library / whoBIRD curation",
+     "license": "Macaulay © (reference only, not redistributed)",
+     "page_url": "https://macaulaylibrary.org/asset/191052481"
+    },
+    {
+     "img": "crop/comchi1/cand1.jpg",
+     "source": "inaturalist",
+     "src_id": "688919206",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688919206/large.jpg",
+     "author": "(c) dmitrymit, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376769356"
+    },
+    {
+     "img": "crop/comchi1/cand2.jpg",
+     "source": "wikimedia",
+     "src_id": "134134805",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/%22The_Common_Chiffchaff%22_-_DPLA_-_1b695a61c07becc0ed8e2e5a16cdc4df_%28page_1%29.jpg/1280px-%22The_Common_Chiffchaff%22_-_DPLA_-_1b695a61c07becc0ed8e2e5a16cdc4df_%28page_1%29.jpg",
+     "author": "President (2009-2017 : Obama). Office of the Staff Secretary. Office of Presidential Correspondence. Gift Office. (1/20/2009 - 1/20/2017)",
+     "license": "Public domain",
+     "page_url": "https://commons.wikimedia.org/wiki/File:%22The_Common_Chiffchaff%22_-_DPLA_-_1b695a61c07becc0ed8e2e5a16cdc4df_(page_1).jpg"
+    },
+    {
+     "img": "crop/comchi1/cand3.jpg",
+     "source": "gbif",
+     "src_id": "5938032623",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605138672/original.jpg",
+     "author": "Franck Curk",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938032623"
+    },
+    {
+     "img": "crop/comchi1/cand4.jpg",
+     "source": "inaturalist",
+     "src_id": "688732395",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688732395/large.jpg",
+     "author": "(c) Ирина Рогова, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376677422"
+    },
+    {
+     "img": "crop/comchi1/cand5.jpg",
+     "source": "wikimedia",
+     "src_id": "134134812",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%22The_Common_Chiffchaff%22_-_DPLA_-_1b695a61c07becc0ed8e2e5a16cdc4df_%28page_2%29.jpg/1280px-%22The_Common_Chiffchaff%22_-_DPLA_-_1b695a61c07becc0ed8e2e5a16cdc4df_%28page_2%29.jpg",
+     "author": "President (2009-2017 : Obama). Office of the Staff Secretary. Office of Presidential Correspondence. Gift Office. (1/20/2009 - 1/20/2017)",
+     "license": "Public domain",
+     "page_url": "https://commons.wikimedia.org/wiki/File:%22The_Common_Chiffchaff%22_-_DPLA_-_1b695a61c07becc0ed8e2e5a16cdc4df_(page_2).jpg"
+    },
+    {
+     "img": "crop/comchi1/cand6.jpg",
+     "source": "gbif",
+     "src_id": "5938044666",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605031617/original.jpg",
+     "author": "Elio Giacone",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938044666"
+    },
+    {
+     "img": "crop/comchi1/cand7.jpg",
+     "source": "inaturalist",
+     "src_id": "688714463",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688714463/large.jpg",
+     "author": "no rights reserved",
+     "license": "CC0",
+     "page_url": "https://www.inaturalist.org/observations/376666905"
+    },
+    {
+     "img": "crop/comchi1/cand8.jpg",
+     "source": "wikimedia",
+     "src_id": "75076822",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/20130804_066_Kessel_Weerdbeemden_onbekende_vogel_%289436244215%29.jpg/1280px-20130804_066_Kessel_Weerdbeemden_onbekende_vogel_%289436244215%29.jpg",
+     "author": "Jac. Janssen from Baarlo lb, NL",
+     "license": "CC BY 2.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:20130804_066_Kessel_Weerdbeemden_onbekende_vogel_(9436244215).jpg"
+    },
+    {
+     "img": "crop/comchi1/cand9.jpg",
+     "source": "gbif",
+     "src_id": "5938083364",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604489274/original.jpg",
+     "author": "interessiert",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938083364"
+    }
+   ]
+  },
+  "comeid": {
+   "name": "Common Eider",
+   "sci": "Somateria mollissima",
+   "cands": [
+    {
+     "img": "crop/comeid/cand0.jpg",
+     "source": "whobird",
+     "src_id": "299883211",
+     "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299883211/900",
+     "author": "Macaulay Library / whoBIRD curation",
+     "license": "Macaulay © (reference only, not redistributed)",
+     "page_url": "https://macaulaylibrary.org/asset/299883211"
+    },
+    {
+     "img": "crop/comeid/cand1.jpg",
+     "source": "inaturalist",
+     "src_id": "688837761",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688837761/large.jpg",
+     "author": "(c) abcdefgewing, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376730605"
+    },
+    {
+     "img": "crop/comeid/cand2.jpg",
+     "source": "wikimedia",
+     "src_id": "57031433",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/050_-_COMMON_EIDER_%289-06%29_attu%2C_ak_%281%29_%288726831571%29.jpg/1280px-050_-_COMMON_EIDER_%289-06%29_attu%2C_ak_%281%29_%288726831571%29.jpg",
+     "author": "ALAN SCHMIERER",
+     "license": "CC0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:050_-_COMMON_EIDER_(9-06)_attu,_ak_(1)_(8726831571).jpg"
+    },
+    {
+     "img": "crop/comeid/cand3.jpg",
+     "source": "gbif",
+     "src_id": "5938031603",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604940421/original.jpg",
+     "author": "Jayden Ward",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938031603"
+    },
+    {
+     "img": "crop/comeid/cand4.jpg",
+     "source": "inaturalist",
+     "src_id": "688842851",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688842851/large.jpg",
+     "author": "(c) vivisix, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376730285"
+    },
+    {
+     "img": "crop/comeid/cand5.jpg",
+     "source": "wikimedia",
+     "src_id": "57031437",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/050_-_COMMON_EIDER_%289-06%29_attu%2C_ak_%282%29_%288716287552%29.jpg/1280px-050_-_COMMON_EIDER_%289-06%29_attu%2C_ak_%282%29_%288716287552%29.jpg",
+     "author": "ALAN SCHMIERER",
+     "license": "CC0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:050_-_COMMON_EIDER_(9-06)_attu,_ak_(2)_(8716287552).jpg"
+    },
+    {
+     "img": "crop/comeid/cand6.jpg",
+     "source": "gbif",
+     "src_id": "5938050951",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604886158/original.jpg",
+     "author": "E Young",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938050951"
+    },
+    {
+     "img": "crop/comeid/cand7.jpg",
+     "source": "inaturalist",
+     "src_id": "688841543",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688841543/large.jpg",
+     "author": "(c) vivisix, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376729743"
+    },
+    {
+     "img": "crop/comeid/cand8.jpg",
+     "source": "wikimedia",
+     "src_id": "57522402",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/2014_-_Trip_to_the_Isle_of_May_%2813977475157%29.jpg/1280px-2014_-_Trip_to_the_Isle_of_May_%2813977475157%29.jpg",
+     "author": "marsupium photography",
+     "license": "CC BY-SA 2.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:2014_-_Trip_to_the_Isle_of_May_(13977475157).jpg"
+    },
+    {
+     "img": "crop/comeid/cand9.jpg",
+     "source": "gbif",
+     "src_id": "5938053034",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605393867/original.jpg",
+     "author": "Joao Tata Regala",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938053034"
+    }
+   ]
+  },
+  "comred2": {
+   "name": "Common Redstart",
+   "sci": "Phoenicurus phoenicurus",
+   "cands": [
+    {
+     "img": "crop/comred2/cand0.jpg",
+     "source": "whobird",
+     "src_id": "36928311",
+     "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/36928311/900",
+     "author": "Macaulay Library / whoBIRD curation",
+     "license": "Macaulay © (reference only, not redistributed)",
+     "page_url": "https://macaulaylibrary.org/asset/36928311"
+    },
+    {
+     "img": "crop/comred2/cand1.jpg",
+     "source": "inaturalist",
+     "src_id": "688955367",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688955367/large.jpg",
+     "author": "(c) Анастасия, some rights reserved (CC BY)",
+     "license": "CC BY",
+     "page_url": "https://www.inaturalist.org/observations/376788341"
+    },
+    {
+     "img": "crop/comred2/cand2.jpg",
+     "source": "wikimedia",
+     "src_id": "74457068",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/20120707_Baarlo_01_Gekraagde_roodstaart_%287520055790%29.png",
+     "author": "Jac. Janssen from Baarlo lb, NL",
+     "license": "CC BY 2.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:20120707_Baarlo_01_Gekraagde_roodstaart_(7520055790).png"
+    },
+    {
+     "img": "crop/comred2/cand3.jpg",
+     "source": "gbif",
+     "src_id": "6130717555",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607680560/original.jpg",
+     "author": "mimsa",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/6130717555"
+    },
+    {
+     "img": "crop/comred2/cand4.jpg",
+     "source": "inaturalist",
+     "src_id": "688954887",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688954887/large.jpg",
+     "author": "(c) mothpuppy, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376788072"
+    },
+    {
+     "img": "crop/comred2/cand5.jpg",
+     "source": "wikimedia",
+     "src_id": "74457066",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/20120707_Baarlo_04_Gekraagde_roodstaart_%287520056420%29.png",
+     "author": "Jac. Janssen from Baarlo lb, NL",
+     "license": "CC BY 2.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:20120707_Baarlo_04_Gekraagde_roodstaart_(7520056420).png"
+    },
+    {
+     "img": "crop/comred2/cand6.jpg",
+     "source": "gbif",
+     "src_id": "6131336386",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605040701/original.jpg",
+     "author": "mlanguy",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/6131336386"
+    },
+    {
+     "img": "crop/comred2/cand7.jpg",
+     "source": "inaturalist",
+     "src_id": "688942226",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688942226/large.jpg",
+     "author": "(c) lebedeva_na, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376781473"
+    },
+    {
+     "img": "crop/comred2/cand8.jpg",
+     "source": "wikimedia",
+     "src_id": "74457065",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/20120707_Baarlo_05_Gekraagde_roodstaart_%287520057096%29.png",
+     "author": "Jac. Janssen from Baarlo lb, NL",
+     "license": "CC BY 2.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:20120707_Baarlo_05_Gekraagde_roodstaart_(7520057096).png"
+    },
+    {
+     "img": "crop/comred2/cand9.jpg",
+     "source": "gbif",
+     "src_id": "6131422623",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608154658/original.jpg",
+     "author": "leekelai",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/6131422623"
+    }
+   ]
+  },
+  "dunlin": {
+   "name": "Dunlin",
+   "sci": "Calidris alpina",
+   "cands": [
+    {
+     "img": "crop/dunlin/cand0.jpg",
+     "source": "whobird",
+     "src_id": "228228211",
+     "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/228228211/900",
+     "author": "Macaulay Library / whoBIRD curation",
+     "license": "Macaulay © (reference only, not redistributed)",
+     "page_url": "https://macaulaylibrary.org/asset/228228211"
+    },
+    {
+     "img": "crop/dunlin/cand1.jpg",
+     "source": "inaturalist",
+     "src_id": "688961787",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688961787/large.jpg",
+     "author": "(c) John Bray, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376791911"
+    },
+    {
+     "img": "crop/dunlin/cand2.jpg",
+     "source": "wikimedia",
+     "src_id": "193067934",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/20260529_dunlin_sandy_point_bird_sanctuary_PD04236.jpg/1280px-20260529_dunlin_sandy_point_bird_sanctuary_PD04236.jpg",
+     "author": "Paul Danese",
+     "license": "CC BY-SA 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:20260529_dunlin_sandy_point_bird_sanctuary_PD04236.jpg"
+    },
+    {
+     "img": "crop/dunlin/cand3.jpg",
+     "source": "gbif",
+     "src_id": "5938030158",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604973864/original.jpg",
+     "author": "mnaturalistss",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938030158"
+    },
+    {
+     "img": "crop/dunlin/cand4.jpg",
+     "source": "inaturalist",
+     "src_id": "688954953",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688954953/large.jpg",
+     "author": "(c) ikelman, some rights reserved (CC BY)",
+     "license": "CC BY",
+     "page_url": "https://www.inaturalist.org/observations/376788090"
+    },
+    {
+     "img": "crop/dunlin/cand5.jpg",
+     "source": "wikimedia",
+     "src_id": "193067932",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/20260529_dunlin_sandy_point_bird_sanctuary_PD04239.jpg/1280px-20260529_dunlin_sandy_point_bird_sanctuary_PD04239.jpg",
+     "author": "Paul Danese",
+     "license": "CC BY-SA 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:20260529_dunlin_sandy_point_bird_sanctuary_PD04239.jpg"
+    },
+    {
+     "img": "crop/dunlin/cand6.jpg",
+     "source": "gbif",
+     "src_id": "5938062763",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604912449/original.jpg",
+     "author": "Eric Simons",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938062763"
+    },
+    {
+     "img": "crop/dunlin/cand7.jpg",
+     "source": "inaturalist",
+     "src_id": "688816054",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688816054/large.jpg",
+     "author": "(c) kwat, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376719532"
+    },
+    {
+     "img": "crop/dunlin/cand8.jpg",
+     "source": "wikimedia",
+     "src_id": "148475310",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Adult_Dunlin_on_the_Alaskan_arctic_tundra_%2851357535068%29.jpg/1280px-Adult_Dunlin_on_the_Alaskan_arctic_tundra_%2851357535068%29.jpg",
+     "author": "Alaska Region U.S. Fish &amp; Wildlife Service from Anchorage, United States",
+     "license": "Public domain",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Adult_Dunlin_on_the_Alaskan_arctic_tundra_(51357535068).jpg"
+    },
+    {
+     "img": "crop/dunlin/cand9.jpg",
+     "source": "gbif",
+     "src_id": "5938063682",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605649086/original.jpg",
+     "author": "Nico Martinez Torres",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938063682"
+    }
+   ]
+  },
+  "horgre": {
+   "name": "Horned Grebe",
+   "sci": "Podiceps auritus",
+   "cands": [
+    {
+     "img": "crop/horgre/cand0.jpg",
+     "source": "whobird",
+     "src_id": "204241621",
+     "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204241621/900",
+     "author": "Macaulay Library / whoBIRD curation",
+     "license": "Macaulay © (reference only, not redistributed)",
+     "page_url": "https://macaulaylibrary.org/asset/204241621"
+    },
+    {
+     "img": "crop/horgre/cand1.jpg",
+     "source": "inaturalist",
+     "src_id": "688966037",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688966037/large.jpg",
+     "author": "(c) Daimon, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376793038"
+    },
+    {
+     "img": "crop/horgre/cand2.jpg",
+     "source": "wikimedia",
+     "src_id": "160708399",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Horned_Grebe_%2842690970422%29.jpg/1280px-Horned_Grebe_%2842690970422%29.jpg",
+     "author": "GlacierNPS",
+     "license": "Public domain",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Horned_Grebe_(42690970422).jpg"
+    },
+    {
+     "img": "crop/horgre/cand3.jpg",
+     "source": "gbif",
+     "src_id": "5938027417",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604899279/original.jpg",
+     "author": "hmcook",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938027417"
+    },
+    {
+     "img": "crop/horgre/cand4.jpg",
+     "source": "inaturalist",
+     "src_id": "688841681",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688841681/large.jpg",
+     "author": "(c) alanvannorman, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376730720"
+    },
+    {
+     "img": "crop/horgre/cand5.jpg",
+     "source": "wikimedia",
+     "src_id": "160741932",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Horned_Grebe_-_Podiceps_auritus_%2819185326539%29.jpg/1280px-Horned_Grebe_-_Podiceps_auritus_%2819185326539%29.jpg",
+     "author": "GlacierNPS",
+     "license": "Public domain",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Horned_Grebe_-_Podiceps_auritus_(19185326539).jpg"
+    },
+    {
+     "img": "crop/horgre/cand6.jpg",
+     "source": "gbif",
+     "src_id": "5938044441",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604684432/original.jpg",
+     "author": "John Wragg",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938044441"
+    },
+    {
+     "img": "crop/horgre/cand7.jpg",
+     "source": "inaturalist",
+     "src_id": "688841645",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688841645/large.jpg",
+     "author": "(c) alanvannorman, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376730716"
+    },
+    {
+     "img": "crop/horgre/cand8.jpg",
+     "source": "wikimedia",
+     "src_id": "194244581",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mergull%C3%B3n_real_03.jpg/1280px-Mergull%C3%B3n_real_03.jpg",
+     "author": "Bene Riobó",
+     "license": "CC BY-SA 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Mergull%C3%B3n_real_03.jpg"
+    },
+    {
+     "img": "crop/horgre/cand9.jpg",
+     "source": "gbif",
+     "src_id": "5938052911",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605161813/original.jpg",
+     "author": "Smith Family",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938052911"
+    }
+   ]
+  },
+  "lammer1": {
+   "name": "Bearded Vulture",
+   "sci": "Gypaetus barbatus",
+   "cands": [
+    {
+     "img": "crop/lammer1/cand0.jpg",
+     "source": "inaturalist",
+     "src_id": "688566277",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688566277/large.jpg",
+     "author": "(c) Светлана Стрижова, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376595323"
+    },
+    {
+     "img": "crop/lammer1/cand1.jpg",
+     "source": "wikimedia",
+     "src_id": "161260609",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/126899_gypaetus_barbatus_PikiWiki_Israel.jpg",
+     "author": "עוזי פז",
+     "license": "CC BY 2.5",
+     "page_url": "https://commons.wikimedia.org/wiki/File:126899_gypaetus_barbatus_PikiWiki_Israel.jpg"
+    },
+    {
+     "img": "crop/lammer1/cand2.jpg",
+     "source": "gbif",
+     "src_id": "5938066537",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605682817/original.jpg",
+     "author": "Лариса Некрасова",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938066537"
+    },
+    {
+     "img": "crop/lammer1/cand3.jpg",
+     "source": "inaturalist",
+     "src_id": "688498262",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688498262/large.jpg",
+     "author": "(c) Светлана Стрижова, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376562890"
+    },
+    {
+     "img": "crop/lammer1/cand4.jpg",
+     "source": "wikimedia",
+     "src_id": "119006",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/BartgeierVerbreitung.jpg",
+     "author": "",
+     "license": "CC BY-SA 3.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:BartgeierVerbreitung.jpg"
+    },
+    {
+     "img": "crop/lammer1/cand5.jpg",
+     "source": "gbif",
+     "src_id": "5938101563",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605338228/original.jpg",
+     "author": "Vladislav Mochalov",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938101563"
+    },
+    {
+     "img": "crop/lammer1/cand6.jpg",
+     "source": "inaturalist",
+     "src_id": "688334701",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688334701/large.jpg",
+     "author": "(c) Armin Pilser, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376467893"
+    },
+    {
+     "img": "crop/lammer1/cand7.jpg",
+     "source": "wikimedia",
+     "src_id": "55111370",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Bearded_Volture_By_Stanzin_%28Stakpa%29.jpg",
+     "author": "Stanzinnamgail",
+     "license": "CC BY-SA 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Bearded_Volture_By_Stanzin_(Stakpa).jpg"
+    },
+    {
+     "img": "crop/lammer1/cand8.jpg",
+     "source": "gbif",
+     "src_id": "5938106764",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605298137/original.jpg",
+     "author": "Davide Diana",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938106764"
+    },
+    {
+     "img": "crop/lammer1/cand9.jpg",
+     "source": "inaturalist",
+     "src_id": "688014765",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688014765/large.jpg",
+     "author": "(c) Cenaida, some rights reserved (CC BY)",
+     "license": "CC BY",
+     "page_url": "https://www.inaturalist.org/observations/376305093"
+    }
+   ]
+  },
+  "osprey": {
+   "name": "Osprey",
+   "sci": "Pandion haliaetus",
+   "cands": [
+    {
+     "img": "crop/osprey/cand0.jpg",
+     "source": "whobird",
+     "src_id": "48440631",
+     "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/48440631/900",
+     "author": "Macaulay Library / whoBIRD curation",
+     "license": "Macaulay © (reference only, not redistributed)",
+     "page_url": "https://macaulaylibrary.org/asset/48440631"
+    },
+    {
+     "img": "crop/osprey/cand1.jpg",
+     "source": "inaturalist",
+     "src_id": "688968510",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688968510/large.jpg",
+     "author": "(c) Rafa Dominguez, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376795893"
+    },
+    {
+     "img": "crop/osprey/cand2.jpg",
+     "source": "wikimedia",
+     "src_id": "170573769",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/20250719_osprey_hammonasset_beach_state_park_PD200173.jpg/1280px-20250719_osprey_hammonasset_beach_state_park_PD200173.jpg",
+     "author": "Paul Danese",
+     "license": "CC BY-SA 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:20250719_osprey_hammonasset_beach_state_park_PD200173.jpg"
+    },
+    {
+     "img": "crop/osprey/cand3.jpg",
+     "source": "gbif",
+     "src_id": "5938030251",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605190659/original.jpg",
+     "author": "Juan",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938030251"
+    },
+    {
+     "img": "crop/osprey/cand4.jpg",
+     "source": "inaturalist",
+     "src_id": "688964521",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688964521/large.jpg",
+     "author": "(c) funerea, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376793215"
+    },
+    {
+     "img": "crop/osprey/cand5.jpg",
+     "source": "wikimedia",
+     "src_id": "170573763",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/20250719_osprey_hammonasset_beach_state_park_PD200177.jpg/1280px-20250719_osprey_hammonasset_beach_state_park_PD200177.jpg",
+     "author": "Paul Danese",
+     "license": "CC BY-SA 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:20250719_osprey_hammonasset_beach_state_park_PD200177.jpg"
+    },
+    {
+     "img": "crop/osprey/cand6.jpg",
+     "source": "gbif",
+     "src_id": "5938031800",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605219567/original.jpg",
+     "author": "Tanner Redd",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938031800"
+    },
+    {
+     "img": "crop/osprey/cand7.jpg",
+     "source": "inaturalist",
+     "src_id": "688946000",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688946000/large.jpg",
+     "author": "(c) Jeff Giddins, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376783362"
+    },
+    {
+     "img": "crop/osprey/cand8.jpg",
+     "source": "wikimedia",
+     "src_id": "170573762",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/20250719_osprey_hammonasset_beach_state_park_PD200180.jpg/1280px-20250719_osprey_hammonasset_beach_state_park_PD200180.jpg",
+     "author": "Paul Danese",
+     "license": "CC BY-SA 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:20250719_osprey_hammonasset_beach_state_park_PD200180.jpg"
+    },
+    {
+     "img": "crop/osprey/cand9.jpg",
+     "source": "gbif",
+     "src_id": "5938032319",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604777543/original.jpg",
+     "author": "jre_florida",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938032319"
+    }
+   ]
+  },
+  "palsun2": {
+   "name": "Palestine Sunbird",
+   "sci": "Cinnyris osea",
+   "cands": [
+    {
+     "img": "crop/palsun2/cand0.jpg",
+     "source": "whobird",
+     "src_id": "39687321",
+     "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/39687321/900",
+     "author": "Macaulay Library / whoBIRD curation",
+     "license": "Macaulay © (reference only, not redistributed)",
+     "page_url": "https://macaulaylibrary.org/asset/39687321"
+    },
+    {
+     "img": "crop/palsun2/cand1.jpg",
+     "source": "inaturalist",
+     "src_id": "688637768",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688637768/large.jpg",
+     "author": "(c) Zayna, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376626703"
+    },
+    {
+     "img": "crop/palsun2/cand2.jpg",
+     "source": "wikimedia",
+     "src_id": "58467099",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Nectarinia_osea2.jpg",
+     "author": "Alon Friedman",
+     "license": "Attribution",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Nectarinia_osea2.jpg"
+    },
+    {
+     "img": "crop/palsun2/cand3.jpg",
+     "source": "gbif",
+     "src_id": "5938406948",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604479995/original.jpg",
+     "author": "Peleg Kark",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938406948"
+    },
+    {
+     "img": "crop/palsun2/cand4.jpg",
+     "source": "inaturalist",
+     "src_id": "687836135",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/687836135/large.jpg",
+     "author": "(c) Zayna, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376209897"
+    },
+    {
+     "img": "crop/palsun2/cand5.jpg",
+     "source": "wikimedia",
+     "src_id": "133601741",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Nektarnik_palesty%C5%84ski.jpg/1280px-Nektarnik_palesty%C5%84ski.jpg",
+     "author": "Kurde78",
+     "license": "CC BY-SA 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Nektarnik_palesty%C5%84ski.jpg"
+    },
+    {
+     "img": "crop/palsun2/cand6.jpg",
+     "source": "gbif",
+     "src_id": "5938622367",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605383391/original.jpg",
+     "author": "שמואל",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938622367"
+    },
+    {
+     "img": "crop/palsun2/cand7.jpg",
+     "source": "inaturalist",
+     "src_id": "687835848",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/687835848/large.jpg",
+     "author": "(c) Zayna, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376209891"
+    },
+    {
+     "img": "crop/palsun2/cand8.jpg",
+     "source": "wikimedia",
+     "src_id": "30469715",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Palestine_Sunbird.jpg/1280px-Palestine_Sunbird.jpg",
+     "author": "محمد البدارين (Mohammed Badarin) \nThis photograph was made by mohammad badareen",
+     "license": "CC BY 2.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Palestine_Sunbird.jpg"
+    },
+    {
+     "img": "crop/palsun2/cand9.jpg",
+     "source": "gbif",
+     "src_id": "6129979831",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606146276/original.jpg",
+     "author": "Peleg Kark",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/6129979831"
+    }
+   ]
+  },
+  "razorb": {
+   "name": "Razorbill",
+   "sci": "Alca torda",
+   "cands": [
+    {
+     "img": "crop/razorb/cand0.jpg",
+     "source": "whobird",
+     "src_id": "182291411",
+     "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/182291411/900",
+     "author": "Macaulay Library / whoBIRD curation",
+     "license": "Macaulay © (reference only, not redistributed)",
+     "page_url": "https://macaulaylibrary.org/asset/182291411"
+    },
+    {
+     "img": "crop/razorb/cand1.jpg",
+     "source": "inaturalist",
+     "src_id": "688821431",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688821431/large.jpg",
+     "author": "(c) lberry2, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376719984"
+    },
+    {
+     "img": "crop/razorb/cand2.jpg",
+     "source": "gbif",
+     "src_id": "5938031071",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605482917/original.jpg",
+     "author": "nmsnms",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938031071"
+    },
+    {
+     "img": "crop/razorb/cand3.jpg",
+     "source": "inaturalist",
+     "src_id": "688809525",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688809525/large.jpg",
+     "author": "(c) Chris Burns, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376714462"
+    },
+    {
+     "img": "crop/razorb/cand4.jpg",
+     "source": "gbif",
+     "src_id": "5938110802",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605726391/original.jpg",
+     "author": "Stephen John Davies",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938110802"
+    },
+    {
+     "img": "crop/razorb/cand5.jpg",
+     "source": "inaturalist",
+     "src_id": "688695877",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688695877/large.jpg",
+     "author": "(c) Django de Herder, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376656032"
+    },
+    {
+     "img": "crop/razorb/cand6.jpg",
+     "source": "gbif",
+     "src_id": "5938117382",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605726253/original.jpg",
+     "author": "Stephen John Davies",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938117382"
+    },
+    {
+     "img": "crop/razorb/cand7.jpg",
+     "source": "inaturalist",
+     "src_id": "688692826",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688692826/large.jpg",
+     "author": "(c) nickengle, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376654146"
+    },
+    {
+     "img": "crop/razorb/cand8.jpg",
+     "source": "gbif",
+     "src_id": "5938150703",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605012852/original.jpg",
+     "author": "Remco Hofland",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938150703"
+    },
+    {
+     "img": "crop/razorb/cand9.jpg",
+     "source": "inaturalist",
+     "src_id": "688608930",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688608930/large.jpg",
+     "author": "(c) Aurelian Olaru, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/376611009"
+    }
+   ]
+  },
+  "redpha1": {
+   "name": "Red Phalarope",
+   "sci": "Phalaropus fulicarius",
+   "cands": [
+    {
+     "img": "crop/redpha1/cand0.jpg",
+     "source": "whobird",
+     "src_id": "107267571",
+     "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107267571/900",
+     "author": "Macaulay Library / whoBIRD curation",
+     "license": "Macaulay © (reference only, not redistributed)",
+     "page_url": "https://macaulaylibrary.org/asset/107267571"
+    },
+    {
+     "img": "crop/redpha1/cand1.jpg",
+     "source": "inaturalist",
+     "src_id": "688849966",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688849966/large.jpg",
+     "author": "no rights reserved",
+     "license": "CC0",
+     "page_url": "https://www.inaturalist.org/observations/376735626"
+    },
+    {
+     "img": "crop/redpha1/cand2.jpg",
+     "source": "wikimedia",
+     "src_id": "162480314",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Eider_and_phalarope_%2851101420619%29.jpg/1280px-Eider_and_phalarope_%2851101420619%29.jpg",
+     "author": "USFWSAlaska",
+     "license": "Public domain",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Eider_and_phalarope_(51101420619).jpg"
+    },
+    {
+     "img": "crop/redpha1/cand3.jpg",
+     "source": "gbif",
+     "src_id": "6131078726",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607919189/original.jpg",
+     "author": "Nelson Conceição",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/6131078726"
+    },
+    {
+     "img": "crop/redpha1/cand4.jpg",
+     "source": "inaturalist",
+     "src_id": "688832473",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688832473/large.jpg",
+     "author": "no rights reserved",
+     "license": "CC0",
+     "page_url": "https://www.inaturalist.org/observations/376726143"
+    },
+    {
+     "img": "crop/redpha1/cand5.jpg",
+     "source": "wikimedia",
+     "src_id": "31412431",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Grey_Phalarope.jpg",
+     "author": "Ron Knight",
+     "license": "CC BY 2.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Grey_Phalarope.jpg"
+    },
+    {
+     "img": "crop/redpha1/cand6.jpg",
+     "source": "gbif",
+     "src_id": "6131125877",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610654987/original.jpg",
+     "author": "David Mogro",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/6131125877"
+    },
+    {
+     "img": "crop/redpha1/cand7.jpg",
+     "source": "inaturalist",
+     "src_id": "685385582",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/685385582/large.jpg",
+     "author": "(c) cfield525, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/374948219"
+    },
+    {
+     "img": "crop/redpha1/cand8.jpg",
+     "source": "wikimedia",
+     "src_id": "71310915",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Grey_Phalarope_Phalaropus_Fulicarius_%2829405449%29.jpeg/1280px-Grey_Phalarope_Phalaropus_Fulicarius_%2829405449%29.jpeg",
+     "author": "Rick Elis Simpson",
+     "license": "CC BY-SA 3.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Grey_Phalarope_Phalaropus_Fulicarius_(29405449).jpeg"
+    },
+    {
+     "img": "crop/redpha1/cand9.jpg",
+     "source": "gbif",
+     "src_id": "6399104062",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/676728866/original.jpg",
+     "author": "marcosascaso",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/6399104062"
+    }
+   ]
+  },
+  "snoowl1": {
+   "name": "Snowy Owl",
+   "sci": "Bubo scandiacus",
+   "cands": [
+    {
+     "img": "crop/snoowl1/cand0.jpg",
+     "source": "whobird",
+     "src_id": "106358811",
+     "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/106358811/900",
+     "author": "Macaulay Library / whoBIRD curation",
+     "license": "Macaulay © (reference only, not redistributed)",
+     "page_url": "https://macaulaylibrary.org/asset/106358811"
+    },
+    {
+     "img": "crop/snoowl1/cand1.jpg",
+     "source": "inaturalist",
+     "src_id": "688724800",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688724800/large.jpg",
+     "author": "(c) Jason Birch, some rights reserved (CC BY)",
+     "license": "CC BY",
+     "page_url": "https://www.inaturalist.org/observations/376671930"
+    },
+    {
+     "img": "crop/snoowl1/cand2.jpg",
+     "source": "wikimedia",
+     "src_id": "144964444",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bubo_scandiacus_346790220.jpg/1280px-Bubo_scandiacus_346790220.jpg",
+     "author": "Luke",
+     "license": "CC BY-SA 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Bubo_scandiacus_346790220.jpg"
+    },
+    {
+     "img": "crop/snoowl1/cand3.jpg",
+     "source": "gbif",
+     "src_id": "5938063373",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605565902/original.jpg",
+     "author": "Dana Boyle",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938063373"
+    },
+    {
+     "img": "crop/snoowl1/cand4.jpg",
+     "source": "inaturalist",
+     "src_id": "686306049",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/686306049/large.jpg",
+     "author": "(c) daynaem, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/375416529"
+    },
+    {
+     "img": "crop/snoowl1/cand5.jpg",
+     "source": "wikimedia",
+     "src_id": "19898488",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Bubo_scandiacus_Boundary_Bay_1.jpg",
+     "author": "Bill  Anderson from Surrey, Canada",
+     "license": "CC BY 2.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Bubo_scandiacus_Boundary_Bay_1.jpg"
+    },
+    {
+     "img": "crop/snoowl1/cand6.jpg",
+     "source": "gbif",
+     "src_id": "5938106424",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605144971/original.jpg",
+     "author": "kirk gardner",
+     "license": "CC BY",
+     "page_url": "https://www.gbif.org/occurrence/5938106424"
+    },
+    {
+     "img": "crop/snoowl1/cand7.jpg",
+     "source": "inaturalist",
+     "src_id": "683158572",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/683158572/large.jpg",
+     "author": "(c) tlaloc27, some rights reserved (CC BY)",
+     "license": "CC BY",
+     "page_url": "https://www.inaturalist.org/observations/373794905"
+    },
+    {
+     "img": "crop/snoowl1/cand8.jpg",
+     "source": "wikimedia",
+     "src_id": "19899807",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Bubo_scandiacus_Boundary_Bay_2.jpg/1280px-Bubo_scandiacus_Boundary_Bay_2.jpg",
+     "author": "Ingrid Taylar from Seattle, WA, USA",
+     "license": "CC BY 2.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Bubo_scandiacus_Boundary_Bay_2.jpg"
+    },
+    {
+     "img": "crop/snoowl1/cand9.jpg",
+     "source": "gbif",
+     "src_id": "5938131058",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604583041/original.jpg",
+     "author": "Riley",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/5938131058"
+    }
+   ]
+  },
+  "subwar8": {
+   "name": "Moltoni's Warbler",
+   "sci": "Curruca subalpina",
+   "cands": [
+    {
+     "img": "crop/subwar8/cand0.jpg",
+     "source": "inaturalist",
+     "src_id": "672033148",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672033148/large.jpg",
+     "author": "(c) Bonardi Carlo, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/367967245"
+    },
+    {
+     "img": "crop/subwar8/cand1.jpg",
+     "source": "wikimedia",
+     "src_id": "42389172",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/British_birds_%281915%29_%2820228564040%29.jpg/1280px-British_birds_%281915%29_%2820228564040%29.jpg",
+     "author": "Thorburn, Archibald, 1860-1935",
+     "license": "No restrictions",
+     "page_url": "https://commons.wikimedia.org/wiki/File:British_birds_(1915)_(20228564040).jpg"
+    },
+    {
+     "img": "crop/subwar8/cand2.jpg",
+     "source": "gbif",
+     "src_id": "6251512508",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649995332/original.jpg",
+     "author": "vermocane",
+     "license": "CC BY-NC",
+     "page_url": "https://www.gbif.org/occurrence/6251512508"
+    },
+    {
+     "img": "crop/subwar8/cand3.jpg",
+     "source": "inaturalist",
+     "src_id": "665012434",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665012434/large.jpg",
+     "author": "(c) Edoardo Nardelli, some rights reserved (CC BY)",
+     "license": "CC BY",
+     "page_url": "https://www.inaturalist.org/observations/364282894"
+    },
+    {
+     "img": "crop/subwar8/cand4.jpg",
+     "source": "wikimedia",
+     "src_id": "167497230",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Curruca_subalpina_74746110.png",
+     "author": "Paolo Zucca",
+     "license": "CC BY 4.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Curruca_subalpina_74746110.png"
+    },
+    {
+     "img": "crop/subwar8/cand5.jpg",
+     "source": "gbif",
+     "src_id": "6251869787",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650235744/original.jpg",
+     "author": "Paolo Zucca",
+     "license": "CC BY",
+     "page_url": "https://www.gbif.org/occurrence/6251869787"
+    },
+    {
+     "img": "crop/subwar8/cand6.jpg",
+     "source": "inaturalist",
+     "src_id": "661344864",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/661344864/large.jpg",
+     "author": "(c) albanella_minore, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/362348701"
+    },
+    {
+     "img": "crop/subwar8/cand7.jpg",
+     "source": "wikimedia",
+     "src_id": "72741186",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Moltoni%27s_Warbler_-_Castelletto_Merli_-_Italy_%2842866907560%29.jpg",
+     "author": "Francesco Veronesi from Italy",
+     "license": "CC BY-SA 2.0",
+     "page_url": "https://commons.wikimedia.org/wiki/File:Moltoni%27s_Warbler_-_Castelletto_Merli_-_Italy_(42866907560).jpg"
+    },
+    {
+     "img": "crop/subwar8/cand8.jpg",
+     "source": "gbif",
+     "src_id": "6251913861",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649975824/original.jpg",
+     "author": "Paolo Zucca",
+     "license": "CC BY",
+     "page_url": "https://www.gbif.org/occurrence/6251913861"
+    },
+    {
+     "img": "crop/subwar8/cand9.jpg",
+     "source": "inaturalist",
+     "src_id": "659635725",
+     "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659635725/large.jpg",
+     "author": "(c) vermocane, some rights reserved (CC BY-NC)",
+     "license": "CC BY-NC",
+     "page_url": "https://www.inaturalist.org/observations/361458457"
+    }
+   ]
+  }
+ }
 }
