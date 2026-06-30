@@ -71,20 +71,23 @@ body {
 .tile.chosen .pick { opacity: 1; }
 .sep { width: 1px; align-self: stretch; background: #ddd5c2; margin: 0 2px; }
 
-/* Explicit binary verdict — two segmented buttons in the card header:
+/* Explicit binary verdict — two buttons in a bar at the bottom of the card:
    👍 Good (satisfied) | 🔁 More iterations (not good enough). */
-.head .flag {
-  font: inherit; font-size: 12px; cursor: pointer;
-  color: var(--muted); background: #fff; border: 1px solid #d9d2c0;
-  border-radius: 999px; padding: 4px 12px;
+.verdict-bar {
+  display: flex; gap: 10px; margin-top: 12px;
+  padding-top: 12px; border-top: 1px solid #e3ddcc;
 }
-.head .flag.good { margin-left: auto; }
-.head .flag.iter { margin-left: 6px; }
-.head .flag:hover { background: #f3efe6; }
-.head .flag.good.on {
+.flag {
+  font: inherit; font-size: 14px; cursor: pointer;
+  color: var(--muted); background: #fff; border: 1px solid #d9d2c0;
+  border-radius: 999px; padding: 8px 14px;
+}
+.verdict-bar .flag { flex: 1; text-align: center; }
+.flag:hover { background: #f3efe6; }
+.flag.good.on {
   background: var(--accent); border-color: var(--accent); color: #fff;
 }
-.head .flag.iter.on {
+.flag.iter.on {
   background: #9a5b4a; border-color: #9a5b4a; color: #fff;
 }
 

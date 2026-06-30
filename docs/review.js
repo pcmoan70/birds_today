@@ -182,18 +182,17 @@
         (s.family ? '<span class="fam">' + s.family + "</span>" : "") +
         (s.reason ? '<span class="reason">' + s.reason + "</span>" : "");
       // Explicit binary verdict — the reviewer must say whether a generated
-      // image is good or needs more iterations. Two segmented buttons; exactly
-      // one can be active (click the active one again to clear = no feedback).
+      // image is good or needs more iterations. Two buttons (placed in a bar at
+      // the bottom of the card); exactly one can be active (click the active one
+      // again to clear = no feedback).
       var goodBtn = document.createElement("button");
       goodBtn.className = "flag good";
       goodBtn.textContent = "👍 Good";
       goodBtn.title = "This image is good — finalise the picked image";
-      head.appendChild(goodBtn);
       var iterBtn = document.createElement("button");
       iterBtn.className = "flag iter";
       iterBtn.textContent = "🔁 More iterations";
       iterBtn.title = "Not good enough — keep the picked image and generate more";
-      head.appendChild(iterBtn);
       card.appendChild(head);
 
       var tiles = document.createElement("div");
@@ -312,6 +311,13 @@
         saveMeta();
       };
       card.appendChild(note);
+
+      // ---- verdict bar at the bottom: 👍 Good | 🔁 More iterations ----
+      var vbar = document.createElement("div");
+      vbar.className = "verdict-bar";
+      vbar.appendChild(goodBtn);
+      vbar.appendChild(iterBtn);
+      card.appendChild(vbar);
 
       grid.appendChild(card);
     });
