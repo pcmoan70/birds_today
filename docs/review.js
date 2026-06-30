@@ -323,6 +323,19 @@
     });
   }
 
+  // "How it works" popup — instructions are hidden until requested.
+  var helpBtn = document.getElementById("help-btn");
+  var helpModal = document.getElementById("help-modal");
+  if (helpBtn && helpModal) {
+    helpBtn.onclick = function () { helpModal.hidden = false; };
+    helpModal.onclick = function (e) { if (e.target === helpModal) helpModal.hidden = true; };
+    var hc = document.getElementById("help-close");
+    if (hc) hc.onclick = function () { helpModal.hidden = true; };
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") helpModal.hidden = true;
+    });
+  }
+
   var resBtn = document.getElementById("showres");
   if (resBtn) resBtn.onclick = function () {
     showResolved = !showResolved;

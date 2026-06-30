@@ -16,6 +16,7 @@
     <span class="spacer"></span>
     <span id="count" class="muted"></span>
     <span id="progress" class="muted"></span>
+    <button id="help-btn" class="ghost" title="How this page works">ⓘ How it works</button>
     <button id="showres" class="ghost" hidden title="Reveal cards you've marked Satisfied / None good enough so you can undo">Show resolved (0)</button>
     <button id="clearsel" class="ghost" title="Clear all variant selections (keeps flags/notes)">Clear picks</button>
     <button id="export" title="Download the feedback you've given so far as choices.json">Export feedback</button>
@@ -23,23 +24,28 @@
     <a class="muted back" href="index.html">← Back to app</a>
   </header>
 
-  <p id="intro" class="intro">
-    Each row is a species. The leftmost tile is the real <strong>Reference
-    photo</strong>. The choosable tiles are the <strong>Current (live)</strong>
-    image, the <strong>Model input</strong> (a regeneration seed only — never
-    published), and the AI <strong>alternatives</strong>; click the one you
-    prefer (click again to unselect). Then choose a verdict — every reviewed
-    species needs one: <em>👍 Good</em> finalises the picked image, or
-    <em>🔁 More iterations</em> keeps your pick and regenerates two fresh
-    challengers next to it (or all three if you picked nothing). Either verdict
-    <strong>drops the card off the list</strong> until fresh candidates are ready
-    (use <em>Show resolved</em> to undo). New rounds always appear with nothing
-    pre-selected. Use
-    <em>⚐ flag photo</em> if the reference is bad; edit the <em>field marks</em>
-    prompt to steer generation, and use the text box for a note. Giving no
-    feedback keeps the current image. <em>Export feedback</em> downloads only the
-    species you've touched. Send me the file and I'll act on it.
-  </p>
+  <div id="help-modal" class="modal" hidden>
+    <div class="modal-box">
+      <button id="help-close" class="modal-x" title="Close" aria-label="Close">✕</button>
+      <p class="intro">
+        Each row is a species. The leftmost tile is the real <strong>Reference
+        photo</strong>. The choosable tiles are the <strong>Current (live)</strong>
+        image, the <strong>Model input</strong> (a regeneration seed only — never
+        published), and the AI <strong>alternatives</strong>; click the one you
+        prefer (click again to unselect). Then choose a verdict — every reviewed
+        species needs one: <em>👍 Good</em> finalises the picked image, or
+        <em>🔁 More iterations</em> keeps your pick and regenerates two fresh
+        challengers next to it (or all three if you picked nothing). Either verdict
+        <strong>drops the card off the list</strong> until fresh candidates are ready
+        (use <em>Show resolved</em> to undo). New rounds always appear with nothing
+        pre-selected. Use
+        <em>⚐ flag photo</em> if the reference is bad; edit the <em>field marks</em>
+        prompt to steer generation, and use the text box for a note. Giving no
+        feedback keeps the current image. <em>Export feedback</em> downloads only the
+        species you've touched. Send me the file and I'll act on it.
+      </p>
+    </div>
+  </div>
 
   <div id="grid"></div>
   <div id="empty" class="muted" hidden>No review data yet — regeneration is still running.</div>

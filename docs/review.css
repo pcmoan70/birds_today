@@ -33,6 +33,26 @@ body {
 .ghost.on:hover { filter: brightness(1.08); background: var(--accent); }
 .intro { max-width: 900px; margin: 16px 20px; font-size: 14px; line-height: 1.5; color: #4a473f; }
 
+/* "How it works" popup */
+.modal {
+  position: fixed; inset: 0; z-index: 50; padding: 20px;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(43,42,38,0.45);
+}
+.modal[hidden] { display: none; }
+.modal-box {
+  position: relative; max-width: 640px; max-height: 85vh; overflow: auto;
+  background: var(--paper); border: 1px solid #ddd5c2; border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.25); padding: 6px 22px;
+}
+.modal-box .intro { margin: 18px 0; }
+.modal-x {
+  position: absolute; top: 8px; right: 10px;
+  font: inherit; font-size: 18px; line-height: 1; cursor: pointer;
+  color: var(--muted); background: transparent; border: 0; padding: 4px 6px;
+}
+.modal-x:hover { color: var(--ink); }
+
 #grid { display: flex; flex-direction: column; gap: 14px; padding: 0 20px; }
 .card {
   background: var(--paper); border: 1px solid #ddd5c2; border-radius: 12px;
