@@ -13765,9 +13765,10 @@
    "name": "Pallid Swift",
    "sci": "Apus pallidus",
    "family": "Swifts",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/palswi3/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/28140341/320",
+   "ref": "review_imgs/palswi3/ref.jpg",
+   "photo": "review_imgs/palswi3/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim brown swift, paler sandy-brown overall than Common Swift, with a larger pale throat patch, a darker eye-mask, paler underparts, a broad blunt head, scythe-shaped wings, and a forked tail.",
@@ -13776,130 +13777,160 @@
     {
      "id": "v0",
      "img": "review_imgs/palswi3/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.904,
-     "pose": 0.009,
-     "bird": 0.627
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.838,
+     "pose": 0.006,
+     "bird": 0.787
     },
     {
      "id": "v1",
      "img": "review_imgs/palswi3/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.877,
-     "pose": 0.004,
-     "bird": 0.578
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.796,
+     "pose": 0.006,
+     "bird": 0.816
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/palswi3/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.815,
+     "pose": 0.012,
+     "bird": 0.748
     }
    ],
+   "gen": 1782803199,
    "reviewed": false,
-   "photo": "review_imgs/palswi3/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "palwar5": {
    "name": "Pallas's Leaf Warbler",
    "sci": "Phylloscopus proregulus",
    "family": "Leaf Warblers",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/palwar5/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/63573791/320",
+   "ref": "review_imgs/palwar5/ref.jpg",
+   "photo": "review_imgs/palwar5/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny bright leaf warbler, green above with a bold lemon-yellow rump band, two strong yellow wing-bars, a broad yellow central crown-stripe and supercilium, dark eye-stripe, and a fine dark bill.",
+   "id": "Tiny bright leaf warbler, green above with a bold lemon-yellow rump band, two strong yellow wing-bars, a broad yellow central crown-stripe and supercilium, dark eye-stripe, and a fine dark bill. Emphasise: a pale yellowish central crown-stripe along the top of the head, between dark lateral stripes.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/palwar5/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.918,
-     "pose": 0.199,
-     "bird": 0.75
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.787,
+     "pose": 0.314,
+     "bird": 0.78
     },
     {
      "id": "v1",
      "img": "review_imgs/palwar5/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.906,
-     "pose": 0.083,
-     "bird": 0.488
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.78,
+     "pose": 0.173,
+     "bird": 0.781
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/palwar5/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.841,
+     "pose": 0.197,
+     "bird": 0.623
     }
    ],
+   "gen": 1782803332,
    "reviewed": false,
-   "photo": "review_imgs/palwar5/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "parcro2": {
    "name": "Parrot Crossbill",
    "sci": "Loxia pytyopsittacus",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/parcro2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/109633091/320",
+   "ref": "review_imgs/parcro2/ref.jpg",
+   "photo": "review_imgs/parcro2/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Bulky crossbill with a very large deep parrot-like crossed bill; male brick-red overall with browner wings, paler belly and rump, a thick neck and large head, and dark legs.",
+   "id": "Bulky crossbill with a very large deep parrot-like crossed bill; male brick-red overall with browner wings, paler belly and rump, a thick neck and large head, and dark legs. Emphasise: a heavy crossed bill with the mandible tips crossing.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/parcro2/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.864,
-     "pose": 0.082,
-     "bird": 0.36
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.801,
+     "pose": 0.181,
+     "bird": 0.87
     },
     {
      "id": "v1",
      "img": "review_imgs/parcro2/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.891,
-     "pose": 0.041,
-     "bird": 0.31
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.777,
+     "pose": 0.266,
+     "bird": 0.823
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/parcro2/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.791,
+     "pose": 0.179,
+     "bird": 0.516
     }
    ],
+   "gen": 1782803464,
    "reviewed": false,
-   "photo": "review_imgs/parcro2/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "parjae": {
    "name": "Parasitic Jaeger",
    "sci": "Stercorarius parasiticus",
    "family": "Skuas and Jaegers",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/parjae/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64787191/320",
+   "ref": "review_imgs/parjae/ref.jpg",
+   "photo": "review_imgs/parjae/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Slim dark-and-pale seabird with pointed central tail feathers projecting; pale-morph adult has a dark cap, yellowish neck, white underparts with a faint breast-band, dark upperparts, white wing flashes, and a small bill.",
+   "id": "Slim dark-and-pale seabird with pointed central tail feathers projecting; pale-morph adult has a dark cap, yellowish neck, white underparts with a faint breast-band, dark upperparts, white wing flashes, and a small bill. Emphasise: a dark cap over the crown and forehead.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/parjae/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.928,
-     "pose": 0.048,
-     "bird": 0.742
+     "seed": 3011,
+     "strength": 0.7,
+     "sim": 0.838,
+     "pose": 0.027,
+     "bird": 0.831
     },
     {
      "id": "v1",
      "img": "review_imgs/parjae/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.899,
-     "pose": 0.036,
-     "bird": 0.706
+     "seed": 3010,
+     "strength": 0.62,
+     "sim": 0.842,
+     "pose": 0.044,
+     "bird": 0.729
     }
    ],
+   "gen": 1782803551,
    "reviewed": false,
-   "photo": "review_imgs/parjae/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "pecsan": {
    "name": "Pectoral Sandpiper",
@@ -13975,9 +14006,10 @@
    "name": "Pied Avocet",
    "sci": "Recurvirostra avosetta",
    "family": "Stilts and Avocets",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/pieavo1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43400121/320",
+   "ref": "review_imgs/pieavo1/ref.jpg",
+   "photo": "review_imgs/pieavo1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Elegant white wader boldly patterned with black cap, nape and wing bars on the white body. Long slender upturned black bill, long bluish-grey legs, and a graceful slim-necked shape.",
@@ -13986,25 +14018,25 @@
     {
      "id": "v0",
      "img": "review_imgs/pieavo1/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.905,
-     "pose": 0.116,
-     "bird": 0.923
+     "sim": 0.852,
+     "pose": 0.145,
+     "bird": 0.928
     },
     {
      "id": "v1",
      "img": "review_imgs/pieavo1/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.896,
-     "pose": 0.135,
-     "bird": 0.851
+     "sim": 0.867,
+     "pose": 0.061,
+     "bird": 0.8
     }
    ],
+   "gen": 1782803639,
    "reviewed": false,
-   "photo": "review_imgs/pieavo1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "piekin1": {
    "name": "Pied Kingfisher",
@@ -20226,11 +20258,6 @@
   }
  },
  "queued": [
-  "palswi3",
-  "palwar5",
-  "parcro2",
-  "parjae",
-  "pieavo1",
   "pingro",
   "pitsan1",
   "radacc2",
