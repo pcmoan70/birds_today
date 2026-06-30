@@ -8739,7 +8739,7 @@
    "name": "Common Redshank",
    "sci": "Tringa totanus",
    "family": "Sandpipers and Allies",
-   "reason": "not good-keep+2",
+   "reason": "not good-regen3",
    "before": "review_imgs/comred1/before.png",
    "ref": "review_imgs/comred1/ref.jpg",
    "photo": "review_imgs/comred1/photo.jpg",
@@ -8751,25 +8751,34 @@
     {
      "id": "v0",
      "img": "review_imgs/comred1/v0.png",
-     "seed": 3026,
-     "strength": 0.7,
-     "sim": 0.784,
-     "pose": 0.149,
-     "bird": 0.865
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.866,
+     "pose": 0.261,
+     "bird": 0.827
     },
     {
      "id": "v1",
      "img": "review_imgs/comred1/v1.png",
-     "seed": 3025,
-     "strength": 0.62,
-     "sim": 0.741,
-     "pose": 0.306,
-     "bird": 0.484
+     "seed": 1031,
+     "strength": 0.68,
+     "sim": 0.852,
+     "pose": 0.171,
+     "bird": 0.756
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comred1/v2.png",
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.847,
+     "pose": 0.062,
+     "bird": 0.539
     }
    ],
-   "gen": 1782765183,
+   "gen": 1782802329,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comred2": {
    "name": "Common Redstart",
@@ -12583,7 +12592,7 @@
    "name": "Common Gull",
    "sci": "Larus canus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "manual-crop",
+   "reason": "not good-regen3",
    "before": "review_imgs/mewgul/before.png",
    "ref": "review_imgs/mewgul/ref.jpg",
    "photo": "review_imgs/mewgul/photo.jpg",
@@ -12595,34 +12604,34 @@
     {
      "id": "v0",
      "img": "review_imgs/mewgul/v0.png",
-     "seed": 1026,
-     "strength": 0.68,
-     "sim": 0.807,
-     "pose": 0.488,
-     "bird": 0.963
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.912,
+     "pose": 0.25,
+     "bird": 0.913
     },
     {
      "id": "v1",
      "img": "review_imgs/mewgul/v1.png",
-     "seed": 1027,
-     "strength": 0.74,
-     "sim": 0.831,
-     "pose": 0.472,
-     "bird": 0.92
+     "seed": 1031,
+     "strength": 0.68,
+     "sim": 0.899,
+     "pose": 0.26,
+     "bird": 0.924
     },
     {
      "id": "v2",
      "img": "review_imgs/mewgul/v2.png",
-     "seed": 1025,
-     "strength": 0.6,
-     "sim": 0.821,
-     "pose": 0.365,
-     "bird": 0.956
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.894,
+     "pose": 0.218,
+     "bird": 0.835
     }
    ],
-   "gen": 1782777554,
+   "gen": 1782802610,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "misthr1": {
    "name": "Mistle Thrush",
@@ -13550,9 +13559,10 @@
    "name": "Osprey",
    "sci": "Pandion haliaetus",
    "family": "Ospreys",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/osprey/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/48440631/320",
+   "ref": "review_imgs/osprey/ref.jpg",
+   "photo": "review_imgs/osprey/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Large fish-eagle; dark brown above and white below, with a white head crossed by a broad dark eye-stripe through the eye, a dark wrist patch on long crooked wings, yellow eyes, and grey feet.",
@@ -13561,25 +13571,34 @@
     {
      "id": "v0",
      "img": "review_imgs/osprey/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.873,
-     "pose": 0.134,
-     "bird": 0.715
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.858,
+     "pose": 0.249,
+     "bird": 0.927
     },
     {
      "id": "v1",
      "img": "review_imgs/osprey/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.831,
-     "pose": 0.085,
-     "bird": 0.567
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.857,
+     "pose": 0.118,
+     "bird": 0.866
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/osprey/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.826,
+     "pose": 0.158,
+     "bird": 0.205
     }
    ],
+   "gen": 1782802768,
    "reviewed": false,
-   "photo": "review_imgs/osprey/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "padwar1": {
    "name": "Paddyfield Warbler",
@@ -13630,9 +13649,10 @@
    "name": "Pallid Harrier",
    "sci": "Circus macrourus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/palhar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/33606121/320",
+   "ref": "review_imgs/palhar1/ref.jpg",
+   "photo": "review_imgs/palhar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim pale harrier; male very pale silvery-grey above and white below with a small black wedge at the wingtip, very long narrow wings, a slender body, white rump, and yellow eyes and legs.",
@@ -13641,25 +13661,25 @@
     {
      "id": "v0",
      "img": "review_imgs/palhar1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.923,
-     "pose": 0.036,
-     "bird": 0.689
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.751,
+     "pose": 0.787,
+     "bird": 0.583
     },
     {
      "id": "v1",
      "img": "review_imgs/palhar1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.895,
-     "pose": 0.044,
-     "bird": 0.386
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.831,
+     "pose": 0.15,
+     "bird": 0.813
     }
    ],
+   "gen": 1782802900,
    "reviewed": false,
-   "photo": "review_imgs/palhar1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "palroc1": {
    "name": "Pale Rockfinch",
@@ -13700,9 +13720,10 @@
    "name": "Palestine Sunbird",
    "sci": "Cinnyris osea",
    "family": "Sunbirds and Spiderhunters",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/palsun2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/39687321/320",
+   "ref": "review_imgs/palsun2/ref.jpg",
+   "photo": "review_imgs/palsun2/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny sunbird; male glossy metallic blue-green over head, throat and back, with a blackish belly and a small reddish-orange breast band, a long thin decurved black bill, and dark legs.",
@@ -13711,25 +13732,34 @@
     {
      "id": "v0",
      "img": "review_imgs/palsun2/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.875,
-     "pose": 0.151,
-     "bird": 0.881
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.831,
+     "pose": 0.256,
+     "bird": 0.787
     },
     {
      "id": "v1",
      "img": "review_imgs/palsun2/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.842,
-     "pose": 0.114,
-     "bird": 0.535
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.788,
+     "pose": 0.197,
+     "bird": 0.911
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/palsun2/v2.png",
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.817,
+     "pose": 0.111,
+     "bird": 0.743
     }
    ],
+   "gen": 1782803060,
    "reviewed": false,
-   "photo": "review_imgs/palsun2/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "palswi3": {
    "name": "Pallid Swift",
@@ -20196,12 +20226,6 @@
   }
  },
  "queued": [
-  "comred1",
-  "litshe1",
-  "mewgul",
-  "osprey",
-  "palhar1",
-  "palsun2",
   "palswi3",
   "palwar5",
   "parcro2",
