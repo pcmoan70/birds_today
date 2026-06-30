@@ -14112,44 +14112,46 @@
    "name": "Pine Grosbeak",
    "sci": "Pinicola enucleator",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/pingro/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/64887111/320",
+   "ref": "review_imgs/pingro/ref.jpg",
+   "photo": "review_imgs/pingro/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Plump large finch with a stubby curved black bill; male rich rosy-red on head, breast and rump with grey flanks and belly, blackish wings showing two white wing bars. Dark eye, dark legs, long notched tail.",
+   "id": "Plump large finch with a stubby curved black bill; male rich rosy-red on head, breast and rump with grey flanks and belly, blackish wings showing two white wing bars. Dark eye, dark legs, long notched tail. Emphasise: a rounded head of the correct shape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/pingro/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.924,
-     "pose": 0.076,
-     "bird": 0.487
+     "sim": 0.838,
+     "pose": 0.195,
+     "bird": 0.787
     },
     {
      "id": "v1",
      "img": "review_imgs/pingro/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.931,
-     "pose": 0.077,
-     "bird": 0.302
+     "sim": 0.849,
+     "pose": 0.149,
+     "bird": 0.632
     }
    ],
+   "gen": 1782803737,
    "reviewed": false,
-   "photo": "review_imgs/pingro/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "pitsan1": {
    "name": "Pin-tailed Sandgrouse",
    "sci": "Pterocles alchata",
    "family": "Sandgrouse",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/pitsan1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168694491/320",
+   "ref": "review_imgs/pitsan1/ref.jpg",
+   "photo": "review_imgs/pitsan1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Sandgrouse with a white belly, chestnut-bordered creamy breast band, finely vermiculated greenish-buff upperparts, and very long needle-like central tail feathers. Small pigeon-like head, short grey bill, feathered legs.",
@@ -14158,25 +14160,25 @@
     {
      "id": "v0",
      "img": "review_imgs/pitsan1/v0.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.845,
-     "pose": 0.202,
-     "bird": 0.229
+     "sim": 0.741,
+     "pose": 0.515,
+     "bird": 0.64
     },
     {
      "id": "v1",
      "img": "review_imgs/pitsan1/v1.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.769,
-     "pose": 0.098,
-     "bird": 0.173
+     "sim": 0.731,
+     "pose": 0.191,
+     "bird": 0.89
     }
    ],
+   "gen": 1782803824,
    "reviewed": false,
-   "photo": "review_imgs/pitsan1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "pomjae": {
    "name": "Pomarine Jaeger",
@@ -14356,9 +14358,10 @@
    "name": "Radde's Accentor",
    "sci": "Prunella ocularis",
    "family": "Accentors",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/radacc2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/83507421/320",
+   "ref": "review_imgs/radacc2/ref.jpg",
+   "photo": "review_imgs/radacc2/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small grey-brown accentor with plain warm-brown back, buff underparts, and a striking pale buff-white supercilium contrasting with a dark eyestripe and greyish crown. Thin dark sparrow-like bill, pinkish legs.",
@@ -14367,25 +14370,25 @@
     {
      "id": "v0",
      "img": "review_imgs/radacc2/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.744,
-     "pose": 0.347,
-     "bird": 0.863
+     "sim": 0.75,
+     "pose": 0.475,
+     "bird": 0.775
     },
     {
      "id": "v1",
      "img": "review_imgs/radacc2/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.746,
-     "pose": 0.24,
-     "bird": 0.539
+     "sim": 0.769,
+     "pose": 0.297,
+     "bird": 0.701
     }
    ],
+   "gen": 1782803911,
    "reviewed": false,
-   "photo": "review_imgs/radacc2/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "razorb": {
    "name": "Razorbill",
@@ -14451,44 +14454,46 @@
    "name": "Red-breasted Flycatcher",
    "sci": "Ficedula parva",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/rebfly/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/140603461/320",
+   "ref": "review_imgs/rebfly/ref.jpg",
+   "photo": "review_imgs/rebfly/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny flycatcher with plain grey-brown upperparts, whitish underparts, and a peachy-orange throat patch bordered greyish. Bold white patches at the base of the blackish tail, white eye-ring, thin dark bill, dark legs.",
+   "id": "Tiny flycatcher with plain grey-brown upperparts, whitish underparts, and a peachy-orange throat patch bordered greyish. Bold white patches at the base of the blackish tail, white eye-ring, thin dark bill, dark legs. Emphasise: smoother, less detailed patterning.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rebfly/v0.png",
-     "seed": 3005,
+     "seed": 3010,
      "strength": 0.62,
-     "sim": 0.909,
-     "pose": 0.129,
-     "bird": 0.337
+     "sim": 0.801,
+     "pose": 0.368,
+     "bird": 0.593
     },
     {
      "id": "v1",
      "img": "review_imgs/rebfly/v1.png",
-     "seed": 3006,
+     "seed": 3011,
      "strength": 0.7,
-     "sim": 0.885,
-     "pose": 0.062,
-     "bird": 0.293
+     "sim": 0.815,
+     "pose": 0.402,
+     "bird": 0.286
     }
    ],
+   "gen": 1782804158,
    "reviewed": false,
-   "photo": "review_imgs/rebfly/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "rebgoo1": {
    "name": "Red-breasted Goose",
    "sci": "Branta ruficollis",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/rebgoo1/before.png",
    "ref": "review_imgs/rebgoo1/ref.jpg",
+   "photo": "review_imgs/rebgoo1/photo.jpg",
    "ref_source": "wikimedia",
    "recipe": "v4-macaulay-id",
    "id": "Small strikingly patterned goose, mostly black with bold white-bordered chestnut-red cheeks, throat and breast. White flank stripe and undertail, short stubby dark bill, black legs; compact rounded body.",
@@ -14497,25 +14502,34 @@
     {
      "id": "v0",
      "img": "review_imgs/rebgoo1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.921,
-     "pose": 0.213,
-     "bird": 0.783
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.878,
+     "pose": 0.316,
+     "bird": 0.941
     },
     {
      "id": "v1",
      "img": "review_imgs/rebgoo1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.93,
-     "pose": 0.203,
-     "bird": 0.705
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.875,
+     "pose": 0.316,
+     "bird": 0.947
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rebgoo1/v2.png",
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.838,
+     "pose": 0.13,
+     "bird": 0.907
     }
    ],
+   "gen": 1782804290,
    "reviewed": false,
-   "photo": "review_imgs/rebgoo1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "rebmer": {
    "name": "Red-breasted Merganser",
@@ -20258,12 +20272,6 @@
   }
  },
  "queued": [
-  "pingro",
-  "pitsan1",
-  "radacc2",
-  "razorb",
-  "rebfly",
-  "rebgoo1",
   "redava",
   "redcro",
   "redkit1",
