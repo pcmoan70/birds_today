@@ -1147,7 +1147,7 @@
    "name": "Black-legged Kittiwake",
    "sci": "Rissa tridactyla",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "note-keep+2",
+   "reason": "not good-regen3",
    "before": "review_imgs/bklkit/before.png",
    "ref": "review_imgs/bklkit/ref.jpg",
    "photo": "review_imgs/bklkit/photo.jpg",
@@ -1159,25 +1159,34 @@
     {
      "id": "v0",
      "img": "review_imgs/bklkit/v0.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.937,
-     "pose": 0.277,
-     "bird": 0.945
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.916,
+     "pose": 0.371,
+     "bird": 0.809
     },
     {
      "id": "v1",
      "img": "review_imgs/bklkit/v1.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.926,
-     "pose": 0.297,
-     "bird": 0.6
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.905,
+     "pose": 0.288,
+     "bird": 0.906
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bklkit/v2.png",
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.868,
+     "pose": 0.304,
+     "bird": 0.723
     }
    ],
-   "gen": 1782760599,
+   "gen": 1782800348,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "bkskit1": {
    "name": "Black-winged Kite",
@@ -2151,7 +2160,7 @@
    "name": "Brant",
    "sci": "Branta bernicla",
    "family": "Ducks, Geese, and Swans",
-   "reason": "note-keep+2",
+   "reason": "not good-regen3",
    "before": "review_imgs/brant/before.png",
    "ref": "review_imgs/brant/ref.jpg",
    "photo": "review_imgs/brant/photo.jpg",
@@ -2163,25 +2172,34 @@
     {
      "id": "v0",
      "img": "review_imgs/brant/v0.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.919,
-     "pose": 0.209,
-     "bird": 0.865
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.913,
+     "pose": 0.181,
+     "bird": 0.904
     },
     {
      "id": "v1",
      "img": "review_imgs/brant/v1.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.895,
-     "pose": 0.22,
-     "bird": 0.626
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.902,
+     "pose": 0.199,
+     "bird": 0.842
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/brant/v2.png",
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.914,
+     "pose": 0.153,
+     "bird": 0.732
     }
    ],
-   "gen": 1782760829,
+   "gen": 1782800629,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "brbsan": {
    "name": "Broad-billed Sandpiper",
@@ -2954,7 +2972,7 @@
    "name": "Coal Tit",
    "sci": "Periparus ater",
    "family": "Tits, Chickadees, and Titmice",
-   "reason": "note-keep+2",
+   "reason": "not good-regen3",
    "before": "review_imgs/coatit2/before.png",
    "ref": "review_imgs/coatit2/ref.jpg",
    "photo": "review_imgs/coatit2/photo.jpg",
@@ -2966,25 +2984,34 @@
     {
      "id": "v0",
      "img": "review_imgs/coatit2/v0.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.91,
-     "pose": 0.105,
-     "bird": 0.801
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.893,
+     "pose": 0.118,
+     "bird": 0.681
     },
     {
      "id": "v1",
      "img": "review_imgs/coatit2/v1.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.918,
-     "pose": 0.126,
-     "bird": 0.674
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.873,
+     "pose": 0.133,
+     "bird": 0.686
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/coatit2/v2.png",
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.902,
+     "pose": 0.1,
+     "bird": 0.589
     }
    ],
-   "gen": 1782761027,
+   "gen": 1782800770,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "cockat": {
    "name": "Cockatiel",
@@ -3160,7 +3187,7 @@
    "name": "Common Chaffinch",
    "sci": "Fringilla coelebs",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "note-keep+2",
+   "reason": "not good-keep+2",
    "before": "review_imgs/comcha/before.png",
    "ref": "review_imgs/comcha/ref.jpg",
    "photo": "review_imgs/comcha/photo.jpg",
@@ -3172,25 +3199,25 @@
     {
      "id": "v0",
      "img": "review_imgs/comcha/v0.png",
-     "seed": 3015,
+     "seed": 3020,
      "strength": 0.62,
-     "sim": 0.925,
-     "pose": 0.088,
-     "bird": 0.39
+     "sim": 0.898,
+     "pose": 0.111,
+     "bird": 0.245
     },
     {
      "id": "v1",
      "img": "review_imgs/comcha/v1.png",
-     "seed": 3016,
+     "seed": 3021,
      "strength": 0.7,
-     "sim": 0.926,
-     "pose": 0.045,
-     "bird": 0.399
+     "sim": 0.893,
+     "pose": 0.059,
+     "bird": 0.285
     }
    ],
-   "gen": 1782761123,
+   "gen": 1782800866,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comcra": {
    "name": "Common Crane",
@@ -6732,46 +6759,37 @@
    "name": "Common Firecrest",
    "sci": "Regulus ignicapilla",
    "family": "Kinglets",
-   "reason": "manual-crop",
+   "reason": "not good-keep+2",
    "before": "review_imgs/firecr1/before.png",
    "ref": "review_imgs/firecr1/ref.jpg",
    "photo": "review_imgs/firecr1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Tiny kinglet, bright olive-green above, whitish below; bold white supercilium over black eyestripe, white below eye; flame-orange crown stripe bordered black, bronze shoulder patch, two white wingbars; thin black bill. Crown stripe flame-orange bordered black; two clear white wing-bars. Emphasise: a compact shape with bold black-and-white face stripes and greenish wings with pale wing-bars.",
+   "id": "Tiny kinglet, bright olive-green above, whitish below; bold white supercilium over black eyestripe, white below eye; flame-orange crown stripe bordered black, bronze shoulder patch, two white wingbars; thin black bill. Crown stripe flame-orange bordered black; two clear white wing-bars. Emphasise: a compact shape with bold black-and-white face stripes and greenish wings with pale wing-bars. Emphasise: less orange on the crown.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/firecr1/v0.png",
-     "seed": 1026,
-     "strength": 0.68,
-     "sim": 0.779,
-     "pose": 0.11,
-     "bird": 0.936
+     "seed": 3031,
+     "strength": 0.7,
+     "sim": 0.793,
+     "pose": 0.195,
+     "bird": 0.832
     },
     {
      "id": "v1",
      "img": "review_imgs/firecr1/v1.png",
-     "seed": 1025,
-     "strength": 0.6,
-     "sim": 0.803,
-     "pose": 0.087,
-     "bird": 0.867
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/firecr1/v2.png",
-     "seed": 1027,
-     "strength": 0.74,
-     "sim": 0.779,
-     "pose": 0.147,
-     "bird": 0.743
+     "seed": 3030,
+     "strength": 0.62,
+     "sim": 0.782,
+     "pose": 0.059,
+     "bird": 0.881
     }
    ],
-   "gen": 1782777419,
+   "gen": 1782800961,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "fuwduc": {
    "name": "Fulvous Whistling-Duck",
@@ -20159,21 +20177,15 @@
  },
  "queued": [
   "bargoo",
-  "bklkit",
   "bktgod",
   "blwpra1",
-  "borowl",
-  "brant",
-  "coatit2",
   "cogwar1",
   "colpra",
-  "comcha",
   "comchi1",
   "comcuc",
   "comgre",
   "comqua1",
   "comred1",
-  "firecr1",
   "gbhgul2",
   "litshe1",
   "mewgul",
