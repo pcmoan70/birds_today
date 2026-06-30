@@ -7387,7 +7387,7 @@
    "name": "Great Bustard",
    "sci": "Otis tarda",
    "family": "Bustards",
-   "reason": "not good-regen3",
+   "reason": "manual-crop",
    "before": "review_imgs/grebus1/before.png",
    "ref": "review_imgs/grebus1/ref.jpg",
    "photo": "review_imgs/grebus1/photo.jpg",
@@ -7399,34 +7399,34 @@
     {
      "id": "v0",
      "img": "review_imgs/grebus1/v0.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.718,
-     "pose": 0.753,
-     "bird": 0.86
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.836,
+     "pose": 0.219,
+     "bird": 0.903
     },
     {
      "id": "v1",
      "img": "review_imgs/grebus1/v1.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.873,
-     "pose": 0.113,
-     "bird": 0.778
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.849,
+     "pose": 0.181,
+     "bird": 0.805
     },
     {
      "id": "v2",
      "img": "review_imgs/grebus1/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.794,
-     "pose": 0.162,
-     "bird": 0.747
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.835,
+     "pose": 0.045,
+     "bird": 0.751
     }
    ],
-   "gen": 1782763108,
+   "gen": 1782779641,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "grecor": {
    "name": "Great Cormorant",
@@ -7581,7 +7581,7 @@
    "name": "Great Shearwater",
    "sci": "Ardenna gravis",
    "family": "Shearwaters and Petrels",
-   "reason": "not good-regen3",
+   "reason": "manual-crop",
    "before": "review_imgs/greshe/before.png",
    "ref": "review_imgs/greshe/ref.jpg",
    "photo": "review_imgs/greshe/photo.jpg",
@@ -7593,34 +7593,34 @@
     {
      "id": "v0",
      "img": "review_imgs/greshe/v0.png",
-     "seed": 1015,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.903,
-     "pose": 0.263,
-     "bird": 0.704
+     "sim": 0.866,
+     "pose": 0.318,
+     "bird": 0.892
     },
     {
      "id": "v1",
      "img": "review_imgs/greshe/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.766,
-     "pose": 0.281,
-     "bird": 0.654
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.855,
+     "pose": 0.382,
+     "bird": 0.823
     },
     {
      "id": "v2",
      "img": "review_imgs/greshe/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.838,
-     "pose": 0.187,
-     "bird": 0.356
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.841,
+     "pose": 0.242,
+     "bird": 0.409
     }
    ],
-   "gen": 1782763401,
+   "gen": 1782779782,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "gresku1": {
    "name": "Great Skua",
@@ -10459,9 +10459,10 @@
    "name": "Iberian Chiffchaff",
    "sci": "Phylloscopus ibericus",
    "family": "Leaf Warblers",
-   "reason": "none-good",
+   "reason": "manual-crop",
    "before": "review_imgs/ibechi2/before.png",
    "ref": "review_imgs/ibechi2/ref.jpg",
+   "photo": "review_imgs/ibechi2/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny olive-green warbler with yellowish supercilium and throat, greyer crown and nape, and whitish belly washed yellow. Fine dark bill, dark legs. Slim and active; very similar to Common Chiffchaff but slightly brighter yellow-and-green tones. No yellow anywhere in the plumage.",
@@ -10470,34 +10471,34 @@
     {
      "id": "v0",
      "img": "review_imgs/ibechi2/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.844,
-     "pose": 0.31,
-     "bird": 0.675
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.82,
+     "pose": 0.235,
+     "bird": 0.65
     },
     {
      "id": "v1",
      "img": "review_imgs/ibechi2/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.872,
-     "pose": 0.33,
-     "bird": 0.376
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.802,
+     "pose": 0.141,
+     "bird": 0.754
     },
     {
      "id": "v2",
      "img": "review_imgs/ibechi2/v2.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.849,
-     "pose": 0.204,
-     "bird": 0.348
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.841,
+     "pose": 0.138,
+     "bird": 0.26
     }
    ],
+   "gen": 1782780063,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/ibechi2/photo.jpg"
+   "pending": false
   },
   "ibgshr1": {
    "name": "Iberian Gray Shrike",
@@ -10688,9 +10689,10 @@
    "name": "Jack Snipe",
    "sci": "Lymnocryptes minimus",
    "family": "Sandpipers and Allies",
-   "reason": "none-good",
+   "reason": "manual-crop",
    "before": "review_imgs/jacsni/before.png",
    "ref": "review_imgs/jacsni/ref.jpg",
+   "photo": "review_imgs/jacsni/photo.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
    "id": "Small short-billed snipe with dark glossy purple-and-green back showing bold creamy-buff stripes, dark crown lacking a central pale stripe, and a split supercilium. Streaked buff breast, white belly, wedge-shaped pointed tail. Yellowish legs, fairly short straight bill.",
@@ -10699,34 +10701,34 @@
     {
      "id": "v0",
      "img": "review_imgs/jacsni/v0.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.843,
-     "pose": 0.505,
-     "bird": 0.768
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.881,
+     "pose": 0.261,
+     "bird": 0.649
     },
     {
      "id": "v1",
      "img": "review_imgs/jacsni/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.786,
-     "pose": 0.12,
-     "bird": 0.769
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.889,
+     "pose": 0.347,
+     "bird": 0.367
     },
     {
      "id": "v2",
      "img": "review_imgs/jacsni/v2.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.806,
-     "pose": 0.206,
-     "bird": 0.555
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.87,
+     "pose": 0.256,
+     "bird": 0.453
     }
    ],
+   "gen": 1782780203,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/jacsni/photo.jpg"
+   "pending": false
   },
   "kenplo1": {
    "name": "Kentish Plover",
@@ -11136,9 +11138,10 @@
    "name": "Lesser Kestrel",
    "sci": "Falco naumanni",
    "family": "Falcons and Caracaras",
-   "reason": "badref",
+   "reason": "manual-crop",
    "before": "review_imgs/leskes1/before.png",
    "ref": "review_imgs/leskes1/ref.jpg",
+   "photo": "review_imgs/leskes1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small slender falcon; male has an unmarked brick-red back, blue-grey head, blue-grey greater coverts on the wing, and pinkish-buff underparts lightly spotted. Blue-grey tail with black band. Pale (whitish) claws, yellow cere and feet, short hooked bill.",
@@ -11147,34 +11150,34 @@
     {
      "id": "v0",
      "img": "review_imgs/leskes1/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.724,
-     "pose": 0.406,
-     "bird": 0.851
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.83,
+     "pose": 0.172,
+     "bird": 0.822
     },
     {
      "id": "v1",
      "img": "review_imgs/leskes1/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.701,
-     "pose": 0.418,
-     "bird": 0.846
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.833,
+     "pose": 0.177,
+     "bird": 0.769
     },
     {
      "id": "v2",
      "img": "review_imgs/leskes1/v2.png",
-     "seed": 1010,
+     "seed": 1020,
      "strength": 0.6,
-     "sim": 0.703,
-     "pose": 0.539,
-     "bird": 0.708
+     "sim": 0.809,
+     "pose": 0.175,
+     "bird": 0.8
     }
    ],
+   "gen": 1782780344,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/leskes1/photo.jpg"
+   "pending": false
   },
   "leswhi4": {
    "name": "Lesser Whitethroat",
@@ -20101,12 +20104,6 @@
   }
  },
  "queued": [
-  "grebus1",
-  "greshe",
-  "horgre",
-  "ibechi2",
-  "jacsni",
-  "leskes1",
   "levwoo1",
   "loeowl",
   "lottit1",
