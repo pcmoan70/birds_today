@@ -8329,7 +8329,7 @@
    "name": "Collared Pratincole",
    "sci": "Glareola pratincola",
    "family": "Pratincoles and Coursers",
-   "reason": "manual-crop",
+   "reason": "not good-keep+2",
    "before": "review_imgs/colpra/before.png",
    "ref": "review_imgs/colpra/ref.jpg",
    "photo": "review_imgs/colpra/photo.jpg",
@@ -8341,40 +8341,31 @@
     {
      "id": "v0",
      "img": "review_imgs/colpra/v0.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.846,
-     "pose": 0.291,
-     "bird": 0.726
+     "seed": 3025,
+     "strength": 0.62,
+     "sim": 0.805,
+     "pose": 0.316,
+     "bird": 0.929
     },
     {
      "id": "v1",
      "img": "review_imgs/colpra/v1.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.854,
-     "pose": 0.118,
-     "bird": 0.574
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/colpra/v2.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.858,
-     "pose": 0.134,
-     "bird": 0.37
+     "seed": 3026,
+     "strength": 0.7,
+     "sim": 0.773,
+     "pose": 0.272,
+     "bird": 0.92
     }
    ],
-   "gen": 1782777006,
+   "gen": 1782801611,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comchi1": {
    "name": "Common Chiffchaff",
    "sci": "Phylloscopus collybita",
    "family": "Leaf Warblers",
-   "reason": "note-keep+2",
+   "reason": "not good-regen3",
    "before": "review_imgs/comchi1/before.png",
    "ref": "review_imgs/comchi1/ref.jpg",
    "photo": "review_imgs/comchi1/photo.jpg",
@@ -8386,22 +8377,40 @@
     {
      "id": "v0",
      "img": "review_imgs/comchi1/v0.png",
-     "seed": 3025,
-     "strength": 0.62,
-     "sim": 0.733,
-     "pose": 0.189,
-     "bird": 0.798
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.75,
+     "pose": 0.501,
+     "bird": 0.801
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/comchi1/v1.png",
+     "seed": 1031,
+     "strength": 0.68,
+     "sim": 0.764,
+     "pose": 0.186,
+     "bird": 0.852
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/comchi1/v2.png",
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.715,
+     "pose": 0.084,
+     "bird": 0.897
     }
    ],
-   "gen": 1782764664,
+   "gen": 1782801769,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comcuc": {
    "name": "Common Cuckoo",
    "sci": "Cuculus canorus",
    "family": "Cuckoos",
-   "reason": "manual-crop",
+   "reason": "not good-regen3",
    "before": "review_imgs/comcuc/before.png",
    "ref": "review_imgs/comcuc/ref.jpg",
    "photo": "review_imgs/comcuc/photo.jpg",
@@ -8413,16 +8422,16 @@
     {
      "id": "v0",
      "img": "review_imgs/comcuc/v0.png",
-     "seed": 1022,
+     "seed": 1027,
      "strength": 0.74,
-     "sim": 0.7,
-     "pose": 0.23,
-     "bird": 0.179
+     "sim": 0.701,
+     "pose": 0.186,
+     "bird": 0.209
     }
    ],
-   "gen": 1782777153,
+   "gen": 1782801902,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comeid": {
    "name": "Common Eider",
@@ -8528,34 +8537,34 @@
     {
      "id": "v0",
      "img": "review_imgs/comgre/v0.png",
-     "seed": 1026,
-     "strength": 0.68,
-     "sim": 0.808,
-     "pose": 0.402,
-     "bird": 0.88
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.831,
+     "pose": 0.303,
+     "bird": 0.851
     },
     {
      "id": "v1",
      "img": "review_imgs/comgre/v1.png",
-     "seed": 1025,
-     "strength": 0.6,
-     "sim": 0.794,
-     "pose": 0.404,
-     "bird": 0.865
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.834,
+     "pose": 0.331,
+     "bird": 0.736
     },
     {
      "id": "v2",
      "img": "review_imgs/comgre/v2.png",
-     "seed": 1027,
-     "strength": 0.74,
-     "sim": 0.78,
-     "pose": 0.403,
-     "bird": 0.89
+     "seed": 1031,
+     "strength": 0.68,
+     "sim": 0.828,
+     "pose": 0.254,
+     "bird": 0.624
     }
    ],
-   "gen": 1782764796,
+   "gen": 1782802043,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "commer": {
    "name": "Common Merganser",
@@ -8697,34 +8706,34 @@
     {
      "id": "v0",
      "img": "review_imgs/comqua1/v0.png",
-     "seed": 1025,
-     "strength": 0.6,
-     "sim": 0.864,
-     "pose": 0.562,
-     "bird": 0.865
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.839,
+     "pose": 0.609,
+     "bird": 0.518
     },
     {
      "id": "v1",
      "img": "review_imgs/comqua1/v1.png",
-     "seed": 1026,
-     "strength": 0.68,
-     "sim": 0.824,
-     "pose": 0.36,
-     "bird": 0.658
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.869,
+     "pose": 0.476,
+     "bird": 0.586
     },
     {
      "id": "v2",
      "img": "review_imgs/comqua1/v2.png",
-     "seed": 1027,
-     "strength": 0.74,
-     "sim": 0.792,
-     "pose": 0.347,
-     "bird": 0.429
+     "seed": 1031,
+     "strength": 0.68,
+     "sim": 0.859,
+     "pose": 0.423,
+     "bird": 0.467
     }
    ],
-   "gen": 1782765090,
+   "gen": 1782802183,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "comred1": {
    "name": "Common Redshank",
@@ -20187,11 +20196,6 @@
   }
  },
  "queued": [
-  "colpra",
-  "comchi1",
-  "comcuc",
-  "comgre",
-  "comqua1",
   "comred1",
   "litshe1",
   "mewgul",
