@@ -6723,7 +6723,7 @@
    "name": "Common Firecrest",
    "sci": "Regulus ignicapilla",
    "family": "Kinglets",
-   "reason": "not good-regen3",
+   "reason": "manual-crop",
    "before": "review_imgs/firecr1/before.png",
    "ref": "review_imgs/firecr1/ref.jpg",
    "photo": "review_imgs/firecr1/photo.jpg",
@@ -6735,34 +6735,34 @@
     {
      "id": "v0",
      "img": "review_imgs/firecr1/v0.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.782,
-     "pose": 0.092,
-     "bird": 0.923
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.779,
+     "pose": 0.11,
+     "bird": 0.936
     },
     {
      "id": "v1",
      "img": "review_imgs/firecr1/v1.png",
-     "seed": 1020,
+     "seed": 1025,
      "strength": 0.6,
-     "sim": 0.78,
-     "pose": 0.045,
-     "bird": 0.893
+     "sim": 0.803,
+     "pose": 0.087,
+     "bird": 0.867
     },
     {
      "id": "v2",
      "img": "review_imgs/firecr1/v2.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.765,
-     "pose": 0.068,
-     "bird": 0.686
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.779,
+     "pose": 0.147,
+     "bird": 0.743
     }
    ],
-   "gen": 1782761938,
+   "gen": 1782777419,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "fuwduc": {
    "name": "Fulvous Whistling-Duck",
@@ -8352,36 +8352,28 @@
    "name": "Common Cuckoo",
    "sci": "Cuculus canorus",
    "family": "Cuckoos",
-   "reason": "pick-keep-regen2",
+   "reason": "manual-crop",
    "before": "review_imgs/comcuc/before.png",
    "ref": "review_imgs/comcuc/ref.jpg",
+   "photo": "review_imgs/comcuc/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Slim grey bird with a long graduated white-spotted tail, grey head and breast, and white underparts finely barred grey. Pointed falcon-like wings, yellow eye-ring and feet, slightly downcurved dark bill with yellow base.",
+   "id": "Slim grey bird with a long graduated white-spotted tail, grey head and breast, and white underparts finely barred grey. Pointed falcon-like wings, yellow eye-ring and feet, slightly downcurved dark bill with yellow base. Emphasise: a slim, slightly down-curved bill, not massive.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comcuc/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.681,
-     "pose": 0.421,
-     "bird": 0.602
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comcuc/v1.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.695,
-     "pose": 0.26,
-     "bird": 0.474
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.7,
+     "pose": 0.23,
+     "bird": 0.179
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/comcuc/photo.jpg",
-   "pending": true
+   "gen": 1782777153,
+   "reviewed": false,
+   "pending": false
   },
   "comeid": {
    "name": "Common Eider",
@@ -8922,7 +8914,7 @@
    "name": "Cyprus Warbler",
    "sci": "Curruca melanothorax",
    "family": "Sylviid Warblers and Allies",
-   "reason": "not good-regen3",
+   "reason": "manual-crop",
    "before": "review_imgs/cypwar1/before.png",
    "ref": "review_imgs/cypwar1/ref.jpg",
    "photo": "review_imgs/cypwar1/photo.jpg",
@@ -8934,34 +8926,34 @@
     {
      "id": "v0",
      "img": "review_imgs/cypwar1/v0.png",
-     "seed": 1025,
-     "strength": 0.6,
-     "sim": 0.745,
-     "pose": 0.451,
-     "bird": 0.799
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.744,
+     "pose": 0.281,
+     "bird": 0.664
     },
     {
      "id": "v1",
      "img": "review_imgs/cypwar1/v1.png",
-     "seed": 1027,
-     "strength": 0.74,
-     "sim": 0.719,
-     "pose": 0.488,
-     "bird": 0.587
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.733,
+     "pose": 0.304,
+     "bird": 0.373
     },
     {
      "id": "v2",
      "img": "review_imgs/cypwar1/v2.png",
-     "seed": 1026,
+     "seed": 1031,
      "strength": 0.68,
-     "sim": 0.707,
-     "pose": 0.341,
-     "bird": 0.647
+     "sim": 0.751,
+     "pose": 0.268,
+     "bird": 0.311
     }
    ],
-   "gen": 1782765993,
+   "gen": 1782777976,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "delpri1": {
    "name": "Delicate Prinia",
@@ -10184,9 +10176,10 @@
    "name": "Common Hoopoe",
    "sci": "Upupa epops",
    "family": "Hoopoes",
-   "reason": "pick-keep-regen2",
+   "reason": "manual-crop",
    "before": "review_imgs/hoopoe/before.png",
    "ref": "review_imgs/hoopoe/ref.jpg",
+   "photo": "review_imgs/hoopoe/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Pinkish-cinnamon body with a bold black-and-white barred back, wings and tail. Erectile fan crest is cinnamon tipped black-and-white. Long thin slightly down-curved blackish bill, short greyish legs. Broad rounded wings boldly barred black and white.",
@@ -10195,25 +10188,34 @@
     {
      "id": "v0",
      "img": "review_imgs/hoopoe/v0.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.921,
-     "pose": 0.091,
-     "bird": 0.521
+     "seed": 1021,
+     "strength": 0.68,
+     "sim": 0.822,
+     "pose": 0.03,
+     "bird": 0.617
     },
     {
      "id": "v1",
      "img": "review_imgs/hoopoe/v1.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.905,
-     "pose": 0.199,
-     "bird": 0.189
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.885,
+     "pose": 0.153,
+     "bird": 0.242
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/hoopoe/v2.png",
+     "seed": 1020,
+     "strength": 0.6,
+     "sim": 0.852,
+     "pose": 0.065,
+     "bird": 0.281
     }
    ],
-   "reviewed": true,
-   "pending": true,
-   "photo": "review_imgs/hoopoe/photo.jpg"
+   "gen": 1782777696,
+   "reviewed": false,
+   "pending": false
   },
   "horgre": {
    "name": "Horned Grebe",
@@ -12451,45 +12453,46 @@
    "name": "Common Gull",
    "sci": "Larus canus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "badref",
+   "reason": "manual-crop",
    "before": "review_imgs/mewgul/before.png",
    "ref": "review_imgs/mewgul/ref.jpg",
+   "photo": "review_imgs/mewgul/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Medium gull with a gentle rounded head, medium-grey back, white head and underparts, black wingtips with large white spots ('mirrors'), a plain greenish-yellow bill, dark eye, and yellow-green legs.",
+   "id": "Medium gull with a gentle rounded head, medium-grey back, white head and underparts, black wingtips with large white spots ('mirrors'), a plain greenish-yellow bill, dark eye, and yellow-green legs. Emphasise: a gentle, rounded head.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/mewgul/v0.png",
-     "seed": 1016,
+     "seed": 1026,
      "strength": 0.68,
-     "sim": 0.902,
-     "pose": 0.341,
-     "bird": 0.959
+     "sim": 0.807,
+     "pose": 0.488,
+     "bird": 0.963
     },
     {
      "id": "v1",
      "img": "review_imgs/mewgul/v1.png",
-     "seed": 1017,
+     "seed": 1027,
      "strength": 0.74,
-     "sim": 0.913,
-     "pose": 0.414,
-     "bird": 0.853
+     "sim": 0.831,
+     "pose": 0.472,
+     "bird": 0.92
     },
     {
      "id": "v2",
      "img": "review_imgs/mewgul/v2.png",
-     "seed": 1015,
+     "seed": 1025,
      "strength": 0.6,
-     "sim": 0.906,
-     "pose": 0.35,
-     "bird": 0.807
+     "sim": 0.821,
+     "pose": 0.365,
+     "bird": 0.956
     }
    ],
+   "gen": 1782777554,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/mewgul/photo.jpg"
+   "pending": false
   },
   "misthr1": {
    "name": "Mistle Thrush",
@@ -20033,23 +20036,17 @@
  },
  "queued": [
   "bripet",
-  "comcuc",
-  "comeid",
   "commoo3",
-  "comred2",
-  "cypwar1",
   "doveki",
   "dunlin",
   "eurnig1",
   "eurspa1",
   "finwhe1",
-  "firecr1",
   "garwar1",
   "grapri1",
   "grebus1",
   "greshe",
   "gyfwoo1",
-  "hoopoe",
   "horgre",
   "ibechi2",
   "jacsni",
@@ -20059,7 +20056,6 @@
   "lottit1",
   "marwar1",
   "masshr1",
-  "mewgul",
   "norgos1",
   "santer1",
   "sedwar1",
