@@ -1177,7 +1177,7 @@
    ],
    "gen": 1782760599,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "bkskit1": {
    "name": "Black-winged Kite",
@@ -2145,7 +2145,7 @@
    ],
    "gen": 1782760733,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "brant": {
    "name": "Brant",
@@ -2181,7 +2181,7 @@
    ],
    "gen": 1782760829,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "brbsan": {
    "name": "Broad-billed Sandpiper",
@@ -2984,7 +2984,7 @@
    ],
    "gen": 1782761027,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "cockat": {
    "name": "Cockatiel",
@@ -3190,7 +3190,7 @@
    ],
    "gen": 1782761123,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "comcra": {
    "name": "Common Crane",
@@ -6771,7 +6771,7 @@
    ],
    "gen": 1782777419,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "fuwduc": {
    "name": "Fulvous Whistling-Duck",
@@ -6991,7 +6991,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/gbhgul2/photo.jpg"
+   "photo": "review_imgs/gbhgul2/photo.jpg",
+   "pending": true
   },
   "glagul": {
    "name": "Glaucous Gull",
@@ -7060,7 +7061,7 @@
      "bird": 0.63
     }
    ],
-   "reviewed": false,
+   "reviewed": true,
    "photo": "review_imgs/gloibi/photo.jpg",
    "pending": false
   },
@@ -7878,7 +7879,7 @@
    ],
    "gen": 1782764010,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "465888": {
    "name": "Pale Crag-Martin",
@@ -8018,7 +8019,7 @@
    ],
    "gen": 1782764193,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "blwpra1": {
    "name": "Black-winged Pratincole",
@@ -8052,7 +8053,7 @@
     }
    ],
    "reviewed": false,
-   "pending": false,
+   "pending": true,
    "photo": "review_imgs/blwpra1/photo.jpg"
   },
   "boowar1": {
@@ -8141,7 +8142,7 @@
     }
    ],
    "gen": 1782776865,
-   "reviewed": false,
+   "reviewed": true,
    "pending": false
   },
   "bripet": {
@@ -8249,7 +8250,7 @@
    ],
    "gen": 1782764576,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "colfly1": {
    "name": "Collared Flycatcher",
@@ -8338,7 +8339,7 @@
    ],
    "gen": 1782777006,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "comchi1": {
    "name": "Common Chiffchaff",
@@ -8365,7 +8366,7 @@
    ],
    "gen": 1782764664,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "comcuc": {
    "name": "Common Cuckoo",
@@ -8392,7 +8393,7 @@
    ],
    "gen": 1782777153,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "comeid": {
    "name": "Common Eider",
@@ -8435,7 +8436,7 @@
     }
    ],
    "reviewed": true,
-   "pending": true,
+   "pending": false,
    "photo": "review_imgs/comeid/photo.jpg"
   },
   "comgol": {
@@ -8525,7 +8526,7 @@
    ],
    "gen": 1782764796,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "commer": {
    "name": "Common Merganser",
@@ -8694,7 +8695,7 @@
    ],
    "gen": 1782765090,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "comred1": {
    "name": "Common Redshank",
@@ -8730,7 +8731,7 @@
    ],
    "gen": 1782765183,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "comred2": {
    "name": "Common Redstart",
@@ -10279,7 +10280,7 @@
     }
    ],
    "gen": 1782777696,
-   "reviewed": false,
+   "reviewed": true,
    "pending": false
   },
   "horgre": {
@@ -11660,7 +11661,7 @@
    ],
    "gen": 1782776591,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "litsti": {
    "name": "Little Stint",
@@ -12583,7 +12584,7 @@
    ],
    "gen": 1782777554,
    "reviewed": false,
-   "pending": false
+   "pending": true
   },
   "misthr1": {
    "name": "Mistle Thrush",
@@ -13469,7 +13470,8 @@
    ],
    "id": "Bunting with an olive-grey head and breast, a pale yellow throat and eye-ring (spectacle), rusty-buff belly, streaked brown back, a pinkish bill, and pinkish legs; subtle but distinctive head pattern.",
    "photo": "review_imgs/ortbun1/photo.jpg",
-   "pending": false
+   "pending": false,
+   "reviewed": true
   },
   "ortdov": {
    "name": "Oriental Turtle-Dove",
@@ -13502,7 +13504,7 @@
      "bird": 0.572
     }
    ],
-   "reviewed": false,
+   "reviewed": true,
    "photo": "review_imgs/ortdov/photo.jpg",
    "pending": false
   },
@@ -13538,7 +13540,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/osprey/photo.jpg"
+   "photo": "review_imgs/osprey/photo.jpg",
+   "pending": true
   },
   "padwar1": {
    "name": "Paddyfield Warbler",
@@ -13617,7 +13620,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/palhar1/photo.jpg"
+   "photo": "review_imgs/palhar1/photo.jpg",
+   "pending": true
   },
   "palroc1": {
    "name": "Pale Rockfinch",
@@ -13650,8 +13654,9 @@
      "bird": 0.517
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/palroc1/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/palroc1/photo.jpg",
+   "pending": false
   },
   "palsun2": {
    "name": "Palestine Sunbird",
@@ -13685,7 +13690,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/palsun2/photo.jpg"
+   "photo": "review_imgs/palsun2/photo.jpg",
+   "pending": true
   },
   "palswi3": {
    "name": "Pallid Swift",
@@ -13719,7 +13725,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/palswi3/photo.jpg"
+   "photo": "review_imgs/palswi3/photo.jpg",
+   "pending": true
   },
   "palwar5": {
    "name": "Pallas's Leaf Warbler",
@@ -13753,7 +13760,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/palwar5/photo.jpg"
+   "photo": "review_imgs/palwar5/photo.jpg",
+   "pending": true
   },
   "parcro2": {
    "name": "Parrot Crossbill",
@@ -13787,7 +13795,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/parcro2/photo.jpg"
+   "photo": "review_imgs/parcro2/photo.jpg",
+   "pending": true
   },
   "parjae": {
    "name": "Parasitic Jaeger",
@@ -13821,7 +13830,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/parjae/photo.jpg"
+   "photo": "review_imgs/parjae/photo.jpg",
+   "pending": true
   },
   "pecsan": {
    "name": "Pectoral Sandpiper",
@@ -13854,8 +13864,9 @@
      "bird": 0.636
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/pecsan/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/pecsan/photo.jpg",
+   "pending": false
   },
   "perfal": {
    "name": "Peregrine Falcon",
@@ -13888,8 +13899,9 @@
      "bird": 0.868
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/perfal/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/perfal/photo.jpg",
+   "pending": false
   },
   "pieavo1": {
    "name": "Pied Avocet",
@@ -13923,7 +13935,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/pieavo1/photo.jpg"
+   "photo": "review_imgs/pieavo1/photo.jpg",
+   "pending": true
   },
   "piekin1": {
    "name": "Pied Kingfisher",
@@ -13956,8 +13969,9 @@
      "bird": 0.096
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/piekin1/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/piekin1/photo.jpg",
+   "pending": false
   },
   "pifgoo": {
    "name": "Pink-footed Goose",
@@ -13990,8 +14004,9 @@
      "bird": 0.968
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/pifgoo/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/pifgoo/photo.jpg",
+   "pending": false
   },
   "pingro": {
    "name": "Pine Grosbeak",
@@ -14025,7 +14040,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/pingro/photo.jpg"
+   "photo": "review_imgs/pingro/photo.jpg",
+   "pending": true
   },
   "pitsan1": {
    "name": "Pin-tailed Sandgrouse",
@@ -14059,7 +14075,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/pitsan1/photo.jpg"
+   "photo": "review_imgs/pitsan1/photo.jpg",
+   "pending": true
   },
   "pomjae": {
    "name": "Pomarine Jaeger",
@@ -14092,8 +14109,9 @@
      "bird": 0.185
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/pomjae/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/pomjae/photo.jpg",
+   "pending": false
   },
   "purher1": {
    "name": "Purple Heron",
@@ -14126,8 +14144,9 @@
      "bird": 0.42
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/purher1/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/purher1/photo.jpg",
+   "pending": false
   },
   "pursan": {
    "name": "Purple Sandpiper",
@@ -14160,8 +14179,9 @@
      "bird": 0.301
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/pursan/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/pursan/photo.jpg",
+   "pending": false
   },
   "purswa": {
    "name": "Western Swamphen",
@@ -14228,8 +14248,9 @@
      "bird": 0.209
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/pygcor2/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/pygcor2/photo.jpg",
+   "pending": false
   },
   "radacc2": {
    "name": "Radde's Accentor",
@@ -14263,7 +14284,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/radacc2/photo.jpg"
+   "photo": "review_imgs/radacc2/photo.jpg",
+   "pending": true
   },
   "razorb": {
    "name": "Razorbill",
@@ -14287,7 +14309,8 @@
     }
    ],
    "id": "Black-and-white auk with a glossy black head and upperparts, pure white underparts, and a thin white line running from eye to the bill base. Deep flat-sided black bill crossed by a vertical white line, black legs.",
-   "photo": "review_imgs/razorb/photo.jpg"
+   "photo": "review_imgs/razorb/photo.jpg",
+   "pending": true
   },
   "rebcho1": {
    "name": "Red-billed Chough",
@@ -14320,8 +14343,9 @@
      "bird": 0.477
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/rebcho1/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/rebcho1/photo.jpg",
+   "pending": false
   },
   "rebfly": {
    "name": "Red-breasted Flycatcher",
@@ -14355,7 +14379,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/rebfly/photo.jpg"
+   "photo": "review_imgs/rebfly/photo.jpg",
+   "pending": true
   },
   "rebgoo1": {
    "name": "Red-breasted Goose",
@@ -14389,7 +14414,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/rebgoo1/photo.jpg"
+   "photo": "review_imgs/rebgoo1/photo.jpg",
+   "pending": true
   },
   "rebmer": {
    "name": "Red-breasted Merganser",
@@ -14422,8 +14448,9 @@
      "bird": 0.453
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/rebmer/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/rebmer/photo.jpg",
+   "pending": false
   },
   "rebshr1": {
    "name": "Red-backed Shrike",
@@ -14456,8 +14483,9 @@
      "bird": 0.433
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/rebshr1/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/rebshr1/photo.jpg",
+   "pending": false
   },
   "recpoc": {
    "name": "Red-crested Pochard",
@@ -14490,8 +14518,9 @@
      "bird": 0.769
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/recpoc/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/recpoc/photo.jpg",
+   "pending": false
   },
   "redava": {
    "name": "Red Avadavat",
@@ -14525,7 +14554,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/redava/photo.jpg"
+   "photo": "review_imgs/redava/photo.jpg",
+   "pending": true
   },
   "redcro": {
    "name": "Red Crossbill",
@@ -14559,7 +14589,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/redcro/photo.jpg"
+   "photo": "review_imgs/redcro/photo.jpg",
+   "pending": true
   },
   "redkit1": {
    "name": "Red Kite",
@@ -14593,7 +14624,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/redkit1/photo.jpg"
+   "photo": "review_imgs/redkit1/photo.jpg",
+   "pending": true
   },
   "redkno": {
    "name": "Red Knot",
@@ -14627,7 +14659,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/redkno/photo.jpg"
+   "photo": "review_imgs/redkno/photo.jpg",
+   "pending": true
   },
   "redpha1": {
    "name": "Red Phalarope",
@@ -14661,7 +14694,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/redpha1/photo.jpg"
+   "photo": "review_imgs/redpha1/photo.jpg",
+   "pending": true
   },
   "redpol1": {
    "name": "Redpoll",
@@ -14798,7 +14832,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/refblu1/photo.jpg"
+   "photo": "review_imgs/refblu1/photo.jpg",
+   "pending": true
   },
   "reffal1": {
    "name": "Red-footed Falcon",
@@ -14831,8 +14866,9 @@
      "bird": 0.125
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/reffal1/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/reffal1/photo.jpg",
+   "pending": false
   },
   "rekcoo1": {
    "name": "Red-knobbed Coot",
@@ -14875,7 +14911,7 @@
    ],
    "id": "Slaty-black waterbird like a coot, with a white bill and frontal shield topped by two distinctive dark red knobs above the shield. Red eye, greenish lobed legs, rounded sooty body.",
    "photo": "review_imgs/rekcoo1/photo.jpg",
-   "pending": false
+   "pending": true
   },
   "relpar1": {
    "name": "Red-legged Partridge",
@@ -14908,8 +14944,9 @@
      "bird": 0.704
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/relpar1/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/relpar1/photo.jpg",
+   "pending": false
   },
   "rengre": {
    "name": "Red-necked Grebe",
@@ -14943,7 +14980,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/rengre/photo.jpg"
+   "photo": "review_imgs/rengre/photo.jpg",
+   "pending": true
   },
   "rennig1": {
    "name": "Red-necked Nightjar",
@@ -14977,7 +15015,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/rennig1/photo.jpg"
+   "photo": "review_imgs/rennig1/photo.jpg",
+   "pending": true
   },
   "renpha": {
    "name": "Red-necked Phalarope",
@@ -15011,7 +15050,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/renpha/photo.jpg"
+   "photo": "review_imgs/renpha/photo.jpg",
+   "pending": true
   },
   "retloo": {
    "name": "Red-throated Loon",
@@ -15044,8 +15084,9 @@
      "bird": 0.843
     }
    ],
-   "reviewed": false,
-   "photo": "review_imgs/retloo/photo.jpg"
+   "reviewed": true,
+   "photo": "review_imgs/retloo/photo.jpg",
+   "pending": false
   },
   "retpip": {
    "name": "Red-throated Pipit",
@@ -15079,7 +15120,8 @@
     }
    ],
    "reviewed": false,
-   "photo": "review_imgs/retpip/photo.jpg"
+   "photo": "review_imgs/retpip/photo.jpg",
+   "pending": true
   },
   "ricpip1": {
    "name": "Richard's Pipit",
@@ -16067,7 +16109,8 @@
    ],
    "id": "Large white ibis with bare black head and neck and long down-curved black bill; black plumes (drooping tertials) over rear. Black legs, black wingtips visible in flight.",
    "photo": "review_imgs/sacibi2/photo.jpg",
-   "pending": false
+   "pending": false,
+   "reviewed": true
   },
   "sander": {
    "name": "Sanderling",
@@ -19776,7 +19819,8 @@
    ],
    "id": "Pale 'white-winged' gull with frosty grey back and pure white wingtips lacking black, rounded head, and dark eye. Long wings extending well past the tail; yellow bill with red gonys spot; pink legs.",
    "pending": false,
-   "photo": "review_imgs/y00478/photo.jpg"
+   "photo": "review_imgs/y00478/photo.jpg",
+   "reviewed": true
   },
   "y00743": {
    "name": "Carrion Crow",
@@ -20114,6 +20158,49 @@
   }
  },
  "queued": [
-  "snoowl1"
+  "bargoo",
+  "bklkit",
+  "bktgod",
+  "blwpra1",
+  "borowl",
+  "brant",
+  "coatit2",
+  "cogwar1",
+  "colpra",
+  "comcha",
+  "comchi1",
+  "comcuc",
+  "comgre",
+  "comqua1",
+  "comred1",
+  "firecr1",
+  "gbhgul2",
+  "litshe1",
+  "mewgul",
+  "osprey",
+  "palhar1",
+  "palsun2",
+  "palswi3",
+  "palwar5",
+  "parcro2",
+  "parjae",
+  "pieavo1",
+  "pingro",
+  "pitsan1",
+  "radacc2",
+  "razorb",
+  "rebfly",
+  "rebgoo1",
+  "redava",
+  "redcro",
+  "redkit1",
+  "redkno",
+  "redpha1",
+  "refblu1",
+  "rekcoo1",
+  "rengre",
+  "rennig1",
+  "renpha",
+  "retpip"
  ]
 }
