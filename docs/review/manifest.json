@@ -6687,7 +6687,7 @@
    "name": "Finsch's Wheatear",
    "sci": "Oenanthe finschii",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "not good-keep+2",
+   "reason": "manual-crop",
    "before": "review_imgs/finwhe1/before.png",
    "ref": "review_imgs/finwhe1/ref.jpg",
    "photo": "review_imgs/finwhe1/photo.jpg",
@@ -6699,25 +6699,34 @@
     {
      "id": "v0",
      "img": "review_imgs/finwhe1/v0.png",
-     "seed": 3021,
-     "strength": 0.7,
-     "sim": 0.741,
-     "pose": 0.414,
-     "bird": 0.745
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.789,
+     "pose": 0.392,
+     "bird": 0.562
     },
     {
      "id": "v1",
      "img": "review_imgs/finwhe1/v1.png",
-     "seed": 3020,
-     "strength": 0.62,
-     "sim": 0.829,
-     "pose": 0.182,
-     "bird": 0.192
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.784,
+     "pose": 0.277,
+     "bird": 0.596
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/finwhe1/v2.png",
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.77,
+     "pose": 0.121,
+     "bird": 0.556
     }
    ],
-   "gen": 1782761780,
+   "gen": 1782779096,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "firecr1": {
    "name": "Common Firecrest",
@@ -6875,7 +6884,7 @@
    "name": "Garden Warbler",
    "sci": "Sylvia borin",
    "family": "Sylviid Warblers and Allies",
-   "reason": "note-keep+2",
+   "reason": "manual-crop",
    "before": "review_imgs/garwar1/before.png",
    "ref": "review_imgs/garwar1/ref.jpg",
    "photo": "review_imgs/garwar1/photo.jpg",
@@ -6887,25 +6896,34 @@
     {
      "id": "v0",
      "img": "review_imgs/garwar1/v0.png",
-     "seed": 3021,
-     "strength": 0.7,
-     "sim": 0.836,
-     "pose": 0.241,
-     "bird": 0.676
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.834,
+     "pose": 0.191,
+     "bird": 0.763
     },
     {
      "id": "v1",
      "img": "review_imgs/garwar1/v1.png",
-     "seed": 3020,
-     "strength": 0.62,
-     "sim": 0.849,
-     "pose": 0.136,
-     "bird": 0.736
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.803,
+     "pose": 0.14,
+     "bird": 0.777
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/garwar1/v2.png",
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.771,
+     "pose": 0.175,
+     "bird": 0.786
     }
    ],
-   "gen": 1782762321,
+   "gen": 1782779229,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "gbbgul": {
    "name": "Great Black-backed Gull",
@@ -7234,7 +7252,7 @@
    "name": "Graceful Prinia",
    "sci": "Prinia gracilis",
    "family": "Cisticolas and Allies",
-   "reason": "bad ref-keep+2",
+   "reason": "manual-crop",
    "before": "review_imgs/grapri1/before.png",
    "ref": "review_imgs/grapri1/ref.jpg",
    "photo": "review_imgs/grapri1/photo.jpg",
@@ -7246,25 +7264,34 @@
     {
      "id": "v0",
      "img": "review_imgs/grapri1/v0.png",
-     "seed": 3021,
-     "strength": 0.7,
-     "sim": 0.759,
-     "pose": 0.515,
-     "bird": 0.35
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.755,
+     "pose": 0.466,
+     "bird": 0.658
     },
     {
      "id": "v1",
      "img": "review_imgs/grapri1/v1.png",
-     "seed": 3020,
-     "strength": 0.62,
-     "sim": 0.87,
-     "pose": 0.03,
-     "bird": 0.374
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.779,
+     "pose": 0.273,
+     "bird": 0.587
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/grapri1/v2.png",
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.753,
+     "pose": 0.13,
+     "bird": 0.702
     }
    ],
-   "gen": 1782762669,
+   "gen": 1782779362,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "grcgre1": {
    "name": "Great Crested Grebe",
@@ -8121,9 +8148,10 @@
    "name": "European Storm-Petrel",
    "sci": "Hydrobates pelagicus",
    "family": "Northern Storm-Petrels",
-   "reason": "pick-keep-regen2",
+   "reason": "manual-crop",
    "before": "review_imgs/bripet/before.png",
    "ref": "review_imgs/bripet/ref.jpg",
+   "photo": "review_imgs/bripet/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny blackish storm-petrel with a square white rump patch and white underwing bar, otherwise sooty all over. Short rounded wings, square tail, small black bill with tubenose, black legs and feet.",
@@ -8132,25 +8160,16 @@
     {
      "id": "v0",
      "img": "review_imgs/bripet/v0.png",
-     "seed": 3026,
-     "strength": 0.7,
-     "sim": 0.816,
-     "pose": 0.045,
-     "bird": 0.677
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/bripet/v1.png",
-     "seed": 3025,
-     "strength": 0.62,
-     "sim": 0.771,
-     "pose": 0.024,
-     "bird": 0.224
+     "seed": 1036,
+     "strength": 0.68,
+     "sim": 0.838,
+     "pose": 0.013,
+     "bird": 0.511
     }
    ],
+   "gen": 1782778964,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/bripet/photo.jpg"
+   "pending": false
   },
   "cirbun1": {
    "name": "Cirl Bunting",
@@ -9914,9 +9933,10 @@
    "name": "Gray-headed Woodpecker",
    "sci": "Picus canus",
    "family": "Woodpeckers",
-   "reason": "pick-keep-regen2",
+   "reason": "manual-crop",
    "before": "review_imgs/gyfwoo1/before.png",
    "ref": "review_imgs/gyfwoo1/ref.jpg",
+   "photo": "review_imgs/gyfwoo1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Green woodpecker, olive-green back, yellow-green rump, pale grey head and underparts; small red forehead patch, thin black moustache and dark lores; pale eye, slender grey bill.",
@@ -9925,25 +9945,34 @@
     {
      "id": "v0",
      "img": "review_imgs/gyfwoo1/v0.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.877,
-     "pose": 0.156,
-     "bird": 0.464
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.838,
+     "pose": 0.445,
+     "bird": 0.604
     },
     {
      "id": "v1",
      "img": "review_imgs/gyfwoo1/v1.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.899,
-     "pose": 0.189,
-     "bird": 0.205
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.82,
+     "pose": 0.239,
+     "bird": 0.539
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gyfwoo1/v2.png",
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.772,
+     "pose": 0.193,
+     "bird": 0.578
     }
    ],
+   "gen": 1782779495,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/gyfwoo1/photo.jpg"
+   "pending": false
   },
   "gyhchi": {
    "name": "Gray-headed Chickadee",
@@ -20072,13 +20101,8 @@
   }
  },
  "queued": [
-  "bripet",
-  "finwhe1",
-  "garwar1",
-  "grapri1",
   "grebus1",
   "greshe",
-  "gyfwoo1",
   "horgre",
   "ibechi2",
   "jacsni",
