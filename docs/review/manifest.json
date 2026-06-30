@@ -11299,9 +11299,10 @@
    "name": "Levaillant's Woodpecker",
    "sci": "Picus vaillantii",
    "family": "Woodpeckers",
-   "reason": "badref",
+   "reason": "manual-crop",
    "before": "review_imgs/levwoo1/before.png",
    "ref": "review_imgs/levwoo1/ref.jpg",
+   "photo": "review_imgs/levwoo1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Green woodpecker with yellowish-green back, pale grey-green underparts faintly barred on the belly, and a greyish face. Red crown extends to the nape; black moustache. Greenish-yellow rump, dark-tipped bill, greyish legs. Long stout grey bill.",
@@ -11310,16 +11311,16 @@
     {
      "id": "v0",
      "img": "review_imgs/levwoo1/v0.png",
-     "seed": 1012,
+     "seed": 1022,
      "strength": 0.74,
-     "sim": 0.768,
-     "pose": 0.332,
-     "bird": 0.788
+     "sim": 0.706,
+     "pose": 0.287,
+     "bird": 0.577
     }
    ],
+   "gen": 1782780493,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/levwoo1/photo.jpg"
+   "pending": false
   },
   "lirplo": {
    "name": "Little Ringed Plover",
@@ -11780,9 +11781,10 @@
    "name": "Long-eared Owl",
    "sci": "Asio otus",
    "family": "Typical Owls",
-   "reason": "pick-keep-regen2",
+   "reason": "manual-crop",
    "before": "review_imgs/loeowl/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/83848141/320",
+   "ref": "review_imgs/loeowl/ref.jpg",
+   "photo": "review_imgs/loeowl/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim upright owl with mottled grey-brown plumage, vertically streaked underparts, long close-set ear-tufts, and a rusty-orange facial disc with bright orange eyes. Dark X-pattern across the face. Hooked dark bill, feathered legs. Slender, elongated shape.",
@@ -11791,25 +11793,25 @@
     {
      "id": "v0",
      "img": "review_imgs/loeowl/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.759,
-     "pose": 0.378,
-     "bird": 0.876
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.717,
+     "pose": 0.065,
+     "bird": 0.233
     },
     {
      "id": "v1",
      "img": "review_imgs/loeowl/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.707,
-     "pose": 0.444,
-     "bird": 0.359
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.698,
+     "pose": 0.004,
+     "bird": 0.071
     }
    ],
+   "gen": 1782780633,
    "reviewed": false,
-   "photo": "review_imgs/loeowl/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "lolbuz1": {
    "name": "Long-legged Buzzard",
@@ -11905,9 +11907,10 @@
    "name": "Long-tailed Tit",
    "sci": "Aegithalos caudatus",
    "family": "Long-tailed Tits and Bushtits",
-   "reason": "pick-keep-regen2",
+   "reason": "manual-crop",
    "before": "review_imgs/lottit1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/424325641/320",
+   "ref": "review_imgs/lottit1/ref.jpg",
+   "photo": "review_imgs/lottit1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Tiny fluffy ball-shaped tit with a very long narrow tail. Whitish head (or with black lateral crown-stripes), blackish back, pinkish scapulars and flanks, and whitish underparts. Tiny stubby black bill, dark legs. Round body, long thin tail.",
@@ -11916,25 +11919,34 @@
     {
      "id": "v0",
      "img": "review_imgs/lottit1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.933,
-     "pose": 0.019,
-     "bird": 0.899
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.908,
+     "pose": 0.007,
+     "bird": 0.964
     },
     {
      "id": "v1",
      "img": "review_imgs/lottit1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.86,
-     "pose": 0.048,
-     "bird": 0.862
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.888,
+     "pose": 0.015,
+     "bird": 0.848
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lottit1/v2.png",
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.876,
+     "pose": 0.007,
+     "bird": 0.749
     }
    ],
+   "gen": 1782780774,
    "reviewed": false,
-   "photo": "review_imgs/lottit1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "lwfgoo": {
    "name": "Lesser White-fronted Goose",
@@ -12227,9 +12239,10 @@
    "name": "Marmora's Warbler",
    "sci": "Curruca sarda",
    "family": "Sylviid Warblers and Allies",
-   "reason": "badref",
+   "reason": "manual-crop",
    "before": "review_imgs/marwar1/before.png",
    "ref": "review_imgs/marwar1/ref.jpg",
+   "photo": "review_imgs/marwar1/photo.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
    "id": "Small slim uniformly slate-grey warbler, slightly paler below, with a red orbital eye-ring, dark legs, and a long graduated dark tail often cocked; reddish iris and fine dark bill.",
@@ -12238,34 +12251,34 @@
     {
      "id": "v0",
      "img": "review_imgs/marwar1/v0.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.815,
-     "pose": 0.28,
-     "bird": 0.774
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.706,
+     "pose": 0.187,
+     "bird": 0.893
     },
     {
      "id": "v1",
      "img": "review_imgs/marwar1/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.785,
-     "pose": 0.414,
-     "bird": 0.512
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.641,
+     "pose": 0.194,
+     "bird": 0.826
     },
     {
      "id": "v2",
      "img": "review_imgs/marwar1/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.842,
-     "pose": 0.172,
-     "bird": 0.556
+     "seed": 1025,
+     "strength": 0.6,
+     "sim": 0.711,
+     "pose": 0.293,
+     "bird": 0.472
     }
    ],
+   "gen": 1782780907,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/marwar1/photo.jpg"
+   "pending": false
   },
   "marwar3": {
    "name": "Marsh Warbler",
@@ -12306,9 +12319,10 @@
    "name": "Masked Shrike",
    "sci": "Lanius nubicus",
    "family": "Shrikes",
-   "reason": "pick-keep-regen2",
+   "reason": "manual-crop",
    "before": "review_imgs/masshr1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/109615951/320",
+   "ref": "review_imgs/masshr1/ref.jpg",
+   "photo": "review_imgs/masshr1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Slim long-tailed shrike with black crown, back and face mask, white forehead and large white supercilium, white throat and belly, rich orange flanks, white wing and tail patches, and a slender black bill.",
@@ -12317,25 +12331,34 @@
     {
      "id": "v0",
      "img": "review_imgs/masshr1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.939,
-     "pose": 0.279,
-     "bird": 0.761
+     "seed": 1015,
+     "strength": 0.6,
+     "sim": 0.906,
+     "pose": 0.174,
+     "bird": 0.423
     },
     {
      "id": "v1",
      "img": "review_imgs/masshr1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.928,
-     "pose": 0.154,
-     "bird": 0.238
+     "seed": 1016,
+     "strength": 0.68,
+     "sim": 0.912,
+     "pose": 0.123,
+     "bird": 0.247
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/masshr1/v2.png",
+     "seed": 1017,
+     "strength": 0.74,
+     "sim": 0.896,
+     "pose": 0.199,
+     "bird": 0.076
     }
    ],
+   "gen": 1782781048,
    "reviewed": false,
-   "photo": "review_imgs/masshr1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "meapip1": {
    "name": "Meadow Pipit",
@@ -20104,11 +20127,6 @@
   }
  },
  "queued": [
-  "levwoo1",
-  "loeowl",
-  "lottit1",
-  "marwar1",
-  "masshr1",
   "santer1",
   "sedwar1",
   "semfly1",
