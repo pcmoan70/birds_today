@@ -30,6 +30,7 @@ CROP_DIR = os.path.join(ROOT, "docs", "crop")
 CROP_MAN = os.path.join(CROP_DIR, "manifest.json")
 RETRY = os.path.join(R.HERE, "retry_rounds.json")
 FEEDBACK = os.path.join(R.HERE, "review_feedback.json")
+REJECTED = os.path.join(R.HERE, "rejected_photos.json")  # bad photo URLs (local)
 
 
 def git(*a):
@@ -67,6 +68,18 @@ def main():
     if len(sys.argv) < 2:
         sys.exit("usage: apply_crops.py crop_choices.json")
     choices = json.load(open(sys.argv[1], encoding="utf-8"))
+    # Record rejected photos (by URL) so crop_prep never re-fetches them.
+    rejected_urls = choices.pop("_rejected", []) or []
+    if rejected_urls:
+        cur = set()
+        if os.path.exists(REJECTED):
+            try:
+                cur = set(json.load(open(REJECTED, encoding="utf-8")))
+            except Exception:
+                cur = set()
+        cur |= set(rejected_urls)
+        json.dump(sorted(cur), open(REJECTED, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(f"recorded {len(rejected_urls)} rejected photo(s) ({len(cur)} total)")
     review = json.load(open(R.REVIEW_MAN, encoding="utf-8")) if os.path.exists(R.REVIEW_MAN) else {"species": {}}
     review.setdefault("species", {})
     retry = json.load(open(RETRY, encoding="utf-8")) if os.path.exists(RETRY) else {}

@@ -45,6 +45,16 @@ body {
 }
 .thumbs img:hover { border-color: #c9bfa6; }
 .thumbs img.sel { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(58,106,74,0.25); }
+.thumb { position: relative; line-height: 0; }
+.rejbtn {
+  position: absolute; top: 3px; right: 3px;
+  font-size: 11px; line-height: 1; cursor: pointer;
+  background: rgba(255,255,255,0.85); border: 1px solid #d9d2c0;
+  border-radius: 6px; padding: 1px 3px; opacity: 0; transition: opacity .1s;
+}
+.thumb:hover .rejbtn { opacity: 1; }
+.thumb.rejected .rejbtn { opacity: 1; filter: grayscale(0); }
+.thumb.rejected img { filter: grayscale(1) brightness(.85); opacity: .45; cursor: not-allowed; }
 
 .stagewrap { flex: 1; min-width: 280px; }
 .stage {

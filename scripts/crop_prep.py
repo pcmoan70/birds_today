@@ -30,7 +30,17 @@ from species import load_species  # noqa: E402
 ROOT = R.ROOT
 CROP_DIR = os.path.join(ROOT, "docs", "crop")
 CROP_MAN = os.path.join(CROP_DIR, "manifest.json")
+REJECTED = os.path.join(R.HERE, "rejected_photos.json")  # bad photo URLs (local)
 DISP = 1024  # hosted candidate size (crop boxes are normalised, so this is ample)
+
+
+def load_rejected():
+    if os.path.exists(REJECTED):
+        try:
+            return set(json.load(open(REJECTED, encoding="utf-8")))
+        except Exception:
+            return set()
+    return set()
 
 
 def flagged_codes():
@@ -51,7 +61,8 @@ def main():
              else flagged_codes())
     if not codes:
         print("no bad-photo species to prepare"); return
-    print(f"{len(codes)} species to prepare")
+    rejected = load_rejected()
+    print(f"{len(codes)} species to prepare ({len(rejected)} photos rejected, skipped)")
 
     man = {"species": {}}
     if os.path.exists(CROP_MAN):
@@ -68,7 +79,10 @@ def main():
         shutil.rmtree(vdir, ignore_errors=True)
         os.makedirs(vdir, exist_ok=True)
         print(f"\n[{i}/{len(codes)}] {code}  {sp['common']}")
-        cands = R._gather(sp, code, max(args.per + 4, 12))
+        # Gather extra so that, after dropping rejected photos, we still have
+        # enough to reach `per` — i.e. fresh photos replace the bad ones.
+        cands = R._gather(sp, code, args.per * 2 + 8)
+        cands = [c for c in cands if (getattr(c, "url", "") or "") not in rejected]
         saved = []
         for c in cands:
             if len(saved) >= args.per:

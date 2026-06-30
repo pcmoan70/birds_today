@@ -61,3 +61,4 @@ scripts/*.log
 
 # Manually-curated reference photos (local inputs; only thumbnails are published)
 scripts/pinned_refs/
+scripts/rejected_photos.json
