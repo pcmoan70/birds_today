@@ -8556,7 +8556,7 @@
    "name": "Eurasian Moorhen",
    "sci": "Gallinula chloropus",
    "family": "Rails, Gallinules, and Coots",
-   "reason": "not good-regen3",
+   "reason": "manual-crop",
    "before": "review_imgs/commoo3/before.png",
    "ref": "review_imgs/commoo3/ref.jpg",
    "photo": "review_imgs/commoo3/photo.jpg",
@@ -8568,16 +8568,25 @@
     {
      "id": "v0",
      "img": "review_imgs/commoo3/v0.png",
-     "seed": 1027,
+     "seed": 1031,
+     "strength": 0.68,
+     "sim": 0.762,
+     "pose": 0.109,
+     "bird": 0.765
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/commoo3/v1.png",
+     "seed": 1032,
      "strength": 0.74,
-     "sim": 0.778,
-     "pose": 0.245,
-     "bird": 0.77
+     "sim": 0.709,
+     "pose": 0.079,
+     "bird": 0.72
     }
    ],
-   "gen": 1782764957,
+   "gen": 1782778536,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "commur": {
    "name": "Common Murre",
@@ -9004,7 +9013,7 @@
    "name": "Dovekie",
    "sci": "Alle alle",
    "family": null,
-   "reason": "not good-keep+2",
+   "reason": "manual-crop",
    "before": "review_imgs/doveki/before.png",
    "ref": "review_imgs/doveki/ref.jpg",
    "photo": "review_imgs/doveki/photo.jpg",
@@ -9016,25 +9025,34 @@
     {
      "id": "v0",
      "img": "review_imgs/doveki/v0.png",
-     "seed": 3025,
-     "strength": 0.62,
-     "sim": 0.785,
-     "pose": 0.269,
-     "bird": 0.718
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.874,
+     "pose": 0.101,
+     "bird": 0.484
     },
     {
      "id": "v1",
      "img": "review_imgs/doveki/v1.png",
-     "seed": 3026,
-     "strength": 0.7,
-     "sim": 0.875,
-     "pose": 0.135,
-     "bird": 0.382
+     "seed": 1031,
+     "strength": 0.68,
+     "sim": 0.852,
+     "pose": 0.057,
+     "bird": 0.393
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/doveki/v2.png",
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.838,
+     "pose": 0.045,
+     "bird": 0.044
     }
    ],
-   "gen": 1782766231,
+   "gen": 1782778123,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "dunlin": {
    "name": "Dunlin",
@@ -9300,7 +9318,7 @@
    "name": "Eurasian Nightjar",
    "sci": "Caprimulgus europaeus",
    "family": "Nightjars and Allies",
-   "reason": "not good-keep+2",
+   "reason": "manual-crop",
    "before": "review_imgs/eurnig1/before.png",
    "ref": "review_imgs/eurnig1/ref.jpg",
    "photo": "review_imgs/eurnig1/photo.jpg",
@@ -9312,25 +9330,34 @@
     {
      "id": "v0",
      "img": "review_imgs/eurnig1/v0.png",
-     "seed": 3025,
-     "strength": 0.62,
-     "sim": 0.777,
-     "pose": 0.277,
-     "bird": 0.636
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.783,
+     "pose": 0.17,
+     "bird": 0.423
     },
     {
      "id": "v1",
      "img": "review_imgs/eurnig1/v1.png",
-     "seed": 3026,
-     "strength": 0.7,
-     "sim": 0.829,
-     "pose": 0.102,
-     "bird": 0.386
+     "seed": 1031,
+     "strength": 0.68,
+     "sim": 0.837,
+     "pose": 0.051,
+     "bird": 0.21
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurnig1/v2.png",
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.757,
+     "pose": 0.015,
+     "bird": 0.118
     }
    ],
-   "gen": 1782767078,
+   "gen": 1782778677,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "eursco1": {
    "name": "Eurasian Scops-Owl",
@@ -9363,7 +9390,7 @@
    "name": "Eurasian Sparrowhawk",
    "sci": "Accipiter nisus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "not good-keep+2",
+   "reason": "manual-crop",
    "before": "review_imgs/eurspa1/before.png",
    "ref": "review_imgs/eurspa1/ref.jpg",
    "photo": "review_imgs/eurspa1/photo.jpg",
@@ -9375,25 +9402,34 @@
     {
      "id": "v0",
      "img": "review_imgs/eurspa1/v0.png",
-     "seed": 3025,
-     "strength": 0.62,
-     "sim": 0.847,
-     "pose": 0.043,
-     "bird": 0.861
+     "seed": 1031,
+     "strength": 0.68,
+     "sim": 0.888,
+     "pose": 0.158,
+     "bird": 0.452
     },
     {
      "id": "v1",
      "img": "review_imgs/eurspa1/v1.png",
-     "seed": 3026,
-     "strength": 0.7,
-     "sim": 0.873,
-     "pose": 0.019,
-     "bird": 0.677
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.84,
+     "pose": 0.06,
+     "bird": 0.585
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/eurspa1/v2.png",
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.88,
+     "pose": 0.102,
+     "bird": 0.39
     }
    ],
-   "gen": 1782767272,
+   "gen": 1782778818,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "grnsan": {
    "name": "Green Sandpiper",
@@ -13039,9 +13075,10 @@
    "name": "Eurasian Goshawk",
    "sci": "Astur gentilis",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "none-good",
+   "reason": "manual-crop",
    "before": "review_imgs/norgos1/before.png",
    "ref": "review_imgs/norgos1/ref.jpg",
+   "photo": "review_imgs/norgos1/photo.jpg",
    "ref_source": "inaturalist",
    "recipe": "v4-macaulay-id",
    "id": "Large powerful hawk; slate-grey above, finely grey-barred white below, with a dark crown and broad white supercilium over a fierce orange-red eye, broad rounded wings, a long barred tail, and yellow legs.",
@@ -13050,34 +13087,34 @@
     {
      "id": "v0",
      "img": "review_imgs/norgos1/v0.png",
-     "seed": 1015,
+     "seed": 1025,
      "strength": 0.6,
-     "sim": 0.893,
-     "pose": 0.564,
-     "bird": 0.725
+     "sim": 0.773,
+     "pose": 0.631,
+     "bird": 0.809
     },
     {
      "id": "v1",
      "img": "review_imgs/norgos1/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.824,
-     "pose": 0.249,
-     "bird": 0.674
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.752,
+     "pose": 0.542,
+     "bird": 0.856
     },
     {
      "id": "v2",
      "img": "review_imgs/norgos1/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.821,
-     "pose": 0.209,
-     "bird": 0.602
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.718,
+     "pose": 0.354,
+     "bird": 0.637
     }
    ],
+   "gen": 1782778396,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/norgos1/photo.jpg"
+   "pending": false
   },
   "norhar1": {
    "name": "Hen Harrier",
@@ -20036,11 +20073,6 @@
  },
  "queued": [
   "bripet",
-  "commoo3",
-  "doveki",
-  "dunlin",
-  "eurnig1",
-  "eurspa1",
   "finwhe1",
   "garwar1",
   "grapri1",
@@ -20056,7 +20088,6 @@
   "lottit1",
   "marwar1",
   "masshr1",
-  "norgos1",
   "santer1",
   "sedwar1",
   "semfly1",
