@@ -6831,9 +6831,10 @@
    "name": "Gadwall",
    "sci": "Mareca strepera",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "recover-stuck",
    "before": "review_imgs/gadwal/before.png",
    "ref": "review_imgs/gadwal/ref.jpg",
+   "photo": "review_imgs/gadwal/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Grey dabbling duck, finely vermiculated grey body, scaled grey breast, black rear end; brown head, white speculum patch on wing; dark grey bill, dull yellow legs.",
@@ -6842,25 +6843,16 @@
     {
      "id": "v0",
      "img": "review_imgs/gadwal/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.753,
-     "pose": 0.511,
-     "bird": 0.764
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/gadwal/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.764,
-     "pose": 0.428,
-     "bird": 0.766
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.837,
+     "pose": 0.251,
+     "bird": 0.946
     }
    ],
+   "gen": 1782897411,
    "reviewed": false,
-   "photo": "review_imgs/gadwal/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "gargan": {
    "name": "Garganey",
@@ -7992,26 +7984,46 @@
    "name": "Balearic Shearwater",
    "sci": "Puffinus mauretanicus",
    "family": "Shearwaters and Petrels",
-   "reason": "all",
+   "reason": "recover-stuck",
    "before": "review_imgs/balshe1/before.png",
    "ref": "review_imgs/balshe1/ref.jpg",
+   "photo": "review_imgs/balshe1/photo.jpg",
    "ref_source": "pinned",
    "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "id": "Medium shearwater with dull brown upperparts and dirty buff-brown underparts, smudgy under-tail and vent. Slender dark bill, pinkish legs; long narrow wings held stiff. Overall drab muddy brown coloration.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/balshe1/v0.png",
-     "seed": 1001,
+     "seed": 1032,
+     "strength": 0.74,
+     "sim": 0.832,
+     "pose": 0.012,
+     "bird": 0.649
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/balshe1/v1.png",
+     "seed": 1030,
+     "strength": 0.6,
+     "sim": 0.902,
+     "pose": 0.008,
+     "bird": 0.476
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/balshe1/v2.png",
+     "seed": 1031,
      "strength": 0.68,
-     "sim": 0.748,
-     "pose": 0.107,
-     "bird": 0.842
+     "sim": 0.883,
+     "pose": 0.005,
+     "bird": 0.418
     }
    ],
-   "id": "Medium shearwater with dull brown upperparts and dirty buff-brown underparts, smudgy under-tail and vent. Slender dark bill, pinkish legs; long narrow wings held stiff. Overall drab muddy brown coloration.",
-   "pending": true,
-   "photo": "review_imgs/balshe1/photo.jpg"
+   "gen": 1782897699,
+   "reviewed": false,
+   "pending": false
   },
   "bktgod": {
    "name": "Black-tailed Godwit",
@@ -20307,13 +20319,9 @@
   }
  },
  "queued": [
-  "balshe1",
-  "borowl",
   "commer",
   "comred2",
   "dunlin",
-  "gadwal",
-  "grgowl",
   "grrwar1",
   "grscuc1",
   "hoomer",
