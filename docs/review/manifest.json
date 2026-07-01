@@ -8796,10 +8796,11 @@
    "name": "Common Redstart",
    "sci": "Phoenicurus phoenicurus",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "none-good",
+   "reason": "recover-stuck",
    "before": "review_imgs/comred2/before.png",
    "ref": "review_imgs/comred2/ref.jpg",
-   "ref_source": "whobird",
+   "photo": "review_imgs/comred2/photo.jpg",
+   "ref_source": "pinned",
    "recipe": "v4-macaulay-id",
    "id": "Slim chat with blue-grey crown and back, black face and throat, white forehead, bright orange-red breast and flanks, and a rusty-orange rump and quivering tail; thin black bill and dark legs.",
    "chosen": null,
@@ -8807,34 +8808,16 @@
     {
      "id": "v0",
      "img": "review_imgs/comred2/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.852,
-     "pose": 0.586,
-     "bird": 0.637
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/comred2/v1.png",
-     "seed": 1022,
+     "seed": 1037,
      "strength": 0.74,
-     "sim": 0.785,
-     "pose": 0.472,
-     "bird": 0.569
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/comred2/v2.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.835,
-     "pose": 0.337,
-     "bird": 0.345
+     "sim": 0.777,
+     "pose": 0.28,
+     "bird": 0.84
     }
    ],
+   "gen": 1782897997,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/comred2/photo.jpg"
+   "pending": false
   },
   "comsan": {
    "name": "Common Sandpiper",
@@ -9657,9 +9640,10 @@
    "name": "Great Spotted Cuckoo",
    "sci": "Clamator glandarius",
    "family": "Cuckoos",
-   "reason": "pick-keep-regen2",
+   "reason": "recover-stuck",
    "before": "review_imgs/grscuc1/before.png",
    "ref": "review_imgs/grscuc1/ref.jpg",
+   "photo": "review_imgs/grscuc1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Large slim cuckoo, grey-brown back and wings boldly spotted white, long white-edged tail; grey crested cap, pale buff face and throat, creamy-white underparts; longish dark bill.",
@@ -9668,25 +9652,25 @@
     {
      "id": "v0",
      "img": "review_imgs/grscuc1/v0.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.799,
-     "pose": 0.1,
-     "bird": 0.623
+     "seed": 1026,
+     "strength": 0.68,
+     "sim": 0.747,
+     "pose": 0.196,
+     "bird": 0.731
     },
     {
      "id": "v1",
      "img": "review_imgs/grscuc1/v1.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.809,
-     "pose": 0.159,
-     "bird": 0.307
+     "seed": 1027,
+     "strength": 0.74,
+     "sim": 0.751,
+     "pose": 0.063,
+     "bird": 0.454
     }
    ],
+   "gen": 1782898409,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/grscuc1/photo.jpg"
+   "pending": false
   },
   "grseag1": {
    "name": "Greater Spotted Eagle",
@@ -10873,9 +10857,10 @@
    "name": "Krüper's Nuthatch",
    "sci": "Sitta krueperi",
    "family": "Nuthatches",
-   "reason": "pick-keep-regen2",
+   "reason": "recover-stuck",
    "before": "review_imgs/krunut1/before.png",
    "ref": "review_imgs/krunut1/ref.jpg",
+   "photo": "review_imgs/krunut1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Small compact nuthatch with blue-grey upperparts, a black eyestripe and cap-edge, whitish throat, and buffy underparts marked by a large rufous-chestnut patch on the upper breast. Straight pointed grey bill, short tail, sturdy grey legs.",
@@ -10884,25 +10869,16 @@
     {
      "id": "v0",
      "img": "review_imgs/krunut1/v0.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.821,
-     "pose": 0.136,
-     "bird": 0.469
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/krunut1/v1.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.785,
-     "pose": 0.083,
-     "bird": 0.516
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.757,
+     "pose": 0.135,
+     "bird": 0.721
     }
    ],
+   "gen": 1782898977,
    "reviewed": false,
-   "pending": true,
-   "photo": "review_imgs/krunut1/photo.jpg"
+   "pending": false
   },
   "lammer1": {
    "name": "Bearded Vulture",
@@ -11699,7 +11675,7 @@
    "name": "Barolo Shearwater",
    "sci": "Puffinus baroli",
    "family": "Shearwaters and Petrels",
-   "reason": "manual-crop",
+   "reason": "recover-stuck",
    "before": "review_imgs/litshe1/before.png",
    "ref": "review_imgs/litshe1/ref.jpg",
    "photo": "review_imgs/litshe1/photo.jpg",
@@ -11711,16 +11687,16 @@
     {
      "id": "v0",
      "img": "review_imgs/litshe1/v0.png",
-     "seed": 1026,
-     "strength": 0.68,
-     "sim": 0.691,
-     "pose": 0.014,
-     "bird": 0.883
+     "seed": 1037,
+     "strength": 0.74,
+     "sim": 0.647,
+     "pose": 0.224,
+     "bird": 0.422
     }
    ],
-   "gen": 1782776591,
+   "gen": 1782899117,
    "reviewed": false,
-   "pending": true
+   "pending": false
   },
   "litsti": {
    "name": "Little Stint",
@@ -12712,36 +12688,28 @@
    "name": "Montagu's Harrier",
    "sci": "Circus pygargus",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "pick-keep-regen2",
+   "reason": "recover-stuck",
    "before": "review_imgs/monhar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44390971/320",
+   "ref": "review_imgs/monhar1/ref.jpg",
+   "photo": "review_imgs/monhar1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
-   "id": "Slender pale-grey harrier with long narrow wings, black wingtips and a single black bar across the upperwing, pale grey underparts with rusty streaks on belly and underwing; yellow eyes and legs.",
+   "id": "Slender pale-grey harrier with long narrow wings, black wingtips and a single black bar across the upperwing, pale grey underparts with rusty streaks on belly and underwing; yellow eyes and legs. Emphasise: a slimmer, correctly proportioned head.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/monhar1/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.82,
-     "pose": 0.023,
-     "bird": 0.797
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/monhar1/v1.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.823,
-     "pose": 0.052,
-     "bird": 0.72
+     "seed": 1022,
+     "strength": 0.74,
+     "sim": 0.813,
+     "pose": 0.034,
+     "bird": 0.87
     }
    ],
+   "gen": 1782899538,
    "reviewed": false,
-   "photo": "review_imgs/monhar1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "monpar1": {
    "name": "Monk Parakeet",
@@ -20319,19 +20287,6 @@
   }
  },
  "queued": [
-  "commer",
-  "comred2",
-  "dunlin",
-  "grrwar1",
-  "grscuc1",
-  "hoomer",
-  "horgre",
-  "kineid",
-  "krunut1",
-  "litshe1",
-  "mallar3",
-  "marsan",
-  "monhar1",
   "mstlar1",
   "norpin",
   "norshr1",
