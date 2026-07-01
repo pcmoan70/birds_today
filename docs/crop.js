@@ -4,31 +4,34 @@
 (function () {
   var KEY = "birdCropChoices";          // {code: {cand, picked, box, full}}
   var RKEY = "birdCropRejects";         // {photoUrl: true} — bad photos, by URL
+  var DKEY = "birdCropShowDone";        // "1" while completed crops are revealed
   var sel = {}, rejects = {};
   try { sel = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
   try { rejects = JSON.parse(localStorage.getItem(RKEY) || "{}"); } catch (e) {}
+  var showDone = localStorage.getItem(DKEY) === "1";
   function save() { localStorage.setItem(KEY, JSON.stringify(sel)); updateCount(); }
   function saveRej() { localStorage.setItem(RKEY, JSON.stringify(rejects)); }
   function rkey(c) { return c.url || c.img; }   // stable identity for a photo
   function st(code) { return sel[code] || (sel[code] = { cand: 0 }); }
-  function isSet(code) { var x = sel[code]; return !!(x && x.picked); }
+  // A species is "done" once a photo is picked AND a crop (box or full) is set —
+  // then it drops off the list (accepted). "Show done" reveals it to re-edit.
+  function isDone(code) { var x = sel[code]; return !!(x && x.picked && (x.full || x.box)); }
 
   function updateCount() {
-    var n = Object.keys(sel).filter(isSet).length;
+    var d = window.__crop || { species: {} };
+    var codes = Object.keys(d.species || {});
     var el = document.getElementById("count");
-    if (el) el.textContent = n ? n + " set" : "";
-    Object.keys(sel).forEach(function (code) {
-      var card = document.getElementById("c-" + code);
-      if (card) {
-        card.classList.toggle("done", isSet(code));
-        var s = card.querySelector(".state");
-        if (s) s.textContent = isSet(code)
-          ? (sel[code].full ? "✓ full image" : "✓ cropped") : "";
-      }
-    });
+    if (el) el.textContent = codes.filter(function (c) { return !isDone(c); }).length + " to do";
+    var db = document.getElementById("showdone");
+    if (db) {
+      var n = codes.filter(isDone).length;
+      db.hidden = n === 0;
+      db.textContent = (showDone ? "Hide done" : "Show done") + " (" + n + ")";
+      db.classList.toggle("on", showDone);
+    }
   }
 
-  function drawStage(code, data, wrap) {
+  function drawStage(code, data, wrap, onChange) {
     var s = st(code);
     var cand = data.cands[s.cand] || data.cands[0];
     wrap.innerHTML = "";
@@ -65,6 +68,7 @@
       drag = null;
       if (s.box && (s.box[2] < 0.02 || s.box[3] < 0.02)) s.box = null;  // a click, not a drag
       save(); showRect();
+      if (onChange) onChange();   // a completed crop drops the card off the list
     }
     stage.addEventListener("pointerup", end);
     stage.addEventListener("pointercancel", end);
@@ -79,8 +83,10 @@
 
   function render(d) {
     var grid = document.getElementById("grid");
+    grid.innerHTML = "";
     var codes = Object.keys(d.species || {});
     if (!codes.length) { document.getElementById("empty").hidden = false; return; }
+    document.getElementById("empty").hidden = true;
     codes.sort(function (a, b) {
       return (d.species[a].name || a).localeCompare(d.species[b].name || b);
     });
@@ -89,6 +95,11 @@
       var s = st(code);
       var card = document.createElement("div");
       card.className = "card"; card.id = "c-" + code;
+      // Accepted (done) crops drop off the list unless "Show done" is on.
+      function reflect() {
+        card.style.display = (isDone(code) && !showDone) ? "none" : "";
+        updateCount();
+      }
       var head = document.createElement("div"); head.className = "head";
       head.innerHTML = '<span class="name">' + (data.name || code) + "</span>" +
         '<span class="sci">' + (data.sci || "") + "</span>" +
@@ -110,7 +121,7 @@
           s.cand = i; s.picked = true; s.box = null; s.full = false; save();
           thumbs.querySelectorAll("img").forEach(function (e) { e.classList.remove("sel"); });
           t.classList.add("sel");
-          drawStage(code, data, wrap);
+          drawStage(code, data, wrap, reflect); reflect();
         };
         var rej = document.createElement("button");
         rej.className = "rejbtn"; rej.textContent = "🚫";
@@ -125,7 +136,7 @@
           saveRej();
           w.classList.toggle("rejected", !!rejects[k]);
           t.classList.remove("sel");
-          drawStage(code, data, wrap);
+          drawStage(code, data, wrap, reflect); reflect();
         };
         w.appendChild(t); w.appendChild(rej);
         thumbs.appendChild(w);
@@ -136,16 +147,17 @@
 
       var tools = document.createElement("div"); tools.className = "tools";
       var full = document.createElement("button"); full.textContent = "Use full image";
-      full.onclick = function () { s.picked = true; s.full = true; s.box = null; save(); drawStage(code, data, wrap); };
+      full.onclick = function () { s.picked = true; s.full = true; s.box = null; save(); drawStage(code, data, wrap, reflect); reflect(); };
       var clear = document.createElement("button"); clear.textContent = "Clear crop";
-      clear.onclick = function () { s.box = null; s.full = false; save(); drawStage(code, data, wrap); };
+      clear.onclick = function () { s.box = null; s.full = false; save(); drawStage(code, data, wrap, reflect); reflect(); };
       var hint = document.createElement("span"); hint.className = "hint";
       hint.textContent = "Drag on the large image to crop.";
       tools.appendChild(full); tools.appendChild(clear); tools.appendChild(hint);
       card.appendChild(tools);
 
       grid.appendChild(card);
-      drawStage(code, data, wrap);
+      drawStage(code, data, wrap, reflect);
+      reflect();
     });
     updateCount();
   }
@@ -177,6 +189,13 @@
     var blob = new Blob([JSON.stringify(out, null, 1)], { type: "application/json" });
     var a = document.createElement("a");
     a.href = URL.createObjectURL(blob); a.download = "crop_choices.json"; a.click();
+  };
+
+  var doneBtn = document.getElementById("showdone");
+  if (doneBtn) doneBtn.onclick = function () {
+    showDone = !showDone;
+    localStorage.setItem(DKEY, showDone ? "1" : "0");
+    render(window.__crop || { species: {} });
   };
 
   fetch("crop/manifest.json?_=" + Date.now())
