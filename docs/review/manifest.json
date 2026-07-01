@@ -15133,9 +15133,10 @@
    "name": "Red-necked Nightjar",
    "sci": "Caprimulgus ruficollis",
    "family": "Nightjars and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/rennig1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/314205091/320",
+   "ref": "review_imgs/rennig1/ref.jpg",
+   "photo": "review_imgs/rennig1/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Large pale nightjar with cryptic grey-brown vermiculated plumage; warm rufous collar across the nape, buff-spotted wings, and small white throat patches. Tiny dark bill, very large dark eyes, short legs.",
@@ -15144,33 +15145,34 @@
     {
      "id": "v0",
      "img": "review_imgs/rennig1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.744,
-     "pose": 0.252,
-     "bird": 0.449
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.774,
+     "pose": 0.134,
+     "bird": 0.825
     },
     {
      "id": "v1",
      "img": "review_imgs/rennig1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.742,
-     "pose": 0.053,
-     "bird": 0.575
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.735,
+     "pose": 0.15,
+     "bird": 0.826
     }
    ],
+   "gen": 1782805348,
    "reviewed": false,
-   "photo": "review_imgs/rennig1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "renpha": {
    "name": "Red-necked Phalarope",
    "sci": "Phalaropus lobatus",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/renpha/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/240378151/320",
+   "ref": "review_imgs/renpha/ref.jpg",
+   "photo": "review_imgs/renpha/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Dainty phalarope; breeding female has a dark grey head and back, white throat, a bright rufous-orange neck patch, and buff stripes on the back. Very thin needle-like black bill, dark lobed legs.",
@@ -15179,25 +15181,16 @@
     {
      "id": "v0",
      "img": "review_imgs/renpha/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.833,
-     "pose": 0.495,
-     "bird": 0.798
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/renpha/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.782,
-     "pose": 0.425,
-     "bird": 0.798
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.813,
+     "pose": 0.265,
+     "bird": 0.945
     }
    ],
+   "gen": 1782805480,
    "reviewed": false,
-   "photo": "review_imgs/renpha/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "retloo": {
    "name": "Red-throated Loon",
@@ -15238,9 +15231,10 @@
    "name": "Red-throated Pipit",
    "sci": "Anthus cervinus",
    "family": "Wagtails and Pipits",
-   "reason": "pick-keep-regen2",
+   "reason": "not good-regen3",
    "before": "review_imgs/retpip/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204585981/320",
+   "ref": "review_imgs/retpip/ref.jpg",
+   "photo": "review_imgs/retpip/photo.jpg",
    "ref_source": "whobird",
    "recipe": "v4-macaulay-id",
    "id": "Streaky pipit with heavily dark-streaked olive-brown upperparts and whitish underparts streaked on breast and flanks. Diagnostic brick-red wash on the face, throat and supercilium. Thin pinkish bill, pale pinkish legs.",
@@ -15249,25 +15243,34 @@
     {
      "id": "v0",
      "img": "review_imgs/retpip/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.854,
-     "pose": 0.126,
-     "bird": 0.749
+     "seed": 1011,
+     "strength": 0.68,
+     "sim": 0.799,
+     "pose": 0.114,
+     "bird": 0.847
     },
     {
      "id": "v1",
      "img": "review_imgs/retpip/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.782,
-     "pose": 0.058,
-     "bird": 0.861
+     "seed": 1010,
+     "strength": 0.6,
+     "sim": 0.831,
+     "pose": 0.253,
+     "bird": 0.62
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/retpip/v2.png",
+     "seed": 1012,
+     "strength": 0.74,
+     "sim": 0.803,
+     "pose": 0.052,
+     "bird": 0.744
     }
    ],
+   "gen": 1782805612,
    "reviewed": false,
-   "photo": "review_imgs/retpip/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "ricpip1": {
    "name": "Richard's Pipit",
@@ -20304,10 +20307,33 @@
   }
  },
  "queued": [
+  "balshe1",
+  "borowl",
+  "commer",
+  "comred2",
+  "dunlin",
+  "gadwal",
+  "grgowl",
+  "grrwar1",
+  "grscuc1",
+  "hoomer",
+  "horgre",
+  "kineid",
+  "krunut1",
+  "litshe1",
+  "mallar3",
+  "marsan",
+  "monhar1",
+  "mstlar1",
+  "norpin",
+  "norshr1",
+  "razorb",
+  "redpha1",
   "rekcoo1",
   "rengre",
-  "rennig1",
-  "renpha",
-  "retpip"
+  "rinduc",
+  "shteag1",
+  "snoowl1",
+  "subwar8"
  ]
 }
