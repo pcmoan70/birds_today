@@ -3435,7 +3435,7 @@
     },
     "faces": {
       "blksco1/flying_0.png": "right",
-      "blksco1/sitting_0.png": "right"
+      "blksco1/sitting_0.png": "left"
     },
     "credits": {
       "blksco1/flying_0.png": {
@@ -3448,7 +3448,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Common Scoter Melanitta nigra, Hrafnsönd, Iceland.jpg: Ómar Runólfsson\nderivative work: AHA2 (talk)",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Common_Scoter_Melanitta_nigra,_Hrafns%C3%B6nd,_Iceland_(crop).jpg"
+        }
       }
     }
   },
@@ -13290,7 +13296,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Pete from Liverpool, UK",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:A_Big_Bill_(53075052261).jpg"
+        }
       }
     }
   },
@@ -13748,7 +13760,7 @@
     },
     "faces": {
       "eursis/flying_0.png": "right",
-      "eursis/sitting_0.png": "left"
+      "eursis/sitting_0.png": "right"
     },
     "credits": {
       "eursis/flying_0.png": {
@@ -13761,7 +13773,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Matvei Kiselev",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Eurasian_siskin_(Spinus_spinus)._Siverskiy.jpg"
+        }
       }
     }
   },
@@ -15827,7 +15845,7 @@
     },
     "faces": {
       "gragoo/flying_0.png": "left",
-      "gragoo/sitting_0.png": "left"
+      "gragoo/sitting_0.png": "right"
     },
     "credits": {
       "gragoo/flying_0.png": {
@@ -15840,7 +15858,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Diliff",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Greylag_Goose_-_St_James%27s_Park,_London_-_Nov_2006.jpg"
+        }
       }
     }
   },
@@ -24434,7 +24458,7 @@
     },
     "faces": {
       "norlap/flying_0.png": "left",
-      "norlap/sitting_0.png": "right"
+      "norlap/sitting_0.png": "left"
     },
     "credits": {
       "norlap/flying_0.png": {
@@ -24447,7 +24471,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Lapwing_(Vanellus_vanellus).jpg"
+        }
       }
     }
   },
