@@ -61,7 +61,7 @@ IDSOURCED = os.path.join(HERE, "id_features_sourced.json")
 FEETFEATURES = os.path.join(HERE, "feet_features.json")  # family -> legs/feet clause
 RETRY = os.path.join(HERE, "retry_rounds.json")  # {code: round} — bumped when a
 #   species is marked "none good enough" so its re-gen uses fresh seeds.
-RECIPE = "v5-commons-fieldsketch"   # openly licensed Commons base photo +
+RECIPE = "v6-commons-whole"   # openly licensed Commons base photo +
 #   colour-field-sketch prompt. Bumping this marks every image made by the old
 #   recipe as stale, so a regeneration pass rebuilds the stack.
 PHOTOS = os.path.join(ROOT, "docs", "photos.json")        # the app's curated photo
@@ -268,6 +268,20 @@ def _wholeness(a):
     return max(0.0, 1.0 - edge / 0.12), float(a.mean())
 
 
+def _whole4(a):
+    """whole≈1 when the drawn bird touches none of the FOUR edges.
+
+    _wholeness forgives the bottom, because a photographed bird often stands at
+    the foot of the frame with its feet in the grass. A drawing is different:
+    the model paints on white, so a mask reaching the bottom means the legs were
+    cut off — a crane without its legs is as wrong as a magpie without its tail.
+    """
+    if a.sum() < 60:
+        return 0.0
+    edge = max(a[0, :].mean(), a[-1, :].mean(), a[:, 0].mean(), a[:, -1].mean())
+    return max(0.0, 1.0 - edge / 0.12)
+
+
 def curated_candidate(code):
     """The photo the app itself shows for this species, as a reference candidate.
 
@@ -361,14 +375,28 @@ def best_ref(sp, code, sess):
     # Commons has nothing good, so coverage never suffers for it.
     wikis = [i for i, s in enumerate(srcs) if s == "wikimedia"]
     if wikis:
-        best_wiki = max(wikis, key=lambda i: obj[i] + 0.6 * pose[i])
-        if obj[best_wiki] > 0.55 and photo[best_wiki] > 0.35:
+        # The bird has to be ALL THERE, preference or not. A Wikipedia lead
+        # image is often a cropped portrait — the magpie's tail, the heron's
+        # legs out of frame — and a drawing made from one inherits the missing
+        # part, which is exactly what a field guide must not do. Mask the most
+        # promising Commons candidates and take the best whole one; if none is
+        # whole, fall through to the scored pick (Commons candidates are in
+        # that pool too, so nothing is lost but the shortcut).
+        pre_w = sorted(wikis, key=lambda i: obj[i] + 0.6 * pose[i], reverse=True)[:5]
+        whole_w = {i: _wholeness(_mask(imgs[i], fast))[0] for i in pre_w}
+        usable = [i for i in pre_w
+                  if obj[i] > 0.55 and photo[i] > 0.35 and whole_w[i] > 0.55]
+        if usable:
+            best_wiki = max(usable,
+                            key=lambda i: obj[i] + 0.6 * pose[i] + 1.3 * whole_w[i])
             print(f"    ref[wikimedia PREFERRED]: bird={obj[best_wiki]:.2f} "
-                  f"pose={pose[best_wiki]:.2f} photo={photo[best_wiki]:.2f} "
-                  f"(openly licensed, of {len(imgs)})")
+                  f"pose={pose[best_wiki]:.2f} whole={whole_w[best_wiki]:.2f} "
+                  f"photo={photo[best_wiki]:.2f} (openly licensed, of {len(imgs)})")
             return tmp[best_wiki], "wikimedia"
-        print(f"    no usable Commons photo (best bird={obj[best_wiki]:.2f} "
-              f"photo={photo[best_wiki]:.2f}); scoring all sources")
+        best_wiki = pre_w[0]
+        print(f"    no whole-bird Commons photo (best bird={obj[best_wiki]:.2f} "
+              f"whole={whole_w[best_wiki]:.2f} photo={photo[best_wiki]:.2f}); "
+              f"scoring all sources")
 
     # CLIP is cheap; the whole-bird mask is not. Only mask the most promising
     # candidates (top real-bird + pose) with the fast model.
@@ -415,8 +443,8 @@ def prep_init(ref_path, sess, size=1024, frame=0):
 
     `frame` cycles the framing so re-flagging a "bad photo" that is really just a
     bad crop yields a genuinely different model input:
-      0 -> isolate the bird, 1.3x margin (default)
-      1 -> isolate the bird, looser 1.6x margin (more breathing room)
+      0 -> isolate the bird, 1.8x margin (default)
+      1 -> isolate the bird, looser 2.1x margin (more breathing room)
       2 -> no isolation: the whole photo letterboxed onto a white square
     Frame 2 (and any isolation failure) letterboxes the whole photo."""
     im = Image.open(ref_path).convert("RGB")
@@ -424,7 +452,7 @@ def prep_init(ref_path, sess, size=1024, frame=0):
         try:
             ci = cut.cut_pil(im, sess, 900)  # RGBA, cropped tight to the bird
             if ci is not None:
-                margin = 1.3 if frame % 3 == 0 else 1.6
+                margin = 1.8 if frame % 3 == 0 else 2.1
                 side = int(max(ci.size) * margin)
                 sq = Image.new("RGBA", (side, side), (255, 255, 255, 255))
                 sq.paste(ci, ((side - ci.width) // 2, (side - ci.height) // 2), ci)
@@ -440,6 +468,10 @@ VARIANTS = [(1000, 0.60), (1001, 0.68), (1002, 0.74)]
 # breathe. One per variant rank, so the three variants still span "faithful" to
 # "freer" and the reviewer picks.
 CONTROL_STRENGTHS = [0.90, 0.70, 0.50]
+# A generated bird counts as whole when almost nothing of it reaches the top or
+# side edges of the frame (the bottom is allowed: legs and perch). Same measure
+# as the reference check — see _wholeness.
+WHOLE_MIN = 0.55
 MAX_EDGE = 448   # display is <=230px (~460px retina); 448 is ample and ~20% smaller
 
 
@@ -527,7 +559,16 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
                        generator=gen).images[0]
         ci = cut.cut_pil(out, sess, MAX_EDGE)
         if ci is not None:
-            variants.append((ci, seed, strength, init))
+            # Even from a whole reference the model can draw past the canvas —
+            # a long tail or a raised wing running off the edge. Measure the
+            # generated frame before it is cut out (the cutout is cropped to
+            # the bird, so the truncation is invisible afterwards) and keep the
+            # score, so a clipped variant loses to an intact one below.
+            whole = _whole4(_mask(out, _fast_session()))
+            if whole < WHOLE_MIN:
+                print(f"    variant seed={seed} clipped at the frame "
+                      f"(whole={whole:.2f})")
+            variants.append((ci, seed, strength, init, whole))
     # Also publish the raw reference photo IN FULL (aspect preserved, never
     # cropped — the review tile letterboxes it), so the reviewer sees the whole
     # real photograph (tail, feet and all), not a square crop of it.
@@ -550,9 +591,16 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
     bird_p = QC.clip_probs(outs, [QC.POS] + QC.NEG)[:, 0].tolist()
     # Rank all variants best-first and save them for the review page so the user
     # can pick a different one; v0 is the auto-chosen best.
+    # An intact bird outranks a clipped one whatever else it scores: a field
+    # guide showing a magpie without its tail is wrong, however pretty.
+    whole_p = [v[4] for v in variants]
     order = sorted(range(len(outs)),
-                   key=lambda i: sims[i] + 0.5 * pose_p[i] + 0.5 * bird_p[i],
+                   key=lambda i: (whole_p[i] >= WHOLE_MIN,
+                                  sims[i] + 0.5 * pose_p[i] + 0.5 * bird_p[i]),
                    reverse=True)
+    if whole_p[order[0]] < WHOLE_MIN:
+        print(f"    {code}: every variant is clipped at the frame; "
+              f"keeping the best (whole={whole_p[order[0]]:.2f})")
     vdir = os.path.join(REVIEW_IMGS, code)
     os.makedirs(vdir, exist_ok=True)
     for f in os.listdir(vdir):
@@ -564,6 +612,7 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
         save_small(variants[i][0], os.path.join(vdir, f"{vid}.png"))
         vmeta.append({"id": vid, "img": f"review_imgs/{code}/{vid}.png",
                       "seed": variants[i][1], "strength": variants[i][2],
+                      "whole": round(variants[i][4], 3),
                       "sim": round(sims[i], 3), "pose": round(pose_p[i], 3),
                       "bird": round(bird_p[i], 3)})
     best = variants[order[0]]
@@ -593,7 +642,10 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
         with open(png + ".json", "w", encoding="utf-8") as jf:
             json.dump(meta, jf, ensure_ascii=False, indent=2)
     return {"png": png, "chosen": None, "variants": vmeta,
-            "ref": ref_rel, "photo": photo_rel}
+            "ref": ref_rel, "photo": photo_rel,
+            # True when even the best variant ran off the frame: the caller can
+            # re-queue the species for a re-draw at a looser framing.
+            "clipped": whole_p[order[0]] < WHOLE_MIN}
 
 
 def _is_done(code):

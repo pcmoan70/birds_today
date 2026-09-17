@@ -83,6 +83,17 @@ def process(job, pipe, sess, by_code, fams, ids):
     if not res:
         return False
 
+    # Every variant drawn past the edge of the frame: try once more with the
+    # bird smaller in the control image (refetch => vary_frame, which draws
+    # each variant at a different framing) rather than publish a cut-off bird.
+    if res.get("clipped") and not job.get("refetch"):
+        jobs = Q.load()
+        if code not in set(Q.job_codes(jobs)):
+            Q.save(Q.enqueue(jobs, code, "coverage", refetch=True, n_new=3,
+                             priority=Q.COVERAGE,
+                             reason="re-draw: bird clipped at the frame"))
+            print(f"    {code}: re-queued at a looser framing")
+
     fam = fams.get(code) or [None, None]
     # Re-read just before writing to fold in any concurrent apply_choices edits.
     review = json.load(open(R.REVIEW_MAN, encoding="utf-8")) if os.path.exists(R.REVIEW_MAN) else {"species": {}}
