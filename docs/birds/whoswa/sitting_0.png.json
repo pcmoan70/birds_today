@@ -7,7 +7,7 @@
   "reference": "sitting_0.jpg",
   "strength": 0.9,
   "seed": 1000,
-  "recipe": "v5-commons-fieldsketch",
+  "recipe": "v6-commons-whole",
   "reference_credit": {
     "source": "wikimedia",
     "author": "Martin Vavřík",
