@@ -73,3 +73,17 @@ reverted: it pulls aberrant and arty shots).
 Corollary: `extmetadata.Artist` is sometimes missing while
 `AttributionRequired` is true — fall back to the file's uploader rather than
 publishing "unknown".
+
+## Verify as a returning visitor, not only in a fresh browser
+After switching the photo source to Wikimedia the grid looked right in every
+Playwright run — each run starts with an empty profile. The user still saw the
+old photos, because `refPhoto` read the persisted `bc_refs` localStorage cache
+*before* `photos.json`, and that cache never expired. Anything the app caches
+in localStorage/IndexedDB outlives a deploy, so:
+
+- data that ships with the app (photos.json, manifests) is the authority — the
+  cache may only answer for what the shipped data does not cover;
+- version the storage key whenever the meaning of its contents changes, and
+  delete the old key on load;
+- reproduce user-visible bugs with the old state seeded (`add_init_script` to
+  set localStorage) before concluding a deploy is good.
