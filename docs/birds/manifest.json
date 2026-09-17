@@ -1517,14 +1517,20 @@
       ]
     },
     "faces": {
-      "barswa/sitting_0.png": "right"
+      "barswa/sitting_0.png": "left"
     },
     "credits": {
       "barswa/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Rauchschwalbe_Hirundo_rustica.jpg"
+        }
       }
     }
   },
@@ -2692,7 +2698,7 @@
     },
     "faces": {
       "blagro1/flying_0.png": "right",
-      "blagro1/sitting_0.png": "left"
+      "blagro1/sitting_0.png": "right"
     },
     "credits": {
       "blagro1/flying_0.png": {
@@ -2705,7 +2711,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Vnp at German Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Birkhahn_(cropped).jpg"
+        }
       }
     }
   },
@@ -11662,7 +11674,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Mark Medcalf",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Ficedula_hypoleuca_-Wood_of_Cree_Nature_Reserve,_Scotland_-male-8a.jpg"
+        }
       }
     }
   },
@@ -12203,7 +12221,7 @@
     },
     "faces": {
       "eurcur/flying_0.png": "left",
-      "eurcur/sitting_0.png": "left"
+      "eurcur/sitting_0.png": "right"
     },
     "credits": {
       "eurcur/flying_0.png": {
@@ -12216,7 +12234,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Mike Pennington",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Curlew_(Numenius_arquata),_Northdale_-_geograph.org.uk_-_2457218.jpg"
+        }
       }
     }
   },
@@ -14280,7 +14304,7 @@
     },
     "faces": {
       "eurwig/flying_0.png": "left",
-      "eurwig/sitting_0.png": "right"
+      "eurwig/sitting_0.png": "left"
     },
     "credits": {
       "eurwig/flying_0.png": {
@@ -14293,7 +14317,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Frode Inge Helland",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2010_04_01_Mareca_penelope_163.jpg"
+        }
       }
     }
   },
