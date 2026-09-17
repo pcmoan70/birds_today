@@ -433,7 +433,7 @@
       if (!_refQueue.length) return;
       var job = _refQueue.shift();
       _refBusy++; _refLast = Date.now();
-      fetchInat(job[0], job[1]);
+      lookupPhoto(job[0], job[1]);
       pumpRefQueue();
     }, wait);
   }
@@ -441,6 +441,67 @@
   // Only openly licensed photos are shown: every candidate must carry a
   // licence code, and a taxon's own "default photo" is skipped when it does not
   // (it can be all rights reserved).
+  // Same order as scripts/build_photos.py: the species article's lead photograph
+  // first — editors put the best portrait at the top, and the file is on Commons
+  // with a licence and a named photographer — then iNaturalist's curated set.
+  // Both APIs allow cross-origin reads with origin=*.
+  function lookupPhoto(code, cb) {
+    var finish = function (rec, keep) {
+      if (rec || keep) { REF_CACHE[code] = rec || null; saveRefCache(); }
+      _refBusy--; cb(rec); pumpRefQueue();
+    };
+    fetchWikiLead(code,
+      function () { fetchInat(code, cb); },     // no article photo: try iNaturalist
+      finish);
+  }
+
+  function fetchWikiLead(code, next, done) {
+    var nm = nameFor(code);
+    var titles = [nm.sci, nm.common].filter(Boolean);
+    if (!titles.length) { next(); return; }
+    // Try the scientific name first and the common name only if that article
+    // has no lead photo: a common name can land on a disambiguation page, the
+    // binomial never does.
+    var tryTitle = function (i) {
+      if (i >= titles.length) { next(); return; }
+      wikiLeadFor(titles[i], function () { tryTitle(i + 1); }, done);
+    };
+    tryTitle(0);
+  }
+
+  function wikiLeadFor(title, next, done) {
+    fetch("https://en.wikipedia.org/w/api.php?origin=*&format=json&redirects=1" +
+          "&action=query&prop=pageimages&piprop=name&titles=" +
+          encodeURIComponent(title))
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        var pages = ((j || {}).query || {}).pages || {};
+        var name = null;
+        for (var k in pages) { if (pages[k].pageimage) { name = pages[k].pageimage; break; } }
+        if (!name) { next(); return; }
+        return fetch("https://commons.wikimedia.org/w/api.php?origin=*&format=json" +
+                     "&action=query&prop=imageinfo&iiprop=extmetadata|url|size|user" +
+                     "&iiurlwidth=1024&titles=" + encodeURIComponent("File:" + name))
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .then(function (c) {
+            var cp = ((c || {}).query || {}).pages || {};
+            var ii = null;
+            for (var k2 in cp) { if (cp[k2].imageinfo) { ii = cp[k2].imageinfo[0]; break; } }
+            var em = (ii || {}).extmetadata || {};
+            var lic = ((em.LicenseShortName || {}).value || "").trim();
+            var url = (ii || {}).thumburl || (ii || {}).url || "";
+            if (!lic || !url || /fair use|non-free/i.test(lic)) { next(); return; }
+            done({ url: url.split("?")[0], credit: "Wikimedia Commons", license: lic,
+              // A few files carry no Artist field though attribution is still
+              // required; the uploader is the credit in that case.
+              by: (((em.Artist || {}).value || "").replace(/<[^>]+>/g, "").trim()
+                   || ii.user || ""),
+              page: (ii || {}).descriptionurl || "", src: "commons" });
+          });
+      })
+      .catch(function () { next(); });
+  }
+
   function fetchInat(code, cb) {
     var sci = nameFor(code).sci;
     // `keep` distinguishes "this species has no openly licensed photo" (cache

@@ -3,12 +3,16 @@
 The drawings are grounded on whoBIRD's curated list: one editor-picked Macaulay
 photo per species. The app needs the same thing for the pictures it *shows*, but
 Macaulay photos are all rights reserved, so this builds the open-licence
-equivalent: iNaturalist keeps a community-curated, ordered set of representative
-photos per taxon (`taxon_photos`), and this takes the first one carrying a
-Creative Commons licence.
+equivalent, preferring the best-curated source first:
 
-That beats sampling observations at random — which is what the app fell back to
-before, and why the grid showed distant birds on wires and cluttered feeders.
+  1. the **lead photograph of the species' English Wikipedia article** — chosen
+     by editors, almost always a Commons quality image (typically 3-8 Mpx, by a
+     named photographer under CC BY or CC BY-SA);
+  2. failing that, iNaturalist's community-curated `taxon_photos`, first entry
+     with a Creative Commons licence.
+
+Both beat sampling observations at random, which is what the app did first and
+why the grid was full of phone snapshots of distant birds.
 
 Each entry keeps the photographer, the licence and a link to the photo, which is
 what CC attribution requires.
@@ -20,6 +24,7 @@ what CC attribution requires.
 import argparse
 import json
 import os
+import re
 import sys
 import time
 
@@ -33,6 +38,9 @@ SELECTED = os.path.join(HERE, "selected_species.txt")
 OUT = os.path.join(ROOT, "docs", "photos.json")
 
 API = "https://api.inaturalist.org/v1"
+WIKI = "https://en.wikipedia.org/w/api.php"
+COMMONS = "https://commons.wikimedia.org/w/api.php"
+THUMB_W = 1024        # what a grid tile needs on a retina screen
 S = requests.Session()
 S.headers["User-Agent"] = ("BirdCalendar/0.1 (https://github.com/pcmoan70/birds_today; "
                            "non-commercial)")
@@ -55,6 +63,70 @@ def _get(path, **params):
             return None
         except requests.RequestException:
             time.sleep(3 * (attempt + 1))
+    return None
+
+
+def _strip_html(s):
+    return re.sub(r"<[^>]+>", "", s or "").strip()
+
+
+def _api(url, **params):
+    for attempt in range(3):
+        try:
+            r = S.get(url, params=dict(format="json", **params), timeout=45)
+            time.sleep(0.35)
+            if r.status_code == 200:
+                return r.json()
+            if r.status_code in (429, 503):
+                time.sleep(5 * (attempt + 1))
+                continue
+            return None
+        except requests.RequestException:
+            time.sleep(2 * (attempt + 1))
+    return None
+
+
+def wikipedia_lead(sci, common):
+    """The species article's lead photograph, with its Commons licence.
+
+    Wikipedia's editors put the best available portrait at the top of the
+    article, so this is a curated pick in the same spirit as whoBIRD's — and the
+    file lives on Commons, openly licensed with a named author.
+    """
+    for title in (sci, common):
+        if not title:
+            continue
+        d = _api(WIKI, action="query", prop="pageimages", piprop="name",
+                 titles=title, redirects=1)
+        pages = ((d or {}).get("query") or {}).get("pages") or {}
+        name = next((p.get("pageimage") for p in pages.values() if p.get("pageimage")), None)
+        if not name:
+            continue
+        c = _api(COMMONS, action="query", titles="File:" + name, prop="imageinfo",
+                 iiprop="extmetadata|url|size|user", iiurlwidth=THUMB_W)
+        cpages = ((c or {}).get("query") or {}).get("pages") or {}
+        info = next((p.get("imageinfo") for p in cpages.values() if p.get("imageinfo")), None)
+        if not info:
+            continue
+        ii = info[0]
+        em = ii.get("extmetadata") or {}
+        lic = (em.get("LicenseShortName", {}).get("value") or "").strip()
+        # Only openly licensed files; Commons marks the rare non-free one.
+        if not lic or "fair use" in lic.lower() or "non-free" in lic.lower():
+            continue
+        url = ii.get("thumburl") or ii.get("url")
+        if not url or not re.search(r"[.](jpe?g|png)$", url.split("?")[0], re.I):
+            continue
+        return {
+            "url": url.split("?")[0],
+            "credit": "Wikimedia Commons",
+            "license": lic,
+            # A few files carry no Artist field though Commons still requires
+            # attribution; the uploader is the credit in that case.
+            "by": (_strip_html(em.get("Artist", {}).get("value"))
+                   or ii.get("user") or "unknown"),
+            "page": ii.get("descriptionurl") or "",
+        }
     return None
 
 
@@ -114,15 +186,18 @@ def main():
     print(f"{len(todo)} species to curate ({stored} already stored)", flush=True)
     found = 0
     for n, (code, sci, common) in enumerate(todo, 1):
-        tid = taxon_id(sci)
-        rec = curated_photo(tid) if tid else None
+        rec = wikipedia_lead(sci, common)
+        if not rec:                      # no article photo: iNaturalist's pick
+            tid = taxon_id(sci)
+            rec = curated_photo(tid) if tid else None
         if rec:
             out[code] = rec
             found += 1
         else:
             out.pop(code, None)
         print(f"  {n:3}/{len(todo)} {code:9} {common[:26]:26} "
-              f"{rec['license'] if rec else 'no CC photo':12}", flush=True)
+              f"{(rec['credit'] if rec else 'none'):18} "
+              f"{rec['license'] if rec else 'no CC photo':14}", flush=True)
         if n % 10 == 0 or n == len(todo):
             json.dump(out, open(OUT, "w", encoding="utf-8"),
                       ensure_ascii=False, separators=(",", ":"))
