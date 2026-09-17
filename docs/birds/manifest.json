@@ -15793,7 +15793,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Thomas Bresson",
+          "license": "CC BY 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2014-10-30_09-11-15_Regulus_regulus.jpg"
+        }
       }
     }
   },
@@ -20210,7 +20216,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Larus-fuscus-taxbox.jpg"
+        }
       }
     }
   },
@@ -27806,7 +27818,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "gailhampshire from Cradley, Malvern, U.K",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Reed_Bunting._Emberiza_schoeniclus_(44523903060).jpg"
+        }
       }
     }
   },
@@ -28726,14 +28744,20 @@
       ]
     },
     "faces": {
-      "rinouz1/sitting_0.png": "left"
+      "rinouz1/sitting_0.png": "right"
     },
     "credits": {
       "rinouz1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "MPF",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2015-04-20_Turdus_torquatus_torquatus_Cairngorm_1.jpg"
+        }
       }
     }
   },
@@ -31914,7 +31938,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Ken Billington",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Song_Thrush_(Turdus_philomelos)_(3).jpg"
+        }
       }
     }
   },
