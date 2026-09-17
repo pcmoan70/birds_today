@@ -6657,35 +6657,27 @@
    "name": "Fieldfare",
    "sci": "Turdus pilaris",
    "family": "Thrushes",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/fieldf/before.png",
    "ref": "review_imgs/fieldf/ref.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "id": "Large thrush with blue-grey head and rump contrasting chestnut-brown back, blackish tail; warm orange-buff breast heavily spotted black, white belly, dark arrowhead spots on flanks; yellow bill with dark tip.",
+   "photo": "review_imgs/fieldf/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
+   "id": "Large thrush with blue-grey head and rump contrasting chestnut-brown back, blackish tail; warm orange-buff breast heavily spotted black, white belly, dark arrowhead spots on flanks; yellow bill with dark tip. Emphasise: a grey head and rump with chestnut back; breast and flank spots a little paler and slightly denser.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/fieldf/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.903,
-     "pose": 0.15,
-     "bird": 0.394
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/fieldf/v1.png",
-     "seed": 3006,
+     "seed": 1001,
      "strength": 0.7,
-     "sim": 0.886,
-     "pose": 0.163,
-     "bird": 0.279
+     "sim": 0.648,
+     "pose": 0.002,
+     "bird": 0.006
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/fieldf/photo.jpg",
+   "gen": 1789663548,
+   "reviewed": false,
    "pending": false
   },
   "finwhe1": {
@@ -6917,34 +6909,45 @@
    "name": "Great Black-backed Gull",
    "sci": "Larus marinus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/gbbgul/before.png",
    "ref": "review_imgs/gbbgul/ref.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "photo": "review_imgs/gbbgul/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
    "id": "Very large gull with massive yellow bill (red gonys spot), blackish-slate back and wings, white head, underparts and tail; pinkish legs, pale eye.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gbbgul/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.928,
-     "pose": 0.63,
-     "bird": 0.973
+     "seed": 1001,
+     "strength": 0.7,
+     "sim": 0.894,
+     "pose": 0.359,
+     "bird": 0.914
     },
     {
      "id": "v1",
      "img": "review_imgs/gbbgul/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.942,
-     "pose": 0.51,
-     "bird": 0.978
+     "seed": 1000,
+     "strength": 0.9,
+     "sim": 0.889,
+     "pose": 0.298,
+     "bird": 0.69
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gbbgul/v2.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "sim": 0.883,
+     "pose": 0.258,
+     "bird": 0.543
     }
    ],
-   "reviewed": true,
+   "gen": 1789663006,
+   "reviewed": false,
    "pending": false
   },
   "gbhgul2": {
@@ -9307,44 +9310,44 @@
    "name": "Eurasian Jay",
    "sci": "Garrulus glandarius",
    "family": "Crows, Jays, and Magpies",
-   "reason": "not good-regen3",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/eurjay1/before.png",
    "ref": "review_imgs/eurjay1/ref.jpg",
    "photo": "review_imgs/eurjay1/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
    "id": "Pinkish-brown crow with a streaked black-and-white crown, black moustache, white rump, black tail, and a brilliant blue-and-black barred patch on the wing. Black bill, white throat. Crown finely streaked black-and-white, head colouring accurate. Emphasise: correct head colouring, a pinkish-buff crown with fine black streaks.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurjay1/v0.png",
-     "seed": 1027,
-     "strength": 0.74,
-     "sim": 0.86,
-     "pose": 0.128,
-     "bird": 0.745
+     "seed": 1000,
+     "strength": 0.9,
+     "sim": 0.902,
+     "pose": 0.149,
+     "bird": 0.725
     },
     {
      "id": "v1",
      "img": "review_imgs/eurjay1/v1.png",
-     "seed": 1025,
-     "strength": 0.6,
-     "sim": 0.836,
-     "pose": 0.08,
-     "bird": 0.816
+     "seed": 1002,
+     "strength": 0.5,
+     "sim": 0.888,
+     "pose": 0.151,
+     "bird": 0.617
     },
     {
      "id": "v2",
      "img": "review_imgs/eurjay1/v2.png",
-     "seed": 1026,
-     "strength": 0.68,
-     "sim": 0.841,
-     "pose": 0.124,
-     "bird": 0.674
+     "seed": 1001,
+     "strength": 0.7,
+     "sim": 0.864,
+     "pose": 0.011,
+     "bird": 0.051
     }
    ],
-   "gen": 1782766966,
+   "gen": 1789663368,
    "reviewed": false,
    "pending": false
   },
@@ -14876,35 +14879,46 @@
    "name": "Redwing",
    "sci": "Turdus iliacus",
    "family": "Thrushes",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/redwin/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/57009461/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref": "review_imgs/redwin/ref.jpg",
+   "photo": "review_imgs/redwin/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
    "id": "Small dark thrush with olive-brown upperparts, whitish underparts boldly streaked dark on breast and flanks. Striking creamy supercilium and rusty-red flanks and underwing, yellowish-based dark bill, pale legs.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redwin/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.856,
-     "pose": 0.276,
-     "bird": 0.585
+     "seed": 1000,
+     "strength": 0.9,
+     "sim": 0.835,
+     "pose": 0.109,
+     "bird": 0.255
     },
     {
      "id": "v1",
      "img": "review_imgs/redwin/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.88,
-     "pose": 0.186,
-     "bird": 0.41
+     "seed": 1001,
+     "strength": 0.7,
+     "sim": 0.849,
+     "pose": 0.128,
+     "bird": 0.131
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/redwin/v2.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "sim": 0.833,
+     "pose": 0.072,
+     "bird": 0.188
     }
    ],
+   "gen": 1789663196,
    "reviewed": false,
-   "photo": "review_imgs/redwin/photo.jpg"
+   "pending": false
   },
   "reebun": {
    "name": "Reed Bunting",
@@ -17462,37 +17476,46 @@
    "name": "Steller's Eider",
    "sci": "Polysticta stelleri",
    "family": "Ducks, Geese, and Swans",
-   "reason": "none-good",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/steeid/before.png",
    "ref": "review_imgs/steeid/ref.jpg",
+   "photo": "review_imgs/steeid/photo.jpg",
    "ref_source": "wikimedia",
-   "recipe": "v4-macaulay-id",
+   "recipe": "v5-commons-fieldsketch",
    "id": "Small eider; drake has white head with greenish nape tinge, black eye-patch and chin, white neck and back, rich orange-buff underparts with black spot on side. Blue-grey bill, grey legs.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/steeid/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.725,
-     "pose": 0.145,
-     "bird": 0.897
+     "seed": 1002,
+     "strength": 0.5,
+     "sim": 0.726,
+     "pose": 0.158,
+     "bird": 0.319
     },
     {
      "id": "v1",
      "img": "review_imgs/steeid/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.621,
-     "pose": 0.043,
-     "bird": 0.638
+     "seed": 1000,
+     "strength": 0.9,
+     "sim": 0.751,
+     "pose": 0.014,
+     "bird": 0.182
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/steeid/v2.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "sim": 0.732,
+     "pose": 0.009,
+     "bird": 0.067
     }
    ],
-   "gen": 1782733492,
+   "gen": 1789662842,
    "reviewed": false,
-   "pending": false,
-   "photo": "review_imgs/steeid/photo.jpg"
+   "pending": false
   },
   "stodov1": {
    "name": "Stock Dove",
@@ -20472,7 +20495,6 @@
   "eurgol1",
   "eurhob",
   "eurjac",
-  "eurjay1",
   "eurkes",
   "eurlin1",
   "eurnig1",
@@ -20496,12 +20518,10 @@
   "eutdov",
   "eutspa",
   "ferduc",
-  "fieldf",
   "firecr1",
   "gadwal",
   "gargan",
   "garwar1",
-  "gbbgul",
   "glagul",
   "gloibi",
   "gnwtea",
@@ -20628,7 +20648,6 @@
   "redkno",
   "redpha1",
   "redpol1",
-  "redwin",
   "reebun",
   "refblu1",
   "reffal1",
@@ -20679,7 +20698,6 @@
   "spocra1",
   "spofly1",
   "spored",
-  "steeid",
   "stodov1",
   "stonec4",
   "stonec7",

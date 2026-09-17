@@ -12693,7 +12693,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Luc Viatour",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_1_Luc_Viatour.jpg"
+        }
       }
     }
   },
@@ -14713,7 +14719,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Ott Rebane",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2018-02-24_Hallr%C3%A4stas.jpg"
+        }
       }
     }
   },
@@ -15210,7 +15222,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Great_Black-backed_Gull_Larus_marinus.jpg"
+        }
       }
     }
   },
@@ -27444,7 +27462,7 @@
     },
     "faces": {
       "redwin/flying_0.png": "left",
-      "redwin/sitting_0.png": "left"
+      "redwin/sitting_0.png": "right"
     },
     "credits": {
       "redwin/flying_0.png": {
@@ -27457,7 +27475,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Redwing_Turdus_iliacus.jpg"
+        }
       }
     }
   },
@@ -32486,7 +32510,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "ALAN SCHMIERER",
+          "license": "CC0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:047_-_STELLER%27S_EIDER_(6-16-2016)_barrow,_alaska_-02_(27539228164).jpg"
+        }
       }
     }
   },
