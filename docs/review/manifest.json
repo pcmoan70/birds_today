@@ -1706,43 +1706,27 @@
    "name": "Black Guillemot",
    "sci": "Cepphus grylle",
    "family": "Auks, Murres, and Puffins",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/blkgui/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/90551551/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/blkgui/ref.jpg",
+   "photo": "review_imgs/blkgui/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
+   "id": "Small black auk; sooty black overall with a large bold white oval wing patch. Bright scarlet-red mouth lining and legs; slender pointed black bill, dark eye.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/blkgui/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.797,
-     "pose": 0.093,
-     "bird": 0.841
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/blkgui/v1.png",
      "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.846,
-     "pose": 0.042,
-     "bird": 0.387
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/blkgui/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.847,
-     "pose": 0.065,
-     "bird": 0.23
+     "strength": 0.7,
+     "sim": 0.671,
+     "pose": 0.03,
+     "bird": 0.175
     }
    ],
-   "reviewed": true,
-   "id": "Small black auk; sooty black overall with a large bold white oval wing patch. Bright scarlet-red mouth lining and legs; slender pointed black bill, dark eye.",
+   "gen": 1789662652,
+   "reviewed": false,
    "pending": false
   },
   "blksco1": {
@@ -1961,43 +1945,45 @@
    "name": "Eurasian Blue Tit",
    "sci": "Cyanistes caeruleus",
    "family": "Tits, Chickadees, and Titmice",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/blutit/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42112131/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v2",
+   "ref": "review_imgs/blutit/ref.jpg",
+   "photo": "review_imgs/blutit/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
+   "id": "Small compact tit with sky-blue crown, wings and tail, a white face crossed by a black eye-stripe and blue-black nape collar, and bright yellow underparts. Greenish back, short stubby black bill, bluish-grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/blutit/v0.png",
      "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.902,
-     "pose": 0.027,
-     "bird": 0.459
+     "strength": 0.7,
+     "sim": 0.892,
+     "pose": 0.026,
+     "bird": 0.846
     },
     {
      "id": "v1",
      "img": "review_imgs/blutit/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.901,
-     "pose": 0.043,
-     "bird": 0.382
+     "seed": 1000,
+     "strength": 0.9,
+     "sim": 0.881,
+     "pose": 0.015,
+     "bird": 0.522
     },
     {
      "id": "v2",
      "img": "review_imgs/blutit/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.91,
-     "pose": 0.043,
-     "bird": 0.29
+     "seed": 1002,
+     "strength": 0.5,
+     "sim": 0.89,
+     "pose": 0.028,
+     "bird": 0.252
     }
    ],
-   "reviewed": true,
-   "id": "Small compact tit with sky-blue crown, wings and tail, a white face crossed by a black eye-stripe and blue-black nape collar, and bright yellow underparts. Greenish back, short stubby black bill, bluish-grey legs.",
+   "gen": 1789662293,
+   "reviewed": false,
    "pending": false
   },
   "bohwax": {
@@ -14263,35 +14249,45 @@
    "name": "Purple Sandpiper",
    "sci": "Calidris maritima",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/pursan/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/285293751/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref": "review_imgs/pursan/ref.jpg",
+   "photo": "review_imgs/pursan/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
    "id": "Dark stocky sandpiper, slate-grey upperparts with purplish gloss and pale feather fringes, grey-streaked breast fading to white belly. Slightly drooping dark bill with orange-yellow base, and orange-yellow legs.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/pursan/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.907,
-     "pose": 0.293,
-     "bird": 0.414
+     "seed": 1002,
+     "strength": 0.5,
+     "sim": 0.851,
+     "pose": 0.113,
+     "bird": 0.186
     },
     {
      "id": "v1",
      "img": "review_imgs/pursan/v1.png",
-     "seed": 3006,
+     "seed": 1000,
+     "strength": 0.9,
+     "sim": 0.841,
+     "pose": 0.051,
+     "bird": 0.185
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/pursan/v2.png",
+     "seed": 1001,
      "strength": 0.7,
-     "sim": 0.911,
-     "pose": 0.217,
-     "bird": 0.301
+     "sim": 0.816,
+     "pose": 0.15,
+     "bird": 0.1
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/pursan/photo.jpg",
+   "gen": 1789662473,
+   "reviewed": false,
    "pending": false
   },
   "purswa": {
@@ -19101,43 +19097,46 @@
    "name": "Whooper Swan",
    "sci": "Cygnus cygnus",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/whoswa/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/199133081/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/whoswa/ref.jpg",
+   "photo": "review_imgs/whoswa/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
+   "id": "Large white swan with a long straight neck held erect; black bill with a large triangular yellow wedge extending forward past the nostril to a point, and black legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/whoswa/v0.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.921,
-     "pose": 0.432,
-     "bird": 0.859
+     "strength": 0.9,
+     "sim": 0.894,
+     "pose": 0.27,
+     "bird": 0.63
     },
     {
      "id": "v1",
      "img": "review_imgs/whoswa/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.913,
-     "pose": 0.353,
-     "bird": 0.722
+     "seed": 1001,
+     "strength": 0.7,
+     "sim": 0.877,
+     "pose": 0.264,
+     "bird": 0.318
     },
     {
      "id": "v2",
      "img": "review_imgs/whoswa/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.912,
-     "pose": 0.279,
-     "bird": 0.708
+     "seed": 1002,
+     "strength": 0.5,
+     "sim": 0.867,
+     "pose": 0.337,
+     "bird": 0.205
     }
    ],
-   "id": "Large white swan with a long straight neck held erect; black bill with a large triangular yellow wedge extending forward past the nostril to a point, and black legs.",
-   "photo": "review_imgs/whoswa/photo.jpg"
+   "gen": 1789662112,
+   "reviewed": false,
+   "pending": false
   },
   "whrswi1": {
    "name": "White-rumped Swift",
@@ -19521,43 +19520,46 @@
    "name": "Willow Ptarmigan",
    "sci": "Lagopus lagopus",
    "family": null,
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/wilpta2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/237083331/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/wilpta2/ref.jpg",
+   "photo": "review_imgs/wilpta2/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
+   "id": "Plump grouse; breeding male has rich rusty-brown head, neck and breast, white wings and belly, red eye-comb, and a short black-and-white tail. Stubby black bill, feathered white legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/wilpta2/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.917,
-     "pose": 0.231,
-     "bird": 0.944
+     "seed": 1002,
+     "strength": 0.5,
+     "sim": 0.81,
+     "pose": 0.314,
+     "bird": 0.779
     },
     {
      "id": "v1",
      "img": "review_imgs/wilpta2/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.915,
-     "pose": 0.167,
-     "bird": 0.968
+     "seed": 1001,
+     "strength": 0.7,
+     "sim": 0.799,
+     "pose": 0.218,
+     "bird": 0.425
     },
     {
      "id": "v2",
      "img": "review_imgs/wilpta2/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.901,
-     "pose": 0.279,
-     "bird": 0.773
+     "seed": 1000,
+     "strength": 0.9,
+     "sim": 0.766,
+     "pose": 0.179,
+     "bird": 0.289
     }
    ],
-   "id": "Plump grouse; breeding male has rich rusty-brown head, neck and breast, white wings and belly, red eye-comb, and a short black-and-white tail. Stubby black bill, feathered white legs.",
-   "photo": "review_imgs/wilpta2/photo.jpg"
+   "gen": 1789661945,
+   "reviewed": false,
+   "pending": false
   },
   "wiltit1": {
    "name": "Willow Tit",
@@ -20377,7 +20379,6 @@
   "blared1",
   "blasto1",
   "blawoo1",
-  "blkgui",
   "blksco1",
   "blksco2",
   "blkswa",
@@ -20385,7 +20386,6 @@
   "blrwar1",
   "bltacc1",
   "blueth",
-  "blutit",
   "blwpra1",
   "blypip1",
   "bohwax",
@@ -20615,7 +20615,6 @@
   "pingro",
   "pomjae",
   "purher1",
-  "pursan",
   "radwar1",
   "razorb",
   "rebcho1",
@@ -20711,7 +20710,6 @@
   "whisto1",
   "whiter2",
   "whiwag",
-  "whoswa",
   "whrsan",
   "whtdip1",
   "whteag",
@@ -20720,7 +20718,6 @@
   "whwsco2",
   "whwsco3",
   "whwter",
-  "wilpta2",
   "winwre4",
   "wlwwar",
   "wooduc",
