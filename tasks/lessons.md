@@ -59,3 +59,17 @@ publish. Nothing about the invocation says so.
 `push`, `subprocess` and for writes to tracked paths. Prefer a `--dry-run`
 (apply_choices.py now has one, `-n`); otherwise run it on a scratch copy. If a
 script does publish, either finish and stage deliberately first, or stash.
+
+## Photo quality: prefer a curated pick over an API's default order
+iNaturalist's `taxon_photos` is community-curated but still full of record
+shots; the app's Great Tit was a soft phone photo where BirdsWhere showed a
+portrait. The species' **Wikipedia article lead image** is a stronger curation
+signal — an editor chose it, and it is on Commons with a licence and a named
+photographer. All 522 curated species resolved to one; none needed the
+iNaturalist fallback. When an image source looks weak, ask who curated the
+order before tuning the query (`order_by=votes` had already been tried and
+reverted: it pulls aberrant and arty shots).
+
+Corollary: `extmetadata.Artist` is sometimes missing while
+`AttributionRequired` is true — fall back to the file's uploader rather than
+publishing "unknown".
