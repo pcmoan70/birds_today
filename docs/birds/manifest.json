@@ -461,14 +461,20 @@
       ]
     },
     "faces": {
-      "arcloo/sitting_0.png": "right"
+      "arcloo/sitting_0.png": "left"
     },
     "credits": {
       "arcloo/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "TRinaud",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Black-throated_loon_(Gavia_arctica)_2022.jpg"
+        }
       }
     }
   },
@@ -3954,7 +3960,7 @@
     },
     "faces": {
       "bohwax/flying_0.png": "right",
-      "bohwax/sitting_0.png": "right"
+      "bohwax/sitting_0.png": "left"
     },
     "credits": {
       "bohwax/flying_0.png": {
@@ -3967,7 +3973,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andrey Butko",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2024-03-11._%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80_DSC_8354.jpg"
+        }
       }
     }
   },
@@ -11853,7 +11865,7 @@
     },
     "faces": {
       "eurbla/flying_0.png": "left",
-      "eurbla/sitting_0.png": "right"
+      "eurbla/sitting_0.png": "left"
     },
     "credits": {
       "eurbla/flying_0.png": {
@@ -11866,7 +11878,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Common_Blackbird.jpg"
+        }
       }
     }
   },
@@ -31379,7 +31397,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Judy Gallagher",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:005_365_-_Snow_Bunting_-_Plectrophenax_nivalis,_North_Point_State_Park,_Edgemere,_Maryland,_January_5,_2024_(53445892254).jpg"
+        }
       }
     }
   },
@@ -35364,7 +35388,7 @@
     },
     "faces": {
       "whiwag/flying_0.png": "left",
-      "whiwag/sitting_0.png": "right"
+      "whiwag/sitting_0.png": "left"
     },
     "credits": {
       "whiwag/flying_0.png": {
@@ -35377,7 +35401,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Stephan Sprinz",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Bachstelze_(motacilla_alba)_auf_Singwarte_-_Spiekeroog,_Nationalpark_nieders%C3%A4chsisches_Wattenmeer.jpg"
+        }
       }
     }
   },
