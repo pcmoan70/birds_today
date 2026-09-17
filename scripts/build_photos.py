@@ -118,7 +118,10 @@ def wikipedia_lead(sci, common):
         if not url or not re.search(r"[.](jpe?g|png)$", url.split("?")[0], re.I):
             continue
         return {
-            "url": url.split("?")[0],
+            # Commons hands back thumb.wikimedia.org for a generated
+            # thumbnail; the canonical host serves the same bytes.
+            "url": url.split("?")[0].replace("https://thumb.wikimedia.org/",
+                                             "https://upload.wikimedia.org/"),
             "credit": "Wikimedia Commons",
             "license": lic,
             # A few files carry no Artist field though Commons still requires

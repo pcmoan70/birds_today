@@ -393,15 +393,20 @@
   // flipping between sources or locations doesn't ask iNaturalist again.
   // Kept across visits, not just the tab: every species costs one lookup ever,
   // so a grid you have seen before fills instantly and iNaturalist is spared.
+  // Versioned: the key changes whenever the source of the photos changes, so a
+  // returning visitor is not stuck for ever with what the previous version of
+  // the app looked up. ("bc_refs" held the iNaturalist observation photos.)
+  var REF_KEY = "bc_refs2";
   var REF_CACHE = (function () {
-    try { return JSON.parse(localStorage.getItem("bc_refs") || "{}"); }
+    try { localStorage.removeItem("bc_refs"); } catch (e) {}
+    try { return JSON.parse(localStorage.getItem(REF_KEY) || "{}"); }
     catch (e) { return {}; }
   })();
   var _refSaveTimer = null;
   function saveRefCache() {
     clearTimeout(_refSaveTimer);
     _refSaveTimer = setTimeout(function () {
-      try { localStorage.setItem("bc_refs", JSON.stringify(REF_CACHE)); }
+      try { localStorage.setItem(REF_KEY, JSON.stringify(REF_CACHE)); }
       catch (e) {}
     }, 500);
   }
@@ -410,11 +415,14 @@
   var _refQueue = [], _refBusy = 0, REF_PARALLEL = 2, REF_GAP = 900, _refLast = 0;
 
   function refPhoto(code, cb) {
-    if (REF_CACHE[code] !== undefined) { cb(REF_CACHE[code]); return; }
     // The photo indexes are shared with the Photos grid; pull them in on the
     // first placeholder that needs one.
     if (!S.ml) { loadPhotos().then(function () { refPhoto(code, cb); }); return; }
+    // photos.json ships with the app, so it is the authority: a curated species
+    // must show what this version of the app curated for it, never an older
+    // lookup the browser happens to be holding.
     var known = (S.photos || {})[code];
+    if (!known && REF_CACHE[code] !== undefined) { cb(REF_CACHE[code]); return; }
     if (known) {
       REF_CACHE[code] = { url: known.url, by: known.by || "",
         page: known.page || null, license: known.license || "",
@@ -469,6 +477,13 @@
     tryTitle(0);
   }
 
+  // Commons hands back thumb.wikimedia.org for a generated thumbnail; the
+  // canonical host serves the same bytes and is the reliable one.
+  function commonsHost(url) {
+    return (url || "").replace(/^https:\/\/thumb\.wikimedia\.org\//,
+                               "https://upload.wikimedia.org/");
+  }
+
   function wikiLeadFor(title, next, done) {
     fetch("https://en.wikipedia.org/w/api.php?origin=*&format=json&redirects=1" +
           "&action=query&prop=pageimages&piprop=name&titles=" +
@@ -491,7 +506,8 @@
             var lic = ((em.LicenseShortName || {}).value || "").trim();
             var url = (ii || {}).thumburl || (ii || {}).url || "";
             if (!lic || !url || /fair use|non-free/i.test(lic)) { next(); return; }
-            done({ url: url.split("?")[0], credit: "Wikimedia Commons", license: lic,
+            done({ url: commonsHost(url.split("?")[0]),
+              credit: "Wikimedia Commons", license: lic,
               // A few files carry no Artist field though attribution is still
               // required; the uploader is the credit in that case.
               by: (((em.Artist || {}).value || "").replace(/<[^>]+>/g, "").trim()
