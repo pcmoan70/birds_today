@@ -472,3 +472,16 @@ no per-species asset mapping. It only *links out*: Macaulay's catalogue search
 Kew and ADW, all opened in a tab; the sole remote image is a Wikipedia range map
 scraped per view. One idea worth borrowing: its Macaulay link narrows to +-1
 month around the observation date so the plumage matches the season.
+
+## Photos grid: strays and resolution (2026-09-17)
+- [x] Bird cutouts appeared on top of the photos. The scatter's incremental
+      builder keeps a pending layout in `SCROLL.items`; switching source cleared
+      the DOM but not that list, so scrolling the grid mounted leftover birds
+      into it. The grid now resets `SCROLL`, and `buildUpTo` returns early while
+      the stage is in grid mode. Checked: 0 strays before and after scrolling.
+- [x] Photos were soft. iNaturalist serves square/small/medium/large; the list
+      stored `medium` (~500 px), which is blurry on a retina tile once cropped to
+      a square. photos.json now holds the `large` rendition (~1024 px, 140-450 kB)
+      — rewritten in place, no refetch — `build_photos.py` prefers `large_url`,
+      and the small placeholder cards in the scatter downscale to `medium` so
+      they cost no more than before. Tiles also widened 190px -> 230px.

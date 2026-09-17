@@ -286,7 +286,7 @@ select { border: 1px solid #cfc8b6; border-radius: 8px; padding: 5px 8px; color:
    The scatter layout is for cutouts; photographs read better as a gallery. */
 #stage.grid {
   display: grid; gap: 14px; padding: 74px 16px 60px;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
 .gcard {
   position: relative; margin: 0; aspect-ratio: 1 / 1; overflow: hidden;

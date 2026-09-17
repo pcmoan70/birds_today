@@ -75,10 +75,13 @@ def curated_photo(tid):
     for entry in res[0].get("taxon_photos") or []:
         ph = entry.get("photo") or {}
         lic = (ph.get("license_code") or "").lower()
-        url = ph.get("medium_url") or ph.get("url") or ""
+        # The "large" rendition (~1024 px) is what a grid tile needs on a
+        # retina screen; medium (~500 px) reads soft once cropped to a square.
+        url = ph.get("large_url") or ph.get("medium_url") or ph.get("url") or ""
         if lic in OPEN and url:
             return {
-                "url": url.replace("/square.", "/medium.").replace("/small.", "/medium."),
+                "url": url.replace("/square.", "/large.").replace("/small.", "/large.")
+                          .replace("/medium.", "/large."),
                 "credit": "iNaturalist",
                 "license": lic.upper(),
                 "by": ph.get("attribution", ""),

@@ -374,6 +374,14 @@
         ? " (" + rec.license.toUpperCase() + ")" : "");
   }
 
+  // iNaturalist serves each photo at square / small / medium / large; the grid
+  // wants "large" (sharp on a retina tile), the little placeholder card in the
+  // scatter only needs "medium".
+  function sizedPhoto(url, size) {
+    return (url || "").replace(/\/(square|small|medium|large)\.(jpe?g|png)/i,
+                               "/" + size + ".$2");
+  }
+
   function mlAsset(code) {
     var aid = (S.ml || {})[code];
     if (!aid) return null;
@@ -475,8 +483,8 @@
               var lic = (ph.license_code || "").toLowerCase();
               var url = ph.medium_url || ph.url || "";
               if (!lic || !url) continue;          // all rights reserved: skip
-              done({ url: url.replace("/square.", "/medium.")
-                              .replace("/small.", "/medium."),
+              done({ url: (ph.large_url || url).replace("/square.", "/large.")
+                              .replace("/small.", "/large.").replace("/medium.", "/large."),
                 by: ph.attribution || "", license: lic.toUpperCase(),
                 credit: "iNaturalist", src: "inat",
                 page: "https://www.inaturalist.org/photos/" + (ph.id || "") });
@@ -508,6 +516,9 @@
     stage.innerHTML = "";
     stage.classList.add("grid");
     stage.style.height = "";
+    // Drop the scatter's pending layout. Without this, scrolling the grid makes
+    // the incremental builder mount leftover bird cutouts on top of the photos.
+    SCROLL.items = []; SCROLL.idx = 0;
     window.scrollTo(0, 0);      // a fresh layout starts at the top, as the scatter does
     var rows = [];
     var seen = {};
@@ -703,7 +714,7 @@
         pic.loading = "lazy"; pic.decoding = "async";
         pic.referrerPolicy = "no-referrer";
         pic.alt = nameFor(it.code).common;
-        pic.src = rec.url;
+        pic.src = sizedPhoto(rec.url, "medium");   // a small card; save the bytes
         pic.onload = function () { ph.classList.add("has-photo"); };
         pic.onerror = function () { pic.remove(); };
         ph.insertBefore(pic, ph.firstChild);
@@ -761,6 +772,7 @@
 
   // Mount every not-yet-built bird whose top edge is above yLimit.
   function buildUpTo(yLimit) {
+    if (stage.classList.contains("grid")) return;   // the grid has no scatter to build
     var a = SCROLL.items;
     while (SCROLL.idx < a.length && a[SCROLL.idx].y - a[SCROLL.idx].size / 2 <= yLimit) {
       buildBird(a[SCROLL.idx]); SCROLL.idx++;
