@@ -1,29 +1,27 @@
 """Process user image feedback and replace downvoted cutouts.
 
-Votes are emailed from the site via EmailJS to a Gmail inbox (see
-feedback/README.md); each email body carries a "BIRDVOTE {json}" line. This
-job reads UNSEEN vote emails over Gmail IMAP (or a CSV for testing), and for
-every image whose net downvotes clear a threshold:
+The site files each vote into a Google Drive folder as one small JSON file (see
+feedback/README.md: docs/feedback.js POSTs to an Apps Script web app). Point
+this job at that folder — synced to disk by Google Drive for desktop, so no API
+credentials are needed — and for every image whose net downvotes clear a
+threshold it:
   1. blocklists that image's source id (rejects.json) so it's never re-pulled,
   2. deletes the cutout + its raw original,
   3. fetches ONE fresh alternative for that species+pose (skipping rejects),
   4. re-cuts only the affected species and rebuilds the manifest.
 
-Reading UNSEEN emails (and leaving them marked Seen) makes runs idempotent — a
-vote is acted on once, so a stale email can't re-retire an already-replaced image.
-
-Designed to run unattended from GitHub Actions on a schedule.
+Processed vote files are moved into a "processed" subfolder, which makes runs
+idempotent: a vote is acted on once, so an old vote can't re-retire an image
+that has already been replaced.
 
 Usage:
-  # Gmail IMAP (needs an app password; or set GMAIL_USER / GMAIL_APP_PASSWORD)
-  python feedback_refresh.py --gmail-user you@gmail.com --gmail-pass APPPW
-  # Local CSV for testing
+  # the synced Drive folder (or set BIRD_VOTES_DIR)
+  python feedback_refresh.py --votes-dir "G:/My Drive/birds_today_feedback"
+  # local CSV for testing
   python feedback_refresh.py --votes-file votes.csv --threshold 1 --per-pose 4
 """
 import argparse
 import csv
-import email
-import imaplib
 import io
 import json
 import os
@@ -68,42 +66,40 @@ def load_votes_csv(url=None, path=None):
     return list(csv.DictReader(io.StringIO(text)))
 
 
-def _email_text(msg):
-    """Concatenated text/plain + text/html bodies of an email message."""
-    parts = []
-    for part in msg.walk() if msg.is_multipart() else [msg]:
-        if part.get_content_maintype() == "multipart":
-            continue
+def load_votes_dir(path, keep=False):
+    """Read vote JSON files from the synced Drive folder, oldest first.
+
+    Each file holds one vote (docs/feedback.js -> Apps Script). Files are moved
+    into <path>/processed afterwards so the next run doesn't see them again —
+    the same "act once" property the old unseen-email read had. `keep` leaves
+    them in place (for a dry look at what is waiting).
+    """
+    if not os.path.isdir(path):
+        raise SystemExit(f"votes dir not found: {path}")
+    files = sorted(f for f in os.listdir(path)
+                   if f.lower().endswith(".json") and
+                   os.path.isfile(os.path.join(path, f)))
+    rows, done = [], []
+    for name in files:
+        full = os.path.join(path, name)
         try:
-            parts.append(part.get_payload(decode=True).decode(
-                part.get_content_charset() or "utf-8", "replace"))
-        except Exception:  # noqa: BLE001
-            pass
-    return "\n".join(parts)
-
-
-_VOTE_LINE = re.compile(r"BIRDVOTE\s+(\{.*?\})")
-
-
-def load_votes_imap(user, password, mailbox="INBOX", host="imap.gmail.com"):
-    """Read UNSEEN vote emails, parse 'BIRDVOTE {json}' lines, mark them Seen."""
-    M = imaplib.IMAP4_SSL(host)
-    M.login(user, password)
-    M.select(mailbox)
-    typ, data = M.search(None, "UNSEEN")  # fetching below sets \Seen -> idempotent
-    rows = []
-    for num in (data[0].split() if data and data[0] else []):
-        typ, msgdata = M.fetch(num, "(RFC822)")
-        if typ != "OK" or not msgdata or not msgdata[0]:
+            with open(full, encoding="utf-8") as f:
+                rec = json.load(f)
+        except (OSError, json.JSONDecodeError) as e:
+            print(f"  skipping {name}: {e}")
             continue
-        msg = email.message_from_bytes(msgdata[0][1])
-        for m in _VOTE_LINE.finditer(_email_text(msg)):
+        # One vote per file is what the sink writes; tolerate a list as well.
+        rows.extend(rec if isinstance(rec, list) else [rec])
+        done.append(full)
+    print(f"Drive: {len(rows)} vote(s) in {len(done)} file(s) from {path}")
+    if done and not keep:
+        pdir = os.path.join(path, "processed")
+        os.makedirs(pdir, exist_ok=True)
+        for full in done:
             try:
-                rows.append(json.loads(m.group(1)))
-            except json.JSONDecodeError:
-                pass
-    M.logout()
-    print(f"IMAP: {len(rows)} vote(s) from unseen emails")
+                os.replace(full, os.path.join(pdir, os.path.basename(full)))
+            except OSError as e:
+                print(f"  could not move {os.path.basename(full)}: {e}")
     return rows
 
 
@@ -181,10 +177,11 @@ def retire(img, voted_hash=""):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--gmail-user", default=os.environ.get("GMAIL_USER"),
-                    help="Gmail address (or GMAIL_USER env)")
-    ap.add_argument("--gmail-pass", default=os.environ.get("GMAIL_APP_PASSWORD"),
-                    help="Gmail app password (or GMAIL_APP_PASSWORD env)")
+    ap.add_argument("--votes-dir", default=os.environ.get("BIRD_VOTES_DIR"),
+                    help="synced Drive folder of vote JSON files "
+                         "(or BIRD_VOTES_DIR env)")
+    ap.add_argument("--keep", action="store_true",
+                    help="don't move the vote files to processed/ (dry look)")
     ap.add_argument("--votes-url", help="published CSV URL (testing)")
     ap.add_argument("--votes-file", help="local CSV path (testing)")
     ap.add_argument("--threshold", type=int, default=1,
@@ -194,10 +191,10 @@ def main():
 
     if args.votes_file or args.votes_url:
         rows = load_votes_csv(args.votes_url, args.votes_file)
-    elif args.gmail_user and args.gmail_pass:
-        rows = load_votes_imap(args.gmail_user, args.gmail_pass)
+    elif args.votes_dir:
+        rows = load_votes_dir(args.votes_dir, keep=args.keep)
     else:
-        ap.error("provide --gmail-user/--gmail-pass (or env), or --votes-file/--votes-url")
+        ap.error("provide --votes-dir (or BIRD_VOTES_DIR), or --votes-file/--votes-url")
     info = tally(rows)
     targets = sorted(img for img, rec in info.items() if rec["net"] >= args.threshold)
     print(f"{len(rows)} votes, {len(targets)} images at/over threshold "

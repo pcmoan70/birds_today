@@ -6,7 +6,7 @@
  *   Mode A (Residents): size ∝ this week's occurrence probability; sitting plates.
  *   Mode B (Migration): size ∝ arrival score (P[next]−P[prev])/peak; flying plates.
  * Birds are scattered around an empty centre; hover shows the name (language
- * selectable); 👍/👎 sends feedback via EmailJS.
+ * selectable); 👍/👎 files feedback into a Google Drive folder.
  */
 (function () {
   var MODEL_URL = "geomodel_fp16.onnx";

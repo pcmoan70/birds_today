@@ -1,11 +1,18 @@
 name: Refresh downvoted bird images
 
-# Reads thumbs up/down feedback (published Google Sheet CSV) and replaces
-# images that accumulate net downvotes, then commits the refreshed cutouts.
+# Replaces images that accumulate net downvotes, then commits the refreshed
+# cutouts.
+#
+# Votes now land in a Google Drive folder (see feedback/README.md), which a
+# GitHub runner cannot read — so this is no longer scheduled: run
+# scripts/feedback_refresh.py --votes-dir on the machine that syncs the folder.
+# This workflow stays for a manual run from an exported CSV of votes.
 on:
-  schedule:
-    - cron: "0 4 * * 1"   # weekly, Mondays 04:00 UTC
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      votes_url:
+        description: "URL of a votes CSV (columns: image, vote)"
+        required: true
 
 permissions:
   contents: write
@@ -30,10 +37,7 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Process feedback and replace downvoted images
-        env:
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-        run: python scripts/feedback_refresh.py
+        run: python scripts/feedback_refresh.py --votes-url "${{ inputs.votes_url }}"
 
       - name: Commit refreshed images
         run: |

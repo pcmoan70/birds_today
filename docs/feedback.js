@@ -1,36 +1,38 @@
 /**
- * Bird Calendar — client-side feedback (thumbs up/down) via EmailJS.
+ * Bird Calendar — client-side feedback (thumbs up/down), filed into Google Drive.
  *
- * Each vote is emailed to the maintainer's Gmail using EmailJS (no backend).
- * Voting is not sticky: every click (including repeated clicks of the same
- * direction) sends a fresh email.
- * Template params sent: image_id, vote ("upvote"/"downvote"), species (eBird
- * code), common_name, sci_name (Latin), pose, lang,
- * image_hash (SHA-256 of the image bytes), time, plus a machine-readable
- * "blob" line ("BIRDVOTE {json}") that the scheduled pipeline
- * (scripts/feedback_refresh.py) parses over IMAP to replace downvoted images.
+ * Each vote is POSTed to a Google Apps Script web app (ENDPOINT) which writes it
+ * as one small JSON file into a Drive folder the maintainer owns. The scheduled
+ * pipeline (scripts/feedback_refresh.py) reads that folder and replaces
+ * downvoted images. No backend, no API key in the page, and nothing for the
+ * visitor to sign into — the script runs as its owner.
  *
- * Suggested EmailJS template:
- *   Subject: Bird_calendar feedback: {{vote}}
- *   Body:
- *     image: {{image_id}}
- *     vote:  {{vote}}
- *     hash:  {{image_hash}}
- *     time:  {{time}}
+ * The payload is the same object the old EmailJS "BIRDVOTE {json}" line carried,
+ * so the pipeline's tallying is unchanged:
+ *   { image, vote, hash, species, sci, common, pose, lang, src, client, ts }
  *
- *     {{blob}}
+ * Voting is not sticky: every click sends a fresh vote, including repeated
+ * clicks of the same direction.
+ *
+ * Delivery: Apps Script web apps don't answer CORS preflight, so the POST is
+ * sent as a simple no-cors request — the browser will not let us read the
+ * response, so a vote the server rejects looks the same as one it accepted.
+ * What we can detect is the network failing outright (offline, DNS, blocked),
+ * and those votes stay in a localStorage outbox and are retried on the next
+ * page load, so a vote cast on a train is not lost.
  *
  * Setup (see feedback/README.md):
- *   1. Add the EmailJS SDK before this script in index.html:
- *      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
- *   2. Fill PUBLIC_KEY / SERVICE_ID / TEMPLATE_ID from your EmailJS dashboard.
+ *   1. Deploy feedback/appsscript/Code.gs as a web app (execute as you, access
+ *      "anyone"), which creates the Drive folder on first use.
+ *   2. Paste the /exec URL into ENDPOINT below.
  *
  * Exposed as window.BirdFeedback.
  */
 window.BirdFeedback = (function () {
-  var PUBLIC_KEY = "-5S2PctOrxEViV5Pf";   // EmailJS → Account → General → API Keys
-  var SERVICE_ID = "service_n19hwlq";     // EmailJS → Email Services
-  var TEMPLATE_ID = "template_diffgq7";   // EmailJS → Email Templates
+  // Apps Script web-app URL, ".../exec" (feedback/appsscript/Code.gs).
+  var ENDPOINT = "";
+  var OUTBOX = "bc_outbox";       // votes the network refused, to retry
+  var OUTBOX_MAX = 200;           // don't grow without bound on a dead endpoint
 
   function clientId() {
     var k = "bc_client", v = localStorage.getItem(k);
@@ -54,20 +56,53 @@ window.BirdFeedback = (function () {
       .catch(function () { return ""; });
   }
 
-  function send(params) {
-    if (!(PUBLIC_KEY && SERVICE_ID && TEMPLATE_ID)) {
-      console.warn("BirdFeedback: EmailJS keys not set"); return;
+  function outbox() {
+    try { return JSON.parse(localStorage.getItem(OUTBOX) || "[]"); }
+    catch (e) { return []; }
+  }
+
+  function saveOutbox(list) {
+    try { localStorage.setItem(OUTBOX, JSON.stringify(list.slice(-OUTBOX_MAX))); }
+    catch (e) {}
+  }
+
+  function post(payload) {
+    if (!ENDPOINT) {
+      console.warn("BirdFeedback: ENDPOINT not set; vote kept locally");
+      return Promise.reject(new Error("no endpoint"));
     }
-    if (!window.emailjs) { console.warn("BirdFeedback: EmailJS SDK not loaded"); return; }
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, params, { publicKey: PUBLIC_KEY })
-      .catch(function (e) { console.warn("BirdFeedback: send failed", e); });
+    // text/plain keeps this a "simple" request, so the browser sends it without
+    // a preflight Apps Script would not answer.
+    return fetch(ENDPOINT, {
+      method: "POST", mode: "no-cors", keepalive: true,
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(payload),
+    });
+  }
+
+  // Retry whatever the network refused earlier, oldest first. Each success
+  // drops that vote from the outbox; the first failure stops the run so we
+  // don't hammer a dead endpoint on every page load.
+  function flush() {
+    var pending = outbox();
+    if (!pending.length || !ENDPOINT) return;
+    var next = function () {
+      if (!pending.length) { saveOutbox(pending); return; }
+      var v = pending[0];
+      post(v).then(function () {
+        pending.shift();
+        saveOutbox(pending);
+        next();
+      }).catch(function () { saveOutbox(pending); });
+    };
+    next();
   }
 
   // image: "species_code/pose_i.png"; dir: "up" | "down".
   // meta may include { url, species, sci, common, pose, lang, src } — url is the
   // image URL to hash (defaults to "birds/<image>"); src is the image source
   // ("gould"/"dresser"/"ai"). Voting is NOT sticky: every click sends a fresh
-  // email, including repeated clicks of the same dir.
+  // vote, including repeated clicks of the same dir.
   function vote(image, dir, meta) {
     meta = meta || {};
     var label = dir === "up" ? "upvote" : "downvote";
@@ -75,20 +110,21 @@ window.BirdFeedback = (function () {
     var url = meta.url || ("birds/" + image);
 
     imageHash(url).then(function (hash) {
-      var blob = "BIRDVOTE " + JSON.stringify({
+      var payload = {
         image: image, vote: label, hash: hash,
         species: meta.species || "", sci: meta.sci || "", common: meta.common || "",
         pose: meta.pose || "", lang: meta.lang || "", src: meta.src || "",
         client: clientId(), ts: time,
-      });
-      send({
-        image_id: image, vote: label, image_hash: hash, time: time,
-        species: meta.species || "", sci_name: meta.sci || "",
-        common_name: meta.common || "", pose: meta.pose || "",
-        lang: meta.lang || "", src: meta.src || "", client: clientId(), blob: blob,
+      };
+      post(payload).catch(function (e) {
+        console.warn("BirdFeedback: vote queued for retry", e);
+        var q = outbox(); q.push(payload); saveOutbox(q);
       });
     });
   }
 
-  return { vote: vote };
+  flush();
+  window.addEventListener("online", flush);
+
+  return { vote: vote, flush: flush, pending: function () { return outbox().length; } };
 })();

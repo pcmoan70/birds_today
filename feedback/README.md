@@ -1,71 +1,103 @@
 # Image feedback loop
 
-Users rate bird images (👍/👎). Votes are emailed to a Gmail inbox via
-**EmailJS** (no backend), and a scheduled GitHub Action reads the vote emails
-over IMAP and replaces images that accumulate net downvotes.
+Users rate bird images (👍/👎). Each vote is filed into a **Google Drive folder**
+as one small JSON file, and the refresh job reads that folder and replaces
+images that accumulate net downvotes.
 
 ```
-browser (docs/feedback.js + EmailJS SDK)
-  → EmailJS → email to your Gmail (body has a "BIRDVOTE {json}" line)
-       → GitHub Action (cron) → scripts/feedback_refresh.py (Gmail IMAP, UNSEEN)
-            → blocklist source id (rejects.json) + replace image → commit
+browser (docs/feedback.js)
+  → POST to an Apps Script web app (feedback/appsscript/Code.gs)
+       → one JSON file per vote in Drive/birds_today_feedback/
+            → scripts/feedback_refresh.py (reads the synced folder)
+                 → blocklist source id (rejects.json) + replace image → commit
 ```
 
-You can read the raw votes any time in your Gmail inbox.
+You can read the raw votes any time by opening the folder in Drive. Processed
+files are moved to `birds_today_feedback/processed/`, so what's left at the top
+level is what hasn't been acted on yet.
+
+Why an Apps Script in the middle: GitHub Pages serves a static page, so the
+page cannot hold a Drive credential (anything shipped to the browser is public)
+and we don't want visitors signing into Google to vote. The script runs as
+*you*, accepts a POST from anyone, and is the only thing that touches Drive.
 
 ## Setup
 
-### EmailJS (sending)
-1. Create an account at https://www.emailjs.com/ and add an **Email Service**
-   connected to your Gmail.
-2. Create an **Email Template**. In the template **Settings**:
-   - **To Email:** your Gmail address
-   - **Subject:** `Birds Today feedback: {{vote}}`
-   In the template **Content** (plain text is safest so the parser sees the raw
-   token), use these variables — they must match exactly what `feedback.js` sends:
-   ```
-   New image vote from Birds Today
+### 1. The sink (Apps Script → Drive)
 
-   Image:    {{image_id}}
-   Vote:     {{vote}}
-   Species:  {{species}}    Pose: {{pose}}
-   Common:   {{common_name}}
-   Latin:    {{sci_name}}
-   Hash:     {{image_hash}}
-   Time:     {{time}}
-   Language: {{lang}}
-   Client:   {{client}}
+1. Go to https://script.google.com → **New project**, and paste
+   `feedback/appsscript/Code.gs` over the default file.
+2. **Deploy → New deployment → Web app**:
+   - **Execute as:** Me
+   - **Who has access:** Anyone
+3. Copy the deployment's `…/exec` URL.
+4. Open that URL once in a browser. It answers with the folder it will write to
+   and creates `birds_today_feedback` in My Drive if it isn't there yet.
+5. Paste the URL into `ENDPOINT` at the top of `docs/feedback.js`, then commit
+   and push.
 
-   {{blob}}
-   ```
-   `{{vote}}` is `upvote` / `downvote` / `cleared`. `{{blob}}` expands to
-   `BIRDVOTE {…json…}` — the machine-readable line the IMAP job parses, so it
-   MUST appear in the body.
-3. In `docs/index.html`, load the SDK before `feedback.js`:
-   ```html
-   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-   ```
-4. In `docs/feedback.js`, set `PUBLIC_KEY`, `SERVICE_ID`, `TEMPLATE_ID` from your
-   EmailJS dashboard.
+"Anyone" means anyone may POST a vote — the same exposure the old EmailJS public
+key had. Nobody can read your Drive through the URL: `doGet` returns a status
+line and nothing else, and the script ignores a body that isn't a small JSON
+vote.
 
-### Gmail IMAP (reading, for the scheduled job)
-1. Enable 2-step verification on the Gmail account, then create an
-   **App password** (Google Account → Security → App passwords).
-2. Add GitHub repo secrets (*Settings → Secrets and variables → Actions*):
-   - `GMAIL_USER` — the Gmail address
-   - `GMAIL_APP_PASSWORD` — the 16-char app password
-3. The workflow `.github/workflows/refresh-images.yml` runs on a schedule (and
-   can be triggered manually).
+### 2. The reader (Drive → the refresh job)
 
-The job reads only **UNSEEN** emails and leaves them marked read, so each vote
-is acted on exactly once.
+Install **Google Drive for desktop** and let it sync `birds_today_feedback`.
+The job then just reads files — no API credentials, no tokens to rotate:
+
+```bash
+python scripts/feedback_refresh.py --votes-dir "G:/My Drive/birds_today_feedback"
+```
+
+Set `BIRD_VOTES_DIR` instead of passing `--votes-dir` if you prefer. Add
+`--keep` to look at what is waiting without consuming it.
+
+Because each processed file is moved into `processed/`, a vote is acted on
+exactly once — the same property the old "unseen email" read had. That also
+means the scheduled GitHub Action can no longer do the reading: a runner has no
+access to your Drive. Run the refresh on the machine that syncs the folder (the
+same one that draws the images).
 
 ## Run the refresh manually
 
 ```bash
-# From Gmail (or set GMAIL_USER / GMAIL_APP_PASSWORD in the environment)
-python scripts/feedback_refresh.py --gmail-user you@gmail.com --gmail-pass APPPW
+# From the synced Drive folder
+python scripts/feedback_refresh.py --votes-dir "G:/My Drive/birds_today_feedback"
 
 # Or from a local CSV for testing (columns: image, vote)
 python scripts/feedback_refresh.py --votes-file votes.csv --threshold 1
 ```
+
+## What a vote looks like
+
+`20260917T193004_downvote_gretit1_3f9c1a20.json`:
+
+```json
+{
+  "image": "gretit1/sitting_0.png",
+  "vote": "downvote",
+  "hash": "9f2c…",
+  "species": "gretit1",
+  "sci": "Parus major",
+  "common": "Great Tit",
+  "pose": "sitting",
+  "lang": "en",
+  "src": "ai",
+  "client": "k3f9a1x2mj",
+  "ts": "2026-09-17T19:30:04.123Z",
+  "received": "2026-09-17T19:30:05.001Z"
+}
+```
+
+`hash` is the SHA-256 of the image bytes the voter actually saw, so the job can
+tell a vote about the current image from a vote about one already replaced.
+
+## Delivery caveat
+
+Apps Script web apps don't answer a CORS preflight, so the page sends the vote
+as a no-cors request: the browser will not let the page read the response, so a
+vote the script rejects is indistinguishable from one it accepted. A vote that
+fails at the network level (offline, blocked, DNS) is kept in a localStorage
+outbox and retried on the next page load, and when the browser reports it is
+back online.
