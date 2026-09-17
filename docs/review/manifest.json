@@ -7719,34 +7719,45 @@
    "name": "Great Tit",
    "sci": "Parus major",
    "family": "Tits, Chickadees, and Titmice",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/gretit1/before.png",
    "ref": "review_imgs/gretit1/ref.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "photo": "review_imgs/gretit1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
    "id": "Bold tit, glossy black head with large white cheek patches, black throat and broad black central belly stripe; yellow underparts, olive-green back, blue-grey wings with white wingbar; black bill, grey legs.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gretit1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.92,
-     "pose": 0.064,
-     "bird": 0.711
+     "seed": 1000,
+     "strength": 0.9,
+     "sim": 0.899,
+     "pose": 0.034,
+     "bird": 0.824
     },
     {
      "id": "v1",
      "img": "review_imgs/gretit1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.922,
-     "pose": 0.061,
-     "bird": 0.539
+     "seed": 1002,
+     "strength": 0.5,
+     "sim": 0.887,
+     "pose": 0.111,
+     "bird": 0.621
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/gretit1/v2.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "sim": 0.895,
+     "pose": 0.05,
+     "bird": 0.303
     }
    ],
-   "reviewed": true,
+   "gen": 1789659536,
+   "reviewed": false,
    "pending": false
   },
   "grewar3": {
@@ -10208,34 +10219,45 @@
    "name": "Hooded Crow",
    "sci": "Corvus cornix",
    "family": "Crows, Jays, and Magpies",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/hoocro1/before.png",
    "ref": "review_imgs/hoocro1/ref.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "photo": "review_imgs/hoocro1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v5-commons-fieldsketch",
    "id": "Large crow with pale ash-grey body and contrasting glossy black head, throat, wings and tail. Stout black bill, black legs. Robust build with a square tail; the grey-and-black two-tone pattern is unmistakable.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/hoocro1/v0.png",
-     "seed": 3006,
+     "seed": 1001,
      "strength": 0.7,
-     "sim": 0.933,
-     "pose": 0.465,
-     "bird": 0.629
+     "sim": 0.885,
+     "pose": 0.476,
+     "bird": 0.839
     },
     {
      "id": "v1",
      "img": "review_imgs/hoocro1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.929,
-     "pose": 0.229,
+     "seed": 1002,
+     "strength": 0.5,
+     "sim": 0.906,
+     "pose": 0.321,
+     "bird": 0.811
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/hoocro1/v2.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "sim": 0.89,
+     "pose": 0.254,
      "bird": 0.444
     }
    ],
-   "reviewed": true,
+   "gen": 1789659712,
+   "reviewed": false,
    "pending": false
   },
   "hoomer": {
@@ -20305,7 +20327,5 @@
    "pending": false
   }
  },
- "queued": [
-  "chukar"
- ]
+ "queued": []
 }

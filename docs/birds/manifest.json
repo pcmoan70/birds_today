@@ -16698,7 +16698,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Frank Vassen from Brussels, Belgium",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Great_tit_(Parus_major),_Parc_du_Rouge-Cloitre,_For%C3%AAt_de_Soignes,_Brussels_(26194636951).jpg"
+        }
       }
     }
   },
@@ -18348,7 +18354,7 @@
     },
     "faces": {
       "hoocro1/flying_0.png": "right",
-      "hoocro1/sitting_0.png": "right"
+      "hoocro1/sitting_0.png": "left"
     },
     "credits": {
       "hoocro1/flying_0.png": {
@@ -18361,7 +18367,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Sebaso",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:20140831-Nebelkr%C3%A4he.jpg"
+        }
       }
     }
   },
