@@ -3764,7 +3764,7 @@
     },
     "faces": {
       "blueth/flying_0.png": "left",
-      "blueth/sitting_0.png": "left"
+      "blueth/sitting_0.png": "right"
     },
     "credits": {
       "blueth/flying_0.png": {
@@ -3777,7 +3777,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Michael Graf",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Blaukehlchen,_wei%C3%9Fsternig,_im_Schilf.jpg"
+        }
       }
     }
   },
@@ -7998,14 +8004,20 @@
       ]
     },
     "faces": {
-      "comred1/sitting_0.png": "left"
+      "comred1/sitting_0.png": "right"
     },
     "credits": {
       "comred1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Juan Emilio from Las Palmas de Gran Canaria, España",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Archibebe_com%C3%BAn_(Tringa_tonatus)_(4140160227).jpg"
+        }
       }
     }
   },
@@ -10045,7 +10057,7 @@
     },
     "faces": {
       "doveki/flying_0.png": "right",
-      "doveki/sitting_0.png": "right"
+      "doveki/sitting_0.png": "left"
     },
     "credits": {
       "doveki/flying_0.png": {
@@ -29309,7 +29321,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "MPF",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2015-04-22_Anthus_petrosus,_Portsoy.jpg"
+        }
       }
     }
   },
@@ -33653,7 +33671,7 @@
     },
     "faces": {
       "temsti/flying_0.png": "right",
-      "temsti/sitting_0.png": "left"
+      "temsti/sitting_0.png": "right"
     },
     "credits": {
       "temsti/flying_0.png": {
@@ -33666,7 +33684,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Temminck%27s_stint_(Calidris_temminckii)_Oppdal.jpg"
+        }
       }
     }
   },
