@@ -2311,7 +2311,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Yathin S Krishnappa",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Rissa_tridactyla_(Vard%C3%B8,_2012).jpg"
+        }
       }
     }
   },
@@ -21798,7 +21804,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "ALAN SCHMIERER",
+          "license": "CC0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:056_-_LONG-TAILED_DUCK_(6-15-2016)_barrow,_alaska_-04_(27599679743).jpg"
+        }
       }
     }
   },
@@ -25986,7 +25998,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "USFWSAlaska",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Female_pine_grosbeak_(50829448881).jpg"
+        }
       }
     }
   },
@@ -28960,7 +28978,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "william_stephens",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Columba_livia_(Rock_Dove,_wild),_Duncansby_Head,_Caithness,_Scotland_1.jpg"
+        }
       }
     }
   },
@@ -29173,7 +29197,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Marton Berntsen",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Fjellv%C3%A5k_(Buteo_lagopus)_(Rough-legged_Buzzard)_(Fj%C3%A4llvr%C3%A5k).jpg"
+        }
       }
     }
   },
