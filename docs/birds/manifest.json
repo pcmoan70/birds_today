@@ -6858,14 +6858,20 @@
       ]
     },
     "faces": {
-      "comgol/sitting_0.png": "right"
+      "comgol/sitting_0.png": "left"
     },
     "credits": {
       "comgol/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "https://www.flickr.com/photos/sbern/",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Common_Goldeneye_(Bucephala_clangula).jpg"
+        }
       }
     }
   },
@@ -22053,7 +22059,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Acabashi",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%27Anas_platyrhynchos%27_duck_Mallard_at_Henham_Essex_England_01.jpg"
+        }
       }
     }
   },
@@ -26787,7 +26799,7 @@
     },
     "faces": {
       "rebmer/flying_0.png": "right",
-      "rebmer/sitting_0.png": "left"
+      "rebmer/sitting_0.png": "right"
     },
     "credits": {
       "rebmer/flying_0.png": {
@@ -26800,7 +26812,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Siegbert Brey",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Bird_at_Kiel_fjord_(2).jpg"
+        }
       }
     }
   },
@@ -27398,7 +27416,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Dellex",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Acanthis_flammea_-_Carduelis_flammea_-_Birkenzeisig.jpg"
+        }
       }
     }
   },
@@ -35647,7 +35671,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "MIKI Yoshihito",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%22Ojiro_Washi%22_Haliaeetus_albicilla_(White-tailed_eagle).jpg"
+        }
       }
     }
   },
