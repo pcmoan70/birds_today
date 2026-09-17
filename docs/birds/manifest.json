@@ -6629,7 +6629,7 @@
     },
     "faces": {
       "comcra/flying_0.png": "right",
-      "comcra/sitting_0.png": "right"
+      "comcra/sitting_0.png": "left"
     },
     "credits": {
       "comcra/flying_0.png": {
@@ -6642,7 +6642,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Eichler",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2017.07.06.-21-Kanal_zwischen_Scharmuetzelsee_und_Grosser_Storkower_See-Wendisch_Rietz--Kranich-Jungvogel.jpg"
+        }
       }
     }
   },
@@ -11534,7 +11540,7 @@
     },
     "faces": {
       "euhgul1/flying_0.png": "left",
-      "euhgul1/sitting_0.png": "right"
+      "euhgul1/sitting_0.png": "left"
     },
     "credits": {
       "euhgul1/flying_0.png": {
@@ -11547,7 +11553,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Superbass",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2016-08-08-Silberm%C3%B6we-6738.jpg"
+        }
       }
     }
   },
@@ -14579,7 +14591,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Laitche",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Tree_Sparrow_August_2007_Osaka_Japan.jpg"
+        }
       }
     }
   },
@@ -16215,7 +16233,7 @@
     },
     "faces": {
       "grecor/flying_0.png": "left",
-      "grecor/sitting_0.png": "right"
+      "grecor/sitting_0.png": "left"
     },
     "credits": {
       "grecor/flying_0.png": {
@@ -16228,7 +16246,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "MPF",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2021-05-05_Phalacrocorax_carbo_carbo,_Killingworth_Lake,_Northumberland_1-1.jpg"
+        }
       }
     }
   },
@@ -22704,7 +22728,7 @@
     },
     "faces": {
       "meapip1/flying_0.png": "left",
-      "meapip1/sitting_0.png": "left"
+      "meapip1/sitting_0.png": "right"
     },
     "credits": {
       "meapip1/flying_0.png": {
@@ -22717,7 +22741,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Donald Hobern from Copenhagen, Denmark",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Anthus_pratensis_(32950327474).jpg"
+        }
       }
     }
   },
