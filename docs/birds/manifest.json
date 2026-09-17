@@ -537,7 +537,7 @@
     },
     "faces": {
       "arcter/flying_0.png": "left",
-      "arcter/sitting_0.png": "left"
+      "arcter/sitting_0.png": "right"
     },
     "credits": {
       "arcter/flying_0.png": {
@@ -550,7 +550,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Arctic_tern_(Sterna_paradisaea)_Flatey_3.jpg"
+        }
       }
     }
   },
@@ -2230,7 +2236,7 @@
     },
     "faces": {
       "bkhgul/flying_0.png": "right",
-      "bkhgul/sitting_0.png": "right"
+      "bkhgul/sitting_0.png": "left"
     },
     "credits": {
       "bkhgul/flying_0.png": {
@@ -2243,7 +2249,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Hans Hillewaert",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Chroicocephalus_ridibundus_(summer).jpg"
+        }
       }
     }
   },
@@ -6587,7 +6599,7 @@
     },
     "faces": {
       "comchi1/flying_0.png": "right",
-      "comchi1/sitting_0.png": "right"
+      "comchi1/sitting_0.png": "left"
     },
     "credits": {
       "comchi1/flying_0.png": {
@@ -6600,7 +6612,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "א (Aleph)",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Chiffchaff_(Phylloscopus_collybita).jpg"
+        }
       }
     }
   },
@@ -10690,7 +10708,7 @@
     },
     "faces": {
       "eaywag1/flying_0.png": "left",
-      "eaywag1/sitting_0.png": "left"
+      "eaywag1/sitting_0.png": "right"
     },
     "credits": {
       "eaywag1/flying_0.png": {
@@ -10703,7 +10721,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Frebeck",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Wiesenschafstelze.JPG"
+        }
       }
     }
   },
@@ -11382,7 +11406,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:European_golden_plover_(Pluvialis_apricaria)_female_breeding_Keflavik.jpg"
+        }
       }
     }
   },
@@ -15484,7 +15514,7 @@
     },
     "faces": {
       "glagul/flying_0.png": "right",
-      "glagul/sitting_0.png": "left"
+      "glagul/sitting_0.png": "right"
     },
     "credits": {
       "glagul/flying_0.png": {
@@ -15497,7 +15527,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Jerzy Strzelecki",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Alkefjellet_(js)_15.jpg"
+        }
       }
     }
   },
