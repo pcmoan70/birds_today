@@ -139,17 +139,45 @@ def build_prompt(common, sci, marks, stance, style=DEFAULT_STYLE):
 DEFAULT_MODEL = os.environ.get("BIRD_MODEL", "ostris/Flex.2-preview")
 
 
+def is_control_model(model_id=None):
+    """True for a checkpoint whose transformer takes a control/inpaint input.
+
+    Flex.2's transformer has in_channels 196 — (16 image latents + 16 control +
+    16 inpaint + 1 mask) x 4 — and no img2img mode at all: FluxImg2ImgPipeline
+    builds 49-channel noise against 16-channel image latents and dies in the
+    scheduler. Such a checkpoint is driven through its own pipeline instead,
+    with the prepared photo as the control image. Plain FLUX stays at 64.
+    """
+    from diffusers import FluxTransformer2DModel
+    try:
+        cfg = FluxTransformer2DModel.load_config(model_id or DEFAULT_MODEL,
+                                                 subfolder="transformer")
+        return int(cfg.get("in_channels", 64)) > 64
+    except Exception:                                           # noqa: BLE001
+        return False
+
+
 def load_pipeline(model_id=None, lora=None, fp8=True):
-    """img2img pipeline for the configured checkpoint, fp8-quantized.
+    """Pipeline for the configured checkpoint, fp8-quantized.
 
     Quantizing the transformer and the T5 encoder to 8 bit is what makes this
     fit a 12 GB 3060 with Flex.2 (and 24 GB with FLUX.1-dev); CPU offload keeps
-    only the module in use resident. Flex.2 is loaded through the plain img2img
-    pipeline — its control/inpaint extras are not used here, the reference photo
-    goes in as the init image.
+    only the module in use resident.
+
+    Plain FLUX checkpoints get the img2img pipeline (reference photo as the init
+    image). A control checkpoint (Flex.2) gets its own pipeline from the model
+    repo and is marked with `_bird_control`, so callers pass the photo as the
+    control image instead — see is_control_model.
     """
     from diffusers import FluxImg2ImgPipeline
     model_id = model_id or DEFAULT_MODEL
+    if is_control_model(model_id):
+        from diffusers import AutoPipelineForText2Image
+        pipe = AutoPipelineForText2Image.from_pretrained(
+            model_id, custom_pipeline=model_id, torch_dtype=torch.bfloat16,
+            trust_remote_code=True)
+        pipe._bird_control = True
+        return _finish_pipeline(pipe, lora, fp8)
     try:
         pipe = FluxImg2ImgPipeline.from_pretrained(model_id, torch_dtype=torch.bfloat16)
     except Exception as e:                                      # noqa: BLE001
@@ -161,6 +189,10 @@ def load_pipeline(model_id=None, lora=None, fp8=True):
             "works: BIRD_MODEL=D:/models/Flex.2-preview), or run "
             "scripts/check_model.py to see what is installed."
         ) from e
+    return _finish_pipeline(pipe, lora, fp8)
+
+
+def _finish_pipeline(pipe, lora, fp8):
     if fp8:
         from optimum.quanto import freeze, qfloat8, quantize
         for mod in (pipe.transformer, pipe.text_encoder_2):

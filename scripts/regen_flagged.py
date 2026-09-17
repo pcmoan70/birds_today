@@ -41,6 +41,7 @@ import qc_references as QC  # noqa: E402 (reuse CLIP scorer)
 from rembg import new_session, remove as rembg_remove  # noqa: E402
 from species import load_species  # noqa: E402
 from sources import inat, wikimedia, gbif, whobird  # noqa: E402
+from sources.base import Candidate  # noqa: E402
 from sources.base import SESSION  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -63,6 +64,7 @@ RETRY = os.path.join(HERE, "retry_rounds.json")  # {code: round} — bumped when
 RECIPE = "v5-commons-fieldsketch"   # openly licensed Commons base photo +
 #   colour-field-sketch prompt. Bumping this marks every image made by the old
 #   recipe as stale, so a regeneration pass rebuilds the stack.
+PHOTOS = os.path.join(ROOT, "docs", "photos.json")        # the app's curated photo
 REVIEW_IMGS = os.path.join(ROOT, "docs", "review_imgs")   # variant images (on Pages)
 REVIEW_MAN = os.path.join(ROOT, "docs", "review", "manifest.json")
 PUSH_EVERY = 5
@@ -266,6 +268,27 @@ def _wholeness(a):
     return max(0.0, 1.0 - edge / 0.12), float(a.mean())
 
 
+def curated_candidate(code):
+    """The photo the app itself shows for this species, as a reference candidate.
+
+    docs/photos.json holds one openly licensed Commons photo per species — the
+    lead image of its Wikipedia article, an editor's pick. That is a better
+    starting point than anything a keyword search turns up, so it goes into the
+    pool first; best_ref still scores it, so a lead image that happens to be a
+    poor drawing reference (a bird in flight, an odd angle) can still lose.
+    """
+    try:
+        rec = json.load(open(PHOTOS, encoding="utf-8")).get(code)
+    except Exception:                                           # noqa: BLE001
+        return None
+    if not rec or not rec.get("url"):
+        return None
+    return Candidate(url=rec["url"], pose="sitting", source="wikimedia",
+                     license=rec.get("license", "") or "Commons",
+                     author=rec.get("by", ""), src_id="curated",
+                     page_url=rec.get("page", ""))
+
+
 def _gather(sp, code, want):
     """Pool reference candidates across sources: Wikimedia Commons (openly
     licensed, and therefore the base image we prefer to draw from), iNaturalist,
@@ -287,6 +310,9 @@ def _gather(sp, code, want):
     # Round-robin interleave so the first downloaded (capped) candidates span all
     # sources rather than being exhausted by whichever is listed first.
     seen, out = set(), []
+    first = curated_candidate(code)
+    if first:
+        seen.add(first.url); out.append(first)
     for group in zip_longest(*lists):
         for c in group:
             if c and getattr(c, "url", None) and c.url not in seen:
@@ -409,6 +435,11 @@ def prep_init(ref_path, sess, size=1024, frame=0):
 
 
 VARIANTS = [(1000, 0.60), (1001, 0.68), (1002, 0.74)]
+# Flex.2 is driven by its control input rather than img2img, and that dial runs
+# the other way: 0.9 holds the photo's shape closely, 0.5 lets the drawing
+# breathe. One per variant rank, so the three variants still span "faithful" to
+# "freer" and the reviewer picks.
+CONTROL_STRENGTHS = [0.90, 0.70, 0.50]
 MAX_EDGE = 448   # display is <=230px (~460px retina); 448 is ample and ~20% smaller
 
 
@@ -477,9 +508,23 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
             ref_rel = f"review_imgs/{code}/ref.jpg"
         seed = base_seed + seed_off
         gen = torch.Generator("cpu").manual_seed(seed)
-        out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt, image=init,
-                   strength=strength, num_inference_steps=28, guidance_scale=3.5,
-                   generator=gen).images[0]
+        if getattr(pipe, "_bird_control", False):
+            # Flex.2: the prepared photo is the control image, not an init
+            # image. control_strength/stop run the other way to img2img
+            # strength — higher keeps more of the photo — so the variant's
+            # strength is mapped onto the control band by rank.
+            cs = CONTROL_STRENGTHS[i % len(CONTROL_STRENGTHS)]
+            out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt,
+                       control_image=init, control_strength=cs,
+                       control_stop=round(cs * 0.85, 2),
+                       height=init.height, width=init.width,
+                       num_inference_steps=28, guidance_scale=3.5,
+                       generator=gen).images[0]
+            strength = cs
+        else:
+            out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt, image=init,
+                       strength=strength, num_inference_steps=28, guidance_scale=3.5,
+                       generator=gen).images[0]
         ci = cut.cut_pil(out, sess, MAX_EDGE)
         if ci is not None:
             variants.append((ci, seed, strength, init))
@@ -531,7 +576,7 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
         os.makedirs(dst, exist_ok=True)
         png = os.path.join(dst, f"{pose}_0.png")
         save_small(best[0], png)
-        meta = {"source": "generated", "model": "black-forest-labs/FLUX.1-dev",
+        meta = {"source": "generated", "model": G.DEFAULT_MODEL,
                 "style": STYLE, "prompt": prompt, "pose": pose,
                 "reference": os.path.basename(ref_path), "strength": best[2],
                 "seed": best[1], "recipe": RECIPE}
@@ -707,9 +752,10 @@ def push_batch(n, final=False):
     git("add", "docs")
     if git("diff", "--cached", "--quiet").returncode == 0:
         print("  nothing to push"); return
-    msg = (f"Regenerate flagged AI birds (v3 recipe), {n} done\n\n"
-           "Pose-aware iNat references + family-anchored muted prompts + "
-           "best-of-N selection. Variants saved for review at docs/review/.\n\n"
+    msg = (f"Redraw AI birds ({RECIPE}), {n} done\n\n"
+           "Openly licensed Commons base photo, background cut out before "
+           "img2img, field-sketch prompt, best-of-N selection. Variants saved "
+           "for review at docs/review/.\n\n"
            "Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n"
            "Claude-Session: https://claude.ai/code/session_01QE9YmeK2n7PbSUUJKRUAzz")
     git("commit", "-m", msg)
