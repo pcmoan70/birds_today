@@ -7819,7 +7819,7 @@
     },
     "faces": {
       "comrav/flying_0.png": "right",
-      "comrav/sitting_0.png": "left"
+      "comrav/sitting_0.png": "right"
     },
     "credits": {
       "comrav/flying_0.png": {
@@ -7832,7 +7832,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Saiquaticlifeform",
+          "license": "CC0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Common_Raven_(Corvus_corax)_perched_on_a_wooden_post.jpg"
+        }
       }
     }
   },
@@ -12344,7 +12350,7 @@
     },
     "faces": {
       "eurgre1/flying_0.png": "left",
-      "eurgre1/sitting_0.png": "left"
+      "eurgre1/sitting_0.png": "right"
     },
     "credits": {
       "eurgre1/flying_0.png": {
@@ -12357,7 +12363,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Francis C. Franklin\n\nhttps://commons.wikimedia.org/wiki/User:Baresi_franco",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Chloris_chloris.png"
+        }
       }
     }
   },
@@ -17438,7 +17450,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_male_Drenthe.jpg"
+        }
       }
     }
   },
@@ -18834,7 +18852,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Rhododendrites",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg"
+        }
       }
     }
   },
