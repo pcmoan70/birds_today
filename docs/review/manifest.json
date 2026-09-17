@@ -3880,43 +3880,28 @@
    "name": "Common Ringed Plover",
    "sci": "Charadrius hiaticula",
    "family": "Plovers and Lapwings",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/corplo/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/32837031/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v1",
+   "ref": "review_imgs/corplo/ref.jpg",
+   "photo": "review_imgs/corplo/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small plump plover, sandy-brown above and white below, with a complete black breast-band, black mask and forehead, a white forehead and collar, an orange bill with black tip and orange-yellow legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/corplo/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.923,
-     "pose": 0.187,
-     "bird": 0.77
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/corplo/v1.png",
      "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.917,
-     "pose": 0.177,
-     "bird": 0.676
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/corplo/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.907,
-     "pose": 0.117,
-     "bird": 0.558
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.749,
+     "pose": 0.386,
+     "bird": 0.633
     }
    ],
-   "reviewed": true,
-   "id": "Small plump plover, sandy-brown above and white below, with a complete black breast-band, black mask and forehead, a white forehead and collar, an orange bill with black tip and orange-yellow legs.",
+   "gen": 1789680949,
+   "reviewed": false,
    "pending": false
   },
   "corshe1": {
@@ -5729,43 +5714,49 @@
    "name": "Eurasian Kestrel",
    "sci": "Falco tinnunculus",
    "family": "Falcons and Caracaras",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/eurkes/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/234114551/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/eurkes/ref.jpg",
+   "photo": "review_imgs/eurkes/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Slender falcon; male has a blue-grey head and tail with a black subterminal band, rufous back spotted black, and buff black-spotted underparts. Female rufous-brown barred above. Yellow cere and feet.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurkes/v0.png",
      "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.921,
-     "pose": 0.696,
-     "bird": 0.694
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.754,
+     "pose": 0.487,
+     "bird": 0.391
     },
     {
      "id": "v1",
      "img": "review_imgs/eurkes/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.939,
-     "pose": 0.461,
-     "bird": 0.546
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.795,
+     "pose": 0.141,
+     "bird": 0.01
     },
     {
      "id": "v2",
      "img": "review_imgs/eurkes/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.915,
-     "pose": 0.449,
-     "bird": 0.562
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.755,
+     "pose": 0.076,
+     "bird": 0.011
     }
    ],
-   "reviewed": true,
-   "id": "Slender falcon; male has a blue-grey head and tail with a black subterminal band, rufous back spotted black, and buff black-spotted underparts. Female rufous-brown barred above. Yellow cere and feet."
+   "gen": 1789680413,
+   "reviewed": false,
+   "pending": false
   },
   "eurlin1": {
    "name": "Eurasian Linnet",
@@ -7151,44 +7142,37 @@
    "name": "Green-winged Teal",
    "sci": "Anas crecca",
    "family": "Ducks, Geese, and Swans",
-   "reason": "not good-regen3",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/gnwtea/before.png",
    "ref": "review_imgs/gnwtea/ref.jpg",
    "photo": "review_imgs/gnwtea/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Tiny dabbling duck, chestnut head with broad green eye-patch bordered cream, vertical white bar on grey flanks; grey vermiculated body, buff-edged black undertail, green-and-black speculum; dark bill, grey legs.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/gnwtea/v0.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.829,
-     "pose": 0.069,
-     "bird": 0.816
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.715,
+     "pose": 0.123,
+     "bird": 0.749
     },
     {
      "id": "v1",
      "img": "review_imgs/gnwtea/v1.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.873,
-     "pose": 0.055,
-     "bird": 0.734
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/gnwtea/v2.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.755,
-     "pose": 0.031,
-     "bird": 0.143
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.712,
+     "pose": 0.06,
+     "bird": 0.171
     }
    ],
-   "gen": 1782762563,
+   "gen": 1789681188,
    "reviewed": false,
    "pending": false
   },
@@ -13539,35 +13523,48 @@
    "name": "Northern Wheatear",
    "sci": "Oenanthe oenanthe",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/norwhe/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204639371/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "id": "Slim chat; male blue-grey above, buff-white below, with a bold black face mask, white supercilium, black wings, and a white rump with a black inverted-T tail pattern; black bill and legs.",
+   "ref": "review_imgs/norwhe/ref.jpg",
+   "photo": "review_imgs/norwhe/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Slim chat; male blue-grey above, buff-white below, with a bold black face mask, white supercilium, black wings, and a white rump with a black inverted-T tail pattern; black bill and legs. Emphasise: a black eye-mask extending back just into the grey crown.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norwhe/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.786,
-     "pose": 0.519,
-     "bird": 0.882
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.902,
+     "pose": 0.184,
+     "bird": 0.426
     },
     {
      "id": "v1",
      "img": "review_imgs/norwhe/v1.png",
-     "seed": 3011,
+     "seed": 1001,
      "strength": 0.7,
-     "sim": 0.766,
-     "pose": 0.46,
-     "bird": 0.781
+     "whole": 1.0,
+     "sim": 0.898,
+     "pose": 0.198,
+     "bird": 0.291
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norwhe/v2.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.887,
+     "pose": 0.16,
+     "bird": 0.128
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/norwhe/photo.jpg",
+   "gen": 1789680590,
+   "reviewed": false,
    "pending": false
   },
   "oltwar1": {
@@ -20504,35 +20501,47 @@
    "name": "Yellowhammer",
    "sci": "Emberiza citrinella",
    "family": "Old World Buntings",
-   "reason": "note-keep+2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/yellow2/before.png",
    "ref": "review_imgs/yellow2/ref.jpg",
    "photo": "review_imgs/yellow2/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Bunting with a bright lemon-yellow head and underparts marked with chestnut, a yellow-streaked breast band, warm chestnut-brown streaked back, and a rufous-chestnut rump. Greyish conical bill; pinkish legs.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/yellow2/v0.png",
-     "seed": 3011,
+     "seed": 1001,
      "strength": 0.7,
-     "sim": 0.792,
-     "pose": 0.317,
-     "bird": 0.489
+     "whole": 1.0,
+     "sim": 0.801,
+     "pose": 0.323,
+     "bird": 0.031
     },
     {
      "id": "v1",
      "img": "review_imgs/yellow2/v1.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.809,
-     "pose": 0.244,
-     "bird": 0.422
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.826,
+     "pose": 0.157,
+     "bird": 0.019
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/yellow2/v2.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.824,
+     "pose": 0.111,
+     "bird": 0.041
     }
    ],
-   "gen": 1782776082,
+   "gen": 1789680768,
    "reviewed": false,
    "pending": false
   },
@@ -20663,7 +20672,6 @@
   "comter",
   "corbun1",
   "corcra",
-  "corplo",
   "corshe1",
   "crelar1",
   "cretit2",
@@ -20696,7 +20704,6 @@
   "eurhob",
   "eurjac",
   "eurjay1",
-  "eurkes",
   "eurlin1",
   "eurnig1",
   "eurnut2",
@@ -20721,7 +20728,6 @@
   "garwar1",
   "gbbgul",
   "gloibi",
-  "gnwtea",
   "goldcr1",
   "goleag",
   "graher1",
@@ -20812,7 +20818,6 @@
   "norsho",
   "norshr1",
   "norshr4",
-  "norwhe",
   "olbpip",
   "ortbun1",
   "ortdov",
@@ -20945,7 +20950,6 @@
   "y00743",
   "yebloo",
   "yebwar3",
-  "yelgul1",
-  "yellow2"
+  "yelgul1"
  ]
 }
