@@ -11881,7 +11881,7 @@
     },
     "faces": {
       "eurbul/flying_0.png": "left",
-      "eurbul/sitting_0.png": "left"
+      "eurbul/sitting_0.png": "right"
     },
     "credits": {
       "eurbul/flying_0.png": {
@@ -11894,7 +11894,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Francis Franklin",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Bullfinch_male.jpg"
+        }
       }
     }
   },
@@ -12887,7 +12893,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "gailhampshire from Cradley, Malvern, U.K",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Eurasian_Magpie._Pica_pica_(32275730438).jpg"
+        }
       }
     }
   },
@@ -18007,14 +18019,20 @@
       ]
     },
     "faces": {
-      "gyhchi/sitting_0.png": "right"
+      "gyhchi/sitting_0.png": "left"
     },
     "credits": {
       "gyhchi/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Lucwrte",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Siberian_Tit_(Poecile_cinctus)_in_Sodankyl%C3%A4,_Finland.jpg"
+        }
       }
     }
   },
@@ -30864,7 +30882,7 @@
     },
     "faces": {
       "sibjay1/flying_0.png": "left",
-      "sibjay1/sitting_0.png": "left"
+      "sibjay1/sitting_0.png": "right"
     },
     "credits": {
       "sibjay1/flying_0.png": {
@@ -30877,7 +30895,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Estormiz",
+          "license": "CC0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Perisoreus_infaustus_Kittil%C3%A4_20180418_01.jpg"
+        }
       }
     }
   },
@@ -36118,7 +36142,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Francis C. Franklin",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Poecile_montanus_kleinschmidti.jpg"
+        }
       }
     }
   },
