@@ -49,7 +49,9 @@ def _ensure_clip():
     if not _clip:
         import torch
         from transformers import CLIPModel, CLIPProcessor
-        name = "openai/clip-vit-base-patch32"
+        # A local folder works as well as a hub id — point BIRD_CLIP at one to
+        # run with no network (or set HF_HUB_OFFLINE=1 once it is cached).
+        name = os.environ.get("BIRD_CLIP", "openai/clip-vit-base-patch32")
         _clip["m"] = CLIPModel.from_pretrained(name).eval()
         _clip["p"] = CLIPProcessor.from_pretrained(name)
         _clip["t"] = torch

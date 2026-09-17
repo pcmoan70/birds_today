@@ -412,3 +412,40 @@ the fix; it deletes tracked files, so it needs a decision.
 - [x] Kept the plain research-grade sample rather than `order_by=votes`: the
       most-faved photos are aberrant or arty (a leucistic Mallard, a feather
       macro, a murmuration) — the same bias scripts/sources/inat.py warns about.
+
+## Redraw the stack from Commons photos, field-sketch style (2026-09-17)
+- [x] Base photo: `_gather` puts Wikimedia Commons first and `best_ref` prefers
+      the best Commons candidate that CLIP accepts as a real bird in a usable
+      pose; iNaturalist / GBIF / the curated Macaulay shot remain the fallback,
+      so coverage never suffers. Openly licensed base = publishable derivative.
+- [x] Attribution travels: each downloaded candidate gets a sidecar with author,
+      licence and source page; `setup_reference` carries it to the reference,
+      `gen_best` writes it into the drawing's sidecar as `reference_credit`,
+      `build_manifest` copies it into the manifest as `drawn_from`, and the app's
+      detail view reads "AI drawing, after a photo by X (CC BY-SA) — wikimedia",
+      linking to the source page.
+- [x] Base prompt: new `fieldsketch` style (colour field sketch: pencil
+      underdrawing, watercolour washes, sharp where ID lives, looser at the tail)
+      plus two clauses used by every style — NO_BACKGROUND (leave out habitat,
+      feeders, hands, wires; plain white, no cast shadow) and RESEMBLANCE (keep
+      this bird's proportions, bill and head shape, posture, pattern, tones).
+- [x] Prompts are assembled to a budget: T5 reads ~512 tokens and silently drops
+      the rest, and the first draft ran to ~690. The sourced description is now
+      trimmed a sentence at a time; style, species, field marks, likeness and the
+      background rule always survive. Measured across 400 species: 1,669-1,850
+      chars (~420-460 tokens).
+- [x] Model is configuration: `BIRD_MODEL` (default `ostris/Flex.2-preview`,
+      local paths fine), `BIRD_STYLE`, `BIRD_CLIP`. `check_model.py` reports the
+      GPU, the configured checkpoint and what is cached, and `--load` proves it
+      builds. No HuggingFace account or network is needed once weights are local.
+- [x] `RECIPE` bumped to `v5-commons-fieldsketch`, so every existing image counts
+      as stale; `queue_restyle.py` queues them through the ordinary queue, which
+      means the existing review/feedback loop (pick a variant, more iterations,
+      edit field marks, export, apply) drives the redraw. Dry run: 522 species to
+      queue, 8 of them never drawn.
+
+**Not verified here:** the generation itself. This sandbox is denied access to
+the HuggingFace cache (`~/.cache/huggingface`), so CLIP could not load and no
+image was drawn. `check_model.py --load` is the check to run on the box, and the
+first few species out of `gen_worker.py` should be eyeballed before queueing all
+522.

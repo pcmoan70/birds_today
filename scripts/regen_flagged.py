@@ -22,6 +22,7 @@ import csv
 import glob
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -59,7 +60,9 @@ IDSOURCED = os.path.join(HERE, "id_features_sourced.json")
 FEETFEATURES = os.path.join(HERE, "feet_features.json")  # family -> legs/feet clause
 RETRY = os.path.join(HERE, "retry_rounds.json")  # {code: round} — bumped when a
 #   species is marked "none good enough" so its re-gen uses fresh seeds.
-RECIPE = "v4-macaulay-id"   # primary Macaulay reference + ID-feature prompt
+RECIPE = "v5-commons-fieldsketch"   # openly licensed Commons base photo +
+#   colour-field-sketch prompt. Bumping this marks every image made by the old
+#   recipe as stale, so a regeneration pass rebuilds the stack.
 REVIEW_IMGS = os.path.join(ROOT, "docs", "review_imgs")   # variant images (on Pages)
 REVIEW_MAN = os.path.join(ROOT, "docs", "review", "manifest.json")
 PUSH_EVERY = 5
@@ -141,32 +144,78 @@ def load_retry():
     return json.load(open(RETRY, encoding="utf-8")) if os.path.exists(RETRY) else {}
 
 
-def improved_prompt(common, sci, code, stance, fams, ids, sourced=None):
+# Style used for the drawings. "fieldsketch" draws a colour field sketch from
+# the (openly licensed) reference photo; "fieldguide" is the older plate look.
+# scripts/style_switch.py swaps the published images between styles.
+STYLE = os.environ.get("BIRD_STYLE", "fieldsketch")
+
+# The reference photo is a real bird in a real place — a feeder, a hand, a
+# fence, a lawn. prep_init already cuts the bird out onto white, but the model
+# still reads the init image, so the prompt says plainly that none of the
+# setting survives into the drawing.
+NO_BACKGROUND = (
+    " Draw the bird only: leave out everything around it in the photo — habitat, "
+    "foliage, branches, grass, water, sky, rocks, snow, fences, wires, feeders, "
+    "hands, rings, other birds — on plain white, no cast shadow, no backdrop; "
+    "at most the barest neutral perch under its feet."
+)
+
+# img2img keeps the shape; this keeps the identity.
+RESEMBLANCE = (
+    " Keep the likeness of the bird in the reference photo: same proportions, "
+    "bill and head shape, posture, plumage pattern and colour tones — a portrait "
+    "of this species, not a generic or idealised bird."
+)
+
+# The T5 encoder reads about 512 tokens (~2,000 characters) and silently drops
+# the rest, so the prompt is assembled in priority order and the long sourced
+# description is trimmed — never the style, the species, the likeness or the
+# background instruction.
+PROMPT_BUDGET = 1900
+
+
+def _trim_sentences(text, keep):
+    out = re.split(r"(?<=[.!?])\s+", text.strip())
+    return " ".join(out[:keep]).strip()
+
+
+def improved_prompt(common, sci, code, stance, fams, ids, sourced=None, style=None):
     fam = fams.get(code) or [None, None]
     fam_clause = ""
     if fam[0]:
         en = f" ({fam[1]})" if fam[1] else ""
         fam_clause = f", a member of the family {fam[0]}{en}"
     id_text = (ids or {}).get(code, "").strip()
-    id_clause = f" Identification — emphasise these field marks: {id_text}" if id_text else ""
     # A second, sourced description of the plumage (cross-referenced between
     # Wikipedia editions, or hand-edited in the app). It follows the curated
     # clause so a hand-tuned prompt still leads.
     src_text = (sourced if sourced is not None else load_sourced_ids()).get(code, "").strip()
-    if src_text:
-        id_clause += " Described in the literature as: " + src_text.rstrip(".") + "."
     # Family-level legs/feet morphology — anchors the feet even when the
     # reference photo hides them (bird on water, crouched, feet behind a perch).
     feet = load_feet()
     feet_text = (feet.get(fam[0]) if fam[0] else None) or feet.get("_default", "")
     feet_clause = f" Render the legs and feet accurately: {feet_text}." if feet_text else ""
-    return (G.STYLES["fieldguide"]["prompt"] + ". "
-            f"A {common} ({sci}){fam_clause}, {G.STANCES[stance]['desc']}.{id_clause}{feet_clause} "
-            "Depict a typical wild adult in natural, accurate, muted plumage "
-            "colours, true to these field marks and the reference photograph; "
-            "avoid over-saturated or exaggerated colours. Show the complete bird "
-            "within the frame, uncropped, with both legs and feet fully visible "
-            f"and not cut off. {G.ANATOMY}.")
+    st = G.STYLES.get(style or STYLE) or G.STYLES["fieldguide"]
+    head = (st["prompt"] + ". "
+            f"A {common} ({sci}){fam_clause}, {G.STANCES[stance]['desc']}.")
+    tail = (RESEMBLANCE + NO_BACKGROUND +
+            " A typical wild adult in natural, muted colours, the whole bird in "
+            "frame, uncropped, both legs and feet visible. " + G.ANATOMY + ".")
+
+    def build(src_keep):
+        mid = f" Identification — emphasise these field marks: {id_text}" if id_text else ""
+        if src_text and src_keep:
+            mid += (" Described in the literature as: "
+                    + _trim_sentences(src_text, src_keep).rstrip(".") + ".")
+        return head + mid + feet_clause + tail
+
+    # Shed the sourced description a sentence at a time until it fits; the
+    # curated field marks, the likeness and the background rule always survive.
+    for keep in (4, 3, 2, 1, 0):
+        out = build(keep)
+        if len(out) <= PROMPT_BUDGET or keep == 0:
+            return out
+    return out
 
 
 def sharp(im):
@@ -218,17 +267,18 @@ def _wholeness(a):
 
 
 def _gather(sp, code, want):
-    """Pool reference candidates across sources: whoBIRD's curated Macaulay pick
-    (one editor-chosen whole-bird photo), iNaturalist (direct), Wikimedia, and
-    GBIF (which federates more iNat + Observation.org + naturgucker + Flickr).
-    whoBIRD is listed first so its single curated candidate is always among the
-    capped downloads; best_ref still scores everything and may prefer another."""
+    """Pool reference candidates across sources: Wikimedia Commons (openly
+    licensed, and therefore the base image we prefer to draw from), iNaturalist,
+    GBIF (which federates more iNat + Observation.org + naturgucker + Flickr),
+    and whoBIRD's curated Macaulay pick as the fallback. Wikimedia is listed
+    first so its candidates are always among the capped downloads; best_ref
+    still scores everything."""
     from itertools import zip_longest
     lists = []
-    for name, fn in (("whobird", lambda: whobird.search(sp["sci"], sp["common"], "sitting", want)),
+    for name, fn in (("wiki", lambda: wikimedia.search(sp["sci"], sp["common"], "sitting", want)),
                      ("inat", lambda: inat.search(sp["sci"], sp["common"], "sitting", want)),
-                     ("wiki", lambda: wikimedia.search(sp["sci"], sp["common"], "sitting", want)),
-                     ("gbif", lambda: gbif.search(sp["sci"], sp["common"], "sitting", want))):
+                     ("gbif", lambda: gbif.search(sp["sci"], sp["common"], "sitting", want)),
+                     ("whobird", lambda: whobird.search(sp["sci"], sp["common"], "sitting", want))):
         try:
             lists.append(fn() or [])
         except Exception as e:  # noqa: BLE001
@@ -257,6 +307,14 @@ def best_ref(sp, code, sess):
             os.makedirs(BADREFS, exist_ok=True)
             if not _fetch_candidate(c, p):
                 continue
+            # Keep the candidate's attribution beside it: the drawing made from
+            # an openly licensed photo has to credit the photographer, so the
+            # licence, author and source page travel with the reference.
+            try:
+                with open(p + ".json", "w", encoding="utf-8") as jf:
+                    json.dump(c.meta(), jf, ensure_ascii=False, indent=1)
+            except Exception:                                   # noqa: BLE001
+                pass
             tmp.append(p); imgs.append(Image.open(p).convert("RGB"))
             srcs.append(getattr(c, "source", "?"))
         except Exception:
@@ -268,19 +326,23 @@ def best_ref(sp, code, sess):
     photo = QC.clip_probs(imgs, [PHOTO_POS, PHOTO_NEG])[:, 0].tolist()  # P(real photo)
     fast = _fast_session()
 
-    # whoBIRD/Macaulay curated photo is the PRIMARY reference. These are
-    # editor-picked whole-bird ID shots — often tight crops where the bird fills
-    # the frame — so we trust the curation and require only that CLIP sees a real
-    # bird (and, defensively, a real photograph). prep_init isolates and
-    # re-centres it, so framing/edge-touch is fine. We fall back to scored
-    # multi-source selection only if it isn't a bird-like photo.
-    wb = next((i for i, s in enumerate(srcs) if s == "whobird"), None)
-    if wb is not None:
-        if obj[wb] > 0.5 and photo[wb] > 0.35:
-            print(f"    ref[whobird PRIMARY]: bird={obj[wb]:.2f} pose={pose[wb]:.2f} "
-                  f"photo={photo[wb]:.2f} (curated, of {len(imgs)})")
-            return tmp[wb], "whobird"
-        print(f"    whobird ref rejected (bird={obj[wb]:.2f} photo={photo[wb]:.2f}); falling back")
+    # Wikimedia Commons is the PREFERRED base image: the photos are openly
+    # licensed (CC / public domain), so the drawing made from one is a clean
+    # derivative we can publish and credit, and the reference itself may be shown
+    # on the review page. Take the best Commons candidate that CLIP agrees is a
+    # real photo of a real bird in a usable pose; fall through to the scored
+    # multi-source pick (which still includes the curated Macaulay shot) when
+    # Commons has nothing good, so coverage never suffers for it.
+    wikis = [i for i, s in enumerate(srcs) if s == "wikimedia"]
+    if wikis:
+        best_wiki = max(wikis, key=lambda i: obj[i] + 0.6 * pose[i])
+        if obj[best_wiki] > 0.55 and photo[best_wiki] > 0.35:
+            print(f"    ref[wikimedia PREFERRED]: bird={obj[best_wiki]:.2f} "
+                  f"pose={pose[best_wiki]:.2f} photo={photo[best_wiki]:.2f} "
+                  f"(openly licensed, of {len(imgs)})")
+            return tmp[best_wiki], "wikimedia"
+        print(f"    no usable Commons photo (best bird={obj[best_wiki]:.2f} "
+              f"photo={photo[best_wiki]:.2f}); scoring all sources")
 
     # CLIP is cheap; the whole-bird mask is not. Only mask the most promising
     # candidates (top real-bird + pose) with the fast model.
@@ -469,12 +531,22 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
         os.makedirs(dst, exist_ok=True)
         png = os.path.join(dst, f"{pose}_0.png")
         save_small(best[0], png)
+        meta = {"source": "generated", "model": "black-forest-labs/FLUX.1-dev",
+                "style": STYLE, "prompt": prompt, "pose": pose,
+                "reference": os.path.basename(ref_path), "strength": best[2],
+                "seed": best[1], "recipe": RECIPE}
+        # The drawing is a derivative of the reference photo: record who took it
+        # and under what licence, so the app can credit them.
+        try:
+            rc = json.load(open(ref_path + ".json", encoding="utf-8"))
+            meta["reference_credit"] = {
+                "source": rc.get("source", ""), "author": rc.get("author", ""),
+                "license": rc.get("license", ""), "page_url": rc.get("page_url", ""),
+            }
+        except Exception:                                       # noqa: BLE001
+            pass
         with open(png + ".json", "w", encoding="utf-8") as jf:
-            json.dump({"source": "generated", "model": "black-forest-labs/FLUX.1-dev",
-                       "style": "fieldguide", "prompt": prompt, "pose": pose,
-                       "reference": os.path.basename(ref_path), "strength": best[2],
-                       "seed": best[1], "recipe": RECIPE}, jf,
-                      ensure_ascii=False, indent=2)
+            json.dump(meta, jf, ensure_ascii=False, indent=2)
     return {"png": png, "chosen": None, "variants": vmeta,
             "ref": ref_rel, "photo": photo_rel}
 
@@ -523,6 +595,8 @@ def setup_reference(code, sp, sess):
                 shutil.move(j, os.path.join(BADREFS, code, f + ".json"))
     ref_input = os.path.join(d, "sitting_0.jpg")
     shutil.copy(newref, ref_input)   # local img2img input (gitignored)
+    if os.path.exists(newref + ".json"):          # carry the photo's credit over
+        shutil.copy(newref + ".json", ref_input + ".json")
     return ref_input, refsrc
 
 
@@ -583,7 +657,7 @@ def main():
         prune_review_imgs(review)
 
     print("Loading FLUX pipeline...")
-    pipe = G.load_pipeline("black-forest-labs/FLUX.1-dev", None, fp8=True)
+    pipe = G.load_pipeline(fp8=True)   # BIRD_MODEL picks the checkpoint
     sess = new_session("birefnet-general")
 
     done = 0

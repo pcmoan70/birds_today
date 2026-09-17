@@ -1021,8 +1021,22 @@
       for (var k in m.stances) {
         if (!img && m.stances[k] && m.stances[k].length) img = m.stances[k][0];
       }
-      if (img) out.push({ label: "AI", src: "birds/" + img, page: null, ai: true,
-        origin: "AI-generated field-guide illustration" });
+      if (img) {
+        // The drawing is made from a reference photograph; when that photo is
+        // openly licensed, its photographer is credited here.
+        var cr = (m.credits || {})[img] || {};
+        var from = cr.drawn_from;
+        var origin = "AI drawing, from a reference photograph";
+        var page = null;
+        if (from && (from.author || from.source)) {
+          origin = "AI drawing, after a photo by " + (from.author || from.source) +
+            (from.license ? " (" + from.license + ")" : "") +
+            (from.source && from.author ? " — " + from.source : "");
+          page = from.page_url || null;
+        }
+        out.push({ label: "AI", src: "birds/" + img, page: page, ai: true,
+          origin: origin });
+      }
     }
     return out;
   }

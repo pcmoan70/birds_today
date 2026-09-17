@@ -118,8 +118,8 @@ def main():
     os.makedirs(R.BA, exist_ok=True)
     os.makedirs(os.path.dirname(R.REVIEW_MAN), exist_ok=True)
 
-    print("Loading FLUX pipeline...")
-    pipe = G.load_pipeline("black-forest-labs/FLUX.1-dev", None, fp8=True)
+    print(f"Loading pipeline: {G.DEFAULT_MODEL} ...")
+    pipe = G.load_pipeline(fp8=True)   # BIRD_MODEL picks the checkpoint
     sess = new_session("birefnet-general")
 
     done = 0

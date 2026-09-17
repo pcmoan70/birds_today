@@ -119,6 +119,30 @@ python build_manifest.py
 }
 ```
 
+## The drawings
+
+Each drawing is made from a **reference photograph**, img2img. The base photo is
+taken from **Wikimedia Commons** where possible — openly licensed, so the drawing
+is a clean derivative and the photographer is credited in the app — falling back
+to iNaturalist and GBIF, and to the curated Macaulay reference only if nothing
+openly licensed is usable. The prompt asks for a **colour field sketch**: the
+bird alone on white, the photograph's setting left out, and the individual's
+proportions, pattern and colours kept.
+
+Model and style are configuration, not code:
+
+```bash
+BIRD_MODEL=ostris/Flex.2-preview    # default; a local folder works too
+BIRD_STYLE=fieldsketch              # or fieldguide for the older plate look
+BIRD_CLIP=openai/clip-vit-base-patch32   # reference scorer
+python check_model.py --load        # prove the checkpoint loads on this box
+python queue_restyle.py --apply     # queue the stack after a recipe change
+python gen_worker.py                # draw the queue; results go to the review page
+```
+
+Nothing needs a HuggingFace account or network once the weights are on disk:
+`from_pretrained` accepts a local path, and `HF_HUB_OFFLINE=1` pins it there.
+
 ## Field notes
 
 Every species carries **field notes** — what an observer would write in a notebook, including
@@ -142,6 +166,8 @@ scripts/
   build_photos.py          openly licensed photo per species -> docs/photos.json
   build_ml_assets.py       species -> Macaulay asset id (seeds only, never shown)
   export_descriptions_en.py  English-only notes -> docs/descriptions_en.{json,md}
+  check_model.py           what GPU / checkpoint the drawing stack will use
+  queue_restyle.py         queue the stack for redrawing after a recipe change
   apply_field_id_edits.py  fold edits exported from the app back into the dataset
   distill_field_id.py      prompt-shaped field marks -> id_features_sourced.json
 ```

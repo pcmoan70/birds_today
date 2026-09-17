@@ -103,6 +103,16 @@ def main():
                     "source": m.get("source", ""), "author": m.get("author", ""),
                     "license": m.get("license", ""), "page_url": m.get("page_url", ""),
                 }
+                # A generated drawing is a derivative of its reference photo. When
+                # that photo is openly licensed its photographer must be credited,
+                # so the credit travels into the manifest the app reads.
+                rc = m.get("reference_credit")
+                if rc and (rc.get("author") or rc.get("page_url")):
+                    entry["credits"][rel]["drawn_from"] = {
+                        "source": rc.get("source", ""), "author": rc.get("author", ""),
+                        "license": rc.get("license", ""),
+                        "page_url": rc.get("page_url", ""),
+                    }
         if "flying" not in entry["stances"]:
             no_flying.append(code)
         manifest[code] = entry

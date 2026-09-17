@@ -52,6 +52,26 @@ TEST_CODES = ["gretit1", "blutit", "eurrob1", "eurbla", "comcha", "eurmag1",
 # IMPORTANT: ask for the BIRD ONLY on a plain background — NOT a "plate on paper"
 # (that renders a paper sheet with caption/border that the matting then keeps).
 STYLES = {
+    # Drawn from an openly licensed Commons photo: a colour field sketch that
+    # keeps the individual's likeness, with the photo's setting left out
+    # entirely. Kept tighter than "fieldguide" because improved_prompt() adds the
+    # species' field marks, feet and background clauses on top, and the T5
+    # encoder only reads the first ~512 tokens.
+    "fieldsketch": {
+        "tag": ("colour field sketch of a single bird, watercolour washes and "
+                "coloured pencil over light pencil, plain white background, "
+                "no text, no border"),
+        "prompt": ("a colour field sketch of a single bird, as a birder would "
+                   "draw it from life and finish in the studio: a light pencil "
+                   "underdrawing carrying clean watercolour washes and "
+                   "coloured-pencil detail, worked up sharply where identification "
+                   "lives — head, bill, eye, wing pattern, the edges of each "
+                   "feather tract — and left looser and more sketchy toward the "
+                   "tail, belly and legs, a few pencil strokes still showing; "
+                   "true proportions and a faithful likeness of the species, "
+                   "natural unsaturated colours, soft daylight; the bird alone on "
+                   "plain white paper, no border, no caption, no text"),
+    },
     "fieldguide": {
         "tag": ("highly detailed lifelike field-guide bird illustration, realistic "
                 "watercolour and gouache, Lars Jonsson style, photorealistic "
@@ -113,19 +133,42 @@ def build_prompt(common, sci, marks, stance, style=DEFAULT_STYLE):
             f"{STANCES[stance]['desc']}.{feat} {ANATOMY}.")
 
 
-def load_pipeline(model_id, lora=None, fp8=True):
-    """FLUX img2img pipeline, fp8-quantized to fit 24 GB."""
+# Which checkpoint to draw with. Flex.2 (ostris/Flex.2-preview, Apache-2.0) is
+# FLUX-architecture but 8B, so it fits a 12 GB card with the fp8 path below;
+# FLUX.1-dev is the original 12B. Override per run with BIRD_MODEL or --model.
+DEFAULT_MODEL = os.environ.get("BIRD_MODEL", "ostris/Flex.2-preview")
+
+
+def load_pipeline(model_id=None, lora=None, fp8=True):
+    """img2img pipeline for the configured checkpoint, fp8-quantized.
+
+    Quantizing the transformer and the T5 encoder to 8 bit is what makes this
+    fit a 12 GB 3060 with Flex.2 (and 24 GB with FLUX.1-dev); CPU offload keeps
+    only the module in use resident. Flex.2 is loaded through the plain img2img
+    pipeline — its control/inpaint extras are not used here, the reference photo
+    goes in as the init image.
+    """
     from diffusers import FluxImg2ImgPipeline
-    pipe = FluxImg2ImgPipeline.from_pretrained(model_id, torch_dtype=torch.bfloat16)
+    model_id = model_id or DEFAULT_MODEL
+    try:
+        pipe = FluxImg2ImgPipeline.from_pretrained(model_id, torch_dtype=torch.bfloat16)
+    except Exception as e:                                      # noqa: BLE001
+        # A local folder or a differently-packaged snapshot: say which, plainly,
+        # rather than failing three frames deep in diffusers.
+        raise RuntimeError(
+            f"could not load '{model_id}' as an img2img pipeline ({e}). "
+            "Point BIRD_MODEL at a diffusers-format checkpoint (a local path "
+            "works: BIRD_MODEL=D:/models/Flex.2-preview), or run "
+            "scripts/check_model.py to see what is installed."
+        ) from e
     if fp8:
-        # Quantize the two big modules to 8-bit so weights fit comfortably.
         from optimum.quanto import freeze, qfloat8, quantize
         for mod in (pipe.transformer, pipe.text_encoder_2):
             quantize(mod, weights=qfloat8)
             freeze(mod)
     if lora:
         pipe.load_lora_weights(lora)
-    pipe.enable_model_cpu_offload()  # safe on 24 GB; keeps headroom
+    pipe.enable_model_cpu_offload()
     return pipe
 
 
