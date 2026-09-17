@@ -449,3 +449,26 @@ the HuggingFace cache (`~/.cache/huggingface`), so CLIP could not load and no
 image was drawn. `check_model.py --load` is the check to run on the box, and the
 first few species out of `gen_worker.py` should be eyeballed before queueing all
 522.
+
+## Curated photo list, the open-licence twin of whoBIRD's (2026-09-17)
+The Photos grid sampled research-grade observations at random, which is why it
+showed distant birds on wires and cluttered feeders. whoBIRD works from one
+editor-picked photo per species; iNaturalist has the same thing in the open —
+`taxon_photos`, a community-curated ordered set per taxon.
+- [x] `build_photos.py` rewritten: resolve the taxon by exact scientific name,
+      take the first `taxon_photos` entry carrying a CC licence, keep url,
+      licence, photographer and photo page. Paced at ~1 request/second,
+      resumable, `--codes` / `--refresh` for single species.
+- [x] The app's live fallback (species outside the curated set) now walks the
+      same curated list instead of the observation sample.
+- [x] Checked in the browser: every visible tile is a portrait of the species —
+      Great Tit, Blue Tit, Hooded Crow, Chaffinch, White-tailed Eagle — with the
+      photographer and licence on each tile.
+
+Checked BirdsWhere (pcmoan70/BirdsWhere, b5a6a1b3) for a photo pipeline to copy:
+it has none. No species photo is fetched, stored or displayed — 0 bundled jpgs,
+no per-species asset mapping. It only *links out*: Macaulay's catalogue search
+(`search.macaulaylibrary.org/catalog?taxonCode=...`), iNaturalist's taxon search,
+Kew and ADW, all opened in a tab; the sole remote image is a Wikipedia range map
+scraped per view. One idea worth borrowing: its Macaulay link narrows to +-1
+month around the observation date so the plumage matches the season.

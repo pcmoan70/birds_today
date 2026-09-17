@@ -163,7 +163,7 @@ scripts/
   build_field_id_web.py    slim web cut -> docs/field_id.json
   build_missing.py         species with no image at all -> docs/missing.json
   build_aves.py            the model's bird codes -> docs/aves.txt
-  build_photos.py          openly licensed photo per species -> docs/photos.json
+  build_photos.py          curated photo per species -> docs/photos.json
   build_ml_assets.py       species -> Macaulay asset id (seeds only, never shown)
   export_descriptions_en.py  English-only notes -> docs/descriptions_en.{json,md}
   check_model.py           what GPU / checkpoint the drawing stack will use

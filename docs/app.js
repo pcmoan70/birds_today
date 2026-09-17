@@ -430,11 +430,9 @@
     }, wait);
   }
 
-  // Only openly licensed photos: the observations endpoint is asked for these
-  // licences explicitly, so an all-rights-reserved photo is never returned — a
-  // taxon's "default photo" can be one, which is why it isn't used here.
-  var INAT_LICENSES = "cc0,cc-by,cc-by-nc,cc-by-sa,cc-by-nd,cc-by-nc-sa,cc-by-nc-nd";
-
+  // Only openly licensed photos are shown: every candidate must carry a
+  // licence code, and a taxon's own "default photo" is skipped when it does not
+  // (it can be all rights reserved).
   function fetchInat(code, cb) {
     var sci = nameFor(code).sci;
     // `keep` distinguishes "this species has no openly licensed photo" (cache
@@ -445,28 +443,47 @@
       _refBusy--; cb(rec); pumpRefQueue();
     };
     if (!sci) { done(null, true); return; }
-    // Deliberately NOT ordered by votes: the most-faved photos skew to striking
-    // or aberrant individuals and arty crops — a leucistic Mallard, a feather
-    // macro, a starling murmuration — which is the opposite of what a bird
-    // calendar wants. A plain research-grade, wild, uncaptive sample gives
-    // typical birds, the same reasoning as scripts/sources/inat.py.
-    fetch("https://api.inaturalist.org/v1/observations?per_page=1&photos=true" +
-          "&quality_grade=research&captive=false" +
-          "&photo_license=" + INAT_LICENSES +
-          "&taxon_name=" + encodeURIComponent(sci))
+    // The same curated list scripts/build_photos.py uses, done live for a
+    // species outside the curated set: iNaturalist keeps an ordered set of
+    // representative photos per taxon, and the first openly licensed one is a
+    // portrait of the bird rather than whatever observation happened to come
+    // back — which is what made the grid full of distant birds on wires.
+    fetch("https://api.inaturalist.org/v1/taxa?rank=species&per_page=5&q=" +
+          encodeURIComponent(sci))
       .then(function (r) {
         if (r.status === 429 || r.status >= 500) return "throttled";
         return r.ok ? r.json() : null;
       })
       .then(function (j) {
         if (j === "throttled") { done(null, false); return; }
-        var obs = j && j.results && j.results[0];
-        var ph = obs && obs.photos && obs.photos[0];
-        if (!ph || !ph.url || !ph.license_code) { done(null, !!j); return; }
-        done({ url: ph.url.replace("/square.", "/medium.").replace("/small.", "/medium."),
-          by: ph.attribution || "", license: ph.license_code.toUpperCase(),
-          credit: "iNaturalist", src: "inat",
-          page: "https://www.inaturalist.org/observations/" + (obs.id || "") });
+        var want = sci.toLowerCase();
+        var t = ((j && j.results) || []).filter(function (x) {
+          return (x.name || "").toLowerCase() === want;
+        })[0];
+        if (!t) { done(null, !!j); return; }
+        return fetch("https://api.inaturalist.org/v1/taxa/" + t.id)
+          .then(function (r2) {
+            if (r2.status === 429 || r2.status >= 500) return "throttled";
+            return r2.ok ? r2.json() : null;
+          })
+          .then(function (d) {
+            if (d === "throttled") { done(null, false); return; }
+            var res = (d && d.results && d.results[0]) || {};
+            var list = res.taxon_photos || [];
+            for (var i = 0; i < list.length; i++) {
+              var ph = (list[i] || {}).photo || {};
+              var lic = (ph.license_code || "").toLowerCase();
+              var url = ph.medium_url || ph.url || "";
+              if (!lic || !url) continue;          // all rights reserved: skip
+              done({ url: url.replace("/square.", "/medium.")
+                              .replace("/small.", "/medium."),
+                by: ph.attribution || "", license: lic.toUpperCase(),
+                credit: "iNaturalist", src: "inat",
+                page: "https://www.inaturalist.org/photos/" + (ph.id || "") });
+              return;
+            }
+            done(null, !!d);
+          });
       })
       .catch(function () { done(null, false); });   // network hiccup: retry later
   }
