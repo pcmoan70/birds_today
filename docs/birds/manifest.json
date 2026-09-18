@@ -2912,7 +2912,7 @@
     },
     "faces": {
       "blared1/flying_0.png": "right",
-      "blared1/sitting_0.png": "left"
+      "blared1/sitting_0.png": "right"
     },
     "credits": {
       "blared1/flying_0.png": {
@@ -2925,7 +2925,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Pierre-Marie Epiney",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:ADSC_9373_(51324671506).jpg"
+        }
       }
     }
   },
@@ -6166,7 +6172,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Tisha Mukherjee",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Common_Grasshopper_Warbler_by_Tisha_Mukherjee_03.jpg"
+        }
       }
     }
   },
@@ -14764,14 +14776,20 @@
       ]
     },
     "faces": {
-      "eurwry/sitting_0.png": "right"
+      "eurwry/sitting_0.png": "left"
     },
     "credits": {
       "eurwry/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Martien Brand from Mariënberg, The Netherlands",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:22804_Draaihals_(3318438707).jpg"
+        }
       }
     }
   },
@@ -15511,7 +15529,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Salvatore De Castro",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Alzavola.jpg"
+        }
       }
     }
   },
@@ -34525,7 +34549,7 @@
     },
     "faces": {
       "thrnig1/flying_0.png": "left",
-      "thrnig1/sitting_0.png": "left"
+      "thrnig1/sitting_0.png": "right"
     },
     "credits": {
       "thrnig1/flying_0.png": {
@@ -34538,7 +34562,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "jannepassi",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Luscinia_luscinia,_Helsinki,_Finland_1.jpg"
+        }
       }
     }
   },
