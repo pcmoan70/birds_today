@@ -6915,7 +6915,7 @@
     },
     "faces": {
       "comcra/flying_0.png": "right",
-      "comcra/sitting_0.png": "left"
+      "comcra/sitting_0.png": "right"
     },
     "credits": {
       "comcra/flying_0.png": {
@@ -10648,14 +10648,20 @@
       ]
     },
     "faces": {
-      "duswar/sitting_0.png": "left"
+      "duswar/sitting_0.png": "right"
     },
     "credits": {
       "duswar/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Asmarifulanam",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%E0%A6%97%E0%A6%BE%E0%A6%A2%E0%A6%BC%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BE%E0%A6%AE%E0%A6%BF_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%AB%E0%A7%81%E0%A6%9F%E0%A6%95%E0%A6%BF_(Dusky_Warbler),_Phylloscopus_fuscatus_%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80%E0%A6%B0_%E0%A6%AA%E0%A6%A6%E0%A7%8D%E0%A6%AE%E0%A6%BE_%E0%A6%A8%E0%A6%A6%E0%A7%80%E0%A6%B0_%E0%A6%9A%E0%A6%B0,_%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80,_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A5%A4.jpg"
+        }
       }
     }
   },
@@ -18995,7 +19001,7 @@
     },
     "faces": {
       "harduc/flying_0.png": "left",
-      "harduc/sitting_0.png": "right"
+      "harduc/sitting_0.png": "left"
     },
     "credits": {
       "harduc/flying_0.png": {
@@ -19008,7 +19014,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Chuck Homler d/b/a Focus On Wildlife",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Drake_Harlequin_duck_(Histrionicus_histrionicus)_perched_on_a_rock_in_the_Barnegat_Inlet,_New_Jersey,_USA.jpg"
+        }
       }
     }
   },
@@ -20175,7 +20187,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Samuel Etienne",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Pagophila_eburnea4.jpg"
+        }
       }
     }
   },
@@ -21026,7 +21044,7 @@
     },
     "faces": {
       "leseag1/flying_0.png": "right",
-      "leseag1/sitting_0.png": "left"
+      "leseag1/sitting_0.png": "right"
     },
     "credits": {
       "leseag1/flying_0.png": {
@@ -21039,7 +21057,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Ron Knight from Seaford, East Sussex, United Kingdom",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Clanga_pomarina,_Belarus_1.jpg"
+        }
       }
     }
   },
@@ -26544,6 +26568,75 @@
       }
     }
   },
+  "pecpip": {
+    "sci": "Anthus gustavi",
+    "common": "Pechora Pipit",
+    "names": {
+      "en": "Pechora Pipit",
+      "de": "Petschorapieper",
+      "es": "Bisbita del Pechora",
+      "pl": "świergotek tundrowy",
+      "fr": "Pipit de la Petchora",
+      "nl": "Petsjorapieper",
+      "ru": "Сибирский конёк",
+      "ja": "セジロタヒバリ",
+      "cs": "linduška sibiřská",
+      "ca": "piula del Petxora",
+      "pt": "petinha-da-sibéria",
+      "no": "tundrapiplerke",
+      "bg": "Сибирска бъбрица",
+      "sv": "tundrapiplärka",
+      "da": "Tundrapiber",
+      "tr": "Peçora İncirkuşu",
+      "sk": "ľabtuška bielopása",
+      "sr": "Beloleđa trepteljka",
+      "uk": "Щеврик сибірський",
+      "zh-CN": "北鹨",
+      "fi": "tundrakirvinen",
+      "es_ES": "Bisbita del Pechora",
+      "es_MX": "Bisbita del Pechora",
+      "es_EC": "Bisbita del Pechora",
+      "pt_PT": "Petinha-da-sibéria",
+      "hr": "sibirska trepteljka",
+      "lt": "Tundrinis kalviukas",
+      "fa": "پیپت پکورا",
+      "cy": "Corhedydd Pechora",
+      "et": "põhjakiur",
+      "it": "Pispola della Pechora",
+      "zh-TW": "白背鷚",
+      "eo": "tundra pipio",
+      "hu": "tundrapityer",
+      "sl": "tundrica",
+      "lv": "tundras čipste",
+      "is": "Svarðtittlingur",
+      "id": "Apung petchora",
+      "se": "Duottarcivkkán",
+      "ko": "흰등밭종다리",
+      "he": "פפיון טונדרה"
+    },
+    "stances": {
+      "sitting": [
+        "pecpip/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "pecpip/sitting_0.png": "right"
+    },
+    "credits": {
+      "pecpip/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Валерия Ковалева",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Anthus_gustavi_214075656.jpg"
+        }
+      }
+    }
+  },
   "pecsan": {
     "sci": "Calidris melanotos",
     "common": "Pectoral Sandpiper",
@@ -29577,7 +29670,7 @@
     },
     "faces": {
       "rinduc/flying_0.png": "right",
-      "rinduc/sitting_0.png": "right"
+      "rinduc/sitting_0.png": "left"
     },
     "credits": {
       "rinduc/flying_0.png": {
@@ -29590,7 +29683,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Polinova",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Ring-Necked_Duck.jpg"
+        }
       }
     }
   },
@@ -31726,14 +31825,20 @@
       ]
     },
     "faces": {
-      "savwar1/sitting_0.png": "right"
+      "savwar1/sitting_0.png": "left"
     },
     "credits": {
       "savwar1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Created by Sergey Yeliseev.",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Locustellaluscinioides.jpg"
+        }
       }
     }
   },
@@ -32146,14 +32251,20 @@
       ]
     },
     "faces": {
-      "shttre1/sitting_0.png": "left"
+      "shttre1/sitting_0.png": "right"
     },
     "credits": {
       "shttre1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Short-toed_treecreeper_(Certhia_brachydactyla_brachydactyla).jpg"
+        }
       }
     }
   },
@@ -35777,14 +35888,20 @@
       ]
     },
     "faces": {
-      "watpip1/sitting_0.png": "left"
+      "watpip1/sitting_0.png": "right"
     },
     "credits": {
       "watpip1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "xulescu_g",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Anthus_spinoletta_(34908044503).jpg"
+        }
       }
     }
   },
