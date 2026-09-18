@@ -1841,43 +1841,49 @@
    "name": "Black Tern",
    "sci": "Chlidonias niger",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/blkter/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/205596981/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/blkter/ref.jpg",
+   "photo": "review_imgs/blkter/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small marsh tern; breeding adult slate-grey body with a black head and breast, dark grey wings, and white undertail coverts. Slightly forked grey tail, slender black bill, dark reddish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/blkter/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.894,
-     "pose": 0.014,
-     "bird": 0.341
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.847,
+     "pose": 0.133,
+     "bird": 0.784
     },
     {
      "id": "v1",
      "img": "review_imgs/blkter/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.891,
-     "pose": 0.035,
-     "bird": 0.148
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.798,
+     "pose": 0.096,
+     "bird": 0.317
     },
     {
      "id": "v2",
      "img": "review_imgs/blkter/v2.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.903,
-     "pose": 0.015,
-     "bird": 0.14
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.77,
+     "pose": 0.078,
+     "bird": 0.269
     }
    ],
-   "reviewed": true,
-   "id": "Small marsh tern; breeding adult slate-grey body with a black head and breast, dark grey wings, and white undertail coverts. Slightly forked grey tail, slender black bill, dark reddish legs."
+   "gen": 1789723190,
+   "reviewed": false,
+   "pending": false
   },
   "blrwar1": {
    "name": "Blyth's Reed Warbler",
@@ -10968,45 +10974,48 @@
    "name": "Common Hoopoe",
    "sci": "Upupa epops",
    "family": "Hoopoes",
-   "reason": "manual-crop",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/hoopoe/before.png",
    "ref": "review_imgs/hoopoe/ref.jpg",
    "photo": "review_imgs/hoopoe/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "pinned",
+   "recipe": "v6-commons-whole",
    "id": "Pinkish-cinnamon body with a bold black-and-white barred back, wings and tail. Erectile fan crest is cinnamon tipped black-and-white. Long thin slightly down-curved blackish bill, short greyish legs. Broad rounded wings boldly barred black and white.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/hoopoe/v0.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.822,
-     "pose": 0.03,
-     "bird": 0.617
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.86,
+     "pose": 0.253,
+     "bird": 0.529
     },
     {
      "id": "v1",
      "img": "review_imgs/hoopoe/v1.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.885,
-     "pose": 0.153,
-     "bird": 0.242
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.825,
+     "pose": 0.138,
+     "bird": 0.645
     },
     {
      "id": "v2",
      "img": "review_imgs/hoopoe/v2.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.852,
-     "pose": 0.065,
-     "bird": 0.281
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.812,
+     "pose": 0.077,
+     "bird": 0.042
     }
    ],
-   "gen": 1782777696,
-   "reviewed": true,
+   "gen": 1789723764,
+   "reviewed": false,
    "pending": false
   },
   "horgre": {
@@ -18574,46 +18583,49 @@
    "name": "Spotted Crake",
    "sci": "Porzana porzana",
    "family": "Rails, Gallinules, and Coots",
-   "reason": "none-good",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/spocra1/before.png",
    "ref": "review_imgs/spocra1/ref.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "photo": "review_imgs/spocra1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Small secretive rail; olive-brown above heavily spotted white, grey-brown breast finely speckled white, buff undertail. Short yellow bill with red base, greenish legs, brown crown.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/spocra1/v0.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.869,
-     "pose": 0.297,
-     "bird": 0.757
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.834,
+     "pose": 0.422,
+     "bird": 0.273
     },
     {
      "id": "v1",
      "img": "review_imgs/spocra1/v1.png",
-     "seed": 1015,
-     "strength": 0.6,
-     "sim": 0.914,
-     "pose": 0.318,
-     "bird": 0.367
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.8,
+     "pose": 0.05,
+     "bird": 0.276
     },
     {
      "id": "v2",
      "img": "review_imgs/spocra1/v2.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.88,
-     "pose": 0.273,
-     "bird": 0.225
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.826,
+     "pose": 0.067,
+     "bird": 0.057
     }
    ],
-   "gen": 1782733133,
+   "gen": 1789723503,
    "reviewed": false,
-   "pending": false,
-   "photo": "review_imgs/spocra1/photo.jpg"
+   "pending": false
   },
   "spofly1": {
    "name": "Spotted Flycatcher",
@@ -19075,35 +19087,49 @@
    "name": "Surf Scoter",
    "sci": "Melanitta perspicillata",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/sursco/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/190832741/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref": "review_imgs/sursco/ref.jpg",
+   "photo": "review_imgs/sursco/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Bulky black sea-duck; drake all-black with bold white patches on forehead and nape, and a swollen multicoloured orange, white and black bill with round black spot near base; staring white eye.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sursco/v0.png",
-     "seed": 3006,
+     "seed": 1001,
      "strength": 0.7,
-     "sim": 0.75,
-     "pose": 0.297,
-     "bird": 0.907
+     "whole": 1.0,
+     "sim": 0.832,
+     "pose": 0.02,
+     "bird": 0.551
     },
     {
      "id": "v1",
      "img": "review_imgs/sursco/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.75,
-     "pose": 0.234,
-     "bird": 0.835
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.829,
+     "pose": 0.091,
+     "bird": 0.432
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sursco/v2.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.771,
+     "pose": 0.031,
+     "bird": 0.295
     }
    ],
+   "gen": 1789724129,
    "reviewed": false,
-   "photo": "review_imgs/sursco/photo.jpg"
+   "pending": false
   },
   "swagoo1": {
    "name": "Swan Goose",
@@ -19375,43 +19401,49 @@
    "name": "Terek Sandpiper",
    "sci": "Xenus cinereus",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/tersan/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/614511669/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/tersan/ref.jpg",
+   "photo": "review_imgs/tersan/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small pale-grey sandpiper with a long upturned dark bill (orange at base) and short bright orange-yellow legs; grey upperparts, white underparts, faint dark shoulder lines.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/tersan/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.879,
-     "pose": 0.169,
-     "bird": 0.83
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.876,
+     "pose": 0.412,
+     "bird": 0.88
     },
     {
      "id": "v1",
      "img": "review_imgs/tersan/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.914,
-     "pose": 0.127,
-     "bird": 0.716
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.818,
+     "pose": 0.118,
+     "bird": 0.734
     },
     {
      "id": "v2",
      "img": "review_imgs/tersan/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.886,
-     "pose": 0.055,
-     "bird": 0.744
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.848,
+     "pose": 0.216,
+     "bird": 0.227
     }
    ],
-   "id": "Small pale-grey sandpiper with a long upturned dark bill (orange at base) and short bright orange-yellow legs; grey upperparts, white underparts, faint dark shoulder lines.",
-   "photo": "review_imgs/tersan/photo.jpg"
+   "gen": 1789723945,
+   "reviewed": false,
+   "pending": false
   },
   "thbmur": {
    "name": "Thick-billed Murre",
@@ -22027,7 +22059,6 @@
   "blkgui",
   "blksco2",
   "blkswa",
-  "blkter",
   "bltacc1",
   "blutit",
   "blwpra1",
@@ -22085,7 +22116,6 @@
   "helgui",
   "hoocro1",
   "hoomer",
-  "hoopoe",
   "houspa",
   "humwar1",
   "isawhe1",
@@ -22116,7 +22146,6 @@
   "padwar1",
   "pagplo",
   "palswi3",
-  "palwar5",
   "pecpip",
   "pieavo1",
   "pinbun",
@@ -22150,13 +22179,10 @@
   "slbgul",
   "snogoo",
   "soclap1",
-  "spocra1",
   "steeid",
   "stonec7",
   "subwar6",
-  "sursco",
   "tawpip1",
-  "tersan",
   "uraowl1",
   "waldra1",
   "watpip1",

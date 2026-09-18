@@ -3689,7 +3689,7 @@
     },
     "faces": {
       "blkter/flying_0.png": "right",
-      "blkter/sitting_0.png": "right"
+      "blkter/sitting_0.png": "left"
     },
     "credits": {
       "blkter/flying_0.png": {
@@ -3702,7 +3702,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andrej Chudý from Slovakia",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%C4%8Cor%C3%ADk_%C4%8Dierny_(Chlidonias_niger)_a_(4644831482).jpg"
+        }
       }
     }
   },
@@ -33131,7 +33137,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Clément Caiveau",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:MG_019417--1-0--2009.jpg"
+        }
       }
     }
   },
@@ -34011,7 +34023,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Chuck Homler, Focus On Wildlife",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Surf_Scoter_Drake_LBI.png"
+        }
       }
     }
   },
@@ -34556,7 +34574,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Imran Shah from Islamabad, Pakistan",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Terek_Sandpiper_(Xenus_cinereus)_(30828601107).jpg"
+        }
       }
     }
   },
