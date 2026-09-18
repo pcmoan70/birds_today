@@ -8547,7 +8547,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Finch",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Ailes_martinet_noir.jpg"
+        }
       }
     }
   },
@@ -16754,14 +16760,20 @@
       ]
     },
     "faces": {
-      "gresca/sitting_0.png": "right"
+      "gresca/sitting_0.png": "left"
     },
     "credits": {
       "gresca/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Chuck Homler d/b/a Focus On Wildlife",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Drake_Greater_scaup_(Aythya_marila)_Barnegat_Inlet,_New_Jersey,_USA.jpg"
+        }
       }
     }
   },
@@ -16897,7 +16909,7 @@
     },
     "faces": {
       "gresku1/flying_0.png": "left",
-      "gresku1/sitting_0.png": "left"
+      "gresku1/sitting_0.png": "right"
     },
     "credits": {
       "gresku1/flying_0.png": {
@@ -16910,7 +16922,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Ómar Runólfsson",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Stercorarius_skua_-Iceland-8.jpg"
+        }
       }
     }
   },
@@ -27524,7 +27542,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Imran Shah from Islamabad, Pakistan",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Common_Crossbill_(Loxia_curvirostra),_Naltar,_Gilgit,_Pakistan_(36238614570).jpg"
+        }
       }
     }
   },
@@ -29496,7 +29520,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Rock_ptarmigan_(Lagopus_muta_islandorum)_female_breeding_Botnsvatn.jpg"
+        }
       }
     }
   },
