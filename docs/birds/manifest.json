@@ -3107,7 +3107,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Eichler",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2016.08.27.-14-Viernheimer_Heide-Viernheim--Schwarzspecht-Weibchen.jpg"
+        }
       }
     }
   },
@@ -7116,7 +7122,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Mehlschwalbe_Delichon_urbicum.jpg"
+        }
       }
     }
   },
@@ -17149,7 +17161,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Common_Whitethroat.jpg"
+        }
       }
     }
   },
@@ -30282,7 +30300,7 @@
     },
     "faces": {
       "ruff/flying_0.png": "left",
-      "ruff/sitting_0.png": "left"
+      "ruff/sitting_0.png": "right"
     },
     "credits": {
       "ruff/flying_0.png": {
@@ -30295,7 +30313,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Zeynel Cebeci",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Calidris_pugnax_-_Ruff_06.jpg"
+        }
       }
     }
   },
@@ -31139,7 +31163,7 @@
     },
     "faces": {
       "sheowl/flying_0.png": "left",
-      "sheowl/sitting_0.png": "right"
+      "sheowl/sitting_0.png": "left"
     },
     "credits": {
       "sheowl/flying_0.png": {
