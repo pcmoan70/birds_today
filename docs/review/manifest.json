@@ -514,43 +514,48 @@
    "name": "Bar-headed Goose",
    "sci": "Anser indicus",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/bahgoo/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181031211/320",
-   "ref_source": "whobird",
-   "chosen": "v2",
+   "ref": "review_imgs/bahgoo/ref.jpg",
+   "photo": "review_imgs/bahgoo/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Pale grey goose with white head crossed by two bold black bars on the nape, white face stripe down the neck sides. Pale grey body, orange-yellow bill, orange legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/bahgoo/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.951,
-     "pose": 0.62,
-     "bird": 0.898
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.848,
+     "pose": 0.303,
+     "bird": 0.805
     },
     {
      "id": "v1",
      "img": "review_imgs/bahgoo/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.95,
-     "pose": 0.558,
-     "bird": 0.963
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.852,
+     "pose": 0.113,
+     "bird": 0.965
     },
     {
      "id": "v2",
      "img": "review_imgs/bahgoo/v2.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.952,
-     "pose": 0.557,
-     "bird": 0.921
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.874,
+     "pose": 0.103,
+     "bird": 0.765
     }
    ],
-   "recipe": "v4-macaulay-id",
-   "reviewed": true,
-   "id": "Pale grey goose with white head crossed by two bold black bars on the nape, white face stripe down the neck sides. Pale grey body, orange-yellow bill, orange legs.",
+   "gen": 1789725135,
+   "reviewed": false,
    "pending": false
   },
   "baicra1": {
@@ -3871,43 +3876,38 @@
    "name": "Corn Bunting",
    "sci": "Emberiza calandra",
    "family": "Old World Buntings",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/corbun1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/37498431/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/corbun1/ref.jpg",
+   "photo": "review_imgs/corbun1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Large plump dull bunting, streaky grey-brown above and on buff underparts, with dense dark streaking on the breast forming a central spot, a plain face, a pale stout conical bill and pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/corbun1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.915,
-     "pose": 0.13,
-     "bird": 0.386
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.695,
+     "pose": 0.139,
+     "bird": 0.064
     },
     {
      "id": "v1",
      "img": "review_imgs/corbun1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.914,
-     "pose": 0.186,
-     "bird": 0.322
-    },
-    {
-     "id": "v2",
-     "img": "review_imgs/corbun1/v2.png",
      "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.895,
-     "pose": 0.213,
-     "bird": 0.316
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.684,
+     "pose": 0.168,
+     "bird": 0.045
     }
    ],
-   "reviewed": true,
-   "id": "Large plump dull bunting, streaky grey-brown above and on buff underparts, with dense dark streaking on the breast forming a central spot, a plain face, a pale stout conical bill and pinkish legs.",
+   "gen": 1789724910,
+   "reviewed": false,
    "pending": false
   },
   "corcra": {
@@ -6796,43 +6796,49 @@
    "name": "European Turtle-Dove",
    "sci": "Streptopelia turtur",
    "family": "Pigeons and Doves",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/eutdov/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/24866531/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/eutdov/ref.jpg",
+   "photo": "review_imgs/eutdov/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small slim dove with a scaly chequered black-and-rufous back and wings, blue-grey head, pinkish breast, a striped black-and-white neck patch, and a black tail with a broad white tip. Dark bill, pink legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eutdov/v0.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.917,
-     "pose": 0.216,
-     "bird": 0.647
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.809,
+     "pose": 0.054,
+     "bird": 0.825
     },
     {
      "id": "v1",
      "img": "review_imgs/eutdov/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.912,
-     "pose": 0.229,
-     "bird": 0.558
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.771,
+     "pose": 0.047,
+     "bird": 0.564
     },
     {
      "id": "v2",
      "img": "review_imgs/eutdov/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.934,
-     "pose": 0.265,
-     "bird": 0.416
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.769,
+     "pose": 0.079,
+     "bird": 0.02
     }
    ],
-   "reviewed": true,
-   "id": "Small slim dove with a scaly chequered black-and-rufous back and wings, blue-grey head, pinkish breast, a striped black-and-white neck patch, and a black tail with a broad white tip. Dark bill, pink legs."
+   "gen": 1789725457,
+   "reviewed": false,
+   "pending": false
   },
   "eutkne1": {
    "name": "Eurasian Thick-knee",
@@ -12641,35 +12647,47 @@
    "name": "Long-eared Owl",
    "sci": "Asio otus",
    "family": "Typical Owls",
-   "reason": "manual-crop",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/loeowl/before.png",
    "ref": "review_imgs/loeowl/ref.jpg",
    "photo": "review_imgs/loeowl/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "pinned",
+   "recipe": "v6-commons-whole",
    "id": "Slim upright owl with mottled grey-brown plumage, vertically streaked underparts, long close-set ear-tufts, and a rusty-orange facial disc with bright orange eyes. Dark X-pattern across the face. Hooked dark bill, feathered legs. Slender, elongated shape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/loeowl/v0.png",
-     "seed": 1016,
-     "strength": 0.68,
-     "sim": 0.717,
-     "pose": 0.065,
-     "bird": 0.233
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.865,
+     "pose": 0.315,
+     "bird": 0.58
     },
     {
      "id": "v1",
      "img": "review_imgs/loeowl/v1.png",
-     "seed": 1017,
-     "strength": 0.74,
-     "sim": 0.698,
-     "pose": 0.004,
-     "bird": 0.071
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.877,
+     "pose": 0.313,
+     "bird": 0.453
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/loeowl/v2.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.81,
+     "pose": 0.165,
+     "bird": 0.441
     }
    ],
-   "gen": 1782780633,
+   "gen": 1789725808,
    "reviewed": false,
    "pending": false
   },
@@ -22042,6 +22060,44 @@
    "gen": 1789693789,
    "reviewed": false,
    "pending": false
+  },
+  "sibacc": {
+   "name": "Siberian Accentor",
+   "sci": "Prunella montanella",
+   "family": null,
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
+   "before": null,
+   "ref": "review_imgs/sibacc/ref.jpg",
+   "photo": "review_imgs/sibacc/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small sparrow-like bird; grey crown and nape, broad orange-buff supercilium and throat, blackish eye-mask, and brown-streaked back. Buff-and-brown streaked flanks; thin dark bill, pinkish legs.",
+   "chosen": null,
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/sibacc/v0.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.693,
+     "pose": 0.06,
+     "bird": 0.716
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/sibacc/v1.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.525,
+     "pose": 0.139,
+     "bird": 0.808
+    }
+   ],
+   "gen": 1789724532,
+   "reviewed": false,
+   "pending": false
   }
  },
  "queued": [
@@ -22050,7 +22106,6 @@
   "amewig",
   "amgplo",
   "azutit2",
-  "bahgoo",
   "baisan",
   "bargol",
   "bcnher",
@@ -22081,7 +22136,6 @@
   "comnig1",
   "comqua1",
   "comrav",
-  "corbun1",
   "corshe1",
   "crelar1",
   "daejun",
@@ -22100,7 +22154,6 @@
   "eursco1",
   "eursha1",
   "eurspo1",
-  "eutdov",
   "eutspa",
   "ferduc",
   "fieldf",
@@ -22132,7 +22185,6 @@
   "litbus1",
   "litcra1",
   "lobdow",
-  "loeowl",
   "mallar3",
   "marsan",
   "meapip1",
@@ -22173,7 +22225,6 @@
   "savwar1",
   "scathr2",
   "shttre1",
-  "sibacc",
   "sibjay1",
   "sibpip1",
   "slbgul",

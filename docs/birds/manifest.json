@@ -1030,7 +1030,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Tisha Mukherjee",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Bar-headed_Goose_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_02.jpg"
+        }
       }
     }
   },
@@ -8905,7 +8911,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "K.t.s photos",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2._%CE%A0%CF%84%CE%B7%CE%BD%CF%8C_%CE%9A%CE%AC%CF%81%CE%BB%CE%B1%CF%82.png"
+        }
       }
     }
   },
@@ -14955,7 +14967,7 @@
     },
     "faces": {
       "eutdov/flying_0.png": "right",
-      "eutdov/sitting_0.png": "right"
+      "eutdov/sitting_0.png": "left"
     },
     "credits": {
       "eutdov/flying_0.png": {
@@ -14968,7 +14980,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "MPF",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2015-05-21_Streptopelia_turtur,_Sutton_Bank,_Yorkshire_03.jpg"
+        }
       }
     }
   },
@@ -22362,7 +22380,7 @@
     },
     "faces": {
       "loeowl/flying_0.png": "left",
-      "loeowl/sitting_0.png": "left"
+      "loeowl/sitting_0.png": "right"
     },
     "credits": {
       "loeowl/flying_0.png": {
@@ -32018,6 +32036,75 @@
         "author": "",
         "license": "",
         "page_url": ""
+      }
+    }
+  },
+  "sibacc": {
+    "sci": "Prunella montanella",
+    "common": "Siberian Accentor",
+    "names": {
+      "en": "Siberian Accentor",
+      "de": "Bergbraunelle",
+      "es": "Acentor Siberiano",
+      "pl": "płochacz syberyjski",
+      "fr": "Accenteur montanelle",
+      "nl": "Bergheggenmus",
+      "ru": "Сибирская завирушка",
+      "ja": "ヤマヒバリ",
+      "cs": "pěvuška sibiřská",
+      "ca": "pardal de bardissa siberià",
+      "pt": "ferreirinha-siberiana",
+      "no": "sibirjernspurv",
+      "bg": "Сибирска завирушка",
+      "sv": "sibirisk järnsparv",
+      "da": "Sibirisk Jernspurv",
+      "tr": "Sibirya Dağbülbülü",
+      "sk": "vrchárka okrová",
+      "sr": "Sibirski popić",
+      "uk": "Тинівка сибірська",
+      "zh-CN": "棕眉山岩鹨",
+      "fi": "taigarautiainen",
+      "es_ES": "Acentor siberiano",
+      "es_MX": "Acentor Siberiano",
+      "es_EC": "Acentor Siberiano",
+      "pt_PT": "Ferreirinha-siberiana",
+      "hr": "sibirski popić",
+      "lt": "Sibirinis erškėtžvirblis",
+      "fa": "صعوه سیبری",
+      "cy": "Llwyd Siberia",
+      "et": "siberi raat",
+      "it": "Passera scopaiola asiatica",
+      "zh-TW": "棕眉岩鷚",
+      "eo": "siberia pronelo",
+      "hu": "szibériai szürkebegy",
+      "sl": "sibirska pevka",
+      "lv": "Sibīrijas peļkājīte",
+      "is": "Fjalltítla",
+      "be": "Сібірская завірушка",
+      "se": "Várreruovdecizáš",
+      "ko": "멧종다리",
+      "he": "סתרי סיבירי"
+    },
+    "stances": {
+      "sitting": [
+        "sibacc/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "sibacc/sitting_0.png": "right"
+    },
+    "credits": {
+      "sibacc/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Mike Pennington",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Siberian_Accentor_(Prunella_montanella),_Lund_-_geograph.org.uk_-_5166161.jpg"
+        }
       }
     }
   },
