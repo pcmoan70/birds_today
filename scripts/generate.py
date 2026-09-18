@@ -192,6 +192,61 @@ def load_pipeline(model_id=None, lora=None, fp8=True):
     return _finish_pipeline(pipe, lora, fp8)
 
 
+def control_img2img(pipe, init, prompt, prompt_2, strength, seed,
+                    control_strength=0.6, control_stop=0.5, steps=28,
+                    guidance=3.5):
+    """img2img on a control checkpoint (Flex.2), which has no img2img mode.
+
+    Flex.2's own pipeline only generates from noise, with the photo as a control
+    hint — and a hint is all it stays: the bird drifts off the reference, and on
+    a harder subject the composition falls apart entirely. But that pipeline
+    accepts ready-made `latents` and a custom `sigmas` schedule, and img2img is
+    exactly those two things: encode the photo, add the noise the schedule
+    expects at the starting sigma, and run only the tail of the steps. The
+    drawing then starts from the bird instead of from noise.
+
+    `strength` means what it means everywhere else: 0 keeps the photo, 1 ignores
+    it. The control input is kept on as well, at a lower weight, to hold the
+    silhouette while the style is applied.
+    """
+    import numpy as np
+    from diffusers.pipelines.flux.pipeline_flux import (calculate_shift,
+                                                        retrieve_timesteps)
+    device = pipe._execution_device
+
+    x = pipe.image_processor.preprocess(init, height=init.height, width=init.width)
+    x = x.to(device=device, dtype=pipe.vae.dtype)
+    lat = pipe.vae.encode(x).latent_dist.mode()
+    lat = (lat - pipe.vae.config.shift_factor) * pipe.vae.config.scaling_factor
+    image_latents = pipe._pack_latents(lat, *lat.shape)
+
+    sigmas = np.linspace(1.0, 1 / steps, steps)[max(int(steps - steps * strength), 0):]
+    mu = calculate_shift(
+        image_latents.shape[1],
+        pipe.scheduler.config.get("base_image_seq_len", 256),
+        pipe.scheduler.config.get("max_image_seq_len", 4096),
+        pipe.scheduler.config.get("base_shift", 0.5),
+        pipe.scheduler.config.get("max_shift", 1.15))
+    # The scheduler shifts the schedule by mu, so ask it what the first sigma
+    # really is rather than assuming: the photo must carry exactly the noise the
+    # first step expects, or the run starts off-distribution and smears.
+    retrieve_timesteps(pipe.scheduler, len(sigmas), device, sigmas=sigmas, mu=mu)
+    sigma0 = float(pipe.scheduler.sigmas[0])
+
+    noise = torch.randn(image_latents.shape,
+                        generator=torch.Generator("cpu").manual_seed(seed),
+                        dtype=torch.float32).to(device=device,
+                                                dtype=image_latents.dtype)
+    latents = sigma0 * noise + (1.0 - sigma0) * image_latents
+
+    return pipe(prompt=prompt, prompt_2=prompt_2,
+                latents=latents, sigmas=sigmas, num_inference_steps=len(sigmas),
+                control_image=init, control_strength=control_strength,
+                control_stop=control_stop,
+                height=init.height, width=init.width, guidance_scale=guidance,
+                generator=torch.Generator("cpu").manual_seed(seed)).images[0]
+
+
 def _finish_pipeline(pipe, lora, fp8):
     if fp8:
         from optimum.quanto import freeze, qfloat8, quantize

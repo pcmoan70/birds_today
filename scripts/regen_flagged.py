@@ -61,7 +61,7 @@ IDSOURCED = os.path.join(HERE, "id_features_sourced.json")
 FEETFEATURES = os.path.join(HERE, "feet_features.json")  # family -> legs/feet clause
 RETRY = os.path.join(HERE, "retry_rounds.json")  # {code: round} — bumped when a
 #   species is marked "none good enough" so its re-gen uses fresh seeds.
-RECIPE = "v6-commons-whole"   # openly licensed Commons base photo +
+RECIPE = "v7-commons-i2i"   # openly licensed Commons base photo +
 #   colour-field-sketch prompt. Bumping this marks every image made by the old
 #   recipe as stale, so a regeneration pass rebuilds the stack.
 PHOTOS = os.path.join(ROOT, "docs", "photos.json")        # the app's curated photo
@@ -443,8 +443,8 @@ def prep_init(ref_path, sess, size=1024, frame=0):
 
     `frame` cycles the framing so re-flagging a "bad photo" that is really just a
     bad crop yields a genuinely different model input:
-      0 -> isolate the bird, 1.8x margin (default)
-      1 -> isolate the bird, looser 2.1x margin (more breathing room)
+      0 -> isolate the bird, 1.45x margin (default)
+      1 -> isolate the bird, looser 1.7x margin (more breathing room)
       2 -> no isolation: the whole photo letterboxed onto a white square
     Frame 2 (and any isolation failure) letterboxes the whole photo."""
     im = Image.open(ref_path).convert("RGB")
@@ -452,7 +452,7 @@ def prep_init(ref_path, sess, size=1024, frame=0):
         try:
             ci = cut.cut_pil(im, sess, 900)  # RGBA, cropped tight to the bird
             if ci is not None:
-                margin = 1.8 if frame % 3 == 0 else 2.1
+                margin = 1.45 if frame % 3 == 0 else 1.7
                 side = int(max(ci.size) * margin)
                 sq = Image.new("RGBA", (side, side), (255, 255, 255, 255))
                 sq.paste(ci, ((side - ci.width) // 2, (side - ci.height) // 2), ci)
@@ -462,12 +462,11 @@ def prep_init(ref_path, sess, size=1024, frame=0):
     return _fit_square(im, size)
 
 
-VARIANTS = [(1000, 0.60), (1001, 0.68), (1002, 0.74)]
-# Flex.2 is driven by its control input rather than img2img, and that dial runs
-# the other way: 0.9 holds the photo's shape closely, 0.5 lets the drawing
-# breathe. One per variant rank, so the three variants still span "faithful" to
-# "freer" and the reviewer picks.
-CONTROL_STRENGTHS = [0.90, 0.70, 0.50]
+# How much of the reference photo each variant keeps (0 = the photo, 1 = a free
+# drawing). The band is deliberately low: the point of these images is that they
+# are this species, in this posture, with these field marks. Above ~0.7 the
+# model starts inventing plumage that is merely plausible.
+VARIANTS = [(1000, 0.45), (1001, 0.55), (1002, 0.65)]
 # A generated bird counts as whole when almost nothing of it reaches the top or
 # side edges of the frame (the bottom is allowed: legs and perch). Same measure
 # as the reference check — see _wholeness.
@@ -541,18 +540,11 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
         seed = base_seed + seed_off
         gen = torch.Generator("cpu").manual_seed(seed)
         if getattr(pipe, "_bird_control", False):
-            # Flex.2: the prepared photo is the control image, not an init
-            # image. control_strength/stop run the other way to img2img
-            # strength — higher keeps more of the photo — so the variant's
-            # strength is mapped onto the control band by rank.
-            cs = CONTROL_STRENGTHS[i % len(CONTROL_STRENGTHS)]
-            out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt,
-                       control_image=init, control_strength=cs,
-                       control_stop=round(cs * 0.85, 2),
-                       height=init.height, width=init.width,
-                       num_inference_steps=28, guidance_scale=3.5,
-                       generator=gen).images[0]
-            strength = cs
+            # Flex.2 has no img2img mode of its own; control_img2img gives it
+            # one, so the drawing starts from the photograph rather than from
+            # noise with the photo as a hint. Same `strength` meaning as below.
+            out = G.control_img2img(pipe, init, G.STYLES["fieldguide"]["tag"],
+                                    prompt, strength, seed)
         else:
             out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt, image=init,
                        strength=strength, num_inference_steps=28, guidance_scale=3.5,
