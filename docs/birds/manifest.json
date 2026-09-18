@@ -15382,7 +15382,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "MPF",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2013-10-08_Mareca_strepera,_Big_Waters,_Northumberland_1.jpg"
+        }
       }
     }
   },
@@ -21874,7 +21880,7 @@
     },
     "faces": {
       "litsti/flying_0.png": "left",
-      "litsti/sitting_0.png": "right"
+      "litsti/sitting_0.png": "left"
     },
     "credits": {
       "litsti/flying_0.png": {
@@ -21887,7 +21893,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "El Golli Mohamed",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:B%C3%A9casseau_minute_Thyna007.jpg"
+        }
       }
     }
   },
@@ -28629,7 +28641,7 @@
     },
     "faces": {
       "rengre/flying_0.png": "right",
-      "rengre/sitting_0.png": "left"
+      "rengre/sitting_0.png": "right"
     },
     "credits": {
       "rengre/flying_0.png": {
@@ -28642,7 +28654,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Red-necked_grebe_(Podiceps_grisegena_grisegena)_breeding_adult_Gronjordssoen.jpg"
+        }
       }
     }
   },
@@ -33979,7 +33997,7 @@
     },
     "faces": {
       "tawowl1/flying_0.png": "left",
-      "tawowl1/sitting_0.png": "right"
+      "tawowl1/sitting_0.png": "left"
     },
     "credits": {
       "tawowl1/flying_0.png": {
@@ -33992,7 +34010,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Martin Mecnarowski (http://www.photomecan.eu/)",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Strix_aluco_3_(Martin_Mecnarowski).jpg"
+        }
       }
     }
   },
