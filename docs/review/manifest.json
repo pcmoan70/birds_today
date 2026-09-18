@@ -13132,44 +13132,49 @@
    "name": "Marsh Sandpiper",
    "sci": "Tringa stagnatilis",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/marsan/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/93850071/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/marsan/ref.jpg",
+   "photo": "review_imgs/marsan/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v7-commons-i2i",
+   "id": "Elegant pale slender wader with very long greenish legs, a fine straight needle-thin black bill, grey-brown streaked upperparts, white face and underparts, and a white rump and back wedge in flight.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/marsan/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.796,
-     "pose": 0.365,
-     "bird": 0.878
+     "seed": 1001,
+     "strength": 0.55,
+     "whole": 1.0,
+     "sim": 0.891,
+     "pose": 0.409,
+     "bird": 0.617
     },
     {
      "id": "v1",
      "img": "review_imgs/marsan/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.762,
-     "pose": 0.247,
-     "bird": 0.815
+     "seed": 1000,
+     "strength": 0.45,
+     "whole": 1.0,
+     "sim": 0.893,
+     "pose": 0.353,
+     "bird": 0.644
     },
     {
      "id": "v2",
      "img": "review_imgs/marsan/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.772,
-     "pose": 0.156,
-     "bird": 0.657
+     "seed": 1002,
+     "strength": 0.65,
+     "whole": 1.0,
+     "sim": 0.883,
+     "pose": 0.368,
+     "bird": 0.647
     }
    ],
-   "id": "Elegant pale slender wader with very long greenish legs, a fine straight needle-thin black bill, grey-brown streaked upperparts, white face and underparts, and a white rump and back wedge in flight.",
-   "photo": "review_imgs/marsan/photo.jpg",
-   "pending": true
+   "gen": 1789731394,
+   "reviewed": false,
+   "pending": false
   },
   "martea1": {
    "name": "Marbled Duck",
@@ -15653,35 +15658,48 @@
    "name": "Red-billed Chough",
    "sci": "Pyrrhocorax pyrrhocorax",
    "family": "Crows, Jays, and Magpies",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/rebcho1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/37105181/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref": "review_imgs/rebcho1/ref.jpg",
+   "photo": "review_imgs/rebcho1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v7-commons-i2i",
    "id": "All-black crow with a glossy purplish sheen, broad rounded wings with splayed fingered primaries, and a square tail. Long curved bright red bill and bright red legs are the key marks.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rebcho1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.872,
-     "pose": 0.075,
-     "bird": 0.687
+     "seed": 1000,
+     "strength": 0.45,
+     "whole": 1.0,
+     "sim": 0.896,
+     "pose": 0.144,
+     "bird": 0.631
     },
     {
      "id": "v1",
      "img": "review_imgs/rebcho1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.862,
-     "pose": 0.137,
-     "bird": 0.477
+     "seed": 1001,
+     "strength": 0.55,
+     "whole": 1.0,
+     "sim": 0.885,
+     "pose": 0.133,
+     "bird": 0.577
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rebcho1/v2.png",
+     "seed": 1002,
+     "strength": 0.65,
+     "whole": 1.0,
+     "sim": 0.883,
+     "pose": 0.103,
+     "bird": 0.601
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/rebcho1/photo.jpg",
+   "gen": 1789731268,
+   "reviewed": false,
    "pending": false
   },
   "rebfly": {
@@ -17697,35 +17715,47 @@
    "name": "Sabine's Gull",
    "sci": "Xema sabini",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "note-keep+2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/sabgul/before.png",
    "ref": "review_imgs/sabgul/ref.jpg",
    "photo": "review_imgs/sabgul/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "wikimedia",
+   "recipe": "v7-commons-i2i",
    "id": "Small graceful gull with striking tricoloured upperwing: grey, black and white triangles. Breeding adult has dark slate-grey hood edged black, forked white tail, yellow-tipped black bill.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/sabgul/v0.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.826,
-     "pose": 0.136,
-     "bird": 0.891
+     "seed": 1001,
+     "strength": 0.55,
+     "whole": 1.0,
+     "sim": 0.835,
+     "pose": 0.149,
+     "bird": 0.773
     },
     {
      "id": "v1",
      "img": "review_imgs/sabgul/v1.png",
-     "seed": 3011,
-     "strength": 0.7,
-     "sim": 0.796,
-     "pose": 0.014,
-     "bird": 0.456
+     "seed": 1002,
+     "strength": 0.65,
+     "whole": 1.0,
+     "sim": 0.799,
+     "pose": 0.221,
+     "bird": 0.094
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/sabgul/v2.png",
+     "seed": 1000,
+     "strength": 0.45,
+     "whole": 1.0,
+     "sim": 0.705,
+     "pose": 0.164,
+     "bird": 0.092
     }
    ],
-   "gen": 1782774363,
+   "gen": 1789731519,
    "reviewed": false,
    "pending": false
   },
@@ -22401,13 +22431,108 @@
    "gen": 1789730497,
    "reviewed": false,
    "pending": false
+  },
+  "amgplo": {
+   "name": "American Golden-Plover",
+   "sci": "Pluvialis dominica",
+   "family": null,
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
+   "before": null,
+   "ref": "review_imgs/amgplo/ref.jpg",
+   "photo": "review_imgs/amgplo/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v7-commons-i2i",
+   "id": "Medium plover; breeding adult black-faced and black-bellied with a bold white stripe from forehead down the neck sides, and gold-spangled blackish upperparts. Short black bill; dark gray legs.",
+   "chosen": null,
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/amgplo/v0.png",
+     "seed": 1000,
+     "strength": 0.45,
+     "whole": 1.0,
+     "sim": 0.938,
+     "pose": 0.52,
+     "bird": 0.191
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/amgplo/v1.png",
+     "seed": 1001,
+     "strength": 0.55,
+     "whole": 1.0,
+     "sim": 0.932,
+     "pose": 0.428,
+     "bird": 0.293
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/amgplo/v2.png",
+     "seed": 1002,
+     "strength": 0.65,
+     "whole": 1.0,
+     "sim": 0.923,
+     "pose": 0.354,
+     "bird": 0.096
+    }
+   ],
+   "gen": 1789731672,
+   "reviewed": false,
+   "pending": false
+  },
+  "ribgul": {
+   "name": "Ring-billed Gull",
+   "sci": "Larus delawarensis",
+   "family": null,
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
+   "before": null,
+   "ref": "review_imgs/ribgul/ref.jpg",
+   "photo": "review_imgs/ribgul/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v7-commons-i2i",
+   "id": "Medium gull, pale grey back and white head and underparts, black wingtips with white spots. Yellow bill encircled by a distinct black ring near the tip; yellow legs, pale eye.",
+   "chosen": null,
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/ribgul/v0.png",
+     "seed": 1001,
+     "strength": 0.55,
+     "whole": 1.0,
+     "sim": 0.914,
+     "pose": 0.433,
+     "bird": 0.592
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/ribgul/v1.png",
+     "seed": 1000,
+     "strength": 0.45,
+     "whole": 1.0,
+     "sim": 0.916,
+     "pose": 0.423,
+     "bird": 0.407
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ribgul/v2.png",
+     "seed": 1002,
+     "strength": 0.65,
+     "whole": 1.0,
+     "sim": 0.884,
+     "pose": 0.288,
+     "bird": 0.447
+    }
+   ],
+   "gen": 1789731801,
+   "reviewed": false,
+   "pending": false
   }
  },
  "queued": [
   "ambduc",
   "amepip2",
   "amewig",
-  "amgplo",
   "arcloo",
   "arcter",
   "arcwar1",
@@ -22632,7 +22757,6 @@
   "mallar3",
   "manduc",
   "manshe",
-  "marsan",
   "martit2",
   "marwar3",
   "meapip1",
@@ -22676,7 +22800,6 @@
   "pursan",
   "radwar1",
   "razorb",
-  "rebcho1",
   "rebfly",
   "rebmer",
   "rebshr1",
@@ -22696,7 +22819,6 @@
   "rensti",
   "retloo",
   "retpip",
-  "ribgul",
   "ricpip1",
   "rinduc",
   "rinouz1",
@@ -22715,7 +22837,6 @@
   "rudtur",
   "ruff",
   "rusbun",
-  "sabgul",
   "sander",
   "santer1",
   "scathr2",

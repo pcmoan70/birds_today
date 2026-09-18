@@ -405,6 +405,77 @@
       }
     }
   },
+  "amgplo": {
+    "sci": "Pluvialis dominica",
+    "common": "American Golden-Plover",
+    "names": {
+      "en": "American Golden-Plover",
+      "de": "Prärie-Goldregenpfeifer",
+      "es": "Chorlito Dorado Americano",
+      "pl": "siewka szara",
+      "fr": "Pluvier bronzé",
+      "nl": "Amerikaanse goudplevier",
+      "ru": "Американская ржанка",
+      "ja": "アメリカムナグロ",
+      "cs": "kulík hnědokřídlý",
+      "ca": "daurada americana",
+      "pt": "batuiruçu",
+      "no": "kanadalo",
+      "bg": "Доминиканска булка",
+      "sv": "amerikansk tundrapipare",
+      "da": "Amerikansk Hjejle",
+      "tr": "Amerika Altın Yağmurcunu",
+      "sk": "kulík hnedokrídly",
+      "sr": "Američki zlatni vivak",
+      "uk": "Сивка американська",
+      "zh-CN": "美洲金鸻",
+      "fi": "amerikankurmitsa",
+      "es_ES": "Chorlito dorado americano",
+      "es_MX": "Chorlo Dorado Americano",
+      "es_EC": "Chorlo Dorado Americano",
+      "pt_PT": "Batuiruçu",
+      "hr": "američki zlatar",
+      "lt": "Amerikinis sėjikas",
+      "fa": "سلیم طلایی آمریکایی",
+      "cy": "Corgwtiad Aur",
+      "et": "ameerika rüüt",
+      "it": "Piviere americano",
+      "zh-TW": "美洲金斑鴴",
+      "eo": "amerika pluvio",
+      "hu": "amerikai pettyeslile",
+      "sl": "ameriška prosenka",
+      "lv": "zeltainais tārtiņš",
+      "is": "Gulllóa",
+      "af": "Amerikaanse Goue Strandkiewiet",
+      "se": "Amerihkábižus",
+      "ko": "미국검은가슴물떼새",
+      "he": "חופזי אמריקני",
+      "ar": "زقزاق ذهبي امريكي",
+      "ml": "അമേരിക്കൻ പൊൻമണൽക്കോഴി"
+    },
+    "stances": {
+      "sitting": [
+        "amgplo/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "amgplo/sitting_0.png": "right"
+    },
+    "credits": {
+      "amgplo/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "ALAN SCHMIERER",
+          "license": "CC0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:AMERICAN_GOLDEN_PLOVER_(11-5-06)-_4_(560694525).jpg"
+        }
+      }
+    }
+  },
   "arcloo": {
     "sci": "Gavia arctica",
     "common": "Arctic Loon",
@@ -23229,7 +23300,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "El Golli Mohamed",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Chevalier_stagnatile005_thyna.jpg"
+        }
       }
     }
   },
@@ -27776,7 +27853,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "\"Malte Uhl\"",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Alpenkr%C3%A4he-Pyrrhocorax.jpg"
+        }
       }
     }
   },
@@ -29543,6 +29626,74 @@
           "author": "Daniel Pettersson",
           "license": "CC BY-SA 2.5 se",
           "page_url": "https://commons.wikimedia.org/wiki/File:Anthus_cervinus2.jpg"
+        }
+      }
+    }
+  },
+  "ribgul": {
+    "sci": "Larus delawarensis",
+    "common": "Ring-billed Gull",
+    "names": {
+      "en": "Ring-billed Gull",
+      "de": "Ringschnabelmöwe",
+      "es": "Gaviota de Delaware",
+      "pl": "mewa delawarska",
+      "fr": "Goéland à bec cerclé",
+      "nl": "Ringsnavelmeeuw",
+      "ru": "Делавэрская чайка",
+      "ja": "クロワカモメ",
+      "cs": "racek kroužkozobý",
+      "ca": "gavina de Delaware",
+      "pt": "gaivota-de-bico-riscado",
+      "no": "ringnebbmåke",
+      "bg": "Пръстенчатоклюна чайка",
+      "sv": "ringnäbbad mås",
+      "da": "Ringnæbbet Måge",
+      "tr": "Halkalı Martı",
+      "sk": "čajka obrúčkozobá",
+      "sr": "Delaverski galeb",
+      "uk": "Мартин делаверський",
+      "zh-CN": "环嘴鸥",
+      "fi": "rengasnokkalokki",
+      "es_ES": "Gaviota de Delaware",
+      "es_MX": "Gaviota Pico Anillado",
+      "es_EC": "Gaviota Piquianillada",
+      "pt_PT": "Gaivota-de-bico-riscado",
+      "hr": "prstenokljuni galeb",
+      "lt": "Žieduotasnapis kiras",
+      "fa": "کاکایی نوک حلقهای",
+      "cy": "Gwylan fodrwybig",
+      "et": "vöötnokk-kajakas",
+      "it": "Gavina americana",
+      "zh-TW": "環嘴鷗",
+      "eo": "ringobeka mevo",
+      "hu": "gyűrűscsőrű sirály",
+      "sl": "progastokljuni galeb",
+      "lv": "gredzenknābja kaija",
+      "is": "Hringmáfur",
+      "se": "Delawarebáiski",
+      "ko": "북미갈매기",
+      "he": "שחף עקוד-מקור"
+    },
+    "stances": {
+      "sitting": [
+        "ribgul/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "ribgul/sitting_0.png": "left"
+    },
+    "credits": {
+      "ribgul/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Tim Ross",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:07-11RingbillGullStGeoIsl.jpg"
         }
       }
     }
@@ -31449,7 +31600,7 @@
     },
     "faces": {
       "sabgul/flying_0.png": "right",
-      "sabgul/sitting_0.png": "right"
+      "sabgul/sitting_0.png": "left"
     },
     "credits": {
       "sabgul/flying_0.png": {
@@ -31462,7 +31613,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Alaska Region U.S. Fish &amp; Wildlife Service from Anchorage, United States",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Sabine%27s_gull_(53706725122).jpg"
+        }
       }
     }
   },
