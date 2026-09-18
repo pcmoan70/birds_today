@@ -7243,7 +7243,7 @@
     },
     "faces": {
       "comkin1/flying_0.png": "right",
-      "comkin1/sitting_0.png": "right"
+      "comkin1/sitting_0.png": "left"
     },
     "credits": {
       "comkin1/flying_0.png": {
@@ -7256,7 +7256,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Giles Laurent",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:036_Common_kingfisher_at_Champ-Pittet_Photo_by_Giles_Laurent.jpg"
+        }
       }
     }
   },
@@ -11735,7 +11741,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Wespenbussard_European_honey_buzzard_Pernis_apivorus,_crop.jpg"
+        }
       }
     }
   },
@@ -12844,7 +12856,7 @@
     },
     "faces": {
       "eurhob/flying_0.png": "right",
-      "eurhob/sitting_0.png": "right"
+      "eurhob/sitting_0.png": "left"
     },
     "credits": {
       "eurhob/flying_0.png": {
@@ -12857,7 +12869,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Podaliriy55",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:DSC_eueu_34.jpg"
+        }
       }
     }
   },
@@ -14433,14 +14451,20 @@
       ]
     },
     "faces": {
-      "eurwar1/sitting_0.png": "left"
+      "eurwar1/sitting_0.png": "right"
     },
     "credits": {
       "eurwar1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Acrocephalus_scirpaceus-Ejdzej2006.jpg"
+        }
       }
     }
   },
@@ -16759,7 +16783,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "NOAA Photo Library",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Anim1989_-_Flickr_-_NOAA_Photo_Library.jpg"
+        }
       }
     }
   },
