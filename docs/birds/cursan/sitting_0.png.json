@@ -1,11 +1,17 @@
 {
   "source": "generated",
-  "model": "black-forest-labs/FLUX.1-dev",
-  "style": "fieldguide",
-  "prompt": "a highly detailed, lifelike modern ornithological field-guide illustration of a single bird in the naturalistic watercolour-and-gouache style of Lars Jonsson, Killian Mullarney, Dan Zetterström, Hampus Lejon and Axel Thorenfeldt (as in the Collins Bird Guide), rendered with near-photographic realism: true-to-life proportions and colours, realistic feather textures and barring, subtle three-dimensional form and depth, soft natural light with gentle shadow, crisp sharp focus, scientifically accurate field marks, fine feather detail, full body, the bird only, isolated on a plain solid white background, no paper texture, no border, no frame, no caption, no text. A Curlew Sandpiper (Calidris ferruginea), a member of the family Scolopacidae (Sandpipers and Allies), perched on a small branch, wings folded neatly against the body, side profile. Identification — emphasise these field marks: Slim wader with a long down-curved black bill, in breeding plumage rich brick-red on the head, underparts and back which is also scaled black, and a white rump; black legs, longer-legged and longer-billed than Dunlin. Depict a typical wild adult in natural, accurate, muted plumage colours, true to these field marks and the reference photograph; avoid over-saturated or exaggerated colours. Show the complete bird within the frame, uncropped, with both legs and feet fully visible and not cut off. anatomically correct, exactly two wings in a natural realistic position with properly layered flight feathers, correct wing orientation, natural posture.",
+  "model": "ostris/Flex.2-preview",
+  "style": "fieldsketch",
+  "prompt": "a colour field sketch of a single bird, as a birder would draw it from life and finish in the studio: a light pencil underdrawing carrying clean watercolour washes and coloured-pencil detail, worked up sharply where identification lives — head, bill, eye, wing pattern, the edges of each feather tract — and left looser and more sketchy toward the tail, belly and legs, a few pencil strokes still showing; true proportions and a faithful likeness of the species, natural unsaturated colours, soft daylight; the bird alone on plain white paper, no border, no caption, no text. A Curlew Sandpiper (Calidris ferruginea), a member of the family Scolopacidae (Sandpipers and Allies), perched on a small branch, wings folded neatly against the body, side profile. Identification — emphasise these field marks: Slim wader with a long down-curved black bill, in breeding plumage rich brick-red on the head, underparts and back which is also scaled black, and a white rump; black legs, longer-legged and longer-billed than Dunlin. Emphasise: precise, accurate plumage colouring and a decurved bill. Render the legs and feet accurately: long, slender legs and unwebbed toes for wading and probing; leg colour varies by species. Keep the likeness of the bird in the reference photo: same proportions, bill and head shape, posture, plumage pattern and colour tones — a portrait of this species, not a generic or idealised bird. Draw the bird only: leave out everything around it in the photo — habitat, foliage, branches, grass, water, sky, rocks, snow, fences, wires, feeders, hands, rings, other birds — on plain white, no cast shadow, no backdrop; at most the barest neutral perch under its feet. A typical wild adult in natural, muted colours, the whole bird in frame, uncropped, both legs and feet visible. anatomically correct, exactly two wings in a natural realistic position with properly layered flight feathers, correct wing orientation, natural posture.",
   "pose": "sitting",
   "reference": "sitting_0.jpg",
-  "strength": 0.74,
-  "seed": 1007,
-  "recipe": "v4-macaulay-id"
+  "strength": 0.7,
+  "seed": 1001,
+  "recipe": "v6-commons-whole",
+  "reference_credit": {
+    "source": "wikimedia",
+    "author": "ALAN SCHMIERER",
+    "license": "CC0",
+    "page_url": "https://commons.wikimedia.org/wiki/File:325_-_CURLEW_SANDPIPER_(6-17-2016)_barrow,_alaska_-03_copy.jpg"
+  }
 }
