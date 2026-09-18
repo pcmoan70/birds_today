@@ -87,3 +87,25 @@ in localStorage/IndexedDB outlives a deploy, so:
   delete the old key on load;
 - reproduce user-visible bugs with the old state seeded (`add_init_script` to
   set localStorage) before concluding a deploy is good.
+
+## The redraw was stopped: anatomy and cutout artefacts, not fidelity
+Three recipes were tried against the Norwegian set (v5 control-only, v6 whole-bird
+reference, v7 img2img). Each fixed what the previous one got wrong — v7 draws
+from the photograph and is genuinely faithful to it — but the user stopped the
+run and judged the output unusable for two reasons neither recipe addressed:
+
+- **Anatomy**: mangled feet and claws, odd wing/tail structure. At strength
+  0.45–0.65 the model redraws the parts the reference photo hides, and invents
+  badly. A prompt clause (feet_features.json) does not fix it; keeping those
+  regions from the photo (Flex.2 has inpainting built in) or scoring variants on
+  foot plausibility would be the honest attempts.
+- **Artefacts from the photo**: grass, perches and shadow fragments in front of
+  the bird survive the rembg cutout and are faithfully reproduced — img2img made
+  this *worse*, because fidelity carries the rubbish through too. Keeping only
+  the largest connected component of the subject mask would drop detached blades.
+
+Lesson for the next attempt: fidelity to the reference was never the whole
+problem, and improving it amplified the reference's own defects. Judge a recipe
+on a dozen finished images across body plans (a wader, a raptor, a duck, a
+passerine) before queueing hundreds — 307 species were redrawn and published
+across three recipes before the real objections surfaced.
