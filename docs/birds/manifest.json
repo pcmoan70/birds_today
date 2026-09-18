@@ -2051,7 +2051,7 @@
     },
     "faces": {
       "bkbplo/flying_0.png": "left",
-      "bkbplo/sitting_0.png": "left"
+      "bkbplo/sitting_0.png": "right"
     },
     "credits": {
       "bkbplo/flying_0.png": {
@@ -2064,7 +2064,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Chuck Homler, Focus On Wildlife",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Breeding_plumage_Black-bellied_plover_(Pluvialis_squatarola)_Great_Bay_Wildlife_Management_Area,_New_Jersey,_USA.png"
+        }
       }
     }
   },
@@ -18747,7 +18753,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Hawfinch_(Coccothraustes_coccothraustes)_male_Drenthe.jpg"
+        }
       }
     }
   },
@@ -27823,14 +27835,20 @@
       ]
     },
     "faces": {
-      "redkit1/sitting_0.png": "right"
+      "redkit1/sitting_0.png": "left"
     },
     "credits": {
       "redkit1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Pierre-Marie Epiney",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:DSC_4206_Milan_royal_juv%C3%A9nile_(50071632126).jpg"
+        }
       }
     }
   },
@@ -31016,7 +31034,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Chuck Homler, Focus On Wildlife",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Sanderling_(Calidris_alba)_in_Breeding_Plumage_in_the_Delaware_Bay_-_Heislerville_WMA_-_Cumberland_County_-_New_Jersey_-_May_2026.jpg"
+        }
       }
     }
   },
@@ -33451,7 +33475,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Rhododendrites",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:European_stonechat_(80533).jpg"
+        }
       }
     }
   },
