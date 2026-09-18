@@ -12262,7 +12262,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Alexis Lours",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Eurasian_Coot_2023_11_25_03.jpg"
+        }
       }
     }
   },
@@ -18360,7 +18366,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "USFWSAlaska",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Greater_White-fronted_Goose_(20552197708).jpg"
+        }
       }
     }
   },
@@ -19164,7 +19176,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Linda Tanner from Los Osos, California, U.S.A.",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Eremophila_alpestris_2.jpg"
+        }
       }
     }
   },
@@ -26662,7 +26680,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "(c) Nigel Voaden, some rights reserved (CC BY)",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Pomarine_Jaeger_imported_from_iNaturalist_photo_2950828_on_31_December_2023.jpg"
+        }
       }
     }
   },
