@@ -4477,43 +4477,48 @@
    "name": "Dunnock",
    "sci": "Prunella modularis",
    "family": "Accentors",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/dunnoc1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/28928581/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/dunnoc1/ref.jpg",
+   "photo": "review_imgs/dunnoc1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small streaky brown bird with a blue-grey head and breast, brown black-streaked back, brownish flanks streaked dark, a thin pointed dark bill and pinkish-brown legs; sparrow-sized but slim-billed.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/dunnoc1/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.888,
-     "pose": 0.143,
-     "bird": 0.709
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.813,
+     "pose": 0.08,
+     "bird": 0.698
     },
     {
      "id": "v1",
      "img": "review_imgs/dunnoc1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.89,
-     "pose": 0.253,
-     "bird": 0.457
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.83,
+     "pose": 0.151,
+     "bird": 0.274
     },
     {
      "id": "v2",
      "img": "review_imgs/dunnoc1/v2.png",
      "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.874,
-     "pose": 0.166,
-     "bird": 0.466
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.715,
+     "pose": 0.006,
+     "bird": 0.265
     }
    ],
-   "reviewed": true,
-   "id": "Small streaky brown bird with a blue-grey head and breast, brown black-streaked back, brownish flanks streaked dark, a thin pointed dark bill and pinkish-brown legs; sparrow-sized but slim-billed.",
+   "gen": 1789696307,
+   "reviewed": false,
    "pending": false
   },
   "duplar1": {
@@ -11290,35 +11295,48 @@
    "name": "Lapland Longspur",
    "sci": "Calcarius lapponicus",
    "family": "Longspurs and Snow Buntings",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/laplon/before.png",
    "ref": "review_imgs/laplon/ref.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "photo": "review_imgs/laplon/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Streaky brown bunting-like bird; breeding male has a black face and throat bordered by a white-then-buff stripe, a chestnut-red nape, and white belly with streaked flanks. Brown back streaked black, yellowish bill. Long hind claw, short pinkish legs.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/laplon/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.914,
-     "pose": 0.408,
-     "bird": 0.904
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.714,
+     "pose": 0.051,
+     "bird": 0.584
     },
     {
      "id": "v1",
      "img": "review_imgs/laplon/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.906,
-     "pose": 0.158,
-     "bird": 0.787
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.663,
+     "pose": 0.064,
+     "bird": 0.665
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/laplon/v2.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.695,
+     "pose": 0.225,
+     "bird": 0.37
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/laplon/photo.jpg",
+   "gen": 1789696135,
+   "reviewed": false,
    "pending": false
   },
   "laudov1": {
@@ -13008,35 +13026,47 @@
    "name": "Mistle Thrush",
    "sci": "Turdus viscivorus",
    "family": "Thrushes",
-   "reason": "not good-regen3",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/misthr1/before.png",
    "ref": "review_imgs/misthr1/ref.jpg",
    "photo": "review_imgs/misthr1/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Large pale grey-brown thrush with whitish underparts heavily marked with bold round black spots, greyish upperparts, white wing-bar edges, white-cornered tail, an upright stance, and pale belly; dark bill, pinkish legs. Emphasise: a shorter neck.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/misthr1/v0.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.755,
-     "pose": 0.674,
-     "bird": 0.746
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.89,
+     "pose": 0.294,
+     "bird": 0.666
     },
     {
      "id": "v1",
      "img": "review_imgs/misthr1/v1.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.744,
-     "pose": 0.532,
-     "bird": 0.691
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.856,
+     "pose": 0.388,
+     "bird": 0.571
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/misthr1/v2.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.884,
+     "pose": 0.287,
+     "bird": 0.531
     }
    ],
-   "gen": 1782771559,
+   "gen": 1789696544,
    "reviewed": false,
    "pending": false
   },
@@ -18760,43 +18790,49 @@
    "name": "Tree Pipit",
    "sci": "Anthus trivialis",
    "family": "Wagtails and Pipits",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/trepip/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/34555451/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/trepip/ref.jpg",
+   "photo": "review_imgs/trepip/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Streaky olive-buff pipit; brown-streaked back, buff breast with bold black streaks thinning on flanks, pale supercilium, and pinkish legs with a short hind claw. Fine dark bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/trepip/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.852,
-     "pose": 0.098,
-     "bird": 0.489
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.779,
+     "pose": 0.264,
+     "bird": 0.654
     },
     {
      "id": "v1",
      "img": "review_imgs/trepip/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.872,
-     "pose": 0.073,
-     "bird": 0.36
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.813,
+     "pose": 0.239,
+     "bird": 0.54
     },
     {
      "id": "v2",
      "img": "review_imgs/trepip/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.847,
-     "pose": 0.093,
-     "bird": 0.282
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.791,
+     "pose": 0.213,
+     "bird": 0.281
     }
    ],
-   "id": "Streaky olive-buff pipit; brown-streaked back, buff breast with bold black streaks thinning on flanks, pale supercilium, and pinkish legs with a short hind claw. Fine dark bill.",
-   "photo": "review_imgs/trepip/photo.jpg"
+   "gen": 1789696737,
+   "reviewed": false,
+   "pending": false
   },
   "tstlar1": {
    "name": "Turkestan Short-toed Lark",
@@ -20787,43 +20823,48 @@
    "name": "Yellow-billed Loon",
    "sci": "Gavia adamsii",
    "family": "Loons",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/yebloo/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242495381/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/yebloo/ref.jpg",
+   "photo": "review_imgs/yebloo/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Large loon with a steeply angled, upturned ivory-yellow bill held slightly raised, blackish head, white-checkered black back, and white underparts. Bold black-and-white neck collar; thick neck.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/yebloo/v0.png",
      "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.76,
-     "pose": 0.376,
-     "bird": 0.539
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.764,
+     "pose": 0.319,
+     "bird": 0.213
     },
     {
      "id": "v1",
      "img": "review_imgs/yebloo/v1.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.732,
-     "pose": 0.412,
-     "bird": 0.551
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.784,
+     "pose": 0.133,
+     "bird": 0.088
     },
     {
      "id": "v2",
      "img": "review_imgs/yebloo/v2.png",
      "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.725,
-     "pose": 0.327,
-     "bird": 0.205
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.749,
+     "pose": 0.02,
+     "bird": 0.033
     }
    ],
-   "id": "Large loon with a steeply angled, upturned ivory-yellow bill held slightly raised, blackish head, white-checkered black back, and white underparts. Bold black-and-white neck collar; thick neck.",
-   "reviewed": true,
+   "gen": 1789695930,
+   "reviewed": false,
    "pending": false
   },
   "yebwar3": {
@@ -21206,7 +21247,6 @@
   "cursan",
   "daejun",
   "datthr1",
-  "dunnoc1",
   "duswar",
   "eargre",
   "easwar1",
@@ -21285,7 +21325,6 @@
   "kenplo1",
   "kineid",
   "lanwar",
-  "laplon",
   "lcspet",
   "legshr2",
   "leseag1",
@@ -21315,7 +21354,6 @@
   "marwar3",
   "meapip1",
   "medgul1",
-  "misthr1",
   "miswoo1",
   "monhar1",
   "musduc",
@@ -21400,7 +21438,6 @@
   "tawpip1",
   "tersan",
   "thrnig1",
-  "trepip",
   "tunbeg1",
   "tunswa",
   "uraowl1",
@@ -21427,7 +21464,6 @@
   "woowar",
   "y00427",
   "y00743",
-  "yebloo",
   "yebwar3",
   "yelgul1"
  ]
