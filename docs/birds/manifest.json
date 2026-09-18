@@ -9325,7 +9325,7 @@
     },
     "faces": {
       "cretit2/flying_0.png": "left",
-      "cretit2/sitting_0.png": "left"
+      "cretit2/sitting_0.png": "right"
     },
     "credits": {
       "cretit2/flying_0.png": {
@@ -9338,7 +9338,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Muelder",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:091A1925.jpg"
+        }
       }
     }
   },
@@ -21515,7 +21521,7 @@
     },
     "faces": {
       "litgul/flying_0.png": "right",
-      "litgul/sitting_0.png": "left"
+      "litgul/sitting_0.png": "right"
     },
     "credits": {
       "litgul/flying_0.png": {
@@ -21528,7 +21534,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andrej Chudý from Slovakia",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:%C4%8Cajka_mal%C3%A1_(Larus_minutus)_a_(4834254958).jpg"
+        }
       }
     }
   },
@@ -34431,14 +34443,20 @@
       ]
     },
     "faces": {
-      "tunbeg1/sitting_0.png": "left"
+      "tunbeg1/sitting_0.png": "right"
     },
     "credits": {
       "tunbeg1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "邱文強",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:101777%E5%8F%B0%E5%8D%97%E7%99%BC%E7%8F%BE%E8%B1%86%E9%9B%81.jpg"
+        }
       }
     }
   },
