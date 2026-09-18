@@ -19927,7 +19927,7 @@
       ]
     },
     "faces": {
-      "jacsni/sitting_0.png": "left"
+      "jacsni/sitting_0.png": "right"
     },
     "credits": {
       "jacsni/sitting_0.png": {
@@ -21358,14 +21358,20 @@
       ]
     },
     "faces": {
-      "litbun/sitting_0.png": "left"
+      "litbun/sitting_0.png": "right"
     },
     "credits": {
       "litbun/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "孫鋒 林",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Emberiza_pusilla_(cropped).jpg"
+        }
       }
     }
   },
@@ -21594,7 +21600,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Little_grebe_Zwergtaucher.jpg"
+        }
       }
     }
   },
@@ -25117,7 +25129,7 @@
     },
     "faces": {
       "norsho/flying_0.png": "left",
-      "norsho/sitting_0.png": "left"
+      "norsho/sitting_0.png": "right"
     },
     "credits": {
       "norsho/flying_0.png": {
@@ -25130,7 +25142,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "USFWS/Southeast",
+          "license": "Public domain",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Female_Northern_Shoveler_(26665246690).jpg"
+        }
       }
     }
   },
@@ -37574,7 +37592,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "K.B. Simoglou",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Lullula_arborea,_Alaudidae.jpg"
+        }
       }
     }
   },
