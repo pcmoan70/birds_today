@@ -6788,7 +6788,7 @@
     },
     "faces": {
       "comcuc/flying_0.png": "right",
-      "comcuc/sitting_0.png": "left"
+      "comcuc/sitting_0.png": "right"
     },
     "credits": {
       "comcuc/flying_0.png": {
@@ -7030,7 +7030,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Common-Greenshank.jpg"
+        }
       }
     }
   },
@@ -23275,7 +23281,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Kate Perez",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:A_Merlin_Fluffed_Up.jpg"
+        }
       }
     }
   },
@@ -24405,7 +24417,7 @@
     },
     "faces": {
       "norgan/flying_0.png": "right",
-      "norgan/sitting_0.png": "right"
+      "norgan/sitting_0.png": "left"
     },
     "credits": {
       "norgan/flying_0.png": {
@@ -24418,7 +24430,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Mirko Thiessen",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Basstoelpel_15.jpg"
+        }
       }
     }
   },
@@ -31409,7 +31427,7 @@
     },
     "faces": {
       "skylar/flying_0.png": "left",
-      "skylar/sitting_0.png": "left"
+      "skylar/sitting_0.png": "right"
     },
     "credits": {
       "skylar/flying_0.png": {
@@ -31422,7 +31440,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "User:Diliff",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Skylark_2,_Lake_District,_England_-_June_2009.jpg"
+        }
       }
     }
   },
