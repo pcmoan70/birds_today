@@ -11158,7 +11158,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Francesco Veronesi from Italy",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Three-toed_Woodpecker_-_Finlandia_0005_(3).jpg"
+        }
       }
     }
   },
@@ -26426,7 +26432,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "MPF",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2019-03-25_Anser_brachyrhynchus,_Killingworth_Lake,_Northumberland_1.jpg"
+        }
       }
     }
   },
@@ -29826,7 +29838,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Ann Harrison",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:A_Rook_at_Lossiemouth_-_geograph.org.uk_-_1441948.jpg"
+        }
       }
     }
   },
@@ -33289,7 +33307,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "MPF",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2016-04-30_Columba_oenas,_Armstrong_Park_1.jpg"
+        }
       }
     }
   },
@@ -35203,7 +35227,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Eichler",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2017.07.17.-31-Tiefer_See_oder_Grubensee-Storkow_(Mark)--Rohrweihe-Weibchen.jpg"
+        }
       }
     }
   },
