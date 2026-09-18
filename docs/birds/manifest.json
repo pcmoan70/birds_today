@@ -615,14 +615,20 @@
       ]
     },
     "faces": {
-      "arcwar1/sitting_0.png": "left"
+      "arcwar1/sitting_0.png": "right"
     },
     "credits": {
       "arcwar1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Arctic_Warbler_4683.jpg: Alnus\nderivative work: Osado",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Arctic_Warbler_4683b.jpg"
+        }
       }
     }
   },
@@ -11564,7 +11570,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Ron Knight from Seaford, East Sussex, United Kingdom",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Eurasian_Golden_Oriole_(Oriolus_oriolus)_(8079432364).jpg"
+        }
       }
     }
   },
@@ -13401,7 +13413,7 @@
     },
     "faces": {
       "eurnig1/flying_0.png": "right",
-      "eurnig1/sitting_0.png": "left"
+      "eurnig1/sitting_0.png": "right"
     },
     "credits": {
       "eurnig1/flying_0.png": {
@@ -13962,7 +13974,7 @@
     },
     "faces": {
       "eurser1/flying_0.png": "left",
-      "eurser1/sitting_0.png": "right"
+      "eurser1/sitting_0.png": "left"
     },
     "credits": {
       "eurser1/flying_0.png": {
@@ -13975,7 +13987,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Eichler, Andreas",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2018.07.06.-04-Mannheim_Vogelstang--Girlitz-Jungvogel.jpg"
+        }
       }
     }
   },
@@ -30396,7 +30414,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Hiraku Senzaki",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Rhodostethia_rosea,_Shiretoko,_Japan.jpg"
+        }
       }
     }
   },
