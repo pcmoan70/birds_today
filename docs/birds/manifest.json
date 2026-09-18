@@ -902,6 +902,76 @@
       }
     }
   },
+  "azutit2": {
+    "sci": "Cyanistes cyanus",
+    "common": "Azure Tit",
+    "names": {
+      "en": "Azure Tit",
+      "de": "Lasurmeise",
+      "es": "Herrerillo Azul",
+      "pl": "sikora lazurowa",
+      "fr": "Mésange azurée",
+      "nl": "Azuurmees",
+      "ru": "Белая лазоревка",
+      "ja": "ルリガラ",
+      "cs": "sýkora azurová",
+      "ca": "mallerenga capblanca",
+      "pt": "chapim-de-cabeça-branca",
+      "no": "asurmeis",
+      "bg": "Лазурен синигер",
+      "sv": "azurmes",
+      "da": "Azurmejse",
+      "tr": "Akça Baştankara",
+      "sk": "sýkorka lazúrová",
+      "sr": "Snežna senica",
+      "uk": "Синиця біла",
+      "zh-CN": "灰蓝山雀",
+      "fi": "valkopäätiainen",
+      "es_ES": "Herrerillo azul",
+      "es_MX": "Herrerillo Azul",
+      "es_EC": "Herrerillo Azul",
+      "pt_PT": "Chapim-de-cabeça-branca",
+      "hr": "bijela sjenica",
+      "lt": "Žydroji zylė",
+      "fa": "چرخریسک لاجوردی",
+      "cy": "Titw asur",
+      "et": "lasuurtihane",
+      "it": "Cinciarella azzurra",
+      "zh-TW": "灰藍山雀",
+      "eo": "lazura paruo",
+      "hu": "lazúrcinege",
+      "ro": "Piţigoi azuriu",
+      "sl": "sinji plavček",
+      "lv": "gaišzilā zīlīte",
+      "is": "Hvítmeisa",
+      "be": "Белая сiнiца (або князёк)",
+      "se": "Vilgesoaigaccet",
+      "ko": "흰머리유리박새",
+      "he": "ירגזי תכול"
+    },
+    "stances": {
+      "sitting": [
+        "azutit2/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "azutit2/sitting_0.png": "right"
+    },
+    "credits": {
+      "azutit2/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Ron Knight from Seaford, East Sussex, United Kingdom",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Azure_Tit_(Cyanistes_cyanus)_(14367066865).jpg"
+        }
+      }
+    }
+  },
   "azwmag3": {
     "sci": "Cyanopica cooki",
     "common": "Iberian Magpie",
@@ -20807,7 +20877,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Alexis Lours",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Leach%27s_Storm-petrel_Saint-Jean-de-Monts_01.jpg"
+        }
       }
     }
   },
@@ -23620,7 +23696,7 @@
     },
     "faces": {
       "medgul1/flying_0.png": "right",
-      "medgul1/sitting_0.png": "left"
+      "medgul1/sitting_0.png": "right"
     },
     "credits": {
       "medgul1/flying_0.png": {
@@ -23633,7 +23709,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Martin Olsson (mnemo on en/sv wikipedia and commons, martin@minimum.se).",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Larus_melanocephalus_aka_Mediterranean_Gull_rare_guest_in_Sweden2.jpg"
+        }
       }
     }
   },
@@ -28751,7 +28833,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Martin Mecnarowski (http://www.photomecan.eu/)",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Falco_vespertinus_2_(Martin_Mecnarowski).jpg"
+        }
       }
     }
   },
@@ -35455,6 +35543,75 @@
         "author": "",
         "license": "",
         "page_url": ""
+      }
+    }
+  },
+  "waldra1": {
+    "sci": "Geronticus eremita",
+    "common": "Northern Bald Ibis",
+    "names": {
+      "en": "Northern Bald Ibis",
+      "de": "Waldrapp",
+      "es": "Ibis Eremita",
+      "pl": "ibis grzywiasty",
+      "fr": "Ibis chauve",
+      "nl": "Heremietibis",
+      "ru": "Лесной ибис",
+      "ja": "ホオアカトキ",
+      "cs": "ibis skalní",
+      "ca": "ibis ermità",
+      "pt": "íbis-pelada",
+      "no": "skallet ibis",
+      "bg": "Северен плешив ибис",
+      "sv": "eremitibis",
+      "da": "Eremitibis",
+      "tr": "Kelaynak",
+      "sk": "ibis skalný",
+      "sr": "Ćelavi ražanj",
+      "uk": "Ібіс-лисоголов мароканський",
+      "zh-CN": "隐鹮",
+      "fi": "töyhtöiibis",
+      "es_ES": "Ibis eremita",
+      "es_MX": "Ibis Eremita",
+      "es_EC": "Ibis Eremita",
+      "pt_PT": "Íbis-pelada",
+      "hr": "ćelavi ibis",
+      "lt": "Miškinis ibis",
+      "fa": "اکراس کچل شمالی",
+      "cy": "Ibis moel y Gogledd",
+      "et": "kaljuiibis",
+      "it": "Ibis eremita",
+      "zh-TW": "隱鹮",
+      "eo": "ermita ibiso",
+      "hu": "tarvarjú",
+      "sl": "klavžar",
+      "lv": "klinšu ibiss",
+      "is": "Skallaíbis",
+      "el": "Φαλακρή Ίβιδα",
+      "se": "Eaidanasibis",
+      "he": "מגלן מצויץ",
+      "ar": "أبو منجل الأقرع الشمالي"
+    },
+    "stances": {
+      "sitting": [
+        "waldra1/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "waldra1/sitting_0.png": "right"
+    },
+    "credits": {
+      "waldra1/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Jean-Paul Boerekamps",
+          "license": "CC0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Geronticus_eremita_108697108.jpg"
+        }
       }
     }
   },

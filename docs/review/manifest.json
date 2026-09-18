@@ -11828,34 +11828,48 @@
    "name": "Leach's Storm-Petrel",
    "sci": "Hydrobates leucorhous",
    "family": "Northern Storm-Petrels",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/lcspet/before.png",
    "ref": "review_imgs/lcspet/ref.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "photo": "review_imgs/lcspet/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Small dark sooty-brown storm-petrel with a white rump (often with a faint grey central line), a pale brown bar across the upperwing coverts, and a forked tail. Slim black bill, black legs. Long angular wings; buoyant build.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lcspet/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.922,
-     "pose": 0.013,
-     "bird": 0.582
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.736,
+     "pose": 0.011,
+     "bird": 0.555
     },
     {
      "id": "v1",
      "img": "review_imgs/lcspet/v1.png",
-     "seed": 3006,
+     "seed": 1001,
      "strength": 0.7,
-     "sim": 0.89,
-     "pose": 0.004,
-     "bird": 0.2
+     "whole": 1.0,
+     "sim": 0.718,
+     "pose": 0.008,
+     "bird": 0.385
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lcspet/v2.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.738,
+     "pose": 0.102,
+     "bird": 0.079
     }
    ],
-   "reviewed": true,
+   "gen": 1789726900,
+   "reviewed": false,
    "pending": false
   },
   "legshr2": {
@@ -13360,35 +13374,47 @@
    "name": "Mediterranean Gull",
    "sci": "Ichthyaetus melanocephalus",
    "family": "Gulls, Terns, and Skimmers",
-   "reason": "not good-keep+2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/medgul1/before.png",
    "ref": "review_imgs/medgul1/ref.jpg",
    "photo": "review_imgs/medgul1/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Pale gull with an all-white wingtips, pale grey back, jet-black hood with broken white eye-crescents, bright blood-red drooping bill, and red legs; clean white underparts. Emphasise: bold white eye-crescents.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/medgul1/v0.png",
-     "seed": 3011,
+     "seed": 1001,
      "strength": 0.7,
-     "sim": 0.819,
-     "pose": 0.182,
-     "bird": 0.978
+     "whole": 1.0,
+     "sim": 0.82,
+     "pose": 0.116,
+     "bird": 0.771
     },
     {
      "id": "v1",
      "img": "review_imgs/medgul1/v1.png",
-     "seed": 3010,
-     "strength": 0.62,
-     "sim": 0.829,
-     "pose": 0.166,
-     "bird": 0.962
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.822,
+     "pose": 0.075,
+     "bird": 0.746
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/medgul1/v2.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.805,
+     "pose": 0.04,
+     "bird": 0.402
     }
    ],
-   "gen": 1782771105,
+   "gen": 1789726557,
    "reviewed": false,
    "pending": false
   },
@@ -16227,35 +16253,48 @@
    "name": "Red-footed Falcon",
    "sci": "Falco vespertinus",
    "family": "Falcons and Caracaras",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/reffal1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204150991/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref": "review_imgs/reffal1/ref.jpg",
+   "photo": "review_imgs/reffal1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Small slim falcon; male overall dark slate-grey with rusty-red thighs and undertail coverts, and silvery-grey flight feathers. Bright orange-red cere, eye-ring and legs, dark hooked bill.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/reffal1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.84,
-     "pose": 0.259,
-     "bird": 0.366
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.861,
+     "pose": 0.276,
+     "bird": 0.316
     },
     {
      "id": "v1",
      "img": "review_imgs/reffal1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.857,
-     "pose": 0.218,
-     "bird": 0.125
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.889,
+     "pose": 0.37,
+     "bird": 0.088
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/reffal1/v2.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.851,
+     "pose": 0.097,
+     "bird": 0.051
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/reffal1/photo.jpg",
+   "gen": 1789726193,
+   "reviewed": false,
    "pending": false
   },
   "rekcoo1": {
@@ -22098,6 +22137,102 @@
    "gen": 1789724532,
    "reviewed": false,
    "pending": false
+  },
+  "waldra1": {
+   "name": "Northern Bald Ibis",
+   "sci": "Geronticus eremita",
+   "family": null,
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
+   "before": null,
+   "ref": "review_imgs/waldra1/ref.jpg",
+   "photo": "review_imgs/waldra1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Large glossy black ibis with iridescent green-and-purple sheen, a bare red face and crown, and a shaggy ruff of pointed neck plumes. Long decurved red bill and red legs.",
+   "chosen": null,
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/waldra1/v0.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.588,
+     "pose": 0.021,
+     "bird": 0.79
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/waldra1/v1.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.623,
+     "pose": 0.115,
+     "bird": 0.531
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/waldra1/v2.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.606,
+     "pose": 0.1,
+     "bird": 0.332
+    }
+   ],
+   "gen": 1789726735,
+   "reviewed": false,
+   "pending": false
+  },
+  "azutit2": {
+   "name": "Azure Tit",
+   "sci": "Cyanistes cyanus",
+   "family": null,
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
+   "before": null,
+   "ref": "review_imgs/azutit2/ref.jpg",
+   "photo": "review_imgs/azutit2/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small white-and-blue tit with a clean white head, an azure-blue crown-band through the eye, blue wings with a white wing-bar, blue tail, and white underparts. Tiny dark bill, blue-grey legs.",
+   "chosen": null,
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/azutit2/v0.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.73,
+     "pose": 0.026,
+     "bird": 0.018
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/azutit2/v1.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.622,
+     "pose": 0.062,
+     "bird": 0.005
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/azutit2/v2.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 0.537,
+     "sim": 0.695,
+     "pose": 0.217,
+     "bird": 0.02
+    }
+   ],
+   "gen": 1789727072,
+   "reviewed": false,
+   "pending": false
   }
  },
  "queued": [
@@ -22105,7 +22240,6 @@
   "amepip2",
   "amewig",
   "amgplo",
-  "azutit2",
   "baisan",
   "bargol",
   "bcnher",
@@ -22176,7 +22310,6 @@
   "kenplo1",
   "kineid",
   "lanwar",
-  "lcspet",
   "legshr2",
   "leseag1",
   "lessca",
@@ -22188,7 +22321,6 @@
   "mallar3",
   "marsan",
   "meapip1",
-  "medgul1",
   "monhar1",
   "musduc",
   "norshr4",
@@ -22210,7 +22342,6 @@
   "recpoc",
   "redpol1",
   "redwin",
-  "reffal1",
   "relpar1",
   "rensti",
   "ribgul",
@@ -22235,7 +22366,6 @@
   "subwar6",
   "tawpip1",
   "uraowl1",
-  "waldra1",
   "watpip1",
   "webwar1",
   "whiter2",
