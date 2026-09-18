@@ -5353,14 +5353,20 @@
       ]
     },
     "faces": {
-      "casgul2/sitting_0.png": "left"
+      "casgul2/sitting_0.png": "right"
     },
     "credits": {
       "casgul2/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Lintophilip",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Caspian_Gull.jpg"
+        }
       }
     }
   },
@@ -5424,14 +5430,20 @@
       ]
     },
     "faces": {
-      "caster1/sitting_0.png": "left"
+      "caster1/sitting_0.png": "right"
     },
     "credits": {
       "caster1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Dick Daniels (https://theworldbirds.org/)",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Caspian_Tern_(Hydroprogne_caspia)_RWD.jpg"
+        }
       }
     }
   },
@@ -17435,14 +17447,20 @@
       ]
     },
     "faces": {
-      "grewar3/sitting_0.png": "right"
+      "grewar3/sitting_0.png": "left"
     },
     "credits": {
       "grewar3/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Dibyendu Ash",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Greenish_Warbler_Sikkim_India_11.05.2014.jpg"
+        }
       }
     }
   },
@@ -26462,7 +26480,7 @@
     },
     "faces": {
       "pecsan/flying_0.png": "left",
-      "pecsan/sitting_0.png": "right"
+      "pecsan/sitting_0.png": "left"
     },
     "credits": {
       "pecsan/flying_0.png": {
@@ -26475,7 +26493,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Pectoral_Sandpiper3.jpg"
+        }
       }
     }
   },
@@ -32522,7 +32546,7 @@
     },
     "faces": {
       "snoowl1/flying_0.png": "left",
-      "snoowl1/sitting_0.png": "left"
+      "snoowl1/sitting_0.png": "right"
     },
     "credits": {
       "snoowl1/flying_0.png": {
