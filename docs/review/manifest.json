@@ -3110,43 +3110,48 @@
    "name": "Common Buzzard",
    "sci": "Buteo buteo",
    "family": "Hawks, Eagles, and Kites",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/combuz1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35712671/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v1",
+   "ref": "review_imgs/combuz1/ref.jpg",
+   "photo": "review_imgs/combuz1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Medium raptor, variable brown above and below with a pale band across the lower breast and barred underparts. In flight broad rounded wings with dark wrist patches and dark trailing edge, barred tail, yellow cere and legs, hooked bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/combuz1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.875,
-     "pose": 0.009,
-     "bird": 0.414
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.802,
+     "pose": 0.526,
+     "bird": 0.864
     },
     {
      "id": "v1",
      "img": "review_imgs/combuz1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.9,
-     "pose": 0.014,
-     "bird": 0.279
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.831,
+     "pose": 0.419,
+     "bird": 0.436
     },
     {
      "id": "v2",
      "img": "review_imgs/combuz1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.872,
-     "pose": 0.006,
-     "bird": 0.252
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.807,
+     "pose": 0.665,
+     "bird": 0.22
     }
    ],
-   "reviewed": true,
-   "id": "Medium raptor, variable brown above and below with a pale band across the lower breast and barred underparts. In flight broad rounded wings with dark wrist patches and dark trailing edge, barred tail, yellow cere and legs, hooked bill.",
+   "gen": 1789693249,
+   "reviewed": false,
    "pending": false
   },
   "comcan": {
@@ -3661,43 +3666,48 @@
    "name": "Common Shelduck",
    "sci": "Tadorna tadorna",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/comshe/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/43400091/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v2",
+   "ref": "review_imgs/comshe/ref.jpg",
+   "photo": "review_imgs/comshe/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Large goose-like duck, mostly white with a dark glossy-green head, a broad chestnut breast-band, black scapular and belly stripes, a bright red bill with a knob, and pink legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comshe/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.876,
-     "pose": 0.075,
-     "bird": 0.856
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.743,
+     "pose": 0.02,
+     "bird": 0.496
     },
     {
      "id": "v1",
      "img": "review_imgs/comshe/v1.png",
      "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.869,
-     "pose": 0.023,
-     "bird": 0.88
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.789,
+     "pose": 0.076,
+     "bird": 0.16
     },
     {
      "id": "v2",
      "img": "review_imgs/comshe/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.849,
-     "pose": 0.062,
-     "bird": 0.806
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.742,
+     "pose": 0.014,
+     "bird": 0.019
     }
    ],
-   "reviewed": true,
-   "id": "Large goose-like duck, mostly white with a dark glossy-green head, a broad chestnut breast-band, black scapular and belly stripes, a bright red bill with a knob, and pink legs.",
+   "gen": 1789693427,
+   "reviewed": false,
    "pending": false
   },
   "comter": {
@@ -13380,35 +13390,47 @@
    "name": "Northern Hawk Owl",
    "sci": "Surnia ulula",
    "family": "Typical Owls",
-   "reason": "not good-keep+2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/nohowl/before.png",
    "ref": "review_imgs/nohowl/ref.jpg",
    "photo": "review_imgs/nohowl/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Medium hawk-like owl with a long tail, brown-and-white finely barred underparts, white-spotted brown upperparts, a pale facial disc bordered by bold black sideburns, yellow eyes, and a yellowish bill. Emphasise: eyes with softer, less heavy dark framing.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/nohowl/v0.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.905,
-     "pose": 0.426,
-     "bird": 0.649
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.863,
+     "pose": 0.688,
+     "bird": 0.84
     },
     {
      "id": "v1",
      "img": "review_imgs/nohowl/v1.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.9,
-     "pose": 0.177,
-     "bird": 0.184
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.868,
+     "pose": 0.399,
+     "bird": 0.492
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/nohowl/v2.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.858,
+     "pose": 0.374,
+     "bird": 0.5
     }
    ],
-   "gen": 1782772261,
+   "gen": 1789693618,
    "reviewed": false,
    "pending": false
   },
@@ -18888,43 +18910,49 @@
    "name": "Twite",
    "sci": "Linaria flavirostris",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/twite1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/40041141/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/twite1/ref.jpg",
+   "photo": "review_imgs/twite1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small streaky finch; warm buff-brown plumage streaked dark, plain buffy unstreaked throat, pinkish rump, and a short yellow bill (greyer in summer). White edges to wing and tail feathers.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/twite1/v0.png",
      "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.848,
-     "pose": 0.15,
-     "bird": 0.636
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.816,
+     "pose": 0.281,
+     "bird": 0.037
     },
     {
      "id": "v1",
      "img": "review_imgs/twite1/v1.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.916,
-     "pose": 0.133,
-     "bird": 0.498
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.773,
+     "pose": 0.125,
+     "bird": 0.1
     },
     {
      "id": "v2",
      "img": "review_imgs/twite1/v2.png",
      "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.878,
-     "pose": 0.109,
-     "bird": 0.542
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.807,
+     "pose": 0.033,
+     "bird": 0.02
     }
    ],
-   "id": "Small streaky finch; warm buff-brown plumage streaked dark, plain buffy unstreaked throat, pinkish rump, and a short yellow bill (greyer in summer). White edges to wing and tail feathers.",
-   "photo": "review_imgs/twite1/photo.jpg"
+   "gen": 1789693070,
+   "reviewed": false,
+   "pending": false
   },
   "upcwar1": {
    "name": "Upcher's Warbler",
@@ -20999,6 +21027,54 @@
    "gen": 1789691197,
    "reviewed": false,
    "pending": false
+  },
+  "leswoo1": {
+   "name": "Lesser Spotted Woodpecker",
+   "sci": "Dryobates minor",
+   "family": "Woodpeckers",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
+   "before": "review_imgs/leswoo1/before.png",
+   "ref": "review_imgs/leswoo1/ref.jpg",
+   "photo": "review_imgs/leswoo1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Tiny sparrow-sized woodpecker with black-and-white barred (ladder-back) upperparts, whitish underparts finely streaked, and a black-bordered white face. Male has a red crown; black nape. Short pointed greyish bill, greyish legs. Smallest pied woodpecker.",
+   "chosen": null,
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/leswoo1/v0.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.738,
+     "pose": 0.194,
+     "bird": 0.236
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/leswoo1/v1.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 0.797,
+     "sim": 0.678,
+     "pose": 0.112,
+     "bird": 0.008
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/leswoo1/v2.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 0.0,
+     "sim": 0.635,
+     "pose": 0.243,
+     "bird": 0.39
+    }
+   ],
+   "gen": 1789693789,
+   "reviewed": false,
+   "pending": false
   }
  },
  "queued": [
@@ -21050,7 +21126,6 @@
   "citwag",
   "cogwar1",
   "colfly1",
-  "combuz1",
   "comcha",
   "comeid",
   "comgol",
@@ -21063,7 +21138,6 @@
   "comrav",
   "comred2",
   "comros",
-  "comshe",
   "comswi",
   "comter",
   "corbun1",
@@ -21164,7 +21238,6 @@
   "leseag1",
   "lessca",
   "leswhi4",
-  "leswoo1",
   "lesyel",
   "lirplo",
   "litbit1",
@@ -21193,7 +21266,6 @@
   "miswoo1",
   "monhar1",
   "musduc",
-  "nohowl",
   "norful",
   "norgos1",
   "norhar1",
@@ -21282,7 +21354,6 @@
   "trepip",
   "tunbeg1",
   "tunswa",
-  "twite1",
   "uraowl1",
   "waldra1",
   "watpip1",
