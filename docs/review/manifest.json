@@ -772,43 +772,48 @@
    "name": "Bar-tailed Godwit",
    "sci": "Limosa lapponica",
    "family": "Sandpipers and Allies",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/batgod/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42941121/320",
-   "ref_source": "whobird",
-   "chosen": "v1",
+   "ref": "review_imgs/batgod/ref.jpg",
+   "photo": "review_imgs/batgod/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Large long-legged wader; breeding male with brick-red head, neck and underparts, mottled grey-brown back. Long slightly upturned bill pink at base, black tip. Tail finely barred, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/batgod/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.926,
-     "pose": 0.623,
-     "bird": 0.839
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.826,
+     "pose": 0.4,
+     "bird": 0.695
     },
     {
      "id": "v1",
      "img": "review_imgs/batgod/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.926,
-     "pose": 0.426,
-     "bird": 0.608
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.806,
+     "pose": 0.221,
+     "bird": 0.906
     },
     {
      "id": "v2",
      "img": "review_imgs/batgod/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.911,
-     "pose": 0.252,
-     "bird": 0.756
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.827,
+     "pose": 0.178,
+     "bird": 0.823
     }
    ],
-   "recipe": "v4-macaulay-id",
-   "reviewed": true,
-   "id": "Large long-legged wader; breeding male with brick-red head, neck and underparts, mottled grey-brown back. Long slightly upturned bill pink at base, black tip. Tail finely barred, dark legs.",
+   "gen": 1789691750,
+   "reviewed": false,
    "pending": false
   },
   "bbspet1": {
@@ -1291,43 +1296,48 @@
    "name": "Eurasian Blackcap",
    "sci": "Sylvia atricapilla",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/blackc1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/211672961/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v1",
+   "ref": "review_imgs/blackc1/ref.jpg",
+   "photo": "review_imgs/blackc1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Plain grey warbler; male grey-brown above, paler grey below, with a neat glossy black cap to eye level. Greyer face and nape, no wing bars. Fine dark bill, grey legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/blackc1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.869,
-     "pose": 0.117,
-     "bird": 0.804
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.828,
+     "pose": 0.237,
+     "bird": 0.806
     },
     {
      "id": "v1",
      "img": "review_imgs/blackc1/v1.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.904,
-     "pose": 0.05,
-     "bird": 0.641
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.828,
+     "pose": 0.059,
+     "bird": 0.249
     },
     {
      "id": "v2",
      "img": "review_imgs/blackc1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.886,
-     "pose": 0.078,
-     "bird": 0.641
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.78,
+     "pose": 0.04,
+     "bird": 0.054
     }
    ],
-   "reviewed": true,
-   "id": "Plain grey warbler; male grey-brown above, paler grey below, with a neat glossy black cap to eye level. Greyer face and nape, no wing bars. Fine dark bill, grey legs.",
+   "gen": 1789691573,
+   "reviewed": false,
    "pending": false
   },
   "blagro1": {
@@ -6331,34 +6341,39 @@
    "name": "Eurasian Treecreeper",
    "sci": "Certhia familiaris",
    "family": "Treecreepers",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/eurtre1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/35462121/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/eurtre1/ref.jpg",
+   "photo": "review_imgs/eurtre1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small slender bird, mottled brown above streaked white and buff, with a fine pale supercilium, plain white underparts, a long thin downcurved bill, and a long stiff pointed tail used for climbing.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurtre1/v0.png",
      "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.68,
-     "pose": 0.279,
-     "bird": 0.66
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.797,
+     "pose": 0.128,
+     "bird": 0.239
     },
     {
      "id": "v1",
      "img": "review_imgs/eurtre1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.757,
-     "pose": 0.302,
-     "bird": 0.401
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.784,
+     "pose": 0.221,
+     "bird": 0.018
     }
    ],
-   "reviewed": true,
-   "id": "Small slender bird, mottled brown above streaked white and buff, with a fine pale supercilium, plain white underparts, a long thin downcurved bill, and a long stiff pointed tail used for climbing."
+   "gen": 1789691930,
+   "reviewed": false,
+   "pending": false
   },
   "eurwar1": {
    "name": "Common Reed Warbler",
@@ -8808,45 +8823,49 @@
    "name": "Common Murre",
    "sci": "Uria aalge",
    "family": "Auks, Murres, and Puffins",
-   "reason": "none-good",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/commur/before.png",
    "ref": "review_imgs/commur/ref.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "photo": "review_imgs/commur/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Slim black-and-white auk with dark chocolate-brown head, neck and upperparts, clean white underparts, a long pointed black bill, thin white trailing edge to the wing, and dark legs set far back.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/commur/v0.png",
-     "seed": 1020,
-     "strength": 0.6,
-     "sim": 0.76,
-     "pose": 0.211,
-     "bird": 0.881
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.716,
+     "pose": 0.208,
+     "bird": 0.627
     },
     {
      "id": "v1",
      "img": "review_imgs/commur/v1.png",
-     "seed": 1022,
-     "strength": 0.74,
-     "sim": 0.74,
-     "pose": 0.21,
-     "bird": 0.611
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.699,
+     "pose": 0.081,
+     "bird": 0.372
     },
     {
      "id": "v2",
      "img": "review_imgs/commur/v2.png",
-     "seed": 1021,
-     "strength": 0.68,
-     "sim": 0.735,
-     "pose": 0.176,
-     "bird": 0.516
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.663,
+     "pose": 0.218,
+     "bird": 0.122
     }
    ],
-   "reviewed": true,
-   "pending": false,
-   "photo": "review_imgs/commur/photo.jpg"
+   "gen": 1789691385,
+   "reviewed": false,
+   "pending": false
   },
   "comqua1": {
    "name": "Common Quail",
@@ -20909,6 +20928,44 @@
    "gen": 1782734392,
    "reviewed": false,
    "pending": false
+  },
+  "whwsco3": {
+   "name": "Velvet Scoter",
+   "sci": "Melanitta fusca",
+   "family": "Ducks, Geese, and Swans",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
+   "before": "review_imgs/whwsco3/before.png",
+   "ref": "review_imgs/whwsco3/ref.jpg",
+   "photo": "review_imgs/whwsco3/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Large bulky black sea-duck; drake glossy black with a small white teardrop mark below the white eye, a white wing patch, and a yellow-and-black knobbed bill. Reddish legs.",
+   "chosen": null,
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/whwsco3/v0.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.702,
+     "pose": 0.009,
+     "bird": 0.584
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/whwsco3/v1.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.603,
+     "pose": 0.102,
+     "bird": 0.123
+    }
+   ],
+   "gen": 1789691197,
+   "reviewed": false,
+   "pending": false
   }
  },
  "queued": [
@@ -20924,13 +20981,11 @@
   "bargol",
   "bargoo",
   "barwar1",
-  "batgod",
   "bcnher",
   "bearee1",
   "bkbplo",
   "bktgod",
   "bkwsti",
-  "blackc1",
   "blakit1",
   "blared1",
   "blasto1",
@@ -20970,7 +21025,6 @@
   "comkin1",
   "comloo",
   "commoo3",
-  "commur",
   "comnig1",
   "compoc",
   "comqua1",
@@ -21019,7 +21073,6 @@
   "eursha1",
   "eurspa1",
   "eurspo1",
-  "eurtre1",
   "eurwar1",
   "eurwar2",
   "eurwoo",
@@ -21216,7 +21269,6 @@
   "whwcro",
   "whwsco1",
   "whwsco2",
-  "whwsco3",
   "whwter",
   "wilpta2",
   "wiltit1",

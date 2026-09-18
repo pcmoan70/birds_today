@@ -1670,7 +1670,7 @@
     },
     "faces": {
       "batgod/flying_0.png": "left",
-      "batgod/sitting_0.png": "right"
+      "batgod/sitting_0.png": "left"
     },
     "credits": {
       "batgod/flying_0.png": {
@@ -1683,7 +1683,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Andreas Trepte",
+          "license": "CC BY-SA 2.5",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Bar-tailed_Godwit.jpg"
+        }
       }
     }
   },
@@ -2648,7 +2654,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Eurasian_blackcap_(Sylvia_atricapilla)_male_Drenthe.jpg"
+        }
       }
     }
   },
@@ -7496,7 +7508,7 @@
     },
     "faces": {
       "commur/flying_0.png": "left",
-      "commur/sitting_0.png": "right"
+      "commur/sitting_0.png": "left"
     },
     "credits": {
       "commur/flying_0.png": {
@@ -7509,7 +7521,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "marsupium photography",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2014_-_Trip_to_the_Isle_of_May_(14160808381).jpg"
+        }
       }
     }
   },
@@ -14211,7 +14229,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Rory from Glasgow, United Kingdom",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Certhia_familiaris_(26224024518).jpg"
+        }
       }
     }
   },
@@ -36413,7 +36437,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Vince",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Velvet_Scoter,_Eyebrook_Reservoir,_Leics.jpg"
+        }
       }
     }
   },
