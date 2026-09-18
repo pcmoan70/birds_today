@@ -18165,7 +18165,7 @@
     },
     "faces": {
       "grywag/flying_0.png": "right",
-      "grywag/sitting_0.png": "right"
+      "grywag/sitting_0.png": "left"
     },
     "credits": {
       "grywag/flying_0.png": {
@@ -18178,7 +18178,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Assianir",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Ballerina_giallaMG_4421.jpg"
+        }
       }
     }
   },
@@ -23092,14 +23098,20 @@
       ]
     },
     "faces": {
-      "marwar3/sitting_0.png": "left"
+      "marwar3/sitting_0.png": "right"
     },
     "credits": {
       "marwar3/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Acrocephalus_palustris_(Marek_Szczepanek).jpg: Marek_Szczepanek\nderivative work: Osado",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Acrocephalus_palustris_(Marek_Szczepanek)b.jpg"
+        }
       }
     }
   },
@@ -26267,7 +26279,7 @@
     },
     "faces": {
       "perfal/flying_0.png": "right",
-      "perfal/sitting_0.png": "left"
+      "perfal/sitting_0.png": "right"
     },
     "credits": {
       "perfal/flying_0.png": {
@@ -26280,7 +26292,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Mykola Swarnyk",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg"
+        }
       }
     }
   },
@@ -29258,7 +29276,7 @@
     },
     "faces": {
       "rinphe1/flying_0.png": "right",
-      "rinphe1/sitting_0.png": "right"
+      "rinphe1/sitting_0.png": "left"
     },
     "credits": {
       "rinphe1/flying_0.png": {
@@ -29271,7 +29289,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Estormiz",
+          "license": "CC0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Phasianus_colchicus_Oulu_20200524_02.jpg"
+        }
       }
     }
   },
@@ -37969,7 +37993,7 @@
     },
     "faces": {
       "y00743/flying_0.png": "right",
-      "y00743/sitting_0.png": "left"
+      "y00743/sitting_0.png": "right"
     },
     "credits": {
       "y00743/flying_0.png": {
@@ -37982,7 +38006,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Alexis Lours",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Carrion_crow_2022_04_05_05_02.jpg"
+        }
       }
     }
   },

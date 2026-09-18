@@ -10249,35 +10249,37 @@
    "name": "Gray Wagtail",
    "sci": "Motacilla cinerea",
    "family": "Wagtails and Pipits",
-   "reason": "not good-keep+2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/grywag/before.png",
    "ref": "review_imgs/grywag/ref.jpg",
    "photo": "review_imgs/grywag/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Slim long-tailed wagtail, blue-grey back and head, yellow rump and bright yellow underparts (vivid on undertail); white supercilium, white wingbar, blackish wings; black bill, pinkish legs. Emphasise: a blue-grey head with a white supercilium and white moustachial stripe, and yellow underparts.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/grywag/v0.png",
-     "seed": 3015,
-     "strength": 0.62,
-     "sim": 0.879,
-     "pose": 0.054,
-     "bird": 0.892
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.845,
+     "pose": 0.244,
+     "bird": 0.493
     },
     {
      "id": "v1",
      "img": "review_imgs/grywag/v1.png",
-     "seed": 3016,
-     "strength": 0.7,
-     "sim": 0.853,
-     "pose": 0.075,
-     "bird": 0.908
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.737,
+     "pose": 0.001,
+     "bird": 0.013
     }
    ],
-   "gen": 1782768030,
+   "gen": 1789707109,
    "reviewed": false,
    "pending": false
   },
@@ -12928,35 +12930,28 @@
    "name": "Marsh Warbler",
    "sci": "Acrocephalus palustris",
    "family": "Reed Warblers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/marwar3/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/344097731/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref": "review_imgs/marwar3/ref.jpg",
+   "photo": "review_imgs/marwar3/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Plain unstreaked warbler with warm olive-brown upperparts, pale buff-tinged whitish underparts, a faint pale supercilium, rounded head, pinkish legs, and a fine pointed bill; very similar to Reed Warbler.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/marwar3/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.893,
-     "pose": 0.051,
-     "bird": 0.854
-    },
-    {
-     "id": "v1",
-     "img": "review_imgs/marwar3/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.847,
-     "pose": 0.172,
-     "bird": 0.823
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.741,
+     "pose": 0.248,
+     "bird": 0.034
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/marwar3/photo.jpg",
+   "gen": 1789707469,
+   "reviewed": false,
    "pending": false
   },
   "masshr1": {
@@ -14661,35 +14656,48 @@
    "name": "Peregrine Falcon",
    "sci": "Falco peregrinus",
    "family": "Falcons and Caracaras",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/perfal/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/288347741/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref": "review_imgs/perfal/ref.jpg",
+   "photo": "review_imgs/perfal/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Powerful falcon with slate blue-grey back and wings, pale whitish underparts finely barred grey-black, and a distinctive dark hooded head with broad black moustachial sausage on white cheeks. Yellow cere and eye-ring, yellow feet, dark hooked bill, pointed wings.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/perfal/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.929,
-     "pose": 0.768,
-     "bird": 0.871
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.852,
+     "pose": 0.33,
+     "bird": 0.667
     },
     {
      "id": "v1",
      "img": "review_imgs/perfal/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.93,
-     "pose": 0.67,
-     "bird": 0.868
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.858,
+     "pose": 0.468,
+     "bird": 0.416
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/perfal/v2.png",
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.855,
+     "pose": 0.338,
+     "bird": 0.517
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/perfal/photo.jpg",
+   "gen": 1789707648,
+   "reviewed": false,
    "pending": false
   },
   "pieavo1": {
@@ -16248,35 +16256,49 @@
    "name": "Ring-necked Pheasant",
    "sci": "Phasianus colchicus",
    "family": "Pheasants, Grouse, and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/rinphe1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/125602631/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref": "review_imgs/rinphe1/ref.jpg",
+   "photo": "review_imgs/rinphe1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Large long-tailed gamebird; male has a glossy bottle-green head, red facial wattles, often a white neck ring, and coppery-gold body mottled black. Very long pointed barred tail, pale bill, greyish legs.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/rinphe1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.878,
-     "pose": 0.147,
-     "bird": 0.832
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.818,
+     "pose": 0.115,
+     "bird": 0.499
     },
     {
      "id": "v1",
      "img": "review_imgs/rinphe1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.861,
-     "pose": 0.156,
-     "bird": 0.658
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.786,
+     "pose": 0.132,
+     "bird": 0.198
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/rinphe1/v2.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.803,
+     "pose": 0.037,
+     "bird": 0.114
     }
    ],
+   "gen": 1789706930,
    "reviewed": false,
-   "photo": "review_imgs/rinphe1/photo.jpg"
+   "pending": false
   },
   "rintea1": {
    "name": "Ringed Teal",
@@ -21086,44 +21108,48 @@
    "name": "Carrion Crow",
    "sci": "Corvus corone",
    "family": "Crows, Jays, and Magpies",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/y00743/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/219759311/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/y00743/ref.jpg",
+   "photo": "review_imgs/y00743/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Wholly glossy black crow with a green-purple sheen, heavy black bill with feathered base, black legs, and a squarish tail. Robust, evenly proportioned; lacks any grey or pale areas.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/y00743/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.897,
-     "pose": 0.155,
-     "bird": 0.426
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.863,
+     "pose": 0.129,
+     "bird": 0.361
     },
     {
      "id": "v1",
      "img": "review_imgs/y00743/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.886,
-     "pose": 0.188,
-     "bird": 0.413
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.887,
+     "pose": 0.095,
+     "bird": 0.224
     },
     {
      "id": "v2",
      "img": "review_imgs/y00743/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.88,
-     "pose": 0.199,
-     "bird": 0.209
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.864,
+     "pose": 0.077,
+     "bird": 0.258
     }
    ],
-   "id": "Wholly glossy black crow with a green-purple sheen, heavy black bill with feathered base, black legs, and a squarish tail. Robust, evenly proportioned; lacks any grey or pale areas.",
-   "photo": "review_imgs/y00743/photo.jpg",
-   "reviewed": true,
+   "gen": 1789707289,
+   "reviewed": false,
    "pending": false
   },
   "yebcho1": {
@@ -21627,7 +21653,6 @@
   "grseag1",
   "grswoo",
   "grypar",
-  "grywag",
   "gyhchi",
   "gyrfal",
   "harduc",
@@ -21664,7 +21689,6 @@
   "manduc",
   "manshe",
   "marsan",
-  "marwar3",
   "meapip1",
   "medgul1",
   "miswoo1",
@@ -21682,7 +21706,6 @@
   "palwar5",
   "pecpip",
   "pecsan",
-  "perfal",
   "pieavo1",
   "pinbun",
   "purher1",
@@ -21704,7 +21727,6 @@
   "ribgul",
   "ricpip1",
   "rinduc",
-  "rinphe1",
   "rorpar",
   "rosgul",
   "rossta2",
@@ -21755,7 +21777,6 @@
   "woolar1",
   "wooshr1",
   "y00427",
-  "y00743",
   "yebwar3",
   "yelgul1"
  ]
