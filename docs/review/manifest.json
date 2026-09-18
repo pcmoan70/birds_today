@@ -595,43 +595,48 @@
    "name": "Bank Swallow",
    "sci": "Riparia riparia",
    "family": "Swallows and Martins",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/banswa/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252886281/320",
-   "ref_source": "whobird",
-   "chosen": "v0",
+   "ref": "review_imgs/banswa/ref.jpg",
+   "photo": "review_imgs/banswa/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small brown swallow-martin; plain grey-brown upperparts, white underparts crossed by a distinct brown breast-band. White throat, short notched tail, tiny black bill, dark legs. Smallest, plainest hirundine.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/banswa/v0.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.891,
-     "pose": 0.311,
-     "bird": 0.767
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.765,
+     "pose": 0.37,
+     "bird": 0.265
     },
     {
      "id": "v1",
      "img": "review_imgs/banswa/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.865,
-     "pose": 0.293,
-     "bird": 0.734
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.758,
+     "pose": 0.454,
+     "bird": 0.104
     },
     {
      "id": "v2",
      "img": "review_imgs/banswa/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.869,
-     "pose": 0.291,
-     "bird": 0.572
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.728,
+     "pose": 0.185,
+     "bird": 0.026
     }
    ],
-   "recipe": "v4-macaulay-id",
-   "reviewed": true,
-   "id": "Small brown swallow-martin; plain grey-brown upperparts, white underparts crossed by a distinct brown breast-band. White throat, short notched tail, tiny black bill, dark legs. Smallest, plainest hirundine.",
+   "gen": 1789692116,
+   "reviewed": false,
    "pending": false
   },
   "barpar2": {
@@ -13633,36 +13638,49 @@
    "name": "Northern Pintail",
    "sci": "Anas acuta",
    "family": "Ducks, Geese, and Swans",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/norpin/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/71206681/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "id": "Elegant slender duck; drake has a chocolate-brown head, white breast extending as a stripe up the neck, grey body, black-and-cream rear, and very long pointed central tail feathers; blue-grey bill.",
+   "ref": "review_imgs/norpin/ref.jpg",
+   "photo": "review_imgs/norpin/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Elegant slender duck; drake has a chocolate-brown head, white breast extending as a stripe up the neck, grey body, black-and-cream rear, and very long pointed central tail feathers; blue-grey bill. Emphasise: very long, pointed central tail feathers.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/norpin/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.515,
-     "pose": 0.072,
-     "bird": 0.157
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.76,
+     "pose": 0.141,
+     "bird": 0.536
     },
     {
      "id": "v1",
      "img": "review_imgs/norpin/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.533,
-     "pose": 0.075,
-     "bird": 0.076
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.762,
+     "pose": 0.14,
+     "bird": 0.294
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/norpin/v2.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.724,
+     "pose": 0.069,
+     "bird": 0.218
     }
    ],
+   "gen": 1789692647,
    "reviewed": false,
-   "photo": "review_imgs/norpin/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "norsho": {
    "name": "Northern Shoveler",
@@ -17745,46 +17763,49 @@
    "name": "Spotted Flycatcher",
    "sci": "Muscicapa striata",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "none-good",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/spofly1/before.png",
    "ref": "review_imgs/spofly1/ref.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "photo": "review_imgs/spofly1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Slim grey-brown flycatcher; pale greyish-white underparts with diffuse dark streaks on crown and breast. Plain face, large dark eye, thin pointed black bill, dark legs. Upright posture.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/spofly1/v0.png",
-     "seed": 1012,
-     "strength": 0.74,
-     "sim": 0.879,
-     "pose": 0.469,
-     "bird": 0.688
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.845,
+     "pose": 0.33,
+     "bird": 0.538
     },
     {
      "id": "v1",
      "img": "review_imgs/spofly1/v1.png",
-     "seed": 1011,
-     "strength": 0.68,
-     "sim": 0.894,
-     "pose": 0.392,
-     "bird": 0.643
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.85,
+     "pose": 0.355,
+     "bird": 0.094
     },
     {
      "id": "v2",
      "img": "review_imgs/spofly1/v2.png",
-     "seed": 1010,
-     "strength": 0.6,
-     "sim": 0.896,
-     "pose": 0.435,
-     "bird": 0.523
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.823,
+     "pose": 0.175,
+     "bird": 0.073
     }
    ],
-   "gen": 1782733266,
+   "gen": 1789692288,
    "reviewed": false,
-   "pending": false,
-   "photo": "review_imgs/spofly1/photo.jpg"
+   "pending": false
   },
   "spored": {
    "name": "Spotted Redshank",
@@ -18526,43 +18547,49 @@
    "name": "Thick-billed Murre",
    "sci": "Uria lomvia",
    "family": "Auks, Murres, and Puffins",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/thbmur/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/32846001/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/thbmur/ref.jpg",
+   "photo": "review_imgs/thbmur/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Heavy black-and-white auk; blackish head, throat and upperparts, clean white underparts, with a thick pointed black bill bearing a thin white line along the gape. Stocky upright build.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/thbmur/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.717,
-     "pose": 0.048,
-     "bird": 0.885
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.834,
+     "pose": 0.477,
+     "bird": 0.225
     },
     {
      "id": "v1",
      "img": "review_imgs/thbmur/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.624,
-     "pose": 0.066,
-     "bird": 0.921
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.822,
+     "pose": 0.259,
+     "bird": 0.15
     },
     {
      "id": "v2",
      "img": "review_imgs/thbmur/v2.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.619,
-     "pose": 0.026,
-     "bird": 0.847
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.776,
+     "pose": 0.125,
+     "bird": 0.175
     }
    ],
-   "id": "Heavy black-and-white auk; blackish head, throat and upperparts, clean white underparts, with a thick pointed black bill bearing a thin white line along the gape. Stocky upright build.",
-   "photo": "review_imgs/thbmur/photo.jpg"
+   "gen": 1789692468,
+   "reviewed": false,
+   "pending": false
   },
   "thelar1": {
    "name": "Thekla's Lark",
@@ -19496,43 +19523,49 @@
    "name": "Whinchat",
    "sci": "Saxicola rubetra",
    "family": "Old World Flycatchers, Robins, and Chats",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/whinch1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/42408031/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/whinch1/ref.jpg",
+   "photo": "review_imgs/whinch1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Small perky chat; streaky brown upperparts, warm orange-buff breast, bold creamy supercilium over a dark cheek, and white wing patches; white tail-base patches. Fine dark bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/whinch1/v0.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.881,
-     "pose": 0.533,
-     "bird": 0.804
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.831,
+     "pose": 0.158,
+     "bird": 0.736
     },
     {
      "id": "v1",
      "img": "review_imgs/whinch1/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.852,
-     "pose": 0.487,
-     "bird": 0.797
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.857,
+     "pose": 0.231,
+     "bird": 0.272
     },
     {
      "id": "v2",
      "img": "review_imgs/whinch1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.814,
-     "pose": 0.421,
-     "bird": 0.818
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.817,
+     "pose": 0.213,
+     "bird": 0.332
     }
    ],
-   "id": "Small perky chat; streaky brown upperparts, warm orange-buff breast, bold creamy supercilium over a dark cheek, and white wing patches; white tail-base patches. Fine dark bill, dark legs.",
-   "photo": "review_imgs/whinch1/photo.jpg"
+   "gen": 1789692884,
+   "reviewed": false,
+   "pending": false
   },
   "whisto1": {
    "name": "White Stork",
@@ -20977,7 +21010,6 @@
   "azutit2",
   "bahgoo",
   "baisan",
-  "banswa",
   "bargol",
   "bargoo",
   "barwar1",
@@ -21165,7 +21197,6 @@
   "norful",
   "norgos1",
   "norhar1",
-  "norpin",
   "norsho",
   "norshr1",
   "norshr4",
@@ -21237,7 +21268,6 @@
   "soclap1",
   "sooshe",
   "spocra1",
-  "spofly1",
   "spored",
   "steeid",
   "stodov1",
@@ -21248,7 +21278,6 @@
   "tawowl1",
   "tawpip1",
   "tersan",
-  "thbmur",
   "thrnig1",
   "trepip",
   "tunbeg1",
@@ -21261,7 +21290,6 @@
   "webwar1",
   "wemhar1",
   "whbwoo1",
-  "whinch1",
   "whisto1",
   "whiter2",
   "whrsan",

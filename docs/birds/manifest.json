@@ -1237,7 +1237,7 @@
     },
     "faces": {
       "banswa/flying_0.png": "right",
-      "banswa/sitting_0.png": "left"
+      "banswa/sitting_0.png": "right"
     },
     "credits": {
       "banswa/flying_0.png": {
@@ -1250,7 +1250,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Rolf Tuinstra",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:20170531_-_06.06_Oeverzwaluw_(Riparia_riparia)_3.jpg"
+        }
       }
     }
   },
@@ -24780,7 +24786,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Joachim Lutz",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:20260117_151444_Anas_acuta.jpg"
+        }
       }
     }
   },
@@ -32511,7 +32523,7 @@
     },
     "faces": {
       "spofly1/flying_0.png": "left",
-      "spofly1/sitting_0.png": "right"
+      "spofly1/sitting_0.png": "left"
     },
     "credits": {
       "spofly1/flying_0.png": {
@@ -32524,7 +32536,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Zakspi",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Browns_and_greens.jpg"
+        }
       }
     }
   },
@@ -33914,7 +33932,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Jerzy Strzelecki",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Alkefjellet_(js)_10.jpg"
+        }
       }
     }
   },
@@ -35514,7 +35538,7 @@
     },
     "faces": {
       "whinch1/flying_0.png": "right",
-      "whinch1/sitting_0.png": "left"
+      "whinch1/sitting_0.png": "right"
     },
     "credits": {
       "whinch1/flying_0.png": {
@@ -35527,7 +35551,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "El Golli Mohamed",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Tarier_des_pr%C3%A8s_Zaghouan_NP001.jpg"
+        }
       }
     }
   },
