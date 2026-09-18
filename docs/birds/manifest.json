@@ -3746,7 +3746,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Daniel Pettersson",
+          "license": "CC BY-SA 2.5 se",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Acrocephalus_dumetorum.jpg"
+        }
       }
     }
   },
@@ -4611,7 +4617,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Shino jacob koottanad",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Broad-billed_Sandpiper_Calidris_falcinellus,_Chavakkad,_Thrissur_district,_Kerala.jpg"
+        }
       }
     }
   },
@@ -17202,7 +17214,7 @@
     },
     "faces": {
       "gresni1/flying_0.png": "left",
-      "gresni1/sitting_0.png": "right"
+      "gresni1/sitting_0.png": "left"
     },
     "credits": {
       "gresni1/flying_0.png": {
@@ -17215,7 +17227,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "christoph_moning",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Great_Snipe_(Gallinago_media),_%C3%85re,_J%C3%A4mtland,_Sweden_15.jpg"
+        }
       }
     }
   },
@@ -22855,7 +22873,7 @@
     },
     "faces": {
       "manshe/flying_0.png": "right",
-      "manshe/sitting_0.png": "left"
+      "manshe/sitting_0.png": "right"
     },
     "credits": {
       "manshe/flying_0.png": {
@@ -22868,7 +22886,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "ALAN SCHMIERER from southeast AZ, USA",
+          "license": "CC0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:136_-_MANX_SHEARWATER_(9-15-2918)_MAS_pelagic_trip,_out_of_bar_harbor,_me_-16_(42989403670).jpg"
+        }
       }
     }
   },
@@ -35353,14 +35377,20 @@
       ]
     },
     "faces": {
-      "watrai1/sitting_0.png": "left"
+      "watrai1/sitting_0.png": "right"
     },
     "credits": {
       "watrai1/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Maurizio Carlini",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Apparizione_fugace.jpg"
+        }
       }
     }
   },
