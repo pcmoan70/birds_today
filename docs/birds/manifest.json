@@ -1621,7 +1621,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "MPF",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2019-10-16_Barred_Warbler,_St_Mary%27s_Island,_Northumberland_3.jpg"
+        }
       }
     }
   },
@@ -5991,7 +5997,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Veljo Runnel",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:2012_06_05_Aardla_027_Motacilla_citreola.jpg"
+        }
       }
     }
   },
@@ -11480,7 +11492,7 @@
     },
     "faces": {
       "eueowl1/flying_0.png": "right",
-      "eueowl1/sitting_0.png": "right"
+      "eueowl1/sitting_0.png": "left"
     },
     "credits": {
       "eueowl1/flying_0.png": {
@@ -11493,7 +11505,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Martin Mecnarowski (http://www.photomecan.eu/)",
+          "license": "CC BY-SA 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Bubo_bubo_3_(Martin_Mecnarowski).jpg"
+        }
       }
     }
   },
@@ -14596,14 +14614,20 @@
       ]
     },
     "faces": {
-      "eurwar2/sitting_0.png": "right"
+      "eurwar2/sitting_0.png": "left"
     },
     "credits": {
       "eurwar2/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "yves hoebeke",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Krekelzanger-1_(28541529182).jpg"
+        }
       }
     }
   },
@@ -28276,7 +28300,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Christoph Moning",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Phalaropus_fulicarius_98755138_(cropped).jpg"
+        }
       }
     }
   },

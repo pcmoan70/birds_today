@@ -739,43 +739,48 @@
    "name": "Barred Warbler",
    "sci": "Curruca nisoria",
    "family": "Sylviid Warblers and Allies",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/barwar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/95443881/320",
-   "ref_source": "whobird",
-   "chosen": "v1",
+   "ref": "review_imgs/barwar1/ref.jpg",
+   "photo": "review_imgs/barwar1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Large bulky grey warbler; grey-brown upperparts, pale underparts finely barred with dark crescents (scaly look). Pale yellow eye, two thin pale wing bars, white-cornered tail. Stout grey bill, greyish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/barwar1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.876,
-     "pose": 0.057,
-     "bird": 0.612
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.818,
+     "pose": 0.122,
+     "bird": 0.523
     },
     {
      "id": "v1",
      "img": "review_imgs/barwar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.877,
-     "pose": 0.101,
-     "bird": 0.31
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.794,
+     "pose": 0.056,
+     "bird": 0.625
     },
     {
      "id": "v2",
      "img": "review_imgs/barwar1/v2.png",
      "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.886,
-     "pose": 0.13,
-     "bird": 0.21
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.845,
+     "pose": 0.088,
+     "bird": 0.222
     }
    ],
-   "recipe": "v4-macaulay-id",
-   "reviewed": true,
-   "id": "Large bulky grey warbler; grey-brown upperparts, pale underparts finely barred with dark crescents (scaly look). Pale yellow eye, two thin pale wing bars, white-cornered tail. Stout grey bill, greyish legs.",
+   "gen": 1789721144,
+   "reviewed": false,
    "pending": false
   },
   "batgod": {
@@ -2953,43 +2958,48 @@
    "name": "Citrine Wagtail",
    "sci": "Motacilla citreola",
    "family": "Wagtails and Pipits",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/citwag/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/191338911/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/citwag/ref.jpg",
+   "photo": "review_imgs/citwag/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Slender wagtail with a bright lemon-yellow head and underparts, a black hindneck band, and a blue-grey back. Two bold white wing bars on dark wings, long black tail with white outer feathers, thin black bill, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/citwag/v0.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.895,
-     "pose": 0.09,
-     "bird": 0.431
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.793,
+     "pose": 0.482,
+     "bird": 0.811
     },
     {
      "id": "v1",
      "img": "review_imgs/citwag/v1.png",
      "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.894,
-     "pose": 0.13,
-     "bird": 0.388
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.864,
+     "pose": 0.121,
+     "bird": 0.095
     },
     {
      "id": "v2",
      "img": "review_imgs/citwag/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.9,
-     "pose": 0.076,
-     "bird": 0.221
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.87,
+     "pose": 0.091,
+     "bird": 0.048
     }
    ],
-   "reviewed": true,
-   "id": "Slender wagtail with a bright lemon-yellow head and underparts, a black hindneck band, and a blue-grey back. Two bold white wing bars on dark wings, long black tail with white outer feathers, thin black bill, dark legs.",
+   "gen": 1789721415,
+   "reviewed": false,
    "pending": false
   },
   "coatit2": {
@@ -5067,44 +5077,49 @@
    "name": "Eurasian Eagle-Owl",
    "sci": "Bubo bubo",
    "family": null,
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/eueowl1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/162236021/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v2",
+   "ref": "review_imgs/eueowl1/ref.jpg",
+   "photo": "review_imgs/eueowl1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Massive owl with mottled tawny-brown plumage streaked black, prominent ear tufts, large orange eyes, pale facial disc, finely barred underparts, powerful feathered legs and dark hooked bill. Emphasise: ear tufts shown as soft feather tufts, not two stiff horns.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eueowl1/v0.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.748,
-     "pose": 0.72,
-     "bird": 0.739
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.819,
+     "pose": 0.508,
+     "bird": 0.368
     },
     {
      "id": "v1",
      "img": "review_imgs/eueowl1/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.754,
-     "pose": 0.634,
-     "bird": 0.605
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.856,
+     "pose": 0.371,
+     "bird": 0.306
     },
     {
      "id": "v2",
      "img": "review_imgs/eueowl1/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.703,
-     "pose": 0.507,
-     "bird": 0.268
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.836,
+     "pose": 0.325,
+     "bird": 0.245
     }
    ],
-   "reviewed": true,
-   "id": "Massive owl with mottled tawny-brown plumage streaked black, prominent ear tufts, large orange eyes, pale facial disc, finely barred underparts, powerful feathered legs and dark hooked bill.",
-   "pending": true
+   "gen": 1789720601,
+   "reviewed": false,
+   "pending": false
   },
   "eugori2": {
    "name": "Eurasian Golden Oriole",
@@ -6573,43 +6588,49 @@
    "name": "River Warbler",
    "sci": "Locustella fluviatilis",
    "family": "Grassbirds and Allies",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/eurwar2/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107180951/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/eurwar2/ref.jpg",
+   "photo": "review_imgs/eurwar2/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Olive-brown unstreaked warbler with a faintly mottled olive-grey breast band, plain face with weak supercilium, rounded tail, longish undertail coverts, and pinkish legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/eurwar2/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.889,
-     "pose": 0.207,
-     "bird": 0.395
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.68,
+     "pose": 0.079,
+     "bird": 0.899
     },
     {
      "id": "v1",
      "img": "review_imgs/eurwar2/v1.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.899,
-     "pose": 0.052,
-     "bird": 0.482
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.67,
+     "pose": 0.054,
+     "bird": 0.085
     },
     {
      "id": "v2",
      "img": "review_imgs/eurwar2/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.904,
-     "pose": 0.109,
-     "bird": 0.351
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.697,
+     "pose": 0.006,
+     "bird": 0.03
     }
    ],
-   "reviewed": true,
-   "id": "Olive-brown unstreaked warbler with a faintly mottled olive-grey breast band, plain face with weak supercilium, rounded tail, longish undertail coverts, and pinkish legs."
+   "gen": 1789720332,
+   "reviewed": false,
+   "pending": false
   },
   "eurwig": {
    "name": "Eurasian Wigeon",
@@ -15910,36 +15931,49 @@
    "name": "Red Phalarope",
    "sci": "Phalaropus fulicarius",
    "family": "Sandpipers and Allies",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/redpha1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107267571/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref": "review_imgs/redpha1/ref.jpg",
+   "photo": "review_imgs/redpha1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Plump phalarope; breeding female brick-red below with a black crown, white face patch and dark grey-streaked back. Short stout yellow bill tipped black, lobed dark legs.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/redpha1/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.837,
-     "pose": 0.598,
-     "bird": 0.952
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.765,
+     "pose": 0.158,
+     "bird": 0.791
     },
     {
      "id": "v1",
      "img": "review_imgs/redpha1/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.847,
-     "pose": 0.528,
-     "bird": 0.964
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.8,
+     "pose": 0.103,
+     "bird": 0.382
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/redpha1/v2.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.835,
+     "pose": 0.135,
+     "bird": 0.276
     }
    ],
+   "gen": 1789720871,
    "reviewed": false,
-   "photo": "review_imgs/redpha1/photo.jpg",
-   "pending": true
+   "pending": false
   },
   "redpol1": {
    "name": "Redpoll",
@@ -21949,7 +21983,6 @@
   "bahgoo",
   "baisan",
   "bargol",
-  "barwar1",
   "bcnher",
   "bkwsti",
   "blasto1",
@@ -21974,7 +22007,6 @@
   "categr1",
   "cetwar1",
   "chebun1",
-  "citwag",
   "colfly1",
   "comcha",
   "comeid",
@@ -21993,7 +22025,6 @@
   "eaywag",
   "egygoo",
   "eubeat1",
-  "eueowl1",
   "euhgul1",
   "euptit1",
   "eurbul",
@@ -22002,7 +22033,6 @@
   "eursco1",
   "eursha1",
   "eurspo1",
-  "eurwar2",
   "eutdov",
   "eutspa",
   "ferduc",
@@ -22063,7 +22093,6 @@
   "rebgoo1",
   "rebmer",
   "recpoc",
-  "redpha1",
   "redpol1",
   "redwin",
   "reffal1",
