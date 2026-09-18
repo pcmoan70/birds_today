@@ -1488,43 +1488,49 @@
    "name": "Black Stork",
    "sci": "Ciconia nigra",
    "family": "Storks",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/blasto1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/198895331/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/blasto1/ref.jpg",
+   "photo": "review_imgs/blasto1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v7-commons-i2i",
+   "id": "Tall stork; glossy black head, neck, back and wings with green-purple iridescence, sharply contrasting white belly and undertail. Long straight bright red bill, long red legs, red eye-ring.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/blasto1/v0.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.933,
-     "pose": 0.399,
-     "bird": 0.923
+     "seed": 1001,
+     "strength": 0.55,
+     "whole": 1.0,
+     "sim": 0.912,
+     "pose": 0.196,
+     "bird": 0.762
     },
     {
      "id": "v1",
      "img": "review_imgs/blasto1/v1.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.933,
-     "pose": 0.208,
-     "bird": 0.838
+     "strength": 0.45,
+     "whole": 1.0,
+     "sim": 0.916,
+     "pose": 0.105,
+     "bird": 0.764
     },
     {
      "id": "v2",
      "img": "review_imgs/blasto1/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.917,
-     "pose": 0.196,
-     "bird": 0.844
+     "seed": 1002,
+     "strength": 0.65,
+     "whole": 1.0,
+     "sim": 0.906,
+     "pose": 0.119,
+     "bird": 0.664
     }
    ],
-   "reviewed": true,
-   "id": "Tall stork; glossy black head, neck, back and wings with green-purple iridescence, sharply contrasting white belly and undertail. Long straight bright red bill, long red legs, red eye-ring."
+   "gen": 1789731970,
+   "reviewed": false,
+   "pending": false
   },
   "blawhe1": {
    "name": "Black Wheatear",
@@ -1804,43 +1810,49 @@
    "name": "Black Swan",
    "sci": "Cygnus atratus",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/blkswa/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/120705851/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/blkswa/ref.jpg",
+   "photo": "review_imgs/blkswa/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v7-commons-i2i",
+   "id": "Large all-black swan; sooty-black plumage with white flight feathers visible in the wing. Long curved neck, bright red bill with a white band near the tip, dark legs.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/blkswa/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.866,
-     "pose": 0.405,
-     "bird": 0.728
+     "seed": 1002,
+     "strength": 0.65,
+     "whole": 1.0,
+     "sim": 0.935,
+     "pose": 0.333,
+     "bird": 0.841
     },
     {
      "id": "v1",
      "img": "review_imgs/blkswa/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.858,
-     "pose": 0.158,
-     "bird": 0.835
+     "seed": 1001,
+     "strength": 0.55,
+     "whole": 1.0,
+     "sim": 0.926,
+     "pose": 0.275,
+     "bird": 0.861
     },
     {
      "id": "v2",
      "img": "review_imgs/blkswa/v2.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.879,
-     "pose": 0.261,
-     "bird": 0.665
+     "strength": 0.45,
+     "whole": 1.0,
+     "sim": 0.923,
+     "pose": 0.129,
+     "bird": 0.767
     }
    ],
-   "reviewed": true,
-   "id": "Large all-black swan; sooty-black plumage with white flight feathers visible in the wing. Long curved neck, bright red bill with a white band near the tip, dark legs."
+   "gen": 1789732387,
+   "reviewed": false,
+   "pending": false
   },
   "blkter": {
    "name": "Black Tern",
@@ -16675,35 +16687,48 @@
    "name": "Richard's Pipit",
    "sci": "Anthus richardi",
    "family": "Wagtails and Pipits",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/ricpip1/before.png",
    "ref": "review_imgs/ricpip1/ref.jpg",
+   "photo": "review_imgs/ricpip1/photo.jpg",
    "ref_source": "wikimedia",
-   "recipe": "v4-macaulay-id",
+   "recipe": "v7-commons-i2i",
    "id": "Large long-legged pipit; warm buff-brown above with bold dark streaking, pale buff breast with fine dark streaks, whitish belly. Long pale supercilium, stout pale-based bill, very long pinkish legs and long hind claw.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/ricpip1/v0.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.904,
-     "pose": 0.254,
-     "bird": 0.504
+     "seed": 1001,
+     "strength": 0.55,
+     "whole": 1.0,
+     "sim": 0.905,
+     "pose": 0.454,
+     "bird": 0.565
     },
     {
      "id": "v1",
      "img": "review_imgs/ricpip1/v1.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.891,
-     "pose": 0.202,
-     "bird": 0.289
+     "seed": 1000,
+     "strength": 0.45,
+     "whole": 1.0,
+     "sim": 0.908,
+     "pose": 0.314,
+     "bird": 0.554
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/ricpip1/v2.png",
+     "seed": 1002,
+     "strength": 0.65,
+     "whole": 1.0,
+     "sim": 0.906,
+     "pose": 0.36,
+     "bird": 0.386
     }
    ],
+   "gen": 1789732763,
    "reviewed": false,
-   "photo": "review_imgs/ricpip1/photo.jpg",
    "pending": false
   },
   "rinduc": {
@@ -20272,43 +20297,49 @@
    "name": "Western Bonelli's Warbler",
    "sci": "Phylloscopus bonelli",
    "family": "Leaf Warblers",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/webwar1/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/32360851/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/webwar1/ref.jpg",
+   "photo": "review_imgs/webwar1/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v7-commons-i2i",
+   "id": "Small pale leaf-warbler; greyish-green upperparts with a bright yellow-green panel on wings and rump, clean white underparts, plain whitish face with a pale eye-ring, and a yellowish lower bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/webwar1/v0.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.853,
-     "pose": 0.046,
-     "bird": 0.875
+     "seed": 1000,
+     "strength": 0.45,
+     "whole": 1.0,
+     "sim": 0.916,
+     "pose": 0.387,
+     "bird": 0.273
     },
     {
      "id": "v1",
      "img": "review_imgs/webwar1/v1.png",
-     "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.841,
-     "pose": 0.045,
-     "bird": 0.764
+     "seed": 1001,
+     "strength": 0.55,
+     "whole": 1.0,
+     "sim": 0.906,
+     "pose": 0.343,
+     "bird": 0.164
     },
     {
      "id": "v2",
      "img": "review_imgs/webwar1/v2.png",
      "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.842,
-     "pose": 0.049,
-     "bird": 0.694
+     "strength": 0.65,
+     "whole": 1.0,
+     "sim": 0.919,
+     "pose": 0.22,
+     "bird": 0.118
     }
    ],
-   "id": "Small pale leaf-warbler; greyish-green upperparts with a bright yellow-green panel on wings and rump, clean white underparts, plain whitish face with a pale eye-ring, and a yellowish lower bill.",
-   "photo": "review_imgs/webwar1/photo.jpg"
+   "gen": 1789732096,
+   "reviewed": false,
+   "pending": false
   },
   "wemhar1": {
    "name": "Western Marsh Harrier",
@@ -22527,6 +22558,54 @@
    "gen": 1789731801,
    "reviewed": false,
    "pending": false
+  },
+  "olbpip": {
+   "name": "Olive-backed Pipit",
+   "sci": "Anthus hodgsoni",
+   "family": null,
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
+   "before": null,
+   "ref": "review_imgs/olbpip/ref.jpg",
+   "photo": "review_imgs/olbpip/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v7-commons-i2i",
+   "id": "Compact pipit, plain olive-green above with faint streaking, and whitish underparts boldly streaked black on breast and flanks; bold buff-and-white supercilium with a white spot behind ear-coverts, pink bill base and legs.",
+   "chosen": null,
+   "variants": [
+    {
+     "id": "v0",
+     "img": "review_imgs/olbpip/v0.png",
+     "seed": 1002,
+     "strength": 0.65,
+     "whole": 1.0,
+     "sim": 0.932,
+     "pose": 0.198,
+     "bird": 0.118
+    },
+    {
+     "id": "v1",
+     "img": "review_imgs/olbpip/v1.png",
+     "seed": 1000,
+     "strength": 0.45,
+     "whole": 1.0,
+     "sim": 0.945,
+     "pose": 0.139,
+     "bird": 0.118
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/olbpip/v2.png",
+     "seed": 1001,
+     "strength": 0.55,
+     "whole": 1.0,
+     "sim": 0.934,
+     "pose": 0.068,
+     "bird": 0.086
+    }
+   ],
+   "gen": 1789732225,
+   "reviewed": false,
+   "pending": false
   }
  },
  "queued": [
@@ -22557,12 +22636,10 @@
   "blagro1",
   "blakit1",
   "blared1",
-  "blasto1",
   "blawoo1",
   "blkgui",
   "blksco1",
   "blksco2",
-  "blkswa",
   "blkter",
   "blrwar1",
   "bltacc1",
@@ -22604,7 +22681,6 @@
   "commer",
   "commoo3",
   "commur",
-  "comnig1",
   "compoc",
   "comqua1",
   "comrav",
@@ -22779,7 +22855,6 @@
   "norshr1",
   "norshr4",
   "norwhe",
-  "olbpip",
   "ortbun1",
   "ortdov",
   "osprey",
@@ -22819,7 +22894,6 @@
   "rensti",
   "retloo",
   "retpip",
-  "ricpip1",
   "rinduc",
   "rinouz1",
   "rinphe1",
@@ -22878,7 +22952,6 @@
   "uraowl1",
   "waldra1",
   "watrai1",
-  "webwar1",
   "wemhar1",
   "wescap1",
   "whbwoo1",
@@ -22893,7 +22966,6 @@
   "whteag",
   "whwcro",
   "whwsco1",
-  "whwsco2",
   "whwsco3",
   "whwter",
   "wilpta2",

@@ -3169,7 +3169,7 @@
     },
     "faces": {
       "blasto1/flying_0.png": "right",
-      "blasto1/sitting_0.png": "left"
+      "blasto1/sitting_0.png": "right"
     },
     "credits": {
       "blasto1/flying_0.png": {
@@ -3182,7 +3182,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Frank Vassen from Brussels, Belgium",
+          "license": "CC BY 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Black_Stork_(Ciconia_nigra),_Skala_Kallonis,_Lesvos,_Greece,_11.04.2015_(16730567553).jpg"
+        }
       }
     }
   },
@@ -3757,7 +3763,7 @@
     },
     "faces": {
       "blkswa/flying_0.png": "left",
-      "blkswa/sitting_0.png": "left"
+      "blkswa/sitting_0.png": "right"
     },
     "credits": {
       "blkswa/flying_0.png": {
@@ -3770,7 +3776,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles J. Sharp",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Black_swan_(Cygnus_atratus)_Scottsdale.jpg"
+        }
       }
     }
   },
@@ -25775,6 +25787,78 @@
       }
     }
   },
+  "olbpip": {
+    "sci": "Anthus hodgsoni",
+    "common": "Olive-backed Pipit",
+    "names": {
+      "en": "Olive-backed Pipit",
+      "de": "Waldpieper",
+      "es": "Bisbita de Hodgson",
+      "pl": "świergotek tajgowy",
+      "fr": "Pipit à dos olive",
+      "nl": "Siberische boompieper",
+      "ru": "Пятнистый конёк",
+      "ja": "ビンズイ",
+      "cs": "linduška olivová",
+      "ca": "piula de Hodgson",
+      "pt": "petinha-silvestre",
+      "no": "sibirpiplerke",
+      "bg": "Петниста бъбрица",
+      "sv": "sibirisk piplärka",
+      "da": "Tajgapiber",
+      "tr": "Yeşil Sırtlı İncirkuşu",
+      "sk": "ľabtuška škvrnitá",
+      "sr": "Sibirska trepteljka",
+      "uk": "Щеврик оливковий",
+      "zh-CN": "树鹨",
+      "fi": "taigakirvinen",
+      "es_ES": "Bisbita de Hodgson",
+      "es_MX": "Bisbita de Oriente",
+      "es_EC": "Bisbita de Hodgson",
+      "pt_PT": "Petinha-silvestre",
+      "hr": "maslinastoleđa trepteljka",
+      "lt": "Taiginis kalviukas",
+      "fa": "پیپت پشت‌زیتونی",
+      "cy": "Corhedydd cefnwyrdd",
+      "et": "taigakiur",
+      "it": "Prispolone indiano",
+      "zh-TW": "樹鷚",
+      "eo": "olivdorsa pipio",
+      "hu": "olívhátú pityer",
+      "sl": "gozdna cipa",
+      "lv": "zaļganā čipste",
+      "is": "Skógtittlingur",
+      "el": "Δασοκελάδα",
+      "se": "Sibirjjácivkkán",
+      "ko": "힝둥새",
+      "he": "פפיון זיתי",
+      "ar": "جشنة زيتونية الظهر",
+      "th": "นกเด้าดินสวน",
+      "ml": "പച്ചവരമ്പൻ"
+    },
+    "stances": {
+      "sitting": [
+        "olbpip/sitting_0.png"
+      ]
+    },
+    "faces": {
+      "olbpip/sitting_0.png": "left"
+    },
+    "credits": {
+      "olbpip/sitting_0.png": {
+        "source": "generated",
+        "author": "",
+        "license": "",
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Charles Lam from Hong Kong, China",
+          "license": "CC BY-SA 2.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Anthus_hodgsoni,_Hong_Kong_(8410309632).jpg"
+        }
+      }
+    }
+  },
   "oltwar1": {
     "sci": "Hippolais olivetorum",
     "common": "Olive-tree Warbler",
@@ -29761,7 +29845,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+          "license": "CC BY 3.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Anthus_richardi_-_Laem_Pak_Bia.jpg"
+        }
       }
     }
   },
@@ -36193,7 +36283,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Kookaburra 81",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Phylloscopus_bonelli_2.jpg"
+        }
       }
     }
   },

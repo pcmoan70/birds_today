@@ -1,0 +1,17 @@
+{
+  "source": "generated",
+  "model": "ostris/Flex.2-preview",
+  "style": "fieldsketch",
+  "prompt": "a colour field sketch of a single bird, as a birder would draw it from life and finish in the studio: a light pencil underdrawing carrying clean watercolour washes and coloured-pencil detail, worked up sharply where identification lives — head, bill, eye, wing pattern, the edges of each feather tract — and left looser and more sketchy toward the tail, belly and legs, a few pencil strokes still showing; true proportions and a faithful likeness of the species, natural unsaturated colours, soft daylight; the bird alone on plain white paper, no border, no caption, no text. A Olive-backed Pipit (Anthus hodgsoni), perched on a small branch, wings folded neatly against the body, side profile. Identification — emphasise these field marks: Compact pipit, plain olive-green above with faint streaking, and whitish underparts boldly streaked black on breast and flanks; bold buff-and-white supercilium with a white spot behind ear-coverts, pink bill base and legs. Render the legs and feet accurately: legs and feet typical of the species, both clearly shown and not cut off. Keep the likeness of the bird in the reference photo: same proportions, bill and head shape, posture, plumage pattern and colour tones — a portrait of this species, not a generic or idealised bird. Draw the bird only: leave out everything around it in the photo — habitat, foliage, branches, grass, water, sky, rocks, snow, fences, wires, feeders, hands, rings, other birds — on plain white, no cast shadow, no backdrop; at most the barest neutral perch under its feet. A typical wild adult in natural, muted colours, the whole bird in frame, uncropped, both legs and feet visible. anatomically correct, exactly two wings in a natural realistic position with properly layered flight feathers, correct wing orientation, natural posture.",
+  "pose": "sitting",
+  "reference": "sitting_0.jpg",
+  "strength": 0.65,
+  "seed": 1002,
+  "recipe": "v7-commons-i2i",
+  "reference_credit": {
+    "source": "wikimedia",
+    "author": "Charles Lam from Hong Kong, China",
+    "license": "CC BY-SA 2.0",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Anthus_hodgsoni,_Hong_Kong_(8410309632).jpg"
+  }
+}
