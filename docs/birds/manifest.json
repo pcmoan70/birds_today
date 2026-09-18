@@ -2512,7 +2512,7 @@
     },
     "faces": {
       "bktgod/flying_0.png": "right",
-      "bktgod/sitting_0.png": "right"
+      "bktgod/sitting_0.png": "left"
     },
     "credits": {
       "bktgod/flying_0.png": {
@@ -2525,7 +2525,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Kaiserm123",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:20150400_uferschnepfe_callantsoog.jpg"
+        }
       }
     }
   },
@@ -7852,7 +7858,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Alexis Lours",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Common_Pochard_2025_11_15_04.jpg"
+        }
       }
     }
   },
@@ -8228,14 +8240,20 @@
       ]
     },
     "faces": {
-      "comros/sitting_0.png": "left"
+      "comros/sitting_0.png": "right"
     },
     "credits": {
       "comros/sitting_0.png": {
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Jakub Hałun",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:20200601_Dziwonia,_%C5%9Bcie%C5%BCka_ornitologiczna_w_Kamieniu_1005_2304.jpg"
+        }
       }
     }
   },
@@ -21229,7 +21247,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Zeynel Cebeci",
+          "license": "CC BY-SA 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Charadrius_dubius_-_Little_ringed_plover_05.jpg"
+        }
       }
     }
   },
@@ -38281,7 +38305,13 @@
         "source": "generated",
         "author": "",
         "license": "",
-        "page_url": ""
+        "page_url": "",
+        "drawn_from": {
+          "source": "wikimedia",
+          "author": "Михаил Голомысов",
+          "license": "CC BY 4.0",
+          "page_url": "https://commons.wikimedia.org/wiki/File:Phylloscopus_inornatus_427923804.jpg"
+        }
       }
     }
   },

@@ -3567,43 +3567,48 @@
    "name": "Common Pochard",
    "sci": "Aythya ferina",
    "family": "Ducks, Geese, and Swans",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/compoc/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/204243991/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v2",
+   "ref": "review_imgs/compoc/ref.jpg",
+   "photo": "review_imgs/compoc/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Medium diving duck with rich chestnut-red head, black breast and rear, pale grey vermiculated body, a black bill crossed by a pale blue-grey band, and a red eye; sloping forehead profile.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/compoc/v0.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.731,
-     "pose": 0.235,
-     "bird": 0.956
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.797,
+     "pose": 0.302,
+     "bird": 0.778
     },
     {
      "id": "v1",
      "img": "review_imgs/compoc/v1.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.707,
-     "pose": 0.125,
-     "bird": 0.842
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.804,
+     "pose": 0.097,
+     "bird": 0.752
     },
     {
      "id": "v2",
      "img": "review_imgs/compoc/v2.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.663,
-     "pose": 0.143,
-     "bird": 0.908
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.749,
+     "pose": 0.119,
+     "bird": 0.6
     }
    ],
-   "reviewed": true,
-   "id": "Medium diving duck with rich chestnut-red head, black breast and rear, pale grey vermiculated body, a black bill crossed by a pale blue-grey band, and a red eye; sloping forehead profile.",
+   "gen": 1789710288,
+   "reviewed": false,
    "pending": false
   },
   "comrav": {
@@ -3655,43 +3660,49 @@
    "name": "Common Rosefinch",
    "sci": "Carpodacus erythrinus",
    "family": "Finches, Euphonias, and Allies",
-   "reason": "all",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/comros/before.png",
-   "ref": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/165879411/320",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
-   "chosen": "v0",
+   "ref": "review_imgs/comros/ref.jpg",
+   "photo": "review_imgs/comros/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
+   "id": "Plump finch with rosy-red head, breast and rump in the male, brown wings and back, whitish belly, plain face with a large dark eye, two faint wing-bars and a stubby pale conical bill.",
+   "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/comros/v0.png",
      "seed": 1000,
-     "strength": 0.6,
-     "sim": 0.869,
-     "pose": 0.103,
-     "bird": 0.829
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.841,
+     "pose": 0.271,
+     "bird": 0.372
     },
     {
      "id": "v1",
      "img": "review_imgs/comros/v1.png",
-     "seed": 1001,
-     "strength": 0.68,
-     "sim": 0.871,
-     "pose": 0.113,
-     "bird": 0.543
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.857,
+     "pose": 0.156,
+     "bird": 0.23
     },
     {
      "id": "v2",
      "img": "review_imgs/comros/v2.png",
-     "seed": 1002,
-     "strength": 0.74,
-     "sim": 0.847,
-     "pose": 0.166,
-     "bird": 0.128
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.823,
+     "pose": 0.211,
+     "bird": 0.08
     }
    ],
-   "reviewed": true,
-   "id": "Plump finch with rosy-red head, breast and rump in the male, brown wings and back, whitish belly, plain face with a large dark eye, two faint wing-bars and a stubby pale conical bill."
+   "gen": 1789710116,
+   "reviewed": false,
+   "pending": false
   },
   "comshe": {
    "name": "Common Shelduck",
@@ -8376,35 +8387,47 @@
    "name": "Black-tailed Godwit",
    "sci": "Limosa limosa",
    "family": "Sandpipers and Allies",
-   "reason": "not good-keep+2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/bktgod/before.png",
    "ref": "review_imgs/bktgod/ref.jpg",
    "photo": "review_imgs/bktgod/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Tall elegant wader; breeding adult orange-rufous head, neck and breast, barred lower belly, grey-brown back. Long straight bill pink at base with dark tip; black tail-band over white rump, long dark legs. The head is plain orange-rufous with no black markings on the head. The long straight bill is pinkish at the base with a dark/black tip. Emphasise: a plain head without black, and a long straight bill, pinkish at the base with a dark tip. Emphasise: underparts not too pale.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/bktgod/v0.png",
-     "seed": 3030,
-     "strength": 0.62,
-     "sim": 0.918,
-     "pose": 0.178,
-     "bird": 0.703
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.81,
+     "pose": 0.197,
+     "bird": 0.927
     },
     {
      "id": "v1",
      "img": "review_imgs/bktgod/v1.png",
-     "seed": 3031,
-     "strength": 0.7,
-     "sim": 0.893,
-     "pose": 0.279,
-     "bird": 0.341
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.826,
+     "pose": 0.38,
+     "bird": 0.335
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/bktgod/v2.png",
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.841,
+     "pose": 0.23,
+     "bird": 0.218
     }
    ],
-   "gen": 1782801290,
+   "gen": 1789709928,
    "reviewed": false,
    "pending": false
   },
@@ -11935,35 +11958,48 @@
    "name": "Little Ringed Plover",
    "sci": "Thinornis dubius",
    "family": "Plovers and Lapwings",
-   "reason": "pick-keep-regen2",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/lirplo/before.png",
    "ref": "review_imgs/lirplo/ref.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "photo": "review_imgs/lirplo/photo.jpg",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Small plover with brown upperparts, white underparts, and a single complete black breast-band; black-and-white forehead pattern and a bright yellow eye-ring. Black bill, dull pinkish to flesh-coloured legs. Slim, large-headed; the yellow eye-ring is diagnostic.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/lirplo/v0.png",
-     "seed": 3006,
-     "strength": 0.7,
-     "sim": 0.893,
-     "pose": 0.281,
-     "bird": 0.653
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.862,
+     "pose": 0.322,
+     "bird": 0.778
     },
     {
      "id": "v1",
      "img": "review_imgs/lirplo/v1.png",
-     "seed": 3005,
-     "strength": 0.62,
-     "sim": 0.892,
-     "pose": 0.206,
-     "bird": 0.123
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.863,
+     "pose": 0.288,
+     "bird": 0.709
+    },
+    {
+     "id": "v2",
+     "img": "review_imgs/lirplo/v2.png",
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.874,
+     "pose": 0.116,
+     "bird": 0.213
     }
    ],
-   "reviewed": true,
-   "photo": "review_imgs/lirplo/photo.jpg",
+   "gen": 1789710646,
+   "reviewed": false,
    "pending": false
   },
   "litbit1": {
@@ -21348,44 +21384,47 @@
    "name": "Yellow-browed Warbler",
    "sci": "Phylloscopus inornatus",
    "family": "Leaf Warblers",
-   "reason": "note-regen3",
+   "reason": "Norway redraw -> v5-commons-fieldsketch",
    "before": "review_imgs/yebwar3/before.png",
    "ref": "review_imgs/yebwar3/ref.jpg",
    "photo": "review_imgs/yebwar3/photo.jpg",
-   "ref_source": "whobird",
-   "recipe": "v4-macaulay-id",
+   "ref_source": "wikimedia",
+   "recipe": "v6-commons-whole",
    "id": "Tiny bright leaf-warbler, greenish above with two bold yellowish-white wingbars, a long creamy supercilium, dark eyestripe, and pale tertial edges. Whitish underparts; thin dark bill, pale legs; very small and active. Emphasise: a slim, small warbler shape.",
    "chosen": null,
    "variants": [
     {
      "id": "v0",
      "img": "review_imgs/yebwar3/v0.png",
-     "seed": 1005,
-     "strength": 0.6,
-     "sim": 0.891,
-     "pose": 0.104,
-     "bird": 0.708
+     "seed": 1002,
+     "strength": 0.5,
+     "whole": 1.0,
+     "sim": 0.822,
+     "pose": 0.154,
+     "bird": 0.628
     },
     {
      "id": "v1",
      "img": "review_imgs/yebwar3/v1.png",
-     "seed": 1007,
-     "strength": 0.74,
-     "sim": 0.879,
-     "pose": 0.162,
-     "bird": 0.634
+     "seed": 1000,
+     "strength": 0.9,
+     "whole": 1.0,
+     "sim": 0.856,
+     "pose": 0.14,
+     "bird": 0.513
     },
     {
      "id": "v2",
      "img": "review_imgs/yebwar3/v2.png",
-     "seed": 1006,
-     "strength": 0.68,
-     "sim": 0.897,
-     "pose": 0.13,
-     "bird": 0.296
+     "seed": 1001,
+     "strength": 0.7,
+     "whole": 1.0,
+     "sim": 0.82,
+     "pose": 0.087,
+     "bird": 0.008
     }
    ],
-   "gen": 1782775994,
+   "gen": 1789709750,
    "reviewed": false,
    "pending": false
   },
@@ -21667,7 +21706,6 @@
   "barwar1",
   "bcnher",
   "bearee1",
-  "bktgod",
   "bkwsti",
   "blakit1",
   "blared1",
@@ -21706,10 +21744,8 @@
   "comkin1",
   "commoo3",
   "comnig1",
-  "compoc",
   "comqua1",
   "comrav",
-  "comros",
   "corbun1",
   "corcra",
   "corshe1",
@@ -21755,7 +21791,6 @@
   "gresni1",
   "gretit1",
   "grewar3",
-  "grgowl",
   "grrwar1",
   "grseag1",
   "grswoo",
@@ -21779,7 +21814,6 @@
   "leseag1",
   "lessca",
   "lesyel",
-  "lirplo",
   "litbit1",
   "litbus1",
   "litcra1",
@@ -21875,7 +21909,6 @@
   "wooduc",
   "wooshr1",
   "y00427",
-  "yebwar3",
   "yelgul1"
  ]
 }
