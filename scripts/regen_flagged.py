@@ -152,28 +152,60 @@ def load_retry():
 STYLE = os.environ.get("BIRD_STYLE", "fieldsketch")
 
 # The reference photo is a real bird in a real place — a feeder, a hand, a
-# fence, a lawn. prep_init already cuts the bird out onto white, but the model
-# still reads the init image, so the prompt says plainly that none of the
-# setting survives into the drawing.
+# fence, a lawn. prep_init cuts the bird out onto white, but the cutout keeps
+# whatever crossed IN FRONT of the bird: grass blades, twigs, a wire. Drawing
+# from the photo reproduces those faithfully, so the prompt has to say not just
+# "no background" but "draw the bird whole THROUGH whatever covers it" — and it
+# must not ask for a perch, or one gets drawn.
 NO_BACKGROUND = (
-    " Draw the bird only: leave out everything around it in the photo — habitat, "
-    "foliage, branches, grass, water, sky, rocks, snow, fences, wires, feeders, "
-    "hands, rings, other birds — on plain white, no cast shadow, no backdrop; "
-    "at most the barest neutral perch under its feet."
+    " The bird alone on bare white paper — no habitat, foliage, grass, twig, "
+    "branch, perch, water, sky, wire, hand, second bird, cast shadow or ground "
+    "line. Nothing crosses or overlaps it: where grass or a twig passes in "
+    "front of the bird in the photograph, draw the feathers behind and leave it "
+    "out."
 )
 
-# img2img keeps the shape; this keeps the identity.
+# img2img already carries the likeness, so this spends its few words on the
+# parts a photograph loses — which is exactly where the drawing invents.
 RESEMBLANCE = (
-    " Keep the likeness of the bird in the reference photo: same proportions, "
-    "bill and head shape, posture, plumage pattern and colour tones — a portrait "
-    "of this species, not a generic or idealised bird."
+    " Where the photo hides a part — feet in grass, the far leg, a wingtip in "
+    "shadow — draw it plainly as this species really is, never invented."
 )
 
-# The T5 encoder reads about 512 tokens (~2,000 characters) and silently drops
-# the rest, so the prompt is assembled in priority order and the long sourced
-# description is trimmed — never the style, the species, the likeness or the
-# background instruction.
-PROMPT_BUDGET = 1900
+# The T5 encoder reads 512 tokens and silently drops the rest — which is how a
+# prompt ending in the anatomy rule can be a prompt without an anatomy rule. So
+# the budget is counted in real tokens, and the prompt is assembled worst-problem
+# first, so whatever does fall off the end is the least important part.
+T5_LIMIT = 512
+PROMPT_BUDGET = 1900        # character fallback when the tokenizer is unreachable
+_TOK = [None]               # lazily loaded, cached; None once we know we can't
+
+
+def _tokens(text):
+    """Length of `text` in T5 tokens, or None if the tokenizer isn't available."""
+    if _TOK[0] is None:
+        try:
+            from transformers import AutoTokenizer
+            _TOK[0] = AutoTokenizer.from_pretrained(G.DEFAULT_MODEL,
+                                                    subfolder="tokenizer_2")
+        except Exception:                                   # noqa: BLE001
+            _TOK[0] = False
+    if _TOK[0] is False:
+        return None
+    return len(_TOK[0](text).input_ids)
+
+
+def _fits(text):
+    n = _tokens(text)
+    return (n <= T5_LIMIT) if n is not None else (len(text) <= PROMPT_BUDGET)
+
+
+def _style():
+    """The active style block. Both encoders must be given the SAME style: the
+    CLIP tag used to be pinned to "fieldguide" (Lars Jonsson, photorealistic
+    feather detail) while T5 was handed the field-sketch prompt, so the two
+    streams pulled against each other and the result landed between them."""
+    return G.STYLES.get(STYLE) or G.STYLES["fieldguide"]
 
 
 def _trim_sentences(text, keep):
@@ -195,28 +227,41 @@ def improved_prompt(common, sci, code, stance, fams, ids, sourced=None, style=No
     # Family-level legs/feet morphology — anchors the feet even when the
     # reference photo hides them (bird on water, crouched, feet behind a perch).
     feet = load_feet()
-    feet_text = (feet.get(fam[0]) if fam[0] else None) or feet.get("_default", "")
+    feet_text = feet.get(fam[0]) if fam[0] else None
     feet_clause = f" Render the legs and feet accurately: {feet_text}." if feet_text else ""
     st = G.STYLES.get(style or STYLE) or G.STYLES["fieldguide"]
     head = (st["prompt"] + ". "
             f"A {common} ({sci}){fam_clause}, {G.STANCES[stance]['desc']}.")
-    tail = (RESEMBLANCE + NO_BACKGROUND +
-            " A typical wild adult in natural, muted colours, the whole bird in "
-            "frame, uncropped, both legs and feet visible. " + G.ANATOMY + ".")
-
-    def build(src_keep):
-        mid = f" Identification — emphasise these field marks: {id_text}" if id_text else ""
+    # Ordered by what goes wrong, worst first: the model's anatomy and the
+    # photograph's clutter are the two failure modes, so they sit ahead of the
+    # likeness note and the literature description, which are the first things
+    # the encoder drops if the prompt still runs long.
+    def build(src_keep, id_keep=0, resemble=True):
+        marks = _trim_sentences(id_text, id_keep) if (id_text and id_keep) else id_text
+        mid = f" Identification — emphasise these field marks: {marks}" if marks else ""
         if src_text and src_keep:
             mid += (" Described in the literature as: "
                     + _trim_sentences(src_text, src_keep).rstrip(".") + ".")
-        return head + mid + feet_clause + tail
+        return (head + mid + feet_clause + " " + G.ANATOMY + "." + NO_BACKGROUND
+                + (RESEMBLANCE if resemble else "")
+                + " A typical wild adult, muted natural colours, whole and uncropped.")
 
-    # Shed the sourced description a sentence at a time until it fits; the
-    # curated field marks, the likeness and the background rule always survive.
-    for keep in (4, 3, 2, 1, 0):
-        out = build(keep)
-        if len(out) <= PROMPT_BUDGET or keep == 0:
+    # Give things up in order of what the drawing can least afford to lose.
+    # First the sourced description, a sentence at a time; then the curated field
+    # marks, longest-first (a species with a six-sentence description still keeps
+    # its opening sentences, which carry the diagnostic marks); and only then the
+    # likeness note, which img2img largely covers anyway. The style, the species,
+    # the anatomy rule and the background rule are never given up.
+    ladder = ([(k, 0, True) for k in (4, 3, 2, 1, 0)] +
+              [(0, k, True) for k in (6, 5, 4, 3, 2)] +
+              [(0, 2, False), (0, 1, False)])
+    for src_keep, id_keep, resemble in ladder:
+        out = build(src_keep, id_keep, resemble)
+        if _fits(out):
             return out
+    n = _tokens(out)
+    print(f"    prompt over budget ({n if n is not None else len(out)} "
+          f"{'tokens' if n is not None else 'chars'}); the tail will be dropped")
     return out
 
 
@@ -543,10 +588,10 @@ def gen_best(pipe, sess, code, sp, pose, ref_path, fams, ids, seed_off=0,
             # Flex.2 has no img2img mode of its own; control_img2img gives it
             # one, so the drawing starts from the photograph rather than from
             # noise with the photo as a hint. Same `strength` meaning as below.
-            out = G.control_img2img(pipe, init, G.STYLES["fieldguide"]["tag"],
+            out = G.control_img2img(pipe, init, _style()["tag"],
                                     prompt, strength, seed)
         else:
-            out = pipe(prompt=G.STYLES["fieldguide"]["tag"], prompt_2=prompt, image=init,
+            out = pipe(prompt=_style()["tag"], prompt_2=prompt, image=init,
                        strength=strength, num_inference_steps=28, guidance_scale=3.5,
                        generator=gen).images[0]
         ci = cut.cut_pil(out, sess, MAX_EDGE)

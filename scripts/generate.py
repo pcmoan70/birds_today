@@ -58,19 +58,18 @@ STYLES = {
     # species' field marks, feet and background clauses on top, and the T5
     # encoder only reads the first ~512 tokens.
     "fieldsketch": {
-        "tag": ("colour field sketch of a single bird, watercolour washes and "
-                "coloured pencil over light pencil, plain white background, "
-                "no text, no border"),
-        "prompt": ("a colour field sketch of a single bird, as a birder would "
-                   "draw it from life and finish in the studio: a light pencil "
-                   "underdrawing carrying clean watercolour washes and "
-                   "coloured-pencil detail, worked up sharply where identification "
-                   "lives — head, bill, eye, wing pattern, the edges of each "
-                   "feather tract — and left looser and more sketchy toward the "
-                   "tail, belly and legs, a few pencil strokes still showing; "
-                   "true proportions and a faithful likeness of the species, "
-                   "natural unsaturated colours, soft daylight; the bird alone on "
-                   "plain white paper, no border, no caption, no text"),
+        "tag": ("field sketch of one bird, pencil underdrawing under watercolour "
+                "washes and coloured pencil, hand-drawn on white paper, "
+                "no background, no text, no border"),
+        "prompt": ("a field sketch of one bird, worked up by hand from a "
+                   "photograph: light graphite underdrawing still showing at the "
+                   "edges, thin watercolour washes and coloured pencil over it, "
+                   "bare paper for the palest areas and never white paint. "
+                   "Tightest at bill, eye, face pattern and the folded wing "
+                   "drawn feather group by feather group; looser toward belly, "
+                   "flanks and legs. Observed, not stylised: true proportions, "
+                   "unsaturated daylight colour, no outline round the bird, "
+                   "not a photograph"),
     },
     "fieldguide": {
         "tag": ("highly detailed lifelike field-guide bird illustration, realistic "
@@ -100,18 +99,26 @@ STYLES = {
     },
 }
 DEFAULT_STYLE = "fieldguide"
-# Reinforce correct avian anatomy — keeps wings natural rather than warped.
-ANATOMY = ("anatomically correct, exactly two wings in a natural realistic "
-           "position with properly layered flight feathers, correct wing "
-           "orientation, natural posture")
+# What the model actually gets wrong, said plainly and countably. The old clause
+# only covered wings, and the drawings kept coming back with tangled feet: a
+# photograph usually hides the toes (gripping a branch, sunk in grass, lost in
+# shadow), so the model invents them, and invention means six toes and a bundle
+# of claws. Counts are what a diffusion model can be held to.
+ANATOMY = ("anatomically correct and countable: one head, one bill, two eyes, "
+           "two wings folded symmetrically with layered primaries and one clean "
+           "wingtip, one tail of straight parallel feathers; two legs, each foot "
+           "three toes forward and one back, each toe one short curved claw — "
+           "feet simple and correctly jointed, never a tangle of toes or claws, "
+           "never scribbled over")
 
 # Each stance: prompt fragment, which fetched reference pose to ground on, and a
 # default img2img strength. Lower strength stays closer to the real reference
 # photo (more natural wings); landing/takeoff have no exact reference so they
 # lean a little harder on the prompt.
 STANCES = {
-    "sitting": {"desc": "perched on a small branch, wings folded neatly against "
-                        "the body, side profile",
+    "sitting": {"desc": "in a natural perched posture, upright and alert, wings "
+                        "folded neatly against the body, side profile, nothing "
+                        "to perch on",
                 "ref": "sitting", "strength": 0.85},
     "takeoff": {"desc": "taking off, crouched and springing upward, wings raised "
                         "and beginning to open, tail fanned",
